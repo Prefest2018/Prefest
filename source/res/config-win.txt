@@ -1,0 +1,30 @@
+# JAVA SDK Configurations
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
+
+# ANDROID SDK Configurations
+ANDROID_HOME=C:\Users\XXX\Documents\AndroidStudio\sdk
+
+# JADX Configurations
+JADX_HOME=C:\Users\XXX\Documents\jadx
+
+# PYTHON 2.7 Configurations
+PYTHON_HOME=C:\Python27
+
+# ANDROID BUILD TOOLS Configurations
+ANDROID_LIB=C:\Users\XXX\Documents\AndroidStudio\sdk\build-tools\27.0.2
+
+# ANDROID AVD name
+avd_name=Nexus_S_API_19
+
+# home path of the default test project
+default_projecthome=C:\Users\XXX\Documents\projecthome\omninote
+
+# When an error occurs in PREFEST(T), whether to clear the app's data and reset it
+reset_when_error=true
+
+# Whether to employ a heuristics exploration for setting screens before PREFEST(T)
+preference_explore=true
+
+# Whether to clear the app's data and reset it for each run in PREFEST(T)
+reset_for_each_run=false
+

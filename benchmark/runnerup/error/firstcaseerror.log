@@ -1,0 +1,964 @@
+4_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(18857): FATAL EXCEPTION: main
+
+E/AndroidRuntime(18857): Process: org.runnerup, PID: 18857
+
+E/AndroidRuntime(18857): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(18857): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(18857): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(18857): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(18857): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(18857): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(18857): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(18857): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(18857): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(18857): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(18857): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(18857): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(18857): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(18857): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(18857): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(18857): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(18857): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(18857): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(18857): 	at dalvik.system.NativeStart.main(Native Method)
+
+4_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(21412): FATAL EXCEPTION: main
+
+E/AndroidRuntime(21412): Process: org.runnerup, PID: 21412
+
+E/AndroidRuntime(21412): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(21412): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(21412): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(21412): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(21412): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(21412): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(21412): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(21412): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(21412): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(21412): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(21412): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(21412): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(21412): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(21412): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(21412): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(21412): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(21412): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(21412): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(21412): 	at dalvik.system.NativeStart.main(Native Method)
+
+4_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(22016): FATAL EXCEPTION: main
+
+E/AndroidRuntime(22016): Process: org.runnerup, PID: 22016
+
+E/AndroidRuntime(22016): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(22016): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(22016): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(22016): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(22016): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(22016): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(22016): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(22016): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(22016): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(22016): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(22016): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(22016): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(22016): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(22016): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(22016): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(22016): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(22016): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(22016): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(22016): 	at dalvik.system.NativeStart.main(Native Method)
+
+4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(22311): FATAL EXCEPTION: main
+
+E/AndroidRuntime(22311): Process: org.runnerup, PID: 22311
+
+E/AndroidRuntime(22311): java.lang.RuntimeException: Unable to resume activity {org.runnerup/org.runnerup.view.AccountListActivity}: java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=1, result=0, data=null} to activity {org.runnerup/org.runnerup.view.AccountListActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2788)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2817)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime(22311): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(22311): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(22311): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(22311): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(22311): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(22311): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(22311): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(22311): Caused by: java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=1, result=0, data=null} to activity {org.runnerup/org.runnerup.view.AccountListActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:3365)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2775)
+
+E/AndroidRuntime(22311): 	... 12 more
+
+E/AndroidRuntime(22311): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(22311): 	at org.runnerup.export.SyncManager.onActivityResult(SyncManager.java:739)
+
+E/AndroidRuntime(22311): 	at org.runnerup.view.AccountListActivity.onActivityResult(AccountListActivity.java:330)
+
+E/AndroidRuntime(22311): 	at android.app.Activity.dispatchActivityResult(Activity.java:5423)
+
+E/AndroidRuntime(22311): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:3361)
+
+E/AndroidRuntime(22311): 	... 13 more
+
+4_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_021
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+4_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(23485): FATAL EXCEPTION: main
+
+E/AndroidRuntime(23485): Process: org.runnerup, PID: 23485
+
+E/AndroidRuntime(23485): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AccountListActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(23485): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(23485): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(23485): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(23485): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(23485): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(23485): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(23485): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(23485): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(23485): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(23485): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(23485): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(23485): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(23485): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(23485): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(23485): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(23485): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(23485): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(23485): 	at dalvik.system.NativeStart.main(Native Method)
+
+4_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(25371): FATAL EXCEPTION: main
+
+E/AndroidRuntime(25371): Process: org.runnerup, PID: 25371
+
+E/AndroidRuntime(25371): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AccountListActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(25371): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(25371): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(25371): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(25371): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(25371): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(25371): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(25371): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(25371): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(25371): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(25371): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(25371): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(25371): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(25371): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(25371): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(25371): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(25371): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(25371): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(25371): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(28055): FATAL EXCEPTION: main
+
+E/AndroidRuntime(28055): Process: org.runnerup, PID: 28055
+
+E/AndroidRuntime(28055): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AccountListActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(28055): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(28055): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(28055): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(28055): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(28055): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(28055): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(28055): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(28055): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(28055): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(28055): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(28055): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(28055): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(28055): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(28055): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(28055): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(28055): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(28055): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(28055): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(29825): FATAL EXCEPTION: main
+
+E/AndroidRuntime(29825): Process: org.runnerup, PID: 29825
+
+E/AndroidRuntime(29825): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AccountListActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(29825): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(29825): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(29825): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(29825): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(29825): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(29825): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(29825): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(29825): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(29825): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(29825): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(29825): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(29825): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(29825): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(29825): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(29825): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(29825): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(29825): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(29825): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(30221): FATAL EXCEPTION: main
+
+E/AndroidRuntime(30221): Process: org.runnerup, PID: 30221
+
+E/AndroidRuntime(30221): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(30221): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(30221): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(30221): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(30221): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(30221): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(30221): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(30221): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(30221): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(30221): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(30221): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(30221): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(30221): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(30221): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(30221): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(30221): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(30221): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(30221): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(30221): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(30837): FATAL EXCEPTION: main
+
+E/AndroidRuntime(30837): Process: org.runnerup, PID: 30837
+
+E/AndroidRuntime(30837): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(30837): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(30837): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(30837): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(30837): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(30837): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(30837): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(30837): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(30837): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(30837): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(30837): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(30837): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(30837): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(30837): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(30837): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(30837): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(30837): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(30837): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(30837): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(31048): FATAL EXCEPTION: main
+
+E/AndroidRuntime(31048): Process: org.runnerup, PID: 31048
+
+E/AndroidRuntime(31048): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(31048): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(31048): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(31048): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(31048): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(31048): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(31048): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(31048): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(31048): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(31048): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(31048): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(31048): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(31048): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(31048): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(31048): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(31048): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(31048): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(31048): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(31048): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(31528): FATAL EXCEPTION: main
+
+E/AndroidRuntime(31528): Process: org.runnerup, PID: 31528
+
+E/AndroidRuntime(31528): android.content.ActivityNotFoundException: Unable to find explicit activity class {org.runnerup.alpha/org.runnerup.view.AudioCueSettingsActivity}; have you declared this activity in your AndroidManifest.xml?
+
+E/AndroidRuntime(31528): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1628)
+
+E/AndroidRuntime(31528): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivityFromChild(Activity.java:3906)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivityFromChild(Activity.java:3882)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivityForResult(Activity.java:3455)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivity(Activity.java:3627)
+
+E/AndroidRuntime(31528): 	at android.app.Activity.startActivity(Activity.java:3595)
+
+E/AndroidRuntime(31528): 	at android.preference.Preference.performClick(Preference.java:970)
+
+E/AndroidRuntime(31528): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(31528): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(31528): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(31528): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(31528): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(31528): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(31528): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(31528): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(31528): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(31528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(31528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(31528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(31528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(31528): 	at dalvik.system.NativeStart.main(Native Method)
+
+5_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

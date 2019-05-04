@@ -1,0 +1,30 @@
+# JAVA SDK Configurations
+JAVA_HOME=/Users/XXX/Library/Java/Contents/Home
+
+# ANDROID SDK Configurations
+ANDROID_HOME=/Users/XXX/Library/Android/sdk
+
+# JADX Configurations
+JADX_HOME=/Users/XXX/jadx
+
+# PYTHON 2.7 Configurations
+PYTHON_HOME=/usr/bin/python
+
+# ANDROID BUILD TOOLS Configurations
+ANDROID_LIB=/Users/XXX/Library/Android/sdk/build-tools/28.0.3
+
+# ANDROID AVD name
+avd_name=Nexus_S_API_19
+
+# home path of the default test project
+default_projecthome=/Users/XXX/Desktop/projecthome/goodweather
+
+# When an error occurs in PREFEST(T), whether to clear the app's data and reset it
+reset_when_error=true
+
+# Whether to employ a heuristics exploration for setting screens before PREFEST(T)
+preference_explore=true
+
+# Whether to clear the app's data and reset it for each run in PREFEST(T)
+reset_for_each_run=false
+

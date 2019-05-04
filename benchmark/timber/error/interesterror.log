@@ -1,0 +1,94 @@
+1_1_002
+--------- beginning of /dev/log/main
+01-11 04:39:19.955 3559-3574/com.naman14.timber E/Fabric: Failed to retrieve settings from https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.naman14.timber/settings
+01-11 04:39:19.955 3559-3576/com.naman14.timber E/Answers: Failed to retrieve settings
+01-11 04:39:19.995 3591-3608/com.naman14.timber:main E/Fabric: Failed to retrieve settings from https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.naman14.timber/settings
+--------- beginning of /dev/log/system
+
+1_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4122): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 4122): Process: com.naman14.timber, PID: 4122
+
+E/AndroidRuntime( 4122): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.naman14.timber/com.naman14.timber.activities.SettingsActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 4122): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 4122): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 4122): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 4122): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 4122): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 4122): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 4122): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 4122): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 4122): 	at com.naman14.timber.activities.SettingsActivity.onCreate(SettingsActivity.java:59)
+
+E/AndroidRuntime( 4122): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/AndroidRuntime( 4122): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/AndroidRuntime( 4122): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/AndroidRuntime( 4122): 	... 11 more
+
+1_1_002
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+2_1_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_1_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_1_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

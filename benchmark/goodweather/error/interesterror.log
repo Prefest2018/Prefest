@@ -1,0 +1,218 @@
+1_9_010
+--------- beginning of /dev/log/main
+
+1_9_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 2666): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 2666): Process: org.asdtm.goodweather, PID: 2666
+
+E/AndroidRuntime( 2666): java.lang.RuntimeException: Unable to start service org.asdtm.goodweather.service.LocationUpdateService@a580c060 with Intent { cmp=org.asdtm.goodweather/.service.LocationUpdateService }: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 2666): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2719)
+
+E/AndroidRuntime( 2666): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+E/AndroidRuntime( 2666): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+E/AndroidRuntime( 2666): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 2666): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 2666): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 2666): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 2666): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 2666): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 2666): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 2666): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 2666): Caused by: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 2666): 	at android.os.Parcel.readException(Parcel.java:1469)
+
+E/AndroidRuntime( 2666): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime( 2666): 	at android.location.ILocationManager$Stub$Proxy.requestLocationUpdates(ILocationManager.java:540)
+
+E/AndroidRuntime( 2666): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:860)
+
+E/AndroidRuntime( 2666): 	at android.location.LocationManager.requestSingleUpdate(LocationManager.java:673)
+
+E/AndroidRuntime( 2666): 	at org.asdtm.goodweather.service.LocationUpdateService.detectLocation(LocationUpdateService.java:116)
+
+E/AndroidRuntime( 2666): 	at org.asdtm.goodweather.service.LocationUpdateService.requestLocation(LocationUpdateService.java:109)
+
+E/AndroidRuntime( 2666): 	at org.asdtm.goodweather.service.LocationUpdateService.onStartCommand(LocationUpdateService.java:54)
+
+E/AndroidRuntime( 2666): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2702)
+
+E/AndroidRuntime( 2666): 	... 10 more
+
+2_5_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3181): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 3181): Process: org.asdtm.goodweather, PID: 3181
+
+E/AndroidRuntime( 3181): java.lang.RuntimeException: Unable to start service org.asdtm.goodweather.service.LocationUpdateService@a58b08a0 with Intent { cmp=org.asdtm.goodweather/.service.LocationUpdateService }: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 3181): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2719)
+
+E/AndroidRuntime( 3181): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+E/AndroidRuntime( 3181): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+E/AndroidRuntime( 3181): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 3181): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 3181): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 3181): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 3181): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 3181): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 3181): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 3181): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 3181): Caused by: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 3181): 	at android.os.Parcel.readException(Parcel.java:1469)
+
+E/AndroidRuntime( 3181): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime( 3181): 	at android.location.ILocationManager$Stub$Proxy.requestLocationUpdates(ILocationManager.java:540)
+
+E/AndroidRuntime( 3181): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:860)
+
+E/AndroidRuntime( 3181): 	at android.location.LocationManager.requestSingleUpdate(LocationManager.java:673)
+
+E/AndroidRuntime( 3181): 	at org.asdtm.goodweather.service.LocationUpdateService.detectLocation(LocationUpdateService.java:116)
+
+E/AndroidRuntime( 3181): 	at org.asdtm.goodweather.service.LocationUpdateService.requestLocation(LocationUpdateService.java:109)
+
+E/AndroidRuntime( 3181): 	at org.asdtm.goodweather.service.LocationUpdateService.onStartCommand(LocationUpdateService.java:54)
+
+E/AndroidRuntime( 3181): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2702)
+
+E/AndroidRuntime( 3181): 	... 10 more
+
+3_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_2_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_9_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 7255): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 7255): Process: org.asdtm.goodweather, PID: 7255
+
+E/AndroidRuntime( 7255): java.lang.RuntimeException: Unable to start service org.asdtm.goodweather.service.LocationUpdateService@a58270e0 with Intent { cmp=org.asdtm.goodweather/.service.LocationUpdateService }: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 7255): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2719)
+
+E/AndroidRuntime( 7255): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+E/AndroidRuntime( 7255): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+E/AndroidRuntime( 7255): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 7255): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 7255): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 7255): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 7255): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 7255): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 7255): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 7255): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 7255): Caused by: java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 7255): 	at android.os.Parcel.readException(Parcel.java:1469)
+
+E/AndroidRuntime( 7255): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime( 7255): 	at android.location.ILocationManager$Stub$Proxy.requestLocationUpdates(ILocationManager.java:540)
+
+E/AndroidRuntime( 7255): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:860)
+
+E/AndroidRuntime( 7255): 	at android.location.LocationManager.requestSingleUpdate(LocationManager.java:673)
+
+E/AndroidRuntime( 7255): 	at org.asdtm.goodweather.service.LocationUpdateService.detectLocation(LocationUpdateService.java:116)
+
+E/AndroidRuntime( 7255): 	at org.asdtm.goodweather.service.LocationUpdateService.requestLocation(LocationUpdateService.java:109)
+
+E/AndroidRuntime( 7255): 	at org.asdtm.goodweather.service.LocationUpdateService.onStartCommand(LocationUpdateService.java:54)
+
+E/AndroidRuntime( 7255): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2702)
+
+E/AndroidRuntime( 7255): 	... 10 more
+
+12_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_9_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

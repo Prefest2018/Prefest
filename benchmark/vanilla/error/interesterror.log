@@ -1,0 +1,195 @@
+1_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_8_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_4_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(15546): FATAL EXCEPTION: PlaybackService
+
+E/AndroidRuntime(15546): Process: ch.blinkenlights.android.vanilla, PID: 15546
+
+E/AndroidRuntime(15546): java.lang.IllegalArgumentException
+
+E/AndroidRuntime(15546): 	at java.util.AbstractList.subList(AbstractList.java:736)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.SongTimeline.addSongs(SongTimeline.java:860)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.PlaybackService.runQuery(PlaybackService.java:1862)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.PlaybackService.handleMessage(PlaybackService.java:1612)
+
+E/AndroidRuntime(15546): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/AndroidRuntime(15546): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15546): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+4_6_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_4_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_5_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_3_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_7_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+17_3_026
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+18_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+19_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+20_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+21_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+22_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+23_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+24_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+25_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+26_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+27_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+28_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+29_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+30_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+31_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+32_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+33_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+34_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+35_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

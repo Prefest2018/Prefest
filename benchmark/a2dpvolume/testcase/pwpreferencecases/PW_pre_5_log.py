@@ -1,0 +1,178 @@
+#coding=utf-8
+import os
+import time
+import traceback
+from appium import webdriver
+from appium.webdriver.common.touch_action import TouchAction
+from selenium.common.exceptions import NoSuchElementException, WebDriverException
+desired_caps = {
+	'platformName' : 'Android',
+	'deviceName' : 'Android Emulator',
+	'platformVersion' : '4.4',
+	'appPackage' : 'a2dp.Vol',
+	'appActivity' : 'a2dp.Vol.main',
+	'resetKeyboard' : True,
+	'androidCoverage' : 'a2dp.Vol/a2dp.Vol.JacocoInstrumentation',
+	'noReset' : True
+	}
+
+def getElememt(driver, str) :
+	for i in range(0, 5, 1):
+		try:
+			element = driver.find_element_by_android_uiautomator(str)
+		except NoSuchElementException:
+			time.sleep(1)
+		else:
+			return element
+	os.popen("adb shell input tap 50 50")
+	element = driver.find_element_by_android_uiautomator(str)
+	return element
+
+def swipe(driver, startxper, startyper, endxper, endyper) :
+	size = driver.get_window_size()
+	width = size["width"]
+	height = size["height"]
+	try:
+		driver.swipe(start_x=int(width * startxper), start_y=int(height * startyper), end_x=int(width * endxper),
+				end_y=int(height * endyper), duration=2000)
+	except WebDriverException:
+		time.sleep(1)
+	driver.swipe(start_x=int(width * startxper), start_y=int(height * startyper), end_x=int(width * endxper),
+				end_y=int(height * endyper), duration=2000)
+	return
+
+def scrollToFindElement(driver, str) :
+	for i in range(0, 5, 1):
+		try:
+			element = driver.find_element_by_android_uiautomator(str)
+		except NoSuchElementException:
+			swipe(driver, 0.5, 0.6, 0.5, 0.2)
+		else:
+			return element
+	return
+
+def clickoncheckable(driver, str, value = "true") :
+	parents = driver.find_elements_by_class_name("android.widget.LinearLayout")
+	for parent in parents:
+		try :
+			parent.find_element_by_android_uiautomator(str)
+			lists = parent.find_elements_by_class_name("android.widget.LinearLayout")
+			if (len(lists) == 1) :
+				innere = parent.find_element_by_android_uiautomator("new UiSelector().checkable(true)")
+				nowvalue = innere.get_attribute("checked")
+				if (nowvalue != value) :
+					innere.click()
+				break
+		except NoSuchElementException:
+			continue
+def conscript(driver):
+	try:
+		element = driver.find_element_by_android_uiautomator("new UiSelector().text(\"OK\")")
+	except NoSuchElementException:
+		time.sleep(0.1)
+	else:
+		element.click()
+	try:
+		element = driver.find_element_by_android_uiautomator("new UiSelector().text(\"Activate\")")
+	except NoSuchElementException:
+		time.sleep(0.1)
+	else:
+		element.click()
+		return
+	try:
+		driver.find_element_by_android_uiautomator("new UiSelector().text(\"Notification access\")")
+		driver.find_element_by_android_uiautomator("new UiSelector().checkable(true)").click()
+		driver.find_element_by_android_uiautomator("new UiSelector().text(\"OK\")").click()
+		driver.press_keycode(4)
+		time.sleep(0.1)
+	except NoSuchElementException:
+		time.sleep(0.1)
+	return
+# preference setting and exit
+try :
+	os.popen("adb shell am start -a android.intent.action.VIEW -d file:///mnt/sdcard/music/MoonFlow.mp3 -t audio/wav -f 1")
+	os.popen("adb shell svc data diable")
+	os.popen("adb shell service call bluetooth_manager 6")
+	os.popen("adb shell svc wifi enable")
+	os.popen("adb shell settings put secure location_providers_allowed 'false'")
+	time.sleep(5)
+	starttime = time.time()
+	driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+	os.popen("adb shell am start -n a2dp.Vol/a2dp.Vol.Preferences")
+	scrollToFindElement(driver, "new UiSelector().text(\"Start at Boot?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Start at Boot?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Show Pop-ups?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Show Pop-ups?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Use Notification Icon?\")").click()
+	scrollToFindElement(driver, "new UiSelector().text(\"The service will start but it will be a background task with no icon on the notification bar.\")").click()
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Use Local File Storage?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Use Local File Storage?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Car Mode?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Respond to Car Mode?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Home Dock?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Respond to Home Dock?\")", "false")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Audio Jack?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Respond to Audio Jack?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Power Connection?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Respond to Power Connection?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")", "false")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Enable reading notification messages\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Enable reading notification messages\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Hide volume pop-up\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Hide volume pop-up\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"GPS Listener Timeout\")").click()
+	scrollToFindElement(driver, "new UiSelector().text(\"20 seconds\")").click()
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"GPS Max Inaccuracy\")").click()
+	scrollToFindElement(driver, "new UiSelector().text(\"2m (6ft)\")").click()
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Use Passive Locations?\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Use Passive Locations?\")", "true")
+	conscript(driver)
+	scrollToFindElement(driver, "new UiSelector().text(\"Use Network Locations\")").click()
+	conscript(driver)
+	clickoncheckable(driver, "new UiSelector().text(\"Use Network Locations\")", "true")
+	conscript(driver)
+
+	driver.press_keycode(4)
+	time.sleep(2)
+except Exception, e:
+	print 'FAIL'
+	print 'str(e):\t\t', str(e)
+	print 'repr(e):\t', repr(e)
+	print traceback.format_exc()
+finally :
+	endtime = time.time()
+	print 'consumed time:', str(endtime - starttime), 's'
+	os.popen("adb shell am broadcast -a com.example.pkg.END_EMMA --es name \"preference_pre\"")
+	jacocotime = time.time()
+	print 'jacoco time:', str(jacocotime - endtime), 's'
+	os.open("adb shell input keyevent 127")
+	os.popen("adb shell svc data enable")
+	os.popen("adb shell service call bluetooth_manager 6")
+	os.popen("adb shell svc wifi enable")
+	os.popen("adb shell settings put secure location_providers_allowed gps, network")
+	driver.quit()
