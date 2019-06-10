@@ -88,7 +88,6 @@ public class Util {
 				return instanceval.instanceGetInnerVal(nowref);
 
 			} else {
-
 				myVal = refMaps.get(value.equivHashCode());
 				if (null == myVal) {
 					if (value.getType() instanceof ArrayType) {

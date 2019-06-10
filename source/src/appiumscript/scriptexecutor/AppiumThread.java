@@ -2,17 +2,14 @@ package appiumscript.scriptexecutor;
 
 import java.io.IOException;
 
+import tools.ProcessExecutor;
+
 public class AppiumThread extends Thread{
 	Process appiumP = null;
 	@Override
 	public void run() {
 		if (null == appiumP || !appiumP.isAlive()) {
-			ProcessBuilder pb = new ProcessBuilder("appium");
-			try {
-				appiumP = pb.start();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			ProcessExecutor.processnolognoprint("appium");
 		}
 	}
 	

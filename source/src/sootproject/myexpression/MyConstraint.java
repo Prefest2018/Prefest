@@ -34,6 +34,7 @@ public abstract class MyConstraint {
 	protected List<String> targetlocs = null;
 	protected Unit unit = null;
 	protected Body body = null;
+
 	protected Map<MyInterest, MyExpression> interestselfexps = null;
 	public MyConstraint(MyExpression myexp, Unit unit, Body body) {
 		this.unit = unit;

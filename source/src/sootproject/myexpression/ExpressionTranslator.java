@@ -53,6 +53,7 @@ import sootproject.tool.Util;
 public class ExpressionTranslator {
 	private static Map<String, MyEnum> enumMap = new HashMap<String, MyEnum>();
 	private static Map<Long, String> stridmap = null;
+
 	private ConstraintSolver constraintSolver = null;
 	private Map<String, MyInterest> involvedInterest = null;
 	private Map<Integer, MyVariable> refMaps = null;
@@ -75,6 +76,7 @@ public class ExpressionTranslator {
 	public boolean dealWithStmts(LinkedList<CMD> cmds) {
 		boolean result = true;
 		for (CMD cmd : cmds) {
+
 			switch (cmd.type) {
 			case IF: {
 				result &= dealWithIfStatement((IfStmt)cmd.instrument, (Unit)cmd.arg, cmd.body, cmd.localmap);
@@ -229,7 +231,16 @@ public class ExpressionTranslator {
 					}
 				}
 			}
-
+//			} else if (nowfield.getName().startsWith("$SwitchMap")) {
+//				String enumName = nowfield.getName().replace("$SwitchMap$", "");
+//				MyEnum myenum = enumMap.get(enumName);
+//				if (null != myenum) {
+//					ExpressionValue value = rightVal.getTrueExp().calculate(new HashMap<MyInterest,String>());
+//					if (value.type == ResultType.ARRAY) {
+//						myenum.switchMap = (MyArrayContent)value.value;
+//					}
+//				}
+//			}
 		}
 	}
 	
@@ -305,6 +316,9 @@ public class ExpressionTranslator {
 			for (String name : getValuesStr) {
 				if (name.equals(methodName)) {
 					isPreferenceRelatedInv = true;
+					if ("getAll".equals(name)) {
+						break;
+					}
 					solved = true;
 					Value param = exp.getArg(0);
 					String interestname = null;

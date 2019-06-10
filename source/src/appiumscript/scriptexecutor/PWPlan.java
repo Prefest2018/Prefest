@@ -22,19 +22,20 @@ import tools.ProcessExecutor;
 import tools.TagnameComparator;
 
 public class PWPlan {
+
 	public LinkedList<PWValue> values = null;
 	public Map<String, String> scriptmap = null;
+
 	public LinkedList<String> taglist = null;
 
 	public PWPlan(Map<String, List<PreferenceTreeNode>> preferencetree, Map<String, TestCaseData> origintestcases) {
 
 		Set<PreferenceTreeNode> allpreferencetree = getNodeSet(preferencetree);
 		int maxnum = allpreferencetree.size() + 6;
-		System.out.println("maxnum : " + maxnum);
 
+		System.out.println("maxnum : " + maxnum);
 		PWCounter counter = new PWCounter();
 		int maxsize = counter.initfromPICT(maxnum);
-
 		scriptmap = new HashMap<String, String>();
 		taglist = new LinkedList<String>();
 		for (String tagname : origintestcases.keySet()) {
@@ -42,17 +43,14 @@ public class PWPlan {
 			taglist.add(tagname);
 		}
 		taglist.sort(new TagnameComparator<String>());
-
 		values = new LinkedList<PWValue>();
 		for (int index = 0; index < maxsize; index++) {
 			PWValue value = new PWValue(this, index, counter, scriptmap, allpreferencetree, taglist);
 			values.add(value);
 		}
-
 		JsonHelper.setpwplanAdapt(this, Main.pwpreferenceplanfile);
 	}
 	
-
 	public PWPlan(Map<String, String> scriptmap, LinkedList<PWValue> values) {
 		this.scriptmap = scriptmap;
 		this.taglist = new LinkedList<String>(scriptmap.keySet());
@@ -78,6 +76,7 @@ public class PWPlan {
 	
 	private Set<PreferenceTreeNode> getNodeSet(Map<String, List<PreferenceTreeNode>> preferencetree){
 		Set<PreferenceTreeNode> allnodes = new LinkedHashSet<PreferenceTreeNode>();
+
 		Stack<PreferenceTreeNode> nownodes = new Stack<PreferenceTreeNode>();
 		for (String key : preferencetree.keySet()) {
 			List<PreferenceTreeNode> nodes = preferencetree.get(key);
@@ -102,7 +101,7 @@ public class PWPlan {
 				if (null != entrymap && !entrymap.isEmpty()) {
 					allnodes.add(nowNode);
 				} else {
-//					System.out.println();
+
 				}
 				break;
 			}
@@ -120,7 +119,6 @@ public class PWPlan {
 		System.out.println("preference num:" + allnodes.size());
 		return allnodes;
 	}
-
 
 	public void execute() {
 		Logger.setTempLogFile(Main.pwpreferenceresultfile, true);

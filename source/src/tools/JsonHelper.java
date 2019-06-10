@@ -92,13 +92,23 @@ public class JsonHelper {
 					JSONArray interests = new JSONArray();
 					for (InterestValue value : scene.interests) {
 						JSONObject valueob = new JSONObject();
-
+//						valueob.put("generaltype", value.generaltype);
+//						valueob.put("innertype", value.innertype);
+//						valueob.put("type", value.type);
 						valueob.put("name", value.name);
 						if (!enumInterest.containsKey(value.name)) {
 							enumInterest.put(value.name, value);
 						}
 						valueob.put("value", value.value);
-
+//						valueob.put("index", value.index);
+//						if (value.preferencesteps != null && !value.preferencesteps.isEmpty()) {
+//							JSONArray preferencesteps = new JSONArray();
+//							preferencesteps.addAll(value.preferencesteps);
+//							valueob.put("preferencesteps", preferencesteps);
+//						}
+//						if (null != value.activityname) {
+//							valueob.put("activityname", value.activityname);
+//						}
 						interests.add(valueob);
 					}
 					sceneob.put("interests", interests);
@@ -106,13 +116,23 @@ public class JsonHelper {
 						JSONArray preinterests = new JSONArray();
 						for (InterestValue value : scene.preinterests) {
 							JSONObject valueob = new JSONObject();
-
+//							valueob.put("generaltype", value.generaltype);
+//							valueob.put("innertype", value.innertype);
+//							valueob.put("type", value.type);
 							valueob.put("name", value.name);
 							if (!enumInterest.containsKey(value.name)) {
 								enumInterest.put(value.name, value);
 							}
 							valueob.put("value", value.value);
-
+//							valueob.put("index", value.index);
+//							if (value.preferencesteps != null && !value.preferencesteps.isEmpty()) {
+//								JSONArray preferencesteps = new JSONArray();
+//								preferencesteps.addAll(value.preferencesteps);
+//								valueob.put("preferencesteps", preferencesteps);
+//							}
+//							if (null != value.activityname) {
+//								valueob.put("activityname", value.activityname);
+//							}
 							preinterests.add(valueob);
 						}
 						sceneob.put("preinterests", preinterests);
@@ -176,7 +196,7 @@ public class JsonHelper {
 		for (int i = 0; i < testcasearray.size(); i++) {
 			TestCaseData data = new TestCaseData();
 			JSONObject nowone = (JSONObject)testcasearray.get(i);
-			if (nowone.containsKey("tagname")) {
+			if (nowone.containsKey("tagname") && null != nowone.get("tagname")) {
 				data.tagname = (String)nowone.get("tagname");
 			} else {
 				data.tagname = i + "";
@@ -221,11 +241,28 @@ public class JsonHelper {
 					for (int k = 0; k < interestob.size(); k++) {
 						JSONObject interestvalue = (JSONObject)interestob.get(k);
 						InterestValue value = new InterestValue();
-
+//						if (interestvalue.containsKey("preferencesteps")) {
+//							JSONArray preferencesteps = interestvalue.getJSONArray("preferencesteps");
+//							value.preferencesteps = new ArrayList<String>();
+//							for (int m = 0; m < preferencesteps.size(); m++) {
+//								value.preferencesteps.add(preferencesteps.getString(m));
+//							}
+//						}
+//						if (interestvalue.containsKey("generaltype")) {
+//							value.generaltype = interestvalue.getString("generaltype");
+//						}
+//						if (interestvalue.containsKey("innertype")) {
+//							value.innertype = interestvalue.getString("innertype");
+//						}
+//						value.type = interestvalue.getString("type");
 						value.name = (String)interestvalue.get("name");
 						if (interestvalue.containsKey("value")) {
 							value.value = (String)interestvalue.get("value");
 						}
+//						value.index = interestvalue.getInt("index");
+//						if (interestvalue.containsKey("activityname")) {
+//							value.activityname = interestvalue.getString("activityname");
+//						}
 						InterestValue enumvalue = enumInterest.get(value.name);
 						value.preferencesteps = enumvalue.preferencesteps;
 						value.generaltype = enumvalue.generaltype;
@@ -242,11 +279,28 @@ public class JsonHelper {
 						for (int k = 0; k < preinterestob.size(); k++) {
 							JSONObject interestvalue = (JSONObject)preinterestob.get(k);
 							InterestValue value = new InterestValue();
-
+//							if (interestvalue.containsKey("preferencesteps")) {
+//								JSONArray preferencesteps = interestvalue.getJSONArray("preferencesteps");
+//								value.preferencesteps = new ArrayList<String>();
+//								for (int m = 0; m < preferencesteps.size(); m++) {
+//									value.preferencesteps.add(preferencesteps.getString(m));
+//								}
+//							}
+//							if (interestvalue.containsKey("generaltype")) {
+//								value.generaltype = interestvalue.getString("generaltype");
+//							}
+//							if (interestvalue.containsKey("innertype")) {
+//								value.innertype = interestvalue.getString("innertype");
+//							}
+//							value.type = interestvalue.getString("type");
 							value.name = (String)interestvalue.get("name");
 							if (interestvalue.containsKey("value")) {
 								value.value = (String)interestvalue.get("value");
 							}
+//							value.index = interestvalue.getInt("index");
+//							if (interestvalue.containsKey("activityname")) {
+//								value.activityname = interestvalue.getString("activityname");
+//							}
 							InterestValue enumvalue = enumInterest.get(value.name);
 							value.preferencesteps = enumvalue.preferencesteps;
 							value.generaltype = enumvalue.generaltype;
@@ -301,6 +355,18 @@ public class JsonHelper {
 	
 	public static JSONObject getJsonObject(String filepath) {
 		File savedfile = new File(filepath);
+//		StringBuilder sb = new StringBuilder();
+//		try {
+//			BufferedReader br = new BufferedReader(new FileReader(savedfile));
+//			String line = null;
+//			while((line = br.readLine()) != null) {
+//				sb.append(line);
+//			}
+//			br.close();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		JSONParser parser = new JSONParser();
 		JSONObject jsonobject = null;
 			try {
@@ -321,6 +387,18 @@ public class JsonHelper {
 	
 	public static JSONArray getJsonArray(String filepath) {
 		File savedfile = new File(filepath);
+//		StringBuilder sb = new StringBuilder();
+//		try {
+//			BufferedReader br = new BufferedReader(new FileReader(savedfile));
+//			String line = null;
+//			while((line = br.readLine()) != null) {
+//				sb.append(line);
+//			}
+//			br.close();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		JSONParser parser = new JSONParser();
 		JSONArray jsonarray = null;
 		try {
@@ -373,7 +451,7 @@ public class JsonHelper {
 		LinkedList<PWValue> values = new LinkedList<PWValue>();
 		for (int i = 0; i < pwvaluearray.size(); i++) {
 			JSONObject valueobj = (JSONObject)pwvaluearray.get(i);
-			int index = (int)valueobj.get("index");
+			int index = ((Long)valueobj.get("index")).intValue();
 			String state = (String)valueobj.get("state");
 			String preferencescriptfile = (String)valueobj.get("preferencescriptfile");
 			String preferencescriptlogfile = (String)valueobj.get("preferencescriptlogfile");
@@ -534,6 +612,7 @@ public class JsonHelper {
 		if (null != value.catalog) {
 			valueob.put("catalog", value.catalog);
 		}
+//		valueob.put("value", value.value);
 		valueob.put("index", value.index);
 		if (value.preferencesteps != null && !value.preferencesteps.isEmpty()) {
 			JSONArray preferencesteps = new JSONArray();
@@ -570,7 +649,9 @@ public class JsonHelper {
 		}
 		value.name = (String)interestvalue.get("name");
 		value.type = (String)interestvalue.get("type");
-
+//			if (interestvalue.containsKey("value")) {
+//				value.value = interestvalue.getString("value");
+//			}
 		value.index = ((Long)interestvalue.get("index")).intValue();
 		if (interestvalue.containsKey("activityname")) {
 			value.activityname = (String)interestvalue.get("activityname");
@@ -591,9 +672,16 @@ public class JsonHelper {
 		nodeob.put("catlog", nownode.catlog);
 		nodeob.put("key", nownode.key);
 		nodeob.put("title", nownode.title);
+		nodeob.put("filename", nownode.filename);
 		nodeob.put("preferencetype", nownode.preferencetype);
 		nodeob.put("shouldexplore", nownode.shouldexplore);
 		nodeob.put("isheader", nownode.isheader);
+		nodeob.put("defaultvalue", nownode.defaultvalue);
+		if (null != nownode.entryvalues) {
+			JSONObject entryobs = new JSONObject();
+			entryobs.putAll(nownode.entryvalues);
+			nodeob.put("entryvalues", entryobs);
+		}
 		if (null != nownode.parentnode) {
 			nodeob.put("parentnode", nownode.parentnode.index);
 		}
@@ -604,6 +692,13 @@ public class JsonHelper {
 				childlist.add(child.index);
 			}
 			nodeob.put("childnodes", childlist);
+		}
+		if (null != nownode.titles && !nownode.titles.isEmpty()) {
+			JSONObject titleobs = new JSONObject();
+			for (int i = 0; i < nownode.titles.size(); i++) {
+				titleobs.put(i + "", nownode.titles.get(i));
+			}
+			nodeob.put("titles", titleobs);
 		}
 		preferecenodelist.add(nodeob);
 	}
@@ -647,6 +742,32 @@ public class JsonHelper {
 				if (valueob.containsKey("title")) {
 					value.title = (String)valueob.get("title");
 				}
+				if (valueob.containsKey("filename")) {
+					value.filename = (String)valueob.get("filename");
+				}
+				if (valueob.containsKey("defaultvalue")) {
+					value.defaultvalue = (String)valueob.get("defaultvalue");
+				}
+				if (valueob.containsKey("entryvalues")) {
+					JSONObject entryobs = (JSONObject)valueob.get("entryvalues");
+					value.entryvalues = new HashMap<String, String>();
+					for (Object keyob : entryobs.keySet()) {
+						value.entryvalues.put(keyob.toString(), entryobs.get(keyob).toString());
+					}
+				}
+				if (valueob.containsKey("titles")) {
+					JSONObject entryobs = (JSONObject)valueob.get("titles");
+					value.titles = new ArrayList<String>();
+					Map<Integer, String> temptitles = new HashMap<Integer, String>();
+					for (Object keyob : entryobs.keySet()) {
+						if (entryobs.get(keyob) != null) {
+							temptitles.put(Integer.parseInt(keyob.toString()), entryobs.get(keyob).toString());
+						}
+					}
+					for (int i = 0; i < temptitles.size(); i++) {
+						value.titles.add(temptitles.get(i));
+					}
+				}
 				value.preferencetype = (String)valueob.get("preferencetype");
 				value.shouldexplore = (Boolean)valueob.get("shouldexplore");
 				value.isheader = (Boolean)valueob.get("isheader");
@@ -668,9 +789,12 @@ public class JsonHelper {
 					}
 				}
 			}
-			for (PreferenceTreeNode node : tempmap.values()) {
-				node.initTitles();
-			}
+			
+//			for (PreferenceTreeNode node : tempmap.values()) {
+//				if (null == node.titles || node.titles.isEmpty()) {
+//					node.initTitles();
+//				}
+//			}
 			adapter.xmlcontentlist = new HashMap<String, List<PreferenceTreeNode>>();
 			for (Object key : xmlpreferencenodemap.keySet()) {
 				String xmlfilename = (String)key;

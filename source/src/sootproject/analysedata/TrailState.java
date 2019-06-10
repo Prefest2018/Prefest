@@ -113,9 +113,9 @@ public class TrailState {
 					System.out.println("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
 					Logger.log("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
 				}
-
 				threads.remove(newThread);
 			} else {
+
 				if (threads.size() > 300) {
 					threads.remove(0);
 				}
@@ -190,7 +190,6 @@ public class TrailState {
 		}
 	}
 	
-
 	public class BlockState{
 		protected int logidNum = -1;
 		protected String currentLoc = "-1";
@@ -238,7 +237,6 @@ public class TrailState {
 		}
 
 		public boolean next(int logidNum, int branchNum) throws WrongThreadException{
-
 			
 			Iterator<Unit> it = null;
 			if (null == currentUnit) {
@@ -261,6 +259,7 @@ public class TrailState {
 						throw WrongThreadException.getWrongThreadException();
 					}
 					
+					
 
 				} else if (nowUnit instanceof LookupSwitchStmt) {
 					MySwitchStatement switchNode = (MySwitchStatement)nodeMaps.get(nowUnit);
@@ -270,7 +269,6 @@ public class TrailState {
 						currentUnit = nextUnit;
 						return true;
 					} else {
-
 						currentUnit = nowUnit;
 						throw WrongThreadException.getWrongThreadException();
 					}
@@ -308,6 +306,7 @@ public class TrailState {
 						currentUnit = nowUnit;
 						throw WrongThreadException.getWrongThreadException();
 					}
+
 				} else if (nowUnit instanceof GotoStmt) {
 					UnitBox target = ((GotoStmt)nowUnit).getTargetBox();
 					currentUnit = target.getUnit();
@@ -326,7 +325,6 @@ public class TrailState {
 					}
 
 				} else if (nowUnit instanceof ReturnStmt) {
-
 					if (returncheck) {
 						stack.pop();
 						if (!stack.isEmpty()) {
@@ -355,6 +353,7 @@ public class TrailState {
 								stack.push(newState);
 								cacheCmd.add(new CMD((InvokeExpr)right, assign.getLeftOp(), CMDType.INVOKE, body, nowLocalMap, newState.nowLocalMap).append(myMethod));
 								this.nextUnit = it.next();
+
 							} else {
 								currentUnit = nowUnit;
 								throw WrongThreadException.getWrongThreadException();

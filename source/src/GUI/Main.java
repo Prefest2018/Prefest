@@ -24,13 +24,18 @@ import java.util.*;
 import org.json.simple.JSONObject;
 
 public class Main {
-    public static boolean debug = true;
+    public static boolean debug = false;
     public static boolean blockmode = false;
     public static boolean resetWhenError = true;
     public static boolean shouldExplorePreference = true;
     public static boolean shouldAddNoBranchTargets = true;
 	public static boolean resetForEachRun = false;
+	public static boolean testSettingOperations = false;
     public static String avdname = null;
+    public static Map<String, String> newenvs = null;
+    public static String adb = null;
+    public static String emulator = null;
+    public static String python = null;
 
     public static String packagename = null;
     public static String luanchactivityname = null;
@@ -67,8 +72,10 @@ public class Main {
     public static String interestallcaseinfofile = null;
     public static String interestallcasescoverage = null;
     public static String interestallerror = null;
-    public static String allpreferenceprecase = null;
-    public static String allpreferenceprecaselog = null;
+    public static String allpreferenceprecase_reverse = null;
+    public static String allpreferenceprecaselog_reverse = null;
+    public static String allpreferenceprecase_default = null;
+    public static String allpreferenceprecaselog_default = null;
     public static String allpreferencecases = null;
     public static String allpreferencecaseloc = null;
     public static String allpreferenceinfofile = null;
@@ -82,6 +89,7 @@ public class Main {
     public static String pwpreferencecaseinfo = null;
     public static String pwpreferenceresultfile = null;
     public static String monkeyinfo = null;
+    public static String monkeyerror = null;
 
     public void updateHome(String home) {
         Main.packagename = null;
@@ -117,8 +125,10 @@ public class Main {
         Main.interestallcasesexeresultfile = sepHome + "exeresult" + File.separator + "interestallexecutionresult.txt";
         Main.interestallcasescoverage = sepHome + "coverage" + File.separator + "interestallcoverage";
         Main.interestallerror = sepHome + "error" + File.separator + "interestallerror.log";
-        allpreferenceprecase = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase.py";
-        allpreferenceprecaselog = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase_log.py";
+        allpreferenceprecase_reverse = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase.py";
+        allpreferenceprecaselog_reverse = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase_log.py";
+        allpreferenceprecase_default = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "defaultprecase.py";
+        allpreferenceprecaselog_default = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "defaultprecase_log.py";
         allpreferencecases = sepHome + "testcase" + File.separator + "allpreferencecases";
         allpreferencecaseloc = sepHome + "exeresult" + File.separator + "allpreferenceresult";
         allpreferenceinfofile = sepHome + "testcase" + File.separator + "allpreferencetestcaseinfo.json";
@@ -131,6 +141,7 @@ public class Main {
         pwpreferenceresultfile = sepHome + "exeresult" + File.separator + "pwexecutionresult.txt";
 
         monkeyinfo = sepHome + "monkey";
+        monkeyerror = monkeyinfo + File.separator + "monkeyerror.log";
     }
 
     public static File getAPKFile() {
@@ -257,7 +268,7 @@ public class Main {
         if (!resfile.exists() || !sourcesfile.exists()) {
             String jadx;
             if (OSInfo.getOSType() == OSInfo.OSType.WINDOWS) {
-                jadx = "jadx.bat";
+                jadx = PathHelper.getJadxHomePath() + File.separator + "bin" + File.separator + "jadx.bat";
             } else {
                 jadx = "/Users/heleninsa/jadx/bin/jadx";
             }
@@ -395,6 +406,7 @@ public class Main {
         if (stoatScript.exists()) {
             ourScripts = StoatScriptLoader.loadStoatScript(stoatScript, testcaseFolder);
         } else {
+			//for manual written test cases
             ourScripts = new ArrayList<File>();
             for (File file : testcaseFolder.listFiles()) {
                 ourScripts.add(file);
@@ -448,8 +460,6 @@ public class Main {
         }
     }
     
-   
-    
     public void exploreForAdapter() {
     	File adapterCoverage = new File(Main.testadpatercoverage);
     	if (!adapterCoverage.exists()) {
@@ -464,12 +474,18 @@ public class Main {
             Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
     	}
     	Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+		for (List<PreferenceTreeNode> nodes : adapter.xmlcontentlist.values()) {
+			for (PreferenceTreeNode node : nodes) {
+				node.initTitles();
+			}
+		}
 		try {
 			ExplorerServer exploreServer = new ExplorerServer(adapter);
 	    	exploreServer.exploreForAdapter();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
     }
 
     public void PREFEST_T() {
@@ -479,10 +495,20 @@ public class Main {
         if (shouldExplorePreference) {
             exploreForAdapter();
         }
+        if (testSettingOperations) {
+            testNonDefaultSettings();
+        }
         Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, true);
         ScriptExecutor.scriptexecuteforPREFEST_T(datas, (String)apkinfo.get("packagename"));
     }
-
+    
+    private void testNonDefaultSettings() {
+    	Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+    	Logger.setTempLogFile(Main.interestplan, true);
+    	initFornonDefault();
+        ScriptExecutor.scriptexecuteforec_onceforprefest(adapter.xmlcontentlist);
+    }
+    
 
     public void PREFEST_N() {
         initfiles();
@@ -534,7 +560,7 @@ public class Main {
         File planfile = new File(Main.pwpreferenceplanfile);
         PWPlan plan = null;
         if (!planfile.exists()) {
-            Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);
+            Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);//这里是不包含interest信息的
             PreferenceAnalyseTransformer analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename);
             Logger.setTempLogFile(home + File.separator + "log" + File.separator + "preferencetree_analyse.log", true);
             useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
@@ -564,10 +590,12 @@ public class Main {
         int i = 0;
         while (costtime < 3600) {
             long starttime = new Date().getTime();
-
+            ErrorCollectThread errorthread = new ErrorCollectThread();
             LocThread locthread = new LocThread();
             locthread.setFile(Main.monkeyinfo + "//log" + i + ".txt");
             locthread.start();
+            errorthread.setErrorFile(Main.monkeyerror);
+            errorthread.start();
             Thread jacoco = new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -582,6 +610,7 @@ public class Main {
                 e.printStackTrace();
             }
             locthread.locstop();
+            errorthread.errorlogstop();
             ProcessExecutor.processnolog("adb", "shell", "am", "broadcast", "-a", "com.example.pkg.END_EMMA", "--es", "name", "monkey" + i);
             try {
                 jacoco.join();

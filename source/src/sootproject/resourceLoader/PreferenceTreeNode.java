@@ -1,6 +1,8 @@
 package sootproject.resourceLoader;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -13,7 +15,7 @@ public class PreferenceTreeNode {
 	public String key = null;
 	public String dependency = null;
 	public boolean shouldexplore = false;
-	protected String filename = null;
+	public String filename = null;
 	protected String fragment = null;
 	public Map<String, String> entryvalues = null;
 	public String defaultvalue = null;
@@ -23,14 +25,18 @@ public class PreferenceTreeNode {
 	public String activityname = null;
 	protected static int countindex = -1;
 	public String catlog = null;
-	protected ArrayList<String> titles = null;
+
+	public ArrayList<String> titles = null;
+	protected ArrayList<String> titlesWithSamePage = null;
 	public static void initcount() {
 		countindex = 0;
 	}
+
 	public PreferenceTreeNode() {
 		
 	}
 	
+
 	public PreferenceTreeNode(String preferencetype, String title, String filename, String activityname, String fragment, boolean isheader) {
 		this.preferencetype = preferencetype;
 		this.title = title;
@@ -77,14 +83,40 @@ public class PreferenceTreeNode {
 	
 	public void initTitles() {
 		titles = new ArrayList<String>();
+		titlesWithSamePage = new ArrayList<String>();
+		boolean insamefile = true;
 		PreferenceTreeNode nownode = this;
 		while (nownode != null) {
 			titles.add(0, nownode.title);
+			if (null == filename) {
+				System.out.println();
+			}
+			if (!filename.equals(nownode.filename)) {
+				insamefile = false;
+			}
+			if (insamefile) {
+				titlesWithSamePage.add(0, nownode.title);
+			}
 			nownode = nownode.parentnode;
+			
 		}
 	}
 	public ArrayList<String> getTitles() {
 		return titles;
+	}
+	
+
+	
+	public ArrayList<String> getTitleWithinSamePage() {
+		return titlesWithSamePage;
+	}
+	
+	public void setTitles(Collection<String> array) {
+		if (null == titles) {
+			titles = new ArrayList<String>();
+		}
+		titles.clear();
+		titles.addAll(array);
 	}
 	
 	public String getEntryLabel(String truevalue) {

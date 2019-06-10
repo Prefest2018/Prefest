@@ -11,6 +11,7 @@ import java.io.FileOutputStream;
 import java.util.concurrent.locks.ReentrantLock;
 
 import GUI.Main;
+import tools.ProcessExecutor;
 
 public class ErrorCollectThread extends Thread{
 	private boolean shouldlogerror = false;
@@ -24,7 +25,7 @@ public class ErrorCollectThread extends Thread{
 
 	@Override
 	public void run() {
-		ProcessBuilder builder = new ProcessBuilder("adb", "logcat", "AndroidRuntime:E ActivityThread:E *:S");
+		ProcessBuilder builder = ProcessExecutor.getPBInstance("adb", "logcat", "AndroidRuntime:E ActivityThread:E *:S");
 
 		try {
 	    	System.out.println("adb error log start:");
@@ -33,7 +34,7 @@ public class ErrorCollectThread extends Thread{
 	    	String result = null;
 	    	while(((result = p_stdout.readLine()) != null)) {
 	    		lock.lock();
-	    		if (!"".equals(result) && !result.contains("---------")) {
+	    		if (result.contains("AndroidRuntime:E")) {
 	    			hasbug = true;
 	    		}
 		    	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(errorlogFile, true), "UTF-8"));

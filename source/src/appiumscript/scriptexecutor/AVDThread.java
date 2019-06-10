@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Map;
 
 import GUI.Main;
+import tools.ProcessExecutor;
 
 public class AVDThread extends Thread{
 	private boolean hasavd = false;
@@ -20,7 +21,7 @@ public class AVDThread extends Thread{
 	public void run() {
 		while(true) {
 			try {
-				ProcessBuilder pb = new ProcessBuilder("adb", "devices");
+				ProcessBuilder pb = ProcessExecutor.getPBInstance("adb", "devices");
 				Process p = pb.start();
 		    	BufferedReader p_stdout = new BufferedReader(new InputStreamReader(p.getInputStream()));
 		    	String result = null;

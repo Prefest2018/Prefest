@@ -3,6 +3,8 @@ package tools;
 import sun.awt.OSInfo;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;
 
@@ -19,14 +21,25 @@ public class PublishPathHelper extends PathHelper {
 	}
 
 	@Override
+	protected String getJadxPathImp() {
+		return projectpath + File.separator + "lib" + File.separator + "jadx";
+	}
+
+	@Override
 	protected URL getFXMLURLImp() {
 		return getClass().getResource("/PREFEST.fxml");
 	}
 
 	@Override
 	protected InputStream getPICTStreamImp(int num) {
-		String pictname = "pairwise/pict" + num + ".txt";
-		return getClass().getResourceAsStream(pictname);
+		File pictfile = new File(projectpath + File.separator + "lib" + File.separator + "pairwise" + File.separator + "pict" + num + ".txt");
+		InputStream stream = null;
+		try {
+			stream =  new FileInputStream(pictfile);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return stream;
 	}
 
 	@Override
@@ -44,5 +57,6 @@ public class PublishPathHelper extends PathHelper {
 	protected String getUIAutomatorClientPathImp() {
 		return projectpath + File.separator + "lib" + File.separator + "uiautomatorclient";
 	}
+
 
 }

@@ -18,7 +18,9 @@ import tools.PWCounter;
 import tools.ProcessExecutor;
 import tools.TagnameComparator;
 
+
 public class InterestAllPlan {
+
 	public Map<String, String> scriptmap = null;
 	public String nowtagname = null;
 	public LinkedList<String> taglist = null;
@@ -26,6 +28,7 @@ public class InterestAllPlan {
 		scriptmap = new HashMap<String, String>();
 		taglist = new LinkedList<String>();
 		PWCounter pwcounter = new PWCounter();
+
 		for (String tagname : datas.keySet()) {
 			Map<String, String> newscriptnames = ScriptExecutor.generateinterestcaseforPREFEST_N(datas.get(tagname), pwcounter, preferencetrees);
 			if (null != newscriptnames && !newscriptnames.isEmpty()) {

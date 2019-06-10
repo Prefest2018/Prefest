@@ -53,7 +53,6 @@ public class InterestTranslator {
 	}
 	
 	
-	
 	private static String generatepreferences(ArrayList<InterestValue> values, boolean hasconscript, String conscripthandler) {
 		StringBuilder sb = new StringBuilder();
 		values.sort(new Comparator<InterestValue>() {

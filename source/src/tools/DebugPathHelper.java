@@ -19,6 +19,10 @@ public class DebugPathHelper extends PathHelper {
 		return projectpath + "/res/debug.keystore";
 	}
 	@Override
+	protected String getJadxPathImp() {
+		return projectpath + "/lib/jadx";
+	}
+	@Override
 	protected URL getFXMLURLImp() {
 		File fxmlfile = new File(projectpath + "/res/PREFEST.fxml");
 		URL url = null;

@@ -200,7 +200,6 @@ public class MyExpression extends MyExpressionObject{
 			if (exp instanceof JLengthExpr) {
 				optype = OperationType.LENGTH;
 			} else if (exp instanceof JCastExpr) {
-				//TODO
 			} else if (exp instanceof JNegExpr) {
 				optype = OperationType.NEG;
 			} else {
@@ -261,7 +260,6 @@ public class MyExpression extends MyExpressionObject{
 		return null;
 	}
 	
-
 	public ExpressionValue calculate(Map<MyInterest, String> interestValueMap) {
 		switch (this.type) {
 		case EXPRESSION : {

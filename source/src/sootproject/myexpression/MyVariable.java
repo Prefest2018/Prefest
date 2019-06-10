@@ -29,7 +29,7 @@ public class MyVariable extends MyExpressionObject{
 	protected MyExpression trueExp = null;
 	protected MyVariable parentVal = null;
 	public Set<MyVariable> instanceceqVals = null;
-	//private IBinding bind = null;
+
 
 	public MyVariable(Value firstValue, MyVariable parentVal) {
 		this.value = firstValue;

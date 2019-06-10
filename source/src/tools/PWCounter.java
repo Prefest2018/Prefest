@@ -72,9 +72,11 @@ public class PWCounter {
 		int remind = order % turn;
 		return list.get(remind);
 	}
-
+	
+	
 	public int initfromPICT(int largestnumber) {
 		if (pwmap.isEmpty()) {
+			//assume that at most 40 preferences
 			for (int id = 1; id <= 40; id++) {
 				try {
 					BufferedReader br = new BufferedReader(new InputStreamReader(PathHelper.getPICTStream(id)));
@@ -96,8 +98,10 @@ public class PWCounter {
 					}
 					br.close();
 				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
 					e.printStackTrace();
 				} catch (IOException e) {
+					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

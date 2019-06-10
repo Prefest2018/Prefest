@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+import tools.ProcessExecutor;
+
 public class LocThread extends Thread{
 	private String loclogfileName = null;
 	private StringBuilder locbuilder = new StringBuilder();
@@ -17,7 +19,7 @@ public class LocThread extends Thread{
 
 	@Override
 	public void run() {
-		ProcessBuilder builder = new ProcessBuilder("adb", "logcat", "loc:V *:S");
+		ProcessBuilder builder = ProcessExecutor.getPBInstance("adb", "logcat", "loc:V *:S");
 
 		try {
 			locbuilder = new StringBuilder();
@@ -33,6 +35,7 @@ public class LocThread extends Thread{
 			e.printStackTrace();
 		}
     	System.out.println("adb loc end:");
+
     	try {
         	File outputfile = new File(loclogfileName);
 			outputfile.createNewFile();

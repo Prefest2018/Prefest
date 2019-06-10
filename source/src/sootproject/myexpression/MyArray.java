@@ -18,16 +18,14 @@ public class MyArray extends MyVariable{
 
 	
 	public MyVariable getInnerVal(Value value, MyExpression exp) {
-//		MyVariable returnVal = arrayList.get(value.equivHashCode());
-//		if (null == returnVal) {
+
 		if (null == this.trueExp) {
 			this.trueExp = new MyExpression(new MyArrayContent());
 		}
 			MyVariable returnVal = new MyVariable(value, this);
 			returnVal.isArrayRef = true;
 			returnVal.trueExp = getVal(exp);
-//			arrayList.put(value.equivHashCode(), returnVal);
-//		}
+
 		return returnVal;
 	}
 	
@@ -66,6 +64,7 @@ public class MyArray extends MyVariable{
 		if (null == indexexp) {
 			return null;
 		}
+
 		if (this.trueExp.content instanceof MyArrayContent && !indexexp.interestRelated) {
 			Object indexvalue = indexexp.calculate();
 			if (null == indexvalue) {

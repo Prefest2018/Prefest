@@ -16,6 +16,7 @@ public abstract class PathHelper {
 		return androidhome;
 	}
 
+
 	public static String projectpath = System.getProperty("user.dir");
 	public static String getSootPath() {
 		return instance.getSootPathImp();
@@ -41,8 +42,13 @@ public abstract class PathHelper {
 		return instance.getUIAutomatorClientPathImp();
 	}
 	
+	public static String getJadxHomePath() {
+		return instance.getJadxPathImp();
+	}
+	
 	protected abstract String getSootPathImp();
 	protected abstract String getDebugKeyPathImp();
+	protected abstract String getJadxPathImp();
 	protected abstract URL getFXMLURLImp();
 	protected abstract InputStream getPICTStreamImp(int num);
 	protected abstract String getConfigFileImp();

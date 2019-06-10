@@ -30,19 +30,6 @@ public abstract class MyInterest implements Comparable<MyInterest>{
 		relatedVals = new HashSet<MyVariable>();
 	}
 
-//	public MyVariable addAffectedVariable(Value value) {
-//		for (MyVariable val : relatedVals) {
-//			if (val.ifEquiv(value)) {
-//				return val;
-//			}
-//		}
-//		MyVariable newVal = new MyVariable(value, null);
-//		
-//		newVal.setInterestRelated(true);
-//		relatedVals.add(newVal);
-//		newVal.setTrueExp(exp);
-//		return newVal;
-//	};
 	
 	public MyExpression getMyInterestExpression() {
 		return exp;

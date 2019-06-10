@@ -30,6 +30,7 @@ public abstract class ExploreState {
 		listclasses.add("android.widget.ListView");
 		listclasses.add("android.support.v7.widget.RecyclerView");
 		listclasses.add("androidx.recyclerview.widget.RecyclerView");
+		listclasses.add("android.widget.ScrollView");
 		titleids.add("android:id/title");
 		titleclasses.add("android.widget.TextView");
 	}
@@ -79,7 +80,7 @@ public abstract class ExploreState {
 			allnodes.put(key, allnode);
 		}
 	}
-	
+
 	public ExploreState() {
 		currentsteps = new Stack<String>();
 	}
@@ -96,9 +97,9 @@ public abstract class ExploreState {
 			document = reader.read(new ByteArrayInputStream(uicontent.getBytes("UTF-8")));
 			root = document.getRootElement();
 		} catch (DocumentException e) {
-			e.printStackTrace();
+			System.out.println("warning:XML file reading fails! ");
 		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
+			System.out.println("warning:XML file reading fails! ");
 		}
 		return root;
 	}
@@ -128,22 +129,31 @@ public abstract class ExploreState {
 		return null;
 	}
 	
-	protected static <T extends Collection<String>> T getAllTitlesFromUiAutomation(boolean shouldadd, T tobetestedtitles, Element inite) {
+	public static <T extends Collection<String>> T getAllTitlesFromUiAutomation(boolean shouldadd, T tobetestedtitles, Element inite) {
+		T templist = getAllTitlesFromUiAutomationInner(shouldadd, tobetestedtitles, inite, true);
+		if (templist.isEmpty()) {
+			templist = getAllTitlesFromUiAutomationInner(shouldadd, tobetestedtitles, inite, false);
+		}
+		return templist;
+	}
+	
+	protected static <T extends Collection<String>> T getAllTitlesFromUiAutomationInner(boolean shouldadd, T tobetestedtitles, Element inite, boolean checkid) {
 		String classname = inite.attributeValue("class");
 		String id = inite.attributeValue("resource-id");
 		String title = inite.attributeValue("text");
 		if (listclasses.contains(classname)) {
 			for (Element child : (List<Element>)inite.elements()) {
-				getAllTitlesFromUiAutomation(true, tobetestedtitles, child);
+				getAllTitlesFromUiAutomationInner(true, tobetestedtitles, child, checkid);
 			}
 		} else {
-			if (titleids.contains(id) && titleclasses.contains(classname) && null != title) {
+			boolean containsid = titleids.contains(id);
+			if ((containsid || !checkid) && titleclasses.contains(classname) && null != title) {
 				if (shouldadd) {
 					tobetestedtitles.add(title);
 				}
 			} else {
 				for (Element child : (List<Element>)inite.elements()) {
-					getAllTitlesFromUiAutomation(shouldadd, tobetestedtitles, child);
+					getAllTitlesFromUiAutomationInner(shouldadd, tobetestedtitles, child, checkid);
 				}
 			}
 		}
@@ -153,13 +163,13 @@ public abstract class ExploreState {
 	protected static void updateAdapter(String filename) {
 		String activityname = null;
 		ArrayList<String> steps = new ArrayList<String>();
-		for (int i = explorestates.size() -1; i >= 0; i--) {
+		for (int i = 0; i < explorestates.size(); i++) {
 			ExploreState nowstate = explorestates.get(i);
 			if (i == 0) {
 				activityname = nowstate.currentactivity;
 			}
 			if (!nowstate.currentsteps.isEmpty()) {
-				for (int j = nowstate.currentsteps.size() - 1; j >=0; j--) {
+				for (int j = 0; j < nowstate.currentsteps.size(); j++) {
 					steps.add(nowstate.currentsteps.get(j));
 				}
 			}
@@ -173,8 +183,12 @@ public abstract class ExploreState {
 				value.activityname = activityname;
 				value.preferencesteps.clear();
 				value.preferencesteps.addAll(steps);
-				value.preferencesteps.addAll(node.getTitles());
+				value.preferencesteps.addAll(node.getTitleWithinSamePage());
 			}
+			ArrayList<String> templist = new ArrayList<String>(steps);
+			templist.addAll(node.getTitleWithinSamePage());
+			node.setTitles(templist);
+
 		}
 	}
 	
@@ -185,7 +199,7 @@ public abstract class ExploreState {
 		}
 		String cmd = "";
 		String activityname = explorestates.get(0).currentactivity;
-		cmd += "stop---" + Main.packagename + "|";
+		cmd += "stop---" + Main.packagename + "---" + numcount++ + "|";
 		cmd += "start---" + Main.packagename + "/" + activityname;
 		ExploreState lastState = explorestates.peek();
 		for (ExploreState nowState : explorestates) {

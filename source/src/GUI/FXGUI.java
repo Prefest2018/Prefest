@@ -28,7 +28,6 @@ public class FXGUI extends Application {
 
     private static String defaultProjectHome = null;
 
-
     private Main main = null;
 
     @Override
@@ -46,8 +45,8 @@ public class FXGUI extends Application {
     private void init_variables() throws Exception{
     	defaultProjectHome = System.getProperty("user.dir");
     	File configFile = new File(PathHelper.getConfigFilePath());
-    	Map<String, String> newenvs = readConfigFile(configFile);
-    	setEnv(newenvs);
+    	Main.newenvs = readConfigFile(configFile);
+//    	setEnv(Main.newenvs);
     }
 
     private void init_files() {
@@ -179,6 +178,7 @@ public class FXGUI extends Application {
 					case "reset_when_error":Main.resetWhenError = "false".equals(value)?false:true;break;
 					case "preference_explore":Main.shouldExplorePreference = "true".equals(value)?true:false;break;
 					case "reset_for_each_run":Main.resetForEachRun = "true".equals(value)?true:false;break;
+					case "test_setting_operations":Main.testSettingOperations = "true".equals(value)?true:false;break;
 					case "default_projecthome":{
 						File file = new File(value);
 						if (file.exists()) {
@@ -196,56 +196,83 @@ public class FXGUI extends Application {
 			br.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.out.println("file \'config.txt\' is not found!");
+			System.out.println("file \'config-win.txt\' is not found!");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
     	// add several variables to path
     	String path = System.getenv("PATH");
     	
-    	String javahome = newenvs.get("JAVA_HOME");
-    	if (null != javahome) {
-        	path = path + File.pathSeparator + javahome + File.separator + "bin";
-    	} else {
-    		System.out.println("\'JAVA_HOME\' is not defined in \'config.txt\'!");
-    	}
-    	String androidhome = newenvs.get("ANDROID_HOME");
-    	if (null != androidhome) {
-    		path = path + File.pathSeparator + androidhome;
-        	path = path + File.pathSeparator + androidhome + File.separator + "tools";
-        	path = path + File.pathSeparator + androidhome + File.separator + "platform-tools";
-        	path = path + File.pathSeparator + androidhome + File.separator + "platform-tools";
-        	path = path + File.pathSeparator + androidhome + File.separator + "ndk-bundle";
-    	} else {
-    		System.out.println("\'ANDROID_HOME\' is not defined in \'config.txt\'!");
-    	}
-    	String jadxhome = newenvs.get("JADX_HOME");
-    	if (null != jadxhome) {
-        	path = path + File.pathSeparator + jadxhome + File.separator + "bin";
-    	} else {
-    		System.out.println("\'JADX_HOME\' is not defined in \'config.txt\'!");
-    	}
+//    	String javahome = newenvs.get("JAVA_HOME");
+//    	if (null != javahome) {
+//    		javahome = updateCurrentRefer(javahome);
+//        	path = path + File.pathSeparator + javahome + File.separator + "bin";
+//    	} else {
+//    		System.out.println("\'JAVA_HOME\' is not defined in \'config.txt\'!");
+//    	}
+//    	String androidhome = newenvs.get("ANDROID_HOME");
+//    	if (null != androidhome) {
+//    		androidhome = updateCurrentRefer(androidhome);
+//    		path = path + File.pathSeparator + androidhome;
+//        	path = path + File.pathSeparator + androidhome + File.separator + "tools";
+//        	path = path + File.pathSeparator + androidhome + File.separator + "emulator";
+//        	path = path + File.pathSeparator + androidhome + File.separator + "platform-tools";
+////        	path = path + File.pathSeparator + androidhome + File.separator + "ndk-bundle";
+//    	} else {
+//    		System.out.println("\'ANDROID_HOME\' is not defined in \'config.txt\'!");
+//    	}
+//    	String jadxhome = newenvs.get("JADX_HOME");
+//    	if (null == jadxhome) {
+//    		try {
+//				jadxhome = new File(".").getCanonicalPath() + "lib" + File.separator + "jadx";
+//			} catch (IOException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//    	}
+//    	if (null != jadxhome) {
+//    		jadxhome = updateCurrentRefer(jadxhome);
+//    		path = path + File.pathSeparator + jadxhome + File.separator + "bin";
+//    	}
+
 //    	String appiumhome = newenvs.get("APPIUM_HOME");
 //    	if (null != appiumhome) {
 //    		path = path + File.pathSeparator + appiumhome;
 //    	} else {
 //    		System.out.println("\'APPIUM_HOME\' is not defined in \'config.txt\'!");
 //    	}
-    	String pythonhome = newenvs.get("PYTHON_HOME");
-    	if (null != pythonhome) {
-    		path = path + File.pathSeparator + pythonhome;
-    		path = path + File.pathSeparator + pythonhome + File.separator + "Scripts";
-    	} else {
-    		System.out.println("\'PYTHON_HOME\' is not defined in \'config.txt\'!");
-    	}
-    	String androidlib = newenvs.get("ANDROID_LIB");
-    	if (null != androidlib) {
-    		path = path + File.pathSeparator + androidlib;
-    	} else {
-    		System.out.println("\'ANDROID_LIB\' is not defined in \'config.txt\'!");
-    	}
+//    	String pythonhome = newenvs.get("PYTHON_HOME");
+//    	if (null != pythonhome) {
+//    		pythonhome = updateCurrentRefer(pythonhome);
+//    		path = path + File.pathSeparator + pythonhome;
+//    		path = path + File.pathSeparator + pythonhome + File.separator + "Scripts";
+//    	} else {
+//    		System.out.println("\'PYTHON_HOME\' is not defined in \'config.txt\'!");
+//    	}
+//    	String androidlib = newenvs.get("ANDROID_LIB");
+//    	if (null != androidlib) {
+//    		androidlib = updateCurrentRefer(androidlib);
+//    		path = path + File.pathSeparator + androidlib;
+//    	} else {
+//    		System.out.println("\'ANDROID_LIB\' is not defined in \'config.txt\'!");
+//    	}
+
     	newenvs.put("PATH", path);
     	return newenvs;
+    }
+    
+    
+    private static String updateCurrentRefer(String path) {
+    	if (null != path && path.startsWith(".\\")) {
+    		String current = null;
+    		try {
+    			current = new java.io.File( "." ).getCanonicalPath();
+    		} catch (IOException e) {
+    			e.printStackTrace();
+    		}
+    		path = current + path.substring(2);
+    	}
+    	return path;
     }
 
 }

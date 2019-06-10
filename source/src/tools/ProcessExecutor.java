@@ -5,13 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import GUI.Main;
 
 public class ProcessExecutor {
 	public static List<String> processlogincmdlog(String... args) {
 		Process p = null;
-		ProcessBuilder builder = new ProcessBuilder(args);
+		ProcessBuilder builder = getPBInstance(args);
 		String originlogfile = Logger.logPath;
 		boolean origincontinue = Logger.shouldcontinue;
 		Logger.setTempLogFile(Main.cmdlog, true);
@@ -36,7 +37,7 @@ public class ProcessExecutor {
 	
 	public static List<String> process(String... args) {
 		Process p = null;
-		ProcessBuilder builder = new ProcessBuilder(args);
+		ProcessBuilder builder = getPBInstance(args);
 		System.out.println("cmd:" + builder.command().toString());
 		Logger.log("cmd:" + builder.command().toString() +"\n");
 		List<String> resultstrs = new ArrayList<String>();
@@ -58,7 +59,7 @@ public class ProcessExecutor {
 	
 		public static List<String> processnolog(String... args) {
 			Process p = null;
-			ProcessBuilder builder = new ProcessBuilder(args);
+			ProcessBuilder builder = getPBInstance(args);
 			System.out.println("cmd:" + builder.command().toString());
 			List<String> resultstrs = new ArrayList<String>();
 			try {
@@ -79,13 +80,15 @@ public class ProcessExecutor {
 		
 		public static List<String> processnolognoprint(String... args) {
 			Process p = null;
-			ProcessBuilder builder = new ProcessBuilder(args);
+			ProcessBuilder builder = getPBInstance(args);
+//			System.out.println("cmd:" + builder.command().toString());
 			List<String> resultstrs = new ArrayList<String>();
 			try {
 				p = builder.start();
 		    	BufferedReader p_stdout = new BufferedReader(new InputStreamReader(p.getInputStream()));
 		    	String result = null;
 		    	while(((result = p_stdout.readLine()) != null)) {
+//		    		System.out.println(result);
 		    		resultstrs.add(result);
 		    	}
 			} catch (IOException e) {
@@ -95,4 +98,10 @@ public class ProcessExecutor {
 			return resultstrs;
 		}
 		
+		public static ProcessBuilder getPBInstance(String... args) {
+			ProcessBuilder builder = new ProcessBuilder(args);
+//			Map<String, String> envs = builder.environment();
+//			envs.putAll(System.getenv());
+			return builder;
+		}
 }

@@ -1,0 +1,19 @@
+# ANDROID AVD name
+avd_name=PREFESTAVD
+
+# home path of the default test project
+default_projecthome=.\..\benchmark
+
+# When an error occurs in PREFEST(T), whether to clear the app's data and reset it
+reset_when_error=true
+
+# Whether to employ a heuristics exploration for setting screens before PREFEST(T)
+preference_explore=true
+
+# Whether to clear the app's data and reset it for each run in PREFEST(T)
+reset_for_each_run=false
+
+# When 'test_setting_operations' is true, 
+# PREFEST(T) will try to setting all preferences to a non-default value, and then to the default value,
+# in order to test the setting operations
+test_setting_operations=false

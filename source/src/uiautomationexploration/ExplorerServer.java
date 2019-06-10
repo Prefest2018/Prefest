@@ -43,7 +43,7 @@ public class ExplorerServer {
         		break;
         	}
         	Process p = null;
-			ProcessBuilder builder = new ProcessBuilder("python", "uiexplore.py", commond);
+			ProcessBuilder builder = ProcessExecutor.getPBInstance("python", "uiexplore.py", commond);
 			try {
 				builder.directory(new File(PathHelper.getUIAutomatorClientPath()));
 				p = builder.start();
@@ -66,7 +66,6 @@ public class ExplorerServer {
 	            	}
 	            	
 	            }
-
 	            explorer.updatestate(contentsb.toString(), successsb.toString().equals("success")?true:false);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -101,7 +100,6 @@ public class ExplorerServer {
 
     	boolean ok = true;
     	for (InterestValue value : this.adapter.preferencelist.values()) {
-
     		if ("preference".equals(value.generaltype) && !value.isadapted) {
     			ok = false;
     			break;
@@ -112,3 +110,4 @@ public class ExplorerServer {
  
  
 }
+ 

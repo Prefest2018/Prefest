@@ -286,6 +286,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 			} else if (unit instanceof JIdentityStmt && ((JIdentityStmt)unit).getRightOp() instanceof ThisRef) {
 				myMethod.setThisref((ThisRef)((JIdentityStmt)unit).getRightOp());
 			}
+			
 		}
 		Chain<Trap> traps = body.getTraps();
 		Iterator<Trap> trapit = traps.snapshotIterator();

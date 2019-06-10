@@ -20,7 +20,6 @@ public class PWValue {
 	public String preferencescriptlogfile = null;
 	public String preferencetestcaseinfofile = null;
 	public String nowtagname = Main.PRESCRIPT;
-
 	protected Map<String, String> scriptmap = null;
 	protected LinkedList<String> taglist = null;
 	public PWPlan plan = null;
@@ -61,6 +60,7 @@ public class PWValue {
 			i++;
 		}
 		
+
 
 		preferencescriptfile = Main.pwpreferencecases + File.separator + "PW_pre_" + index + ".py";
 		preferencescriptlogfile = Main.pwpreferencecases + File.separator + "PW_pre_" + index + "_log.py";

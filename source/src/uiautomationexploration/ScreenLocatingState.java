@@ -74,8 +74,12 @@ public class ScreenLocatingState extends ExploreState{
 			if (null != filename) {
 				updateAdapter(filename);
 				NodeExploreState newstate = NodeExploreState.getNodeExploreState(filename, false);
-				explorestates.add(newstate);
-				this.statetype = StateType.SUSPEND;
+				if (null != newstate) {
+					explorestates.add(newstate);
+					this.statetype = StateType.SUSPEND;
+				} else {
+					this.statetype = StateType.END;
+				}
 			} else {
 				if (currenttitles.isEmpty()) {
 					System.out.println("screen locating warning: no titles found!!");
@@ -91,7 +95,6 @@ public class ScreenLocatingState extends ExploreState{
 		}
 		case EXPLORING: {
 			if (null == uicontent) {
-
 				break;
 			}
 			if (null != filename) {
@@ -100,8 +103,17 @@ public class ScreenLocatingState extends ExploreState{
 				}
 				updateAdapter(filename);
 				NodeExploreState newstate = NodeExploreState.getNodeExploreState(filename, false);
-				explorestates.add(newstate);
-				this.statetype = StateType.SUSPEND;
+				if (null != newstate) {
+					explorestates.add(newstate);
+					this.statetype = StateType.SUSPEND;
+				} else {
+					if (tobetestedtitles.isEmpty()) {
+						this.statetype = StateType.END;
+					} else {
+						this.statetype = StateType.EXPLORING;
+					}
+				}
+
 			} else {
 				if (tobetestedtitles.isEmpty()) {
 					this.statetype = StateType.END;

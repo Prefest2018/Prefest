@@ -15,6 +15,7 @@ import data.InterestValue;
 import sootproject.resourceLoader.PreferenceTreeNode;
 import tools.JsonHelper;
 
+
 public class PreferenceExplorer {
 	private Stack<String> tobeviewedpreferenceactivities = null;
 	private Map<String, List<PreferenceTreeNode>> tobeviewedpreferenceforests = null;
@@ -40,7 +41,11 @@ public class PreferenceExplorer {
 		explorestates = new Stack<ExploreState>();
 		ExploreState.init(tobeviewedpreferenceforests, explorestates, adapter);
 	}
-
+	
+	
+//	private boolean checkConsistenty(Set<String> titles, PreferenceTreeNode preferencexml) {
+//		return false;
+//	}
 	
 	public String givecommond() {
 		while(true) {
@@ -93,7 +98,7 @@ public class PreferenceExplorer {
 		JsonHelper.saveadapter(adapter, Main.testadapter);
 	}
 	
-
+	
 	
 	public void adaptData() {
 		JSONObject testcaseorigin = JsonHelper.getJsonObject(Main.testcaseinfofile);
@@ -135,5 +140,4 @@ public class PreferenceExplorer {
 		
 	}
 
-	
 }

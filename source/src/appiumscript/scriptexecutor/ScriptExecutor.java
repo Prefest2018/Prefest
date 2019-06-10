@@ -41,20 +41,17 @@ public class ScriptExecutor {
 
 	public final static boolean shouldreduce = true;
 	public static void scriptexecute(List<File> pythonscripts, String packagename) {
-
 		ProcessExecutor.processnolog("adb", "shell", "rm", "/mnt/sdcard/coverage/*.ec");
 
 		Logger.setTempLogFile(Main.firstcasesexeresultfile, true);
 		Map<String, TestCaseData> testcases = null;
 		List<File> newfaillist = new ArrayList<File>();
-
 		File testcasedatafile = new File(Main.testcaseinfofile);
 		if (testcasedatafile.exists()) {
 			testcases = JsonHelper.gettestcasesdataAdapt(testcasedatafile.getAbsolutePath(), false);
 		} else {
 			testcases = new HashMap<String, TestCaseData>();
 		}
-
 		
 		
 		
@@ -69,13 +66,11 @@ public class ScriptExecutor {
 			data.firsttestcasepath = pythonscript.getAbsolutePath();
 			data.tagname = tagname;
 			Logger.log("firsttestcase " + tagname + " start:");
-
 			if (Main.resetForEachRun) {
 				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", packagename);
 			}
 			ProcessExecutor.processnolog("adb", "logcat", "-c");
 			
-
 			locthread = new LocThread();
 			errorthread = new ErrorCollectThread();
 			locthread.setFile(Main.firstcasesloc + File.separator  + tagname + ".txt");
@@ -90,7 +85,6 @@ public class ScriptExecutor {
 				e.printStackTrace();
 			}
 			
-
 			List<String> pythonlogs = ProcessExecutor.process("python", pythonscript.getAbsolutePath());
 			boolean shouldadd = false;
 			String errorlog = "";
@@ -121,15 +115,12 @@ public class ScriptExecutor {
 			if (hasbug && Main.resetWhenError) {
 				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", packagename);
 			}
-
 			String coveragefilename = "coverage" + tagname + ".ec";
 			ProcessExecutor.processnolog("adb", "pull", "/mnt/sdcard/coverage/" + coveragefilename, Main.firstcasescoverage + File.separator  + coveragefilename);
 			data.firstcoveragepath = Main.firstcasescoverage + File.separator  + coveragefilename;
 			Logger.log("firsttestcase " + tagname + " end\n");
 			
-
 			testcases.put(data.tagname, data);
-
 			if (j % 10 == 0) {
 				JsonHelper.savetestcasesdataAdapt(testcases, Main.testcaseinfofile);
 			}
@@ -148,7 +139,6 @@ public class ScriptExecutor {
 
 	
 	public static void scriptexecuteforPREFEST_T(Map<String, TestCaseData> testcasesdata, String packagename) {
-
 		Logger.setTempLogFile(Main.interestplan, true);
 		scenelist = interestpreparation(testcasesdata);
 		tagnamelist = new LinkedList<String>(testcasesdata.keySet());
@@ -162,7 +152,6 @@ public class ScriptExecutor {
 				} else if (case2.firstexecutionsuccess && !case1.firstexecutionsuccess) {
 					return 1;
 				} else {
-
 					File locfile1 = new File(case1.firstlocpath);
 					File locfile2 = new File(case2.firstlocpath);
 					if (locfile1.length() > locfile2.length()) {
@@ -188,10 +177,8 @@ public class ScriptExecutor {
 			reduce();
 		}
 
-
 		ExeScene exescene = null;
 		int i = 0;
-
 		Map<Integer, TestCaseData> testcases = new HashMap<Integer, TestCaseData>();
 		ProcessExecutor.processnolog("adb", "shell", "rm", "/mnt/sdcard/coverage/*.ec");
 		while ((exescene = getNo1Scene(testcasesdata)) != null) {
@@ -203,14 +190,11 @@ public class ScriptExecutor {
 			pastcases.add(tagname);
 			Logger.log("index." + i + ",  interestcase " + tagname + " start:");
 			Logger.log("tagetlogs are:" + exescene.changebranchids.toString());
-
 			if (Main.resetForEachRun) {
 				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", packagename);
 			}
 			ProcessExecutor.processnolog("adb", "logcat", "-c");
-
 			data.firsttestcasepath = preferencetextgenerateForPREFEST(i, exescene, testcasesdata.get(tagname), packagename, false);
-
 			locthread = new LocThread();
 			locthread.setFile(Main.interestcaseloc + File.separator  + i + "_" + tagname + ".txt");
 			data.firstlocpath = Main.interestcaseloc + File.separator  + i + "_" + tagname + ".txt";
@@ -222,11 +206,9 @@ public class ScriptExecutor {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-
 				e.printStackTrace();
 			}
 			
-
 			List<String> pythonlogs = ProcessExecutor.process("python", data.firsttestcasepath);
 			boolean shouldadd = false;
 			String errorlog = "";
@@ -258,14 +240,13 @@ public class ScriptExecutor {
 			if (hasbug && Main.resetWhenError) {
 				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", packagename);
 			}
-
 			try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			checkloc(exescene, data.firstlocpath, data.firstexecutionsuccess);
-
 
 			String origincoveragefilename = "coverage" + tagname + ".ec";
 			String coveragefilename = "coverage" + i + "_" + tagname + ".ec";
@@ -301,8 +282,10 @@ public class ScriptExecutor {
 				conscript = sb.toString();
 				conscripthandler = "\tconscript(driver)\r\n";
 			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -537,6 +520,7 @@ public class ScriptExecutor {
 		pasttags.add(originscene.tagname);
 	}
 	
+
 	private static Map<String, Scene> nobranchscenemap = null;
 	private static int nobranchscenesuffixid = 0;
 	private static List<Scene> interestpreparation(Map<String, TestCaseData> testcasedata) {
@@ -628,10 +612,10 @@ public class ScriptExecutor {
 	}
 	
 	public static void scriptexecuteforec(Map<String, List<PreferenceTreeNode>> preferencetree) {
-		File preferencelogscriptfile = new File(Main.allpreferenceprecaselog);
-		File preferencescriptfile = new File(Main.allpreferenceprecase);
+		File preferencelogscriptfile = new File(Main.allpreferenceprecaselog_reverse);
+		File preferencescriptfile = new File(Main.allpreferenceprecase_reverse);
 		if (!preferencescriptfile.exists() && !preferencelogscriptfile.exists()) {
-			ArrayList<InterestValue> values = getbasevalues(preferencetree);
+			ArrayList<InterestValue> values = getbasevalues(preferencetree, true);
 			generatepreferencecaseforNonDefault(values, preferencelogscriptfile, true);
 			generatepreferencecaseforNonDefault(values, preferencescriptfile, false);
 		}
@@ -646,7 +630,7 @@ public class ScriptExecutor {
 		if (!datas.containsKey(Main.PRESCRIPT)) {
 			TestCaseData predata = new TestCaseData();
 			predata.tagname = Main.PRESCRIPT;
-			predata.firsttestcasepath = Main.allpreferenceprecaselog;
+			predata.firsttestcasepath = Main.allpreferenceprecaselog_reverse;
 			origindata.put(Main.PRESCRIPT, predata);
 		}
 		int i = 0;
@@ -666,7 +650,7 @@ public class ScriptExecutor {
 			if (Main.resetForEachRun) {
 				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", Main.packagename);
 			}
-			ProcessExecutor.process("python", Main.allpreferenceprecase);
+			ProcessExecutor.process("python", Main.allpreferenceprecase_reverse);
 			ProcessExecutor.processnolog("adb", "logcat", "-c");
 			locthread = new LocThread();
 			locthread.setFile(Main.allpreferencecaseloc + File.separator  + tagname + ".txt");
@@ -723,7 +707,94 @@ public class ScriptExecutor {
 		JsonHelper.savetestcasesdataAdapt(datas, Main.allpreferenceinfofile);
 	}
 	
-	private static ArrayList<InterestValue> getbasevalues(Map<String, List<PreferenceTreeNode>> preferencetree) {
+	public static void scriptexecuteforec_onceforprefest(Map<String, List<PreferenceTreeNode>> preferencetree) {
+		File preferencereverselogscriptfile = new File(Main.allpreferenceprecaselog_reverse);
+		File preferencedefaultlogscriptfile = new File(Main.allpreferenceprecaselog_default);
+		if (!preferencereverselogscriptfile.exists() && !preferencedefaultlogscriptfile.exists()) {
+			ArrayList<InterestValue> values = getbasevalues(preferencetree, true);
+			generatepreferencecaseforNonDefault(values, preferencereverselogscriptfile, true);
+			values = getbasevalues(preferencetree, false);
+			generatepreferencecaseforNonDefault(values, preferencedefaultlogscriptfile, true);
+		}
+		Map<String, TestCaseData> datas = null;
+		File testcaseall = new File(Main.interestcaseinfofile);
+		if (testcaseall.exists()) {
+			datas = JsonHelper.gettestcasesdataAdapt(Main.interestcaseinfofile, false);
+		} else {
+			datas = new HashMap<String, TestCaseData>();
+		}
+
+		ProcessExecutor.processnolog("adb", "shell", "rm", "/mnt/sdcard/coverage/*.ec");
+		String[] tag2list = {"reverse", "default"};
+		for (String tag2: tag2list) {
+			TestCaseData data = new TestCaseData();
+			data.tagname = Main.PRESCRIPT + "_" + tag2;
+			data.firsttestcasepath = tag2.equals("default")?Main.allpreferenceprecaselog_default:Main.allpreferenceprecaselog_reverse;
+			data.firstlocpath = Main.interestcaseloc + File.separator  + data.tagname + ".txt";
+			
+			Logger.log("  interestcase " + data.tagname + " start:");
+			if (Main.resetForEachRun) {
+				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", Main.packagename);
+			}
+			
+			ProcessExecutor.processnolog("adb", "logcat", "-c");
+			
+			locthread = new LocThread();
+			locthread.setFile(data.firstlocpath);
+			locthread.start();
+			errorthread = new ErrorCollectThread();
+			errorthread.setErrorFile(Main.interesterror);
+			errorthread.start();
+			errorthread.addIndex(data.tagname);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+
+			List<String> pythonlogs = ProcessExecutor.process("python", data.firsttestcasepath);
+			boolean shouldadd = false;
+			String errorlog = "";
+			for (String log : pythonlogs) {
+				if (log.equals("FAIL")) {
+					shouldadd = true;
+					data.firstexecutionsuccess = false;
+				} else if (log.startsWith("consumed time: ")) {
+					shouldadd = false;
+					log = log.replace("consumed time: ", "");
+					log = log.replace(" s", "");
+					data.firstconsumedtime = Float.parseFloat(log);
+				} else if (log.startsWith("jacoco time: ")) {
+					log = log.replace("jacoco time: ", "");
+					log = log.replace(" s", "");
+					data.firstjacocotime = Float.parseFloat(log);
+				}
+				if (shouldadd) {
+					errorlog = errorlog + log;
+				}
+			}
+			if (!data.firstexecutionsuccess) {
+				data.firsterrorlog = errorlog;
+			}
+			locthread.locstop();
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			String origincoveragefilename = "coverage" + Main.PRESCRIPT + ".ec";
+			String coveragefilename = "coverage" + data.tagname + ".ec";
+			ProcessExecutor.processnolog("adb", "pull", "/mnt/sdcard/coverage/" + origincoveragefilename, Main.allpreferencecoverage + File.separator  + coveragefilename);
+			data.firstcoveragepath = Main.interestallcasescoverage + File.separator  + coveragefilename;
+			Logger.log("interestcase " + data.tagname + " end\n");
+			datas.put(data.tagname, data);
+			JsonHelper.savetestcasesdataAdapt(datas, Main.interestcaseinfofile);
+		}
+
+	}
+	
+	private static ArrayList<InterestValue> getbasevalues(Map<String, List<PreferenceTreeNode>> preferencetree, boolean isreverse) {
 		Set<PreferenceTreeNode> allnodes = new LinkedHashSet<PreferenceTreeNode>();
 		Stack<PreferenceTreeNode> nownodes = new Stack<PreferenceTreeNode>();
 		for (String key : preferencetree.keySet()) {
@@ -764,11 +835,14 @@ public class ScriptExecutor {
 		System.out.println("preference num: " + allnodes.size());
 		
 		ArrayList<InterestValue> values = new ArrayList<InterestValue>();
-		int i = 0;
+
 		for (PreferenceTreeNode node : allnodes) {
-			values.add(node.toInterestValueReverseDefault());
-			i++;
-			System.out.println("id " + i + ", " + "type: " + node.preferencetype + ",  title: " + node.title + ",  catelog: " + node.catlog + ", defaultvalue: " + node.defaultvalue);
+			if (isreverse) {
+				values.add(node.toInterestValueReverseDefault());
+			} else {
+				values.add(node.toInterestValueDefault());
+			}
+
 		}
 		return values;
 	}
@@ -917,16 +991,6 @@ public class ScriptExecutor {
 		}
 		ProcessExecutor.process("python", value.preferencescriptfile);
 		ProcessExecutor.processnolog("adb", "logcat", "-c");
-//		locthread = new LocThread();
-//		locthread.setFile(Main.allpreferencecaseloc + File.separator  + tagname + ".txt");
-//		data.firstlocpath = Main.allpreferencecaseloc + File.separator  + tagname + ".txt";
-//		locthread.start();
-//		try {
-//			Thread.sleep(1000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
 
 		List<String> pythonlogs = ProcessExecutor.process("python", scriptfile);
 		boolean shouldadd = false;
@@ -952,11 +1016,9 @@ public class ScriptExecutor {
 		if (!data.firstexecutionsuccess) {
 			data.firsterrorlog = errorlog;
 		}
-//		locthread.locstop();
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		String origincoveragefilename = "coverage" + nowtagname + ".ec";
@@ -984,7 +1046,7 @@ public class ScriptExecutor {
 					shouldjacoco);
 			totalsb.append(settingScript);
 		
-			bw.write(settingScript.toString());
+			bw.write(totalsb.toString());
 			bw.close();
 		} catch (IOException e) {
 			e.printStackTrace();

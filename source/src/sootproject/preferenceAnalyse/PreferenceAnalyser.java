@@ -42,7 +42,7 @@ import soot.Unit;
 
 public class PreferenceAnalyser {
 	private List<MyNode> allNodesList = null;
-	private Map<SootMethod, MyMethodDeclaration> methodMap = null; 
+	private Map<SootMethod, MyMethodDeclaration> methodMap = null;
 	private Map<SootMethod, Map<Integer, MyMethodDeclaration>> overrideMap = null;
 	private Map<Integer, MyNode> logMap = null;
 	private static Map<Unit, MyNode> nodeMap = null;
@@ -177,7 +177,6 @@ public class PreferenceAnalyser {
 			}
 			br.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return strList;
@@ -240,7 +239,6 @@ public class PreferenceAnalyser {
 			TrailState nowState = null;
 			nowState = new TrailState(interestMaps, data.tagname, stridmap);
 			int length = logs.size();
-//			int inneri = 0;
 			for (String log : logs) {
 				if (skiplocs.contains(log)) {
 					continue;

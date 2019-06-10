@@ -23,7 +23,10 @@ def main(arg):
             automation.startactivity(activityname[1])
         elif cmd.startswith('stop'):
             activityname = cmd.split('---')
-            automation.stopactivity(activityname[1])
+            if len(activityname) == 3 :
+                automation.stopactivitywithcoverage(activityname[1], activityname[2])
+            else :
+                automation.stopactivity(activityname[1])
         elif cmd == 'back':
             automation.back()
         elif cmd.startswith('touch'):

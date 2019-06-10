@@ -28,7 +28,6 @@ public class MyPreference extends MyInterest{
 	}
 	protected PreferenceTreeNode preferencenode = null;
 	
-
 	public MyPreference(String name, String defaultValue, List<String> possibleValues, ResultType type) {
 		super(name);
 		this.defaultValue = defaultValue;
@@ -53,6 +52,8 @@ public class MyPreference extends MyInterest{
 			this.type = ResultType.INT;
 		} else if ("getFloat".equals(typestr)) {
 			this.type = ResultType.FLOAT;
+		} else if ("getAll".equals(typestr)) {
+		} else if ("getStringSet".equals(typestr)) {
 		}
 	}
 	
@@ -129,6 +130,7 @@ public class MyPreference extends MyInterest{
 		switch (type) {
 		case STRING: typestr = "string";break;
 		case INT : typestr = "int";break;
+//		case LONG : typestr = "long";break;
 		case BOOLEAN : typestr = "boolean";break;
 		case FLOAT : typestr = "float";break;
 		default:

@@ -18,6 +18,9 @@ public class NodeExploreState extends ExploreState{
 	private PreferenceTreeNode currenttargetnode = null;
 	private boolean shouldstartactivity = false;
 	public static NodeExploreState getNodeExploreState(String xmlfilename, boolean shouldstartactivity) {
+		if (null == tobeexploredallnodes.get(xmlfilename)) {
+			return null;
+		}
 		NodeExploreState newState = null;
 		if (!shouldstartactivity) {
 			newState = new NodeExploreState(xmlfilename);
@@ -112,6 +115,9 @@ public class NodeExploreState extends ExploreState{
 			inite = readXML(uicontent);
 			if (null != inite) {
 				position = getPosition(inite);
+			} else {
+				this.statetype = StateType.RESUME;
+				return;
 			}
 		}
 
@@ -124,14 +130,15 @@ public class NodeExploreState extends ExploreState{
 						if (this.currentnode == null && (position.equals(this.currentpreferencefile))) {
 							break;
 						} else {
+							this.currentnode = this.currenttargetnode;
+							this.currenttargetnode = null;
+							this.currentsteps = new Stack<String>();
+							this.currentsteps.addAll(this.currentnode.getTitleWithinSamePage());
+							
 							updateAdapter(position.toString());
 							this.statetype = StateType.SUSPEND;
 							NodeExploreState newstate = new NodeExploreState(position.toString());
 							explorestates.add(newstate);
-							this.currentnode = this.currenttargetnode;
-							this.currenttargetnode = null;
-							this.currentsteps = new Stack<String>();
-							this.currentsteps.addAll(this.currentnode.getTitles());
 						}
 
 					} else if (position instanceof PreferenceTreeNode){
@@ -223,12 +230,12 @@ public class NodeExploreState extends ExploreState{
 	private List<String> getNodeTransferCommonds(PreferenceTreeNode targetnode) {
 		ArrayList<String> commonds = new ArrayList<String>();
 		if (null == this.currentnode) {
-			for (String title : targetnode.getTitles()) {
+			for (String title : targetnode.getTitleWithinSamePage()) {
 				commonds.add("touch---" + title);
 			}
 		} else {
-			ArrayList<String> currenttitles = this.currentnode.getTitles();
-			ArrayList<String> targettitles = targetnode.getTitles();
+			ArrayList<String> currenttitles = this.currentnode.getTitleWithinSamePage();
+			ArrayList<String> targettitles = targetnode.getTitleWithinSamePage();
 			int index = 0;
 			for (index = 0; index < currenttitles.size() && index < targettitles.size(); index++) {
 				String currenttitle = currenttitles.get(index);
@@ -250,7 +257,7 @@ public class NodeExploreState extends ExploreState{
 	private List<String> getBackCommonds() {
 		ArrayList<String> backcommonds = new ArrayList<String>();
 		backcommonds.add("back");
-		if (null != this.currentnode) {
+		if (null != this.currentnode) {//这里由于currentnode会多一个，所以要减一个
 			int num = this.currentnode.getTitles().size();
 			num--;
 			while (num > 0) {
@@ -266,6 +273,7 @@ public class NodeExploreState extends ExploreState{
 		this.currentnode = null;
 	}
 	
+	//按照preferencetreenode的id进行排序
 	private void sortFortobelocatenodes(Stack<PreferenceTreeNode> tobellocatenodes) {
 		for (int i = 0; i < tobellocatenodes.size(); i++) {
 			for (int j = i; j < tobellocatenodes.size(); j++) {
