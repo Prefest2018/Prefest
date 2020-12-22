@@ -35,8 +35,7 @@ PREFEST is mainly comprised of three kinds of components stub, firstExe ,analyse
 
 ### 1. Launch
 **double click on file 'prefest.bat' to launch PREFEST**
-After that Appium is launched(touch 'start service' to start the service) and the GUI of PREFEST is shown:
-![avatar][prefestgui]
+After that Appium is launched(touch 'start service' to start the service) and the GUI of PREFEST is shown.
 
 ### 2. Project Location
 **select the home of AUT(app under test given in the 'app' folder given), in the 'location home'**
@@ -48,7 +47,7 @@ All the AUTs can be tested are in the 'benchmark' folder, users can select one o
 * In 'firstExe' step, PREFEST executes the original test cases given in the 'testcase/firstcases' folder, the basic execution information is stored in file 'testcase/testcaseinfo.json'. The logs for each test case outputed when execution are stored in 'exeresult/firstcases' folder, for next analysis. The coverage files are stored in 'coverage/firstcoverage' folder. All kinds of test cases written for Appium are welcome. Particularly, PREFEST can accept test records (file 'testcase/mcmc_all_history_testsuites.txt') from Stoat and generate test cases from them.
 * In 'analyze' step, PREFEST makes up the execution flows for each test case from logs in  'exeresult/firstcases'. From the execution flows and resource files of AUT, PREFEST analyzes the relevant preferences of each test case. The relevance information is also stored in 'testcase/testcaseinfo.json'.
 **Notice1: Soot, UIautomator and Appium may be unstable, so when it gets wrong, please retry Prefest.**
-**Notice2: sAUT should be installed in the AVD manually, and you must keep only one AVD alive and only one sAUT in this AVD, at a time.**
+**Notice2: AUTs should be installed in the AVD manually, and you must keep only one AVD alive and only one sAUT in this AVD, at a time.**
 
 
 ### 4. REFEST(T)/PREFEST(N)/NonDefault/Pairwise/Monkey
