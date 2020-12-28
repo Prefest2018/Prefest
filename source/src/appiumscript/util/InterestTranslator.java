@@ -172,7 +172,7 @@ public class InterestTranslator {
 					sb.append("	os.popen(\"adb shell svc data enable\")\r\n");
 
 				} else {
-					sb.append("	os.popen(\"adb shell svc data diable\")\r\n");
+					sb.append("	os.popen(\"adb shell svc data disable\")\r\n");
 				}
 				systemservicestorestr.append("	os.popen(\"adb shell svc data enable\")\r\n");
 				break;
@@ -182,7 +182,7 @@ public class InterestTranslator {
 					sb.append("	os.popen(\"adb shell svc wifi enable\")\r\n");
 
 				} else {
-					sb.append("	os.popen(\"adb shell svc wifi diable\")\r\n");
+					sb.append("	os.popen(\"adb shell svc wifi disable\")\r\n");
 				}
 				systemservicestorestr.append("	os.popen(\"adb shell svc wifi enable\")\r\n");
 				break;
