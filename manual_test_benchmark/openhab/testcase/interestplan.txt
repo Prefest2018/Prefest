@@ -1,0 +1,622 @@
+current preference, name:default_openhab_demomode, value:1
+current preference, name:show_sitemaps, value:1
+current preference, name:iconFormatType, value:Vector
+current preference, name:default_openhab_chart_hq, value:0
+current preference, name:theme, value:Black
+current preference, name:default_openhab_screentimeroff, value:1
+current preference, name:default_openhab_fullscreen, value:1
+current preference, name:screen_lock, value:Kiosk mode
+current preference, name:taskerPlugin, value:1
+current preference, name:default_openhab_notification_vibration, value:Long
+current preference, name:data_saver, value:1
+current preference, name:default_openhab_debug_messages, value:1
+current preference, name:default_openhab_demomode, value:0
+current preference, name:show_sitemaps, value:0
+current preference, name:iconFormatType, value:Bitmap
+current preference, name:default_openhab_chart_hq, value:1
+current preference, name:theme, value:Dark mode in battery saver
+current preference, name:default_openhab_screentimeroff, value:0
+current preference, name:default_openhab_fullscreen, value:0
+current preference, name:screen_lock, value:Off
+current preference, name:taskerPlugin, value:0
+current preference, name:default_openhab_notification_vibration, value:Off
+current preference, name:data_saver, value:0
+current preference, name:default_openhab_debug_messages, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 84.40947651863098 s
+
+jacoco time: 3.001549482345581 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 89.7626383304596 s
+
+jacoco time: 3.0025875568389893 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 2348-4082 ,target branch is: 2348-4081
+interests are:
+default_openhab_demomode      0    0     Connection
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability NfcTest#nfcTest 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1222-2100 ,target branch is: 1222-2101
+interests are:
+default_openhab_demomode      0    0     Connection
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability NfcTest#nfcTest 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1465-2511 ,target branch is: 1465-2510
+interests are:
+default_openhab_debug_messages      1    21     Miscellaneous
+discovered tags are : WidgetAdapterTest#testColorMappingDarkTheme IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability WidgetAdapterTest#testColorMappingBrightTheme NfcTest#nfcTest 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 4855-8402 ,target branch is: 4855-8401
+interests are:
+data_saver      1    20     Miscellaneous
+discovered tags are : IntroActivityTest#appShowsIntro BasicWidgetTest#mainActivityTest NfcTest#nfcTest 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 3795-6549 ,target branch is: 3795-6548
+interests are:
+show_sitemaps      1    5     Sitemap
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest NfcTest#nfcTest 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 1223-2103 ,target branch is: 1223-2102
+interests are:
+default_openhab_demomode      0    0     Connection
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability NfcTest#nfcTest 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 4409-7635 ,target branch is: 4409-7634
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : WidgetAdapterTest#testColorMappingDarkTheme IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability WidgetAdapterTest#testColorMappingBrightTheme NfcTest#nfcTest 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 4293-7369 ,target branch is: 4293-7370
+interests are:
+default_openhab_screentimeroff      1    12     Display
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability NfcTest#nfcTest 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 4449-7703 ,target branch is: 4449-7704
+interests are:
+default_openhab_fullscreen      1    13     Display
+discovered tags are : IntroActivityTest#appShowsIntro IntroActivityTest#goThroughIntro BasicWidgetTest#mainActivityTest VoiceRecognitionTest#checkVoiceAvailability NfcTest#nfcTest 
+--------------------------------
+index.1,  interestcase BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[4855-8401, 2348-4081, 4409-7634, 1222-2101, 4449-7704, 1465-2510, 4293-7370, 1223-2102, 3795-6548]
+current preference, name:default_openhab_demomode, value:0
+current preference, name:show_sitemaps, value:1
+current preference, name:default_openhab_screentimeroff, value:1
+current preference, name:default_openhab_fullscreen, value:1
+current preference, name:data_saver, value:1
+current preference, name:default_openhab_debug_messages, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase0_1_BasicWidgetTest#mainActivityTest.py]
+
+OK
+
+consumed time: 18.318283319473267 s
+
+jacoco time: 3.0028274059295654 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 15.853
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [2348-4081, 1222-2101, 4449-7704, 1465-2510, 4293-7370, 1223-2102]
+uncovered targets are: [4855-8401, 4409-7634, 3795-6548]
+interestcase 0_1_BasicWidgetTest#mainActivityTest end
+
+index.2,  interestcase NfcTest#nfcTest start:
+tagetlogs are:[4855-8401, 4409-7634, 3795-6548]
+current preference, name:show_sitemaps, value:1
+current preference, name:data_saver, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase0_2_NfcTest#nfcTest.py]
+
+OK
+
+consumed time: 21.897812604904175 s
+
+jacoco time: 3.0021493434906006 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.NfcTest#nfcTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.NfcTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=nfcTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.NfcTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=nfcTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.NfcTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.813
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [4855-8401, 4409-7634, 3795-6548]
+target: 4855-8401 uncovered, added to then retrial list!
+target: 4409-7634 uncovered, added to then retrial list!
+target: 3795-6548 uncovered, added to then retrial list!
+interestcase 0_2_NfcTest#nfcTest end
+
+index.3,  interestcase BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[3795-6548]
+current preference, name:default_openhab_demomode, value:1
+current preference, name:show_sitemaps, value:1
+current preference, name:default_openhab_screentimeroff, value:0
+current preference, name:default_openhab_fullscreen, value:0
+current preference, name:default_openhab_debug_messages, value:0
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase0_3_BasicWidgetTest#mainActivityTest.py]
+
+OK
+
+consumed time: 24.356987476348877 s
+
+jacoco time: 3.001129388809204 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.911
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3795-6548]
+loclog: 3795-6548 uncovered after retrial, deleted!
+interestcase 0_3_BasicWidgetTest#mainActivityTest end
+
+index.4,  interestcase BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[4409-7634]
+current preference, name:default_openhab_demomode, value:0
+current preference, name:default_openhab_debug_messages, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase0_4_BasicWidgetTest#mainActivityTest.py]
+
+OK
+
+consumed time: 22.020522117614746 s
+
+jacoco time: 3.0028371810913086 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.814
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [4409-7634]
+loclog: 4409-7634 uncovered after retrial, deleted!
+interestcase 0_4_BasicWidgetTest#mainActivityTest end
+
+index.5,  interestcase BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[4855-8401]
+current preference, name:default_openhab_demomode, value:1
+current preference, name:show_sitemaps, value:0
+current preference, name:default_openhab_screentimeroff, value:0
+current preference, name:default_openhab_fullscreen, value:0
+current preference, name:data_saver, value:1
+current preference, name:default_openhab_debug_messages, value:0
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase0_5_BasicWidgetTest#mainActivityTest.py]
+
+OK
+
+consumed time: 25.8564031124115 s
+
+jacoco time: 3.002354145050049 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.943
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [4855-8401]
+loclog: 4855-8401 uncovered after retrial, deleted!
+interestcase 0_5_BasicWidgetTest#mainActivityTest end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 2350-4085 ,target branch is: 2350-4086
+interests are:
+default_openhab_demomode      1    0     Connection
+discovered tags are : 0_5_BasicWidgetTest#mainActivityTest 0_4_BasicWidgetTest#mainActivityTest 0_3_BasicWidgetTest#mainActivityTest 0_1_BasicWidgetTest#mainActivityTest 0_2_NfcTest#nfcTest 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 3258-5598 ,target branch is: 3258-5597
+interests are:
+taskerPlugin      1    16     Miscellaneous
+discovered tags are : 0_5_BasicWidgetTest#mainActivityTest 0_4_BasicWidgetTest#mainActivityTest 0_3_BasicWidgetTest#mainActivityTest 0_1_BasicWidgetTest#mainActivityTest 
+--------------------------------
+index.1,  interestcase 0_1_BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[2350-4086]
+current preference, name:default_openhab_demomode, value:1
+current preference, name:show_sitemaps, value:1
+current preference, name:default_openhab_screentimeroff, value:1
+current preference, name:default_openhab_fullscreen, value:1
+current preference, name:data_saver, value:1
+current preference, name:default_openhab_debug_messages, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase1_1_0_1_BasicWidgetTest#mainActivityTest.py]
+
+OK
+
+consumed time: 25.31382441520691 s
+
+jacoco time: 3.002986431121826 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 15.905
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2350-4086]
+loclog: 2350-4086 uncovered after retrial, deleted!
+interestcase 1_1_0_1_BasicWidgetTest#mainActivityTest end
+
+index.2,  interestcase 0_1_BasicWidgetTest#mainActivityTest start:
+tagetlogs are:[3258-5597]
+current preference, name:default_openhab_demomode, value:0
+current preference, name:show_sitemaps, value:1
+current preference, name:default_openhab_screentimeroff, value:1
+current preference, name:default_openhab_fullscreen, value:1
+current preference, name:taskerPlugin, value:1
+current preference, name:data_saver, value:1
+current preference, name:default_openhab_debug_messages, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\openhab_bak\testcase\interestcases\testcase1_2_0_1_BasicWidgetTest#mainActivityTest.py]
+
+('Connection aborted.', ConnectionResetError(10054, 'Զ������ǿ�ȹر���һ�����е����ӡ�', None, 10054, None))
+
+OK
+
+consumed time: 48.738128900527954 s
+
+jacoco time: 3.0025453567504883 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'org.openhab.habdroid.ui.BasicWidgetTest#mainActivityTest', org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.openhab.habdroid.ui.BasicWidgetTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=mainActivityTest
+
+INSTRUMENTATION_STATUS: class=org.openhab.habdroid.ui.BasicWidgetTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.929
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3258-5597]
+loclog: 3258-5597 uncovered after retrial, deleted!
+interestcase 1_2_0_1_BasicWidgetTest#mainActivityTest end
+

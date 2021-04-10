@@ -1,0 +1,54 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "operationType":"back",
+         "type":"BACK"
+      }
+
+   },
+   "presteps":
+   {
+
+   },
+   "valuestepmap":
+   {
+      "0":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "type":"NORMAL",
+            "text":"Light"
+         }
+
+      },
+      "1":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "type":"NORMAL",
+            "text":"Dark"
+         }
+
+      },
+      "2":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Black",
+            "type":"NORMAL"
+         }
+
+      }
+   },
+   "type":"INT",
+   "adapted":true,
+   "key":"colorTheme"
+}

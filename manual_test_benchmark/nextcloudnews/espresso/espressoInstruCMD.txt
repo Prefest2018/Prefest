@@ -1,0 +1,1 @@
+adb shell CLASSPATH=$(pm path androidx.test.services) app_process / androidx.test.services.shellexecutor.ShellMain am instrument -r -w -e targetInstrumentation de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner -e debug false -e class [name] androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator

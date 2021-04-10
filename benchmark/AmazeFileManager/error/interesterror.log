@@ -1,327 +1,2791 @@
-1_6_006
+0_1_6_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-2_4_007
+0_2_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-3_5_007
+E/SQLiteDatabase( 4296): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4296): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4296): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4296): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4296): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4296): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 4296): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4296): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4296): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4296): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4296): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4296): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4296): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4296): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_3_7_021
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-4_7_003
+E/SQLiteDatabase( 4508): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4508): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4508): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4508): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4508): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4508): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 4508): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4508): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4508): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4508): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4508): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4508): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4508): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4508): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/AndroidRuntime( 4580): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 4580): Process: com.amaze.filemanager, PID: 4580
+
+E/AndroidRuntime( 4580): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 4580): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 4580): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 4580): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 4580): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 4580): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 4580): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 4580): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 4580): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 4580): 	at com.amaze.filemanager.fragments.MainFragment.reloadListElements(MainFragment.java:1080)
+
+E/AndroidRuntime( 4580): 	at com.amaze.filemanager.fragments.MainFragment.onSavedInstanceState(MainFragment.java:443)
+
+E/AndroidRuntime( 4580): 	at com.amaze.filemanager.fragments.MainFragment.onActivityCreated(MainFragment.java:326)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.Fragment.performActivityCreated(Fragment.java:2355)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1451)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1759)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1827)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3244)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3200)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:195)
+
+E/AndroidRuntime( 4580): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:597)
+
+E/AndroidRuntime( 4580): 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+
+E/AndroidRuntime( 4580): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 4580): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 4580): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 4580): 	... 11 more
+
+E/SQLiteDatabase( 4731): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4731): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4731): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4731): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4731): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4731): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 4731): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4731): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4731): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4731): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4731): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4731): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4731): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4731): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_4_4_029
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-5_5_002
+E/SQLiteDatabase( 4982): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 4982): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 4982): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 4982): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 4982): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 4982): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 4982): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 4982): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 4982): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 4982): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5186): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5186): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5186): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5186): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5186): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5186): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5186): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5186): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5186): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5186): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5186): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5186): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5186): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5186): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5186): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5186): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5186): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5186): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5186): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_5_4_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-6_5_005
+E/SQLiteDatabase( 5453): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5453): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5453): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5453): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5453): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5453): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5453): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5453): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5453): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5453): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5453): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5453): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5453): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5453): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5453): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5453): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5453): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5453): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5453): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5640): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5640): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5640): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5640): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5640): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5640): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5640): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5640): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5640): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5640): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5640): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5640): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5640): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5640): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5640): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_6_2_014
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-7_1_002
+E/SQLiteDatabase( 5855): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5855): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5855): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5855): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5855): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5855): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5855): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5855): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5855): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5855): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5855): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5855): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 5855): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 5855): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 5855): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 5855): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 5855): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 5855): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 5855): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6038): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6038): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6038): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6038): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6038): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6038): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6038): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6038): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6038): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6038): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_7_4_025
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-8_5_028
+E/SQLiteDatabase( 6280): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6280): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6280): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6280): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6280): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6280): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6280): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6280): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6280): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6280): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6472): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6472): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6472): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6472): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6472): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6472): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6472): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6472): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6472): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6472): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_8_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-9_7_021
+E/SQLiteDatabase( 6669): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6669): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6669): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6669): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6669): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6669): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6669): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6669): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6669): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6669): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6669): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6669): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6669): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6669): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6669): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6669): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6669): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6669): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6669): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6669): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6669): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6669): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6669): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 6855): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 6855): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 6855): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 6855): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 6855): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 6855): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 6855): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 6855): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 6855): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 6855): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_9_4_007
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-E/AndroidRuntime( 6854): FATAL EXCEPTION: main
+E/SQLiteDatabase( 7065): Error inserting path=/storage/sdcard
 
-E/AndroidRuntime( 6854): Process: com.amaze.filemanager, PID: 6854
+E/SQLiteDatabase( 7065): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-E/AndroidRuntime( 6854): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
 
-E/AndroidRuntime( 6854): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
 
-E/AndroidRuntime( 6854): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
 
-E/AndroidRuntime( 6854): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
 
-E/AndroidRuntime( 6854): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase( 7065): 	at android.os.Handler.handleCallback(Handler.java:733)
 
-E/AndroidRuntime( 6854): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase( 7065): 	at android.os.Handler.dispatchMessage(Handler.java:95)
 
-E/AndroidRuntime( 6854): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase( 7065): 	at android.os.Looper.loop(Looper.java:136)
 
-E/AndroidRuntime( 6854): 	at dalvik.system.NativeStart.main(Native Method)
+E/SQLiteDatabase( 7065): 	at android.os.HandlerThread.run(HandlerThread.java:61)
 
-E/AndroidRuntime( 6854): Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+E/SQLiteDatabase( 7065): Error inserting path=/storage/sdcard
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+E/SQLiteDatabase( 7065): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
-E/AndroidRuntime( 6854): 	at android.view.AbsSavedState.<init>(AbsSavedState.java:57)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
 
-E/AndroidRuntime( 6854): 	at android.view.View$BaseSavedState.<init>(View.java:18661)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
 
-E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:128)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
 
-E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:120)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
 
-E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:142)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
 
-E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:140)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelable(Parcel.java:2104)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readValue(Parcel.java:2013)
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readSparseArrayInternal(Parcel.java:2363)
+E/SQLiteDatabase( 7065): 	at android.os.Handler.handleCallback(Handler.java:733)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readSparseArray(Parcel.java:1735)
+E/SQLiteDatabase( 7065): 	at android.os.Handler.dispatchMessage(Handler.java:95)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readValue(Parcel.java:2070)
+E/SQLiteDatabase( 7065): 	at android.os.Looper.loop(Looper.java:136)
 
-E/AndroidRuntime( 6854): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+E/SQLiteDatabase( 7065): 	at android.os.HandlerThread.run(HandlerThread.java:61)
 
-E/AndroidRuntime( 6854): 	at android.os.Bundle.unparcel(Bundle.java:249)
+E/SQLiteDatabase( 7065): Error inserting path=/storage/sdcard
 
-E/AndroidRuntime( 6854): 	at android.os.Bundle.getSparseParcelableArray(Bundle.java:1273)
+E/SQLiteDatabase( 7065): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-E/AndroidRuntime( 6854): 	at com.android.internal.policy.impl.PhoneWindow.restoreHierarchyState(PhoneWindow.java:1741)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
-E/AndroidRuntime( 6854): 	at android.app.Activity.onRestoreInstanceState(Activity.java:944)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
 
-E/AndroidRuntime( 6854): 	at android.app.Activity.performRestoreInstanceState(Activity.java:916)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
 
-E/AndroidRuntime( 6854): 	at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1138)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
 
-E/AndroidRuntime( 6854): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2173)
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
 
-E/AndroidRuntime( 6854): 	... 11 more
+E/SQLiteDatabase( 7065): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
 
-10_4_001
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 7065): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 7065): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 7065): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 7065): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 7065): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_10_4_002
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-11_6_025
+E/SQLiteDatabase( 7542): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 7542): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 7542): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 7542): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 7542): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 7542): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 7542): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 7542): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 7542): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 7542): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 7542): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 7542): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 7542): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 7542): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 7782): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 7782): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 7782): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 7782): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 7782): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 7782): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 7782): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 7782): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 7782): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 7782): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 7782): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 7782): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 7782): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 7782): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_11_6_015
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-12_4_025
+E/SQLiteDatabase( 8261): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 8261): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8261): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8261): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8261): Error inserting path=/storage/sdcard/Books
+
+E/SQLiteDatabase( 8261): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8261): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8261): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8261): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8261): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8261): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8261): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8261): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8261): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8261): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8261): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8261): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8261): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8261): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_12_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-13_7_022
+E/SQLiteDatabase( 8479): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8479): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8479): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8479): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8479): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8479): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8479): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8479): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8479): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 8479): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8479): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8479): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8479): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8479): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8701): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase( 8701): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8701): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8701): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8701): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8701): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 8701): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8701): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8701): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8701): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8701): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8701): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8701): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8701): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_13_1_029
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-14_4_017
+E/SQLiteDatabase( 8901): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 8901): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 8901): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 8901): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 8901): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 8901): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 8901): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 8901): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 8901): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 8901): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase( 9114): Error inserting path=/storage/sdcard/Pictures
+
+E/SQLiteDatabase( 9114): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase( 9114): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase( 9114): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase( 9114): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase( 9114): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase( 9114): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase( 9114): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase( 9114): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase( 9114): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_14_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-15_3_021
+0_15_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-16_3_021
+0_16_4_025
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-17_5_007
+E/SQLiteDatabase(10137): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10137): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10137): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10137): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10137): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10137): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10137): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10137): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10137): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10137): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10361): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10361): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10361): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10361): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10361): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10361): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10361): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10361): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10361): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10361): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10361): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10361): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10361): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10361): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_17_5_005
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-18_4_025
+E/SQLiteDatabase(10554): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10554): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10554): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10554): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10554): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10554): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10554): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(10554): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10554): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10554): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10554): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10554): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10554): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10554): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10773): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10773): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10773): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10773): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10773): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10773): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10773): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(10773): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10773): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10773): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10773): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10773): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10773): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10773): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_18_4_025
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-19_6_006
+E/SQLiteDatabase(10967): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10967): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10967): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10967): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10967): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10967): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(10967): Error inserting path=/storage/sdcard/Pictures/Screenshots
+
+E/SQLiteDatabase(10967): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(10967): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(10967): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(10967): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(10967): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(10967): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(10967): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(11189): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(11189): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(11189): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(11189): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(11189): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(11189): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(11189): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(11189): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(11189): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(11189): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_19_1_021
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-20_5_007
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): Error inserting path=/storage/sdcard
 
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-21_1_002
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
 
-22_5_028
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
 
-23_4_017
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
 
-24_3_018
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
 
-25_4_001
---------- beginning of /dev/log/main
+E/SQLiteDatabase(11381): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(11381): 	at android.os.Handler.handleCallback(Handler.java:733)
 
-E/AndroidRuntime( 5955): FATAL EXCEPTION: main
+E/SQLiteDatabase(11381): 	at android.os.Handler.dispatchMessage(Handler.java:95)
 
-E/AndroidRuntime( 5955): Process: com.amaze.filemanager, PID: 5955
+E/SQLiteDatabase(11381): 	at android.os.Looper.loop(Looper.java:136)
 
-E/AndroidRuntime( 5955): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+E/SQLiteDatabase(11381): 	at android.os.HandlerThread.run(HandlerThread.java:61)
 
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+E/SQLiteDatabase(11593): Error inserting path=/storage/sdcard/Pictures/Screenshots
 
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/SQLiteDatabase(11593): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
 
-E/AndroidRuntime( 5955): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
 
-E/AndroidRuntime( 5955): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
 
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
 
-E/AndroidRuntime( 5955): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(11593): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
 
-E/AndroidRuntime( 5955): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(11593): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
 
-E/AndroidRuntime( 5955): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(11593): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
 
-E/AndroidRuntime( 5955): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(11593): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
 
-E/AndroidRuntime( 5955): 	at dalvik.system.NativeStart.main(Native Method)
+E/SQLiteDatabase(11593): 	at android.os.Handler.handleCallback(Handler.java:733)
 
-E/AndroidRuntime( 5955): Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+E/SQLiteDatabase(11593): 	at android.os.Handler.dispatchMessage(Handler.java:95)
 
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+E/SQLiteDatabase(11593): 	at android.os.Looper.loop(Looper.java:136)
 
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+E/SQLiteDatabase(11593): 	at android.os.HandlerThread.run(HandlerThread.java:61)
 
-E/AndroidRuntime( 5955): 	at android.view.AbsSavedState.<init>(AbsSavedState.java:57)
-
-E/AndroidRuntime( 5955): 	at android.view.View$BaseSavedState.<init>(View.java:18661)
-
-E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:128)
-
-E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:120)
-
-E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:142)
-
-E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:140)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelable(Parcel.java:2104)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readValue(Parcel.java:2013)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readSparseArrayInternal(Parcel.java:2363)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readSparseArray(Parcel.java:1735)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readValue(Parcel.java:2070)
-
-E/AndroidRuntime( 5955): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
-
-E/AndroidRuntime( 5955): 	at android.os.Bundle.unparcel(Bundle.java:249)
-
-E/AndroidRuntime( 5955): 	at android.os.Bundle.getSparseParcelableArray(Bundle.java:1273)
-
-E/AndroidRuntime( 5955): 	at com.android.internal.policy.impl.PhoneWindow.restoreHierarchyState(PhoneWindow.java:1741)
-
-E/AndroidRuntime( 5955): 	at android.app.Activity.onRestoreInstanceState(Activity.java:944)
-
-E/AndroidRuntime( 5955): 	at android.app.Activity.performRestoreInstanceState(Activity.java:916)
-
-E/AndroidRuntime( 5955): 	at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1138)
-
-E/AndroidRuntime( 5955): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2173)
-
-E/AndroidRuntime( 5955): 	... 11 more
-
-26_5_005
+0_20_6_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-27_6_006
+E/SQLiteDatabase(12052): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12052): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12052): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12052): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(12052): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12052): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12052): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12052): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(12052): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12052): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12052): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12052): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(12052): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12052): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12052): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12052): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(12052): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12052): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12052): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12052): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12052): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12052): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12052): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_21_6_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-28_5_007
+0_22_3_018
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-29_1_029
+E/SQLiteDatabase(12698): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12698): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12698): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12698): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12698): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12698): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12698): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12698): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12698): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12698): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(12931): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(12931): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(12931): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(12931): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(12931): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(12931): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(12931): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(12931): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(12931): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(12931): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_23_4_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-30_6_006
+E/SQLiteDatabase(13200): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(13200): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(13200): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(13200): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(13200): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(13200): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(13200): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(13200): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(13200): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(13200): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(13430): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(13430): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(13430): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(13430): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(13430): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(13430): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(13430): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(13430): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(13430): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(13430): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_24_6_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-31_7_021
+E/SQLiteDatabase(13629): Error inserting path=/storage/sdcard/Android
+
+E/SQLiteDatabase(13629): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(13629): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(13629): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(13629): Error inserting path=/storage/sdcard/Android
+
+E/SQLiteDatabase(13629): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(13629): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(13629): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(13629): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(13629): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(13629): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(13629): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(13629): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(13629): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(13629): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+1_1_0_24_6_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-32_6_025
+E/SQLiteDatabase(14174): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14174): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14174): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14174): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14174): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14174): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14174): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14174): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14174): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14174): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14174): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14174): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14174): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14174): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14174): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+E/SQLiteDatabase(14470): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14470): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14470): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14470): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14470): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14470): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14470): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14470): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14470): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14470): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14470): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14470): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14470): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14470): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14470): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14470): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14470): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14470): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14470): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+1_2_0_5_4_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-33_7_003
+E/SQLiteDatabase(14690): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14690): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14690): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14690): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14690): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14690): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14690): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14690): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14690): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14690): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14690): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14690): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14690): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14690): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14690): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(14873): Error inserting path=/storage/sdcard
+
+E/SQLiteDatabase(14873): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(14873): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(14873): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(14873): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(14873): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(14873): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(14873): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(14873): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(14873): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+1_3_0_5_4_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-34_3_012
---------- beginning of /dev/log/system
+E/SQLiteDatabase(15123): Error inserting path=/storage/sdcard
 
---------- beginning of /dev/log/main
+E/SQLiteDatabase(15123): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
 
-35_5_002
---------- beginning of /dev/log/main
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
 
---------- beginning of /dev/log/system
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(15123): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(15123): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(15123): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(15123): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(15123): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(15123): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(15123): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(15123): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(15305): Error inserting path=/storage/sdcard/Android
+
+E/SQLiteDatabase(15305): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(15305): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(15305): 	at com.amaze.filemanager.database.UtilsHandler.setPath(UtilsHandler.java:526)
+
+E/SQLiteDatabase(15305): 	at com.amaze.filemanager.database.UtilsHandler.lambda$saveToDatabase$0$UtilsHandler(UtilsHandler.java:185)
+
+E/SQLiteDatabase(15305): 	at com.amaze.filemanager.database.UtilsHandler$$Lambda$0.run(dalvik_source_AmazeFileManager.apk)
+
+E/SQLiteDatabase(15305): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/SQLiteDatabase(15305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/SQLiteDatabase(15305): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(15305): 	at android.os.HandlerThread.run(HandlerThread.java:61)
 

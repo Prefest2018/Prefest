@@ -1,0 +1,801 @@
+第0条Scene：
+originloc为：2282-4266 ,targetloc为：2282-4265
+interests为如下：
+pref_unit      Kilometers    35     null
+[5_024, 5_023, 2_018, 1_004, 4_003, 4_020, 3_015, 3_009, 2_010, 1_019, 2_026, 4_007, 2_024, 5_025, 4_028, 3_004, 2_028, 5_017, 3_025, 4_002, 2_015, 5_004, 3_017, 1_015, 5_019, 5_022, 4_018, 4_015, 3_019, 2_008, 4_000, 3_018, 3_010, 1_016, 2_022, 1_003, 5_026, 3_020, 2_011, 1_014, 5_013, 3_023, 2_016, 5_015, 1_010, 5_029, 1_013, 5_012, 4_010, 3_011, 1_017, 2_002, 3_014, 2_025, 5_010, 2_019, 5_008, 2_006, 3_003, 2_017, 2_029, 4_016, 4_029, 1_023, 1_020, 4_021, 3_027, 4_013, 3_012, 5_007, 3_026, 1_007, 1_026, 4_022, 1_002, 5_009, 3_005, 5_011, 1_006, 3_006, 3_029, 4_004, 2_009, 1_028, 3_002, 4_027, 5_021, 3_013, 1_022, 5_001, 1_021, 3_008, 1_024, 3_022, 2_003, 2_021, 5_005, 5_000, 3_016, 2_001, 5_003, 5_027, 3_007, 1_005, 4_005, 1_008, 1_009, 1_025, 1_011, 2_012, 5_014, 4_023, 2_020, 5_006, 1_027, 4_024, 4_026, 4_017, 4_001, 1_000, 2_023, 2_007, 5_016, 1_001, 4_014, 3_001, 3_028, 4_019, 1_018, 4_011, 4_025, 5_018, 2_014, 3_021, 2_013, 1_029, 3_000, 4_012, 4_009, 2_004, 2_000, 2_027, 2_005, 1_012, 4_008, 5_002, 5_020, 5_028, 4_006]
+--------------------------------
+第1条Scene：
+originloc为：2283-4267 ,targetloc为：2283-4268
+interests为如下：
+pref_unit      Kilometers    35     null
+preinterests为如下：
+pref_unit      Miles    35      null
+[5_024, 5_023, 2_018, 1_004, 4_003, 4_020, 3_015, 3_009, 2_010, 1_019, 2_026, 4_007, 2_024, 5_025, 4_028, 3_004, 2_028, 5_017, 3_025, 4_002, 2_015, 5_004, 3_017, 1_015, 5_019, 5_022, 4_018, 4_015, 3_019, 2_008, 4_000, 3_018, 3_010, 1_016, 2_022, 1_003, 5_026, 3_020, 2_011, 1_014, 5_013, 3_023, 2_016, 5_015, 1_010, 5_029, 1_013, 5_012, 4_010, 3_011, 1_017, 2_002, 3_014, 2_025, 5_010, 2_019, 5_008, 2_006, 3_003, 2_017, 2_029, 4_016, 4_029, 1_023, 1_020, 4_021, 3_027, 4_013, 3_012, 5_007, 3_026, 1_007, 1_026, 4_022, 1_002, 5_009, 3_005, 5_011, 1_006, 3_006, 3_029, 4_004, 2_009, 1_028, 3_002, 4_027, 5_021, 3_013, 1_022, 5_001, 1_021, 3_008, 1_024, 3_022, 2_003, 2_021, 5_005, 5_000, 3_016, 2_001, 5_003, 5_027, 3_007, 1_005, 4_005, 1_008, 1_009, 1_025, 1_011, 2_012, 5_014, 4_023, 2_020, 5_006, 1_027, 4_024, 4_026, 4_017, 4_001, 1_000, 2_023, 2_007, 5_016, 1_001, 4_014, 3_001, 3_028, 4_019, 1_018, 4_011, 4_025, 5_018, 2_014, 3_021, 2_013, 1_029, 3_000, 4_012, 4_009, 2_004, 2_000, 2_027, 2_005, 1_012, 4_008, 5_002, 5_020, 5_028, 4_006]
+--------------------------------
+第2条Scene：
+originloc为：1683-3220 ,targetloc为：1683-3221
+interests为如下：
+pref_keystartstop_active      1    40     null
+preinterests为如下：
+pref_unit      Miles    35      null
+[5_024, 5_023, 2_018, 1_004, 4_003, 4_020, 3_015, 3_009, 2_010, 1_019, 2_026, 4_007, 2_024, 5_025, 4_028, 3_004, 2_028, 5_017, 3_025, 4_002, 2_015, 5_004, 3_017, 1_015, 5_019, 5_022, 4_018, 4_015, 3_019, 2_008, 4_000, 3_018, 3_010, 1_016, 2_022, 1_003, 5_026, 3_020, 2_011, 1_014, 5_013, 3_023, 2_016, 5_015, 1_010, 5_029, 1_013, 5_012, 4_010, 3_011, 1_017, 2_002, 3_014, 2_025, 5_010, 2_019, 5_008, 2_006, 3_003, 2_017, 2_029, 4_016, 4_029, 1_023, 1_020, 4_021, 3_027, 4_013, 3_012, 5_007, 3_026, 1_007, 1_026, 4_022, 1_002, 5_009, 3_005, 5_011, 1_006, 3_006, 3_029, 4_004, 2_009, 1_028, 3_002, 4_027, 5_021, 3_013, 1_022, 5_001, 1_021, 3_008, 1_024, 3_022, 2_003, 2_021, 5_005, 5_000, 3_016, 2_001, 5_003, 5_027, 3_007, 1_005, 4_005, 1_008, 1_009, 1_025, 1_011, 2_012, 5_014, 4_023, 2_020, 5_006, 1_027, 4_024, 4_026, 4_017, 4_001, 1_000, 2_023, 2_007, 5_016, 1_001, 4_014, 3_001, 3_028, 4_019, 1_018, 4_011, 4_025, 5_018, 2_014, 3_021, 2_013, 1_029, 3_000, 4_012, 4_009, 2_004, 2_000, 2_027, 2_005, 1_012, 4_008, 5_002, 5_020, 5_028, 4_006]
+--------------------------------
+第3条Scene：
+originloc为：1754-3340 ,targetloc为：1754-3339
+interests为如下：
+ass_location_gps      0    -1     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_unit      Miles    35      null
+[5_024, 5_023, 2_018, 1_004, 4_003, 4_020, 3_015, 3_009, 2_010, 1_019, 2_026, 4_007, 2_024, 5_025, 4_028, 3_004, 2_028, 5_017, 3_025, 4_002, 2_015, 5_004, 3_017, 1_015, 5_019, 5_022, 4_018, 4_015, 3_019, 2_008, 4_000, 3_018, 3_010, 1_016, 2_022, 1_003, 5_026, 3_020, 2_011, 1_014, 5_013, 3_023, 2_016, 5_015, 1_010, 5_029, 1_013, 5_012, 4_010, 3_011, 1_017, 2_002, 3_014, 2_025, 5_010, 2_019, 5_008, 2_006, 3_003, 2_017, 2_029, 4_016, 4_029, 1_023, 1_020, 4_021, 3_027, 4_013, 3_012, 5_007, 3_026, 1_007, 1_026, 4_022, 1_002, 5_009, 3_005, 5_011, 1_006, 3_006, 3_029, 4_004, 2_009, 1_028, 3_002, 4_027, 5_021, 3_013, 1_022, 5_001, 1_021, 3_008, 1_024, 3_022, 2_003, 2_021, 5_005, 5_000, 3_016, 2_001, 5_003, 5_027, 3_007, 1_005, 4_005, 1_008, 1_009, 1_025, 1_011, 2_012, 5_014, 4_023, 2_020, 5_006, 1_027, 4_024, 4_026, 4_017, 4_001, 1_000, 2_023, 2_007, 5_016, 1_001, 4_014, 3_001, 3_028, 4_019, 1_018, 4_011, 4_025, 5_018, 2_014, 3_021, 2_013, 1_029, 3_000, 4_012, 4_009, 2_004, 2_000, 2_027, 2_005, 1_012, 4_008, 5_002, 5_020, 5_028, 4_006]
+--------------------------------
+第4条Scene：
+originloc为：1670-3200 ,targetloc为：1670-3199
+interests为如下：
+pref_startgps      1    37     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+[5_024, 5_023, 2_018, 1_004, 4_003, 4_020, 3_015, 3_009, 2_010, 1_019, 2_026, 4_007, 2_024, 5_025, 4_028, 3_004, 2_028, 5_017, 3_025, 4_002, 2_015, 5_004, 3_017, 1_015, 5_019, 5_022, 4_018, 4_015, 3_019, 2_008, 4_000, 3_018, 3_010, 1_016, 2_022, 1_003, 5_026, 3_020, 2_011, 1_014, 5_013, 3_023, 2_016, 5_015, 1_010, 5_029, 1_013, 5_012, 4_010, 3_011, 1_017, 2_002, 3_014, 2_025, 5_010, 2_019, 5_008, 2_006, 3_003, 2_017, 2_029, 4_016, 4_029, 1_023, 1_020, 4_021, 3_027, 4_013, 3_012, 5_007, 3_026, 1_007, 1_026, 4_022, 1_002, 5_009, 3_005, 5_011, 1_006, 3_006, 3_029, 4_004, 2_009, 1_028, 3_002, 4_027, 5_021, 3_013, 1_022, 5_001, 1_021, 3_008, 1_024, 3_022, 2_003, 2_021, 5_005, 5_000, 3_016, 2_001, 5_003, 5_027, 3_007, 1_005, 4_005, 1_008, 1_009, 1_025, 1_011, 2_012, 5_014, 4_023, 2_020, 5_006, 1_027, 4_024, 4_026, 4_017, 4_001, 1_000, 2_023, 2_007, 5_016, 1_001, 4_014, 3_001, 3_028, 4_019, 1_018, 4_011, 4_025, 5_018, 2_014, 3_021, 2_013, 1_029, 3_000, 4_012, 4_009, 2_004, 2_000, 2_027, 2_005, 1_012, 4_008, 5_002, 5_020, 5_028, 4_006]
+--------------------------------
+第5条Scene：
+originloc为：1852-3553 ,targetloc为：1852-3552
+interests为如下：
+pref_startgps      1    37     null
+preinterests为如下：
+pref_use_pressure_sensor      0    44      null
+pref_keystartstop_active      0    40      null
+pref_use_temperature_sensor      0    43      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_use_cadence_step_sensor      1    42      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[4_020, 3_009, 4_007, 3_004, 4_002, 3_017, 4_018, 4_015, 3_019, 4_000, 3_018, 3_010, 3_011, 3_014, 3_003, 4_029, 1_020, 4_021, 3_012, 1_002, 1_006, 3_006, 1_028, 3_002, 4_027, 3_016, 1_005, 1_008, 1_009, 1_025, 1_027, 4_026, 4_001, 3_001, 4_019, 4_025, 1_029, 4_012, 4_009, 4_008]
+--------------------------------
+第6条Scene：
+originloc为：4369-8897 ,targetloc为：4369-8896
+interests为如下：
+ass_location_gps      0    -1     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[3_009, 4_007, 4_028, 4_016, 1_020, 1_026, 3_006, 4_004, 1_028, 3_002, 3_008, 3_007, 1_009, 1_027, 4_017, 3_001, 4_012]
+--------------------------------
+第7条Scene：
+originloc为：5281-10573 ,targetloc为：5281-10572
+interests为如下：
+pref_use_temperature_sensor      1    43     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[3_009, 4_007, 4_028, 4_016, 1_020, 1_026, 3_006, 4_004, 1_028, 3_002, 3_008, 3_007, 1_009, 1_027, 4_017, 3_001, 4_012]
+--------------------------------
+第8条Scene：
+originloc为：2688-5022 ,targetloc为：2688-5021
+interests为如下：
+pref_use_pressure_sensor      1    44     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_use_temperature_sensor      0    43      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[3_009, 4_007, 4_028, 4_016, 1_020, 1_026, 3_006, 4_004, 1_028, 3_002, 3_008, 3_007, 1_009, 1_027, 4_017, 3_001, 4_012]
+--------------------------------
+第9条Scene：
+originloc为：2793-5183 ,targetloc为：2793-5182
+interests为如下：
+pref_use_cadence_step_sensor      0    42     null
+preinterests为如下：
+pref_use_pressure_sensor      0    44      null
+pref_keystartstop_active      0    40      null
+pref_use_temperature_sensor      0    43      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[3_009, 4_007, 4_028, 4_016, 1_020, 1_026, 3_006, 4_004, 1_028, 3_002, 3_008, 3_007, 1_009, 1_027, 4_017, 3_001, 4_012]
+--------------------------------
+第10条Scene：
+originloc为：7474-15269 ,targetloc为：7474-15270
+interests为如下：
+pref_convert_advanced_distance_rest_to_recovery      1    61     null
+preinterests为如下：
+pref_use_pressure_sensor      0    44      null
+pref_keystartstop_active      0    40      null
+pref_use_temperature_sensor      0    43      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_use_cadence_step_sensor      1    42      null
+[3_009, 1_003, 3_003, 4_029, 1_023, 4_021, 4_013, 1_007, 4_022, 3_005, 1_022]
+--------------------------------
+第11条Scene：
+originloc为：5829-11553 ,targetloc为：5829-11554
+interests为如下：
+pref_convert_advanced_distance_rest_to_recovery      0    61     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      0    61      null
+[4_022, 3_005]
+--------------------------------
+第12条Scene：
+originloc为：1826-3502 ,targetloc为：1826-3501
+interests为如下：
+pref_startgps      1    37     null
+preinterests为如下：
+pref_use_pressure_sensor      0    44      null
+pref_keystartstop_active      0    40      null
+pref_use_temperature_sensor      0    43      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_use_cadence_step_sensor      1    42      null
+[2_010]
+--------------------------------
+第13条Scene：
+originloc为：5829-11554 ,targetloc为：5829-11553
+interests为如下：
+pref_convert_advanced_distance_rest_to_recovery      1    61     null
+preinterests为如下：
+pref_keystartstop_active      0    40      null
+pref_startgps      0    37      null
+pref_unit      Miles    35      null
+ass_location_gps      1    -1      null
+pref_convert_advanced_distance_rest_to_recovery      1    61      null
+[5_024, 5_013, 3_005]
+--------------------------------
+index.1,  interestcase 3_009 start:
+此时tagetlogs为：[1852-3552, 5281-10572, 4369-8896, 1683-3221, 1670-3199, 2282-4265, 7474-15270, 2283-4268, 2688-5021, 2793-5182]
+当前systemservice的name为：ass_location_gps, value为：0
+当前preference的name为：pref_unit, value为：Kilometers
+当前preference的name为：pref_startgps, value为：1
+当前preference的name为：pref_keystartstop_active, value为：1
+当前preference的name为：pref_use_cadence_step_sensor, value为：0
+当前preference的name为：pref_use_temperature_sensor, value为：1
+当前preference的name为：pref_use_pressure_sensor, value为：1
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase1_3_009.py]
+
+consumed time: 49.1679999828 s
+
+jacoco time: 13.3050000668 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase1_3_009.py", line 143, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"GPS: 0/0 satellites\")", "new UiSelector().className(\"android.widget.TextView\").instance(11)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase1_3_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 21.753000021 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[1852-3552, 5281-10572, 4369-8896, 1683-3221, 1670-3199, 2282-4265, 2688-5021]
+该测试用例未覆盖到的log为:[7474-15270, 2283-4268, 2793-5182]
+interestcase 3_009 end
+
+index.2,  interestcase 5_024 start:
+此时tagetlogs为：[5829-11553, 1754-3339, 2283-4268]
+当前systemservice的name为：ass_location_gps, value为：0
+当前preference的name为：pref_unit, value为：Kilometers
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase2_5_024.py]
+
+consumed time: 21.120000124 s
+
+jacoco time: 58.5699999332 s
+
+该测试用例覆盖到的log为:[1754-3339]
+该测试用例未覆盖到的log为:[5829-11553, 2283-4268]
+interestcase 5_024 end
+
+index.3,  interestcase 2_010 start:
+此时tagetlogs为：[1826-3501, 2283-4268]
+当前preference的name为：pref_unit, value为：Kilometers
+当前preference的name为：pref_startgps, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase3_2_010.py]
+
+consumed time: 20.5460000038 s
+
+jacoco time: 36.2369999886 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase3_2_010.py", line 130, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"00:05:00\")", "new UiSelector().className(\"android.widget.TextView\").instance(9)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase3_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.2860000134 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1826-3501, 2283-4268]
+loclog: 1826-3501 未成功覆盖，放入重试列表中!
+loclog: 2283-4268 未成功覆盖，放入重试列表中!
+interestcase 2_010 end
+
+index.4,  interestcase 4_007 start:
+此时tagetlogs为：[2793-5182]
+当前preference的name为：pref_use_cadence_step_sensor, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase4_4_007.py]
+
+consumed time: 24.4489998817 s
+
+jacoco time: 2.05200004578 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase4_4_007.py", line 123, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase4_4_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.2939999104 s
+
+jacoco time: 5.00400018692 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2793-5182]
+loclog: 2793-5182 未成功覆盖，放入重试列表中!
+interestcase 4_007 end
+
+index.5,  interestcase 1_003 start:
+此时tagetlogs为：[7474-15270]
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase5_1_003.py]
+
+consumed time: 17.4759998322 s
+
+jacoco time: 2.21900010109 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase5_1_003.py", line 152, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Lietuvių\")", "new UiSelector().className(\"android.widget.CheckedTextView\").instance(2)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase5_1_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 119.780999899 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[7474-15270]
+该测试用例未覆盖到的log为:[]
+interestcase 1_003 end
+
+index.6,  interestcase 5_013 start:
+此时tagetlogs为：[5829-11553]
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase6_5_013.py]
+
+consumed time: 19.9430000782 s
+
+jacoco time: 2.06200003624 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase6_5_013.py", line 141, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase6_5_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 46.6499998569 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[5829-11553]
+loclog: 5829-11553 未成功覆盖，放入重试列表中!
+interestcase 5_013 end
+
+index.7,  interestcase 4_022 start:
+此时tagetlogs为：[5829-11554]
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase7_4_022.py]
+
+consumed time: 16.5870001316 s
+
+jacoco time: 2.07399988174 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase7_4_022.py", line 133, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase7_4_022.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.3389999866 s
+
+jacoco time: 5.01300001144 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[5829-11554]
+loclog: 5829-11554 未成功覆盖，放入重试列表中!
+interestcase 4_022 end
+
+index.8,  interestcase 5_024 start:
+此时tagetlogs为：[2283-4268]
+当前preference的name为：pref_unit, value为：Kilometers
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase8_5_024.py]
+
+consumed time: 14.9649999142 s
+
+jacoco time: 0.479000091553 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase8_5_024.py", line 128, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase8_5_024.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.5659999847 s
+
+jacoco time: 5.00400018692 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2283-4268]
+loclog: 2283-4268 重试未成功覆盖，删除!
+interestcase 5_024 end
+
+index.9,  interestcase 5_024 start:
+此时tagetlogs为：[5829-11553]
+当前systemservice的name为：ass_location_gps, value为：1
+当前preference的name为：pref_unit, value为：Miles
+当前preference的name为：pref_startgps, value为：0
+当前preference的name为：pref_keystartstop_active, value为：0
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase9_5_024.py]
+
+consumed time: 28.1760001183 s
+
+jacoco time: 9.47000002861 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase9_5_024.py", line 140, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase9_5_024.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.8209998608 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[5829-11553]
+loclog: 5829-11553 重试未成功覆盖，删除!
+interestcase 5_024 end
+
+index.10,  interestcase 2_010 start:
+此时tagetlogs为：[1826-3501]
+当前systemservice的name为：ass_location_gps, value为：1
+当前preference的name为：pref_unit, value为：Miles
+当前preference的name为：pref_startgps, value为：1
+当前preference的name为：pref_keystartstop_active, value为：0
+当前preference的name为：pref_use_cadence_step_sensor, value为：1
+当前preference的name为：pref_use_temperature_sensor, value为：0
+当前preference的name为：pref_use_pressure_sensor, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase10_2_010.py]
+
+consumed time: 38.9199998379 s
+
+jacoco time: 2.05100011826 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase10_2_010.py", line 136, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase10_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.3740000725 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1826-3501]
+loclog: 1826-3501 重试未成功覆盖，删除!
+interestcase 2_010 end
+
+index.11,  interestcase 3_009 start:
+此时tagetlogs为：[2793-5182]
+当前systemservice的name为：ass_location_gps, value为：1
+当前preference的name为：pref_unit, value为：Miles
+当前preference的name为：pref_startgps, value为：0
+当前preference的name为：pref_keystartstop_active, value为：0
+当前preference的name为：pref_use_cadence_step_sensor, value为：0
+当前preference的name为：pref_use_temperature_sensor, value为：0
+当前preference的name为：pref_use_pressure_sensor, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase11_3_009.py]
+
+consumed time: 46.503000021 s
+
+jacoco time: 11.1540000439 s
+
+OK
+
+consumed time: 43.8230001926 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2793-5182]
+loclog: 2793-5182 重试未成功覆盖，删除!
+interestcase 3_009 end
+
+index.12,  interestcase 4_022 start:
+此时tagetlogs为：[5829-11554]
+当前systemservice的name为：ass_location_gps, value为：1
+当前preference的name为：pref_unit, value为：Miles
+当前preference的name为：pref_startgps, value为：0
+当前preference的name为：pref_keystartstop_active, value为：0
+当前preference的name为：pref_convert_advanced_distance_rest_to_recovery, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase12_4_022.py]
+
+consumed time: 32.4320001602 s
+
+jacoco time: 24.646999836 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase12_4_022.py", line 144, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\runnerup\testcase\interestcases\testcase12_4_022.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.885999918 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[5829-11554]
+loclog: 5829-11554 重试未成功覆盖，删除!
+interestcase 4_022 end
+

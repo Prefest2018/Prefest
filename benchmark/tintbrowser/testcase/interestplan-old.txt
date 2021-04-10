@@ -1,0 +1,206 @@
+第0条Scene：
+originloc为：2520-4105 ,targetloc为：2520-4104
+interests为如下：
+PREFERENCE_INVERTED_DISPLAY      1    0     Inverted screen rendering
+[2_023, 1_023, 1_020, 2_011, 7_021, 5_021, 3_018, 7_012, 1_010, 2_021, 6_025, 6_010, 1_004, 4_015, 1_000, 1_005, 2_003, 3_019, 1_029, 6_012, 1_022, 6_011, 3_008, 2_022, 4_002, 5_009, 7_011, 5_020, 4_009, 7_007, 6_026, 4_014, 3_009, 4_018, 5_019, 2_028, 4_005, 6_016, 3_010, 6_027, 7_019, 7_023, 5_011, 2_005]
+--------------------------------
+第1条Scene：
+originloc为：2521-4106 ,targetloc为：2521-4107
+interests为如下：
+PREFERENCE_INVERTED_DISPLAY      1    0     Inverted screen rendering
+preinterests为如下：
+PREFERENCE_INVERTED_DISPLAY      0    0      Inverted screen rendering
+[2_023, 1_023, 1_020, 2_011, 7_021, 5_021, 3_018, 7_012, 1_010, 2_021, 6_025, 6_010, 1_004, 4_015, 1_000, 1_005, 2_003, 3_019, 1_029, 6_012, 1_022, 6_011, 3_008, 2_022, 4_002, 5_009, 7_011, 5_020, 4_009, 7_007, 6_026, 4_014, 3_009, 4_018, 5_019, 2_028, 4_005, 6_016, 3_010, 6_027, 7_019, 7_023, 5_011, 2_005]
+--------------------------------
+第2条Scene：
+originloc为：2608-4239 ,targetloc为：2608-4238
+interests为如下：
+PREFERENCE_INCOGNITO_BY_DEFAULT      1    26     Incognito mode
+preinterests为如下：
+PREFERENCE_INVERTED_DISPLAY      0    0      Inverted screen rendering
+[2_023, 1_023, 1_020, 2_011, 7_021, 5_021, 3_018, 7_012, 1_010, 2_021, 6_025, 6_010, 1_004, 4_015, 1_005, 2_003, 3_019, 1_029, 6_012, 1_022, 6_011, 3_008, 2_022, 4_002, 5_009, 7_011, 5_020, 4_009, 7_007, 6_026, 4_014, 3_009, 4_018, 5_019, 2_028, 4_005, 6_016, 3_010, 6_027, 7_019, 7_023, 5_011, 2_005]
+--------------------------------
+第3条Scene：
+originloc为：1398-2206 ,targetloc为：1398-2207
+interests为如下：
+PREFERENCE_CLOSE_PANEL_ON_NEW_TAB      0    13     User interface
+preinterests为如下：
+PREFERENCE_INVERTED_DISPLAY      0    0      Inverted screen rendering
+PREFERENCE_INCOGNITO_BY_DEFAULT      0    26      Incognito mode
+[2_023, 1_023, 1_020, 2_011, 7_021, 5_021, 3_018, 7_012, 1_010, 2_021, 6_025, 6_010, 1_004, 4_015, 1_005, 2_003, 3_019, 1_029, 6_012, 1_022, 6_011, 3_008, 2_022, 4_002, 5_009, 7_011, 5_020, 4_009, 7_007, 6_026, 4_014, 3_009, 4_018, 5_019, 2_028, 4_005, 6_016, 3_010, 6_027, 7_019, 7_023, 5_011, 2_005]
+--------------------------------
+index.1,  interestcase 2_023 start:
+此时tagetlogs为：[2520-4104, 1398-2207, 2521-4107, 2608-4238]
+当前preference的name为：PREFERENCE_INVERTED_DISPLAY, value为：1
+当前preference的name为：PREFERENCE_CLOSE_PANEL_ON_NEW_TAB, value为：0
+当前preference的name为：PREFERENCE_INCOGNITO_BY_DEFAULT, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase1_2_023.py]
+
+consumed time: 35.879999876 s
+
+jacoco time: 0.630000114441 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase1_2_023.py", line 144, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.tint:id/BookmarkRow.Thumbnail\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase1_2_023.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.8740000725 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[2520-4104, 1398-2207, 2521-4107]
+该测试用例未覆盖到的log为:[2608-4238]
+interestcase 2_023 end
+
+index.2,  interestcase 1_023 start:
+此时tagetlogs为：[2608-4238]
+当前preference的name为：PREFERENCE_INCOGNITO_BY_DEFAULT, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase2_1_023.py]
+
+consumed time: 24.143999815 s
+
+jacoco time: 0.626000165939 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase2_1_023.py", line 141, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Decline\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase2_1_023.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.6920001507 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2608-4238]
+loclog: 2608-4238 未成功覆盖，放入重试列表中!
+interestcase 1_023 end
+
+index.3,  interestcase 2_023 start:
+此时tagetlogs为：[2608-4238]
+当前preference的name为：PREFERENCE_INCOGNITO_BY_DEFAULT, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase3_2_023.py]
+
+consumed time: 23.9300000668 s
+
+jacoco time: 0.616999864578 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase3_2_023.py", line 136, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.tint:id/BookmarkRow.Thumbnail\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\tintbrowser\testcase\interestcases\testcase3_2_023.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.4200000763 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2608-4238]
+loclog: 2608-4238 重试未成功覆盖，删除!
+interestcase 2_023 end
+

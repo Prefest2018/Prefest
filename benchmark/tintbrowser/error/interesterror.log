@@ -1,0 +1,459 @@
+0_1_4_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_7_021
+--------- beginning of /dev/log/main
+
+0_1_7_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_3_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_2_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_2_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(11416): FATAL EXCEPTION: main
+
+E/AndroidRuntime(11416): Process: org.tint, PID: 11416
+
+E/AndroidRuntime(11416): java.lang.NullPointerException
+
+E/AndroidRuntime(11416): 	at org.tint.ui.managers.BaseUIManager.loadUrl(BaseUIManager.java:518)
+
+E/AndroidRuntime(11416): 	at org.tint.ui.managers.BaseUIManager.loadUrl(BaseUIManager.java:170)
+
+E/AndroidRuntime(11416): 	at org.tint.ui.managers.BaseUIManager.loadHomePage(BaseUIManager.java:200)
+
+E/AndroidRuntime(11416): 	at org.tint.ui.managers.TabletUIManager.closeCurrentTab(TabletUIManager.java:209)
+
+E/AndroidRuntime(11416): 	at org.tint.ui.activities.TintBrowserActivity.onOptionsItemSelected(TintBrowserActivity.java:305)
+
+E/AndroidRuntime(11416): 	at android.app.Activity.onMenuItemSelected(Activity.java:2600)
+
+E/AndroidRuntime(11416): 	at com.android.internal.policy.impl.PhoneWindow.onMenuItemSelected(PhoneWindow.java:1012)
+
+E/AndroidRuntime(11416): 	at com.android.internal.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:742)
+
+E/AndroidRuntime(11416): 	at com.android.internal.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:152)
+
+E/AndroidRuntime(11416): 	at com.android.internal.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:881)
+
+E/AndroidRuntime(11416): 	at com.android.internal.view.menu.ActionMenuView.invokeItem(ActionMenuView.java:546)
+
+E/AndroidRuntime(11416): 	at com.android.internal.view.menu.ActionMenuItemView.onClick(ActionMenuItemView.java:115)
+
+E/AndroidRuntime(11416): 	at android.view.View.performClick(View.java:4438)
+
+E/AndroidRuntime(11416): 	at android.view.View$PerformClick.run(View.java:18422)
+
+E/AndroidRuntime(11416): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(11416): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(11416): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(11416): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(11416): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(11416): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(11416): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(11416): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(11416): 	at dalvik.system.NativeStart.main(Native Method)
+
+1_2_0_5_2_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_5_2_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_5_2_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_1_7_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_2_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_3_3_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(13911): FATAL EXCEPTION: main
+
+E/AndroidRuntime(13911): Process: org.tint, PID: 13911
+
+E/AndroidRuntime(13911): java.lang.NullPointerException
+
+E/AndroidRuntime(13911): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(13911): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(13911): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(13911): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(13911): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(13911): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(13911): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(13911): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(13911): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(13911): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(13959): FATAL EXCEPTION: main
+
+E/AndroidRuntime(13959): Process: org.tint, PID: 13959
+
+E/AndroidRuntime(13959): java.lang.NullPointerException
+
+E/AndroidRuntime(13959): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(13959): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(13959): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(13959): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(13959): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(13959): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(13959): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(13959): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(13959): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(13959): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_1_1_6_0_2_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(14339): FATAL EXCEPTION: main
+
+E/AndroidRuntime(14339): Process: org.tint, PID: 14339
+
+E/AndroidRuntime(14339): java.lang.NullPointerException
+
+E/AndroidRuntime(14339): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(14339): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(14339): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(14339): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(14339): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(14339): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(14339): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(14339): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(14339): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(14339): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(14396): FATAL EXCEPTION: main
+
+E/AndroidRuntime(14396): Process: org.tint, PID: 14396
+
+E/AndroidRuntime(14396): java.lang.NullPointerException
+
+E/AndroidRuntime(14396): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(14396): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(14396): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(14396): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(14396): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(14396): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(14396): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(14396): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(14396): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(14396): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_2_1_7_0_3_3_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(14846): FATAL EXCEPTION: main
+
+E/AndroidRuntime(14846): Process: org.tint, PID: 14846
+
+E/AndroidRuntime(14846): java.lang.NullPointerException
+
+E/AndroidRuntime(14846): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(14846): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(14846): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(14846): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(14846): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(14846): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(14846): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(14846): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(14846): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(14846): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(14891): FATAL EXCEPTION: main
+
+E/AndroidRuntime(14891): Process: org.tint, PID: 14891
+
+E/AndroidRuntime(14891): java.lang.NullPointerException
+
+E/AndroidRuntime(14891): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(14891): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(14891): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(14891): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(14891): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(14891): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(14891): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(14891): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(14891): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(14891): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_3_1_2_0_5_2_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(15267): FATAL EXCEPTION: main
+
+E/AndroidRuntime(15267): Process: org.tint, PID: 15267
+
+E/AndroidRuntime(15267): java.lang.NullPointerException
+
+E/AndroidRuntime(15267): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(15267): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(15267): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(15267): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15267): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(15267): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(15267): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(15267): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(15267): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(15267): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(15314): FATAL EXCEPTION: main
+
+E/AndroidRuntime(15314): Process: org.tint, PID: 15314
+
+E/AndroidRuntime(15314): java.lang.NullPointerException
+
+E/AndroidRuntime(15314): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(15314): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(15314): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(15314): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15314): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(15314): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(15314): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(15314): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(15314): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(15314): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_4_1_6_0_2_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(15747): FATAL EXCEPTION: main
+
+E/AndroidRuntime(15747): Process: org.tint, PID: 15747
+
+E/AndroidRuntime(15747): java.lang.NullPointerException
+
+E/AndroidRuntime(15747): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(15747): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(15747): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(15747): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15747): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(15747): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(15747): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(15747): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(15747): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(15747): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(15803): FATAL EXCEPTION: main
+
+E/AndroidRuntime(15803): Process: org.tint, PID: 15803
+
+E/AndroidRuntime(15803): java.lang.NullPointerException
+
+E/AndroidRuntime(15803): 	at org.tint.ui.managers.LegacyPhoneUIManager.hideToolbars(LegacyPhoneUIManager.java:548)
+
+E/AndroidRuntime(15803): 	at org.tint.ui.runnables.HideToolbarsRunnable$1.handleMessage(HideToolbarsRunnable.java:35)
+
+E/AndroidRuntime(15803): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(15803): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15803): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(15803): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(15803): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(15803): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(15803): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(15803): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(16158): Failed to find provider info for com.google.settings
+
+E/ActivityThread(16158): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1868): Failed to find provider info for com.google.android.gsf.gservices
+

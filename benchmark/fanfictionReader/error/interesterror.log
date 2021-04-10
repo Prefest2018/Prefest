@@ -1,0 +1,263 @@
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_7_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_3_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_2_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_7_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_8_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_2_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_3_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_3_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6643): FATAL EXCEPTION: ModernAsyncTask #5
+E/AndroidRuntime( 6643): FATAL EXCEPTION: ModernAsyncTask #5
+E/AndroidRuntime( 6643): FATAL EXCEPTION: ModernAsyncTask #5
+
+
+
+E/AndroidRuntime( 6643): Process: com.spicymango.fanfictionreader, PID: 6643
+E/AndroidRuntime( 6643): Process: com.spicymango.fanfictionreader, PID: 6643
+E/AndroidRuntime( 6643): Process: com.spicymango.fanfictionreader, PID: 6643
+
+
+
+E/AndroidRuntime( 6643): java.lang.RuntimeException: An error occurred while executing doInBackground()
+E/AndroidRuntime( 6643): java.lang.RuntimeException: An error occurred while executing doInBackground()
+E/AndroidRuntime( 6643): java.lang.RuntimeException: An error occurred while executing doInBackground()
+
+
+
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:164)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:164)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:164)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+
+
+E/AndroidRuntime( 6643): 	at java.lang.Thread.run(Thread.java:841)
+E/AndroidRuntime( 6643): 	at java.lang.Thread.run(Thread.java:841)
+E/AndroidRuntime( 6643): 	at java.lang.Thread.run(Thread.java:841)
+
+
+
+E/AndroidRuntime( 6643): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 6643): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 6643): Caused by: java.lang.NullPointerException
+
+
+
+E/AndroidRuntime( 6643): 	at java.lang.Character.charCount(Character.java:1709)
+E/AndroidRuntime( 6643): 	at java.lang.Character.charCount(Character.java:1709)
+E/AndroidRuntime( 6643): 	at java.lang.Character.charCount(Character.java:1709)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.helper.StringUtil.appendNormalisedWhitespace(StringUtil.java:160)
+E/AndroidRuntime( 6643): 	at org.jsoup.helper.StringUtil.appendNormalisedWhitespace(StringUtil.java:160)
+E/AndroidRuntime( 6643): 	at org.jsoup.helper.StringUtil.appendNormalisedWhitespace(StringUtil.java:160)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.appendNormalisedText(Element.java:1110)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.appendNormalisedText(Element.java:1110)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.appendNormalisedText(Element.java:1110)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.access$000(Element.java:40)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.access$000(Element.java:40)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.access$000(Element.java:40)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element$1.head(Element.java:1030)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element$1.head(Element.java:1030)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element$1.head(Element.java:1030)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.select.NodeTraversor.traverse(NodeTraversor.java:45)
+E/AndroidRuntime( 6643): 	at org.jsoup.select.NodeTraversor.traverse(NodeTraversor.java:45)
+E/AndroidRuntime( 6643): 	at org.jsoup.select.NodeTraversor.traverse(NodeTraversor.java:45)
+
+
+
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.text(Element.java:1026)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.text(Element.java:1026)
+E/AndroidRuntime( 6643): 	at org.jsoup.nodes.Element.text(Element.java:1026)
+
+
+
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.util.Parser.Stories(Parser.java:75)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.util.Parser.Stories(Parser.java:75)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.util.Parser.Stories(Parser.java:75)
+
+
+
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.storymenu.StoryMenuLoaders$FFJustInStoryLoader.load(StoryMenuLoaders.java:236)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.storymenu.StoryMenuLoaders$FFJustInStoryLoader.load(StoryMenuLoaders.java:236)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.storymenu.StoryMenuLoaders$FFJustInStoryLoader.load(StoryMenuLoaders.java:236)
+
+
+
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:222)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:222)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:222)
+
+
+
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:30)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:30)
+E/AndroidRuntime( 6643): 	at com.spicymango.fanfictionreader.menu.BaseLoader.loadInBackground(BaseLoader.java:30)
+
+
+
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:307)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:307)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:307)
+
+
+
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:60)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:60)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:60)
+
+
+
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:48)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:48)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:48)
+
+
+
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:141)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:141)
+E/AndroidRuntime( 6643): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:141)
+
+
+
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/AndroidRuntime( 6643): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+
+
+E/AndroidRuntime( 6643): 	... 3 more
+E/AndroidRuntime( 6643): 	... 3 more
+E/AndroidRuntime( 6643): 	... 3 more
+
+
+
+0_11_3_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_3_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_1_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_3_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_4_7_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_4_7_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

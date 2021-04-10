@@ -1,0 +1,1 @@
+adb shell am instrument -w -r    -e debug false -e class [name] com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner

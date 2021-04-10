@@ -1,0 +1,1644 @@
+第0条Scene：
+originloc为：2941-4963 ,targetloc为：2941-4962
+interests为如下：
+ass_mobiledata      0    -1     null
+preinterests为如下：
+pref_timeout_passphrase      0    17      App access
+[15_026, 5_024, 4_025, 12_023, 5_008, 6_008, 12_002, 9_019, 7_016, 6_018, 8_001, 11_015, 8_009, 15_014, 7_013, 3_028, 11_028, 5_011, 10_013, 4_009, 14_012, 6_013, 7_002, 13_013, 12_025, 10_012, 11_022, 15_018, 9_026, 11_009, 4_024, 2_011, 8_022, 5_020, 11_027, 6_028, 4_000, 11_017, 10_009, 12_027, 9_018, 13_009, 4_018, 6_016, 14_020, 13_012, 9_025, 3_027, 4_023, 11_013, 15_013, 9_012, 15_020, 3_018, 14_027, 6_000, 6_023, 11_023, 11_001, 10_025, 8_018, 13_023, 13_016, 13_001, 13_022, 15_011, 14_008, 12_012, 7_018, 4_015, 12_014, 6_014, 14_026, 1_027, 8_006, 9_007, 11_006, 12_011, 12_026, 9_004, 6_025, 7_007, 10_024, 13_021, 10_026, 8_029, 8_008, 6_026, 14_025, 10_020, 11_020, 5_010, 4_022, 2_003, 8_010, 1_001, 8_002, 13_008, 15_023, 5_014, 14_014, 10_010, 15_008, 3_008, 12_013, 7_028, 14_019, 7_025, 6_022, 5_026, 10_006, 9_020, 15_002, 10_023, 12_006, 11_012, 4_004, 7_014, 9_000, 10_022, 9_016, 13_011, 14_023, 6_012, 5_003, 5_028, 1_015, 7_021, 15_024, 1_017, 4_017, 5_013, 12_024, 15_006, 9_014, 6_002, 4_026, 13_010, 10_015, 6_020, 14_002, 4_012, 14_005, 12_008, 8_012, 6_015, 8_017, 11_008, 15_028, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 13_029, 11_016, 12_017, 3_026, 10_005, 12_029, 9_029, 6_017, 9_021, 11_026, 10_014, 2_025, 13_020, 3_011, 15_027, 10_029, 5_012, 12_003, 13_024, 8_013, 8_003, 12_022, 1_012, 3_029, 12_019, 10_007, 4_010, 8_014, 7_012, 8_026, 5_016, 2_024, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 15_003, 4_021, 5_001, 9_011, 14_015, 7_015, 7_023, 5_000, 12_000, 5_015, 15_029, 4_001, 10_016, 6_009, 5_009, 4_003, 7_006, 13_018, 12_004, 8_021, 13_007, 10_008, 7_009, 7_005, 7_000, 15_025, 12_010, 13_017, 14_029, 1_023, 9_015, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 10_021, 5_027, 15_019, 5_023, 14_013, 8_023, 2_001, 9_006, 8_011, 2_021, 12_020, 7_011, 5_005, 7_001, 14_004, 15_009, 6_006, 7_022, 5_029, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 7_008, 5_025, 1_007, 1_014, 2_009, 5_022, 9_002, 7_020, 9_023, 10_004, 14_024, 1_028, 14_018, 2_029, 1_019, 6_021, 3_004, 14_010, 2_019, 15_004, 6_005, 3_002, 4_011, 6_003, 8_000, 1_021, 13_002, 15_007, 8_004, 4_028, 12_018, 15_000, 2_027, 1_005, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_023, 2_012, 5_004, 1_020, 6_001, 3_000, 15_010, 9_003, 14_022, 9_028, 11_005, 3_017, 4_019, 14_009, 3_015, 3_012, 2_008, 4_014, 6_019, 1_018, 2_018, 1_029, 2_007, 3_009, 6_007, 1_011, 2_013, 3_016, 1_010, 11_011, 1_009, 3_010, 1_003, 4_013, 7_029, 11_004, 6_027, 13_019, 13_006, 15_017, 4_002, 2_014, 1_025, 1_004, 3_019, 11_018, 2_017, 10_019, 8_024, 10_018, 12_021, 7_010, 11_021, 2_022, 6_010, 14_028, 11_029, 9_027, 4_007, 5_007, 3_014, 14_003, 14_011, 5_018, 14_017, 3_022, 13_014, 13_003, 8_007, 3_020, 11_003, 9_005, 13_000, 1_008, 14_016, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 4_020, 2_028, 12_005, 8_015, 10_017, 6_011, 11_002, 13_004, 14_021, 10_003, 7_019, 8_005, 1_024, 12_016, 5_021, 2_004, 3_003, 15_001, 9_010, 2_016, 1_013, 3_001, 1_026, 2_005, 11_000, 1_006, 9_008, 2_000, 3_025, 2_026, 3_005, 3_024, 1_002, 2_006, 12_007, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_011, 10_027, 15_005, 8_028, 4_005, 9_024, 4_016, 9_013, 6_004, 3_013, 9_009, 11_019, 7_003, 2_010, 7_004, 13_027, 14_006, 3_021, 1_022, 2_002, 14_007, 13_028]
+--------------------------------
+第1条Scene：
+originloc为：1784-2853 ,targetloc为：1784-2854
+interests为如下：
+pref_backup_enabled      1    36     Backups
+preinterests为如下：
+pref_theme      Light    11      null
+ass_mobiledata      1    -1      null
+pref_timeout_passphrase      0    17      App access
+pref_read_receipts      1    22      Communication
+[15_026, 5_024, 4_025, 12_023, 5_008, 6_008, 12_002, 9_019, 7_016, 6_018, 8_001, 11_015, 8_009, 15_014, 7_013, 3_028, 11_028, 5_011, 10_013, 4_009, 14_012, 6_013, 7_002, 13_013, 12_025, 10_012, 11_022, 15_018, 9_026, 11_009, 4_024, 2_011, 8_022, 5_020, 11_027, 6_028, 4_000, 11_017, 10_009, 12_027, 9_018, 13_009, 4_018, 6_016, 14_020, 13_012, 9_025, 3_027, 4_023, 11_013, 15_013, 9_012, 15_020, 3_018, 14_027, 6_000, 6_023, 11_023, 11_001, 10_025, 8_018, 13_023, 13_016, 13_001, 13_022, 15_011, 14_008, 12_012, 7_018, 4_015, 12_014, 6_014, 14_026, 1_027, 8_006, 9_007, 11_006, 12_011, 12_026, 9_004, 6_025, 7_007, 10_024, 13_021, 10_026, 8_029, 8_008, 6_026, 14_025, 10_020, 11_020, 5_010, 4_022, 2_003, 8_010, 1_001, 8_002, 13_008, 15_023, 5_014, 14_014, 10_010, 15_008, 3_008, 12_013, 7_028, 14_019, 7_025, 6_022, 5_026, 10_006, 9_020, 15_002, 10_023, 12_006, 11_012, 4_004, 7_014, 9_000, 10_022, 9_016, 13_011, 14_023, 6_012, 5_003, 5_028, 1_015, 7_021, 15_024, 1_017, 4_017, 5_013, 12_024, 15_006, 9_014, 6_002, 4_026, 13_010, 10_015, 6_020, 14_002, 4_012, 14_005, 12_008, 8_012, 6_015, 8_017, 11_008, 15_028, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 13_029, 11_016, 12_017, 3_026, 10_005, 12_029, 9_029, 6_017, 9_021, 11_026, 10_014, 2_025, 13_020, 3_011, 15_027, 10_029, 5_012, 12_003, 13_024, 8_013, 8_003, 12_022, 1_012, 3_029, 12_019, 10_007, 4_010, 8_014, 7_012, 8_026, 5_016, 2_024, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 15_003, 4_021, 5_001, 9_011, 14_015, 7_015, 7_023, 5_000, 12_000, 5_015, 15_029, 4_001, 10_016, 6_009, 5_009, 4_003, 7_006, 13_018, 12_004, 8_021, 13_007, 10_008, 7_009, 7_005, 7_000, 15_025, 12_010, 13_017, 14_029, 1_023, 9_015, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 10_021, 5_027, 15_019, 5_023, 14_013, 8_023, 2_001, 9_006, 8_011, 2_021, 12_020, 7_011, 5_005, 7_001, 14_004, 15_009, 6_006, 7_022, 5_029, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 7_008, 5_025, 1_007, 1_014, 2_009, 5_022, 9_002, 7_020, 9_023, 10_004, 14_024, 1_028, 14_018, 2_029, 1_019, 6_021, 3_004, 14_010, 2_019, 15_004, 6_005, 3_002, 4_011, 6_003, 8_000, 1_021, 13_002, 15_007, 8_004, 4_028, 12_018, 15_000, 2_027, 1_005, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_023, 2_012, 5_004, 1_020, 6_001, 3_000, 15_010, 9_003, 14_022, 9_028, 11_005, 3_017, 4_019, 14_009, 3_015, 3_012, 2_008, 4_014, 6_019, 1_018, 2_018, 1_029, 2_007, 3_009, 6_007, 1_011, 2_013, 3_016, 1_010, 11_011, 1_009, 3_010, 1_003, 4_013, 7_029, 11_004, 6_027, 13_019, 13_006, 15_017, 4_002, 2_014, 1_025, 1_004, 3_019, 11_018, 2_017, 10_019, 8_024, 10_018, 12_021, 7_010, 11_021, 2_022, 6_010, 14_028, 11_029, 9_027, 4_007, 5_007, 3_014, 14_003, 14_011, 5_018, 14_017, 3_022, 13_014, 13_003, 8_007, 3_020, 11_003, 9_005, 13_000, 1_008, 14_016, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 4_020, 2_028, 12_005, 8_015, 10_017, 6_011, 11_002, 13_004, 14_021, 10_003, 7_019, 8_005, 1_024, 12_016, 5_021, 2_004, 3_003, 15_001, 9_010, 2_016, 1_013, 3_001, 1_026, 2_005, 11_000, 1_006, 9_008, 2_000, 3_025, 2_026, 3_005, 3_024, 1_002, 2_006, 12_007, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_011, 10_027, 15_005, 8_028, 4_005, 9_024, 4_016, 9_013, 6_004, 3_013, 9_009, 11_019, 7_003, 2_010, 7_004, 13_027, 14_006, 3_021, 1_022, 2_002, 14_007, 13_028]
+--------------------------------
+第2条Scene：
+originloc为：25401-43966 ,targetloc为：25401-43965
+interests为如下：
+pref_theme      Dark    11     null
+preinterests为如下：
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+[15_026, 5_024, 4_025, 12_023, 5_008, 6_008, 12_002, 9_019, 7_016, 6_018, 8_001, 11_015, 8_009, 15_014, 7_013, 3_028, 11_028, 5_011, 10_013, 4_009, 14_012, 6_013, 7_002, 13_013, 12_025, 10_012, 11_022, 15_018, 9_026, 11_009, 4_024, 2_011, 8_022, 5_020, 11_027, 6_028, 4_000, 11_017, 10_009, 12_027, 9_018, 13_009, 4_018, 6_016, 14_020, 13_012, 9_025, 3_027, 4_023, 11_013, 15_013, 9_012, 15_020, 3_018, 14_027, 6_000, 6_023, 11_023, 11_001, 10_025, 8_018, 13_023, 13_016, 13_001, 13_022, 15_011, 14_008, 12_012, 7_018, 4_015, 12_014, 6_014, 14_026, 1_027, 8_006, 9_007, 11_006, 12_011, 12_026, 9_004, 6_025, 7_007, 10_024, 13_021, 10_026, 8_029, 8_008, 6_026, 14_025, 10_020, 11_020, 5_010, 4_022, 2_003, 8_010, 1_001, 8_002, 13_008, 15_023, 5_014, 14_014, 10_010, 15_008, 3_008, 12_013, 7_028, 14_019, 7_025, 6_022, 5_026, 10_006, 9_020, 15_002, 10_023, 12_006, 11_012, 4_004, 7_014, 9_000, 10_022, 9_016, 13_011, 14_023, 6_012, 5_003, 5_028, 1_015, 7_021, 15_024, 1_017, 4_017, 5_013, 12_024, 15_006, 9_014, 6_002, 4_026, 13_010, 10_015, 6_020, 14_002, 4_012, 14_005, 12_008, 8_012, 6_015, 8_017, 11_008, 15_028, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 13_029, 11_016, 12_017, 3_026, 10_005, 12_029, 9_029, 6_017, 9_021, 11_026, 10_014, 2_025, 13_020, 3_011, 15_027, 10_029, 5_012, 12_003, 13_024, 8_013, 8_003, 12_022, 1_012, 3_029, 12_019, 10_007, 4_010, 8_014, 7_012, 8_026, 5_016, 2_024, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 15_003, 4_021, 5_001, 9_011, 14_015, 7_015, 7_023, 5_000, 12_000, 5_015, 15_029, 4_001, 10_016, 6_009, 5_009, 4_003, 7_006, 13_018, 12_004, 8_021, 13_007, 10_008, 7_009, 7_005, 7_000, 15_025, 12_010, 13_017, 14_029, 1_023, 9_015, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 10_021, 5_027, 15_019, 5_023, 14_013, 8_023, 2_001, 9_006, 8_011, 2_021, 12_020, 7_011, 5_005, 7_001, 14_004, 15_009, 6_006, 7_022, 5_029, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 7_008, 5_025, 1_007, 1_014, 2_009, 5_022, 9_002, 7_020, 9_023, 10_004, 14_024, 1_028, 14_018, 2_029, 1_019, 6_021, 3_004, 14_010, 2_019, 15_004, 6_005, 3_002, 4_011, 6_003, 8_000, 1_021, 13_002, 15_007, 8_004, 4_028, 12_018, 15_000, 2_027, 1_005, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_023, 2_012, 5_004, 1_020, 6_001, 3_000, 15_010, 9_003, 14_022, 9_028, 11_005, 3_017, 4_019, 14_009, 3_015, 3_012, 2_008, 4_014, 6_019, 1_018, 2_018, 1_029, 2_007, 3_009, 6_007, 1_011, 2_013, 3_016, 1_010, 11_011, 1_009, 3_010, 1_003, 4_013, 7_029, 11_004, 6_027, 13_019, 13_006, 15_017, 4_002, 2_014, 1_025, 1_004, 3_019, 11_018, 2_017, 10_019, 8_024, 10_018, 12_021, 7_010, 11_021, 2_022, 6_010, 14_028, 11_029, 9_027, 4_007, 5_007, 3_014, 14_003, 14_011, 5_018, 14_017, 3_022, 13_014, 13_003, 8_007, 3_020, 11_003, 9_005, 13_000, 1_008, 14_016, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 4_020, 2_028, 12_005, 8_015, 10_017, 6_011, 11_002, 13_004, 14_021, 10_003, 7_019, 8_005, 1_024, 12_016, 5_021, 2_004, 3_003, 15_001, 9_010, 2_016, 1_013, 3_001, 1_026, 2_005, 11_000, 1_006, 9_008, 2_000, 3_025, 2_026, 3_005, 3_024, 1_002, 2_006, 12_007, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_011, 10_027, 15_005, 8_028, 4_005, 9_024, 4_016, 9_013, 6_004, 3_013, 9_009, 11_019, 7_003, 2_010, 7_004, 13_027, 14_006, 3_021, 1_022, 2_002, 14_007, 13_028]
+--------------------------------
+第3条Scene：
+originloc为：2599-4436 ,targetloc为：2599-4435
+interests为如下：
+pref_android_screen_lock      1    13     App access
+preinterests为如下：
+pref_theme      Light    11      null
+ass_mobiledata      1    -1      null
+pref_timeout_passphrase      0    17      App access
+pref_read_receipts      1    22      Communication
+[15_026, 5_024, 4_025, 12_023, 5_008, 6_008, 12_002, 9_019, 7_016, 6_018, 8_001, 11_015, 8_009, 15_014, 7_013, 3_028, 11_028, 5_011, 10_013, 4_009, 14_012, 6_013, 7_002, 13_013, 12_025, 10_012, 11_022, 15_018, 9_026, 11_009, 4_024, 2_011, 8_022, 5_020, 11_027, 6_028, 4_000, 11_017, 10_009, 12_027, 9_018, 13_009, 4_018, 6_016, 14_020, 13_012, 9_025, 3_027, 4_023, 11_013, 15_013, 9_012, 15_020, 3_018, 14_027, 6_000, 6_023, 11_023, 11_001, 10_025, 8_018, 13_023, 13_016, 13_001, 13_022, 15_011, 14_008, 12_012, 7_018, 4_015, 12_014, 6_014, 14_026, 1_027, 8_006, 9_007, 11_006, 12_011, 12_026, 9_004, 6_025, 7_007, 10_024, 13_021, 10_026, 8_029, 8_008, 6_026, 14_025, 10_020, 11_020, 5_010, 4_022, 2_003, 8_010, 1_001, 8_002, 13_008, 15_023, 5_014, 14_014, 10_010, 15_008, 3_008, 12_013, 7_028, 14_019, 7_025, 6_022, 5_026, 10_006, 9_020, 15_002, 10_023, 12_006, 11_012, 4_004, 7_014, 9_000, 10_022, 9_016, 13_011, 14_023, 6_012, 5_003, 5_028, 1_015, 7_021, 15_024, 1_017, 4_017, 5_013, 12_024, 15_006, 9_014, 6_002, 4_026, 13_010, 10_015, 6_020, 14_002, 4_012, 14_005, 12_008, 8_012, 6_015, 8_017, 11_008, 15_028, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 13_029, 11_016, 12_017, 3_026, 10_005, 12_029, 9_029, 6_017, 9_021, 11_026, 10_014, 2_025, 13_020, 3_011, 15_027, 10_029, 5_012, 12_003, 13_024, 8_013, 8_003, 12_022, 1_012, 3_029, 12_019, 10_007, 4_010, 8_014, 7_012, 8_026, 5_016, 2_024, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 15_003, 4_021, 5_001, 9_011, 14_015, 7_015, 7_023, 5_000, 12_000, 5_015, 15_029, 4_001, 10_016, 6_009, 5_009, 4_003, 7_006, 13_018, 12_004, 8_021, 13_007, 10_008, 7_009, 7_005, 7_000, 15_025, 12_010, 13_017, 14_029, 1_023, 9_015, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 10_021, 5_027, 15_019, 5_023, 14_013, 8_023, 2_001, 9_006, 8_011, 2_021, 12_020, 7_011, 5_005, 7_001, 14_004, 15_009, 6_006, 7_022, 5_029, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 7_008, 5_025, 1_007, 1_014, 2_009, 5_022, 9_002, 7_020, 9_023, 10_004, 14_024, 1_028, 14_018, 2_029, 1_019, 6_021, 3_004, 14_010, 2_019, 15_004, 6_005, 3_002, 4_011, 6_003, 8_000, 1_021, 13_002, 15_007, 8_004, 4_028, 12_018, 15_000, 2_027, 1_005, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_023, 2_012, 5_004, 1_020, 6_001, 3_000, 15_010, 9_003, 14_022, 9_028, 11_005, 3_017, 4_019, 14_009, 3_015, 3_012, 2_008, 4_014, 6_019, 1_018, 2_018, 1_029, 2_007, 3_009, 6_007, 1_011, 2_013, 3_016, 1_010, 11_011, 1_009, 3_010, 1_003, 4_013, 7_029, 11_004, 6_027, 13_019, 13_006, 15_017, 4_002, 2_014, 1_025, 1_004, 3_019, 11_018, 2_017, 10_019, 8_024, 10_018, 12_021, 7_010, 11_021, 2_022, 6_010, 14_028, 11_029, 9_027, 4_007, 5_007, 3_014, 14_003, 14_011, 5_018, 14_017, 3_022, 13_014, 13_003, 8_007, 3_020, 11_003, 9_005, 13_000, 1_008, 14_016, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 4_020, 2_028, 12_005, 8_015, 10_017, 6_011, 11_002, 13_004, 14_021, 10_003, 7_019, 8_005, 1_024, 12_016, 5_021, 2_004, 3_003, 15_001, 9_010, 2_016, 1_013, 3_001, 1_026, 2_005, 11_000, 1_006, 9_008, 2_000, 3_025, 2_026, 3_005, 3_024, 1_002, 2_006, 12_007, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_011, 10_027, 15_005, 8_028, 4_005, 9_024, 4_016, 9_013, 6_004, 3_013, 9_009, 11_019, 7_003, 2_010, 7_004, 13_027, 14_006, 3_021, 1_022, 2_002, 14_007, 13_028]
+--------------------------------
+第4条Scene：
+originloc为：5129-8560 ,targetloc为：5129-8561
+interests为如下：
+pref_read_receipts      0    22     Communication
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[15_026, 5_024, 4_025, 12_023, 5_008, 6_008, 12_002, 9_019, 7_016, 6_018, 8_001, 11_015, 8_009, 15_014, 7_013, 3_028, 11_028, 5_011, 10_013, 4_009, 14_012, 6_013, 7_002, 13_013, 12_025, 10_012, 11_022, 15_018, 9_026, 11_009, 4_024, 2_011, 8_022, 5_020, 11_027, 6_028, 4_000, 11_017, 10_009, 12_027, 9_018, 13_009, 4_018, 6_016, 14_020, 13_012, 9_025, 3_027, 4_023, 11_013, 15_013, 9_012, 15_020, 3_018, 14_027, 6_000, 6_023, 11_023, 11_001, 10_025, 8_018, 13_023, 13_016, 13_001, 13_022, 15_011, 14_008, 12_012, 4_015, 12_014, 6_014, 14_026, 1_027, 8_006, 9_007, 11_006, 12_011, 12_026, 9_004, 6_025, 7_007, 10_024, 13_021, 10_026, 8_029, 8_008, 6_026, 14_025, 10_020, 11_020, 5_010, 4_022, 2_003, 8_010, 1_001, 8_002, 13_008, 15_023, 5_014, 14_014, 10_010, 15_008, 3_008, 12_013, 7_028, 14_019, 7_025, 6_022, 5_026, 10_006, 9_020, 15_002, 10_023, 12_006, 11_012, 4_004, 7_014, 9_000, 10_022, 9_016, 13_011, 14_023, 6_012, 5_003, 5_028, 1_015, 7_021, 15_024, 1_017, 4_017, 5_013, 12_024, 15_006, 9_014, 6_002, 4_026, 13_010, 10_015, 6_020, 14_002, 4_012, 14_005, 12_008, 8_012, 6_015, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 13_029, 11_016, 12_017, 3_026, 10_005, 12_029, 9_029, 6_017, 9_021, 11_026, 10_014, 2_025, 13_020, 15_027, 10_029, 5_012, 12_003, 13_024, 8_013, 8_003, 12_022, 1_012, 3_029, 12_019, 10_007, 4_010, 8_014, 7_012, 8_026, 2_024, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 15_003, 4_021, 5_001, 9_011, 14_015, 7_015, 7_023, 5_000, 12_000, 5_015, 15_029, 4_001, 10_016, 6_009, 5_009, 4_003, 7_006, 13_018, 12_004, 8_021, 13_007, 10_008, 7_009, 7_005, 7_000, 15_025, 12_010, 13_017, 14_029, 1_023, 9_015, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 10_021, 5_027, 15_019, 5_023, 14_013, 8_023, 2_001, 9_006, 8_011, 2_021, 12_020, 7_011, 5_005, 14_004, 15_009, 6_006, 7_022, 5_029, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 7_008, 5_025, 1_014, 2_009, 5_022, 9_002, 7_020, 9_023, 10_004, 14_024, 1_028, 2_029, 1_019, 6_021, 3_004, 14_010, 15_004, 6_005, 3_002, 4_011, 6_003, 8_000, 1_021, 13_002, 15_007, 8_004, 4_028, 12_018, 15_000, 1_005, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_023, 5_004, 1_020, 15_010, 9_003, 14_022, 9_028, 11_005, 3_017, 4_019, 14_009, 3_015, 2_008, 4_014, 6_019, 1_018, 1_029, 2_007, 3_009, 6_007, 1_011, 1_010, 11_011, 1_003, 4_013, 7_029, 11_004, 6_027, 13_006, 15_017, 4_002, 2_014, 1_025, 3_019, 11_018, 2_017, 10_019, 8_024, 10_018, 12_021, 7_010, 11_021, 2_022, 6_010, 14_028, 11_029, 9_027, 4_007, 5_007, 3_014, 14_003, 14_011, 5_018, 14_017, 3_022, 13_014, 13_003, 8_007, 3_020, 11_003, 9_005, 13_000, 1_008, 14_016, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 2_028, 12_005, 8_015, 10_017, 6_011, 11_002, 13_004, 14_021, 10_003, 7_019, 8_005, 1_024, 12_016, 5_021, 2_004, 3_003, 15_001, 9_010, 2_016, 1_013, 3_001, 2_005, 11_000, 1_006, 9_008, 2_000, 3_025, 2_026, 3_005, 3_024, 1_002, 2_006, 12_007, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_011, 10_027, 15_005, 8_028, 4_005, 9_024, 4_016, 9_013, 6_004, 3_013, 9_009, 11_019, 7_003, 2_010, 7_004, 13_027, 14_006, 3_021, 1_022, 2_002, 14_007, 13_028]
+--------------------------------
+第5条Scene：
+originloc为：2618-4468 ,targetloc为：2618-4469
+interests为如下：
+pref_timeout_passphrase      1    17     App access
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_enter_sends      0    32      Chats
+pref_typing_indicators      1    23      Communication
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+[5_008, 9_019, 8_009, 15_014, 11_028, 2_011, 10_009, 6_016, 6_023, 8_018, 13_001, 13_022, 7_018, 4_015, 12_014, 11_006, 12_011, 12_026, 6_026, 11_020, 1_001, 8_002, 13_008, 15_023, 14_014, 12_013, 14_019, 7_025, 15_002, 10_023, 11_012, 7_014, 9_000, 10_022, 13_011, 14_023, 6_012, 5_003, 5_013, 12_024, 6_002, 13_010, 10_015, 6_020, 14_005, 12_008, 10_002, 8_016, 7_027, 7_024, 5_002, 14_000, 12_017, 3_026, 10_005, 6_017, 9_021, 13_020, 10_029, 12_003, 8_013, 8_003, 10_007, 4_010, 7_012, 2_020, 13_015, 12_001, 9_022, 8_027, 11_025, 12_009, 9_011, 7_023, 5_000, 12_000, 5_015, 10_016, 6_009, 5_009, 7_006, 8_021, 10_008, 7_009, 7_005, 12_010, 13_017, 14_029, 1_023, 14_001, 15_016, 15_012, 13_025, 10_001, 10_028, 7_026, 5_027, 15_019, 5_023, 14_013, 8_023, 9_006, 2_021, 7_011, 11_024, 10_000, 6_029, 9_017, 8_025, 11_007, 8_019, 5_025, 5_022, 9_002, 7_020, 9_023, 10_004, 1_028, 14_018, 1_019, 3_004, 2_019, 15_004, 6_005, 4_011, 8_000, 13_002, 8_004, 4_028, 15_000, 2_027, 9_001, 13_005, 6_024, 4_029, 1_016, 3_007, 3_006, 11_014, 2_012, 5_004, 1_020, 3_000, 15_010, 9_003, 3_017, 14_009, 3_012, 2_008, 4_014, 1_018, 1_029, 3_009, 6_007, 1_011, 1_010, 11_011, 1_009, 3_010, 1_003, 4_013, 7_029, 11_004, 6_027, 15_017, 4_002, 2_014, 3_019, 2_017, 10_019, 8_024, 10_018, 7_010, 11_021, 6_010, 11_029, 9_027, 4_007, 14_011, 14_017, 13_003, 3_020, 1_008, 5_017, 15_021, 5_006, 4_027, 3_023, 4_008, 15_015, 11_010, 13_026, 2_015, 12_015, 2_028, 6_011, 11_002, 13_004, 14_021, 10_003, 8_005, 12_016, 15_001, 2_016, 1_013, 1_006, 9_008, 2_000, 3_025, 2_026, 3_024, 1_002, 2_006, 12_007]
+--------------------------------
+第6条Scene：
+originloc为：12178-20499 ,targetloc为：12178-20498
+interests为如下：
+pref_system_emoji      1    31     Chats
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+ass_mobiledata      1    -1      null
+pref_timeout_passphrase      0    17      App access
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+pref_show_unidentifed_delivery_indicators      0    25      Sealed Sender
+[7_013, 14_012, 5_020, 13_009, 14_020, 4_023, 14_027, 6_000, 13_023, 13_016, 13_001, 14_008, 1_001, 13_008, 5_026, 7_014, 1_015, 1_017, 1_021, 1_022]
+--------------------------------
+第7条Scene：
+originloc为：17713-29804 ,targetloc为：17713-29803
+interests为如下：
+pref_system_emoji      1    31     Chats
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+[7_013, 13_009, 13_012, 13_023, 1_001, 13_008, 7_014, 1_017, 13_010, 1_021]
+--------------------------------
+第8条Scene：
+originloc为：13937-23433 ,targetloc为：13937-23434
+interests为如下：
+pref_read_receipts      0    22     Communication
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_enter_sends      0    32      Chats
+pref_typing_indicators      1    23      Communication
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+[5_024, 8_001, 8_009, 3_028, 5_011, 6_013, 11_022, 15_018, 9_026, 4_024, 5_020, 13_009, 13_012, 4_023, 11_023, 13_023, 13_016, 13_022, 15_011, 12_012, 4_015, 14_026, 8_006, 13_021, 2_003, 13_008, 5_014, 11_012, 7_014, 1_015, 12_024, 10_002, 14_000, 15_029, 10_016, 2_021, 6_005, 2_027, 15_022, 12_028, 7_017, 5_019, 4_006, 10_011, 15_005, 8_028, 9_013, 6_004, 3_021, 1_022, 2_002]
+--------------------------------
+第9条Scene：
+originloc为：13920-23402 ,targetloc为：13920-23401
+interests为如下：
+pref_theme      Dark    11     null
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_read_receipts      1    22      Communication
+[6_018, 8_001, 8_009, 7_013, 3_028, 7_002, 12_025, 11_022, 15_018, 9_026, 8_022, 6_028, 10_009, 9_018, 13_009, 4_018, 13_012, 4_023, 15_020, 3_018, 14_027, 6_000, 13_016, 13_022, 12_012, 4_015, 14_026, 12_011, 8_029, 8_008, 10_020, 2_003, 1_001, 15_023, 5_014, 12_013, 13_011, 5_003, 1_015, 12_024, 11_008, 10_002, 2_025, 1_012, 10_016, 1_023, 7_026, 2_021, 6_005, 1_021, 2_027, 2_012, 3_000, 4_002, 15_022, 12_028, 8_020, 7_017, 5_019, 4_006, 10_027, 15_005, 8_028, 9_024, 9_013, 6_004, 9_009, 11_019, 7_003, 7_004, 3_021, 1_022, 2_002]
+--------------------------------
+第10条Scene：
+originloc为：8949-15058 ,targetloc为：8949-15057
+interests为如下：
+pref_typing_indicators      0    23     Communication
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+pref_show_unidentifed_delivery_indicators      0    25      Sealed Sender
+[6_018, 8_009, 15_018, 9_026, 5_020, 12_027, 9_018, 13_009, 13_012, 4_023, 6_000, 13_023, 13_016, 13_022, 14_008, 12_012, 8_008, 10_020, 2_003, 15_023, 5_014, 5_003, 1_015, 15_024, 1_017, 13_010, 11_008, 10_002, 2_020, 10_016, 1_023, 2_021, 1_021, 2_027, 2_012, 3_000, 15_022, 12_028, 4_006, 10_011, 15_005, 8_028, 9_024, 11_019, 7_004, 1_022]
+--------------------------------
+第11条Scene：
+originloc为：13330-22485 ,targetloc为：13330-22486
+interests为如下：
+pref_system_emoji      1    31     Chats
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_read_receipts      1    22      Communication
+[7_013, 5_020, 13_009, 4_018, 14_020, 13_012, 4_023, 14_027, 6_000, 13_023, 13_016, 13_001, 13_022, 14_008, 14_026, 1_001, 5_014, 14_014, 14_019, 13_011, 14_023, 5_003, 1_015, 1_017, 14_000, 1_012, 1_023, 7_026, 1_021, 5_004, 1_008, 7_017, 5_019, 4_006, 4_016, 7_003, 7_004, 1_022]
+--------------------------------
+第12条Scene：
+originloc为：10440-17646 ,targetloc为：10440-17645
+interests为如下：
+pref_typing_indicators      0    23     Communication
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_enter_sends      0    32      Chats
+pref_typing_indicators      1    23      Communication
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+[12_027, 13_009, 14_027, 14_026, 5_014, 2_021, 3_017, 1_011, 8_020, 10_027, 15_005, 8_028, 9_024, 9_013, 6_004, 11_019, 2_010, 7_004]
+--------------------------------
+第13条Scene：
+originloc为：13295-22433 ,targetloc为：13295-22434
+interests为如下：
+pref_enter_sends      1    32     Chats
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_key_enable_notifications      1    38      Messages
+pref_read_receipts      1    22      Communication
+pref_show_unidentifed_delivery_indicators      0    25      Sealed Sender
+[8_001, 3_028, 13_009, 3_018, 14_026, 5_014, 1_012, 2_021, 1_011, 1_008, 8_020, 10_027, 15_005, 8_028, 9_024, 9_013, 6_004, 11_019, 7_004]
+--------------------------------
+第14条Scene：
+originloc为：10173-17251 ,targetloc为：10173-17252
+interests为如下：
+pref_show_unidentifed_delivery_indicators      1    25     Sealed Sender
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_read_receipts      1    22      Communication
+[8_001, 7_013, 5_011, 7_002, 15_018, 9_026, 10_009, 4_018, 4_023, 15_020, 12_012, 12_014, 14_026, 9_007, 12_011, 8_029, 10_020, 1_001, 5_014, 13_011, 12_024, 7_017, 5_019, 10_011, 9_009]
+--------------------------------
+第15条Scene：
+originloc为：8759-14744 ,targetloc为：8759-14743
+interests为如下：
+pref_key_enable_notifications      0    38     Messages
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_read_receipts      1    22      Communication
+[8_001, 5_011, 8_022, 13_012, 13_023, 14_026, 8_008, 1_001, 2_025, 1_012, 10_016, 2_021, 3_000, 15_022, 7_017, 7_004]
+--------------------------------
+第16条Scene：
+originloc为：18976-31966 ,targetloc为：18976-31967
+interests为如下：
+pref_read_receipts      0    22     Communication
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_typing_indicators      1    23      Communication
+pref_read_receipts      1    22      Communication
+[5_020, 6_000, 1_001, 6_012, 1_017, 1_012, 2_020]
+--------------------------------
+第17条Scene：
+originloc为：2442_0 ,targetloc为：2442_0
+interests为如下：
+pref_trim_length      0    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第18条Scene：
+originloc为：2442_1 ,targetloc为：2442_1
+interests为如下：
+pref_trim_length          34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第19条Scene：
+originloc为：2442_2 ,targetloc为：2442_2
+interests为如下：
+pref_trim_length      1    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第20条Scene：
+originloc为：2442_3 ,targetloc为：2442_3
+interests为如下：
+pref_trim_length      -2147483648    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第21条Scene：
+originloc为：2446_4 ,targetloc为：2446_4
+interests为如下：
+pref_trim_length      0    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第22条Scene：
+originloc为：2446_5 ,targetloc为：2446_5
+interests为如下：
+pref_trim_length          34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第23条Scene：
+originloc为：2446_6 ,targetloc为：2446_6
+interests为如下：
+pref_trim_length      1    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第24条Scene：
+originloc为：2446_7 ,targetloc为：2446_7
+interests为如下：
+pref_trim_length      -2147483648    34     Message trimming
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013, 9_025, 1_017]
+--------------------------------
+第25条Scene：
+originloc为：8695-14637 ,targetloc为：8695-14636
+interests为如下：
+pref_key_inthread_notifications      0    43     Messages
+preinterests为如下：
+pref_theme      Light    11      null
+pref_android_screen_lock      0    13      App access
+pref_system_emoji      0    31      Chats
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+pref_read_receipts      1    22      Communication
+[6_013]
+--------------------------------
+第26条Scene：
+originloc为：1789-2859 ,targetloc为：1789-2860
+interests为如下：
+pref_backup_enabled      1    36     Backups
+preinterests为如下：
+ass_mobiledata      1    -1      null
+pref_backup_enabled      0    36      Backups
+[3_023]
+--------------------------------
+index.1,  interestcase 14_026 start:
+此时tagetlogs为：[13295-22434, 10440-17645, 25401-43965, 10173-17252, 1784-2854, 2599-4435, 2941-4962, 13330-22486, 13920-23401, 8759-14743, 5129-8561, 13937-23434]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_theme, value为：Dark
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_typing_indicators, value为：0
+当前preference的name为：pref_show_unidentifed_delivery_indicators, value为：1
+当前preference的name为：pref_system_emoji, value为：1
+当前preference的name为：pref_enter_sends, value为：1
+当前preference的name为：pref_backup_enabled, value为：1
+当前preference的name为：pref_key_enable_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase1_14_026.py]
+
+consumed time: 89.8480000496 s
+
+jacoco time: 1.29199981689 s
+
+OK
+
+consumed time: 46.7999999523 s
+
+jacoco time: 5.00900006294 s
+
+该测试用例覆盖到的log为:[25401-43965, 10173-17252, 1784-2854, 13920-23401, 5129-8561]
+该测试用例未覆盖到的log为:[13295-22434, 10440-17645, 2599-4435, 2941-4962, 13330-22486, 8759-14743, 13937-23434]
+interestcase 14_026 end
+
+index.2,  interestcase 2_021 start:
+此时tagetlogs为：[13295-22434, 8949-15057, 10440-17645, 2599-4435, 2941-4962, 8759-14743, 2618-4469, 13937-23434]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_timeout_passphrase, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_typing_indicators, value为：0
+当前preference的name为：pref_enter_sends, value为：1
+当前preference的name为：pref_key_enable_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase2_2_021.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase2_2_021.py", line 127, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Inactivity timeout passphrase\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 42.9559998512 s
+
+jacoco time: 1.78600001335 s
+
+OK
+
+consumed time: 36.118999958 s
+
+jacoco time: 5.01300001144 s
+
+该测试用例覆盖到的log为:[10440-17645, 8759-14743]
+该测试用例未覆盖到的log为:[13295-22434, 8949-15057, 2599-4435, 2941-4962, 2618-4469, 13937-23434]
+interestcase 2_021 end
+
+index.3,  interestcase 13_009 start:
+此时tagetlogs为：[13295-22434, 8949-15057, 12178-20498, 2599-4435, 2941-4962, 13330-22486, 17713-29803, 13937-23434]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_typing_indicators, value为：0
+当前preference的name为：pref_system_emoji, value为：1
+当前preference的name为：pref_enter_sends, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase3_13_009.py]
+
+consumed time: 84.7099997997 s
+
+jacoco time: 2.55599999428 s
+
+OK
+
+consumed time: 70.4340000153 s
+
+jacoco time: 5.00699996948 s
+
+该测试用例覆盖到的log为:[13330-22486]
+该测试用例未覆盖到的log为:[13295-22434, 8949-15057, 12178-20498, 2599-4435, 2941-4962, 17713-29803, 13937-23434]
+interestcase 13_009 end
+
+index.4,  interestcase 1_017 start:
+此时tagetlogs为：[8949-15057, 12178-20498, 18976-31967, 2599-4435, 2941-4962, 17713-29803, 2442_3, 2446_7]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_typing_indicators, value为：0
+当前preference的name为：pref_system_emoji, value为：1
+当前preference的name为：pref_trim_length, value为：-2147483648
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase4_1_017.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase4_1_017.py", line 139, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase4_1_017.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 66.3470001221 s
+
+jacoco time: 2.85899996758 s
+
+OK
+
+consumed time: 58.8650000095 s
+
+jacoco time: 5.0110001564 s
+
+该测试用例覆盖到的log为:[8949-15057, 12178-20498, 2442_3]
+该测试用例未覆盖到的log为:[18976-31967, 2599-4435, 2941-4962, 17713-29803, 2446_7]
+interestcase 1_017 end
+
+index.5,  interestcase 6_013 start:
+此时tagetlogs为：[8695-14636, 2599-4435, 2941-4962, 2442_2, 13937-23434, 2446_6]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_trim_length, value为：1
+当前preference的name为：pref_key_inthread_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase5_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase5_6_013.py", line 133, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase5_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 84.5029997826 s
+
+jacoco time: 2.50500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase5_6_013.py", line 172, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase5_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 47.5860002041 s
+
+jacoco time: 5.00899982452 s
+
+该测试用例覆盖到的log为:[2442_2, 13937-23434]
+该测试用例未覆盖到的log为:[8695-14636, 2599-4435, 2941-4962, 2446_6]
+interestcase 6_013 end
+
+index.6,  interestcase 1_001 start:
+此时tagetlogs为：[18976-31967, 2599-4435, 2941-4962, 17713-29803, 2618-4469]
+当前systemservice的name为：ass_mobiledata, value为：0
+当前preference的name为：pref_android_screen_lock, value为：1
+当前preference的name为：pref_timeout_passphrase, value为：1
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_system_emoji, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase6_1_001.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase6_1_001.py", line 127, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Inactivity timeout passphrase\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 53.6339998245 s
+
+jacoco time: 1.55200004578 s
+
+OK
+
+consumed time: 38.5939998627 s
+
+jacoco time: 5.00900006294 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[18976-31967, 2599-4435, 2941-4962, 17713-29803, 2618-4469]
+loclog: 18976-31967 未成功覆盖，放入重试列表中!
+loclog: 2599-4435 未成功覆盖，放入重试列表中!
+loclog: 2941-4962 未成功覆盖，放入重试列表中!
+loclog: 17713-29803 未成功覆盖，放入重试列表中!
+loclog: 2618-4469 未成功覆盖，放入重试列表中!
+interestcase 1_001 end
+
+index.7,  interestcase 8_001 start:
+此时tagetlogs为：[13295-22434]
+当前preference的name为：pref_enter_sends, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase7_8_001.py]
+
+consumed time: 41.2060000896 s
+
+jacoco time: 2.52699995041 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase7_8_001.py", line 161, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase7_8_001.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 77.1499998569 s
+
+jacoco time: 5.00800013542 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[13295-22434]
+loclog: 13295-22434 未成功覆盖，放入重试列表中!
+interestcase 8_001 end
+
+index.8,  interestcase 9_025 start:
+此时tagetlogs为：[2442_1, 2446_5]
+当前preference的name为：pref_trim_length, value为：
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase8_9_025.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase8_9_025.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase8_9_025.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 39.3529999256 s
+
+jacoco time: 2.94199991226 s
+
+OK
+
+consumed time: 57.1980001926 s
+
+jacoco time: 5.00899982452 s
+
+该测试用例覆盖到的log为:[2442_1]
+该测试用例未覆盖到的log为:[2446_5]
+interestcase 9_025 end
+
+index.9,  interestcase 3_023 start:
+此时tagetlogs为：[1789-2860]
+当前preference的name为：pref_backup_enabled, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase9_3_023.py]
+
+consumed time: 75.3809998035 s
+
+jacoco time: 1.48000001907 s
+
+OK
+
+consumed time: 20.7400000095 s
+
+jacoco time: 5.02300000191 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1789-2860]
+loclog: 1789-2860 未成功覆盖，放入重试列表中!
+interestcase 3_023 end
+
+index.10,  interestcase 6_013 start:
+此时tagetlogs为：[8695-14636, 2442_0, 2446_4]
+当前preference的name为：pref_trim_length, value为：0
+当前preference的name为：pref_key_inthread_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase10_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase10_6_013.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase10_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 34.4230000973 s
+
+jacoco time: 2.24399995804 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase10_6_013.py", line 162, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase10_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.8989999294 s
+
+jacoco time: 5.00800013542 s
+
+该测试用例覆盖到的log为:[2442_0]
+该测试用例未覆盖到的log为:[8695-14636, 2446_4]
+interestcase 6_013 end
+
+index.11,  interestcase 6_013 start:
+此时tagetlogs为：[8695-14636, 2446_7]
+当前preference的name为：pref_trim_length, value为：-2147483648
+当前preference的name为：pref_key_inthread_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase11_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase11_6_013.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase11_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 39.2449998856 s
+
+jacoco time: 3.03299999237 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase11_6_013.py", line 162, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase11_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 47.1400001049 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[8695-14636, 2446_7]
+loclog: 8695-14636 未成功覆盖，放入重试列表中!
+loclog: 2446_7 未成功覆盖，放入重试列表中!
+interestcase 6_013 end
+
+index.12,  interestcase 1_017 start:
+此时tagetlogs为：[2446_6]
+当前preference的name为：pref_trim_length, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase12_1_017.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase12_1_017.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase12_1_017.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.2829999924 s
+
+jacoco time: 1.57500004768 s
+
+OK
+
+consumed time: 57.6180000305 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2446_6]
+loclog: 2446_6 未成功覆盖，放入重试列表中!
+interestcase 1_017 end
+
+index.13,  interestcase 1_017 start:
+此时tagetlogs为：[2446_5]
+当前preference的name为：pref_trim_length, value为：
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase13_1_017.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase13_1_017.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase13_1_017.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.6919999123 s
+
+jacoco time: 1.94799995422 s
+
+OK
+
+consumed time: 74.0659999847 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[2446_5]
+该测试用例未覆盖到的log为:[]
+interestcase 1_017 end
+
+index.14,  interestcase 1_017 start:
+此时tagetlogs为：[2446_4]
+当前preference的name为：pref_trim_length, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase14_1_017.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase14_1_017.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase14_1_017.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.5889999866 s
+
+jacoco time: 1.49199986458 s
+
+OK
+
+consumed time: 58.6119999886 s
+
+jacoco time: 5.00699996948 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2446_4]
+loclog: 2446_4 未成功覆盖，放入重试列表中!
+interestcase 1_017 end
+
+index.15,  interestcase 8_001 start:
+此时tagetlogs为：[13295-22434]
+当前preference的name为：pref_system_emoji, value为：0
+当前preference的name为：pref_enter_sends, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase15_8_001.py]
+
+consumed time: 38.2869999409 s
+
+jacoco time: 1.51600003242 s
+
+OK
+
+consumed time: 44.9279999733 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[13295-22434]
+loclog: 13295-22434 重试未成功覆盖，删除!
+interestcase 8_001 end
+
+index.16,  interestcase 6_013 start:
+此时tagetlogs为：[8695-14636]
+当前preference的name为：pref_key_inthread_notifications, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase16_6_013.py]
+
+consumed time: 28.626999855 s
+
+jacoco time: 1.63700008392 s
+
+OK
+
+consumed time: 45.7430000305 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[8695-14636]
+loclog: 8695-14636 重试未成功覆盖，删除!
+interestcase 6_013 end
+
+index.17,  interestcase 5_020 start:
+此时tagetlogs为：[18976-31967]
+当前preference的name为：pref_read_receipts, value为：0
+当前preference的name为：pref_typing_indicators, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase17_5_020.py]
+
+consumed time: 26.493999958 s
+
+jacoco time: 1.55700016022 s
+
+OK
+
+consumed time: 32.628000021 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[18976-31967]
+loclog: 18976-31967 重试未成功覆盖，删除!
+interestcase 5_020 end
+
+index.18,  interestcase 7_013 start:
+此时tagetlogs为：[17713-29803]
+当前preference的name为：pref_system_emoji, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase18_7_013.py]
+
+consumed time: 31.6239998341 s
+
+jacoco time: 1.41800022125 s
+
+OK
+
+consumed time: 47.7660000324 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[17713-29803]
+该测试用例未覆盖到的log为:[]
+loclog: 17713-29803 重试成功覆盖，删除!
+interestcase 7_013 end
+
+index.19,  interestcase 5_008 start:
+此时tagetlogs为：[2618-4469]
+当前preference的name为：pref_android_screen_lock, value为：0
+当前preference的name为：pref_timeout_passphrase, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase19_5_008.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase19_5_008.py", line 125, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Inactivity timeout passphrase\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 34.5759999752 s
+
+jacoco time: 1.31900000572 s
+
+OK
+
+consumed time: 46.0360000134 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2618-4469]
+loclog: 2618-4469 重试未成功覆盖，删除!
+interestcase 5_008 end
+
+index.20,  interestcase 15_026 start:
+此时tagetlogs为：[2599-4435]
+当前preference的name为：pref_android_screen_lock, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase20_15_026.py]
+
+consumed time: 31.6159999371 s
+
+jacoco time: 1.82700014114 s
+
+OK
+
+consumed time: 58.7910001278 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2599-4435]
+loclog: 2599-4435 重试未成功覆盖，删除!
+interestcase 15_026 end
+
+index.21,  interestcase 3_023 start:
+此时tagetlogs为：[1789-2860]
+当前preference的name为：pref_backup_enabled, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase21_3_023.py]
+
+consumed time: 37.3519999981 s
+
+jacoco time: 1.26900005341 s
+
+OK
+
+consumed time: 29.0150001049 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1789-2860]
+loclog: 1789-2860 重试未成功覆盖，删除!
+interestcase 3_023 end
+
+index.22,  interestcase 6_013 start:
+此时tagetlogs为：[2446_7]
+当前preference的name为：pref_trim_length, value为：-2147483648
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase22_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase22_6_013.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase22_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.0809998512 s
+
+jacoco time: 1.33000016212 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase22_6_013.py", line 157, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase22_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 55.6340000629 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2446_7]
+loclog: 2446_7 重试未成功覆盖，删除!
+interestcase 6_013 end
+
+index.23,  interestcase 6_013 start:
+此时tagetlogs为：[2446_6]
+当前preference的name为：pref_trim_length, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase23_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase23_6_013.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase23_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.6489999294 s
+
+jacoco time: 1.39800000191 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase23_6_013.py", line 157, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase23_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 36.742000103 s
+
+jacoco time: 5.00599980354 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2446_6]
+loclog: 2446_6 重试未成功覆盖，删除!
+interestcase 6_013 end
+
+index.24,  interestcase 15_026 start:
+此时tagetlogs为：[2941-4962]
+当前systemservice的name为：ass_mobiledata, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase24_15_026.py]
+
+consumed time: 9.44499993324 s
+
+jacoco time: 30.2690000534 s
+
+OK
+
+consumed time: 58.5949997902 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2941-4962]
+loclog: 2941-4962 重试未成功覆盖，删除!
+interestcase 15_026 end
+
+index.25,  interestcase 6_013 start:
+此时tagetlogs为：[2446_4]
+当前preference的name为：pref_trim_length, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase25_6_013.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase25_6_013.py", line 123, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase25_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.8599998951 s
+
+jacoco time: 1.27099990845 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase25_6_013.py", line 157, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.thoughtcrime.securesms:id/emoji_toggle\").className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\signal\testcase\interestcases\testcase25_6_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.5020000935 s
+
+jacoco time: 5.00999999046 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2446_4]
+loclog: 2446_4 重试未成功覆盖，删除!
+interestcase 6_013 end
+

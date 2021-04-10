@@ -1,0 +1,3153 @@
+This exploration took time: 352s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 998-1783 ,target branch is: 998-1782
+interests are:
+prefVideoBehavior      Picture-in-picture mode    40     Interruptions
+discovered tags are : VideoplayerActivityTest#testStartActivity 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1035-1842 ,target branch is: 1035-1843
+interests are:
+prefTheme      Black (AMOLED ready)    61     Appearance
+discovered tags are : PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 295-572 ,target branch is: 296-573
+interests are:
+prefEnableAutoDl      1    11     null
+discovered tags are : MainActivityTest#testAddFeed PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 997-1780 ,target branch is: 997-1781
+interests are:
+prefVideoBehavior      Picture-in-picture mode    40     Interruptions
+discovered tags are : VideoplayerActivityTest#testStartActivity 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 6239-10468 ,target branch is: 6239-10469
+interests are:
+prefEpisodeCacheSize      Unlimited    12     null
+discovered tags are : PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 9366-15949 ,target branch is: 9366-15950
+interests are:
+prefDrawerFeedOrder      Sort alphabetically    63     Appearance
+discovered tags are : MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testBackButtonBehaviorDefault MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testBackButtonBehaviorDoubleTap MainActivityTest#testAddFeed PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testContinousPlaybackOffMultipleEpisodes PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 842-1505 ,target branch is: 841-1504
+interests are:
+prefBackButtonBehavior      Default    69     Behavior
+discovered tags are : PreferencesTest#testBackButtonBehaviorGoToPageSelector MainActivityTest#testBackButtonBehaviorGoToPage 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 208-422 ,target branch is: 206-419
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : MainActivityTest#testAddFeed PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 999-1784 ,target branch is: 999-1785
+interests are:
+prefVideoBehavior      Picture-in-picture mode    40     Interruptions
+discovered tags are : VideoplayerActivityTest#testStartActivity 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1035-1841 ,target branch is: 1035-1843
+interests are:
+prefTheme      Black (AMOLED ready)    61     Appearance
+discovered tags are : PreferencesTest#testPauseForInterruptions PreferencesTest#testSetParallelDownloadsInvalidInput PreferencesTest#testRewindChange PreferencesTest#testSetEpisodeCacheMin PreferencesTest#testPlaybackSpeeds PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack MainActivityTest#testBackButtonBehaviorDefault PlaybackTest#testContinousPlaybackOffSingleEpisode PreferencesTest#testBackButtonBehaviorGoToPageSelector PlaybackTest#testReplayEpisodeContinuousPlaybackOff PreferencesTest#testEpisodeCleanupClassic PreferencesTest#testSetEpisodeCache MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn PreferencesTest#testSetEpisodeCacheMax PreferencesTest#testDisableUpdateInterval PreferencesTest#testSetParallelDownloads MainActivityTest#testDrawerPreferencesHideSomeElements PreferencesTest#testEnqueueAtFront PreferencesTest#testEpisodeCleanupNumDays MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PreferencesTest#testHeadPhonesReconnect PreferencesTest#testAutoDelete PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes PreferencesTest#testBluetoothReconnect MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PreferencesTest#testMobileUpdates PreferencesTest#testContinuousPlayback PreferencesTest#testEnablePersistentPlaybackControls PreferencesTest#testSwitchTheme PreferencesTest#testAutomaticDownload MainActivityTest#testBackButtonBehaviorPrompt PreferencesTest#testEpisodeCleanupQueueOnly PreferencesTest#testEpisodeCleanupNeverAlg MainActivityTest#testDrawerPreferencesHideAllElements PreferencesTest#testFastForwardChange PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements PreferencesTest#testSetLockscreenButtons MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PreferencesTest#testHeadPhonesDisconnect PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PreferencesTest#testSetSequentialDownload PreferencesTest#testSetUpdateInterval 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 843-1507 ,target branch is: 841-1504
+interests are:
+prefBackButtonBehavior      Default    69     Behavior
+discovered tags are : MainActivityTest#testBackButtonBehaviorDoubleTap 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 996-1778 ,target branch is: 996-1779
+interests are:
+prefVideoBehavior      Continue audio playback    40     Interruptions
+discovered tags are : VideoplayerActivityTest#testStartActivity 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 6156-10467 ,target branch is: 6156-10336
+interests are:
+prefEpisodeCacheSize      Unlimited    12     null
+discovered tags are : PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 963-1731 ,target branch is: 963-1730
+interests are:
+prefExpandNotify      1    65     External elements
+discovered tags are : PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 7736-12985 ,target branch is: 7743-12997
+interests are:
+prefAutoDelete      1    55     null
+discovered tags are : PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 746-1338 ,target branch is: 746-1340
+interests are:
+prefDrawerFeedIndicator      Number of unplayed episodes    64     Appearance
+discovered tags are : MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testBackButtonBehaviorDefault MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 844-1509 ,target branch is: 841-1504
+interests are:
+prefBackButtonBehavior      Default    69     Behavior
+discovered tags are : MainActivityTest#testBackButtonBehaviorPrompt 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 271-543 ,target branch is: 270-542
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 4222-7103 ,target branch is: 4222-7102
+interests are:
+prefMediaPlayer      ExoPlayer    51     Media player
+discovered tags are : PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 209-424 ,target branch is: 209-425
+interests are:
+prefEnableAutoDownloadWifiFilter      1    16     null
+discovered tags are : MainActivityTest#testAddFeed PlaybackTest#testContinousPlaybackOffMultipleEpisodes PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackTest#testContinuousPlaybackOnMultipleEpisodes 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 745-1336 ,target branch is: 745-1337
+interests are:
+prefDrawerFeedIndicator      Number of downloaded episodes    64     Appearance
+discovered tags are : MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testBackButtonBehaviorDefault MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 845-1511 ,target branch is: 841-1504
+interests are:
+prefBackButtonBehavior      Default    69     Behavior
+discovered tags are : MainActivityTest#testBackButtonBehaviorOpenDrawer 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 3217-5508 ,target branch is: 3217-5509
+interests are:
+prefMediaPlayer      Built-in Android player    51     Media player
+discovered tags are : PreferencesTest#testPlaybackSpeeds 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 746-1338 ,target branch is: 746-1339
+interests are:
+prefDrawerFeedIndicator      Number of new episodes    64     Appearance
+discovered tags are : MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testBackButtonBehaviorDefault MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 841-1503 ,target branch is: 841-1504
+interests are:
+prefBackButtonBehavior      Go to page…    69     Behavior
+discovered tags are : MainActivityTest#testBackButtonBehaviorDefault 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 945-1699 ,target branch is: 945-1700
+interests are:
+prefEpisodeCleanup      Never    13     null
+discovered tags are : MainActivityTest#testDrawerPreferencesHideCurrentElement MainActivityTest#testBackButtonBehaviorOpenDrawer PlaybackSonicTest#testStartLocal PlaybackTest#testStartLocal PlaybackTest#testContinuousPlaybackOnMultipleEpisodes MainActivityTest#testBackButtonBehaviorDoubleTap PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes PlaybackTest#testContinousPlaybackOffMultipleEpisodes MainActivityTest#testClickNavDrawer PreferencesTest#testSwitchThemeBack PreferencesTest#testSwitchTheme MainActivityTest#testBackButtonBehaviorPrompt MainActivityTest#testBackButtonBehaviorDefault MainActivityTest#testDrawerPreferencesHideAllElements PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff PlaybackTest#testContinousPlaybackOffSingleEpisode MainActivityTest#testGoToPreferences MainActivityTest#testDrawerPreferencesUnhideSomeElements MainActivityTest#testBackButtonBehaviorGoToPage PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes PlaybackSonicTest#testContinousPlaybackOffSingleEpisode PlaybackTest#testReplayEpisodeContinuousPlaybackOn PlaybackTest#testReplayEpisodeContinuousPlaybackOff MainActivityTest#testAddFeed PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn MainActivityTest#testDrawerPreferencesHideSomeElements 
+--------------------------------
+index.1,  interestcase PreferencesTest#testSwitchTheme start:
+tagetlogs are:[6239-10469, 1035-1843, 746-1339, 945-1700, 270-542, 9366-15950, 6156-10336]
+current preference, name:prefTheme, value:Black (AMOLED ready)
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_1_PreferencesTest#testSwitchTheme.py]
+
+OK
+
+consumed time: 28.123482942581177 s
+
+jacoco time: 3.001429557800293 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchTheme', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchTheme
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchTheme
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.7
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1035-1843, 746-1339]
+uncovered targets are: [6239-10469, 945-1700, 270-542, 9366-15950, 6156-10336]
+interestcase 0_1_PreferencesTest#testSwitchTheme end
+
+index.2,  interestcase PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[6239-10469, 746-1340, 945-1700, 270-542, 9366-15950, 6156-10336]
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of unplayed episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_2_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 15.33302354812622 s
+
+jacoco time: 3.001582622528076 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 3.82
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [746-1340, 9366-15950]
+uncovered targets are: [6239-10469, 945-1700, 270-542, 6156-10336]
+interestcase 0_2_PreferencesTest#testSwitchThemeBack end
+
+index.3,  interestcase PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[6239-10469, 945-1700, 270-542, 745-1337, 6156-10336]
+current preference, name:prefDrawerFeedIndicator, value:Number of downloaded episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_3_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 14.427673578262329 s
+
+jacoco time: 3.002730131149292 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 3.787
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [745-1337]
+uncovered targets are: [6239-10469, 945-1700, 270-542, 6156-10336]
+interestcase 0_3_PreferencesTest#testSwitchThemeBack end
+
+index.4,  interestcase PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[6239-10469, 945-1700, 270-542, 6156-10336]
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_4_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 1.9434943199157715 s
+
+jacoco time: 3.002861499786377 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 3.817
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [6239-10469, 945-1700, 270-542, 6156-10336]
+target: 6239-10469 uncovered, added to then retrial list!
+target: 945-1700 uncovered, added to then retrial list!
+target: 270-542 uncovered, added to then retrial list!
+target: 6156-10336 uncovered, added to then retrial list!
+interestcase 0_4_PreferencesTest#testSwitchThemeBack end
+
+index.5,  interestcase VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[996-1779]
+current preference, name:prefVideoBehavior, value:Continue audio playback
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_5_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 16.435542345046997 s
+
+jacoco time: 3.0015130043029785 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377434696 and now the last time the queue went idle was: 1608377434732. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377434696 and now the last time the queue went idle was: 1608377434732. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.48
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377434696 and now the last time the queue went idle was: 1608377434732. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [996-1779]
+uncovered targets are: []
+interestcase 0_5_VideoplayerActivityTest#testStartActivity end
+
+index.6,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[7743-12997, 206-419, 963-1730, 4222-7102, 296-573, 209-425]
+current preference, name:prefMediaPlayer, value:ExoPlayer
+current preference, name:prefAutoDelete, value:1
+current preference, name:prefExpandNotify, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_6_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 36.945112466812134 s
+
+jacoco time: 3.0020365715026855 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.329
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [963-1730]
+uncovered targets are: [7743-12997, 206-419, 4222-7102, 296-573, 209-425]
+interestcase 0_6_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.7,  interestcase PlaybackTest#testContinousPlaybackOffMultipleEpisodes start:
+tagetlogs are:[7743-12997, 206-419, 4222-7102, 296-573, 209-425]
+current preference, name:prefMediaPlayer, value:ExoPlayer
+current preference, name:prefAutoDelete, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_7_PlaybackTest#testContinousPlaybackOffMultipleEpisodes.py]
+
+OK
+
+consumed time: 34.788891315460205 s
+
+jacoco time: 3.0012760162353516 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinousPlaybackOffMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinousPlaybackOffMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinousPlaybackOffMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.978
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [7743-12997]
+uncovered targets are: [206-419, 4222-7102, 296-573, 209-425]
+interestcase 0_7_PlaybackTest#testContinousPlaybackOffMultipleEpisodes end
+
+index.8,  interestcase VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[997-1781, 999-1785, 998-1782]
+current preference, name:prefVideoBehavior, value:Picture-in-picture mode
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_8_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 34.49187755584717 s
+
+jacoco time: 3.00209641456604 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377697855 and now the last time the queue went idle was: 1608377697915. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377697855 and now the last time the queue went idle was: 1608377697915. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.589
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608377697855 and now the last time the queue went idle was: 1608377697915. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [997-1781, 999-1785, 998-1782]
+target: 997-1781 uncovered, added to then retrial list!
+target: 999-1785 uncovered, added to then retrial list!
+target: 998-1782 uncovered, added to then retrial list!
+interestcase 0_8_VideoplayerActivityTest#testStartActivity end
+
+index.9,  interestcase PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[206-419, 4222-7102, 296-573, 209-425]
+current preference, name:prefMediaPlayer, value:ExoPlayer
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_9_PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 33.416048526763916 s
+
+jacoco time: 3.002830743789673 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackSonicTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackSonicTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackSonicTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.636
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [206-419, 4222-7102, 296-573, 209-425]
+target: 206-419 uncovered, added to then retrial list!
+target: 4222-7102 uncovered, added to then retrial list!
+target: 296-573 uncovered, added to then retrial list!
+target: 209-425 uncovered, added to then retrial list!
+interestcase 0_9_PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.10,  interestcase PreferencesTest#testPlaybackSpeeds start:
+tagetlogs are:[3217-5509]
+current preference, name:prefMediaPlayer, value:Built-in Android player
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_10_PreferencesTest#testPlaybackSpeeds.py]
+
+OK
+
+consumed time: 33.30135488510132 s
+
+jacoco time: 3.001370906829834 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testPlaybackSpeeds', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.428
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3217-5509]
+target: 3217-5509 uncovered, added to then retrial list!
+interestcase 0_10_PreferencesTest#testPlaybackSpeeds end
+
+index.11,  interestcase MainActivityTest#testBackButtonBehaviorDefault start:
+tagetlogs are:[841-1504]
+current preference, name:prefBackButtonBehavior, value:Go to page…
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_11_MainActivityTest#testBackButtonBehaviorDefault.py]
+
+OK
+
+consumed time: 17.4723162651062 s
+
+jacoco time: 3.0028092861175537 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.MainActivityTest#testBackButtonBehaviorDefault', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBackButtonBehaviorDefault
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBackButtonBehaviorDefault
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 12.509
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [841-1504]
+target: 841-1504 uncovered, added to then retrial list!
+interestcase 0_11_MainActivityTest#testBackButtonBehaviorDefault end
+
+index.12,  interestcase MainActivityTest#testBackButtonBehaviorDefault start:
+tagetlogs are:[841-1504]
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current preference, name:prefBackButtonBehavior, value:Default
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_12_MainActivityTest#testBackButtonBehaviorDefault.py]
+
+OK
+
+consumed time: 20.169782400131226 s
+
+jacoco time: 3.002509832382202 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.MainActivityTest#testBackButtonBehaviorDefault', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBackButtonBehaviorDefault
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBackButtonBehaviorDefault
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 12.574
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [841-1504]
+loclog: 841-1504 uncovered after retrial, deleted!
+interestcase 0_12_MainActivityTest#testBackButtonBehaviorDefault end
+
+index.13,  interestcase PreferencesTest#testPlaybackSpeeds start:
+tagetlogs are:[3217-5509]
+current preference, name:prefMediaPlayer, value:Built-in Android player
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_13_PreferencesTest#testPlaybackSpeeds.py]
+
+OK
+
+consumed time: 33.373764753341675 s
+
+jacoco time: 3.0024523735046387 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testPlaybackSpeeds', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.447
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3217-5509]
+loclog: 3217-5509 uncovered after retrial, deleted!
+interestcase 0_13_PreferencesTest#testPlaybackSpeeds end
+
+index.14,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[209-425]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefFollowQueue, value:1
+current preference, name:prefMediaPlayer, value:Built-in Android player
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefAutoDelete, value:0
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current preference, name:prefExpandNotify, value:0
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_14_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 43.65039944648743 s
+
+jacoco time: 3.0023844242095947 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.118
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [209-425]
+loclog: 209-425 uncovered after retrial, deleted!
+interestcase 0_14_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.15,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[296-573]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefFollowQueue, value:1
+current preference, name:prefMediaPlayer, value:Built-in Android player
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefAutoDelete, value:0
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current preference, name:prefExpandNotify, value:0
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_15_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 44.14237022399902 s
+
+jacoco time: 3.0011775493621826 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.2
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [296-573]
+loclog: 296-573 uncovered after retrial, deleted!
+interestcase 0_15_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.16,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[4222-7102]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefMediaPlayer, value:ExoPlayer
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_16_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 40.94703483581543 s
+
+jacoco time: 3.0013816356658936 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.894
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [4222-7102]
+loclog: 4222-7102 uncovered after retrial, deleted!
+interestcase 0_16_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.17,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[206-419]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefFollowQueue, value:1
+current preference, name:prefMediaPlayer, value:Built-in Android player
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefAutoDelete, value:0
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current preference, name:prefExpandNotify, value:0
+current systemservice, name: ass_mobiledata, value: 1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_17_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 43.94157409667969 s
+
+jacoco time: 3.002699136734009 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.522
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [206-419]
+loclog: 206-419 uncovered after retrial, deleted!
+interestcase 0_17_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.18,  interestcase VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[998-1782]
+current preference, name:prefVideoBehavior, value:Stop playback
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_18_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 16.352355480194092 s
+
+jacoco time: 3.0028860569000244 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378426697 and now the last time the queue went idle was: 1608378426734. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378426697 and now the last time the queue went idle was: 1608378426734. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.478
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378426697 and now the last time the queue went idle was: 1608378426734. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [998-1782]
+loclog: 998-1782 uncovered after retrial, deleted!
+interestcase 0_18_VideoplayerActivityTest#testStartActivity end
+
+index.19,  interestcase VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[999-1785]
+current preference, name:prefVideoBehavior, value:Stop playback
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_19_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 16.427664518356323 s
+
+jacoco time: 3.0029056072235107 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378510445 and now the last time the queue went idle was: 1608378510486. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378510445 and now the last time the queue went idle was: 1608378510486. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.534
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378510445 and now the last time the queue went idle was: 1608378510486. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [999-1785]
+loclog: 999-1785 uncovered after retrial, deleted!
+interestcase 0_19_VideoplayerActivityTest#testStartActivity end
+
+index.20,  interestcase VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[997-1781]
+current preference, name:prefVideoBehavior, value:Stop playback
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_20_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 16.39409637451172 s
+
+jacoco time: 3.0026044845581055 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378594232 and now the last time the queue went idle was: 1608378594269. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378594232 and now the last time the queue went idle was: 1608378594269. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.526
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378594232 and now the last time the queue went idle was: 1608378594269. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [997-1781]
+loclog: 997-1781 uncovered after retrial, deleted!
+interestcase 0_20_VideoplayerActivityTest#testStartActivity end
+
+index.21,  interestcase PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[6156-10336]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefTheme, value:Dark
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_21_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 37.72676682472229 s
+
+jacoco time: 3.002255916595459 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.745
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [6156-10336]
+loclog: 6156-10336 uncovered after retrial, deleted!
+interestcase 0_21_PreferencesTest#testSwitchThemeBack end
+
+index.22,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[270-542]
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_22_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 1.9698123931884766 s
+
+jacoco time: 3.002760410308838 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 42.612
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [270-542]
+loclog: 270-542 uncovered after retrial, deleted!
+interestcase 0_22_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.23,  interestcase PlaybackTest#testContinuousPlaybackOnMultipleEpisodes start:
+tagetlogs are:[945-1700]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_23_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes.py]
+
+OK
+
+consumed time: 16.931392192840576 s
+
+jacoco time: 3.0015666484832764 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PlaybackTest#testContinuousPlaybackOnMultipleEpisodes', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PlaybackTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testContinuousPlaybackOnMultipleEpisodes
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PlaybackTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 13.617
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [945-1700]
+loclog: 945-1700 uncovered after retrial, deleted!
+interestcase 0_23_PlaybackTest#testContinuousPlaybackOnMultipleEpisodes end
+
+index.24,  interestcase PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[6239-10469]
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefTheme, value:Dark
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase0_24_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 37.75809621810913 s
+
+jacoco time: 3.0020530223846436 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.726
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [6239-10469]
+loclog: 6239-10469 uncovered after retrial, deleted!
+interestcase 0_24_PreferencesTest#testSwitchThemeBack end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1001-1788 ,target branch is: 999-1785
+interests are:
+prefVideoBehavior      Stop playback    40     Interruptions
+discovered tags are : 0_5_VideoplayerActivityTest#testStartActivity 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 746-1340 ,target branch is: 746-1341
+interests are:
+prefDrawerFeedIndicator      Number of downloaded episodes    64     Appearance
+discovered tags are : 0_2_PreferencesTest#testSwitchThemeBack 
+--------------------------------
+index.1,  interestcase 0_5_VideoplayerActivityTest#testStartActivity start:
+tagetlogs are:[999-1785]
+current preference, name:prefVideoBehavior, value:Stop playback
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase1_1_0_5_VideoplayerActivityTest#testStartActivity.py]
+
+OK
+
+consumed time: 16.3691246509552 s
+
+jacoco time: 3.0012600421905518 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.VideoplayerActivityTest#testStartActivity', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.VideoplayerActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest):
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378967931 and now the last time the queue went idle was: 1608378967968. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testStartActivity
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.VideoplayerActivityTest
+
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378967931 and now the last time the queue went idle was: 1608378967968. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 45.429
+
+There was 1 failure:
+
+1) testStartActivity(de.test.antennapod.ui.VideoplayerActivityTest)
+
+java.lang.RuntimeException: Could not launch intent Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=de.danoeh.antennapod/.activity.VideoplayerActivity } within 45 seconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1608378967931 and now the last time the queue went idle was: 1608378967968. If these numbers are the same your activity might be hogging the event queue.
+
+	at android.support.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:446)
+
+	at android.test.InstrumentationTestCase.launchActivityWithIntent(InstrumentationTestCase.java:125)
+
+	at android.test.InstrumentationTestCase.launchActivity(InstrumentationTestCase.java:103)
+
+	at android.test.ActivityInstrumentationTestCase2.getActivity(ActivityInstrumentationTestCase2.java:104)
+
+	at de.test.antennapod.ui.VideoplayerActivityTest.setUp(VideoplayerActivityTest.java:27)
+
+	at junit.framework.TestCase.runBare(TestCase.java:132)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.runProtected(AndroidTestResult.java:73)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at android.support.test.internal.runner.junit3.AndroidTestResult.run(AndroidTestResult.java:51)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at android.support.test.internal.runner.junit3.NonLeakyTestSuite$NonLeakyTest.run(NonLeakyTestSuite.java:62)
+
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+
+	at android.support.test.internal.runner.junit3.DelegatingTestSuite.run(DelegatingTestSuite.java:97)
+
+	at android.support.test.internal.runner.junit3.AndroidTestSuite.run(AndroidTestSuite.java:65)
+
+	at android.support.test.internal.runner.junit3.JUnit38ClassRunner.run(JUnit38ClassRunner.java:115)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [999-1785]
+loclog: 999-1785 uncovered after retrial, deleted!
+interestcase 1_1_0_5_VideoplayerActivityTest#testStartActivity end
+
+index.2,  interestcase 0_2_PreferencesTest#testSwitchThemeBack start:
+tagetlogs are:[746-1341]
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of downloaded episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\antennapod_bak\testcase\interestcases\testcase1_2_0_2_PreferencesTest#testSwitchThemeBack.py]
+
+OK
+
+consumed time: 15.34655499458313 s
+
+jacoco time: 3.001626968383789 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'de.test.antennapod.ui.PreferencesTest#testSwitchThemeBack', de.test.antennapod/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.test.antennapod.ui.PreferencesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSwitchThemeBack
+
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 3.733
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [746-1341]
+loclog: 746-1341 uncovered after retrial, deleted!
+interestcase 1_2_0_2_PreferencesTest#testSwitchThemeBack end
+

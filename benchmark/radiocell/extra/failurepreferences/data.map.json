@@ -1,0 +1,38 @@
+{
+   "consteps":
+   {
+
+   },
+   "presteps":
+   {
+   },
+   "valuestepmap":
+   {
+      "none":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"none",
+            "type":"NORMAL"
+         }
+
+      },
+
+      "online":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Online (MapQuest)",
+            "type":"NORMAL"
+         }
+
+      }
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"data.map"
+}

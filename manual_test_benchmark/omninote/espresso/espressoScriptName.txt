@@ -1,0 +1,15 @@
+it.feio.android.omninotes.ui.AutoBackupTest autoBackupPreferenceActivation
+it.feio.android.omninotes.ui.AutoBackupTest autoBackupWithNotesCheck
+it.feio.android.omninotes.ui.AutoBackupTest everyUpdateToNotesShouldTriggerAutobackup
+it.feio.android.omninotes.ui.CategoryLifecycleTest addNewCategory
+it.feio.android.omninotes.ui.CategoryLifecycleTest checkCategoryCreation
+it.feio.android.omninotes.ui.CategoryLifecycleTest categoryColorChange
+it.feio.android.omninotes.ui.CategoryLifecycleTest categoryDeletion
+it.feio.android.omninotes.ui.FabCameraNoteTest fabCameraNoteTest
+it.feio.android.omninotes.ui.FabLifecycleTest fabOpenCloseTest
+it.feio.android.omninotes.ui.FabLifecycleTest fabActionsTest
+it.feio.android.omninotes.ui.NoteListMenuTest switchExpandedColapsedNoteLayoutTest
+it.feio.android.omninotes.ui.RecurrenceRuleTest recurrenceRuleTextHasValue
+it.feio.android.omninotes.ui.RemindersLifecycleTest remindersLifecycle
+it.feio.android.omninotes.ui.SettingsActivityTest settingsActivityTest
+it.feio.android.omninotes.ui.SettingsActivityTest settingsMenuItemsCheck

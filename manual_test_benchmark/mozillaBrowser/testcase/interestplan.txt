@@ -1,0 +1,220 @@
+This exploration took time: 133s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1721-2264 ,target branch is: 1721-2263
+interests are:
+pref_key_tracking_protection_private      0    13     Tracking Protection
+discovered tags are : SettingsViewTest#openFXAQrCodeTest TabTrayMenuTest#openNewTabTest SettingsViewTest#remoteDebuggingViaUSB ThreeDotMenuTest#openSettingsTest SettingsViewTest#setDefaultBrowserTest ThreeDotMenuTest#threeDotMenuItemsTest ThreeDotMenuTest#doShareTest TabTrayMenuTest#privateRegularModeChangeTest ThreeDotMenuTest#refreshPageTest TabTrayMenuTest#closeAllPrivateTabsTest ThreeDotMenuTest#reportIssueTest SettingsViewTest#settingsItemsTest TabTrayMenuTest#tabTrayUITest TabTrayMenuTest#closeAllTabsTest ThreeDotMenuTest#goForwardTest FirstRunTest#threeDotFirstRunMenuItemsTest SettingsViewTest#openFXATest TabTrayMenuTest#goBackFromTabTrayTest ThreeDotMenuTest#findInPageTest SettingsViewTest#privacySettingsItemsTest TabTrayMenuTest#closeOneTabXButtonTest 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1720-2262 ,target branch is: 1720-2261
+interests are:
+pref_key_tracking_protection_normal      0    12     Tracking Protection
+discovered tags are : SettingsViewTest#openFXAQrCodeTest TabTrayMenuTest#openNewTabTest SettingsViewTest#remoteDebuggingViaUSB ThreeDotMenuTest#openSettingsTest SettingsViewTest#setDefaultBrowserTest ThreeDotMenuTest#threeDotMenuItemsTest ThreeDotMenuTest#doShareTest TabTrayMenuTest#privateRegularModeChangeTest ThreeDotMenuTest#refreshPageTest TabTrayMenuTest#closeAllPrivateTabsTest ThreeDotMenuTest#reportIssueTest SettingsViewTest#settingsItemsTest TabTrayMenuTest#tabTrayUITest TabTrayMenuTest#closeAllTabsTest ThreeDotMenuTest#goForwardTest FirstRunTest#threeDotFirstRunMenuItemsTest SettingsViewTest#openFXATest TabTrayMenuTest#goBackFromTabTrayTest ThreeDotMenuTest#findInPageTest SettingsViewTest#privacySettingsItemsTest TabTrayMenuTest#closeOneTabXButtonTest 
+--------------------------------
+index.1,  interestcase ThreeDotMenuTest#refreshPageTest start:
+tagetlogs are:[1721-2263, 1720-2261]
+current preference, name:pref_key_tracking_protection_normal, value:0
+current preference, name:pref_key_tracking_protection_private, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\mozillaBrowser\testcase\interestcases\testcase0_1_ThreeDotMenuTest#refreshPageTest.py]
+
+OK
+
+consumed time: 7.942084074020386 s
+
+jacoco time: 3.00126576423645 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, org.mozilla.reference.browser.test/androidx.test.runner.AndroidJUnitRunner, -e, debug, false, -e, class, 'org.mozilla.reference.browser.ui.ThreeDotMenuTest#refreshPageTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.mozilla.reference.browser.ui.ThreeDotMenuTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=refreshPageTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.ThreeDotMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=refreshPageTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.ThreeDotMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17.012
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1720-2261]
+uncovered targets are: [1721-2263]
+interestcase 0_1_ThreeDotMenuTest#refreshPageTest end
+
+index.2,  interestcase TabTrayMenuTest#closeAllPrivateTabsTest start:
+tagetlogs are:[1721-2263]
+current preference, name:pref_key_tracking_protection_private, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\mozillaBrowser\testcase\interestcases\testcase0_2_TabTrayMenuTest#closeAllPrivateTabsTest.py]
+
+OK
+
+consumed time: 14.389755487442017 s
+
+jacoco time: 3.001904249191284 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, org.mozilla.reference.browser.test/androidx.test.runner.AndroidJUnitRunner, -e, debug, false, -e, class, 'org.mozilla.reference.browser.ui.TabTrayMenuTest#closeAllPrivateTabsTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.mozilla.reference.browser.ui.TabTrayMenuTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=closeAllPrivateTabsTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.TabTrayMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=closeAllPrivateTabsTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.TabTrayMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 8.895
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1721-2263]
+uncovered targets are: []
+interestcase 0_2_TabTrayMenuTest#closeAllPrivateTabsTest end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1724-2270 ,target branch is: 1724-2269
+interests are:
+pref_key_tracking_protection_normal      1    12     Tracking Protection
+discovered tags are : 0_2_TabTrayMenuTest#closeAllPrivateTabsTest 0_1_ThreeDotMenuTest#refreshPageTest 
+--------------------------------
+index.1,  interestcase 0_2_TabTrayMenuTest#closeAllPrivateTabsTest start:
+tagetlogs are:[1724-2269]
+current preference, name:pref_key_tracking_protection_normal, value:1
+current preference, name:pref_key_tracking_protection_private, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\mozillaBrowser\testcase\interestcases\testcase1_1_0_2_TabTrayMenuTest#closeAllPrivateTabsTest.py]
+
+OK
+
+consumed time: 15.477608919143677 s
+
+jacoco time: 3.001774549484253 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, org.mozilla.reference.browser.test/androidx.test.runner.AndroidJUnitRunner, -e, debug, false, -e, class, 'org.mozilla.reference.browser.ui.TabTrayMenuTest#closeAllPrivateTabsTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.mozilla.reference.browser.ui.TabTrayMenuTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=closeAllPrivateTabsTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.TabTrayMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=closeAllPrivateTabsTest
+
+INSTRUMENTATION_STATUS: class=org.mozilla.reference.browser.ui.TabTrayMenuTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.029
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1724-2269]
+loclog: 1724-2269 uncovered after retrial, deleted!
+interestcase 1_1_0_2_TabTrayMenuTest#closeAllPrivateTabsTest end
+

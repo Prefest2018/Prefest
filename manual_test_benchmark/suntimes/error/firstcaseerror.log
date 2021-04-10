@@ -1,0 +1,1299 @@
+AlarmDialogTest#test_showAlarmDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3069
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:19.769  3069  3069 E AndroidRuntime: 	... 9 more
+DialogTest#test_showLightmapDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3118
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:21.487  3118  3118 E AndroidRuntime: 	... 9 more
+DialogTest#test_showEquinoxDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3165
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:23.213  3165  3165 E AndroidRuntime: 	... 9 more
+DialogTest#test_showHelpDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3211
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:24.847  3211  3211 E AndroidRuntime: 	... 9 more
+DialogTest#test_showAboutDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3257
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:26.504  3257  3257 E AndroidRuntime: 	... 9 more
+LocationDialogTest#test_setLocation
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3303
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:28.187  3303  3303 E AndroidRuntime: 	... 9 more
+LocationDialogTest#test_setLocationCurrent
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3350
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:29.840  3350  3350 E AndroidRuntime: 	... 9 more
+LocationDialogTest#test_showLocationDialog
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3397
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:31.516  3397  3397 E AndroidRuntime: 	... 9 more
+SuntimesActivityTest#test_activity
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3443
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:33.226  3443  3443 E AndroidRuntime: 	... 9 more
+SuntimesActivityTest#test_onDataSourceUIClick
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3489
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:34.944  3489  3489 E AndroidRuntime: 	... 9 more
+SuntimesActivityTest#test_onLightmapClick
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: FATAL EXCEPTION: main
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 3535
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2707)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1460)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: Caused by: java.lang.IllegalArgumentException: Out of range: -1.7048219456115687E19
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.check(dalvik_source_suntimes.apk)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.<init>(dalvik_source_suntimes.apk)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at net.time4j.calendar.astro.JulianDay.ofEphemerisTime(dalvik_source_suntimes.apk)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.atLunation(dalvik_source_suntimes.apk)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at net.time4j.calendar.astro.MoonPhase.after(dalvik_source_suntimes.apk)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.time4a.Time4ASuntimesCalculator.getMoonPhaseNextDate(Time4ASuntimesCalculator.java:359)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.calculator.SuntimesMoonData.calculate(SuntimesMoonData.java:295)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.createData(CardAdapter.java:135)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:113)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.cards.CardAdapter.initData(CardAdapter.java:101)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.calculateData(SuntimesActivity.java:1546)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:375)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1248)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.support.test.runner.MonitoringInstrumentation.callActivityOnStart(MonitoringInstrumentation.java:544)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:6679)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2609)
+11-30 13:38:36.628  3535  3535 E AndroidRuntime: 	... 9 more
+SuntimesActivityTest#test_onSolsticeEquinoxClick
+SuntimesActivityTest#test_onSolsticeEquinoxClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onClockClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteClick
+SuntimesActivityTest#test_onSolsticeEquinoxClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onClockClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onDateClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_appCrash74
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_userSwappedCard_withSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_partialUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_fullUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_issue408
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_stringArrays
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_plurals
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshots
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots1#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_general
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_locale
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_places
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_ui
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_widgets
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_TimeDisplayText
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaLongDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testImageSpanTag
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testCreateImageSpan
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_displayStringForTitlePattern
+--------- beginning of main
+--------- beginning of system
+TimeDateDialogTest#test_showDateDialog
+--------- beginning of main
+--------- beginning of system
+TimeZoneDialogTest#test_showTimezoneDialog
+--------- beginning of main
+--------- beginning of system
+SuntimesThemeTest#test_initTheme
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localeModePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showWarningsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showFieldsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showLightmapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showEquinoxPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showDataSourcePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_clockTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_dateTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_noteTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_timeZoneSortPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxAgePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxElapsedPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_nextUpdate
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_lengthUnitsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeFormatModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_calculatorModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode3Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2OverridePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_dateModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_datePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezoneModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezonePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_solarTimeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_locationModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionLaunchPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_StringSetPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showLabelsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTitlePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_titleTextPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_allowResizePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1ModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1SunPosModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_sunPosMapModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showMajorLatitudesPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1MoonModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_trackingModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_compareModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showComparePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showNoonPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showWeeksPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showHoursPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showSecondsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_observerHeightPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTimeDatePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_riseSetOrderPref
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timeZonesLoadTask
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_solarTime
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime0
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime1
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_eot
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_localMeanTime
+--------- beginning of main
+--------- beginning of system
+AlarmDialogTest#test_showAlarmDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showLightmapDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showEquinoxDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showHelpDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showAboutDialog
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_setLocation
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_setLocationCurrent
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_showLocationDialog
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_activity
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onDataSourceUIClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onLightmapClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onSolsticeEquinoxClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onClockClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onDateClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_appCrash74
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_userSwappedCard_withSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_partialUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_fullUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_issue408
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_stringArrays
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_plurals
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshots
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots1#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_general
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_locale
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_places
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_ui
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_widgets
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_TimeDisplayText
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaLongDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testImageSpanTag
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testCreateImageSpan
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_displayStringForTitlePattern
+--------- beginning of main
+--------- beginning of system
+TimeDateDialogTest#test_showDateDialog
+--------- beginning of main
+--------- beginning of system
+TimeZoneDialogTest#test_showTimezoneDialog
+--------- beginning of main
+--------- beginning of system
+SuntimesThemeTest#test_initTheme
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localeModePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showWarningsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showFieldsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showLightmapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showEquinoxPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showDataSourcePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_clockTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_dateTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_noteTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_timeZoneSortPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxAgePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxElapsedPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_nextUpdate
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_lengthUnitsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeFormatModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_calculatorModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode3Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2OverridePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_dateModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_datePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezoneModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezonePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_solarTimeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_locationModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionLaunchPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_StringSetPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showLabelsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTitlePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_titleTextPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_allowResizePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1ModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1SunPosModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_sunPosMapModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showMajorLatitudesPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1MoonModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_trackingModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_compareModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showComparePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showNoonPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showWeeksPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showHoursPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showSecondsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_observerHeightPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTimeDatePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_riseSetOrderPref
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timeZonesLoadTask
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_solarTime
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime0
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime1
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_eot
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_localMeanTime
+--------- beginning of main
+--------- beginning of system
+AlarmDialogTest#test_showAlarmDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showLightmapDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showLightmapDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showEquinoxDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showHelpDialog
+--------- beginning of main
+--------- beginning of system
+DialogTest#test_showAboutDialog
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_setLocation
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_setLocationCurrent
+--------- beginning of main
+--------- beginning of system
+LocationDialogTest#test_showLocationDialog
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_activity
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onDataSourceUIClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onLightmapClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onSolsticeEquinoxClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onClockClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onNoteClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_onDateClick
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_appCrash74
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_userSwappedCard_withSwipe
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_partialUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_fullUpdateReciever
+--------- beginning of main
+--------- beginning of system
+SuntimesActivityTest#test_issue408
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_stringArrays
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_stringArrays
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_stringArrays
+--------- beginning of main
+--------- beginning of system
+SuntimesResTest#test_plurals
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots#makeScreenshots
+--------- beginning of main
+--------- beginning of system
+SuntimesScreenshots1#makeScreenshot
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_general
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_locale
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_places
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_ui
+--------- beginning of main
+--------- beginning of system
+SuntimesSettingsActivityTest#test_showSettingsActivity_widgets
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_TimeDisplayText
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarTimeShortDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_12hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_calendarDateTimeDisplayString_24hr
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_timeDeltaLongDisplayString
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testImageSpanTag
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#testCreateImageSpan
+--------- beginning of main
+--------- beginning of system
+SuntimesUtilsTest#test_displayStringForTitlePattern
+--------- beginning of main
+--------- beginning of system
+TimeDateDialogTest#test_showDateDialog
+--------- beginning of main
+--------- beginning of system
+TimeZoneDialogTest#test_showTimezoneDialog
+--------- beginning of main
+--------- beginning of system
+SuntimesThemeTest#test_initTheme
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localeModePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_localePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showWarningsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showFieldsPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showLightmapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showEquinoxPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_showDataSourcePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_clockTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_dateTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_noteTapPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_timeZoneSortPref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxAgePref
+--------- beginning of main
+--------- beginning of system
+AppSettingsTest#test_gpsMaxElapsedPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_nextUpdate
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_lengthUnitsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeFormatModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_calculatorModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode3Pref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timeMode2OverridePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_dateModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_datePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezoneModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_timezonePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_solarTimeModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_locationModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_actionLaunchPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_StringSetPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_themePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showLabelsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTitlePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_titleTextPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_allowResizePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1ModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1SunPosModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_sunPosMapModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showMajorLatitudesPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_1x1MoonModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_trackingModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_compareModePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showComparePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showNoonPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showWeeksPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showHoursPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showSecondsPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_observerHeightPref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_showTimeDatePref
+--------- beginning of main
+--------- beginning of system
+WidgetSettingsTest#test_riseSetOrderPref
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timeZonesLoadTask
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_solarTime
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime0
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_apparentSolarTime1
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_eot
+--------- beginning of main
+--------- beginning of system
+WidgetTimezonesTest#test_timezone_localMeanTime
+--------- beginning of main
+--------- beginning of system

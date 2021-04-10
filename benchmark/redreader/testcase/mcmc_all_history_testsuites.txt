@@ -1,0 +1,503 @@
+the 1th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Sort Posts'):android.widget.TextView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+backmenuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+backmenuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+backscroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+backscroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenumenu
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+the 2th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(className='android.widget.TextView',instance='19'):android.widget.TextView@"156"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""back
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+backscroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+backmenuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+backscroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='More options'):android.widget.ImageView@""
+
+the 3th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(className='android.widget.TextView',instance='19'):android.widget.TextView@"156"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""back
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(className='android.widget.TextView',instance='19'):android.widget.TextView@"156"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenumenu
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Sort Posts'):android.widget.TextView@""back
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+the 4th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+the 5th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Sort Posts'):android.widget.TextView@""back
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenumenu
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""back
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(className='android.widget.TextView',instance='19'):android.widget.TextView@"156"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+the 6th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+the 7th test suite
+the covered nodes (states): 13
+==================
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(className='android.widget.TextView',instance='19'):android.widget.TextView@"156"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""backclick(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"clickLong(content-desc='View Comments'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"clickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"click(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menu
+
+the 8th test suite
+the covered nodes (states): 12
+==================
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"clickLong(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Sort Posts'):android.widget.TextView@""backclickLong(content-desc='Sort Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""backclick(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"click(content-desc='Refresh Posts'):android.widget.TextView@""clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menumenuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"
+
+click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""menu
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/announcements"
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"Themes"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='8'):android.widget.TextView@"askreddit"click(content-desc='Sort Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"Hot"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""click(className='android.widget.TextView',instance='3'):android.widget.TextView@"All Subreddits"
+
+menuclick(className='android.widget.TextView',instance='2'):android.widget.TextView@"Settings"click(content-desc='Navigate up'):android.widget.ImageButton@""clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"
+
+click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"clickLong(content-desc='More options'):android.widget.ImageView@""click(className='android.widget.TextView',instance='1'):android.widget.TextView@"Submit Post"click(resource-id='org.quantumbadger.redreader:id/actionbar_title_back_image'):android.widget.ImageView@""
+
+scroll(direction='down')click(content-desc='Refresh Subreddits'):android.widget.TextView@""click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='More options'):android.widget.ImageView@""
+
+click(className='android.widget.TextView',instance='12'):android.widget.TextView@"books"clickLong(content-desc='Refresh Posts'):android.widget.TextView@""click(className='android.widget.TextView',instance='0'):android.widget.TextView@"/r/askreddit"scroll(direction='down')
+
+clickLong(className='android.widget.TextView',instance='11'):android.widget.TextView@"blog"menuclick(className='android.widget.TextView',instance='0'):android.widget.TextView@"Copy Link"click(className='android.widget.TextView',instance='9'):android.widget.TextView@"askscience"
+
+click(className='android.widget.TextView',instance='6'):android.widget.TextView@"announcements"click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='Refresh Posts'):android.widget.TextView@""click(content-desc='More options'):android.widget.ImageView@""

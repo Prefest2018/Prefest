@@ -1,0 +1,766 @@
+current preference, name:Application Theme, value:White on black
+current preference, name:Incremental Updating, value:0
+current preference, name:Application Orientation, value:Portrait
+current preference, name:Keep Screen On, value:0
+current preference, name:Save Location, value:SD Card
+current preference, name:Volume Scroll, value:1
+current preference, name:Application Theme, value:Dark
+current preference, name:Incremental Updating, value:1
+current preference, name:Application Orientation, value:Auto
+current preference, name:Keep Screen On, value:1
+current preference, name:Save Location, value:Internal Memory
+current preference, name:Volume Scroll, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 42.0050001144 s
+
+jacoco time: 5.00499987602 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 40.5279998779 s
+
+jacoco time: 5.0039999485 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1972-3237 ,target branch is: 1972-3236
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1958-3209 ,target branch is: 1958-3208
+interests are:
+Application Orientation      Auto    4     Behavior
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1969-3231 ,target branch is: 1969-3230
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1966-3225 ,target branch is: 1966-3224
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 4_028 7_020 3_008 1_018 8_021 8_023 3_024 1_000 4_023 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 2385-4005 ,target branch is: 2385-4004
+interests are:
+Save Location      SD Card    6     Behavior
+discovered tags are : 1_019 2_018 2_001 1_004 2_014 2_004 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 1948-3190 ,target branch is: 1948-3191
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 3_018 4_028 1_009 2_001 7_022 8_023 8_015 3_024 4_022 7_007 7_016 6_026 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 1955-3203 ,target branch is: 1955-3204
+interests are:
+Locale      English    0     Appearance
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1947-3189 ,target branch is: 1947-3188
+interests are:
+Application Theme      White on black    1     Appearance
+discovered tags are : 3_018 4_028 1_009 2_001 7_022 8_023 8_015 3_024 4_022 7_007 7_016 6_026 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 1963-3219 ,target branch is: 1963-3218
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 4_028 7_020 3_008 1_018 8_021 8_023 3_024 1_000 4_023 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1959-3211 ,target branch is: 1959-3210
+interests are:
+Application Orientation      Auto    4     Behavior
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 442-725 ,target branch is: 442-726
+interests are:
+Volume Scroll      1    7     Behavior
+discovered tags are : 7_020 3_008 2_024 1_025 2_020 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1960-3213 ,target branch is: 1960-3212
+interests are:
+Application Orientation      Landscape    4     Behavior
+discovered tags are : 1_000 
+--------------------------------
+index.1,  interestcase 7_020 start:
+tagetlogs are:[1955-3204, 1966-3224, 1959-3210, 442-726, 1972-3236, 1963-3218, 1969-3230, 1958-3208]
+current preference, name:Application Theme, value:Light
+current preference, name:Application Orientation, value:Auto
+current preference, name:Volume Scroll, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_1_7_020.py]
+
+OK
+
+consumed time: 24.1019999981 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 30.4060001373 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [1963-3218, 1969-3230]
+uncovered targets are: [1955-3204, 1966-3224, 1959-3210, 442-726, 1972-3236, 1958-3208]
+interestcase 0_1_7_020 end
+
+index.2,  interestcase 3_008 start:
+tagetlogs are:[1955-3204, 1966-3224, 1959-3210, 442-726, 1972-3236, 1958-3208]
+current preference, name:Application Theme, value:Light
+current preference, name:Application Orientation, value:Auto
+current preference, name:Volume Scroll, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_2_3_008.py]
+
+OK
+
+consumed time: 25.9079999924 s
+
+jacoco time: 5.00599980354 s
+
+OK
+
+consumed time: 28.8489999771 s
+
+jacoco time: 5.02700018883 s
+
+covered targets are: []
+uncovered targets are: [1955-3204, 1966-3224, 1959-3210, 442-726, 1972-3236, 1958-3208]
+target: 1955-3204 uncovered, added to then retrial list!
+target: 1966-3224 uncovered, added to then retrial list!
+target: 1959-3210 uncovered, added to then retrial list!
+target: 442-726 uncovered, added to then retrial list!
+target: 1972-3236 uncovered, added to then retrial list!
+target: 1958-3208 uncovered, added to then retrial list!
+interestcase 0_2_3_008 end
+
+index.3,  interestcase 2_001 start:
+tagetlogs are:[2385-4004, 1948-3191]
+current preference, name:Application Theme, value:Light
+current preference, name:Save Location, value:SD Card
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_3_2_001.py]
+
+OK
+
+consumed time: 29.3389999866 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 32.9649999142 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [2385-4004, 1948-3191]
+target: 2385-4004 uncovered, added to then retrial list!
+target: 1948-3191 uncovered, added to then retrial list!
+interestcase 0_3_2_001 end
+
+index.4,  interestcase 7_007 start:
+tagetlogs are:[1947-3188]
+current preference, name:Application Theme, value:White on black
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_4_7_007.py]
+
+OK
+
+consumed time: 13.236000061 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 30.6400001049 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [1947-3188]
+uncovered targets are: []
+interestcase 0_4_7_007 end
+
+index.5,  interestcase 1_000 start:
+tagetlogs are:[1960-3212]
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_5_1_000.py]
+
+OK
+
+consumed time: 13.3190000057 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_5_1_000.py", line 224, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Settings\")", "new UiSelector().className(\"android.widget.TextView\").instance(9)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_5_1_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 14.8420000076 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1960-3212]
+target: 1960-3212 uncovered, added to then retrial list!
+interestcase 0_5_1_000 end
+
+index.6,  interestcase 1_000 start:
+tagetlogs are:[1960-3212]
+current preference, name:Application Orientation, value:Auto
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_6_1_000.py]
+
+OK
+
+consumed time: 13.8259999752 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 26.8439998627 s
+
+jacoco time: 5.01600003242 s
+
+covered targets are: []
+uncovered targets are: [1960-3212]
+loclog: 1960-3212 uncovered after retrial, deleted!
+interestcase 0_6_1_000 end
+
+index.7,  interestcase 8_023 start:
+tagetlogs are:[1948-3191]
+current preference, name:Application Theme, value:Light
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_7_8_023.py]
+
+OK
+
+consumed time: 19.3989999294 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_7_8_023.py", line 249, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.spicymango.fanfictionreader:id/filter\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_7_8_023.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 66.254999876 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [1948-3191]
+uncovered targets are: []
+target: 1948-3191 covered after retrial!
+interestcase 0_7_8_023 end
+
+index.8,  interestcase 2_018 start:
+tagetlogs are:[2385-4004]
+current preference, name:Application Theme, value:Dark
+current preference, name:Application Orientation, value:Landscape
+current preference, name:Save Location, value:SD Card
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_8_2_018.py]
+
+OK
+
+consumed time: 34.1080000401 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 41.5440001488 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [2385-4004]
+loclog: 2385-4004 uncovered after retrial, deleted!
+interestcase 0_8_2_018 end
+
+index.9,  interestcase 3_003 start:
+tagetlogs are:[1958-3208]
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_9_3_003.py]
+
+OK
+
+consumed time: 17.8020000458 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 33.5910000801 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: []
+uncovered targets are: [1958-3208]
+loclog: 1958-3208 uncovered after retrial, deleted!
+interestcase 0_9_3_003 end
+
+index.10,  interestcase 3_003 start:
+tagetlogs are:[1972-3236]
+current preference, name:Application Theme, value:Dark
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_10_3_003.py]
+
+OK
+
+consumed time: 23.6689999104 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_10_3_003.py", line 242, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Words: 40\")", "new UiSelector().className(\"android.widget.TextView\").instance(5)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_10_3_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 49.754999876 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [1972-3236]
+loclog: 1972-3236 uncovered after retrial, deleted!
+interestcase 0_10_3_003 end
+
+index.11,  interestcase 3_008 start:
+tagetlogs are:[442-726]
+current preference, name:Application Theme, value:Dark
+current preference, name:Application Orientation, value:Landscape
+current preference, name:Volume Scroll, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_11_3_008.py]
+
+OK
+
+consumed time: 29.3190000057 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_11_3_008.py", line 240, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Cancel\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_11_3_008.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 49.506000042 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [442-726]
+loclog: 442-726 uncovered after retrial, deleted!
+interestcase 0_11_3_008 end
+
+index.12,  interestcase 3_003 start:
+tagetlogs are:[1959-3210]
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_12_3_003.py]
+
+OK
+
+consumed time: 16.228000164 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_12_3_003.py", line 230, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"OK\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_12_3_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.25 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1959-3210]
+loclog: 1959-3210 uncovered after retrial, deleted!
+interestcase 0_12_3_003 end
+
+index.13,  interestcase 1_018 start:
+tagetlogs are:[1966-3224]
+current preference, name:Application Theme, value:Dark
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_13_1_018.py]
+
+OK
+
+consumed time: 21.2970001698 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_13_1_018.py", line 230, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.spicymango.fanfictionreader:id/reader_settings\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_13_1_018.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 24.7170000076 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [1966-3224]
+loclog: 1966-3224 uncovered after retrial, deleted!
+interestcase 0_13_1_018 end
+
+index.14,  interestcase 3_003 start:
+tagetlogs are:[1955-3204]
+current preference, name:Application Orientation, value:Landscape
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_14_3_003.py]
+
+OK
+
+consumed time: 16.481000185 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_14_3_003.py", line 230, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"OK\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase0_14_3_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.1080000401 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1955-3204]
+loclog: 1955-3204 uncovered after retrial, deleted!
+interestcase 0_14_3_003 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1971-3235 ,target branch is: 1971-3234
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 0_5_1_000 0_4_7_007 0_6_1_000 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 1965-3223 ,target branch is: 1965-3222
+interests are:
+Application Theme      Light    1     Appearance
+discovered tags are : 0_5_1_000 0_4_7_007 0_6_1_000 
+--------------------------------
+index.1,  interestcase 0_4_7_007 start:
+tagetlogs are:[1965-3222]
+current preference, name:Application Theme, value:Light
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase1_1_0_4_7_007.py]
+
+OK
+
+consumed time: 12.7000000477 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 38.739000082 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1965-3222]
+loclog: 1965-3222 uncovered after retrial, deleted!
+interestcase 1_1_0_4_7_007 end
+
+index.2,  interestcase 0_4_7_007 start:
+tagetlogs are:[1971-3234]
+current preference, name:Application Theme, value:Light
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\fanfictionReader\testcase\interestcases\testcase1_2_0_4_7_007.py]
+
+OK
+
+consumed time: 14.8919999599 s
+
+jacoco time: 5.00699996948 s
+
+OK
+
+consumed time: 39.0410001278 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [1971-3234]
+loclog: 1971-3234 uncovered after retrial, deleted!
+interestcase 1_2_0_4_7_007 end
+

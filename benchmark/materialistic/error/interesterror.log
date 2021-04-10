@@ -160,3 +160,1223 @@
 
 --------- beginning of /dev/log/system
 
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 2958): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread( 2958): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread( 2958): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 2958): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 2958): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 2958): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 2958): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 2958): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 2958): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 2958): 	at dalvik.system.NativeStart.main(Native Method)
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 3322): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 3322): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread( 3322): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 3322): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread( 3322): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread( 3322): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread( 3322): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread( 3322): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread( 3322): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+E/ActivityThread( 3322): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 3322): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 3322): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 3322): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/ActivityThread( 3322): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 3322): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread( 3322): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 3322): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread( 3322): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 3322): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread( 3322): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 3322): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread( 3322): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 3322): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/ActivityThread( 3322): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 3322): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+0_1_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_6_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+
+
+
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+E/ActivityThread( 5730): Failed to find provider info for com.google.settings
+
+
+
+0_6_6_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_6_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_6_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 8060): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 8060): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread( 8060): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread( 8060): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 8060): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread( 8060): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread( 8060): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread( 8060): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread( 8060): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 8060): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 8060): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 8060): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 8060): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/ActivityThread( 8060): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 8060): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread( 8060): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread( 8060): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread( 8060): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 8060): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 8060): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/ActivityThread( 8060): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+0_12_1_006
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_13_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_6_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 9998): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 9998): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 9998): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread( 9998): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 9998): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread( 9998): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread( 9998): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread( 9998): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+
+E/ActivityThread( 9998): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 9998): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 9998): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/ActivityThread( 9998): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 9998): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 9998): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/ActivityThread( 9998): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 9998): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 9998): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 9998): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread( 9998): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 9998): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 9998): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+0_16_6_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(10480): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(10480): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread(10480): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(10480): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(10480): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(10480): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+E/ActivityThread(10480): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(10480): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread(10480): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(10480): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(10480): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(10480): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(10480): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/ActivityThread(10480): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread(10480): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(10480): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(10480): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(10480): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(10480): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(10480): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(10480): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(10480): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_17_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_18_6_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(11429): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11429): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11429): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread(11429): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11429): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11429): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(11429): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(11429): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(11429): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(11429): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(11429): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(11429): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(11429): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+
+E/ActivityThread(11429): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(11429): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(11429): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/ActivityThread(11429): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(11429): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(11429): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/ActivityThread(11429): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(11429): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(11429): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(11429): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(11429): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread(11429): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(11429): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(11429): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+0_19_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(11886): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11886): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11886): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread(11886): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11886): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(11886): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(11886): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(11886): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(11886): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(11886): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(11886): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(11886): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(11886): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+
+E/ActivityThread(11886): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(11886): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(11886): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/ActivityThread(11886): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(11886): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(11886): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/ActivityThread(11886): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(11886): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(11886): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(11886): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(11886): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread(11886): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(11886): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(11886): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+0_20_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(12357): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12357): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread(12357): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12357): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12357): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(12357): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(12357): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(12357): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(12357): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(12357): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(12357): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(12357): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread(12357): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(12357): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(12357): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(12357): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(12357): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(12357): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/ActivityThread(12357): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(12357): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread(12357): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread(12357): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread(12357): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(12357): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread(12357): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_21_1_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(12898): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(12898): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(12898): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(12898): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+
+E/ActivityThread(12898): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread(12898): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12898): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(12898): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+
+
+E/ActivityThread(12898): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+E/ActivityThread(12898): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread(12898): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+E/ActivityThread(12898): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(12898): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(12898): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(12898): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(12898): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(12898): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread(12898): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(12898): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread(12898): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(12898): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread(12898): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread(12898): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(12898): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(12898): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1870): Failed to find provider info for com.google.android.gsf.gservices
+
+
+1_1_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(13602): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(13602): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(13602): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(13602): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(13602): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(13602): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(13602): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(13602): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(13602): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(13602): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(13602): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(13602): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(13602): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(13602): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(13602): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread(14032): Failed to find provider info for com.google.settings
+
+E/ActivityThread(14032): Failed to find provider info for com.google.settings
+
+1_2_0_5_6_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15610): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(15610): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(15610): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(15610): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(15610): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(15610): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(15610): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(15610): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(15610): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(15610): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(15610): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(15610): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(15610): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(15610): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(15610): 	at dalvik.system.NativeStart.main(Native Method)
+
+1_5_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(16181): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(16181): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(16181): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(16181): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(16181): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(16181): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(16181): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(16181): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(16181): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(16181): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(16181): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(16181): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(16181): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(16181): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(16181): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(16410): FATAL EXCEPTION: main
+
+E/AndroidRuntime(16410): Process: io.github.hidroh.materialistic, PID: 16410
+
+E/AndroidRuntime(16410): java.lang.NullPointerException
+
+E/AndroidRuntime(16410): 	at io.github.hidroh.materialistic.WebFragment.offerExternalApp(WebFragment.java:477)
+
+E/AndroidRuntime(16410): 	at io.github.hidroh.materialistic.WebFragment.access$000(WebFragment.java:72)
+
+E/AndroidRuntime(16410): 	at io.github.hidroh.materialistic.WebFragment$5.onFailure(WebFragment.java:615)
+
+E/AndroidRuntime(16410): 	at io.github.hidroh.materialistic.data.FileDownloader$1.lambda$onFailure$0(FileDownloader.java:48)
+
+E/AndroidRuntime(16410): 	at io.github.hidroh.materialistic.data.-$$Lambda$FileDownloader$1$FSSIMy-9c_ZbMXgcgsnloJk-j2g.run(lambda)
+
+E/AndroidRuntime(16410): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(16410): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(16410): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(16410): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(16410): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(16410): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(16410): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(16410): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(16410): 	at dalvik.system.NativeStart.main(Native Method)
+
+1_6_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(16726): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(16726): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(16726): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(16726): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(16726): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(16726): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(16726): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(16726): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(16726): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(16726): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(16726): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(16726): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(16726): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(16726): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(16726): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_1_1_1_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(17155): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(17155): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(17155): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(17155): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(17155): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(17155): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(17155): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(17155): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(17155): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(17155): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(17155): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(17155): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(17155): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(17155): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(17155): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_2_1_1_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(17588): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(17588): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(17588): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(17588): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(17588): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(17588): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(17588): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(17588): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(17588): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(17588): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(17588): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(17588): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(17588): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(17588): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(17588): 	at dalvik.system.NativeStart.main(Native Method)
+
+2_3_1_1_0_14_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(18289): Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(18289): java.lang.RuntimeException: Performing pause of activity that is not resumed: {io.github.hidroh.materialistic/io.github.hidroh.materialistic.SettingsActivity}
+
+E/ActivityThread(18289): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3029)
+
+E/ActivityThread(18289): 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3017)
+
+E/ActivityThread(18289): 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:2995)
+
+E/ActivityThread(18289): 	at android.app.ActivityThread.access$1000(ActivityThread.java:135)
+
+E/ActivityThread(18289): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1207)
+
+E/ActivityThread(18289): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(18289): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(18289): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(18289): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(18289): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(18289): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(18289): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(18289): 	at dalvik.system.NativeStart.main(Native Method)
+

@@ -1,0 +1,1452 @@
+This exploration took time: 271s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 3123-5210 ,target branch is: 3123-5209
+interests are:
+settings_colors_app      Complete    23     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1961-3292 ,target branch is: 1961-3291
+interests are:
+settings_dynamic_menu      0    27     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 3110-5188 ,target branch is: 3110-5189
+interests are:
+settings_auto_location      1    16     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 2351-3888 ,target branch is: 2351-3889
+interests are:
+settings_prettified_dates      0    26     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 3122-5208 ,target branch is: 3122-5207
+interests are:
+settings_colors_app      Disabled    23     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 3047-5081 ,target branch is: 3047-5082
+interests are:
+settings_auto_location      1    16     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 3036-5063 ,target branch is: 3036-5062
+interests are:
+settings_attachments_on_bottom      1    25     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 225-455 ,target branch is: 225-454
+interests are:
+settings_show_category_count      0    28     null
+discovered tags are : CategoryLifecycleTest#categoryColorChange CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 772-1387 ,target branch is: 772-1386
+interests are:
+settings_colors_app      Notes list only    23     null
+discovered tags are : CategoryLifecycleTest#categoryColorChange CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 2659-4401 ,target branch is: 2659-4400
+interests are:
+settings_fab_expansion_behavior      1    24     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 1963-3296 ,target branch is: 1963-3295
+interests are:
+settings_dynamic_menu      0    27     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 771-1385 ,target branch is: 771-1384
+interests are:
+settings_colors_app      Complete    23     null
+discovered tags are : CategoryLifecycleTest#categoryColorChange CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 768-1379 ,target branch is: 768-1378
+interests are:
+settings_colors_app      Disabled    23     null
+discovered tags are : RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 1951-3272 ,target branch is: 1951-3271
+interests are:
+settings_dynamic_menu      0    27     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 1959-3288 ,target branch is: 1959-3287
+interests are:
+settings_dynamic_menu      0    27     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 1484-2486 ,target branch is: 1484-2485
+interests are:
+settings_enable_swipe      0    14     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 1956-3281 ,target branch is: 1956-3282
+interests are:
+settings_show_uncategorized      1    29     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange RecurrenceRuleTest#recurrenceRuleTextHasValue CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory SettingsActivityTest#settingsActivityTest CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest SettingsActivityTest#settingsMenuItemsCheck FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 2668-4414 ,target branch is: 2668-4415
+interests are:
+settings_fab_expansion_behavior      1    24     null
+discovered tags are : FabCameraNoteTest#fabCameraNoteTest RemindersLifecycleTest#remindersLifecycle CategoryLifecycleTest#categoryColorChange CategoryLifecycleTest#categoryDeletion CategoryLifecycleTest#addNewCategory CategoryLifecycleTest#checkCategoryCreation NoteListMenuTest#switchExpandedColapsedNoteLayoutTest FabLifecycleTest#fabActionsTest FabLifecycleTest#fabOpenCloseTest 
+--------------------------------
+index.1,  interestcase CategoryLifecycleTest#addNewCategory start:
+tagetlogs are:[772-1386, 1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_colors_app, value:Notes list only
+current preference, name:settings_fab_expansion_behavior, value:1
+current preference, name:settings_attachments_on_bottom, value:1
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_1_CategoryLifecycleTest#addNewCategory.py]
+
+OK
+
+consumed time: 12.812875509262085 s
+
+jacoco time: 3.0017483234405518 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#addNewCategory', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=addNewCategory
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=addNewCategory
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 5.188
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [772-1386]
+uncovered targets are: [1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+interestcase 0_1_CategoryLifecycleTest#addNewCategory end
+
+index.2,  interestcase CategoryLifecycleTest#categoryColorChange start:
+tagetlogs are:[1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 768-1378, 3122-5207, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:1
+current preference, name:settings_attachments_on_bottom, value:1
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_2_CategoryLifecycleTest#categoryColorChange.py]
+
+OK
+
+consumed time: 19.81838059425354 s
+
+jacoco time: 3.0023059844970703 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryColorChange', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryColorChange
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryColorChange
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 10.036
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [3122-5207]
+uncovered targets are: [1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 768-1378, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+interestcase 0_2_CategoryLifecycleTest#categoryColorChange end
+
+index.3,  interestcase CategoryLifecycleTest#checkCategoryCreation start:
+tagetlogs are:[1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 768-1378, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:1
+current preference, name:settings_attachments_on_bottom, value:1
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_3_CategoryLifecycleTest#checkCategoryCreation.py]
+
+OK
+
+consumed time: 19.783653259277344 s
+
+jacoco time: 3.0015902519226074 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#checkCategoryCreation', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=checkCategoryCreation
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=checkCategoryCreation
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.411
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [768-1378]
+uncovered targets are: [1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+interestcase 0_3_CategoryLifecycleTest#checkCategoryCreation end
+
+index.4,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 3123-5209, 2659-4400, 771-1384, 1961-3291]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_colors_app, value:Complete
+current preference, name:settings_fab_expansion_behavior, value:1
+current preference, name:settings_attachments_on_bottom, value:1
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_4_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 19.7555513381958 s
+
+jacoco time: 3.001654624938965 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.593
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [3123-5209, 771-1384]
+uncovered targets are: [1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+interestcase 0_4_CategoryLifecycleTest#categoryDeletion end
+
+index.5,  interestcase CategoryLifecycleTest#addNewCategory start:
+tagetlogs are:[1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_fab_expansion_behavior, value:1
+current preference, name:settings_attachments_on_bottom, value:1
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_5_CategoryLifecycleTest#addNewCategory.py]
+
+OK
+
+consumed time: 19.008543491363525 s
+
+jacoco time: 3.002185821533203 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#addNewCategory', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=addNewCategory
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=addNewCategory
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 5.143
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1959-3287, 1956-3282, 2668-4415, 3110-5189, 2351-3889, 1963-3295, 1484-2485, 3047-5082, 225-454, 3036-5062, 1951-3271, 2659-4400, 1961-3291]
+target: 1959-3287 uncovered, added to then retrial list!
+target: 1956-3282 uncovered, added to then retrial list!
+target: 2668-4415 uncovered, added to then retrial list!
+target: 3110-5189 uncovered, added to then retrial list!
+target: 2351-3889 uncovered, added to then retrial list!
+target: 1963-3295 uncovered, added to then retrial list!
+target: 1484-2485 uncovered, added to then retrial list!
+target: 3047-5082 uncovered, added to then retrial list!
+target: 225-454 uncovered, added to then retrial list!
+target: 3036-5062 uncovered, added to then retrial list!
+target: 1951-3271 uncovered, added to then retrial list!
+target: 2659-4400 uncovered, added to then retrial list!
+target: 1961-3291 uncovered, added to then retrial list!
+interestcase 0_5_CategoryLifecycleTest#addNewCategory end
+
+index.6,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1961-3291]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_6_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.720548152923584 s
+
+jacoco time: 3.0014002323150635 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.612
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1961-3291]
+loclog: 1961-3291 uncovered after retrial, deleted!
+interestcase 0_6_CategoryLifecycleTest#categoryDeletion end
+
+index.7,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[2659-4400]
+current preference, name:settings_fab_expansion_behavior, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_7_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 14.059688806533813 s
+
+jacoco time: 3.0018258094787598 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.631
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2659-4400]
+loclog: 2659-4400 uncovered after retrial, deleted!
+interestcase 0_7_CategoryLifecycleTest#categoryDeletion end
+
+index.8,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1951-3271]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_8_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.77504849433899 s
+
+jacoco time: 3.0023815631866455 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.605
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1951-3271]
+loclog: 1951-3271 uncovered after retrial, deleted!
+interestcase 0_8_CategoryLifecycleTest#categoryDeletion end
+
+index.9,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[3036-5062]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_auto_location, value:0
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:0
+current preference, name:settings_attachments_on_bottom, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_9_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 19.57112693786621 s
+
+jacoco time: 3.001973867416382 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.263
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3036-5062]
+loclog: 3036-5062 uncovered after retrial, deleted!
+interestcase 0_9_CategoryLifecycleTest#categoryDeletion end
+
+index.10,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[225-454]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_auto_location, value:0
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:0
+current preference, name:settings_attachments_on_bottom, value:0
+current preference, name:settings_prettified_dates, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_10_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 20.280069828033447 s
+
+jacoco time: 3.0024194717407227 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.304
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [225-454]
+loclog: 225-454 uncovered after retrial, deleted!
+interestcase 0_10_CategoryLifecycleTest#categoryDeletion end
+
+index.11,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[3047-5082]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_auto_location, value:1
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_11_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 18.3687903881073 s
+
+jacoco time: 3.0022428035736084 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.609
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3047-5082]
+loclog: 3047-5082 uncovered after retrial, deleted!
+interestcase 0_11_CategoryLifecycleTest#categoryDeletion end
+
+index.12,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1484-2485]
+current preference, name:settings_enable_swipe, value:0
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_12_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.480564832687378 s
+
+jacoco time: 3.0016393661499023 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.598
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1484-2485]
+loclog: 1484-2485 uncovered after retrial, deleted!
+interestcase 0_12_CategoryLifecycleTest#categoryDeletion end
+
+index.13,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1963-3295]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_13_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.62839961051941 s
+
+jacoco time: 3.0018341541290283 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.588
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1963-3295]
+loclog: 1963-3295 uncovered after retrial, deleted!
+interestcase 0_13_CategoryLifecycleTest#categoryDeletion end
+
+index.14,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[2351-3889]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_auto_location, value:0
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:0
+current preference, name:settings_attachments_on_bottom, value:0
+current preference, name:settings_prettified_dates, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_14_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 20.01519799232483 s
+
+jacoco time: 3.0029711723327637 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.653
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2351-3889]
+loclog: 2351-3889 uncovered after retrial, deleted!
+interestcase 0_14_CategoryLifecycleTest#categoryDeletion end
+
+index.15,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[3110-5189]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_auto_location, value:0
+current preference, name:settings_colors_app, value:Disabled
+current preference, name:settings_fab_expansion_behavior, value:0
+current preference, name:settings_attachments_on_bottom, value:0
+current preference, name:settings_prettified_dates, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_15_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 23.842435121536255 s
+
+jacoco time: 3.0016393661499023 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.777
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3110-5189]
+loclog: 3110-5189 uncovered after retrial, deleted!
+interestcase 0_15_CategoryLifecycleTest#categoryDeletion end
+
+index.16,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[2668-4415]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_16_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.745697498321533 s
+
+jacoco time: 3.0014798641204834 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.56
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2668-4415]
+loclog: 2668-4415 uncovered after retrial, deleted!
+interestcase 0_16_CategoryLifecycleTest#categoryDeletion end
+
+index.17,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1956-3282]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_17_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.834260940551758 s
+
+jacoco time: 3.00234317779541 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.503
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1956-3282]
+loclog: 1956-3282 uncovered after retrial, deleted!
+interestcase 0_17_CategoryLifecycleTest#categoryDeletion end
+
+index.18,  interestcase CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1959-3287]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase0_18_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 16.64783024787903 s
+
+jacoco time: 3.002664804458618 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.66
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1959-3287]
+loclog: 1959-3287 uncovered after retrial, deleted!
+interestcase 0_18_CategoryLifecycleTest#categoryDeletion end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1340-2264 ,target branch is: 1340-2263
+interests are:
+settings_swipe_to_trash      1    15     null
+settings_enable_swipe      1    14     null
+discovered tags are : 0_8_CategoryLifecycleTest#categoryDeletion 0_17_CategoryLifecycleTest#categoryDeletion 0_16_CategoryLifecycleTest#categoryDeletion 0_6_CategoryLifecycleTest#categoryDeletion 0_15_CategoryLifecycleTest#categoryDeletion 0_2_CategoryLifecycleTest#categoryColorChange 0_9_CategoryLifecycleTest#categoryDeletion 0_18_CategoryLifecycleTest#categoryDeletion 0_4_CategoryLifecycleTest#categoryDeletion 0_12_CategoryLifecycleTest#categoryDeletion 0_11_CategoryLifecycleTest#categoryDeletion 0_10_CategoryLifecycleTest#categoryDeletion 0_5_CategoryLifecycleTest#addNewCategory 0_3_CategoryLifecycleTest#checkCategoryCreation 0_1_CategoryLifecycleTest#addNewCategory 0_13_CategoryLifecycleTest#categoryDeletion 0_14_CategoryLifecycleTest#categoryDeletion 
+--------------------------------
+index.1,  interestcase 0_8_CategoryLifecycleTest#categoryDeletion start:
+tagetlogs are:[1340-2263]
+current preference, name:settings_enable_swipe, value:1
+current preference, name:settings_swipe_to_trash, value:1
+current preference, name:settings_fab_expansion_behavior, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\omninote\testcase\interestcases\testcase1_1_0_8_CategoryLifecycleTest#categoryDeletion.py]
+
+OK
+
+consumed time: 17.52211308479309 s
+
+jacoco time: 3.001088857650757 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'it.feio.android.omninotes.ui.CategoryLifecycleTest#categoryDeletion', it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+it.feio.android.omninotes.ui.CategoryLifecycleTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=categoryDeletion
+
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.CategoryLifecycleTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 9.51
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1340-2263]
+loclog: 1340-2263 uncovered after retrial, deleted!
+interestcase 1_1_0_8_CategoryLifecycleTest#categoryDeletion end
+

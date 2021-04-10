@@ -1,0 +1,2421 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 91-182 ,target branch is: 91-181
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_027 4_027 6_017 6_019 8_014 8_028 11_004 8_018 10_009 3_020 10_026 7_022 7_011 1_002 5_018 10_022 3_025 9_029 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 496-881 ,target branch is: 496-882
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 3_012 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 611-1114 ,target branch is: 611-1115
+interests are:
+direct_edit      0    5     null
+discovered tags are : 7_002 10_003 7_004 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 199-326 ,target branch is: 199-325
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_016 9_015 9_014 9_013 2_027 9_012 2_028 9_011 2_029 9_010 2_023 2_024 2_025 2_026 2_020 2_021 2_022 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 2_016 9_023 2_017 9_022 2_018 9_021 2_019 9_020 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 10_026 5_006 5_007 5_004 10_023 5_005 10_022 5_002 9_029 10_025 5_003 9_028 10_024 2_009 10_010 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 10_019 5_019 10_016 10_015 5_017 10_018 5_018 10_017 5_015 10_012 5_016 10_011 5_013 10_014 5_014 10_013 9_005 9_004 9_003 9_002 9_001 9_000 5_022 5_023 5_020 5_021 10_009 10_008 10_005 10_004 5_028 10_007 5_029 10_006 5_026 9_009 10_001 5_027 9_008 10_000 5_024 9_007 10_003 5_025 9_006 10_002 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 11_024 11_023 11_022 11_021 11_020 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 11_019 6_022 11_018 6_027 11_013 6_028 11_012 6_029 11_011 11_010 6_023 11_017 6_024 11_016 6_025 11_015 6_026 11_014 11_009 6_010 11_008 6_011 11_007 6_016 11_002 6_017 11_001 6_018 11_000 6_019 6_012 11_006 6_013 11_005 6_014 11_004 6_015 11_003 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 333-607 ,target branch is: 333-606
+interests are:
+font_size      Small    1     null
+discovered tags are : 11_019 11_018 11_020 11_024 11_023 11_022 11_021 11_017 11_016 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 541-978 ,target branch is: 541-977
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_000 7_025 8_002 8_001 8_004 7_028 8_003 7_029 8_006 7_026 8_005 7_027 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 208-345 ,target branch is: 208-344
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_016 9_015 9_014 9_013 2_027 9_012 2_028 9_011 2_029 9_010 2_023 2_024 2_025 2_026 2_020 2_021 2_022 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 2_016 9_023 2_017 9_022 2_018 9_021 2_019 9_020 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 10_026 5_006 5_007 5_004 10_023 5_005 10_022 5_002 9_029 10_025 5_003 9_028 10_024 2_009 10_010 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 10_019 5_019 10_016 10_015 5_017 10_018 5_018 10_017 5_015 10_012 5_016 10_011 5_013 10_014 5_014 10_013 9_005 9_004 9_003 9_002 9_001 9_000 5_022 5_023 5_020 5_021 10_009 10_008 10_005 10_004 5_028 10_007 5_029 10_006 5_026 9_009 10_001 5_027 9_008 10_000 5_024 9_007 10_003 5_025 9_006 10_002 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 11_024 11_023 11_022 11_021 11_020 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 11_019 6_022 11_018 6_027 11_013 6_028 11_012 6_029 11_011 11_010 6_023 11_017 6_024 11_016 6_025 11_015 6_026 11_014 11_009 6_010 11_008 6_011 11_007 6_016 11_002 6_017 11_001 6_018 11_000 6_019 6_012 11_006 6_013 11_005 6_014 11_004 6_015 11_003 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 31-46 ,target branch is: 31-47
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 595-1082 ,target branch is: 595-1083
+interests are:
+direct_edit      0    5     null
+discovered tags are : 5_020 9_002 4_017 5_019 5_028 11_000 11_006 4_022 9_018 9_029 9_028 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 539-974 ,target branch is: 539-973
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_020 8_011 8_010 8_021 8_013 8_012 8_015 8_014 8_017 8_006 8_016 8_019 8_008 8_018 8_007 8_009 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 56-106 ,target branch is: 56-105
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 197-322 ,target branch is: 197-321
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_016 9_015 9_014 9_013 2_027 9_012 2_028 9_011 2_029 9_010 2_023 2_024 2_025 2_026 2_020 2_021 2_022 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 2_016 9_023 2_017 9_022 2_018 9_021 2_019 9_020 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 10_026 5_006 5_007 5_004 10_023 5_005 10_022 5_002 9_029 10_025 5_003 9_028 10_024 2_009 10_010 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 10_019 5_019 10_016 10_015 5_017 10_018 5_018 10_017 5_015 10_012 5_016 10_011 5_013 10_014 5_014 10_013 9_005 9_004 9_003 9_002 9_001 9_000 5_022 5_023 5_020 5_021 10_009 10_008 10_005 10_004 5_028 10_007 5_029 10_006 5_026 9_009 10_001 5_027 9_008 10_000 5_024 9_007 10_003 5_025 9_006 10_002 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 11_024 11_023 11_022 11_021 11_020 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 11_019 6_022 11_018 6_027 11_013 6_028 11_012 6_029 11_011 11_010 6_023 11_017 6_024 11_016 6_025 11_015 6_026 11_014 11_009 6_010 11_008 6_011 11_007 6_016 11_002 6_017 11_001 6_018 11_000 6_019 6_012 11_006 6_013 11_005 6_014 11_004 6_015 11_003 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-595 ,target branch is: 331-597
+interests are:
+font_size      Small    1     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_005 9_026 9_004 9_025 9_003 9_024 9_002 9_023 9_001 9_022 9_000 9_021 9_020 8_026 8_025 8_028 8_027 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_029 9_007 10_003 9_028 9_006 10_002 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 605-1102 ,target branch is: 605-1101
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 9_027 9_015 9_013 9_002 9_001 9_011 9_000 8_028 10_005 9_019 9_018 9_029 10_003 9_028 10_002 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-595 ,target branch is: 331-593
+interests are:
+font_size      Normal    1     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_005 9_026 9_004 9_025 9_003 9_024 9_002 9_023 9_001 9_022 9_000 9_021 9_020 8_026 8_025 8_028 8_027 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_029 9_007 10_003 9_028 9_006 10_002 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 533-953 ,target branch is: 533-952
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 534-954 ,target branch is: 534-955
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 540-976 ,target branch is: 540-975
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-962 ,target branch is: 536-960
+interests are:
+font_size      Largest    1     null
+discovered tags are : 8_020 8_011 8_010 8_021 8_013 8_012 8_015 8_014 8_017 8_006 8_016 8_019 8_008 8_018 8_007 8_009 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 606-1103 ,target branch is: 606-1104
+interests are:
+theme      Dark / sans serif    0     null
+discovered tags are : 4_013 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 590-1064 ,target branch is: 590-1065
+interests are:
+theme      Light / monospace    0     null
+discovered tags are : 9_015 9_013 6_000 9_011 2_023 8_010 8_012 6_001 8_014 6_002 2_021 8_019 8_018 1_019 1_018 3_020 7_002 7_003 7_001 9_019 3_025 1_012 9_018 3_022 7_004 3_023 1_010 9_027 4_003 4_005 4_009 2_013 2_014 2_015 8_028 4_002 5_000 1_028 1_029 10_026 1_027 5_004 10_023 3_013 5_005 10_022 3_014 9_029 1_020 9_028 3_012 4_014 6_021 4_017 11_018 2_007 11_010 6_025 4_013 5_011 3_007 5_010 3_005 7_021 3_008 5_019 7_022 5_018 10_017 10_013 7_027 4_027 9_002 9_001 9_000 8_000 6_017 11_000 8_001 6_019 11_006 4_022 11_004 4_024 8_005 5_020 10_009 10_005 7_014 5_028 7_011 1_002 1_003 10_003 10_002 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 336-613 ,target branch is: 336-612
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 10_010 11_013 11_012 11_011 11_010 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 11_009 10_021 11_008 10_020 11_007 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_026 10_007 10_023 10_022 10_025 10_024 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-962 ,target branch is: 536-959
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_020 8_011 8_010 8_021 8_013 8_012 8_015 8_014 8_017 8_006 8_016 8_019 8_008 8_018 8_007 8_009 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 602-1096 ,target branch is: 602-1095
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 6_000 2_023 6_001 6_002 2_021 1_019 1_018 3_020 7_002 7_003 7_001 3_025 1_012 3_022 7_004 3_023 1_010 4_003 4_005 4_009 2_013 2_014 2_015 4_002 5_000 1_028 1_029 1_027 5_004 3_013 5_005 3_014 1_020 3_012 4_014 6_021 4_017 2_007 6_025 4_013 5_011 3_007 5_010 3_005 7_021 3_008 5_019 7_022 5_018 4_027 6_017 6_019 4_022 4_024 5_020 7_014 5_028 7_011 1_002 1_003 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 495-880 ,target branch is: 495-879
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 3_012 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 337-615 ,target branch is: 337-614
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_005 9_026 9_004 9_025 9_003 9_024 9_002 9_023 9_001 9_022 9_000 9_021 9_020 8_026 8_025 8_028 8_027 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_029 9_007 10_003 9_028 9_006 10_002 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-958 ,target branch is: 536-960
+interests are:
+font_size      Largest    1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 326-583 ,target branch is: 326-584
+interests are:
+theme      Light / sans serif    0     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 9_023 9_022 9_021 9_020 11_024 11_023 11_022 11_021 8_026 8_025 8_028 8_027 11_020 10_026 10_023 10_022 9_029 10_025 9_028 10_024 10_010 11_019 11_018 11_013 11_012 11_011 11_010 11_017 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 9_005 9_004 11_009 9_003 11_008 9_002 11_007 9_001 9_000 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_007 10_003 9_006 10_002 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 330-591 ,target branch is: 330-592
+interests are:
+theme      Light / monospace    0     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 9_023 9_022 9_021 9_020 11_024 11_023 11_022 11_021 8_026 8_025 8_028 8_027 11_020 10_026 10_023 10_022 9_029 10_025 9_028 10_024 10_010 11_019 11_018 11_013 11_012 11_011 11_010 11_017 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 9_005 9_004 11_009 9_003 11_008 9_002 11_007 9_001 9_000 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_007 10_003 9_006 10_002 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 604-1100 ,target branch is: 604-1099
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_000 11_000 8_001 11_010 11_006 11_004 8_005 10_009 10_026 10_017 10_023 10_022 10_013 7_027 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 504-907 ,target branch is: 504-906
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 3_012 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 535-956 ,target branch is: 535-957
+interests are:
+theme      Light / monospace    0     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 33-50 ,target branch is: 33-53
+interests are:
+font_size      Large    1     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 33-50 ,target branch is: 33-54
+interests are:
+font_size      Small    1     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 221-368 ,target branch is: 221-369
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_002 4_017 11_000 11_006 4_022 5_020 1_028 5_019 1_027 5_028 9_018 9_029 9_028 3_023 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 33-50 ,target branch is: 33-51
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.36 Scene:
+discovered in ineration NO. 0
+origin branch is: 33-50 ,target branch is: 33-52
+interests are:
+font_size      Largest    1     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.37 Scene:
+discovered in ineration NO. 0
+origin branch is: 92-183 ,target branch is: 92-184
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 9_027 4_027 6_017 6_019 8_014 8_028 11_004 8_018 10_009 3_020 10_026 7_022 7_011 1_002 5_018 10_022 3_025 9_029 
+--------------------------------
+NO.38 Scene:
+discovered in ineration NO. 0
+origin branch is: 327-586 ,target branch is: 327-585
+interests are:
+theme      Light / sans serif    0     null
+discovered tags are : 9_016 9_015 9_014 9_013 9_012 9_011 9_010 9_019 9_018 9_017 9_027 9_026 9_025 10_021 9_024 10_020 9_023 9_022 9_021 9_020 11_024 11_023 11_022 11_021 8_026 8_025 8_028 8_027 11_020 10_026 10_023 10_022 9_029 10_025 9_028 10_024 10_010 11_019 11_018 11_013 11_012 11_011 11_010 11_017 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 9_005 9_004 11_009 9_003 11_008 9_002 11_007 9_001 9_000 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_005 10_004 10_007 10_006 9_009 10_001 9_008 10_000 9_007 10_003 9_006 10_002 
+--------------------------------
+NO.39 Scene:
+discovered in ineration NO. 0
+origin branch is: 599-1092 ,target branch is: 599-1091
+interests are:
+font_size      Small    1     null
+discovered tags are : 11_018 
+--------------------------------
+NO.40 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-594 ,target branch is: 331-593
+interests are:
+font_size      Normal    1     null
+discovered tags are : 11_019 11_018 11_020 11_024 11_023 11_022 11_021 11_017 11_016 
+--------------------------------
+NO.41 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-961 ,target branch is: 536-959
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_000 7_025 8_002 8_001 8_004 7_028 8_003 7_029 8_006 7_026 8_005 7_027 
+--------------------------------
+NO.42 Scene:
+discovered in ineration NO. 0
+origin branch is: 94-187 ,target branch is: 94-188
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 3_020 6_017 3_025 9_029 8_028 11_004 
+--------------------------------
+NO.43 Scene:
+discovered in ineration NO. 0
+origin branch is: 498-885 ,target branch is: 498-886
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 3_012 
+--------------------------------
+NO.44 Scene:
+discovered in ineration NO. 0
+origin branch is: 498-885 ,target branch is: 498-887
+interests are:
+font_size      Largest    1     null
+discovered tags are : 3_012 
+--------------------------------
+NO.45 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-594 ,target branch is: 331-597
+interests are:
+font_size      Small    1     null
+discovered tags are : 11_019 11_018 11_020 11_024 11_023 11_022 11_021 11_017 11_016 
+--------------------------------
+NO.46 Scene:
+discovered in ineration NO. 0
+origin branch is: 498-885 ,target branch is: 498-888
+interests are:
+font_size      Large    1     null
+discovered tags are : 3_012 
+--------------------------------
+NO.47 Scene:
+discovered in ineration NO. 0
+origin branch is: 30-45 ,target branch is: 30-44
+interests are:
+theme      Light / serif    0     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.48 Scene:
+discovered in ineration NO. 0
+origin branch is: 498-885 ,target branch is: 498-889
+interests are:
+font_size      Small    1     null
+discovered tags are : 3_012 
+--------------------------------
+NO.49 Scene:
+discovered in ineration NO. 0
+origin branch is: 600-1094 ,target branch is: 600-1093
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 8_019 8_018 8_010 8_012 8_014 
+--------------------------------
+NO.50 Scene:
+discovered in ineration NO. 0
+origin branch is: 32-48 ,target branch is: 32-49
+interests are:
+theme      Light / monospace    0     null
+discovered tags are : 4_003 1_028 1_027 3_013 3_014 3_023 3_012 4_013 
+--------------------------------
+NO.51 Scene:
+discovered in ineration NO. 0
+origin branch is: 497-883 ,target branch is: 497-884
+interests are:
+theme      Light / monospace    0     null
+discovered tags are : 3_012 
+--------------------------------
+NO.52 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-958 ,target branch is: 536-959
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_022 8_021 8_024 8_023 4_000 8_025 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.53 Scene:
+discovered in ineration NO. 0
+origin branch is: 536-961 ,target branch is: 536-960
+interests are:
+font_size      Largest    1     null
+discovered tags are : 8_000 7_025 8_002 8_001 8_004 7_028 8_003 7_029 8_006 7_026 8_005 7_027 
+--------------------------------
+NO.54 Scene:
+discovered in ineration NO. 0
+origin branch is: 603-1098 ,target branch is: 603-1097
+interests are:
+theme      Dark / sans serif    0     null
+discovered tags are : 4_013 
+--------------------------------
+NO.55 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-596 ,target branch is: 331-593
+interests are:
+font_size      Normal    1     null
+discovered tags are : 10_010 11_013 11_012 11_011 11_010 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 11_009 10_021 11_008 10_020 11_007 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_026 10_007 10_023 10_022 10_025 10_024 
+--------------------------------
+NO.56 Scene:
+discovered in ineration NO. 0
+origin branch is: 331-596 ,target branch is: 331-597
+interests are:
+font_size      Small    1     null
+discovered tags are : 10_010 11_013 11_012 11_011 11_010 11_016 11_015 11_014 10_019 10_016 10_015 10_018 10_017 10_012 10_011 10_014 10_013 11_009 10_021 11_008 10_020 11_007 11_002 11_001 11_000 11_006 11_005 11_004 11_003 10_009 10_008 10_026 10_007 10_023 10_022 10_025 10_024 
+--------------------------------
+NO.57 Scene:
+discovered in ineration NO. 0
+origin branch is: 93-186 ,target branch is: 93-185
+interests are:
+sort_by      Name (A to Z)    2     null
+discovered tags are : 3_020 6_017 3_025 9_029 8_028 11_004 
+--------------------------------
+index.1,  interestcase 8_000 start:
+tagetlogs are:[534-955, 536-960, 197-321, 533-952, 208-344, 199-325]
+current preference, name:theme, value:Light / serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Name (A to Z)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_1_8_000.py]
+
+OK
+
+consumed time: 17.8789999485 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 30.8209998608 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [197-321, 199-325]
+uncovered targets are: [534-955, 536-960, 533-952, 208-344]
+interestcase 0_1_8_000 end
+
+index.2,  interestcase 8_002 start:
+tagetlogs are:[534-955, 536-960, 533-952, 208-344]
+current preference, name:theme, value:Light / serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Name (A to Z)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_2_8_002.py]
+
+OK
+
+consumed time: 24.9900000095 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 8.7349998951 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [534-955, 536-960, 533-952, 208-344]
+target: 534-955 uncovered, added to then retrial list!
+target: 536-960 uncovered, added to then retrial list!
+target: 533-952 uncovered, added to then retrial list!
+target: 208-344 uncovered, added to then retrial list!
+interestcase 0_2_8_002 end
+
+index.3,  interestcase 11_004 start:
+tagetlogs are:[94-188, 330-592, 336-612, 93-185, 92-184, 91-181, 604-1099, 590-1065]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Name (A to Z)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_3_11_004.py]
+
+OK
+
+consumed time: 19.8420000076 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_3_11_004.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/action_delete\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_3_11_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.5250000954 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [590-1065]
+uncovered targets are: [94-188, 330-592, 336-612, 93-185, 92-184, 91-181, 604-1099]
+interestcase 0_3_11_004 end
+
+index.4,  interestcase 11_004 start:
+tagetlogs are:[94-188, 330-592, 336-612, 93-185, 92-184, 91-181, 604-1099]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Name (A to Z)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_4_11_004.py]
+
+OK
+
+consumed time: 24.5279998779 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_4_11_004.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/action_delete\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_4_11_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.3190000057 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [94-188, 330-592, 336-612, 93-185, 92-184, 91-181, 604-1099]
+target: 94-188 uncovered, added to then retrial list!
+target: 330-592 uncovered, added to then retrial list!
+target: 336-612 uncovered, added to then retrial list!
+target: 93-185 uncovered, added to then retrial list!
+target: 92-184 uncovered, added to then retrial list!
+target: 91-181 uncovered, added to then retrial list!
+target: 604-1099 uncovered, added to then retrial list!
+interestcase 0_4_11_004 end
+
+index.5,  interestcase 11_018 start:
+tagetlogs are:[333-606, 327-585, 599-1091, 326-584]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Small
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_5_11_018.py]
+
+OK
+
+consumed time: 17.1380000114 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 30.8049998283 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [333-606, 327-585, 599-1091, 326-584]
+target: 333-606 uncovered, added to then retrial list!
+target: 327-585 uncovered, added to then retrial list!
+target: 599-1091 uncovered, added to then retrial list!
+target: 326-584 uncovered, added to then retrial list!
+interestcase 0_5_11_018 end
+
+index.6,  interestcase 8_010 start:
+tagetlogs are:[539-973, 535-957, 600-1093]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_6_8_010.py]
+
+OK
+
+consumed time: 15.4130001068 s
+
+jacoco time: 5.00299978256 s
+
+OK
+
+consumed time: 60.8190000057 s
+
+jacoco time: 5.00200009346 s
+
+covered targets are: [535-957]
+uncovered targets are: [539-973, 600-1093]
+interestcase 0_6_8_010 end
+
+index.7,  interestcase 8_012 start:
+tagetlogs are:[539-973, 600-1093]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_7_8_012.py]
+
+OK
+
+consumed time: 16.5699999332 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 15.6920001507 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [539-973, 600-1093]
+target: 539-973 uncovered, added to then retrial list!
+target: 600-1093 uncovered, added to then retrial list!
+interestcase 0_7_8_012 end
+
+index.8,  interestcase 3_012 start:
+tagetlogs are:[498-888, 495-879, 30-44, 496-882, 31-47, 33-53]
+current preference, name:theme, value:Light / serif
+current preference, name:font_size, value:Large
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_8_3_012.py]
+
+OK
+
+consumed time: 14.0520000458 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 40.611000061 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [498-888, 495-879, 30-44, 496-882, 31-47, 33-53]
+uncovered targets are: []
+interestcase 0_8_3_012 end
+
+index.9,  interestcase 3_012 start:
+tagetlogs are:[498-889, 497-884, 33-54, 32-49]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Small
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_9_3_012.py]
+
+OK
+
+consumed time: 14.9679999352 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 35.2349998951 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [498-889, 497-884, 33-54, 32-49]
+uncovered targets are: []
+interestcase 0_9_3_012 end
+
+index.10,  interestcase 3_012 start:
+tagetlogs are:[498-886, 536-959, 504-906, 56-105, 33-51, 540-975, 602-1095]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_10_3_012.py]
+
+OK
+
+consumed time: 14.9590001106 s
+
+jacoco time: 5.00199985504 s
+
+OK
+
+consumed time: 34.2149999142 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [498-886, 536-959, 33-51]
+uncovered targets are: [504-906, 56-105, 540-975, 602-1095]
+interestcase 0_10_3_012 end
+
+index.11,  interestcase 3_012 start:
+tagetlogs are:[498-887, 33-52]
+current preference, name:font_size, value:Largest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_11_3_012.py]
+
+OK
+
+consumed time: 11.6080000401 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.5900001526 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [498-887, 33-52]
+uncovered targets are: []
+interestcase 0_11_3_012 end
+
+index.12,  interestcase 3_012 start:
+tagetlogs are:[504-906, 56-105, 540-975, 602-1095]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_12_3_012.py]
+
+OK
+
+consumed time: 13.3309998512 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 37.478000164 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [504-906, 56-105, 540-975, 602-1095]
+target: 504-906 uncovered, added to then retrial list!
+target: 56-105 uncovered, added to then retrial list!
+target: 540-975 uncovered, added to then retrial list!
+target: 602-1095 uncovered, added to then retrial list!
+interestcase 0_12_3_012 end
+
+index.13,  interestcase 11_000 start:
+tagetlogs are:[331-597, 221-369, 595-1083]
+current preference, name:font_size, value:Small
+current preference, name:sort_by, value:Name (A to Z)
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_13_11_000.py]
+
+OK
+
+consumed time: 27.1770000458 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 28.2870001793 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: [221-369]
+uncovered targets are: [331-597, 595-1083]
+interestcase 0_13_11_000 end
+
+index.14,  interestcase 11_006 start:
+tagetlogs are:[331-597, 595-1083]
+current preference, name:font_size, value:Small
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_14_11_006.py]
+
+OK
+
+consumed time: 28.6549999714 s
+
+jacoco time: 5.007999897 s
+
+OK
+
+consumed time: 25.501999855 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [331-597, 595-1083]
+target: 331-597 uncovered, added to then retrial list!
+target: 595-1083 uncovered, added to then retrial list!
+interestcase 0_14_11_006 end
+
+index.15,  interestcase 10_010 start:
+tagetlogs are:[331-593]
+current preference, name:font_size, value:Normal
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_15_10_010.py]
+
+OK
+
+consumed time: 19.6819999218 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 14.6919999123 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [331-593]
+target: 331-593 uncovered, added to then retrial list!
+interestcase 0_15_10_010 end
+
+index.16,  interestcase 7_025 start:
+tagetlogs are:[541-977]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_16_7_025.py]
+
+OK
+
+consumed time: 17.9730000496 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 32.4619998932 s
+
+jacoco time: 5.0110001564 s
+
+covered targets are: []
+uncovered targets are: [541-977]
+target: 541-977 uncovered, added to then retrial list!
+interestcase 0_16_7_025 end
+
+index.17,  interestcase 4_013 start:
+tagetlogs are:[603-1097, 606-1104]
+current preference, name:theme, value:Dark / sans serif
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_17_4_013.py]
+
+OK
+
+consumed time: 19.1860001087 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_17_4_013.py", line 194, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Smallest\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_17_4_013.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 51.123000145 s
+
+jacoco time: 5.01300001144 s
+
+covered targets are: [603-1097, 606-1104]
+uncovered targets are: []
+interestcase 0_17_4_013 end
+
+index.18,  interestcase 10_003 start:
+tagetlogs are:[605-1101, 337-614, 611-1115]
+current preference, name:font_size, value:Smallest
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_18_10_003.py]
+
+OK
+
+consumed time: 27.6050000191 s
+
+jacoco time: 5.00699996948 s
+
+OK
+
+consumed time: 30.7190001011 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [605-1101, 337-614, 611-1115]
+target: 605-1101 uncovered, added to then retrial list!
+target: 337-614 uncovered, added to then retrial list!
+target: 611-1115 uncovered, added to then retrial list!
+interestcase 0_18_10_003 end
+
+index.19,  interestcase 7_004 start:
+tagetlogs are:[611-1115]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_19_7_004.py]
+
+OK
+
+consumed time: 40.239000082 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 14.0410001278 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [611-1115]
+loclog: 611-1115 uncovered after retrial, deleted!
+interestcase 0_19_7_004 end
+
+index.20,  interestcase 9_012 start:
+tagetlogs are:[337-614]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_20_9_012.py]
+
+OK
+
+consumed time: 35.5120000839 s
+
+jacoco time: 5.00699996948 s
+
+OK
+
+consumed time: 17.0089998245 s
+
+jacoco time: 5.00900006294 s
+
+covered targets are: []
+uncovered targets are: [337-614]
+loclog: 337-614 uncovered after retrial, deleted!
+interestcase 0_20_9_012 end
+
+index.21,  interestcase 10_005 start:
+tagetlogs are:[605-1101]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_21_10_005.py]
+
+OK
+
+consumed time: 38.7320001125 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_21_10_005.py", line 199, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Dark / serif\")", "new UiSelector().className(\"android.widget.CheckedTextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_21_10_005.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 40.6449999809 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [605-1101]
+loclog: 605-1101 uncovered after retrial, deleted!
+interestcase 0_21_10_005 end
+
+index.22,  interestcase 8_002 start:
+tagetlogs are:[541-977]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Large
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_22_8_002.py]
+
+OK
+
+consumed time: 34.0379998684 s
+
+jacoco time: 5.00699996948 s
+
+OK
+
+consumed time: 16.2850000858 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: []
+uncovered targets are: [541-977]
+loclog: 541-977 uncovered after retrial, deleted!
+interestcase 0_22_8_002 end
+
+index.23,  interestcase 10_021 start:
+tagetlogs are:[331-593]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_23_10_021.py]
+
+OK
+
+consumed time: 35.75 s
+
+jacoco time: 5.00999999046 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_23_10_021.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/editText1\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_23_10_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.3500001431 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: [331-593]
+uncovered targets are: []
+target: 331-593 covered after retrial!
+interestcase 0_23_10_021 end
+
+index.24,  interestcase 9_018 start:
+tagetlogs are:[595-1083]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:0
+current preference, name:show_date, value:1
+current preference, name:direct_edit, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_24_9_018.py]
+
+OK
+
+consumed time: 52.3380000591 s
+
+jacoco time: 5.00899982452 s
+
+OK
+
+consumed time: 53.3910000324 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [595-1083]
+loclog: 595-1083 uncovered after retrial, deleted!
+interestcase 0_24_9_018 end
+
+index.25,  interestcase 10_021 start:
+tagetlogs are:[331-597]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Small
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_25_10_021.py]
+
+OK
+
+consumed time: 38.0920000076 s
+
+jacoco time: 5.0110001564 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_25_10_021.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/editText1\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_25_10_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.8830001354 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [331-597]
+uncovered targets are: []
+target: 331-597 covered after retrial!
+interestcase 0_25_10_021 end
+
+index.26,  interestcase 3_005 start:
+tagetlogs are:[602-1095]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_26_3_005.py]
+
+OK
+
+consumed time: 36.1770000458 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_26_3_005.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/action_select_all\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_26_3_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.4949998856 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [602-1095]
+loclog: 602-1095 uncovered after retrial, deleted!
+interestcase 0_26_3_005 end
+
+index.27,  interestcase 2_027 start:
+tagetlogs are:[540-975]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_27_2_027.py]
+
+OK
+
+consumed time: 42.2760000229 s
+
+jacoco time: 5.00999999046 s
+
+OK
+
+consumed time: 15.2550001144 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [540-975]
+loclog: 540-975 uncovered after retrial, deleted!
+interestcase 0_27_2_027 end
+
+index.28,  interestcase 4_003 start:
+tagetlogs are:[56-105]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:0
+current preference, name:show_date, value:0
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_28_4_003.py]
+
+OK
+
+consumed time: 52.0920000076 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 44.2490000725 s
+
+jacoco time: 5.00899982452 s
+
+covered targets are: []
+uncovered targets are: [56-105]
+loclog: 56-105 uncovered after retrial, deleted!
+interestcase 0_28_4_003 end
+
+index.29,  interestcase 3_012 start:
+tagetlogs are:[504-906]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:0
+current preference, name:show_date, value:0
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_29_3_012.py]
+
+OK
+
+consumed time: 52.3480000496 s
+
+jacoco time: 5.00899982452 s
+
+OK
+
+consumed time: 45.3509998322 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [504-906]
+loclog: 504-906 uncovered after retrial, deleted!
+interestcase 0_29_3_012 end
+
+index.30,  interestcase 8_010 start:
+tagetlogs are:[600-1093]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Small
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_30_8_010.py]
+
+OK
+
+consumed time: 38.5580000877 s
+
+jacoco time: 5.00899982452 s
+
+OK
+
+consumed time: 72.6799998283 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: []
+uncovered targets are: [600-1093]
+loclog: 600-1093 uncovered after retrial, deleted!
+interestcase 0_30_8_010 end
+
+index.31,  interestcase 8_011 start:
+tagetlogs are:[539-973]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Small
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_31_8_011.py]
+
+OK
+
+consumed time: 38.1809999943 s
+
+jacoco time: 5.0070002079 s
+
+OK
+
+consumed time: 16.1860001087 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [539-973]
+loclog: 539-973 uncovered after retrial, deleted!
+interestcase 0_31_8_011 end
+
+index.32,  interestcase 9_012 start:
+tagetlogs are:[326-584]
+current preference, name:theme, value:Dark / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_32_9_012.py]
+
+OK
+
+consumed time: 30.0359997749 s
+
+jacoco time: 5.01000022888 s
+
+OK
+
+consumed time: 19.4849998951 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [326-584]
+loclog: 326-584 uncovered after retrial, deleted!
+interestcase 0_32_9_012 end
+
+index.33,  interestcase 11_018 start:
+tagetlogs are:[599-1091]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_33_11_018.py]
+
+OK
+
+consumed time: 36.8559999466 s
+
+jacoco time: 5.00999999046 s
+
+OK
+
+consumed time: 39.7350001335 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [599-1091]
+loclog: 599-1091 uncovered after retrial, deleted!
+interestcase 0_33_11_018 end
+
+index.34,  interestcase 9_012 start:
+tagetlogs are:[327-585]
+current preference, name:theme, value:Dark / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_34_9_012.py]
+
+OK
+
+consumed time: 31.0810000896 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 16.4579999447 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: [327-585]
+uncovered targets are: []
+target: 327-585 covered after retrial!
+interestcase 0_34_9_012 end
+
+index.35,  interestcase 11_024 start:
+tagetlogs are:[333-606]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_35_11_024.py]
+
+OK
+
+consumed time: 36.1710000038 s
+
+jacoco time: 5.007999897 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_35_11_024.py", line 191, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageButton\").description(\"Navigate up\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_35_11_024.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.6649999619 s
+
+jacoco time: 5.00900006294 s
+
+covered targets are: []
+uncovered targets are: [333-606]
+loclog: 333-606 uncovered after retrial, deleted!
+interestcase 0_35_11_024 end
+
+index.36,  interestcase 10_023 start:
+tagetlogs are:[604-1099]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Large
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_36_10_023.py]
+
+OK
+
+consumed time: 39.2100000381 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 18.6510000229 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [604-1099]
+loclog: 604-1099 uncovered after retrial, deleted!
+interestcase 0_36_10_023 end
+
+index.37,  interestcase 4_027 start:
+tagetlogs are:[91-181]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_37_4_027.py]
+
+OK
+
+consumed time: 35.8059999943 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 29.6160001755 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [91-181]
+loclog: 91-181 uncovered after retrial, deleted!
+interestcase 0_37_4_027 end
+
+index.38,  interestcase 4_027 start:
+tagetlogs are:[92-184]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_38_4_027.py]
+
+OK
+
+consumed time: 38.4300000668 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 30.9049999714 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: []
+uncovered targets are: [92-184]
+loclog: 92-184 uncovered after retrial, deleted!
+interestcase 0_38_4_027 end
+
+index.39,  interestcase 6_017 start:
+tagetlogs are:[93-185]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:0
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_39_6_017.py]
+
+OK
+
+consumed time: 51.8190000057 s
+
+jacoco time: 5.00800013542 s
+
+OK
+
+consumed time: 62.7409999371 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [93-185]
+loclog: 93-185 uncovered after retrial, deleted!
+interestcase 0_39_6_017 end
+
+index.40,  interestcase 10_021 start:
+tagetlogs are:[336-612]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Large
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_40_10_021.py]
+
+OK
+
+consumed time: 38.5529999733 s
+
+jacoco time: 5.01099991798 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_40_10_021.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/editText1\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_40_10_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.5470001698 s
+
+jacoco time: 5.00899982452 s
+
+covered targets are: []
+uncovered targets are: [336-612]
+loclog: 336-612 uncovered after retrial, deleted!
+interestcase 0_40_10_021 end
+
+index.41,  interestcase 9_012 start:
+tagetlogs are:[330-592]
+current preference, name:theme, value:Light / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_41_9_012.py]
+
+OK
+
+consumed time: 36.3550000191 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 16.0510001183 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [330-592]
+loclog: 330-592 uncovered after retrial, deleted!
+interestcase 0_41_9_012 end
+
+index.42,  interestcase 6_017 start:
+tagetlogs are:[94-188]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:0
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_42_6_017.py]
+
+OK
+
+consumed time: 42.4549999237 s
+
+jacoco time: 5.00800013542 s
+
+OK
+
+consumed time: 61.1019999981 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: []
+uncovered targets are: [94-188]
+loclog: 94-188 uncovered after retrial, deleted!
+interestcase 0_42_6_017 end
+
+index.43,  interestcase 1_000 start:
+tagetlogs are:[208-344]
+current preference, name:theme, value:Light / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_43_1_000.py]
+
+OK
+
+consumed time: 27.9230000973 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_43_1_000.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"More options\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_43_1_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.5610001087 s
+
+jacoco time: 5.00900006294 s
+
+covered targets are: []
+uncovered targets are: [208-344]
+loclog: 208-344 uncovered after retrial, deleted!
+interestcase 0_43_1_000 end
+
+index.44,  interestcase 2_027 start:
+tagetlogs are:[533-952]
+current preference, name:theme, value:Dark / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_44_2_027.py]
+
+OK
+
+consumed time: 28.8499999046 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 16.3049998283 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [533-952]
+loclog: 533-952 uncovered after retrial, deleted!
+interestcase 0_44_2_027 end
+
+index.45,  interestcase 8_002 start:
+tagetlogs are:[536-960]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Largest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_45_8_002.py]
+
+OK
+
+consumed time: 32.8940000534 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 14.7349998951 s
+
+jacoco time: 5.00900006294 s
+
+covered targets are: [536-960]
+uncovered targets are: []
+target: 536-960 covered after retrial!
+interestcase 0_45_8_002 end
+
+index.46,  interestcase 2_027 start:
+tagetlogs are:[534-955]
+current preference, name:theme, value:Light / sans serif
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase0_46_2_027.py]
+
+OK
+
+consumed time: 34.9140000343 s
+
+jacoco time: 5.00899982452 s
+
+OK
+
+consumed time: 14.3460001945 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [534-955]
+loclog: 534-955 uncovered after retrial, deleted!
+interestcase 0_46_2_027 end
+
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 55-104 ,target branch is: 55-103
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_14_11_006 0_13_11_000 0_9_3_012 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 58-110 ,target branch is: 58-109
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_11_3_012 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 502-903 ,target branch is: 502-902
+interests are:
+font_size      Small    1     null
+discovered tags are : 0_10_3_012 0_12_3_012 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 505-909 ,target branch is: 505-908
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_8_3_012 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 54-102 ,target branch is: 54-101
+interests are:
+font_size      Small    1     null
+discovered tags are : 0_10_3_012 0_12_3_012 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 335-611 ,target branch is: 335-610
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_23_10_021 0_24_9_018 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 223-374 ,target branch is: 223-373
+interests are:
+sort_by      Date (most recent first)    2     null
+discovered tags are : 0_14_11_006 0_13_11_000 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 1
+origin branch is: 654-1201 ,target branch is: 654-1202
+interests are:
+show_dialogs      1    3     null
+discovered tags are : 0_29_3_012 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 1
+origin branch is: 506-911 ,target branch is: 506-910
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_11_3_012 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 1
+origin branch is: 503-905 ,target branch is: 503-904
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_9_3_012 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 1
+origin branch is: 57-108 ,target branch is: 57-107
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_17_4_013 0_8_3_012 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 1
+origin branch is: 334-609 ,target branch is: 334-608
+interests are:
+font_size      Smallest    1     null
+discovered tags are : 0_25_10_021 0_26_3_005 0_32_9_012 0_33_11_018 
+--------------------------------
+index.1,  interestcase 0_9_3_012 start:
+tagetlogs are:[503-904]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_1_0_9_3_012.py]
+
+OK
+
+consumed time: 18.8800001144 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_1_0_9_3_012.py", line 196, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/action_delete\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_1_0_9_3_012.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 40.8109998703 s
+
+jacoco time: 5.00200009346 s
+
+covered targets are: []
+uncovered targets are: [503-904]
+loclog: 503-904 uncovered after retrial, deleted!
+interestcase 1_1_0_9_3_012 end
+
+index.2,  interestcase 0_29_3_012 start:
+tagetlogs are:[654-1202]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Normal
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_dialogs, value:1
+current preference, name:show_date, value:0
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_2_0_29_3_012.py]
+
+OK
+
+consumed time: 30.0840001106 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.3380000591 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [654-1202]
+loclog: 654-1202 uncovered after retrial, deleted!
+interestcase 1_2_0_29_3_012 end
+
+index.3,  interestcase 0_8_3_012 start:
+tagetlogs are:[505-908]
+current preference, name:theme, value:Light / serif
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_3_0_8_3_012.py]
+
+OK
+
+consumed time: 15.6550002098 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 34.1749999523 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [505-908]
+loclog: 505-908 uncovered after retrial, deleted!
+interestcase 1_3_0_8_3_012 end
+
+index.4,  interestcase 0_12_3_012 start:
+tagetlogs are:[502-902]
+current preference, name:font_size, value:Small
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_4_0_12_3_012.py]
+
+OK
+
+consumed time: 12.9049999714 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.9130001068 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [502-902]
+loclog: 502-902 uncovered after retrial, deleted!
+interestcase 1_4_0_12_3_012 end
+
+index.5,  interestcase 0_11_3_012 start:
+tagetlogs are:[58-109]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_5_0_11_3_012.py]
+
+OK
+
+consumed time: 13.5360000134 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.4159998894 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [58-109]
+loclog: 58-109 uncovered after retrial, deleted!
+interestcase 1_5_0_11_3_012 end
+
+index.6,  interestcase 0_13_11_000 start:
+tagetlogs are:[223-373]
+current preference, name:font_size, value:Small
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_6_0_13_11_000.py]
+
+OK
+
+consumed time: 22.1440000534 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 18.7290000916 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [223-373]
+loclog: 223-373 uncovered after retrial, deleted!
+interestcase 1_6_0_13_11_000 end
+
+index.7,  interestcase 0_23_10_021 start:
+tagetlogs are:[335-610]
+current preference, name:theme, value:Light / sans serif
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_7_0_23_10_021.py]
+
+OK
+
+consumed time: 23.0629999638 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_7_0_23_10_021.py", line 194, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.farmerbb.notepad:id/editText1\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_7_0_23_10_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.1560001373 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [335-610]
+loclog: 335-610 uncovered after retrial, deleted!
+interestcase 1_7_0_23_10_021 end
+
+index.8,  interestcase 0_11_3_012 start:
+tagetlogs are:[506-910]
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_8_0_11_3_012.py]
+
+OK
+
+consumed time: 19.3129999638 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 36.0749998093 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [506-910]
+loclog: 506-910 uncovered after retrial, deleted!
+interestcase 1_8_0_11_3_012 end
+
+index.9,  interestcase 0_13_11_000 start:
+tagetlogs are:[55-103]
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Name (A to Z)
+current preference, name:direct_edit, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_9_0_13_11_000.py]
+
+OK
+
+consumed time: 21.0839998722 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 24.0559999943 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [55-103]
+loclog: 55-103 uncovered after retrial, deleted!
+interestcase 1_9_0_13_11_000 end
+
+index.10,  interestcase 0_12_3_012 start:
+tagetlogs are:[54-101]
+current preference, name:font_size, value:Small
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_10_0_12_3_012.py]
+
+OK
+
+consumed time: 14.1790001392 s
+
+jacoco time: 5.00199985504 s
+
+OK
+
+consumed time: 34.1270000935 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [54-101]
+loclog: 54-101 uncovered after retrial, deleted!
+interestcase 1_10_0_12_3_012 end
+
+index.11,  interestcase 0_32_9_012 start:
+tagetlogs are:[334-608]
+current preference, name:theme, value:Dark / sans serif
+current preference, name:font_size, value:Smallest
+current preference, name:sort_by, value:Date (most recent first)
+current preference, name:show_date, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_11_0_32_9_012.py]
+
+OK
+
+consumed time: 24.3800001144 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 11.3090000153 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [334-608]
+loclog: 334-608 uncovered after retrial, deleted!
+interestcase 1_11_0_32_9_012 end
+
+index.12,  interestcase 0_17_4_013 start:
+tagetlogs are:[57-107]
+current preference, name:theme, value:Dark / sans serif
+current preference, name:font_size, value:Smallest
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_12_0_17_4_013.py]
+
+OK
+
+consumed time: 19.4309999943 s
+
+jacoco time: 5.00199985504 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_12_0_17_4_013.py", line 196, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Smallest\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase1_12_0_17_4_013.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 38.2550001144 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [57-107]
+loclog: 57-107 uncovered after retrial, deleted!
+interestcase 1_12_0_17_4_013 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 538-972 ,target branch is: 538-971
+interests are:
+font_size      Small    1     null
+discovered tags are : 1_1_0_9_3_012 1_2_0_29_3_012 1_4_0_12_3_012 1_6_0_13_11_000 1_5_0_11_3_012 1_3_0_8_3_012 
+--------------------------------
+index.1,  interestcase 1_1_0_9_3_012 start:
+tagetlogs are:[538-971]
+current preference, name:theme, value:Light / monospace
+current preference, name:font_size, value:Small
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\notepad2\testcase\interestcases\testcase2_1_1_1_0_9_3_012.py]
+
+OK
+
+consumed time: 15.9420001507 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.1659998894 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [538-971]
+loclog: 538-971 uncovered after retrial, deleted!
+interestcase 2_1_1_1_0_9_3_012 end
+

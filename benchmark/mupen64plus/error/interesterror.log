@@ -1,0 +1,481 @@
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_3_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityManager( 1586): ANR in paulscode.android.mupen64plusae (paulscode.android.mupen64plusae/.util.LogcatActivity)
+
+E/ActivityManager( 1586): PID: 4103
+
+E/ActivityManager( 1586): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+
+E/ActivityManager( 1586): Load: 2.54 / 1.14 / 0.64
+
+E/ActivityManager( 1586): CPU usage from 7445ms to 2236ms ago:
+
+E/ActivityManager( 1586):   68% 3776/logcat: 13% user + 55% kernel / faults: 9799 minor
+
+E/ActivityManager( 1586):   65% 2209/logcat: 8.8% user + 56% kernel / faults: 9111 minor
+
+E/ActivityManager( 1586):   60% 3778/logcat: 11% user + 48% kernel / faults: 8271 minor
+
+E/ActivityManager( 1586):   58% 4054/logcat: 10% user + 47% kernel / faults: 9514 minor
+
+E/ActivityManager( 1586):   57% 2743/logcat: 0.1% user + 57% kernel
+
+E/ActivityManager( 1586):   54% 4151/logcat: 0.7% user + 53% kernel
+
+E/ActivityManager( 1586):   28% 4103/paulscode.android.mupen64plusae: 4% user + 24% kernel / faults: 6548 minor
+
+E/ActivityManager( 1586):   3% 1586/system_server: 0.3% user + 2.6% kernel / faults: 15 minor
+
+E/ActivityManager( 1586):   2.6% 1167/surfaceflinger: 0% user + 2.6% kernel
+
+E/ActivityManager( 1586): 100% TOTAL: 13% user + 86% kernel
+
+E/ActivityManager( 1586): CPU usage from 1692ms to 2199ms later:
+
+E/ActivityManager( 1586):   80% 4054/logcat: 17% user + 62% kernel / faults: 1523 minor
+
+E/ActivityManager( 1586):   72% 3778/logcat: 7.8% user + 64% kernel / faults: 1181 minor
+
+E/ActivityManager( 1586):   70% 2743/logcat: 17% user + 52% kernel / faults: 1234 minor
+
+E/ActivityManager( 1586):   49% 3776/logcat: 9.8% user + 39% kernel / faults: 812 minor
+
+E/ActivityManager( 1586):   49% 4151/logcat: 0% user + 49% kernel
+
+E/ActivityManager( 1586):   47% 2209/logcat: 9.8% user + 37% kernel / faults: 719 minor
+
+E/ActivityManager( 1586):   26% 4103/paulscode.android.mupen64plusae: 3.7% user + 22% kernel / faults: 227 minor
+
+E/ActivityManager( 1586):     22% 4103/d.mupen64plusae: 3.7% user + 18% kernel
+
+E/ActivityManager( 1586):     1.8% 4105/GC: 1.8% user + 0% kernel
+
+E/ActivityManager( 1586):   1.9% 1586/system_server: 0% user + 1.9% kernel / faults: 1 minor
+E/ActivityManager( 1586): ANR in paulscode.android.mupen64plusae (paulscode.android.mupen64plusae/.util.LogcatActivity)
+
+E/ActivityManager( 1586): ANR in paulscode.android.mupen64plusae (paulscode.android.mupen64plusae/.util.LogcatActivity)
+
+E/ActivityManager( 1586):     3.9% 1601/ActivityManager: 0% user + 3.9% kernel
+
+
+E/ActivityManager( 1586): PID: 4103
+E/ActivityManager( 1586): PID: 4103
+
+E/ActivityManager( 1586): 100% TOTAL: 17% user + 82% kernel
+
+E/ActivityManager( 1586): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager( 1586): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+
+
+
+E/ActivityManager( 1586): Load: 2.54 / 1.14 / 0.64
+E/ActivityManager( 1586): Load: 2.54 / 1.14 / 0.64
+
+
+E/ActivityManager( 1586): CPU usage from 7445ms to 2236ms ago:
+E/ActivityManager( 1586): CPU usage from 7445ms to 2236ms ago:
+
+
+E/ActivityManager( 1586):   68% 3776/logcat: 13% user + 55% kernel / faults: 9799 minor
+E/ActivityManager( 1586):   68% 3776/logcat: 13% user + 55% kernel / faults: 9799 minor
+
+
+E/ActivityManager( 1586):   65% 2209/logcat: 8.8% user + 56% kernel / faults: 9111 minor
+E/ActivityManager( 1586):   65% 2209/logcat: 8.8% user + 56% kernel / faults: 9111 minor
+
+
+E/ActivityManager( 1586):   60% 3778/logcat: 11% user + 48% kernel / faults: 8271 minor
+E/ActivityManager( 1586):   60% 3778/logcat: 11% user + 48% kernel / faults: 8271 minor
+
+
+E/ActivityManager( 1586):   58% 4054/logcat: 10% user + 47% kernel / faults: 9514 minor
+E/ActivityManager( 1586):   58% 4054/logcat: 10% user + 47% kernel / faults: 9514 minor
+
+
+E/ActivityManager( 1586):   57% 2743/logcat: 0.1% user + 57% kernel
+E/ActivityManager( 1586):   57% 2743/logcat: 0.1% user + 57% kernel
+
+
+E/ActivityManager( 1586):   54% 4151/logcat: 0.7% user + 53% kernel
+E/ActivityManager( 1586):   54% 4151/logcat: 0.7% user + 53% kernel
+
+
+E/ActivityManager( 1586):   28% 4103/paulscode.android.mupen64plusae: 4% user + 24% kernel / faults: 6548 minor
+E/ActivityManager( 1586):   28% 4103/paulscode.android.mupen64plusae: 4% user + 24% kernel / faults: 6548 minor
+
+
+E/ActivityManager( 1586):   3% 1586/system_server: 0.3% user + 2.6% kernel / faults: 15 minor
+E/ActivityManager( 1586):   3% 1586/system_server: 0.3% user + 2.6% kernel / faults: 15 minor
+
+
+E/ActivityManager( 1586):   2.6% 1167/surfaceflinger: 0% user + 2.6% kernel
+E/ActivityManager( 1586):   2.6% 1167/surfaceflinger: 0% user + 2.6% kernel
+
+
+E/ActivityManager( 1586): 100% TOTAL: 13% user + 86% kernel
+E/ActivityManager( 1586): 100% TOTAL: 13% user + 86% kernel
+
+
+E/ActivityManager( 1586): CPU usage from 1692ms to 2199ms later:
+E/ActivityManager( 1586): CPU usage from 1692ms to 2199ms later:
+
+
+E/ActivityManager( 1586):   80% 4054/logcat: 17% user + 62% kernel / faults: 1523 minor
+E/ActivityManager( 1586):   80% 4054/logcat: 17% user + 62% kernel / faults: 1523 minor
+
+
+E/ActivityManager( 1586):   72% 3778/logcat: 7.8% user + 64% kernel / faults: 1181 minor
+E/ActivityManager( 1586):   72% 3778/logcat: 7.8% user + 64% kernel / faults: 1181 minor
+
+
+E/ActivityManager( 1586):   70% 2743/logcat: 17% user + 52% kernel / faults: 1234 minor
+E/ActivityManager( 1586):   70% 2743/logcat: 17% user + 52% kernel / faults: 1234 minor
+
+
+E/ActivityManager( 1586):   49% 3776/logcat: 9.8% user + 39% kernel / faults: 812 minor
+E/ActivityManager( 1586):   49% 3776/logcat: 9.8% user + 39% kernel / faults: 812 minor
+
+
+E/ActivityManager( 1586):   49% 4151/logcat: 0% user + 49% kernel
+E/ActivityManager( 1586):   49% 4151/logcat: 0% user + 49% kernel
+
+
+E/ActivityManager( 1586):   47% 2209/logcat: 9.8% user + 37% kernel / faults: 719 minor
+E/ActivityManager( 1586):   47% 2209/logcat: 9.8% user + 37% kernel / faults: 719 minor
+
+
+E/ActivityManager( 1586):   26% 4103/paulscode.android.mupen64plusae: 3.7% user + 22% kernel / faults: 227 minor
+E/ActivityManager( 1586):   26% 4103/paulscode.android.mupen64plusae: 3.7% user + 22% kernel / faults: 227 minor
+
+
+E/ActivityManager( 1586):     22% 4103/d.mupen64plusae: 3.7% user + 18% kernel
+E/ActivityManager( 1586):     22% 4103/d.mupen64plusae: 3.7% user + 18% kernel
+
+
+E/ActivityManager( 1586):     1.8% 4105/GC: 1.8% user + 0% kernel
+E/ActivityManager( 1586):     1.8% 4105/GC: 1.8% user + 0% kernel
+
+
+E/ActivityManager( 1586):   1.9% 1586/system_server: 0% user + 1.9% kernel / faults: 1 minor
+E/ActivityManager( 1586):   1.9% 1586/system_server: 0% user + 1.9% kernel / faults: 1 minor
+
+
+E/ActivityManager( 1586):     3.9% 1601/ActivityManager: 0% user + 3.9% kernel
+E/ActivityManager( 1586):     3.9% 1601/ActivityManager: 0% user + 3.9% kernel
+
+
+E/ActivityManager( 1586): 100% TOTAL: 17% user + 82% kernel
+E/ActivityManager( 1586): 100% TOTAL: 17% user + 82% kernel
+
+
+0_3_7_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_7_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_10_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_9_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_18_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_19_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1875): Failed to find provider info for com.google.android.gsf.gservices
+
+0_20_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_21_7_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_22_7_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_23_7_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_24_7_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_25_7_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_26_7_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_13_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_13_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_9_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_10_0_9_9_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_11_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_11_0_2_11_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

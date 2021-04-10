@@ -1,0 +1,1822 @@
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 341.545000076 s
+
+jacoco time: 5.0039999485 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 388.500999928 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13960
+interests are:
+pref_behaviour_fling_post_right      Open Link    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13961
+interests are:
+pref_behaviour_fling_post_right      View in External Browser    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13962
+interests are:
+pref_behaviour_fling_post_right      Action Menu    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13963
+interests are:
+pref_behaviour_fling_post_right      Back    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7126
+interests are:
+pref_appearance_theme      Ultra Black    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13959
+interests are:
+pref_behaviour_fling_post_right      View Comments    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13958
+interests are:
+pref_behaviour_fling_post_right      Hide    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1851-3189 ,target branch is: 1851-3190
+interests are:
+pref_behaviour_usecustomtabs_key      1    29     null
+discovered tags are : 3_000 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13957
+interests are:
+pref_behaviour_fling_post_right      Save    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1235-2119 ,target branch is: 1235-2120
+interests are:
+pref_behaviour_postsort      Top: This Hour    39     Sorting
+discovered tags are : 2_027 4_008 2_024 2_025 8_014 8_003 8_017 4_024 8_008 3_020 1_026 1_025 7_026 7_005 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7123
+interests are:
+pref_appearance_theme      Gray    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 7_022 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_007 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7124
+interests are:
+pref_appearance_theme      Night    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7125
+interests are:
+pref_appearance_theme      Night (low contrast)    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7120
+interests are:
+pref_appearance_theme      Blue    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 7_022 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_007 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 5889-10288 ,target branch is: 5889-10290
+interests are:
+pref_behaviour_postcount      50    52     Posts
+discovered tags are : 7_009 2_027 2_025 2_026 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_019 2_012 2_013 5_000 5_001 5_009 5_006 5_007 5_004 5_005 5_003 2_005 2_007 2_008 2_002 2_004 2_000 5_010 7_020 7_021 5_019 7_024 7_025 7_022 5_018 7_023 5_016 7_026 7_027 7_019 5_022 5_023 5_020 5_021 7_010 7_013 5_026 7_017 7_018 5_024 5_025 6_000 8_011 6_005 8_010 6_008 8_015 6_001 8_014 6_002 8_017 6_003 8_016 6_004 3_028 3_029 8_018 3_026 1_017 1_018 3_020 3_024 3_025 1_012 3_022 1_010 4_003 4_004 4_006 4_007 4_008 8_020 8_021 8_026 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_019 1_029 1_026 3_010 1_024 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_021 4_017 6_022 4_018 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_008 3_009 3_003 3_000 6_010 4_028 6_011 4_029 8_002 6_018 8_001 6_019 4_021 8_004 6_012 4_022 8_003 6_013 4_023 4_024 8_008 8_007 1_008 1_009 1_006 1_007 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7121
+interests are:
+pref_appearance_theme      Light Blue    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 7_022 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_007 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 5889-10288 ,target branch is: 5889-10291
+interests are:
+pref_behaviour_postcount      100    52     Posts
+discovered tags are : 7_009 2_027 2_025 2_026 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_019 2_012 2_013 5_000 5_001 5_009 5_006 5_007 5_004 5_005 5_003 2_005 2_007 2_008 2_002 2_004 2_000 5_010 7_020 7_021 5_019 7_024 7_025 7_022 5_018 7_023 5_016 7_026 7_027 7_019 5_022 5_023 5_020 5_021 7_010 7_013 5_026 7_017 7_018 5_024 5_025 6_000 8_011 6_005 8_010 6_008 8_015 6_001 8_014 6_002 8_017 6_003 8_016 6_004 3_028 3_029 8_018 3_026 1_017 1_018 3_020 3_024 3_025 1_012 3_022 1_010 4_003 4_004 4_006 4_007 4_008 8_020 8_021 8_026 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_019 1_029 1_026 3_010 1_024 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_021 4_017 6_022 4_018 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_008 3_009 3_003 3_000 6_010 4_028 6_011 4_029 8_002 6_018 8_001 6_019 4_021 8_004 6_012 4_022 8_003 6_013 4_023 4_024 8_008 8_007 1_008 1_009 1_006 1_007 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 1093-1833 ,target branch is: 1093-1834
+interests are:
+pref_network_tor      1    79     Network
+discovered tags are : 7_008 7_009 2_023 2_025 2_021 2_022 7_002 7_003 7_000 7_001 7_007 7_004 7_005 2_019 2_012 2_013 2_014 2_010 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_005 2_006 2_007 2_008 2_002 2_004 2_000 5_011 5_012 5_010 7_020 7_021 5_019 7_024 7_025 7_022 5_018 7_023 5_016 7_026 5_014 7_027 7_019 5_022 5_023 5_020 5_021 7_010 7_013 7_014 5_028 5_026 7_017 5_027 7_018 5_024 5_025 6_000 8_011 6_005 8_010 6_006 8_012 6_008 8_015 6_001 8_014 6_002 8_017 6_003 8_016 6_004 3_028 8_019 3_029 8_018 3_026 6_009 1_017 1_018 3_020 3_021 3_024 1_011 3_025 1_012 3_022 1_010 4_003 4_004 4_005 4_006 4_007 4_008 8_020 8_021 8_024 8_023 8_026 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_019 1_026 3_010 1_027 1_024 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 4_026 4_027 6_010 4_028 6_011 4_029 8_002 6_018 8_001 6_019 4_021 8_004 6_012 4_022 8_003 6_013 4_023 6_014 4_024 8_005 8_008 8_007 1_008 1_009 1_006 1_007 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 4034-7110 ,target branch is: 4034-7109
+interests are:
+pref_appearance_langforce_key      English    13     Locale
+discovered tags are : 2_027 2_028 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_018 5_016 5_014 5_022 5_023 5_020 5_021 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 8_025 4_001 8_028 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_011 3_012 4_014 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 6_000 6_005 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_011 1_012 1_010 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 4113-7242_0 ,target branch is: 4113-7242_0
+interests are:
+pref_behaviour_comment_min      0    53     Comments
+discovered tags are : 5_028 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 1841-3169 ,target branch is: 1841-3170
+interests are:
+pref_behaviour_useinternalbrowser      0    28     null
+discovered tags are : 3_000 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 4047-7136 ,target branch is: 4047-7135
+interests are:
+pref_cache_precache_comments_wifionly      1    63     Precache Comments
+pref_cache_precache_comments      1    62     Precache Comments
+discovered tags are : 6_011 4_018 2_001 8_011 4_021 8_003 6_003 5_000 5_001 8_009 7_010 1_018 7_028 1_000 5_002 7_015 7_005 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13957
+interests are:
+pref_behaviour_fling_post_right      Save    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13958
+interests are:
+pref_behaviour_fling_post_right      Hide    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13956 ,target branch is: 7877-13959
+interests are:
+pref_behaviour_fling_post_right      View Comments    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13963
+interests are:
+pref_behaviour_fling_post_right      Back    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13962
+interests are:
+pref_behaviour_fling_post_right      Action Menu    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13961
+interests are:
+pref_behaviour_fling_post_right      View in External Browser    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 4049-7140 ,target branch is: 4049-7139
+interests are:
+pref_network_tor      1    79     Network
+discovered tags are : 4_017 6_011 4_018 8_011 6_007 4_021 8_003 4_001 6_003 5_000 8_009 1_018 7_014 7_028 1_000 7_029 5_002 7_005 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 7877-13955 ,target branch is: 7877-13960
+interests are:
+pref_behaviour_fling_post_right      Open Link    44     Post Actions
+discovered tags are : 4_003 7_019 4_007 2_002 5_006 5_028 1_024 7_001 3_003 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 4041-7118 ,target branch is: 4041-7119
+interests are:
+pref_appearance_theme      Green    10     Theme
+discovered tags are : 7_008 7_009 2_027 2_028 2_023 2_024 2_025 2_020 2_021 7_002 7_003 7_000 7_001 7_006 7_007 7_005 2_016 2_017 2_018 2_019 2_015 5_000 5_001 5_008 5_006 5_005 5_002 2_009 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 7_020 7_024 7_025 7_022 5_018 5_016 7_029 7_027 5_022 5_020 7_010 7_013 7_014 7_011 5_029 7_012 5_025 6_000 6_005 8_012 8_015 8_014 6_002 8_016 6_004 8_018 1_019 6_009 1_018 3_020 1_015 1_016 3_025 3_022 3_023 1_010 4_003 4_004 4_005 4_007 4_009 8_022 8_025 4_001 8_027 3_017 3_018 3_015 3_019 1_029 3_010 1_027 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 4_016 6_021 6_022 4_019 6_028 6_029 4_011 4_012 6_025 4_013 3_006 3_004 3_005 3_008 3_002 3_003 3_000 3_001 4_027 4_028 4_029 8_000 6_016 8_002 6_018 8_001 4_021 8_004 4_022 4_023 8_006 6_015 8_008 8_007 8_009 1_009 1_006 1_007 1_004 1_005 1_002 1_003 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 4051-7145 ,target branch is: 4051-7146
+interests are:
+pref_cache_precache_images_wifionly      0    61     Precache Images
+pref_cache_precache_images      1    60     Precache Images
+discovered tags are : 4_017 6_011 4_018 8_011 4_021 8_003 6_003 5_000 8_009 1_018 7_014 7_028 1_000 7_029 5_002 7_005 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 4112-7241_1 ,target branch is: 4112-7241_1
+interests are:
+pref_behaviour_comment_min      0    53     Comments
+discovered tags are : 5_028 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 6880-12095 ,target branch is: 6880-12096
+interests are:
+pref_behaviour_postsort      Best    39     Sorting
+discovered tags are : 4_014 6_021 7_009 2_027 2_005 8_011 2_004 4_010 6_003 6_025 4_013 3_006 3_029 8_018 3_009 7_000 5_018 7_023 3_024 5_016 3_022 7_004 3_001 4_004 4_026 6_010 4_006 4_028 4_008 2_012 8_021 6_018 8_001 8_004 6_012 8_028 4_023 2_011 5_001 3_018 5_020 5_021 7_013 5_007 1_001 3_011 5_025 3_012 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 5182-9032 ,target branch is: 5182-9031
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : 7_009 2_027 2_024 2_025 2_026 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_019 2_012 2_013 5_000 5_001 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_005 2_007 2_008 2_002 2_003 2_004 2_000 5_010 7_020 7_021 5_019 7_024 7_025 7_022 5_018 7_023 5_016 7_026 7_027 7_019 5_022 5_023 5_020 5_021 7_010 7_013 7_014 5_028 5_029 5_026 7_017 7_018 5_024 5_025 6_000 8_011 6_005 8_010 6_007 6_008 8_015 6_001 8_014 6_002 8_017 6_003 8_016 6_004 3_028 3_029 8_018 3_026 6_009 1_017 1_018 3_020 3_024 3_025 1_012 3_022 1_010 4_003 4_004 4_006 4_007 4_008 8_020 8_022 8_021 8_026 8_025 4_001 8_028 4_002 8_027 3_017 3_018 3_015 3_019 1_029 1_026 3_010 1_027 1_024 1_025 1_022 1_023 3_011 1_020 3_012 1_021 4_014 6_020 6_021 4_017 6_022 4_018 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_003 3_000 4_026 6_010 4_028 6_011 4_029 8_002 6_018 8_001 6_019 4_021 8_004 6_012 4_022 8_003 6_013 4_023 4_024 8_005 8_008 8_007 1_008 1_009 1_006 1_007 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 4018-7082 ,target branch is: 4018-7081
+interests are:
+pref_appearance_thumbnails_wifionly      1    19     Thumbnails
+pref_appearance_thumbnails_show      1    18     Thumbnails
+discovered tags are : 6_011 4_018 8_011 6_028 4_021 4_001 6_003 5_011 8_009 7_014 1_002 1_000 7_029 5_002 7_005 
+--------------------------------
+NO.36 Scene:
+discovered in ineration NO. 0
+origin branch is: 5186-9036 ,target branch is: 5186-9038
+interests are:
+pref_appearance_twopane      Always (may look odd)    21     Tablet Mode
+discovered tags are : 1_003 
+--------------------------------
+index.1,  interestcase 7_001 start:
+tagetlogs are:[4041-7119, 7877-13959, 5182-9031, 4034-7109, 5889-10290, 1093-1834]
+current preference, name:pref_appearance_theme, value:Green
+current preference, name:pref_behaviour_fling_post_right, value:View Comments
+current preference, name:pref_behaviour_postcount, value:50
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_1_7_001.py]
+
+OK
+
+consumed time: 35.2660000324 s
+
+jacoco time: 5.00299978256 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_1_7_001.py", line 240, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"View Comments\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_1_7_001.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 30.5280001163 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4041-7119]
+uncovered targets are: [7877-13959, 5182-9031, 4034-7109, 5889-10290, 1093-1834]
+interestcase 0_1_7_001 end
+
+index.2,  interestcase 5_028 start:
+tagetlogs are:[7877-13959, 5182-9031, 4112-7241_1, 4113-7242_0, 1093-1834]
+current preference, name:pref_behaviour_fling_post_right, value:View Comments
+current preference, name:pref_behaviour_comment_min, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_2_5_028.py]
+
+OK
+
+consumed time: 40.0680000782 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_2_5_028.py", line 235, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"View Comments\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_2_5_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.1929998398 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [7877-13959, 5182-9031, 4112-7241_1, 4113-7242_0, 1093-1834]
+target: 7877-13959 uncovered, added to then retrial list!
+target: 5182-9031 uncovered, added to then retrial list!
+loclog: 4112-7241_1 deleted !
+loclog: 4113-7242_0 deleted !
+target: 1093-1834 uncovered, added to then retrial list!
+interestcase 0_2_5_028 end
+
+index.3,  interestcase 4_003 start:
+tagetlogs are:[7877-13958, 4034-7109, 4041-7124, 5889-10290]
+current preference, name:pref_appearance_theme, value:Night
+current preference, name:pref_behaviour_fling_post_right, value:Hide
+current preference, name:pref_behaviour_postcount, value:50
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_3_4_003.py]
+
+OK
+
+consumed time: 35.9219999313 s
+
+jacoco time: 5.00200009346 s
+
+OK
+
+consumed time: 31.6070001125 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [7877-13958, 4041-7124, 5889-10290]
+uncovered targets are: [4034-7109]
+interestcase 0_3_4_003 end
+
+index.4,  interestcase 4_007 start:
+tagetlogs are:[7877-13957, 4034-7109, 4041-7125, 5889-10291]
+current preference, name:pref_appearance_theme, value:Night (low contrast)
+current preference, name:pref_behaviour_fling_post_right, value:Save
+current preference, name:pref_behaviour_postcount, value:100
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_4_4_007.py]
+
+OK
+
+consumed time: 40.1130001545 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 27.3309998512 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4041-7125, 5889-10291]
+uncovered targets are: [7877-13957, 4034-7109]
+interestcase 0_4_4_007 end
+
+index.5,  interestcase 2_002 start:
+tagetlogs are:[7877-13957, 4034-7109, 4041-7126]
+current preference, name:pref_appearance_theme, value:Ultra Black
+current preference, name:pref_behaviour_fling_post_right, value:Save
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_5_2_002.py]
+
+OK
+
+consumed time: 28.746999979 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 30.2269999981 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4041-7126]
+uncovered targets are: [7877-13957, 4034-7109]
+interestcase 0_5_2_002 end
+
+index.6,  interestcase 5_006 start:
+tagetlogs are:[7877-13957, 4034-7109, 4041-7120]
+current preference, name:pref_appearance_theme, value:Blue
+current preference, name:pref_behaviour_fling_post_right, value:Save
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_6_5_006.py]
+
+OK
+
+consumed time: 32.1679999828 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 38.0099999905 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [7877-13957, 4041-7120]
+uncovered targets are: [4034-7109]
+interestcase 0_6_5_006 end
+
+index.7,  interestcase 3_000 start:
+tagetlogs are:[1851-3190, 1841-3170, 4034-7109, 4041-7121]
+current preference, name:pref_appearance_theme, value:Light Blue
+current preference, name:pref_behaviour_useinternalbrowser, value:0
+current preference, name:pref_behaviour_usecustomtabs_key, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_7_3_000.py]
+
+OK
+
+consumed time: 29.6449999809 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 49.4440000057 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [4041-7121]
+uncovered targets are: [1851-3190, 1841-3170, 4034-7109]
+interestcase 0_7_3_000 end
+
+index.8,  interestcase 3_000 start:
+tagetlogs are:[1851-3190, 1841-3170, 4034-7109, 4041-7123]
+current preference, name:pref_appearance_theme, value:Gray
+current preference, name:pref_behaviour_useinternalbrowser, value:0
+current preference, name:pref_behaviour_usecustomtabs_key, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_8_3_000.py]
+
+OK
+
+consumed time: 30.1789999008 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 41.9130001068 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4041-7123]
+uncovered targets are: [1851-3190, 1841-3170, 4034-7109]
+interestcase 0_8_3_000 end
+
+index.9,  interestcase 3_000 start:
+tagetlogs are:[1851-3190, 1841-3170, 4034-7109]
+current preference, name:pref_behaviour_useinternalbrowser, value:0
+current preference, name:pref_behaviour_usecustomtabs_key, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_9_3_000.py]
+
+OK
+
+consumed time: 24.0620000362 s
+
+jacoco time: 5.00199985504 s
+
+OK
+
+consumed time: 29.9270000458 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1851-3190, 1841-3170, 4034-7109]
+target: 1851-3190 uncovered, added to then retrial list!
+target: 1841-3170 uncovered, added to then retrial list!
+target: 4034-7109 uncovered, added to then retrial list!
+interestcase 0_9_3_000 end
+
+index.10,  interestcase 8_011 start:
+tagetlogs are:[4051-7146, 6880-12096, 4047-7135, 4018-7081, 4049-7139]
+current preference, name:pref_appearance_thumbnails_show, value:1
+current preference, name:pref_appearance_thumbnails_wifionly, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_cache_precache_images, value:1
+current preference, name:pref_cache_precache_images_wifionly, value:0
+current preference, name:pref_cache_precache_comments, value:1
+current preference, name:pref_cache_precache_comments_wifionly, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_10_8_011.py]
+
+OK
+
+consumed time: 59.3980000019 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 24.7979998589 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [6880-12096]
+uncovered targets are: [4051-7146, 4047-7135, 4018-7081, 4049-7139]
+interestcase 0_10_8_011 end
+
+index.11,  interestcase 7_005 start:
+tagetlogs are:[4051-7146, 4047-7135, 4018-7081, 1235-2120, 4049-7139]
+current preference, name:pref_appearance_thumbnails_show, value:1
+current preference, name:pref_appearance_thumbnails_wifionly, value:1
+current preference, name:pref_behaviour_postsort, value:Top: This Hour
+current preference, name:pref_cache_precache_images, value:1
+current preference, name:pref_cache_precache_images_wifionly, value:0
+current preference, name:pref_cache_precache_comments, value:1
+current preference, name:pref_cache_precache_comments_wifionly, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_11_7_005.py]
+
+OK
+
+consumed time: 59.893999815 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 15.7669999599 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [4047-7135, 4018-7081, 1235-2120]
+uncovered targets are: [4051-7146, 4049-7139]
+interestcase 0_11_7_005 end
+
+index.12,  interestcase 4_017 start:
+tagetlogs are:[4051-7146, 4049-7139]
+current preference, name:pref_cache_precache_images, value:1
+current preference, name:pref_cache_precache_images_wifionly, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_12_4_017.py]
+
+OK
+
+consumed time: 22.9479999542 s
+
+jacoco time: 5.00199985504 s
+
+OK
+
+consumed time: 28.0130000114 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [4051-7146, 4049-7139]
+target: 4051-7146 uncovered, added to then retrial list!
+target: 4049-7139 uncovered, added to then retrial list!
+interestcase 0_12_4_017 end
+
+index.13,  interestcase 1_003 start:
+tagetlogs are:[5186-9038]
+current preference, name:pref_appearance_twopane, value:Always (may look odd)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_13_1_003.py]
+
+OK
+
+consumed time: 21.7259998322 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_13_1_003.py", line 227, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.TextView\").description(\"Refresh Posts\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_13_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.2550001144 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [5186-9038]
+uncovered targets are: []
+interestcase 0_13_1_003 end
+
+index.14,  interestcase 7_019 start:
+tagetlogs are:[7877-13963]
+current preference, name:pref_behaviour_fling_post_right, value:Back
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_14_7_019.py]
+
+OK
+
+consumed time: 20.9440000057 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 24.5889999866 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13963]
+target: 7877-13963 uncovered, added to then retrial list!
+interestcase 0_14_7_019 end
+
+index.15,  interestcase 1_024 start:
+tagetlogs are:[7877-13962]
+current preference, name:pref_behaviour_fling_post_right, value:Action Menu
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_15_1_024.py]
+
+OK
+
+consumed time: 22.0759999752 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 30.5550000668 s
+
+jacoco time: 5.00299978256 s
+
+covered targets are: []
+uncovered targets are: [7877-13962]
+target: 7877-13962 uncovered, added to then retrial list!
+interestcase 0_15_1_024 end
+
+index.16,  interestcase 3_003 start:
+tagetlogs are:[7877-13961]
+current preference, name:pref_behaviour_fling_post_right, value:View in External Browser
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_16_3_003.py]
+
+OK
+
+consumed time: 20.0310001373 s
+
+jacoco time: 5.00299978256 s
+
+OK
+
+consumed time: 25.0179998875 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [7877-13961]
+uncovered targets are: []
+interestcase 0_16_3_003 end
+
+index.17,  interestcase 2_002 start:
+tagetlogs are:[7877-13960]
+current preference, name:pref_behaviour_fling_post_right, value:Open Link
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_17_2_002.py]
+
+OK
+
+consumed time: 18.3190000057 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_17_2_002.py", line 231, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"156\")", "new UiSelector().className(\"android.widget.TextView\").instance(19)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_17_2_002.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.7179999352 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [7877-13960]
+target: 7877-13960 uncovered, added to then retrial list!
+interestcase 0_17_2_002 end
+
+index.18,  interestcase 3_003 start:
+tagetlogs are:[7877-13960]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:Downvote
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_18_3_003.py]
+
+OK
+
+consumed time: 58.8259999752 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 26.1320002079 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13960]
+loclog: 7877-13960 uncovered after retrial, deleted!
+interestcase 0_18_3_003 end
+
+index.19,  interestcase 3_003 start:
+tagetlogs are:[7877-13962]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:Downvote
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_19_3_003.py]
+
+OK
+
+consumed time: 65.2460000515 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 34.8710000515 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13962]
+loclog: 7877-13962 uncovered after retrial, deleted!
+interestcase 0_19_3_003 end
+
+index.20,  interestcase 3_003 start:
+tagetlogs are:[7877-13963]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:Downvote
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_20_3_003.py]
+
+OK
+
+consumed time: 62.8359999657 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 24.625 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13963]
+loclog: 7877-13963 uncovered after retrial, deleted!
+interestcase 0_20_3_003 end
+
+index.21,  interestcase 8_009 start:
+tagetlogs are:[4049-7139]
+current preference, name:pref_appearance_thumbnails_show, value:1
+current preference, name:pref_appearance_thumbnails_wifionly, value:0
+current preference, name:pref_behaviour_notifications, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_21_8_009.py]
+
+OK
+
+consumed time: 43.1029999256 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 18.0799999237 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4049-7139]
+loclog: 4049-7139 uncovered after retrial, deleted!
+interestcase 0_21_8_009 end
+
+index.22,  interestcase 8_009 start:
+tagetlogs are:[4051-7146]
+current preference, name:pref_appearance_thumbnails_show, value:1
+current preference, name:pref_appearance_thumbnails_wifionly, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_cache_precache_images, value:1
+current preference, name:pref_cache_precache_images_wifionly, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_22_8_009.py]
+
+OK
+
+consumed time: 53.5969998837 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 20.5769999027 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [4051-7146]
+uncovered targets are: []
+target: 4051-7146 covered after retrial!
+interestcase 0_22_8_009 end
+
+index.23,  interestcase 5_005 start:
+tagetlogs are:[4034-7109]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_behaviour_notifications, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_23_5_005.py]
+
+OK
+
+consumed time: 29.7980000973 s
+
+jacoco time: 5.00299978256 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_23_5_005.py", line 236, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.quantumbadger.redreader:id/actionbar_title_back_image\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_23_5_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.6960000992 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4034-7109]
+loclog: 4034-7109 uncovered after retrial, deleted!
+interestcase 0_23_5_005 end
+
+index.24,  interestcase 3_000 start:
+tagetlogs are:[1841-3170]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_useinternalbrowser, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_24_3_000.py]
+
+OK
+
+consumed time: 66.4689998627 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_24_3_000.py", line 242, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"books\")", "new UiSelector().className(\"android.widget.TextView\").instance(12)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_24_3_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.6640000343 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1841-3170]
+loclog: 1841-3170 uncovered after retrial, deleted!
+interestcase 0_24_3_000 end
+
+index.25,  interestcase 3_000 start:
+tagetlogs are:[1851-3190]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_useinternalbrowser, value:1
+current preference, name:pref_behaviour_usecustomtabs_key, value:1
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_25_3_000.py]
+
+OK
+
+consumed time: 71.5820000172 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_25_3_000.py", line 244, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"books\")", "new UiSelector().className(\"android.widget.TextView\").instance(12)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_25_3_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.4919998646 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1851-3190]
+loclog: 1851-3190 uncovered after retrial, deleted!
+interestcase 0_25_3_000 end
+
+index.26,  interestcase 5_005 start:
+tagetlogs are:[1093-1834]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_26_5_005.py]
+
+OK
+
+consumed time: 62.6750001907 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_26_5_005.py", line 246, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.quantumbadger.redreader:id/actionbar_title_back_image\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_26_5_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.4070000648 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1093-1834]
+loclog: 1093-1834 uncovered after retrial, deleted!
+interestcase 0_26_5_005 end
+
+index.27,  interestcase 5_005 start:
+tagetlogs are:[5182-9031]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_27_5_005.py]
+
+OK
+
+consumed time: 60.1670000553 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_27_5_005.py", line 246, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.quantumbadger.redreader:id/actionbar_title_back_image\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_27_5_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.9099998474 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [5182-9031]
+loclog: 5182-9031 uncovered after retrial, deleted!
+interestcase 0_27_5_005 end
+
+index.28,  interestcase 3_003 start:
+tagetlogs are:[7877-13959]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:View Comments
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase0_28_3_003.py]
+
+OK
+
+consumed time: 63.1940000057 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 22.1449999809 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13959]
+loclog: 7877-13959 uncovered after retrial, deleted!
+interestcase 0_28_3_003 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 7877-13958 ,target branch is: 7877-13962
+interests are:
+pref_behaviour_fling_post_right      Action Menu    44     Post Actions
+discovered tags are : 0_3_4_003 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 2901-5048 ,target branch is: 2901-5049
+interests are:
+pref_appearance_show_blocked_subreddits_main_menu      1    71     null
+discovered tags are : 0_10_8_011 0_16_3_003 0_1_7_001 0_11_7_005 0_3_4_003 0_12_4_017 0_2_5_028 0_4_4_007 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 7877-13958 ,target branch is: 7877-13963
+interests are:
+pref_behaviour_fling_post_right      Back    44     Post Actions
+discovered tags are : 0_3_4_003 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 7963-14119 ,target branch is: 7963-14118
+interests are:
+pref_behaviour_enable_swipe_refresh      0    38     null
+discovered tags are : 0_15_1_024 0_19_3_003 0_20_3_003 0_14_7_019 0_8_3_000 0_16_3_003 0_3_4_003 0_6_5_006 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 7964-14121 ,target branch is: 7964-14120
+interests are:
+pref_appearance_comments_show_floating_toolbar      0    22     Comments
+discovered tags are : 0_15_1_024 0_19_3_003 0_20_3_003 0_14_7_019 0_8_3_000 0_16_3_003 0_3_4_003 0_6_5_006 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 7877-13958 ,target branch is: 7877-13960
+interests are:
+pref_behaviour_fling_post_right      Open Link    44     Post Actions
+discovered tags are : 0_3_4_003 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 2904-5055 ,target branch is: 2904-5054
+interests are:
+pref_menus_show_subscribed_main_menu      0    73     null
+discovered tags are : 0_16_3_003 0_1_7_001 0_11_7_005 0_3_4_003 0_12_4_017 0_2_5_028 0_4_4_007 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 1
+origin branch is: 7877-13958 ,target branch is: 7877-13959
+interests are:
+pref_behaviour_fling_post_right      View Comments    44     Post Actions
+discovered tags are : 0_3_4_003 
+--------------------------------
+index.1,  interestcase 0_3_4_003 start:
+tagetlogs are:[7877-13960]
+current preference, name:pref_appearance_theme, value:Night
+current preference, name:pref_behaviour_fling_post_right, value:Open Link
+current preference, name:pref_behaviour_postcount, value:50
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_1_0_3_4_003.py]
+
+OK
+
+consumed time: 36.2590000629 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 25.8340001106 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [7877-13960]
+uncovered targets are: []
+target: 7877-13960 covered after retrial!
+interestcase 1_1_0_3_4_003 end
+
+index.2,  interestcase 0_3_4_003 start:
+tagetlogs are:[7877-13962]
+current preference, name:pref_appearance_theme, value:Night
+current preference, name:pref_behaviour_fling_post_right, value:Action Menu
+current preference, name:pref_behaviour_postcount, value:50
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_2_0_3_4_003.py]
+
+OK
+
+consumed time: 46.5950000286 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 41.4539999962 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [7877-13962]
+uncovered targets are: []
+target: 7877-13962 covered after retrial!
+interestcase 1_2_0_3_4_003 end
+
+index.3,  interestcase 0_10_8_011 start:
+tagetlogs are:[2901-5049]
+current preference, name:pref_appearance_thumbnails_show, value:1
+current preference, name:pref_appearance_thumbnails_wifionly, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_cache_precache_images, value:1
+current preference, name:pref_cache_precache_images_wifionly, value:0
+current preference, name:pref_cache_precache_comments, value:1
+current preference, name:pref_cache_precache_comments_wifionly, value:1
+current preference, name:pref_appearance_show_blocked_subreddits_main_menu, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_3_0_10_8_011.py]
+
+OK
+
+consumed time: 72.6599998474 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_3_0_10_8_011.py", line 248, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"books\")", "new UiSelector().className(\"android.widget.TextView\").instance(12)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_3_0_10_8_011.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 21.4790000916 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: []
+uncovered targets are: [2901-5049]
+loclog: 2901-5049 uncovered after retrial, deleted!
+interestcase 1_3_0_10_8_011 end
+
+index.4,  interestcase 0_4_4_007 start:
+tagetlogs are:[2904-5054]
+current preference, name:pref_appearance_theme, value:Night (low contrast)
+current preference, name:pref_behaviour_fling_post_right, value:Save
+current preference, name:pref_behaviour_postcount, value:100
+current preference, name:pref_menus_show_subscribed_main_menu, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_4_0_4_4_007.py]
+
+OK
+
+consumed time: 45.263999939 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_4_0_4_4_007.py", line 237, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"announcements\")", "new UiSelector().className(\"android.widget.TextView\").instance(6)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_4_0_4_4_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.131000042 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2904-5054]
+loclog: 2904-5054 uncovered after retrial, deleted!
+interestcase 1_4_0_4_4_007 end
+
+index.5,  interestcase 0_3_4_003 start:
+tagetlogs are:[7877-13959]
+current preference, name:pref_appearance_theme, value:Night
+current preference, name:pref_behaviour_fling_post_right, value:View Comments
+current preference, name:pref_behaviour_postcount, value:50
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_5_0_3_4_003.py]
+
+OK
+
+consumed time: 33.9149999619 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_5_0_3_4_003.py", line 232, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"askreddit\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_5_0_3_4_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.8190000057 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13959]
+loclog: 7877-13959 uncovered after retrial, deleted!
+interestcase 1_5_0_3_4_003 end
+
+index.6,  interestcase 0_19_3_003 start:
+tagetlogs are:[7964-14120]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_appearance_comments_show_floating_toolbar, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:1
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:Downvote
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_6_0_19_3_003.py]
+
+OK
+
+consumed time: 71.4539999962 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_6_0_19_3_003.py", line 244, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"askreddit\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_6_0_19_3_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.3029999733 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [7964-14120]
+loclog: 7964-14120 uncovered after retrial, deleted!
+interestcase 1_6_0_19_3_003 end
+
+index.7,  interestcase 0_3_4_003 start:
+tagetlogs are:[7877-13963]
+current preference, name:pref_appearance_theme, value:Night
+current preference, name:pref_behaviour_fling_post_right, value:Back
+current preference, name:pref_behaviour_postcount, value:50
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_7_0_3_4_003.py]
+
+OK
+
+consumed time: 36.6870000362 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_7_0_3_4_003.py", line 232, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"askreddit\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_7_0_3_4_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.25 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [7877-13963]
+loclog: 7877-13963 uncovered after retrial, deleted!
+interestcase 1_7_0_3_4_003 end
+
+index.8,  interestcase 0_19_3_003 start:
+tagetlogs are:[7963-14118]
+current preference, name:pref_appearance_theme, value:Red
+current preference, name:pref_appearance_hide_android_status, value:0
+current preference, name:pref_behaviour_notifications, value:1
+current preference, name:pref_behaviour_enable_swipe_refresh, value:0
+current preference, name:pref_behaviour_postsort, value:Best
+current preference, name:pref_behaviour_fling_post_right, value:Downvote
+current preference, name:pref_behaviour_postcount, value:All
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_8_0_19_3_003.py]
+
+OK
+
+consumed time: 59.8650000095 s
+
+jacoco time: 5.00200009346 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_8_0_19_3_003.py", line 242, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"askreddit\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\redreader\testcase\interestcases\testcase1_8_0_19_3_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.121999979 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [7963-14118]
+loclog: 7963-14118 uncovered after retrial, deleted!
+interestcase 1_8_0_19_3_003 end
+

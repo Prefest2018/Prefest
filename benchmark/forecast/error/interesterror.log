@@ -1,302 +1,1167 @@
-1_7_016
+preference_pre_reverse
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-2_9_007
+E/AndroidRuntime( 2565): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 2565): Process: cz.martykan.forecastie, PID: 2565
+
+E/AndroidRuntime( 2565): java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime( 2565): 	at android.os.Parcel.readException(Parcel.java:1469)
+
+E/AndroidRuntime( 2565): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime( 2565): 	at android.location.ILocationManager$Stub$Proxy.requestLocationUpdates(ILocationManager.java:540)
+
+E/AndroidRuntime( 2565): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:860)
+
+E/AndroidRuntime( 2565): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:454)
+
+E/AndroidRuntime( 2565): 	at cz.martykan.forecastie.activities.SettingsActivity.privacyGuardWorkaround(SettingsActivity.java:155)
+
+E/AndroidRuntime( 2565): 	at cz.martykan.forecastie.activities.SettingsActivity.requestReadLocationPermission(SettingsActivity.java:134)
+
+E/AndroidRuntime( 2565): 	at cz.martykan.forecastie.activities.SettingsActivity.onSharedPreferenceChanged(SettingsActivity.java:112)
+
+E/AndroidRuntime( 2565): 	at android.app.SharedPreferencesImpl$EditorImpl.notifyListeners(SharedPreferencesImpl.java:475)
+
+E/AndroidRuntime( 2565): 	at android.app.SharedPreferencesImpl$EditorImpl.apply(SharedPreferencesImpl.java:385)
+
+E/AndroidRuntime( 2565): 	at android.preference.Preference.tryCommit(Preference.java:1372)
+
+E/AndroidRuntime( 2565): 	at android.preference.Preference.persistBoolean(Preference.java:1638)
+
+E/AndroidRuntime( 2565): 	at android.preference.TwoStatePreference.setChecked(TwoStatePreference.java:84)
+
+E/AndroidRuntime( 2565): 	at android.preference.TwoStatePreference.onClick(TwoStatePreference.java:70)
+
+E/AndroidRuntime( 2565): 	at android.preference.Preference.performClick(Preference.java:952)
+
+E/AndroidRuntime( 2565): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime( 2565): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime( 2565): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime( 2565): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime( 2565): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime( 2565): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime( 2565): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime( 2565): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 2565): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 2565): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 2565): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 2565): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 2565): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 2565): 	at dalvik.system.NativeStart.main(Native Method)
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system0_1_10_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-3_10_001
+0_2_10_018
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-E/AndroidRuntime( 3274): FATAL EXCEPTION: main
-
-E/AndroidRuntime( 3274): Process: cz.martykan.forecastie, PID: 3274
-
-E/AndroidRuntime( 3274): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
-
-E/AndroidRuntime( 3274): 	at android.os.Handler.dispatchMessage(Handler.java:102)
-
-E/AndroidRuntime( 3274): 	at android.os.Looper.loop(Looper.java:136)
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
-
-E/AndroidRuntime( 3274): 	at java.lang.reflect.Method.invokeNative(Native Method)
-
-E/AndroidRuntime( 3274): 	at java.lang.reflect.Method.invoke(Method.java:515)
-
-E/AndroidRuntime( 3274): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
-
-E/AndroidRuntime( 3274): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
-
-E/AndroidRuntime( 3274): 	at dalvik.system.NativeStart.main(Native Method)
-
-E/AndroidRuntime( 3274): Caused by: java.lang.NullPointerException
-
-E/AndroidRuntime( 3274): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
-
-E/AndroidRuntime( 3274): 	at java.lang.Float.parseFloat(Float.java:300)
-
-E/AndroidRuntime( 3274): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
-
-E/AndroidRuntime( 3274): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
-
-E/AndroidRuntime( 3274): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
-
-E/AndroidRuntime( 3274): 	at android.app.Activity.performStart(Activity.java:5241)
-
-E/AndroidRuntime( 3274): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
-
-E/AndroidRuntime( 3274): 	... 11 more
-
-4_8_012
+0_3_10_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-5_8_022
+0_4_10_018
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-E/AndroidRuntime( 3990): FATAL EXCEPTION: main
-
-E/AndroidRuntime( 3990): Process: cz.martykan.forecastie, PID: 3990
-
-E/AndroidRuntime( 3990): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
-
-E/AndroidRuntime( 3990): 	at android.os.Handler.dispatchMessage(Handler.java:102)
-
-E/AndroidRuntime( 3990): 	at android.os.Looper.loop(Looper.java:136)
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
-
-E/AndroidRuntime( 3990): 	at java.lang.reflect.Method.invokeNative(Native Method)
-
-E/AndroidRuntime( 3990): 	at java.lang.reflect.Method.invoke(Method.java:515)
-
-E/AndroidRuntime( 3990): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
-
-E/AndroidRuntime( 3990): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
-
-E/AndroidRuntime( 3990): 	at dalvik.system.NativeStart.main(Native Method)
-
-E/AndroidRuntime( 3990): Caused by: java.lang.NullPointerException
-
-E/AndroidRuntime( 3990): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
-
-E/AndroidRuntime( 3990): 	at java.lang.Double.parseDouble(Double.java:295)
-
-E/AndroidRuntime( 3990): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
-
-E/AndroidRuntime( 3990): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
-
-E/AndroidRuntime( 3990): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
-
-E/AndroidRuntime( 3990): 	at android.app.Activity.performStart(Activity.java:5241)
-
-E/AndroidRuntime( 3990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
-
-E/AndroidRuntime( 3990): 	... 11 more
-
-6_5_024
+0_5_10_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-7_10_017
+0_6_10_018
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-8_10_018
+0_7_10_018
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-9_9_017
+0_8_3_026
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+E/AndroidRuntime(22677): FATAL EXCEPTION: main
+
+E/AndroidRuntime(22677): Process: cz.martykan.forecastie, PID: 22677
+
+E/AndroidRuntime(22677): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime(22677): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(22677): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(22677): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(22677): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(22677): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(22677): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(22677): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(22677): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(22677): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
+
+E/AndroidRuntime(22677): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(22677): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
+
+E/AndroidRuntime(22677): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime(22677): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime(22677): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime(22677): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime(22677): 	... 11 more
+
+0_9_8_004
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-10_5_018
+0_10_4_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-11_7_027
+0_11_1_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-12_4_027
+0_12_3_029
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-13_3_029
+0_13_3_025
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-14_7_003
+0_14_9_007
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-15_3_025
+E/AndroidRuntime(25391): FATAL EXCEPTION: main
+
+E/AndroidRuntime(25391): Process: cz.martykan.forecastie, PID: 25391
+
+E/AndroidRuntime(25391): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime(25391): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(25391): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(25391): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(25391): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(25391): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(25391): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(25391): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(25391): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(25391): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime(25391): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime(25391): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime(25391): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime(25391): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime(25391): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime(25391): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime(25391): 	... 11 more
+
+0_15_10_006
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-16_1_027
+0_16_7_003
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-17_9_017
+0_17_3_012
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-18_7_027
+0_18_8_015
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-E/AndroidRuntime( 9169): FATAL EXCEPTION: main
-
-E/AndroidRuntime( 9169): Process: cz.martykan.forecastie, PID: 9169
-
-E/AndroidRuntime( 9169): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
-
-E/AndroidRuntime( 9169): 	at android.os.Handler.dispatchMessage(Handler.java:102)
-
-E/AndroidRuntime( 9169): 	at android.os.Looper.loop(Looper.java:136)
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
-
-E/AndroidRuntime( 9169): 	at java.lang.reflect.Method.invokeNative(Native Method)
-
-E/AndroidRuntime( 9169): 	at java.lang.reflect.Method.invoke(Method.java:515)
-
-E/AndroidRuntime( 9169): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
-
-E/AndroidRuntime( 9169): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
-
-E/AndroidRuntime( 9169): 	at dalvik.system.NativeStart.main(Native Method)
-
-E/AndroidRuntime( 9169): Caused by: java.lang.NullPointerException
-
-E/AndroidRuntime( 9169): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
-
-E/AndroidRuntime( 9169): 	at java.lang.Float.parseFloat(Float.java:300)
-
-E/AndroidRuntime( 9169): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
-
-E/AndroidRuntime( 9169): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
-
-E/AndroidRuntime( 9169): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
-
-E/AndroidRuntime( 9169): 	at android.app.Activity.performStart(Activity.java:5241)
-
-E/AndroidRuntime( 9169): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
-
-E/AndroidRuntime( 9169): 	... 11 more
-
-19_9_017
+0_19_7_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-20_9_017
+0_20_10_026
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-21_9_017
+0_21_7_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-E/AndroidRuntime(10176): FATAL EXCEPTION: main
-
-E/AndroidRuntime(10176): Process: cz.martykan.forecastie, PID: 10176
-
-E/AndroidRuntime(10176): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
-
-E/AndroidRuntime(10176): 	at android.os.Handler.dispatchMessage(Handler.java:102)
-
-E/AndroidRuntime(10176): 	at android.os.Looper.loop(Looper.java:136)
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
-
-E/AndroidRuntime(10176): 	at java.lang.reflect.Method.invokeNative(Native Method)
-
-E/AndroidRuntime(10176): 	at java.lang.reflect.Method.invoke(Method.java:515)
-
-E/AndroidRuntime(10176): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
-
-E/AndroidRuntime(10176): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
-
-E/AndroidRuntime(10176): 	at dalvik.system.NativeStart.main(Native Method)
-
-E/AndroidRuntime(10176): Caused by: java.lang.NullPointerException
-
-E/AndroidRuntime(10176): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
-
-E/AndroidRuntime(10176): 	at java.lang.Float.parseFloat(Float.java:300)
-
-E/AndroidRuntime(10176): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
-
-E/AndroidRuntime(10176): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
-
-E/AndroidRuntime(10176): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
-
-E/AndroidRuntime(10176): 	at android.app.Activity.performStart(Activity.java:5241)
-
-E/AndroidRuntime(10176): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
-
-E/AndroidRuntime(10176): 	... 11 more
-
-22_5_018
+0_22_9_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
+
+0_23_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_24_5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(29731): FATAL EXCEPTION: main
+
+E/AndroidRuntime(29731): Process: cz.martykan.forecastie, PID: 29731
+
+E/AndroidRuntime(29731): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime(29731): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(29731): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(29731): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(29731): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(29731): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(29731): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(29731): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(29731): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(29731): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
+
+E/AndroidRuntime(29731): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(29731): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
+
+E/AndroidRuntime(29731): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime(29731): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime(29731): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime(29731): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime(29731): 	... 11 more
+
+0_25_9_017
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_26_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_27_10_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_28_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_29_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.settings
+
+E/ActivityThread(31715): Failed to find provider info for com.google.settings
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(31715): Failed to find provider info for com.google.android.gsf.gservices
+
+0_30_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_31_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_16_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_16_7_003
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+1_2_0_3_10_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_14_9_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3279): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 3279): Process: cz.martykan.forecastie, PID: 3279
+
+E/AndroidRuntime( 3279): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 3279): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 3279): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 3279): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 3279): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 3279): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 3279): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 3279): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 3279): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 3279): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime( 3279): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime( 3279): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime( 3279): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 3279): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 3279): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 3279): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 3279): 	... 11 more
+
+1_4_0_14_9_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4036): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 4036): Process: cz.martykan.forecastie, PID: 4036
+
+E/AndroidRuntime( 4036): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 4036): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 4036): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 4036): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 4036): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 4036): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 4036): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 4036): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 4036): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 4036): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
+
+E/AndroidRuntime( 4036): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4036): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
+
+E/AndroidRuntime( 4036): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 4036): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 4036): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 4036): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 4036): 	... 11 more
+
+1_5_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_19_7_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_14_9_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5524): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 5524): Process: cz.martykan.forecastie, PID: 5524
+
+E/AndroidRuntime( 5524): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 5524): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 5524): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 5524): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 5524): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 5524): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 5524): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 5524): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 5524): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 5524): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime( 5524): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime( 5524): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime( 5524): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 5524): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 5524): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 5524): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 5524): 	... 11 more
+
+1_9_0_16_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_10_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6766): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 6766): Process: cz.martykan.forecastie, PID: 6766
+
+E/AndroidRuntime( 6766): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 6766): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 6766): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 6766): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 6766): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 6766): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 6766): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 6766): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 6766): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 6766): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
+
+E/AndroidRuntime( 6766): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6766): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
+
+E/AndroidRuntime( 6766): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 6766): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 6766): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 6766): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 6766): 	... 11 more
+
+1_11_0_5_10_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_12_0_19_7_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_13_0_1_10_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_14_0_16_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+1_15_0_16_7_003
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+1_16_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_17_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_5_0_18_8_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_3_0_14_9_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(10298): FATAL EXCEPTION: main
+
+E/AndroidRuntime(10298): Process: cz.martykan.forecastie, PID: 10298
+
+E/AndroidRuntime(10298): java.lang.IllegalArgumentException: provider doesn't exist: network
+
+E/AndroidRuntime(10298): 	at android.os.Parcel.readException(Parcel.java:1469)
+
+E/AndroidRuntime(10298): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime(10298): 	at android.location.ILocationManager$Stub$Proxy.requestLocationUpdates(ILocationManager.java:540)
+
+E/AndroidRuntime(10298): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:860)
+
+E/AndroidRuntime(10298): 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:454)
+
+E/AndroidRuntime(10298): 	at cz.martykan.forecastie.activities.SettingsActivity.privacyGuardWorkaround(SettingsActivity.java:155)
+
+E/AndroidRuntime(10298): 	at cz.martykan.forecastie.activities.SettingsActivity.requestReadLocationPermission(SettingsActivity.java:134)
+
+E/AndroidRuntime(10298): 	at cz.martykan.forecastie.activities.SettingsActivity.onSharedPreferenceChanged(SettingsActivity.java:112)
+
+E/AndroidRuntime(10298): 	at android.app.SharedPreferencesImpl$EditorImpl.notifyListeners(SharedPreferencesImpl.java:475)
+
+E/AndroidRuntime(10298): 	at android.app.SharedPreferencesImpl$EditorImpl.apply(SharedPreferencesImpl.java:385)
+
+E/AndroidRuntime(10298): 	at android.preference.Preference.tryCommit(Preference.java:1372)
+
+E/AndroidRuntime(10298): 	at android.preference.Preference.persistBoolean(Preference.java:1638)
+
+E/AndroidRuntime(10298): 	at android.preference.TwoStatePreference.setChecked(TwoStatePreference.java:84)
+
+E/AndroidRuntime(10298): 	at android.preference.TwoStatePreference.onClick(TwoStatePreference.java:70)
+
+E/AndroidRuntime(10298): 	at android.preference.Preference.performClick(Preference.java:952)
+
+E/AndroidRuntime(10298): 	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+
+E/AndroidRuntime(10298): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+
+E/AndroidRuntime(10298): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+
+E/AndroidRuntime(10298): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+
+E/AndroidRuntime(10298): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+
+E/AndroidRuntime(10298): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime(10298): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime(10298): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(10298): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(10298): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(10298): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(10298): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(10298): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(10298): 	at dalvik.system.NativeStart.main(Native Method)
 

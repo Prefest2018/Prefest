@@ -1,0 +1,1 @@
+adb shell am instrument -w -r -e clearPackageData true --no-window-animation  -e debug false -e class [name] org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner

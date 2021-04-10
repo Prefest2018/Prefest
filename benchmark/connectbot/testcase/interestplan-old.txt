@@ -1,0 +1,304 @@
+第0条Scene：
+originloc为：2016-3848 ,targetloc为：2016-3849
+interests为如下：
+titlebarhide      1    7     User interface
+preinterests为如下：
+wifilock      1    2      null
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第1条Scene：
+originloc为：2018-3852 ,targetloc为：2018-3853
+interests为如下：
+fullscreen      1    8     User interface
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 2_010, 1_005, 1_015, 1_018, 3_002, 2_007, 3_009, 3_007, 2_020, 1_029, 3_016, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 2_026, 1_007, 1_023, 3_003, 2_005, 2_013, 2_021, 3_006, 1_019, 1_010, 2_002, 1_011, 3_015, 3_014, 3_010, 1_025, 2_004, 2_009, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第2条Scene：
+originloc为：2021-3858 ,targetloc为：2021-3859
+interests为如下：
+alwaysvisible      1    12     Keyboard
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第3条Scene：
+originloc为：2023-3862 ,targetloc为：2023-3863
+interests为如下：
+titlebarhide      1    7     User interface
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第4条Scene：
+originloc为：2063-3945 ,targetloc为：2063-3946
+interests为如下：
+keepalive      0    11     User interface
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第5条Scene：
+originloc为：283_0 ,targetloc为：283_0
+interests为如下：
+scrollback          5     Terminal emulation
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第6条Scene：
+originloc为：283_1 ,targetloc为：283_1
+interests为如下：
+scrollback      random    5     Terminal emulation
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第7条Scene：
+originloc为：1338-2666_2 ,targetloc为：1338-2666_2
+interests为如下：
+scrollback          5     Terminal emulation
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第8条Scene：
+originloc为：1338-2666_3 ,targetloc为：1338-2666_3
+interests为如下：
+scrollback      random    5     Terminal emulation
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 3_004, 3_005, 1_017, 1_024, 2_006, 1_027, 4_011, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 4_007, 3_006, 1_019, 3_021, 3_027, 1_010, 2_002, 4_008, 1_011, 3_015, 3_014, 3_010, 3_022, 1_025, 2_004, 3_020, 4_002, 3_025, 2_009, 4_005, 2_027, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第9条Scene：
+originloc为：227-788 ,targetloc为：227-789
+interests为如下：
+connPersist      1    1     null
+preinterests为如下：
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+[4_016, 3_026, 3_002, 3_009, 3_029, 3_007, 4_012, 3_028, 3_016, 4_010, 3_004, 3_005, 4_011, 2_026, 4_001, 4_014, 3_024, 3_003, 4_006, 4_007, 3_006, 3_021, 3_027, 4_008, 3_015, 3_014, 3_010, 3_022, 3_020, 4_002, 3_025, 4_005, 2_027]
+--------------------------------
+第10条Scene：
+originloc为：1894-3633 ,targetloc为：1894-3634
+interests为如下：
+titlebarhide      1    7     User interface
+preinterests为如下：
+wifilock      0    2      null
+connPersist      1    1      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 3_002, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 1_017, 1_024, 2_006, 1_027, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 4_006, 2_005, 2_013, 2_021, 1_019, 3_021, 4_008, 1_011, 3_015, 3_014, 2_004, 2_027, 1_014, 2_003]
+--------------------------------
+第11条Scene：
+originloc为：1083-2268 ,targetloc为：1083-2267
+interests为如下：
+alwaysvisible      1    12     Keyboard
+preinterests为如下：
+wifilock      0    2      null
+connPersist      1    1      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+[1_003, 2_008, 2_014, 4_016, 2_010, 1_005, 1_015, 3_026, 1_018, 2_007, 3_009, 3_029, 3_007, 4_012, 2_020, 3_028, 1_029, 3_016, 4_010, 1_017, 1_024, 2_006, 1_027, 2_026, 1_007, 4_001, 1_023, 4_014, 3_024, 3_003, 2_005, 2_013, 2_021, 1_019, 3_021, 1_011, 3_015, 3_014, 2_004, 2_027]
+--------------------------------
+第12条Scene：
+originloc为：227-789 ,targetloc为：227-788
+interests为如下：
+connPersist      0    1     null
+preinterests为如下：
+wifilock      1    2      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+bell      1    19      Terminal bell
+[1_003, 2_008, 2_014, 2_010, 1_005, 1_015, 1_018, 2_007, 2_020, 1_029, 1_017, 1_024, 2_006, 1_027, 1_007, 1_023, 2_005, 2_013, 2_021, 1_019, 1_010, 2_002, 1_011, 1_025, 2_004, 2_009, 2_012, 2_001, 1_020, 1_014, 2_003]
+--------------------------------
+第13条Scene：
+originloc为：2131-4067 ,targetloc为：2131-4068
+interests为如下：
+wifilock      0    2     null
+[2_021, 2_002, 4_026]
+--------------------------------
+第14条Scene：
+originloc为：2111-4030 ,targetloc为：2111-4029
+interests为如下：
+wifilock      0    2     null
+preinterests为如下：
+wifilock      1    2      null
+[2_021, 2_002, 4_026]
+--------------------------------
+第15条Scene：
+originloc为：2131-4068 ,targetloc为：2131-4067
+interests为如下：
+wifilock      1    2     null
+preinterests为如下：
+wifilock      1    2      null
+[2_006, 2_021]
+--------------------------------
+第16条Scene：
+originloc为：1433-2815 ,targetloc为：1433-2814
+interests为如下：
+pgupdngesture      0    9     User interface
+preinterests为如下：
+connPersist      1    1      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+[2_014, 4_016, 2_010, 3_026, 3_002, 3_028, 3_004]
+--------------------------------
+第17条Scene：
+originloc为：1897-3639 ,targetloc为：1897-3638
+interests为如下：
+alwaysvisible      1    12     Keyboard
+preinterests为如下：
+connPersist      1    1      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+pgupdngesture      0    9      User interface
+[2_008, 4_016, 1_005, 1_015, 1_018, 3_002, 4_012, 1_017, 4_006, 1_011, 1_014, 2_003]
+--------------------------------
+第18条Scene：
+originloc为：369-1039 ,targetloc为：369-1038
+interests为如下：
+bell      0    19     Terminal bell
+preinterests为如下：
+wifilock      1    2      null
+[2_002]
+--------------------------------
+第19条Scene：
+originloc为：371-1042 ,targetloc为：371-1043
+interests为如下：
+bell      0    19     Terminal bell
+preinterests为如下：
+wifilock      1    2      null
+bell      1    19      Terminal bell
+[2_002]
+--------------------------------
+第20条Scene：
+originloc为：2018-3853 ,targetloc为：2018-3852
+interests为如下：
+fullscreen      0    8     User interface
+preinterests为如下：
+titlebarhide      0    7      User interface
+[4_016, 3_026, 3_029, 4_012, 3_028, 4_010, 4_011, 4_001, 4_014, 3_024, 4_006, 4_007, 3_021, 3_027, 4_008, 3_022, 3_020, 4_002, 3_025, 4_005]
+--------------------------------
+第21条Scene：
+originloc为：1433-2814 ,targetloc为：1433-2815
+interests为如下：
+pgupdngesture      1    9     User interface
+preinterests为如下：
+connPersist      1    1      null
+titlebarhide      0    7      User interface
+fullscreen      0    8      User interface
+keepalive      1    11      User interface
+alwaysvisible      0    12      Keyboard
+[1_015, 1_018]
+--------------------------------
+index.1,  interestcase 2_002 start:
+此时tagetlogs为：[2021-3859, 283_0, 2063-3946, 2111-4029, 2016-3849, 1338-2666_2, 2023-3863, 369-1038, 371-1043]
+当前preference的name为：wifilock, value为：0
+当前preference的name为：scrollback, value为：
+当前preference的name为：titlebarhide, value为：1
+当前preference的name为：keepalive, value为：0
+当前preference的name为：alwaysvisible, value为：1
+当前preference的name为：bell, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_yym\connectbot\testcase\interestcases\testcase1_2_002.py]
+
+consumed time: 64.1759998798 s
+
+jacoco time: 24.9379999638 s
+
+OK
+
+consumed time: 116.957999945 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[2021-3859, 283_0, 2063-3946, 2111-4029, 2016-3849, 1338-2666_2, 2023-3863, 369-1038, 371-1043]
+该测试用例未覆盖到的log为:[]
+interestcase 2_002 end
+
+index.2,  interestcase 1_003 start:
+此时tagetlogs为：[1894-3634, 283_1, 1083-2267, 1338-2666_3]
+当前preference的name为：scrollback, value为：random
+当前preference的name为：titlebarhide, value为：1
+当前preference的name为：alwaysvisible, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_yym\connectbot\testcase\interestcases\testcase2_1_003.py]
+
+consumed time: 41.3880000114 s
+
+jacoco time: 10.1040000916 s
+
+OK
+
+consumed time: 169.578999996 s
+
+jacoco time: 5.00400018692 s
+
+该测试用例覆盖到的log为:[1894-3634, 283_1, 1083-2267, 1338-2666_3]
+该测试用例未覆盖到的log为:[]
+interestcase 1_003 end
+
+index.3,  interestcase 2_008 start:
+此时tagetlogs为：[1897-3638]
+当前preference的name为：alwaysvisible, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_yym\connectbot\testcase\interestcases\testcase3_2_008.py]
+
+consumed time: 22.3090000153 s
+
+jacoco time: 36.503000021 s
+
+OK
+
+consumed time: 164.703999996 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[1897-3638]
+该测试用例未覆盖到的log为:[]
+interestcase 2_008 end
+

@@ -1,0 +1,64 @@
+current preference, name:ICONSIZE, value:100
+current preference, name:ICONTIMEOUT, value:8000
+current preference, name:USE_REVERSE_PORTRAIT, value:1
+current preference, name:LEFT_HANDED_MODE, value:1
+current preference, name:RESTORE_DEFAULT_ON_SCREEN_OFF, value:0
+current preference, name:AUTO_RETURN_TO_DEFAULT, value:1
+current preference, name:START_ON_BOOT, value:1
+current preference, name:ICONSIZE, value:64
+current preference, name:ICONTIMEOUT, value:2000
+current preference, name:USE_REVERSE_PORTRAIT, value:0
+current preference, name:LEFT_HANDED_MODE, value:0
+current preference, name:RESTORE_DEFAULT_ON_SCREEN_OFF, value:1
+current preference, name:AUTO_RETURN_TO_DEFAULT, value:0
+current preference, name:START_ON_BOOT, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\tapandturn\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 63.0580000877 s
+
+jacoco time: 5.00299978256 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\tapandturn\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 63.2190001011 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 236-390 ,target branch is: 236-391
+interests are:
+AUTO_RETURN_TO_DEFAULT      1    7     null
+discovered tags are : 8_001 6_023 
+--------------------------------
+index.1,  interestcase 8_001 start:
+tagetlogs are:[236-391]
+current preference, name:AUTO_RETURN_TO_DEFAULT, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\tapandturn\testcase\interestcases\testcase0_1_8_001.py]
+
+OK
+
+consumed time: 20.9760000706 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 12.753000021 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [236-391]
+uncovered targets are: []
+interestcase 0_1_8_001 end
+

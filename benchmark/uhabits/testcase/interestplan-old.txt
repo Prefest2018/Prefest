@@ -1,0 +1,122 @@
+第0条Scene：
+originloc为：155-247 ,targetloc为：155-248
+interests为如下：
+pref_feature_numerical_habits      1    17     Development
+preinterests为如下：
+pref_pure_black      0    2      Interface
+[4_008, 6_024, 1_015, 7_013, 4_004, 1_002, 4_018, 8_003, 2_013, 5_020, 8_017, 10_014, 2_004, 5_016, 3_019, 7_022, 2_011, 7_002, 10_023, 10_024, 9_021, 8_006, 8_023, 6_010, 2_005, 9_025, 3_013, 5_005, 10_003, 10_002, 4_005, 9_024, 4_009, 3_021, 10_015, 3_006, 2_020, 4_022, 6_023, 1_001, 2_028, 1_014, 10_017, 4_011, 3_001, 3_005, 10_025, 3_010, 2_003, 7_005, 8_014, 5_024, 1_022, 3_017, 2_010, 3_022, 7_025, 7_023, 1_021, 5_021, 7_012, 6_016, 5_002, 1_004, 9_006, 6_018, 7_015, 2_019, 8_025, 9_003, 6_001, 8_005, 3_029, 9_011, 10_001, 1_011, 9_002, 5_011, 4_019, 6_000, 6_022]
+--------------------------------
+第1条Scene：
+originloc为：4898-7512 ,targetloc为：4898-7511
+interests为如下：
+pref_pure_black      1    2     Interface
+[4_008, 6_024, 9_007, 4_029, 1_015, 9_010, 10_000, 5_017, 3_008, 7_013, 7_009, 4_004, 6_017, 7_028, 5_008, 4_026, 8_010, 7_017, 6_028, 6_025, 1_017, 9_004, 4_018, 1_008, 3_004, 8_003, 1_027, 9_022, 8_012, 5_013, 2_022, 3_024, 3_020, 2_023, 2_013, 8_004, 5_020, 1_023, 5_003, 8_017, 10_005, 2_026, 10_014, 2_004, 5_016, 4_001, 9_023, 10_016, 9_005, 3_003, 1_019, 7_002, 10_024, 10_011, 10_009, 7_018, 2_005, 4_006, 9_008, 10_006, 5_005, 5_004, 1_018, 7_003, 2_015, 5_023, 3_021, 10_015, 10_008, 3_025, 10_007, 10_025, 7_005, 1_022, 8_018, 5_026, 7_006, 10_026, 5_010, 7_000, 5_025, 2_006, 8_011, 6_014, 2_007, 9_006, 1_010, 4_020, 10_022, 3_014, 7_011, 2_025, 8_002, 8_001, 5_000, 6_027, 1_020, 3_026, 4_028, 10_028, 2_016, 5_028, 8_020, 4_007, 10_029, 8_019, 5_011, 5_006, 5_012, 1_009, 10_027]
+--------------------------------
+index.1,  interestcase 4_008 start:
+此时tagetlogs为：[4898-7511, 155-248]
+当前preference的name为：pref_pure_black, value为：1
+当前preference的name为：pref_feature_numerical_habits, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase1_4_008.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase1_4_008.py", line 107, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Enable numerical habits\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 28.2979998589 s
+
+jacoco time: 0.871999979019 s
+
+OK
+
+consumed time: 25.379999876 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[4898-7511]
+该测试用例未覆盖到的log为:[155-248]
+interestcase 4_008 end
+
+index.2,  interestcase 6_024 start:
+此时tagetlogs为：[155-248]
+当前preference的name为：pref_feature_numerical_habits, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase2_6_024.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase2_6_024.py", line 105, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Enable numerical habits\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 27.0550000668 s
+
+jacoco time: 0.724999904633 s
+
+OK
+
+consumed time: 27.5520000458 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[155-248]
+loclog: 155-248 未成功覆盖，放入重试列表中!
+interestcase 6_024 end
+
+index.3,  interestcase 4_008 start:
+此时tagetlogs为：[155-248]
+当前preference的name为：pref_feature_numerical_habits, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase3_4_008.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\uhabits\testcase\interestcases\testcase3_4_008.py", line 105, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Enable numerical habits\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 27.1809999943 s
+
+jacoco time: 0.742000102997 s
+
+OK
+
+consumed time: 28.4189999104 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[155-248]
+loclog: 155-248 重试未成功覆盖，删除!
+interestcase 4_008 end
+

@@ -1,0 +1,1275 @@
+1_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_8_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_4_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(15546): FATAL EXCEPTION: PlaybackService
+
+E/AndroidRuntime(15546): Process: ch.blinkenlights.android.vanilla, PID: 15546
+
+E/AndroidRuntime(15546): java.lang.IllegalArgumentException
+
+E/AndroidRuntime(15546): 	at java.util.AbstractList.subList(AbstractList.java:736)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.SongTimeline.addSongs(SongTimeline.java:860)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.PlaybackService.runQuery(PlaybackService.java:1862)
+
+E/AndroidRuntime(15546): 	at ch.blinkenlights.android.vanilla.PlaybackService.handleMessage(PlaybackService.java:1612)
+
+E/AndroidRuntime(15546): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/AndroidRuntime(15546): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(15546): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+4_6_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_4_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_5_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_3_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_7_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+17_3_026
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+18_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+19_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+20_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+21_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+22_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+23_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+24_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+25_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+26_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+27_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+28_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+29_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+30_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+31_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+32_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+33_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+34_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+35_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_9_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_9_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(20053): Error inserting blob=[B@a532ab48 id=755213918 expires=1573834992 size=6598
+E/SQLiteDatabase(20053): Error inserting blob=[B@a532ab48 id=755213918 expires=1573834992 size=6598
+
+
+E/SQLiteDatabase(20053): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+E/SQLiteDatabase(20053): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(20053): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+
+E/SQLiteDatabase(20053): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(20053): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20053): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20053): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(20053): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(20053): Error inserting blob=[B@a532ab48 id=755213918 expires=1573834992 size=6598
+
+E/SQLiteDatabase(20053): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(20053): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(20053): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(20053): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(20053): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20053): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_9_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(20566): Error inserting blob=[B@a53de770 id=755213918 expires=1573802324 size=6598
+
+E/SQLiteDatabase(20566): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(20566): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(20566): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20566): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(20566): Error inserting blob=[B@a53de770 id=755213918 expires=1573802324 size=6598
+
+E/SQLiteDatabase(20566): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(20566): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(20566): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20566): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(20566): Error inserting blob=[B@a53de770 id=755213918 expires=1573802324 size=6598
+
+E/SQLiteDatabase(20566): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(20566): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(20566): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(20566): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(20566): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(20566): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_10_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(21058): Error inserting blob=[B@a53f2a08 id=755213918 expires=1574038446 size=6598
+
+E/SQLiteDatabase(21058): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(21058): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21058): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(21058): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(21058): Error inserting blob=[B@a53f2a08 id=755213918 expires=1574038446 size=6598
+
+E/SQLiteDatabase(21058): Error inserting blob=[B@a53f2a08 id=755213918 expires=1574038446 size=6598
+E/SQLiteDatabase(21058): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+
+E/SQLiteDatabase(21058): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(21058): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+
+E/SQLiteDatabase(21058): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(21058): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(21058): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(21058): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+
+E/SQLiteDatabase(21058): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21058): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(21058): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_11_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(21588): Error inserting blob=[B@a53323a8 id=755213918 expires=1573679561 size=6598
+
+E/SQLiteDatabase(21588): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(21588): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21588): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(21588): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/SQLiteDatabase(21588): Error inserting blob=[B@a53323a8 id=755213918 expires=1573679561 size=6598
+
+
+E/SQLiteDatabase(21588): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(21588): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21588): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(21588): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(21588): Error inserting blob=[B@a53323a8 id=755213918 expires=1573679561 size=6598
+
+E/SQLiteDatabase(21588): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(21588): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(21588): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(21588): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(21588): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(21588): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+0_12_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(24126): Error inserting blob=[B@a53d9e88 id=755213918 expires=1573895915 size=6598
+
+E/SQLiteDatabase(24126): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+E/SQLiteDatabase(24126): Error inserting blob=[B@a53d9e88 id=755213918 expires=1573895915 size=6598
+E/SQLiteDatabase(24126): Error inserting blob=[B@a53d9e88 id=755213918 expires=1573895915 size=6598
+
+
+
+E/SQLiteDatabase(24126): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+E/SQLiteDatabase(24126): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+
+
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+E/SQLiteDatabase(24126): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+
+
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+
+
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+
+
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+
+
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+
+
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+
+
+E/SQLiteDatabase(24126): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+E/SQLiteDatabase(24126): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+
+
+E/SQLiteDatabase(24126): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+E/SQLiteDatabase(24126): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(24126): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+
+
+E/SQLiteDatabase(24126): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/SQLiteDatabase(24126): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(24126): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/SQLiteDatabase(24126): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/SQLiteDatabase(24126): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+
+1_1_0_16_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(24678): Error inserting blob=[B@a53b60e8 id=755213918 expires=1573814862 size=6598
+
+E/SQLiteDatabase(24678): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(24678): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(24678): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(24678): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(24678): Error inserting blob=[B@a53b60e8 id=755213918 expires=1573814862 size=6598
+
+E/SQLiteDatabase(24678): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(24678): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(24678): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(24678): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(24678): Error inserting blob=[B@a53b60e8 id=755213918 expires=1573814862 size=6598
+
+E/SQLiteDatabase(24678): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(24678): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(24678): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(24678): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(24678): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(24678): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+1_2_0_16_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_16_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_6_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/SQLiteDatabase(26345): Error inserting blob=[B@a53eedf0 id=755213918 expires=1573874420 size=6598
+
+E/SQLiteDatabase(26345): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(26345): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(26345): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(26345): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+E/SQLiteDatabase(26345): Error inserting blob=[B@a53eedf0 id=755213918 expires=1573874420 size=6598
+E/SQLiteDatabase(26345): Error inserting blob=[B@a53eedf0 id=755213918 expires=1573874420 size=6598
+
+E/SQLiteDatabase(26345): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+E/SQLiteDatabase(26345): android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)
+
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+E/SQLiteDatabase(26345): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache.put(CoverCache.java:355)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.storeCover(CoverCache.java:139)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(26345): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(26345): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(26345): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.CoverCache.getCoverFromSong(CoverCache.java:113)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getCoverInternal(Song.java:251)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.Song.getSmallCover(Song.java:234)
+
+E/SQLiteDatabase(26345): 	at ch.blinkenlights.android.vanilla.LibraryActivity.handleMessage(LibraryActivity.java:921)
+
+E/SQLiteDatabase(26345): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+
+E/SQLiteDatabase(26345): 	at android.os.Looper.loop(Looper.java:136)
+
+E/SQLiteDatabase(26345): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+1_5_0_16_9_003
+--------- beginning of /dev/log/main
+
+0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+0_2_4_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_9_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_9_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_9_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_5_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_9_003
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_15_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_17_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_9_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+1_10_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15433): Failed to find provider info for com.google.android.gsf.gservices
+
+1_11_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_12_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_13_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_14_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_15_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_16_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_17_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_18_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_19_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_20_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_21_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_22_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_23_0_1_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_24_0_13_9_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

@@ -1,5 +1,6 @@
 #coding=utf-8
 import os
+import subprocess
 import time
 import traceback
 from appium import webdriver
@@ -16,6 +17,11 @@ desired_caps = {
 	'noReset' : True
 	}
 
+def command(cmd, timeout=5):
+	p = subprocess.Popen(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE, shell=True)
+	time.sleep(timeout)
+	p.terminate()
+	return
 def getElememt(driver, str) :
 	for i in range(0, 5, 1):
 		try:
@@ -28,36 +34,94 @@ def getElememt(driver, str) :
 	element = driver.find_element_by_android_uiautomator(str)
 	return element
 
+def getElememtBack(driver, str1, str2) :
+	for i in range(0, 2, 1):
+		try:
+			element = driver.find_element_by_android_uiautomator(str1)
+		except NoSuchElementException:
+			time.sleep(1)
+		else:
+			return element
+	for i in range(0, 5, 1):
+		try:
+			element = driver.find_element_by_android_uiautomator(str2)
+		except NoSuchElementException:
+			time.sleep(1)
+		else:
+			return element
+	os.popen("adb shell input tap 50 50")
+	element = driver.find_element_by_android_uiautomator(str2)
+	return element
 def swipe(driver, startxper, startyper, endxper, endyper) :
 	size = driver.get_window_size()
 	width = size["width"]
 	height = size["height"]
 	try:
 		driver.swipe(start_x=int(width * startxper), start_y=int(height * startyper), end_x=int(width * endxper),
-				end_y=int(height * endyper), duration=2000)
+				end_y=int(height * endyper), duration=1000)
 	except WebDriverException:
 		time.sleep(1)
 	driver.swipe(start_x=int(width * startxper), start_y=int(height * startyper), end_x=int(width * endxper),
-				end_y=int(height * endyper), duration=2000)
+				end_y=int(height * endyper), duration=1000)
 	return
 
 def scrollToFindElement(driver, str) :
 	for i in range(0, 5, 1):
 		try:
 			element = driver.find_element_by_android_uiautomator(str)
+			elements = driver.find_elements_by_android_uiautomator(str)
+			if (len(elements) > 1) :
+				for temp in elements :
+					if temp.get_attribute("enabled") == "true" :
+						element = temp
+						break
 		except NoSuchElementException:
-			swipe(driver, 0.5, 0.6, 0.5, 0.2)
-		else:
+			swipe(driver, 0.5, 0.55, 0.5, 0.2)
+		else :
+			return element
+	for i in range(0, 4, 1):
+		try:
+			element = driver.find_element_by_android_uiautomator(str)
+			elements = driver.find_elements_by_android_uiautomator(str)
+			if (len(elements) > 1):
+				for temp in elements:
+					if temp.get_attribute("enabled") == "true":
+						element = temp
+						break
+		except NoSuchElementException:
+			swipe(driver, 0.5, 0.2, 0.5, 0.55)
+		else :
 			return element
 	return
 
-def clickoncheckable(driver, str, value = "true") :
+def scrollToClickElement(driver, str) :
+	element = scrollToFindElement(driver, str)
+	if element is None :
+		return
+	else :
+		element.click()
+
+def clickInList(driver, str) :
+	element = None
+	if (str is None) :
+		candidates = driver.find_elements_by_class_name("android.widget.CheckedTextView")
+		if len(candidates) >= 1 and checkWindow(driver):
+			element = candidates[len(candidates)-1]
+	else :
+		element = scrollToFindElement(driver, str)
+	if element is not None :
+		element.click()
+	else :
+		if checkWindow(driver) :
+			driver.press_keycode(4)
+
+def clickOnCheckable(driver, str, value = "true") :
 	parents = driver.find_elements_by_class_name("android.widget.LinearLayout")
 	for parent in parents:
 		try :
 			parent.find_element_by_android_uiautomator(str)
 			lists = parent.find_elements_by_class_name("android.widget.LinearLayout")
-			if (len(lists) == 1) :
+			if len(lists) == 1 :
 				innere = parent.find_element_by_android_uiautomator("new UiSelector().checkable(true)")
 				nowvalue = innere.get_attribute("checked")
 				if (nowvalue != value) :
@@ -65,6 +129,24 @@ def clickoncheckable(driver, str, value = "true") :
 				break
 		except NoSuchElementException:
 			continue
+
+def typeText(driver, value) :
+	element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+	element.clear()
+	element.send_keys(value)
+	enterelement = getElememt(driver, "new UiSelector().text(\"OK\")")
+	if (enterelement is None) :
+		if checkWindow(driver):
+			driver.press_keycode(4)
+	else :
+		enterelement.click()
+def checkWindow(driver) :
+	dsize = driver.get_window_size()
+	nsize = driver.find_element_by_class_name("android.widget.FrameLayout").size
+	if dsize['height'] > nsize['height']:
+		return True
+	else :
+		return False
 def conscript(driver):
 	try:
 		element = driver.find_element_by_android_uiautomator("new UiSelector().text(\"OK\")")
@@ -92,64 +174,52 @@ def conscript(driver):
 try :
 	starttime = time.time()
 	driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-	os.popen("adb shell am start -n a2dp.Vol/a2dp.Vol.Preferences")
-	scrollToFindElement(driver, "new UiSelector().text(\"Start at Boot?\")").click()
+	os.popen("adb shell am start -n a2dp.Vol/a2dp.Vol.Preferences -a test")
+	scrollToClickElement(driver, "new UiSelector().text(\"Start at Boot?\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Start at Boot?\")", "false")
+	clickOnCheckable(driver, "new UiSelector().text(\"Start at Boot?\")", "false")
+	scrollToClickElement(driver, "new UiSelector().text(\"Show Pop-ups?\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Show Pop-ups?\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Show Pop-ups?\")", "false")
+	scrollToClickElement(driver, "new UiSelector().text(\"Use Notification Icon?\")")
+	clickInList(driver, "new UiSelector().text(\"The service will start but it will be a background task with no icon on the notification bar.\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Show Pop-ups?\")", "false")
+	scrollToClickElement(driver, "new UiSelector().text(\"Use Local File Storage?\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Use Notification Icon?\")").click()
-	scrollToFindElement(driver, "new UiSelector().text(\"The service will start but it will be a background task with no icon on the notification bar.\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Use Local File Storage?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Respond to Car Mode?\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Use Local File Storage?\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Respond to Car Mode?\")", "false")
+	scrollToClickElement(driver, "new UiSelector().text(\"Respond to Home Dock?\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Use Local File Storage?\")", "true")
+	clickOnCheckable(driver, "new UiSelector().text(\"Respond to Home Dock?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Respond to Audio Jack?\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Car Mode?\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Respond to Audio Jack?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Respond to Power Connection?\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Respond to Car Mode?\")", "false")
+	clickOnCheckable(driver, "new UiSelector().text(\"Respond to Power Connection?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Home Dock?\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Enable reading notification messages\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Respond to Home Dock?\")", "true")
+	clickOnCheckable(driver, "new UiSelector().text(\"Enable reading notification messages\")", "false")
+	scrollToClickElement(driver, "new UiSelector().text(\"Hide volume pop-up\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Audio Jack?\")").click()
+	clickOnCheckable(driver, "new UiSelector().text(\"Hide volume pop-up\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"GPS Listener Timeout\")")
+	clickInList(driver, "new UiSelector().text(\"5 seconds\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Respond to Audio Jack?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"GPS Max Inaccuracy\")")
+	clickInList(driver, "new UiSelector().text(\"15m (45ft)\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Respond to Power Connection?\")").click()
+	scrollToClickElement(driver, "new UiSelector().text(\"Use Passive Locations?\")")
 	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Respond to Power Connection?\")", "true")
+	clickOnCheckable(driver, "new UiSelector().text(\"Use Passive Locations?\")", "true")
+	scrollToClickElement(driver, "new UiSelector().text(\"Use Network Locations\")")
 	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")").click()
-	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Enable Reading Text Messages?\")", "true")
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Enable reading notification messages\")").click()
-	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Enable reading notification messages\")", "false")
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Hide volume pop-up\")").click()
-	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Hide volume pop-up\")", "true")
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"GPS Listener Timeout\")").click()
-	scrollToFindElement(driver, "new UiSelector().text(\"5 seconds\")").click()
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"GPS Max Inaccuracy\")").click()
-	scrollToFindElement(driver, "new UiSelector().text(\"15m (45ft)\")").click()
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Use Passive Locations?\")").click()
-	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Use Passive Locations?\")", "true")
-	conscript(driver)
-	scrollToFindElement(driver, "new UiSelector().text(\"Use Network Locations\")").click()
-	conscript(driver)
-	clickoncheckable(driver, "new UiSelector().text(\"Use Network Locations\")", "false")
-	conscript(driver)
+	clickOnCheckable(driver, "new UiSelector().text(\"Use Network Locations\")", "false")
 
 	driver.press_keycode(4)
 	time.sleep(2)
@@ -158,10 +228,13 @@ except Exception, e:
 	print 'str(e):\t\t', str(e)
 	print 'repr(e):\t', repr(e)
 	print traceback.format_exc()
-finally :
+else:
+	print 'OK'
+finally:
+	cpackage = driver.current_package
 	endtime = time.time()
 	print 'consumed time:', str(endtime - starttime), 's'
-	os.popen("adb shell am broadcast -a com.example.pkg.END_EMMA --es name \"preference_pre\"")
+	command("adb shell am broadcast -a com.example.pkg.END_EMMA --es name \"preference_pre\"")
 	jacocotime = time.time()
 	print 'jacoco time:', str(jacocotime - endtime), 's'
 	driver.quit()

@@ -1,0 +1,69 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"OK",
+         "type":"NORMAL"
+      }
+
+   },
+   "presteps":
+   {
+      "0":
+      {
+         "resourceId":"org.tint:id\/SpinnerPreferenceSpinner",
+         "instance":0,
+         "operationType":"click",
+         "className":"android.widget.Spinner",
+         "type":"NORMAL"
+      }
+
+   },
+   "valuestepmap":
+   {
+      "about:start":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Start page",
+            "type":"NORMAL"
+         }
+      },
+      "about:blank":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Blank page",
+            "type":"NORMAL"
+         }
+      },
+      "www.google.com":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Blank page",
+            "type":"NORMAL"
+         },
+	 "1":
+	 {
+	     "resourceId":"org.tint:id\/SpinnerPreferenceEdit",
+             "instance":0,
+             "operationType":"edit",
+             "className":"android.widget.Spinner",
+             "type":"NORMAL"
+	 }
+      }
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"PREFERENCE_HOME_PAGE"
+}

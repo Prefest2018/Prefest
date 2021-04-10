@@ -1,0 +1,35 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"OK",
+         "type":"NORMAL"
+      }
+
+   },
+   "presteps":
+   {
+
+   },
+   "valuestepmap":
+   {
+      "value1":
+      {
+         "0":
+         {
+	    "resourceId":"android:id/text1",
+            "instance":0,
+            "operationType":"click",
+            "type":"NORMAL"
+         }
+
+      }
+
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"data.folder_map"
+}

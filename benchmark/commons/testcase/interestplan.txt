@@ -1,0 +1,75 @@
+This exploration took time: 75s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 4662-6847 ,target branch is: 4662-6848
+interests are:
+theme      0    0     Appearance
+discovered tags are : 4_025 9_026 9_025 2_005 4_007 9_000 4_008 2_007 6_012 1_019 1_018 7_000 5_002 7_016 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 992-1675 ,target branch is: 992-1674
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 4_025 9_026 9_025 2_005 4_007 9_000 4_008 2_007 6_012 1_019 1_018 7_000 5_002 7_016 
+--------------------------------
+index.1,  interestcase 4_025 start:
+tagetlogs are:[992-1674, 4662-6848]
+current preference, name:theme, value:1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\commons\testcase\interestcases\testcase0_1_4_025.py]
+
+OK
+
+consumed time: 16.6480000019 s
+
+jacoco time: 5.18899989128 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\commons\testcase\interestcases\testcase0_1_4_025.py", line 248, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"fr.free.nrw.commons:id/action_display_list\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\commons\testcase\interestcases\testcase0_1_4_025.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 36.2580001354 s
+
+jacoco time: 5.00899982452 s
+
+covered targets are: [992-1674, 4662-6848]
+uncovered targets are: []
+interestcase 0_1_4_025 end
+

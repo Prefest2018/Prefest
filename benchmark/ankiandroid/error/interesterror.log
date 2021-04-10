@@ -1,0 +1,3294 @@
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_7_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_2_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager(22573): 
+
+E/WindowManager(22573): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5892248 V.E..... ......I. 0,0-192,96} that was originally added here
+
+E/WindowManager(22573): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(22573): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(22573): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(22573): 
+
+
+E/WindowManager(22573): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5892248 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+E/WindowManager(22573): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(22573): 
+
+
+
+E/WindowManager(22573): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(22573): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5892248 V.E..... ......I. 0,0-192,96} that was originally added here
+
+E/WindowManager(22573): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(22573): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(22573): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+E/WindowManager(22573): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(22573): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(22573): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager(22573): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(22573): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(22573): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(22573): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(22573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager(22573): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(22573): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager(22573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager(22573): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager(22573): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager(22573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(22573): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(22573): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(22573): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(22573): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager(22573): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(22573): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager(22573): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/WindowManager(22573): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(22573): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(22573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(22573): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/WindowManager(22573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(22573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager(22573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager(22573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager(22573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager(22573): 	at dalvik.system.NativeStart.main(Native Method)
+E/WindowManager(22573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager(22573): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_6_4_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_4_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_7_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_6_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager(24977): 
+
+E/WindowManager(24977): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a569e698 V.E..... ......I. 0,0-192,96} that was originally added here
+
+E/WindowManager(24977): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(24977): 
+E/WindowManager(24977): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(24977): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a569e698 V.E..... ......I. 0,0-192,96} that was originally added here
+
+
+E/WindowManager(24977): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager(24977): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager(24977): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(24977): 
+E/WindowManager(24977): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(24977): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a569e698 V.E..... ......I. 0,0-192,96} that was originally added here
+
+
+
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager(24977): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(24977): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+
+E/WindowManager(24977): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager(24977): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+E/WindowManager(24977): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(24977): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+
+E/WindowManager(24977): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager(24977): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager(24977): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(24977): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+
+E/WindowManager(24977): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager(24977): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(24977): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+E/WindowManager(24977): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(24977): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(24977): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/WindowManager(24977): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(24977): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager(24977): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+E/WindowManager(24977): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/WindowManager(24977): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(24977): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/WindowManager(24977): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(24977): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+E/WindowManager(24977): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager(24977): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(24977): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager(24977): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(24977): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(24977): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(24977): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager(24977): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager(24977): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(24977): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager(24977): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_11_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_6_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager(27542): 
+
+E/WindowManager(27542): 
+
+E/WindowManager(27542): 
+E/WindowManager(27542): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5705088 V.E..... ......I. 0,0-264,96} that was originally added here
+E/WindowManager(27542): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5705088 V.E..... ......I. 0,0-264,96} that was originally added here
+
+
+E/WindowManager(27542): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(27542): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5705088 V.E..... ......I. 0,0-264,96} that was originally added here
+
+
+E/WindowManager(27542): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(27542): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(27542): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(27542): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(27542): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(27542): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+
+E/WindowManager(27542): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(27542): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+E/WindowManager(27542): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager(27542): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(27542): 	at android.view.View.performLongClick(View.java:4474)
+
+
+
+E/WindowManager(27542): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(27542): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(27542): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+E/WindowManager(27542): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(27542): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+E/WindowManager(27542): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager(27542): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/WindowManager(27542): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(27542): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(27542): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(27542): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(27542): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/WindowManager(27542): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(27542): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/WindowManager(27542): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(27542): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(27542): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager(27542): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(27542): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager(27542): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager(27542): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.anki2
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.anki2
+
+
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.anki2
+
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.media.ad.db2
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.media.ad.db2
+E/SQLiteDatabase(27542): Couldn't mkdirs /storage/sdcard/Android/data/com.ichi2.anki/cache/export/Custom_study_session.media.ad.db2
+
+
+
+0_16_4_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_6_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_18_6_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_19_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager(29499): 
+
+E/WindowManager(29499): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a531d8c0 V.E..... ......I. 0,0-264,96} that was originally added here
+
+E/WindowManager(29499): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(29499): 
+
+
+E/WindowManager(29499): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a531d8c0 V.E..... ......I. 0,0-264,96} that was originally added here
+E/WindowManager(29499): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+E/WindowManager(29499): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(29499): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(29499): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(29499): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(29499): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(29499): 
+
+
+
+E/WindowManager(29499): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(29499): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a531d8c0 V.E..... ......I. 0,0-264,96} that was originally added here
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager(29499): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(29499): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(29499): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+
+E/WindowManager(29499): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(29499): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager(29499): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager(29499): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(29499): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(29499): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/WindowManager(29499): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(29499): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(29499): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(29499): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager(29499): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(29499): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(29499): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager(29499): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(29499): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(29499): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager(29499): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager(29499): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(29499): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/WindowManager(29499): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager(29499): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(29499): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager(29499): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager(29499): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager(29499): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(29499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager(29499): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_20_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_21_3_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+E/ActivityThread(30574): Failed to find provider info for com.google.settings
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+0_22_3_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager(31084): 
+
+E/WindowManager(31084): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a56c9c78 V.E..... ......I. 0,0-192,96} that was originally added here
+
+E/WindowManager(31084): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager(31084): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager(31084): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+E/WindowManager(31084): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager(31084): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+E/WindowManager(31084): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager(31084): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(31084): 
+
+
+E/WindowManager(31084): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager(31084): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a56c9c78 V.E..... ......I. 0,0-192,96} that was originally added here
+
+
+E/WindowManager(31084): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(31084): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+E/WindowManager(31084): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(31084): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager(31084): 
+
+
+
+E/WindowManager(31084): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a56c9c78 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager(31084): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(31084): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager(31084): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(31084): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(31084): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(31084): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager(31084): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager(31084): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager(31084): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+E/WindowManager(31084): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager(31084): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+E/WindowManager(31084): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(31084): 	at android.view.View.performLongClick(View.java:4474)
+
+
+E/WindowManager(31084): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager(31084): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(31084): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager(31084): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/WindowManager(31084): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager(31084): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/WindowManager(31084): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager(31084): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager(31084): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager(31084): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/WindowManager(31084): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager(31084): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager(31084): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager(31084): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager(31084): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager(31084): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_23_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_24_7_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_25_7_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_26_7_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_27_3_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_28_6_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_29_3_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 2284): 
+E/WindowManager( 2284): 
+E/WindowManager( 2284): 
+
+
+
+E/WindowManager( 2284): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58c8380 V.E..... ......I. 0,0-176,96} that was originally added here
+E/WindowManager( 2284): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58c8380 V.E..... ......I. 0,0-176,96} that was originally added here
+E/WindowManager( 2284): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58c8380 V.E..... ......I. 0,0-176,96} that was originally added here
+
+
+
+E/WindowManager( 2284): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 2284): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 2284): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+
+E/WindowManager( 2284): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 2284): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 2284): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+
+E/WindowManager( 2284): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 2284): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 2284): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 2284): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager( 2284): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 2284): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 2284): 	at android.view.View.performLongClick(View.java:4474)
+
+
+
+E/WindowManager( 2284): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 2284): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 2284): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+
+E/WindowManager( 2284): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 2284): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 2284): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager( 2284): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 2284): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 2284): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+
+E/WindowManager( 2284): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 2284): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 2284): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+
+E/WindowManager( 2284): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 2284): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 2284): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/WindowManager( 2284): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 2284): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 2284): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 2284): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 2284): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/WindowManager( 2284): 	at dalvik.system.NativeStart.main(Native Method)
+E/WindowManager( 2284): 	at dalvik.system.NativeStart.main(Native Method)
+E/WindowManager( 2284): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+0_30_3_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_31_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_32_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_33_2_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 4292): 
+E/WindowManager( 4292): 
+
+
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58d00a8 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58d00a8 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager( 4292): 
+
+
+
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58d00a8 V.E..... ......I. 0,0-192,96} that was originally added here
+
+
+
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+
+
+
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager( 4292): 
+
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58a79e8 V.E..... ......I. 0,0-176,96} that was originally added here
+E/WindowManager( 4292): 
+
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 4292): 
+
+
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58a79e8 V.E..... ......I. 0,0-176,96} that was originally added here
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 4292): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a58a79e8 V.E..... ......I. 0,0-176,96} that was originally added here
+
+
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 4292): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 4292): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager( 4292): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+E/WindowManager( 4292): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+
+
+
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 4292): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 4292): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 4292): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 4292): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 4292): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 4292): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 4292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 4292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/WindowManager( 4292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager( 4292): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_34_4_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_35_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_36_1_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_37_1_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 6221): 
+
+E/WindowManager( 6221): 
+E/WindowManager( 6221): 
+
+
+E/WindowManager( 6221): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a53319e8 V.E..... ......I. 0,0-264,96} that was originally added here
+E/WindowManager( 6221): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a53319e8 V.E..... ......I. 0,0-264,96} that was originally added here
+E/WindowManager( 6221): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a53319e8 V.E..... ......I. 0,0-264,96} that was originally added here
+
+E/WindowManager( 6221): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+
+E/WindowManager( 6221): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 6221): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 6221): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+
+E/WindowManager( 6221): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 6221): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 6221): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager( 6221): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 6221): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+E/WindowManager( 6221): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+E/WindowManager( 6221): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 6221): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager( 6221): 	at android.view.View.performLongClick(View.java:4474)
+
+
+E/WindowManager( 6221): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 6221): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 6221): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager( 6221): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 6221): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 6221): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+E/WindowManager( 6221): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/WindowManager( 6221): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 6221): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+
+
+E/WindowManager( 6221): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 6221): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 6221): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/WindowManager( 6221): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 6221): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 6221): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 6221): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 6221): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 6221): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/WindowManager( 6221): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager( 6221): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+1_1_0_25_7_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_23_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_31_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_24_7_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_5_2_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 8863): 
+E/WindowManager( 8863): 
+
+
+E/WindowManager( 8863): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5825030 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager( 8863): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5825030 V.E..... ......I. 0,0-192,96} that was originally added here
+
+
+E/WindowManager( 8863): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+E/WindowManager( 8863): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+E/WindowManager( 8863): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 8863): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+
+E/WindowManager( 8863): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 8863): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+
+
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+E/WindowManager( 8863): 
+
+
+
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+E/WindowManager( 8863): android.view.WindowLeaked: Activity com.ichi2.anki.StudyOptionsActivity has leaked window android.widget.LinearLayout{a5825030 V.E..... ......I. 0,0-192,96} that was originally added here
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager( 8863): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 8863): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 8863): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+
+
+E/WindowManager( 8863): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 8863): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+E/WindowManager( 8863): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+
+
+
+E/WindowManager( 8863): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 8863): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+E/WindowManager( 8863): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+
+
+E/WindowManager( 8863): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipPopup.show(TooltipPopup.java:86)
+E/WindowManager( 8863): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+
+
+E/WindowManager( 8863): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 8863): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:174)
+
+
+
+E/WindowManager( 8863): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 8863): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 8863): 	at androidx.appcompat.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:123)
+
+
+
+E/WindowManager( 8863): 	at android.view.View.performLongClick(View.java:4474)
+E/WindowManager( 8863): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/WindowManager( 8863): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/WindowManager( 8863): 	at android.widget.TextView.performLongClick(TextView.java:8357)
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/WindowManager( 8863): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/WindowManager( 8863): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/WindowManager( 8863): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/WindowManager( 8863): 	at dalvik.system.NativeStart.main(Native Method)
+E/WindowManager( 8863): 	at android.os.Looper.loop(Looper.java:136)
+E/WindowManager( 8863): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/WindowManager( 8863): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 8863): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 8863): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 8863): 	at dalvik.system.NativeStart.main(Native Method)
+
+1_7_0_17_6_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_3_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_5_0_24_7_010
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_3_1_7_0_17_6_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_4_1_4_0_31_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1869): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 3348): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 3348): Failed to find provider info for com.google.settings
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_023
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_7_020
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_7_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_3_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_2_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_4_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+0_15_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15512): Failed to find provider info for com.google.android.gsf.gservices
+
+0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_10_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_16_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_7_2_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_16_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_7_020
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_1_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_3_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+0_15_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_5_023
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+0_18_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+1_1_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(10015): Failed to find provider info for com.google.android.gsf.gservices
+
+1_2_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_1_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_3_3_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_5_1_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_3_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_4_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_5_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_6_1_8_0_17_5_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

@@ -1,0 +1,841 @@
+This exploration took time: 37s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 331_0 ,target branch is: 331_0
+interests are:
+scrollback          5     Terminal emulation
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 103-180 ,target branch is: 103-181
+interests are:
+ctrlfkeys      1    14     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 106-187 ,target branch is: 106-186
+interests are:
+volumefont      0    10     User interface
+discovered tags are : StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1622-3234 ,target branch is: 1622-3233
+interests are:
+alwaysvisible      1    12     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 1111-2335_1 ,target branch is: 1111-2335_1
+interests are:
+scrollback          5     Terminal emulation
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 52-101 ,target branch is: 52-100
+interests are:
+stickymodifiers      Yes    15     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 187-390 ,target branch is: 187-389
+interests are:
+connPersist      0    1     null
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1191-2461 ,target branch is: 1191-2462
+interests are:
+pgupdngesture      1    9     User interface
+discovered tags are : StartupTest#canScrollTerminal 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 1817-3572 ,target branch is: 1817-3573
+interests are:
+alwaysvisible      1    12     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 50-99 ,target branch is: 50-98
+interests are:
+stickymodifiers      Only alt    15     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 1860-3660 ,target branch is: 1860-3661
+interests are:
+keepalive      0    11     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1616-3223 ,target branch is: 1616-3224
+interests are:
+rotation      Default    6     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1819-3576 ,target branch is: 1819-3577
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 1615-3221 ,target branch is: 1615-3222
+interests are:
+rotation      Default    6     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 100-174 ,target branch is: 100-175
+interests are:
+keymode      Use left-side keys    16     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 1814-3566 ,target branch is: 1814-3567
+interests are:
+fullscreen      1    8     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 1812-3562 ,target branch is: 1812-3563
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity StartupTest#localConnectionCanDelete StartupTest#localConnectionCanChangeToRed StartupTest#canScrollTerminal StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 98-170 ,target branch is: 98-171
+interests are:
+keymode      Use right-side keys    16     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 101-176 ,target branch is: 101-177
+interests are:
+shiftfkeys      1    13     Keyboard
+discovered tags are : StartupTest#localConnectionDisconnectFromHostList 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 1619-3228 ,target branch is: 1619-3229
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : StartupTest#localConnectionDisconnectConsoleActivity 
+--------------------------------
+index.1,  interestcase StartupTest#localConnectionDisconnectFromHostList start:
+tagetlogs are:[100-175, 1819-3577, 331_0, 1616-3224, 52-100, 1817-3573, 187-389, 103-181, 1860-3661, 1615-3222, 106-186, 1812-3563, 101-177, 1111-2335_1, 1814-3567]
+current preference, name:connPersist, value:0
+current preference, name:scrollback, value:
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:1
+current preference, name:fullscreen, value:1
+current preference, name:volumefont, value:0
+current preference, name:keepalive, value:0
+current preference, name:alwaysvisible, value:1
+current preference, name:shiftfkeys, value:1
+current preference, name:ctrlfkeys, value:1
+current preference, name:stickymodifiers, value:Yes
+current preference, name:keymode, value:Use left-side keys
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_1_StartupTest#localConnectionDisconnectFromHostList.py]
+
+OK
+
+consumed time: 22.354739904403687 s
+
+jacoco time: 3.002708673477173 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectFromHostList', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.794
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1819-3577, 331_0, 52-100, 1817-3573, 187-389, 1860-3661, 1615-3222, 1812-3563, 1111-2335_1, 1814-3567]
+uncovered targets are: [100-175, 1616-3224, 103-181, 106-186, 101-177]
+interestcase 0_1_StartupTest#localConnectionDisconnectFromHostList end
+
+index.2,  interestcase StartupTest#localConnectionDisconnectFromHostList start:
+tagetlogs are:[100-175, 1616-3224, 103-181, 50-98, 106-186, 101-177]
+current preference, name:rotation, value:Default
+current preference, name:volumefont, value:0
+current preference, name:shiftfkeys, value:1
+current preference, name:ctrlfkeys, value:1
+current preference, name:stickymodifiers, value:Only alt
+current preference, name:keymode, value:Use left-side keys
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_2_StartupTest#localConnectionDisconnectFromHostList.py]
+
+OK
+
+consumed time: 25.313681602478027 s
+
+jacoco time: 3.0025410652160645 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectFromHostList', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.986
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [100-175, 103-181, 50-98, 106-186, 101-177]
+uncovered targets are: [1616-3224]
+interestcase 0_2_StartupTest#localConnectionDisconnectFromHostList end
+
+index.3,  interestcase StartupTest#localConnectionDisconnectConsoleActivity start:
+tagetlogs are:[1616-3224, 1619-3229, 1622-3233]
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:1
+current preference, name:alwaysvisible, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_3_StartupTest#localConnectionDisconnectConsoleActivity.py]
+
+OK
+
+consumed time: 36.23164939880371 s
+
+jacoco time: 3.0022425651550293 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectConsoleActivity', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 4.999
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1616-3224, 1619-3229, 1622-3233]
+target: 1616-3224 uncovered, added to then retrial list!
+target: 1619-3229 uncovered, added to then retrial list!
+target: 1622-3233 uncovered, added to then retrial list!
+interestcase 0_3_StartupTest#localConnectionDisconnectConsoleActivity end
+
+index.4,  interestcase StartupTest#localConnectionDisconnectFromHostList start:
+tagetlogs are:[98-171]
+current preference, name:keymode, value:Use right-side keys
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_4_StartupTest#localConnectionDisconnectFromHostList.py]
+
+OK
+
+consumed time: 20.831394910812378 s
+
+jacoco time: 3.002805233001709 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectFromHostList', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.837
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [98-171]
+target: 98-171 uncovered, added to then retrial list!
+interestcase 0_4_StartupTest#localConnectionDisconnectFromHostList end
+
+index.5,  interestcase StartupTest#canScrollTerminal start:
+tagetlogs are:[1191-2462]
+current preference, name:pgupdngesture, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_5_StartupTest#canScrollTerminal.py]
+
+OK
+
+consumed time: 19.00675106048584 s
+
+jacoco time: 3.002434730529785 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#canScrollTerminal', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=canScrollTerminal
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=canScrollTerminal
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 8.337
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1191-2462]
+uncovered targets are: []
+interestcase 0_5_StartupTest#canScrollTerminal end
+
+index.6,  interestcase StartupTest#localConnectionDisconnectFromHostList start:
+tagetlogs are:[98-171]
+current preference, name:connPersist, value:1
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+current preference, name:stickymodifiers, value:No
+current preference, name:keymode, value:Use right-side keys
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_6_StartupTest#localConnectionDisconnectFromHostList.py]
+
+OK
+
+consumed time: 51.31648254394531 s
+
+jacoco time: 3.0026214122772217 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectFromHostList', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectFromHostList
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 8.109
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [98-171]
+loclog: 98-171 uncovered after retrial, deleted!
+interestcase 0_6_StartupTest#localConnectionDisconnectFromHostList end
+
+index.7,  interestcase StartupTest#localConnectionDisconnectConsoleActivity start:
+tagetlogs are:[1622-3233]
+current preference, name:connPersist, value:1
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+current preference, name:stickymodifiers, value:No
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_7_StartupTest#localConnectionDisconnectConsoleActivity.py]
+
+OK
+
+consumed time: 40.37972593307495 s
+
+jacoco time: 3.00232195854187 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectConsoleActivity', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 5.693
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1622-3233]
+uncovered targets are: []
+target: 1622-3233 covered after retrial!
+interestcase 0_7_StartupTest#localConnectionDisconnectConsoleActivity end
+
+index.8,  interestcase StartupTest#localConnectionDisconnectConsoleActivity start:
+tagetlogs are:[1619-3229]
+current preference, name:connPersist, value:1
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+current preference, name:stickymodifiers, value:No
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_8_StartupTest#localConnectionDisconnectConsoleActivity.py]
+
+OK
+
+consumed time: 42.555018186569214 s
+
+jacoco time: 3.002107858657837 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#localConnectionDisconnectConsoleActivity', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=localConnectionDisconnectConsoleActivity
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 5.862
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1619-3229]
+loclog: 1619-3229 uncovered after retrial, deleted!
+interestcase 0_8_StartupTest#localConnectionDisconnectConsoleActivity end
+
+index.9,  interestcase StartupTest#canScrollTerminal start:
+tagetlogs are:[1616-3224]
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\interestcases\testcase0_9_StartupTest#canScrollTerminal.py]
+
+OK
+
+consumed time: 38.46642780303955 s
+
+jacoco time: 3.002518653869629 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, --no-window-animation, -e, debug, false, -e, class, 'org.connectbot.StartupTest#canScrollTerminal', org.connectbot.tests/org.connectbot.ConnectbotJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+org.connectbot.StartupTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=canScrollTerminal
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=canScrollTerminal
+
+INSTRUMENTATION_STATUS: class=org.connectbot.StartupTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 8.18
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1616-3224]
+loclog: 1616-3224 uncovered after retrial, deleted!
+interestcase 0_9_StartupTest#canScrollTerminal end
+
+current preference, name:memkeys, value:0
+current preference, name:connPersist, value:0
+current preference, name:wifilock, value:0
+current preference, name:backupkeys, value:1
+current preference, name:emulation, value:xterm-color
+current preference, name:scrollback, value:random
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:1
+current preference, name:fullscreen, value:1
+current preference, name:pgupdngesture, value:1
+current preference, name:volumefont, value:0
+current preference, name:keepalive, value:0
+current preference, name:alwaysvisible, value:1
+current preference, name:shiftfkeys, value:1
+current preference, name:ctrlfkeys, value:1
+current preference, name:stickymodifiers, value:Yes
+current preference, name:keymode, value:Use left-side keys
+current preference, name:camera, value:Esc+A
+current preference, name:bumpyarrows, value:0
+current preference, name:bell, value:0
+current preference, name:bellVibrate, value:0
+current preference, name:bellNotification, value:1
+current preference, name:memkeys, value:1
+current preference, name:connPersist, value:1
+current preference, name:wifilock, value:1
+current preference, name:backupkeys, value:0
+current preference, name:emulation, value:xterm-256color
+current preference, name:scrollback, value:140
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:pgupdngesture, value:0
+current preference, name:volumefont, value:1
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+current preference, name:shiftfkeys, value:0
+current preference, name:ctrlfkeys, value:0
+current preference, name:stickymodifiers, value:No
+current preference, name:keymode, value:Disable
+current preference, name:camera, value:Ctrl+A then Space
+current preference, name:bumpyarrows, value:1
+current preference, name:bell, value:1
+current preference, name:bellVibrate, value:1
+current preference, name:bellNotification, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 40.11436486244202 s
+
+jacoco time: 3.0026683807373047 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\connectbot\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 34.3464732170105 s
+
+jacoco time: 3.0025877952575684 s
+
+interestcase preference_pre_default end
+

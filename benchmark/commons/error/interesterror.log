@@ -23,3 +23,69 @@
 
 --------- beginning of /dev/log/system
 
+1_9_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_9_025
+1_9_025
+--------- beginning of /dev/log/main
+
+1_9_025
+--------- beginning of /dev/log/main
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_4_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_4_008
+0_1_1_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_4_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 2292): Performing stop of activity that is not resumed: {com.android.browser/com.android.browser.BrowserActivity}
+
+E/ActivityThread( 2292): java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.android.browser/com.android.browser.BrowserActivity}
+
+E/ActivityThread( 2292): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3147)
+
+E/ActivityThread( 2292): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3234)
+
+E/ActivityThread( 2292): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+
+E/ActivityThread( 2292): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+
+E/ActivityThread( 2292): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 2292): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 2292): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 2292): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 2292): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 2292): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 2292): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 2292): 	at dalvik.system.NativeStart.main(Native Method)
+

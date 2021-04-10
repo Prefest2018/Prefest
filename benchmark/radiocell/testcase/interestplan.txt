@@ -1,0 +1,1189 @@
+This exploration took time: 160s
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 68.506000042 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 62.5409998894 s
+
+jacoco time: 5.00400018692 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 2743-4769 ,target branch is: 2743-4770
+interests are:
+data.map      null    23     Maps
+discovered tags are : 6_000 2_028 4_019 6_005 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_017 1_015 1_013 5_015 3_025 3_003 4_007 4_023 4_002 4_024 5_005 1_001 5_003 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1431-2466 ,target branch is: 1431-2467
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 6_000 6_022 2_028 4_019 2_023 6_005 6_027 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_019 1_017 1_018 1_015 1_013 5_015 3_025 3_003 3_000 5_014 3_001 2_016 4_007 4_000 4_023 4_002 4_024 5_023 1_002 1_003 5_004 5_005 1_023 1_001 5_003 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 2470-4296 ,target branch is: 2470-4295
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 2477-4310 ,target branch is: 2477-4311
+interests are:
+debug.keep_export_files      1    10     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 2165-3739_0 ,target branch is: 2165-3739_0
+interests are:
+data.folder_catalog      value1    8     Folder settings
+discovered tags are : 1_002 1_003 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 429_1 ,target branch is: 429_1
+interests are:
+gps.interval      0    20     Logging
+discovered tags are : 6_000 6_022 2_028 4_019 2_023 6_005 6_027 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_019 1_017 1_018 1_015 1_013 5_015 3_025 3_003 3_000 5_014 3_001 2_016 4_007 4_000 4_023 4_002 4_024 5_023 1_002 1_003 5_004 5_005 1_023 1_001 5_003 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 429_2 ,target branch is: 429_2
+interests are:
+gps.interval          20     Logging
+discovered tags are : 6_000 6_022 2_028 4_019 2_023 6_005 6_027 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_019 1_017 1_018 1_015 1_013 5_015 3_025 3_003 3_000 5_014 3_001 2_016 4_007 4_000 4_023 4_002 4_024 5_023 1_002 1_003 5_004 5_005 1_023 1_001 5_003 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 429_3 ,target branch is: 429_3
+interests are:
+gps.interval      1    20     Logging
+discovered tags are : 6_000 6_022 2_028 4_019 2_023 6_005 6_027 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_019 1_017 1_018 1_015 1_013 5_015 3_025 3_003 3_000 5_014 3_001 2_016 4_007 4_000 4_023 4_002 4_024 5_023 1_002 1_003 5_004 5_005 1_023 1_001 5_003 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 429_4 ,target branch is: 429_4
+interests are:
+gps.interval      2147483647    20     Logging
+discovered tags are : 6_000 6_022 2_028 4_019 2_023 6_005 6_027 2_002 6_028 2_004 6_003 6_025 2_000 3_004 3_027 1_019 1_017 1_018 1_015 1_013 5_015 3_025 3_003 3_000 5_014 3_001 2_016 4_007 4_000 4_023 4_002 4_024 5_023 1_002 1_003 5_004 5_005 1_023 1_001 5_003 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1170_5 ,target branch is: 1170_5
+interests are:
+gps.interval      0    20     Logging
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 1170_6 ,target branch is: 1170_6
+interests are:
+gps.interval          20     Logging
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1170_7 ,target branch is: 1170_7
+interests are:
+gps.interval      1    20     Logging
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1170_8 ,target branch is: 1170_8
+interests are:
+gps.interval      2147483647    20     Logging
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 2164-3737_9 ,target branch is: 2164-3737_9
+interests are:
+data.folder_catalog      value1    8     Folder settings
+discovered tags are : 1_002 1_003 1_001 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 317_10 ,target branch is: 317_10
+interests are:
+data.folder_catalog      value1    8     Folder settings
+discovered tags are : 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 497_11 ,target branch is: 497_11
+interests are:
+data.folder_catalog      value1    8     Folder settings
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 979-1736 ,target branch is: 979-1735
+interests are:
+delete_tracks      1    1     Various
+discovered tags are : 5_007 5_004 4_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 2465-4286 ,target branch is: 2465-4285
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 2497-4341 ,target branch is: 2497-4340
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 915-1630 ,target branch is: 915-1629
+interests are:
+debug.keep_export_files      1    10     Debug settings
+discovered tags are : 3_016 5_007 5_004 4_001 6_015 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 498_12 ,target branch is: 498_12
+interests are:
+data.folder_map      value1    7     Folder settings
+discovered tags are : 2_009 6_022 2_025 2_003 6_007 2_026 4_013 6_026 5_011 3_006 1_014 3_000 1_010 3_023 4_025 4_005 4_028 6_011 4_020 6_012 4_023 2_011 3_017 1_008 1_028 5_008 5_007 5_029 5_026 1_022 3_013 5_027 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 2469-4294 ,target branch is: 2469-4293
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 323-615_13 ,target branch is: 323-615_13
+interests are:
+data.folder_catalog      value1    8     Folder settings
+discovered tags are : 1_001 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 976-1729 ,target branch is: 976-1728
+interests are:
+delete_tracks      1    1     Various
+discovered tags are : 4_003 4_016 3_016 6_015 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 2467-4290 ,target branch is: 2467-4289
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 2493-4331 ,target branch is: 2493-4330
+interests are:
+debug.simulate_upload      1    9     Debug settings
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 2472-4300 ,target branch is: 2472-4299
+interests are:
+gpx.save_track      1    2     Various
+discovered tags are : 4_003 4_016 2_005 2_019 2_024 4_001 6_015 5_001 3_016 3_005 6_009 1_004 1_024 5_007 5_018 5_004 3_000 
+--------------------------------
+index.1,  interestcase 3_000 start:
+tagetlogs are:[2470-4295, 2497-4340, 429_4, 2467-4289, 2477-4311, 497_11, 2493-4330, 1170_8, 2469-4293, 2465-4285, 1431-2467, 498_12, 2472-4299]
+current preference, name:gpx.save_track, value:1
+current preference, name:data.folder_map, value:value1
+current preference, name:data.folder_catalog, value:value1
+current preference, name:debug.simulate_upload, value:1
+current preference, name:debug.keep_export_files, value:1
+current preference, name:gps.interval, value:2147483647
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_1_3_000.py]
+
+OK
+
+consumed time: 65.3210000992 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 44.5980000496 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [429_4, 497_11, 1170_8, 1431-2467, 498_12]
+uncovered targets are: [2470-4295, 2497-4340, 2467-4289, 2477-4311, 2493-4330, 2469-4293, 2465-4285, 2472-4299]
+interestcase 0_1_3_000 end
+
+index.2,  interestcase 5_007 start:
+tagetlogs are:[2470-4295, 2497-4340, 1170_5, 2467-4289, 2477-4311, 979-1735, 2493-4330, 2469-4293, 2465-4285, 915-1629, 2472-4299]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.save_track, value:1
+current preference, name:debug.simulate_upload, value:1
+current preference, name:debug.keep_export_files, value:1
+current preference, name:gps.interval, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_2_5_007.py]
+
+OK
+
+consumed time: 60.8059999943 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_2_5_007.py", line 280, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_2_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.9479999542 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [2470-4295, 1170_5, 2467-4289, 2493-4330, 2469-4293, 2465-4285, 2472-4299]
+uncovered targets are: [2497-4340, 2477-4311, 979-1735, 915-1629]
+interestcase 0_2_5_007 end
+
+index.3,  interestcase 3_016 start:
+tagetlogs are:[2497-4340, 976-1728, 2477-4311, 915-1629]
+current preference, name:delete_tracks, value:1
+current preference, name:debug.simulate_upload, value:1
+current preference, name:debug.keep_export_files, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_3_3_016.py]
+
+OK
+
+consumed time: 35.0350000858 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_3_3_016.py", line 295, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_3_3_016.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 40.760999918 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2497-4340, 976-1728, 2477-4311, 915-1629]
+target: 2497-4340 uncovered, added to then retrial list!
+target: 976-1728 uncovered, added to then retrial list!
+target: 2477-4311 uncovered, added to then retrial list!
+target: 915-1629 uncovered, added to then retrial list!
+interestcase 0_3_3_016 end
+
+index.4,  interestcase 1_001 start:
+tagetlogs are:[2165-3739_0, 317_10, 2164-3737_9, 2743-4770, 429_1, 323-615_13]
+current preference, name:data.folder_catalog, value:value1
+current preference, name:gps.interval, value:0
+current preference, name:data.map, value:null
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_4_1_001.py]
+
+OK
+
+consumed time: 47.7289998531 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 43.8600001335 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [317_10, 429_1, 323-615_13]
+uncovered targets are: [2165-3739_0, 2164-3737_9, 2743-4770]
+interestcase 0_4_1_001 end
+
+index.5,  interestcase 1_001 start:
+tagetlogs are:[2165-3739_0, 2164-3737_9, 2743-4770, 429_2]
+current preference, name:data.folder_catalog, value:value1
+current preference, name:gps.interval, value:
+current preference, name:data.map, value:null
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_5_1_001.py]
+
+OK
+
+consumed time: 45.8129999638 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 38.9270000458 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [429_2]
+uncovered targets are: [2165-3739_0, 2164-3737_9, 2743-4770]
+interestcase 0_5_1_001 end
+
+index.6,  interestcase 1_001 start:
+tagetlogs are:[2165-3739_0, 2164-3737_9, 2743-4770, 429_3]
+current preference, name:data.folder_catalog, value:value1
+current preference, name:gps.interval, value:1
+current preference, name:data.map, value:null
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_6_1_001.py]
+
+OK
+
+consumed time: 48.0579998493 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 40.1199998856 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [429_3]
+uncovered targets are: [2165-3739_0, 2164-3737_9, 2743-4770]
+interestcase 0_6_1_001 end
+
+index.7,  interestcase 1_001 start:
+tagetlogs are:[2165-3739_0, 2164-3737_9, 2743-4770]
+current preference, name:data.folder_catalog, value:value1
+current preference, name:data.map, value:null
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_7_1_001.py]
+
+OK
+
+consumed time: 25.7119998932 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 42.5480000973 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2165-3739_0, 2164-3737_9, 2743-4770]
+loclog: 2165-3739_0 deleted !
+loclog: 2164-3737_9 deleted !
+target: 2743-4770 uncovered, added to then retrial list!
+interestcase 0_7_1_001 end
+
+index.8,  interestcase 5_007 start:
+tagetlogs are:[979-1735, 1170_7]
+current preference, name:delete_tracks, value:1
+current preference, name:gps.interval, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_8_5_007.py]
+
+OK
+
+consumed time: 40.5940001011 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_8_5_007.py", line 271, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_8_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.6400001049 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1170_7]
+uncovered targets are: [979-1735]
+interestcase 0_8_5_007 end
+
+index.9,  interestcase 5_007 start:
+tagetlogs are:[979-1735, 1170_6]
+current preference, name:delete_tracks, value:1
+current preference, name:gps.interval, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_9_5_007.py]
+
+OK
+
+consumed time: 37.2289998531 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_9_5_007.py", line 271, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_9_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.6970000267 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [1170_6]
+uncovered targets are: [979-1735]
+interestcase 0_9_5_007 end
+
+index.10,  interestcase 5_004 start:
+tagetlogs are:[979-1735]
+current preference, name:delete_tracks, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_10_5_004.py]
+
+OK
+
+consumed time: 24.5190000534 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_10_5_004.py", line 273, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_10_5_004.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.2209999561 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [979-1735]
+target: 979-1735 uncovered, added to then retrial list!
+interestcase 0_10_5_004 end
+
+index.11,  interestcase 5_004 start:
+tagetlogs are:[979-1735]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.save_track, value:0
+current preference, name:debug.simulate_upload, value:0
+current preference, name:debug.keep_export_files, value:0
+current preference, name:credentials.anonymous_upload, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_11_5_004.py]
+
+OK
+
+consumed time: 50.3020000458 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_11_5_004.py", line 287, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_11_5_004.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.3269999027 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [979-1735]
+loclog: 979-1735 uncovered after retrial, deleted!
+interestcase 0_11_5_004 end
+
+index.12,  interestcase 1_013 start:
+tagetlogs are:[2743-4770]
+current preference, name:data.map, value:null
+current preference, name:ui.keep_screen_on, value:1
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_12_1_013.py]
+
+OK
+
+consumed time: 25.1700000763 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 44.4409999847 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [2743-4770]
+loclog: 2743-4770 uncovered after retrial, deleted!
+interestcase 0_12_1_013 end
+
+index.13,  interestcase 5_004 start:
+tagetlogs are:[915-1629]
+current preference, name:delete_tracks, value:0
+current preference, name:gpx.save_track, value:0
+current preference, name:debug.simulate_upload, value:0
+current preference, name:debug.keep_export_files, value:0
+current preference, name:credentials.anonymous_upload, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_13_5_004.py]
+
+OK
+
+consumed time: 51.8209998608 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_13_5_004.py", line 287, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_13_5_004.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.2460000515 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [915-1629]
+loclog: 915-1629 uncovered after retrial, deleted!
+interestcase 0_13_5_004 end
+
+index.14,  interestcase 6_009 start:
+tagetlogs are:[2477-4311]
+current preference, name:debug.simulate_upload, value:0
+current preference, name:debug.keep_export_files, value:1
+current preference, name:credentials.anonymous_upload, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_14_6_009.py]
+
+OK
+
+consumed time: 41.7710001469 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_14_6_009.py", line 277, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"No\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_14_6_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.1100001335 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [2477-4311]
+loclog: 2477-4311 uncovered after retrial, deleted!
+interestcase 0_14_6_009 end
+
+index.15,  interestcase 4_016 start:
+tagetlogs are:[976-1728]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.save_track, value:0
+current preference, name:debug.simulate_upload, value:0
+current preference, name:debug.keep_export_files, value:0
+current preference, name:credentials.anonymous_upload, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_15_4_016.py]
+
+OK
+
+consumed time: 53.3740000725 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_15_4_016.py", line 281, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"No\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_15_4_016.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 16.368999958 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [976-1728]
+loclog: 976-1728 uncovered after retrial, deleted!
+interestcase 0_15_4_016 end
+
+index.16,  interestcase 6_009 start:
+tagetlogs are:[2497-4340]
+current preference, name:gpx.save_track, value:0
+current preference, name:debug.simulate_upload, value:0
+current preference, name:debug.keep_export_files, value:0
+current preference, name:credentials.anonymous_upload, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_16_6_009.py]
+
+OK
+
+consumed time: 47.9289999008 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_16_6_009.py", line 280, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"No\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase0_16_6_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.6119999886 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [2497-4340]
+loclog: 2497-4340 uncovered after retrial, deleted!
+interestcase 0_16_6_009 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 2809-4885 ,target branch is: 2809-4886
+interests are:
+gpx.verbosity      All Data    3     Various
+discovered tags are : 0_8_5_007 0_3_3_016 0_2_5_007 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 2807-4881 ,target branch is: 2807-4882
+interests are:
+gpx.verbosity      Waypoints only    3     Various
+discovered tags are : 0_8_5_007 0_3_3_016 0_2_5_007 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 2808-4883 ,target branch is: 2808-4884
+interests are:
+gpx.verbosity      Waypoints only    3     Various
+discovered tags are : 0_8_5_007 0_3_3_016 0_2_5_007 
+--------------------------------
+index.1,  interestcase 0_8_5_007 start:
+tagetlogs are:[2807-4882]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.verbosity, value:Waypoints only
+current preference, name:gps.interval, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_1_0_8_5_007.py]
+
+OK
+
+consumed time: 45.1510000229 s
+
+jacoco time: 5.00599980354 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_1_0_8_5_007.py", line 274, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_1_0_8_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.5680000782 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2807-4882]
+loclog: 2807-4882 uncovered after retrial, deleted!
+interestcase 1_1_0_8_5_007 end
+
+index.2,  interestcase 0_8_5_007 start:
+tagetlogs are:[2808-4884]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.verbosity, value:Waypoints only
+current preference, name:gps.interval, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_2_0_8_5_007.py]
+
+OK
+
+consumed time: 48.5920000076 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_2_0_8_5_007.py", line 274, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_2_0_8_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 24.3440001011 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [2808-4884]
+loclog: 2808-4884 uncovered after retrial, deleted!
+interestcase 1_2_0_8_5_007 end
+
+index.3,  interestcase 0_8_5_007 start:
+tagetlogs are:[2809-4886]
+current preference, name:delete_tracks, value:1
+current preference, name:gpx.verbosity, value:All Data
+current preference, name:gps.interval, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_3_0_8_5_007.py]
+
+OK
+
+consumed time: 48.3280000687 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_3_0_8_5_007.py", line 274, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Yes\")", "new UiSelector().className(\"android.widget.Button\").instance(1)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\radiocell\testcase\interestcases\testcase1_3_0_8_5_007.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.3949999809 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [2809-4886]
+loclog: 2809-4886 uncovered after retrial, deleted!
+interestcase 1_3_0_8_5_007 end
+

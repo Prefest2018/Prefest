@@ -1,0 +1,464 @@
+ConflictsResolveActivityIT#screenshotTextFiles
+--------- beginning of main
+ConflictsResolveActivityIT#screenshotImages
+ConflictsResolveActivityIT#cancel
+ConflictsResolveActivityIT#keepExisting
+ConflictsResolveActivityIT#screenshotTextFiles
+--------- beginning of main
+--------- beginning of system
+11-20 09:00:38.648  3114  3114 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@e84645a that was originally bound here
+11-20 09:00:38.648  3114  3114 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@e84645a that was originally bound here
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 09:00:38.648  3114  3114 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+ConflictsResolveActivityIT#screenshotImages
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#cancel
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepExisting
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepNew
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepBoth
+--------- beginning of main
+--------- beginning of system
+DrawerActivityIT#switchAccountViaAccountList
+--------- beginning of main
+--------- beginning of system
+11-20 09:01:13.816  3114  3114 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@a574e14 that was originally bound here
+11-20 09:01:13.816  3114  3114 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@a574e14 that was originally bound here
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 09:01:13.816  3114  3114 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+DrawerActivityIT#switchAccountViaAvatar
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityTest#testSetupToolbar
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getActivityFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isNotRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#nullFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#userInfoDetail
+--------- beginning of main
+--------- beginning of system
+ActivitiesActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#open
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#drawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showShares
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showAccounts
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#allFiles
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: FATAL EXCEPTION: Thread-13
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: Process: com.nextcloud.client, PID: 15212
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.owncloud.android.datamodel.OCFile.getRemotePath()' on a null object reference
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: 	at com.owncloud.android.operations.RefreshFolderOperation.run(RefreshFolderOperation.java:219)
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: 	at com.owncloud.android.lib.common.operations.RemoteOperation.run(RemoteOperation.java:357)
+11-20 09:02:30.127 15212 15274 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:761)
+FirstRunActivityIT#open
+--------- beginning of main
+--------- beginning of system
+NotificationsActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SettingsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+SyncedFoldersActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+UploadListActivityActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFolder
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFile
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#showRichWorkspace
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToUser
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToGroup
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToCircle
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareViaLink
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displaySimpleTextFile
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displayJavaSnippetFile
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#screenshotTextFiles
+--------- beginning of main
+--------- beginning of system
+11-20 10:45:25.441 17519 17519 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@c78dae1 that was originally bound here
+11-20 10:45:25.441 17519 17519 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@c78dae1 that was originally bound here
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 10:45:25.441 17519 17519 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+ConflictsResolveActivityIT#screenshotImages
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#cancel
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepExisting
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepNew
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepBoth
+--------- beginning of main
+--------- beginning of system
+DrawerActivityIT#switchAccountViaAccountList
+--------- beginning of main
+--------- beginning of system
+11-20 10:46:00.627 17519 17519 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@26a7863 that was originally bound here
+11-20 10:46:00.627 17519 17519 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@26a7863 that was originally bound here
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 10:46:00.627 17519 17519 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+DrawerActivityIT#switchAccountViaAvatar
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityTest#testSetupToolbar
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getActivityFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isNotRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#nullFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#userInfoDetail
+--------- beginning of main
+--------- beginning of system
+ActivitiesActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#open
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#drawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showShares
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showAccounts
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#allFiles
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: FATAL EXCEPTION: Thread-13
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: Process: com.nextcloud.client, PID: 20608
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.owncloud.android.datamodel.OCFile.getRemotePath()' on a null object reference
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: 	at com.owncloud.android.operations.RefreshFolderOperation.run(RefreshFolderOperation.java:219)
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: 	at com.owncloud.android.lib.common.operations.RemoteOperation.run(RemoteOperation.java:357)
+11-20 10:47:17.209 20608 20670 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:761)
+FirstRunActivityIT#open
+--------- beginning of main
+--------- beginning of system
+NotificationsActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SettingsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+SyncedFoldersActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+UploadListActivityActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFolder
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFile
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#showRichWorkspace
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToUser
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToGroup
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToCircle
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareViaLink
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displaySimpleTextFile
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displayJavaSnippetFile
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#screenshotTextFiles
+--------- beginning of main
+--------- beginning of system
+11-20 11:02:14.334 17519 17519 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@a595fb7 that was originally bound here
+11-20 11:02:14.334 17519 17519 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@a595fb7 that was originally bound here
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 11:02:14.334 17519 17519 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+ConflictsResolveActivityIT#screenshotImages
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#cancel
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepExisting
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepNew
+--------- beginning of main
+--------- beginning of system
+ConflictsResolveActivityIT#keepBoth
+--------- beginning of main
+--------- beginning of system
+DrawerActivityIT#switchAccountViaAccountList
+--------- beginning of main
+--------- beginning of system
+11-20 11:02:48.391 17519 17519 E ActivityThread: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@8d86689 that was originally bound here
+11-20 11:02:48.391 17519 17519 E ActivityThread: android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@8d86689 that was originally bound here
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1336)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1231)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1478)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:1450)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.content.ContextWrapper.bindService(ContextWrapper.java:636)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:181)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:224)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:171)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:115)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onSystemAccountChanged(EmailBroadcastProcessorService.java:369)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:132)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:68)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-20 11:02:48.391 17519 17519 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+DrawerActivityIT#switchAccountViaAvatar
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityTest#testSetupToolbar
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getActivityFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isNotRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder_isRootFolder
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#nullFile
+--------- beginning of main
+--------- beginning of system
+FolderPickerActivityIT#getParentFolder
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+ManageAccountsActivityIT#userInfoDetail
+--------- beginning of main
+--------- beginning of system
+ActivitiesActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#open
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#drawer
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showShares
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#showAccounts
+--------- beginning of main
+--------- beginning of system
+FileDisplayActivityIT#allFiles
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: FATAL EXCEPTION: Thread-13
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: Process: com.nextcloud.client, PID: 25564
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.owncloud.android.datamodel.OCFile.getRemotePath()' on a null object reference
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: 	at com.owncloud.android.operations.RefreshFolderOperation.run(RefreshFolderOperation.java:219)
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: 	at com.owncloud.android.lib.common.operations.RemoteOperation.run(RemoteOperation.java:357)
+11-20 11:04:07.736 25564 25626 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:761)
+FirstRunActivityIT#open
+--------- beginning of main
+--------- beginning of system
+NotificationsActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SettingsActivityIT#open
+--------- beginning of main
+--------- beginning of system
+SyncedFoldersActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+UploadListActivityActivityIT#openDrawer
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFolder
+--------- beginning of main
+--------- beginning of system
+SyncFileNotEnoughSpaceDialogFragmentTest#showNotEnoughSpaceDialogForFile
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#showRichWorkspace
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToUser
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToGroup
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareToCircle
+--------- beginning of main
+--------- beginning of system
+OCFileListFragmentIT#createAndShowShareViaLink
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displaySimpleTextFile
+--------- beginning of main
+--------- beginning of system
+PreviewTextFileFragmentTest#displayJavaSnippetFile
+--------- beginning of main
+--------- beginning of system

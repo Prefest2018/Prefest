@@ -92,3 +92,3498 @@ E/AndroidRuntime( 4122): 	... 11 more
 
 --------- beginning of /dev/log/system
 
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 2981): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a5177e58 that was originally bound here
+
+E/ActivityThread( 2981): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a5177e58 that was originally bound here
+
+E/ActivityThread( 2981): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 2981): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 2981): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 2981): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 2981): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 2981): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 2981): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 2981): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 2981): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 2981): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 2981): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 2981): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 2981): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 2981): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 2981): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 2981): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 2981): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 2981): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 2981): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 2981): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 2981): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 2981): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 2981): 	at dalvik.system.NativeStart.main(Native Method)
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 3275): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a51096d0 that was originally bound here
+
+E/ActivityThread( 3275): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a51096d0 that was originally bound here
+
+E/ActivityThread( 3275): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 3275): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 3275): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 3275): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 3275): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3275): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 3275): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 3275): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 3275): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 3275): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 3275): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3275): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 3275): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 3275): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 3275): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 3275): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a51096d0 that was originally bound here
+
+E/ActivityThread( 3275): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a51096d0 that was originally bound here
+
+E/ActivityThread( 3275): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 3275): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 3275): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 3275): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 3275): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3275): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 3275): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 3275): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 3275): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 3275): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 3275): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 3275): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 3275): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3275): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 3275): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 3275): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 3275): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_1_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+E/ActivityThread( 3573): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+
+E/ActivityThread( 3573): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+
+E/ActivityThread( 3573): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 3573): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 3573): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 3573): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 3573): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 3573): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 3573): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 3573): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 3573): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+E/ActivityThread( 3573): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+
+
+E/ActivityThread( 3573): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+E/ActivityThread( 3573): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50820c0 that was originally bound here
+
+
+E/ActivityThread( 3573): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+E/ActivityThread( 3573): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+
+E/ActivityThread( 3573): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+E/ActivityThread( 3573): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 3573): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 3573): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+E/ActivityThread( 3573): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+E/ActivityThread( 3573): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 3573): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+
+E/ActivityThread( 3573): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 3573): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+
+E/ActivityThread( 3573): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/ActivityThread( 3573): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 3573): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 3573): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 3573): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/ActivityThread( 3573): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+
+E/ActivityThread( 3573): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 3573): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 3573): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 3573): 	at android.os.Looper.loop(Looper.java:136)
+
+
+E/ActivityThread( 3573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 3573): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 3573): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 3573): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 3573): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 3573): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+0_2_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 4070): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+
+E/ActivityThread( 4070): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+
+E/ActivityThread( 4070): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 4070): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+E/ActivityThread( 4070): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+
+
+E/ActivityThread( 4070): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 4070): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+
+E/ActivityThread( 4070): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+
+E/ActivityThread( 4070): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+E/ActivityThread( 4070): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 4070): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 4070): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+
+E/ActivityThread( 4070): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 4070): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 4070): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/ActivityThread( 4070): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 4070): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 4070): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 4070): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/ActivityThread( 4070): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4070): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 4070): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+E/ActivityThread( 4070): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 4070): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 4070): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+
+E/ActivityThread( 4070): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a506cb98 that was originally bound here
+
+E/ActivityThread( 4070): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 4070): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 4070): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 4070): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 4070): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 4070): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 4070): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 4070): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 4070): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 4070): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 4070): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 4070): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 4070): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 4070): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+0_3_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 4565): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+E/ActivityThread( 4565): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+E/ActivityThread( 4565): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 4565): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 4565): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 4565): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 4565): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 4565): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 4565): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 4565): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 4565): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+E/ActivityThread( 4565): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+E/ActivityThread( 4565): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 4565): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 4565): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 4565): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a508a8f0 that was originally bound here
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 4565): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 4565): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 4565): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+
+E/ActivityThread( 4565): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 4565): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 4565): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 4565): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 4565): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+
+E/ActivityThread( 4565): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+E/ActivityThread( 4565): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 4565): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 4565): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 4565): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 4565): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 4565): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 4565): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 4565): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 4565): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/ActivityThread( 4565): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 4565): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 4565): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 4565): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+0_4_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 5141): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+
+E/ActivityThread( 5141): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+E/ActivityThread( 5141): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+
+
+E/ActivityThread( 5141): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+E/ActivityThread( 5141): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 5141): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+
+
+E/ActivityThread( 5141): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+E/ActivityThread( 5141): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 5141): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50af498 that was originally bound here
+
+E/ActivityThread( 5141): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+
+E/ActivityThread( 5141): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+
+E/ActivityThread( 5141): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 5141): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+
+
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+E/ActivityThread( 5141): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+E/ActivityThread( 5141): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 5141): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 5141): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+
+
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 5141): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 5141): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+
+E/ActivityThread( 5141): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 5141): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 5141): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+
+E/ActivityThread( 5141): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/ActivityThread( 5141): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 5141): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 5141): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 5141): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 5141): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 5141): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 5141): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 5141): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 5141): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 5141): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 5141): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 5141): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 5141): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 5141): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 5141): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 5141): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 5141): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 5141): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+E/ActivityThread( 5141): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+0_5_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 5654): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+
+E/ActivityThread( 5654): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+E/ActivityThread( 5654): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+
+E/ActivityThread( 5654): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+
+E/ActivityThread( 5654): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+
+
+E/ActivityThread( 5654): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+E/ActivityThread( 5654): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50ae6c8 that was originally bound here
+E/ActivityThread( 5654): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 5654): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+
+E/ActivityThread( 5654): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+E/ActivityThread( 5654): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+
+
+E/ActivityThread( 5654): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+
+
+E/ActivityThread( 5654): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5654): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 5654): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 5654): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+
+E/ActivityThread( 5654): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+
+
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 5654): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+
+
+E/ActivityThread( 5654): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/ActivityThread( 5654): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+E/ActivityThread( 5654): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+E/ActivityThread( 5654): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+E/ActivityThread( 5654): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/ActivityThread( 5654): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 5654): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 5654): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+E/ActivityThread( 5654): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 5654): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/ActivityThread( 5654): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/ActivityThread( 5654): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/ActivityThread( 5654): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/ActivityThread( 5654): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 5654): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 5654): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+
+
+E/ActivityThread( 5654): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 5654): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/ActivityThread( 5654): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 5654): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 5654): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread( 5654): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread( 5654): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+
+E/ActivityThread( 5654): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 5654): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+1_1_0_3_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+F/ActivityManager( 1592): Activity Manager Crash
+
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+
+0_1_1_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 6907): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50dfe10 that was originally bound here
+
+E/ActivityThread( 6907): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50dfe10 that was originally bound here
+
+E/ActivityThread( 6907): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 6907): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 6907): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 6907): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 6907): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 6907): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 6907): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 6907): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 6907): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 6907): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 6907): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 6907): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 6907): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 6907): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 6907): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 6907): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 6907): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 6907): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 6907): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 6907): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 6907): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 6907): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 6907): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_1_1_011
+--------- beginning of /dev/log/main
+
+0_1_1_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 8191): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a5173d10 that was originally bound here
+
+E/ActivityThread( 8191): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a5173d10 that was originally bound here
+
+E/ActivityThread( 8191): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 8191): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 8191): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 8191): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 8191): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 8191): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 8191): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 8191): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 8191): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 8191): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 8191): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 8191): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 8191): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 8191): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 8191): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 8191): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 8191): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 8191): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 8191): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 8191): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 8191): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 8191): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 8191): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+0_2_1_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8760): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50a2278 that was originally bound here
+
+E/ActivityThread( 8760): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50a2278 that was originally bound here
+
+E/ActivityThread( 8760): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 8760): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 8760): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 8760): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 8760): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 8760): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 8760): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 8760): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 8760): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 8760): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 8760): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 8760): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 8760): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 8760): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 8760): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 8760): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 8760): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 8760): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 8760): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 8760): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 8760): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 8760): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 8760): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 1873): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 9199): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 9199): Failed to find provider info for com.google.settings
+
+0_3_1_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+
+E/ActivityThread( 9452): Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50a0c58 that was originally bound here
+
+E/ActivityThread( 9452): android.app.ServiceConnectionLeaked: Activity com.naman14.timber.activities.MainActivity has leaked ServiceConnection com.naman14.timber.MusicPlayer$ServiceBinder@a50a0c58 that was originally bound here
+
+E/ActivityThread( 9452): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:979)
+
+E/ActivityThread( 9452): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:873)
+
+E/ActivityThread( 9452): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1561)
+
+E/ActivityThread( 9452): 	at android.app.ContextImpl.bindService(ContextImpl.java:1544)
+
+E/ActivityThread( 9452): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 9452): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:517)
+
+E/ActivityThread( 9452): 	at com.naman14.timber.MusicPlayer.bindToService(MusicPlayer.java:69)
+
+E/ActivityThread( 9452): 	at com.naman14.timber.activities.BaseActivity.onCreate(BaseActivity.java:123)
+
+E/ActivityThread( 9452): 	at com.naman14.timber.activities.MainActivity.onCreate(MainActivity.java:187)
+
+E/ActivityThread( 9452): 	at android.app.Activity.performCreate(Activity.java:5231)
+
+E/ActivityThread( 9452): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+
+E/ActivityThread( 9452): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+
+E/ActivityThread( 9452): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/ActivityThread( 9452): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/ActivityThread( 9452): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/ActivityThread( 9452): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread( 9452): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread( 9452): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread( 9452): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 9452): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread( 9452): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread( 9452): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread( 9452): 	at dalvik.system.NativeStart.main(Native Method)
+
+F/ActivityManager( 1592): Activity Manager Crash
+
+F/ActivityManager( 1592): java.lang.IllegalStateException: Unknown URL : content://media/external/audio/albumart/-1
+
+F/ActivityManager( 1592): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+
+F/ActivityManager( 1592): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+
+F/ActivityManager( 1592): 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:446)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:8109)
+
+F/ActivityManager( 1592): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1591)
+
+F/ActivityManager( 1592): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+
+F/ActivityManager( 1592): 	at android.os.Binder.execTransact(Binder.java:404)
+
+F/ActivityManager( 1592): 	at dalvik.system.NativeStart.run(Native Method)
+

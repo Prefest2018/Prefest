@@ -1,0 +1,1999 @@
+第0条Scene：
+originloc为：2890-4174 ,targetloc为：2890-4175
+interests为如下：
+pref_daynight_auto      1    11     null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 1_000, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 1_011, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_005, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第1条Scene：
+originloc为：2901-4191 ,targetloc为：2901-4190
+interests为如下：
+pref_text_size      Medium    22     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[7_015, 4_021, 4_018, 2_019, 7_023, 7_022, 5_029, 1_013, 6_011, 4_009, 7_016, 4_010, 7_018, 2_015, 2_014, 4_011, 6_012, 6_006, 6_010, 7_017, 1_010, 2_027, 1_011, 2_017, 4_014, 2_029, 1_006, 6_013, 6_008, 2_018, 2_026, 2_020, 2_024, 2_023, 7_007, 4_012, 4_017, 4_013, 7_019, 7_008, 4_016, 2_016, 4_019, 1_008, 6_009, 6_004, 7_013, 7_020, 7_014, 7_012, 7_011, 7_021, 2_028, 2_021, 2_022, 7_009, 4_020, 1_007, 7_010, 1_012, 1_009, 6_007, 4_015, 2_025, 6_005]
+--------------------------------
+第2条Scene：
+originloc为：1134-1588 ,targetloc为：1134-1589
+interests为如下：
+pref_list_swipe_left      Refresh    30     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第3条Scene：
+originloc为：1134-1588 ,targetloc为：1134-1590
+interests为如下：
+pref_list_swipe_left      Vote up    30     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第4条Scene：
+originloc为：1134-1588 ,targetloc为：1134-1591
+interests为如下：
+pref_list_swipe_left      Share    30     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第5条Scene：
+originloc为：1134-1588 ,targetloc为：1134-1592
+interests为如下：
+pref_list_swipe_left      None    30     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第6条Scene：
+originloc为：1223-1765 ,targetloc为：1223-1764
+interests为如下：
+pref_auto_viewed      1    29     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_027, 3_019, 7_015, 5_011, 5_028, 4_021, 4_018, 1_004, 1_000, 2_019, 1_015, 7_023, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 2_003, 6_011, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 4_010, 5_023, 6_023, 7_002, 3_010, 7_000, 7_018, 5_016, 2_010, 2_015, 2_014, 6_000, 3_026, 5_027, 3_007, 4_011, 4_022, 6_012, 5_021, 1_021, 5_008, 6_006, 6_010, 7_017, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 1_010, 3_015, 2_008, 2_027, 3_009, 5_003, 6_024, 2_007, 2_017, 4_014, 7_006, 2_029, 5_013, 1_006, 6_013, 6_008, 3_020, 3_008, 1_003, 1_024, 2_018, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 2_026, 2_020, 3_013, 2_024, 1_016, 5_002, 7_001, 2_023, 2_000, 3_004, 7_007, 5_017, 1_023, 7_027, 3_002, 4_012, 3_029, 5_006, 4_017, 4_013, 5_005, 5_024, 7_019, 7_028, 6_028, 5_020, 7_008, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 4_016, 2_004, 6_018, 2_016, 4_008, 3_003, 4_004, 4_019, 1_018, 6_016, 4_006, 1_008, 3_000, 2_005, 3_001, 6_009, 6_004, 7_003, 3_025, 7_013, 5_015, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第7条Scene：
+originloc为：1216-1752 ,targetloc为：1216-1751
+interests为如下：
+pref_highlight_updated      0    27     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_auto_viewed      0    29      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra large    22      null
+pref_ad_block      1    16      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_015, 7_022, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 4_009, 2_013, 1_029, 1_006, 1_003, 6_026, 6_017, 2_020, 1_016, 2_023, 7_007, 5_005, 7_008, 6_015, 5_010, 4_026, 6_009, 6_004, 3_025, 7_013, 7_020, 6_025, 7_005, 7_014, 7_004, 3_011, 2_002, 7_012, 7_011, 5_014, 7_021, 2_028, 3_014, 2_021, 6_019, 3_006, 2_022, 7_009, 6_020, 4_020, 1_007, 1_022, 3_012, 4_028, 5_004, 5_022, 7_010, 4_005, 3_005, 1_012, 1_009, 3_024, 1_019, 5_001, 3_016, 6_014, 6_007, 7_029, 4_015, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 2_025, 5_019, 6_005, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第8条Scene：
+originloc为：2756-3977 ,targetloc为：2756-3976
+interests为如下：
+pref_list_item_view      0    26     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[4_009, 4_001, 6_022, 7_016, 4_003, 1_020, 5_026, 6_029, 1_025, 3_026, 3_007, 6_004, 3_025, 7_020, 3_011, 2_028, 3_014, 2_021, 2_022, 4_020, 1_007]
+--------------------------------
+第9条Scene：
+originloc为：37-49 ,targetloc为：37-50
+interests为如下：
+pref_list_item_view      0    26     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+[1_027, 3_019, 7_015, 5_011, 4_021, 4_018, 2_019, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 4_009, 1_026, 2_013, 7_006, 2_029, 5_013, 6_013, 3_008, 1_028, 6_026, 6_003, 4_023, 2_020, 2_024]
+--------------------------------
+第10条Scene：
+originloc为：37-50 ,targetloc为：37-49
+interests为如下：
+pref_list_item_view      1    26     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_list_item_view      1    26      null
+[1_027, 3_019, 7_015, 5_011, 4_021, 4_018, 2_019, 2_009, 3_022, 5_029, 5_012, 1_013, 4_007, 3_023, 4_009, 1_026, 2_013, 7_006, 2_029, 5_013, 6_013, 3_008, 1_028, 6_026, 6_003, 4_023, 2_020, 2_024]
+--------------------------------
+第11条Scene：
+originloc为：2842-4096 ,targetloc为：2842-4097
+interests为如下：
+pref_list_swipe_left      Vote up    30     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra small    22      null
+[1_004, 2_003, 4_029, 5_026, 6_029, 5_023, 6_023, 7_002, 3_010, 5_016, 2_010, 6_000, 3_026, 5_027, 4_011, 6_012, 5_008, 5_025, 2_017, 4_014, 3_020, 2_018, 6_003, 2_012, 2_026, 2_024, 1_016, 7_001, 5_017, 4_013, 5_024, 7_028, 6_028, 4_025, 7_024, 3_017, 2_016, 4_004, 4_006]
+--------------------------------
+第12条Scene：
+originloc为：2843-4098 ,targetloc为：2843-4099
+interests为如下：
+pref_list_swipe_left      None    30     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      None    30      null
+pref_text_size      Extra small    22      null
+[1_004, 2_003, 4_029, 5_026, 6_029, 5_023, 6_023, 7_002, 3_010, 5_016, 2_010, 6_000, 3_026, 5_027, 4_011, 6_012, 5_008, 5_025, 2_017, 4_014, 3_020, 2_018, 6_003, 2_012, 2_026, 2_024, 1_016, 7_001, 5_017, 4_013, 5_024, 7_028, 6_028, 4_025, 7_024, 3_017, 2_016, 4_004, 4_006]
+--------------------------------
+第13条Scene：
+originloc为：2842-4097 ,targetloc为：2842-4096
+interests为如下：
+pref_list_swipe_right      None    31     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+[1_004, 2_003, 4_029, 5_026, 6_029, 5_023, 6_023, 7_002, 3_010, 5_016, 2_010, 6_000, 3_026, 5_027, 4_011, 6_012, 5_008, 5_025, 2_017, 4_014, 3_020, 2_018, 6_003, 2_012, 2_026, 2_024, 1_016, 7_001, 5_017, 4_013, 5_024, 7_028, 6_028, 4_025, 7_024, 3_017, 2_016, 4_004, 4_006]
+--------------------------------
+第14条Scene：
+originloc为：3854-5556 ,targetloc为：3854-5557
+interests为如下：
+pref_external      1    15     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+[6_011, 1_006, 3_020, 1_003, 2_018]
+--------------------------------
+第15条Scene：
+originloc为：2623-3759 ,targetloc为：2623-3760
+interests为如下：
+pref_external      1    15     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+[6_011, 4_029, 6_023, 6_012, 6_006, 1_006, 6_008, 3_020, 1_003, 1_024, 2_018, 2_012]
+--------------------------------
+第16条Scene：
+originloc为：2625-3763 ,targetloc为：2625-3764
+interests为如下：
+pref_external      1    15     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_navigation      0    7      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+[6_011, 4_029, 6_023, 6_012, 6_006, 1_006, 6_008, 3_020, 1_003, 1_024, 2_018, 2_012]
+--------------------------------
+第17条Scene：
+originloc为：3803-5484 ,targetloc为：3803-5483
+interests为如下：
+pref_lazy_load      0    18     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_navigation      0    7      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+[6_011, 4_029, 6_023, 6_012, 6_006, 6_010, 1_011, 1_006, 6_008, 3_020, 1_003, 1_024, 2_018, 2_012]
+--------------------------------
+第18条Scene：
+originloc为：1227-1771 ,targetloc为：1227-1770
+interests为如下：
+pref_highlight_updated      0    27     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_navigation      0    7      null
+pref_thread_indicator      1    5      null
+pref_color_code      1    3      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[5_011, 5_028, 1_004, 7_023, 2_003, 6_023, 6_012, 6_006, 6_010, 6_008, 3_020, 1_024, 2_018, 2_012]
+--------------------------------
+第19条Scene：
+originloc为：1984-2834 ,targetloc为：1984-2835
+interests为如下：
+pref_smooth_scroll      0    9     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[6_011, 4_029, 1_006, 6_008, 3_020, 1_003, 1_024, 2_018, 2_012]
+--------------------------------
+第20条Scene：
+originloc为：1535-2203 ,targetloc为：1535-2202
+interests为如下：
+pref_thread_indicator      0    5     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[6_011, 6_023, 6_012, 1_011, 1_006, 6_008, 3_020, 1_003, 2_018, 2_012]
+--------------------------------
+第21条Scene：
+originloc为：3540-5111 ,targetloc为：3540-5110
+interests为如下：
+pref_list_item_view      1    26     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      None    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Large    22      null
+pref_list_item_view      1    26      null
+[4_021, 2_019, 7_023, 4_001, 4_003, 1_020, 5_026, 1_025]
+--------------------------------
+第22条Scene：
+originloc为：2901-4190 ,targetloc为：2901-4191
+interests为如下：
+pref_text_size      Extra small    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+[1_027, 3_019, 5_011, 5_028, 1_004, 1_015, 2_009, 3_022, 5_012, 4_007, 3_023, 2_003, 4_009, 1_026, 2_013, 4_001, 4_029, 6_022, 2_011, 4_003, 1_020, 5_026, 6_029, 1_025, 5_023, 6_023, 7_002, 3_010, 7_000, 5_016, 2_010, 6_000, 3_026, 5_027, 3_007, 4_022, 5_021, 1_021, 5_008, 7_025, 3_027, 1_029, 6_021, 5_025, 4_002, 4_027, 3_015, 2_008, 3_009, 5_003, 6_024, 2_007, 7_006, 5_013, 3_020, 3_008, 1_003, 1_024, 1_028, 6_026, 6_003, 2_012, 4_023, 6_017, 3_013, 1_016, 5_002, 7_001, 2_000, 3_004, 5_017, 1_023, 7_027, 3_002, 3_029, 5_006, 5_005, 5_024, 7_028, 6_028, 5_020, 4_000, 6_015, 5_010, 4_025, 4_026, 3_018, 7_024, 3_017, 2_004, 6_018, 4_008, 3_003, 4_004, 1_018, 6_016, 4_006, 3_000, 2_005, 3_001, 7_003, 3_025, 5_015, 6_025, 7_005, 7_004, 3_011, 2_002, 5_014, 3_014, 6_019, 3_006, 6_020, 1_022, 3_012, 4_028, 5_004, 5_022, 4_005, 3_005, 3_024, 1_019, 5_001, 3_016, 6_014, 7_029, 4_024, 3_021, 5_009, 5_000, 7_026, 6_002, 3_028, 5_007, 2_006, 6_027, 5_018, 6_001, 5_019, 2_001, 1_017, 1_014, 1_002, 1_001]
+--------------------------------
+第23条Scene：
+originloc为：2902-4195 ,targetloc为：2902-4192
+interests为如下：
+pref_text_size      Medium    22     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Medium    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[1_027, 3_019, 2_009, 5_012, 4_009, 2_013, 6_022, 2_011, 6_029, 6_023, 7_002, 3_010, 7_000, 2_010, 3_007, 7_025, 6_021, 3_015, 3_009, 6_024, 7_006, 5_013, 3_008, 6_026, 2_012, 6_017, 3_013, 7_001, 3_004, 7_027, 3_002, 7_028, 6_028, 6_015, 3_018, 7_024, 3_017, 6_018, 4_008, 3_003, 6_016, 3_000, 3_001, 7_003, 6_025, 7_005, 7_004, 3_011, 3_014, 6_019, 3_006, 6_020, 3_012, 3_005, 3_016, 6_014, 7_029, 7_026, 6_027]
+--------------------------------
+第24条Scene：
+originloc为：2902-4195 ,targetloc为：2902-4193
+interests为如下：
+pref_text_size      Large    22     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Medium    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[1_027, 3_019, 2_009, 5_012, 4_009, 2_013, 6_022, 2_011, 6_029, 6_023, 7_002, 3_010, 7_000, 2_010, 3_007, 7_025, 6_021, 3_015, 3_009, 6_024, 7_006, 5_013, 3_008, 6_026, 2_012, 6_017, 3_013, 7_001, 3_004, 7_027, 3_002, 7_028, 6_028, 6_015, 3_018, 7_024, 3_017, 6_018, 4_008, 3_003, 6_016, 3_000, 3_001, 7_003, 6_025, 7_005, 7_004, 3_011, 3_014, 6_019, 3_006, 6_020, 3_012, 3_005, 3_016, 6_014, 7_029, 7_026, 6_027]
+--------------------------------
+第25条Scene：
+originloc为：2902-4195 ,targetloc为：2902-4194
+interests为如下：
+pref_text_size      Extra large    22     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Medium    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[1_027, 3_019, 2_009, 5_012, 4_009, 2_013, 6_022, 2_011, 6_029, 6_023, 7_002, 3_010, 7_000, 2_010, 3_007, 7_025, 6_021, 3_015, 3_009, 6_024, 7_006, 5_013, 3_008, 6_026, 2_012, 6_017, 3_013, 7_001, 3_004, 7_027, 3_002, 7_028, 6_028, 6_015, 3_018, 7_024, 3_017, 6_018, 4_008, 3_003, 6_016, 3_000, 3_001, 7_003, 6_025, 7_005, 7_004, 3_011, 3_014, 6_019, 3_006, 6_020, 3_012, 3_005, 3_016, 6_014, 7_029, 7_026, 6_027]
+--------------------------------
+第26条Scene：
+originloc为：3540-5110 ,targetloc为：3540-5111
+interests为如下：
+pref_list_item_view      0    26     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      0    26      null
+[4_018, 7_023, 1_026, 6_022, 2_011, 7_016, 6_029, 6_013]
+--------------------------------
+第27条Scene：
+originloc为：2902-4192 ,targetloc为：2902-4193
+interests为如下：
+pref_text_size      Large    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[5_011, 4_029, 4_022, 5_008, 4_027, 5_003, 4_023, 5_002, 5_006, 5_005, 5_010, 4_025, 4_026, 4_028, 5_004, 5_001, 4_024, 5_009, 5_000, 5_007]
+--------------------------------
+第28条Scene：
+originloc为：2902-4192 ,targetloc为：2902-4194
+interests为如下：
+pref_text_size      Extra large    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[5_011, 4_029, 4_022, 5_008, 4_027, 5_003, 4_023, 5_002, 5_006, 5_005, 5_010, 4_025, 4_026, 4_028, 5_004, 5_001, 4_024, 5_009, 5_000, 5_007]
+--------------------------------
+第29条Scene：
+originloc为：2902-4193 ,targetloc为：2902-4192
+interests为如下：
+pref_text_size      Medium    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[5_028, 1_015, 2_009, 3_022, 2_003, 1_026, 1_020, 5_026, 1_025, 5_023, 5_016, 6_000, 5_027, 5_021, 1_021, 1_029, 5_025, 2_008, 2_007, 3_020, 1_024, 6_003, 1_016, 2_000, 5_017, 1_023, 5_024, 5_020, 2_004, 1_018, 2_005, 5_015, 2_002, 5_014, 1_022, 5_022, 1_019, 3_021, 6_002, 2_006, 5_018, 6_001, 5_019, 2_001, 1_017, 1_014]
+--------------------------------
+第30条Scene：
+originloc为：2902-4193 ,targetloc为：2902-4194
+interests为如下：
+pref_text_size      Extra large    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[5_028, 1_015, 2_009, 3_022, 2_003, 1_026, 1_020, 5_026, 1_025, 5_023, 5_016, 6_000, 5_027, 5_021, 1_021, 1_029, 5_025, 2_008, 2_007, 3_020, 1_024, 6_003, 1_016, 2_000, 5_017, 1_023, 5_024, 5_020, 2_004, 1_018, 2_005, 5_015, 2_002, 5_014, 1_022, 5_022, 1_019, 3_021, 6_002, 2_006, 5_018, 6_001, 5_019, 2_001, 1_017, 1_014]
+--------------------------------
+第31条Scene：
+originloc为：2902-4194 ,targetloc为：2902-4192
+interests为如下：
+pref_text_size      Medium    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[1_004, 4_007, 3_023, 4_001, 4_003, 3_026, 3_027, 4_002, 1_003, 1_028, 3_029, 4_000, 4_004, 4_006, 3_025, 4_005, 3_024, 3_028, 1_002, 1_001]
+--------------------------------
+第32条Scene：
+originloc为：2902-4194 ,targetloc为：2902-4193
+interests为如下：
+pref_text_size      Large    22     null
+preinterests为如下：
+pref_daynight_auto      0    11      null
+pref_text_size      Medium    22      null
+[1_004, 4_007, 3_023, 4_001, 4_003, 3_026, 3_027, 4_002, 1_003, 1_028, 3_029, 4_000, 4_004, 4_006, 3_025, 4_005, 3_024, 3_028, 1_002, 1_001]
+--------------------------------
+第33条Scene：
+originloc为：3406-4889 ,targetloc为：3406-4888
+interests为如下：
+pref_list_swipe_right      None    31     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Extra small    22      null
+pref_highlight_updated      1    27      null
+pref_list_item_view      1    26      null
+[4_009]
+--------------------------------
+第34条Scene：
+originloc为：433-623 ,targetloc为：433-624
+interests为如下：
+pref_volume      1    20     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+[7_001, 1_023, 7_024, 4_019, 3_000, 6_009, 6_025]
+--------------------------------
+第35条Scene：
+originloc为：1101-1541 ,targetloc为：1101-1542
+interests为如下：
+pref_list_swipe_left      None    30     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Large    22      null
+[1_016]
+--------------------------------
+第36条Scene：
+originloc为：1111-1555 ,targetloc为：1111-1554
+interests为如下：
+pref_list_swipe_right      Save    31     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Save    30      null
+pref_text_size      Large    22      null
+[1_016]
+--------------------------------
+第37条Scene：
+originloc为：371-544 ,targetloc为：371-545
+interests为如下：
+pref_navigation      1    7     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+[6_023, 6_012, 1_011]
+--------------------------------
+第38条Scene：
+originloc为：912-1275 ,targetloc为：912-1274
+interests为如下：
+pref_color_code      0    3     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_navigation      0    7      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[6_023, 6_012, 1_011]
+--------------------------------
+第39条Scene：
+originloc为：746-1043 ,targetloc为：746-1044
+interests为如下：
+pref_color_code      0    3     null
+preinterests为如下：
+pref_auto_viewed      0    29      null
+pref_list_swipe_right      Vote up    31      null
+pref_navigation      0    7      null
+pref_color_code      1    3      null
+pref_daynight_auto      0    11      null
+pref_list_swipe_left      Refresh    30      null
+pref_text_size      Extra small    22      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[6_023, 6_012, 1_011]
+--------------------------------
+第40条Scene：
+originloc为：797-1117 ,targetloc为：797-1116
+interests为如下：
+pref_ad_block      0    16     null
+preinterests为如下：
+pref_thread_indicator      1    5      null
+pref_smooth_scroll      1    9      null
+pref_daynight_auto      0    11      null
+pref_text_size      Extra large    22      null
+pref_external      0    15      null
+pref_lazy_load      1    18      null
+[1_003]
+--------------------------------
+index.1,  interestcase 6_023 start:
+此时tagetlogs为：[912-1274, 2623-3760, 2842-4096, 2902-4192, 2842-4097, 1223-1764, 2890-4175, 1134-1590, 746-1044, 1227-1770, 3803-5483, 371-545, 1535-2202, 2625-3764]
+当前preference的name为：pref_color_code, value为：0
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_navigation, value为：1
+当前preference的name为：pref_daynight_auto, value为：1
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_text_size, value为：Medium
+当前preference的name为：pref_highlight_updated, value为：0
+当前preference的name为：pref_auto_viewed, value为：1
+当前preference的name为：pref_list_swipe_left, value为：Vote up
+当前preference的name为：pref_list_swipe_right, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase1_6_023.py]
+
+consumed time: 114.61500001 s
+
+jacoco time: 58.4570000172 s
+
+该测试用例覆盖到的log为:[2902-4192, 1223-1764, 2890-4175, 1134-1590, 1227-1770]
+该测试用例未覆盖到的log为:[912-1274, 2623-3760, 2842-4096, 2842-4097, 746-1044, 3803-5483, 371-545, 1535-2202, 2625-3764]
+interestcase 6_023 end
+
+index.2,  interestcase 6_012 start:
+此时tagetlogs为：[912-1274, 2623-3760, 2842-4096, 2842-4097, 2901-4190, 746-1044, 3803-5483, 371-545, 1535-2202, 2625-3764]
+当前preference的name为：pref_color_code, value为：0
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_navigation, value为：1
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_text_size, value为：Medium
+当前preference的name为：pref_list_swipe_left, value为：Vote up
+当前preference的name为：pref_list_swipe_right, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase2_6_012.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase2_6_012.py", line 112, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 98.1629998684 s
+
+jacoco time: 17.6930000782 s
+
+OK
+
+consumed time: 76.361000061 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[2842-4096, 2842-4097, 2901-4190]
+该测试用例未覆盖到的log为:[912-1274, 2623-3760, 746-1044, 3803-5483, 371-545, 1535-2202, 2625-3764]
+interestcase 6_012 end
+
+index.3,  interestcase 1_003 start:
+此时tagetlogs为：[2623-3760, 1134-1592, 1984-2835, 2901-4191, 797-1116, 1216-1751, 3854-5557, 3803-5483, 1535-2202, 2625-3764]
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_smooth_scroll, value为：0
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_ad_block, value为：0
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_highlight_updated, value为：0
+当前preference的name为：pref_list_swipe_left, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase3_1_003.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase3_1_003.py", line 112, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 104.659000158 s
+
+jacoco time: 44.7229998112 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase3_1_003.py", line 141, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(28)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase3_1_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.864000082 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[1134-1592, 2901-4191, 1216-1751]
+该测试用例未覆盖到的log为:[2623-3760, 1984-2835, 797-1116, 3854-5557, 3803-5483, 1535-2202, 2625-3764]
+interestcase 1_003 end
+
+index.4,  interestcase 2_012 start:
+此时tagetlogs为：[2623-3760, 2902-4193, 1134-1591, 1984-2835, 3803-5483, 1535-2202, 2625-3764]
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_smooth_scroll, value为：0
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_text_size, value为：Large
+当前preference的name为：pref_list_swipe_left, value为：Share
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase4_2_012.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase4_2_012.py", line 110, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 85.7839999199 s
+
+jacoco time: 57.486000061 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase4_2_012.py", line 138, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(19)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase4_2_012.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.7969999313 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[2902-4193]
+该测试用例未覆盖到的log为:[2623-3760, 1134-1591, 1984-2835, 3803-5483, 1535-2202, 2625-3764]
+interestcase 2_012 end
+
+index.5,  interestcase 6_011 start:
+此时tagetlogs为：[2623-3760, 1134-1591, 1984-2835, 3854-5557, 3803-5483, 1535-2202, 2625-3764]
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_smooth_scroll, value为：0
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Share
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase5_6_011.py]
+
+consumed time: 70.7250001431 s
+
+jacoco time: 16.3129999638 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase5_6_011.py", line 139, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase5_6_011.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 42.1979999542 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[1134-1591, 1984-2835, 3854-5557]
+该测试用例未覆盖到的log为:[2623-3760, 3803-5483, 1535-2202, 2625-3764]
+interestcase 6_011 end
+
+index.6,  interestcase 4_009 start:
+此时tagetlogs为：[37-50, 2902-4194, 3406-4888, 1134-1589, 2756-3976]
+当前preference的name为：pref_text_size, value为：Extra large
+当前preference的name为：pref_list_item_view, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Refresh
+当前preference的name为：pref_list_swipe_right, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase6_4_009.py]
+
+consumed time: 34.5570001602 s
+
+jacoco time: 29.4210000038 s
+
+OK
+
+consumed time: 106.884000063 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[2902-4194, 1134-1589]
+该测试用例未覆盖到的log为:[37-50, 3406-4888, 2756-3976]
+interestcase 4_009 end
+
+index.7,  interestcase 1_011 start:
+此时tagetlogs为：[912-1274, 746-1044, 3803-5483, 371-545, 1535-2202]
+当前preference的name为：pref_color_code, value为：0
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_navigation, value为：1
+当前preference的name为：pref_lazy_load, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase7_1_011.py]
+
+consumed time: 95.9049999714 s
+
+jacoco time: 23.2209999561 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase7_1_011.py", line 131, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.TextView\").instance(32)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase7_1_011.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.8190000057 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[912-1274, 746-1044, 3803-5483, 371-545, 1535-2202]
+loclog: 912-1274 未成功覆盖，放入重试列表中!
+loclog: 746-1044 未成功覆盖，放入重试列表中!
+loclog: 3803-5483 未成功覆盖，放入重试列表中!
+loclog: 371-545 未成功覆盖，放入重试列表中!
+loclog: 1535-2202 未成功覆盖，放入重试列表中!
+interestcase 1_011 end
+
+index.8,  interestcase 4_029 start:
+此时tagetlogs为：[2623-3760, 2843-4099, 2625-3764]
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_list_swipe_left, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase8_4_029.py]
+
+consumed time: 33.9029998779 s
+
+jacoco time: 55.7239999771 s
+
+OK
+
+consumed time: 29.8109998703 s
+
+jacoco time: 5.00400018692 s
+
+该测试用例覆盖到的log为:[2843-4099]
+该测试用例未覆盖到的log为:[2623-3760, 2625-3764]
+interestcase 4_029 end
+
+index.9,  interestcase 1_016 start:
+此时tagetlogs为：[1101-1542, 1111-1554]
+当前preference的name为：pref_list_swipe_left, value为：None
+当前preference的name为：pref_list_swipe_right, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase9_1_016.py]
+
+consumed time: 22.0649998188 s
+
+jacoco time: 55.7640001774 s
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase9_1_016.py", line 131, in <module>
+
+    swipe(driver, 0.5, 0.2, 0.5, 0.8)
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase9_1_016.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=2000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 18.9909999371 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1101-1542, 1111-1554]
+loclog: 1101-1542 未成功覆盖，放入重试列表中!
+loclog: 1111-1554 未成功覆盖，放入重试列表中!
+interestcase 1_016 end
+
+index.10,  interestcase 1_027 start:
+此时tagetlogs为：[37-50]
+当前preference的name为：pref_list_item_view, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase10_1_027.py]
+
+consumed time: 21.2320001125 s
+
+jacoco time: 7.55399990082 s
+
+OK
+
+consumed time: 65.0339999199 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[37-50]
+loclog: 37-50 未成功覆盖，放入重试列表中!
+interestcase 1_027 end
+
+index.11,  interestcase 3_019 start:
+此时tagetlogs为：[37-49]
+当前preference的name为：pref_list_item_view, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase11_3_019.py]
+
+consumed time: 20.754999876 s
+
+jacoco time: 22.2850000858 s
+
+OK
+
+consumed time: 63.3059999943 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[37-49]
+该测试用例未覆盖到的log为:[]
+interestcase 3_019 end
+
+index.12,  interestcase 4_021 start:
+此时tagetlogs为：[3540-5110]
+当前preference的name为：pref_list_item_view, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase12_4_021.py]
+
+consumed time: 22.7760000229 s
+
+jacoco time: 22.3159999847 s
+
+OK
+
+consumed time: 52.628000021 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[3540-5110]
+loclog: 3540-5110 未成功覆盖，放入重试列表中!
+interestcase 4_021 end
+
+index.13,  interestcase 4_018 start:
+此时tagetlogs为：[3540-5111]
+当前preference的name为：pref_list_item_view, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase13_4_018.py]
+
+consumed time: 24.4269998074 s
+
+jacoco time: 31.2980000973 s
+
+FAIL
+
+str(e):		Message: TouchEvent element does not exist.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase13_4_018.py", line 124, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: TouchEvent element does not exist.
+
+
+
+
+
+consumed time: 22.8269999027 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[3540-5111]
+该测试用例未覆盖到的log为:[]
+interestcase 4_018 end
+
+index.14,  interestcase 4_001 start:
+此时tagetlogs为：[2756-3976]
+当前preference的name为：pref_list_item_view, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase14_4_001.py]
+
+consumed time: 23.9440000057 s
+
+jacoco time: 0.500999927521 s
+
+OK
+
+consumed time: 56.5690000057 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2756-3976]
+loclog: 2756-3976 未成功覆盖，放入重试列表中!
+interestcase 4_001 end
+
+index.15,  interestcase 6_006 start:
+此时tagetlogs为：[2623-3760, 2625-3764]
+当前preference的name为：pref_external, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase15_6_006.py]
+
+consumed time: 41.1270000935 s
+
+jacoco time: 9.75999999046 s
+
+OK
+
+consumed time: 26.8029999733 s
+
+jacoco time: 5.00400018692 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2623-3760, 2625-3764]
+loclog: 2623-3760 未成功覆盖，放入重试列表中!
+loclog: 2625-3764 未成功覆盖，放入重试列表中!
+interestcase 6_006 end
+
+index.16,  interestcase 7_001 start:
+此时tagetlogs为：[433-624]
+当前preference的name为：pref_volume, value为：1
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase16_7_001.py]
+
+consumed time: 42.4160001278 s
+
+jacoco time: 36.5809998512 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=...]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase16_7_001.py", line 151, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=...]
+
+
+
+
+
+consumed time: 65.7829999924 s
+
+jacoco time: 5.00499987602 s
+
+该测试用例覆盖到的log为:[433-624]
+该测试用例未覆盖到的log为:[]
+interestcase 7_001 end
+
+index.17,  interestcase 1_003 start:
+此时tagetlogs为：[797-1116]
+当前preference的name为：pref_ad_block, value为：0
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase17_1_003.py]
+
+consumed time: 47.7590000629 s
+
+jacoco time: 53.7179999352 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase17_1_003.py", line 123, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(28)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase17_1_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.1129999161 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[797-1116]
+loclog: 797-1116 未成功覆盖，放入重试列表中!
+interestcase 1_003 end
+
+index.18,  interestcase 4_009 start:
+此时tagetlogs为：[3406-4888]
+当前preference的name为：pref_list_swipe_right, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase18_4_009.py]
+
+consumed time: 17.4809999466 s
+
+jacoco time: 7.60399985313 s
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase18_4_009.py", line 131, in <module>
+
+    swipe(driver, 0.5, 0.2, 0.5, 0.8)
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase18_4_009.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=2000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 35.007999897 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[3406-4888]
+loclog: 3406-4888 未成功覆盖，放入重试列表中!
+interestcase 4_009 end
+
+index.19,  interestcase 1_016 start:
+此时tagetlogs为：[1101-1542]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Large
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：None
+当前preference的name为：pref_list_swipe_right, value为：Vote up
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase19_1_016.py]
+
+consumed time: 66.2159998417 s
+
+jacoco time: 6.35500001907 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase19_1_016.py", line 133, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase19_1_016.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.0039999485 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1101-1542]
+loclog: 1101-1542 重试未成功覆盖，删除!
+interestcase 1_016 end
+
+index.20,  interestcase 1_016 start:
+此时tagetlogs为：[1111-1554]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Large
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+当前preference的name为：pref_list_swipe_right, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase20_1_016.py]
+
+consumed time: 48.1519999504 s
+
+jacoco time: 36.6830000877 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase20_1_016.py", line 133, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase20_1_016.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.6619999409 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[1111-1554]
+loclog: 1111-1554 重试未成功覆盖，删除!
+interestcase 1_016 end
+
+index.21,  interestcase 6_023 start:
+此时tagetlogs为：[912-1274]
+当前preference的name为：pref_color_code, value为：0
+当前preference的name为：pref_navigation, value为：0
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_lazy_load, value为：1
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Refresh
+当前preference的name为：pref_list_swipe_right, value为：Vote up
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase21_6_023.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase21_6_023.py", line 112, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 90.6770000458 s
+
+jacoco time: 52.5820000172 s
+
+OK
+
+consumed time: 25.1749999523 s
+
+jacoco time: 5.00600004196 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[912-1274]
+loclog: 912-1274 重试未成功覆盖，删除!
+interestcase 6_023 end
+
+index.22,  interestcase 6_023 start:
+此时tagetlogs为：[746-1044]
+当前preference的name为：pref_color_code, value为：0
+当前preference的name为：pref_navigation, value为：0
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_lazy_load, value为：1
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Refresh
+当前preference的name为：pref_list_swipe_right, value为：Vote up
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase22_6_023.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase22_6_023.py", line 112, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 85.9149999619 s
+
+jacoco time: 56.381000042 s
+
+OK
+
+consumed time: 44.5299999714 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[746-1044]
+loclog: 746-1044 重试未成功覆盖，删除!
+interestcase 6_023 end
+
+index.23,  interestcase 6_011 start:
+此时tagetlogs为：[2623-3760]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase23_6_011.py]
+
+consumed time: 55.376999855 s
+
+jacoco time: 5.11800003052 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase23_6_011.py", line 137, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase23_6_011.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 52.7239999771 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2623-3760]
+loclog: 2623-3760 重试未成功覆盖，删除!
+interestcase 6_011 end
+
+index.24,  interestcase 4_009 start:
+此时tagetlogs为：[3406-4888]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_list_item_view, value为：1
+当前preference的name为：pref_highlight_updated, value为：1
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+当前preference的name为：pref_list_swipe_right, value为：None
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase24_4_009.py]
+
+consumed time: 62.6270000935 s
+
+jacoco time: 50.9889998436 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase24_4_009.py", line 151, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"More options\")")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase24_4_009.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 68.6520001888 s
+
+jacoco time: 5.00299978256 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[3406-4888]
+loclog: 3406-4888 重试未成功覆盖，删除!
+interestcase 4_009 end
+
+index.25,  interestcase 4_021 start:
+此时tagetlogs为：[3540-5110]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_list_item_view, value为：1
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase25_4_021.py]
+
+consumed time: 51.7799999714 s
+
+jacoco time: 45.5880000591 s
+
+OK
+
+consumed time: 57.9960000515 s
+
+jacoco time: 5.00599980354 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[3540-5110]
+loclog: 3540-5110 重试未成功覆盖，删除!
+interestcase 4_021 end
+
+index.26,  interestcase 1_027 start:
+此时tagetlogs为：[37-50]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_list_item_view, value为：0
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase26_1_027.py]
+
+consumed time: 64.3629999161 s
+
+jacoco time: 42.9790000916 s
+
+OK
+
+consumed time: 63.6349999905 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[37-50]
+loclog: 37-50 重试未成功覆盖，删除!
+interestcase 1_027 end
+
+index.27,  interestcase 4_009 start:
+此时tagetlogs为：[2756-3976]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_list_item_view, value为：0
+当前preference的name为：pref_highlight_updated, value为：1
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase27_4_009.py]
+
+consumed time: 63.7060000896 s
+
+jacoco time: 39.2349998951 s
+
+OK
+
+consumed time: 92.9869999886 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2756-3976]
+loclog: 2756-3976 重试未成功覆盖，删除!
+interestcase 4_009 end
+
+index.28,  interestcase 1_003 start:
+此时tagetlogs为：[797-1116]
+当前preference的name为：pref_thread_indicator, value为：1
+当前preference的name为：pref_smooth_scroll, value为：1
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_ad_block, value为：0
+当前preference的name为：pref_lazy_load, value为：1
+当前preference的name为：pref_text_size, value为：Extra large
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase28_1_003.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase28_1_003.py", line 114, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 113.204999924 s
+
+jacoco time: 20.9010000229 s
+
+OK
+
+consumed time: 68.0630002022 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[797-1116]
+loclog: 797-1116 重试未成功覆盖，删除!
+interestcase 1_003 end
+
+index.29,  interestcase 6_011 start:
+此时tagetlogs为：[3803-5483]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_lazy_load, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase29_6_011.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase29_6_011.py", line 106, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 62.2660000324 s
+
+jacoco time: 37.9539999962 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=...]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase29_6_011.py", line 156, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=...]
+
+
+
+
+
+consumed time: 161.909999847 s
+
+jacoco time: 5.0039999485 s
+
+该测试用例覆盖到的log为:[3803-5483]
+该测试用例未覆盖到的log为:[]
+loclog: 3803-5483 重试成功覆盖，删除!
+interestcase 6_011 end
+
+index.30,  interestcase 6_023 start:
+此时tagetlogs为：[371-545]
+当前preference的name为：pref_navigation, value为：1
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Refresh
+当前preference的name为：pref_list_swipe_right, value为：Vote up
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase30_6_023.py]
+
+consumed time: 73.5250000954 s
+
+jacoco time: 50.1029999256 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase30_6_023.py", line 139, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase30_6_023.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 21.1900000572 s
+
+jacoco time: 5.00699996948 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[371-545]
+loclog: 371-545 重试未成功覆盖，删除!
+interestcase 6_023 end
+
+index.31,  interestcase 6_011 start:
+此时tagetlogs为：[1535-2202]
+当前preference的name为：pref_thread_indicator, value为：0
+当前preference的name为：pref_smooth_scroll, value为：1
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：0
+当前preference的name为：pref_lazy_load, value为：1
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase31_6_011.py]
+
+FAIL
+
+str(e):		'NoneType' object has no attribute 'click'
+
+repr(e):	AttributeError("'NoneType' object has no attribute 'click'",)
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase31_6_011.py", line 112, in <module>
+
+    scrollToFindElement(driver, "new UiSelector().text(\"Text size\")").click()
+
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+
+consumed time: 92.2840001583 s
+
+jacoco time: 53.2289998531 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=...]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase31_6_011.py", line 162, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=...]
+
+
+
+
+
+consumed time: 125.575000048 s
+
+jacoco time: 5.00500011444 s
+
+该测试用例覆盖到的log为:[1535-2202]
+该测试用例未覆盖到的log为:[]
+loclog: 1535-2202 重试成功覆盖，删除!
+interestcase 6_011 end
+
+index.32,  interestcase 6_011 start:
+此时tagetlogs为：[2625-3764]
+当前preference的name为：pref_daynight_auto, value为：0
+当前preference的name为：pref_external, value为：1
+当前preference的name为：pref_text_size, value为：Extra small
+当前preference的name为：pref_auto_viewed, value为：0
+当前preference的name为：pref_list_swipe_left, value为：Save
+cmd:[python, C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase32_6_011.py]
+
+consumed time: 52.7049999237 s
+
+jacoco time: 48.0510001183 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase32_6_011.py", line 137, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"...\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\AndroidAnalyseWorkingSpace\FinalPreferenceProject\projecthome_2019\materialistic\testcase\interestcases\testcase32_6_011.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 49.6940000057 s
+
+jacoco time: 5.00300002098 s
+
+该测试用例覆盖到的log为:[]
+该测试用例未覆盖到的log为:[2625-3764]
+loclog: 2625-3764 重试未成功覆盖，删除!
+interestcase 6_011 end
+

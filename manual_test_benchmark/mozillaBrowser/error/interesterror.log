@@ -1,0 +1,896 @@
+0_1_TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+11-19 11:36:52.526  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.526  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:52.526  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:52.674  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.674  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:52.674  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:52.825  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.825  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:52.825  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:52.976  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.976  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:52.976  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:53.163  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.163  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:53.163  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:53.308  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.308  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:53.308  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:53.468  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.468  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:53.468  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 11:36:53.622  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.622  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:36:53.622  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+0_1_TabTrayMenuTest#privateRegularModeChangeTest
+--------- beginning of main
+--------- beginning of system
+11-19 12:06:13.851  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:13.851  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:13.851  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.028  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.028  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.028  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.179  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.179  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.179  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.326  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.326  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.326  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.473  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.473  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.473  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.616  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.616  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.616  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:14.807  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.807  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:14.807  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:15.567  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:15.567  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:15.567  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:15.567  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 12:06:22.599  1658  1673 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 12:06:22.599  1658  1673 E ActivityManager: java.lang.Throwable
+11-19 12:06:22.599  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 12:06:22.599  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 12:06:22.599  1658  1673 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 12:06:22.599  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 12:06:22.599  1658  1673 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+--------- beginning of crash
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: Process: org.mozilla.reference.browser, PID: 14264
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting!
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:272)
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:210)
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:358)
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.finish(AndroidJUnitRunner.java:408)
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:397)
+11-19 12:06:28.727 14264 14294 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+0_2_SettingsViewTest#settingsItemsTest
+--------- beginning of system
+--------- beginning of main
+11-19 12:06:37.098  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:37.098  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:37.098  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:37.775  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:37.775  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:06:37.775  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:06:37.775  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+0_1_SettingsViewTest#remoteDebuggingViaUSB
+--------- beginning of system
+--------- beginning of main
+11-19 12:45:08.829  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:08.829  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:08.829  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:08.968  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:08.968  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:08.968  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:09.118  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.118  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:09.118  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:09.269  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.269  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:09.269  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:09.467  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.467  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:09.467  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:10.147  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:10.147  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:45:10.147  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:45:10.147  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 12:45:17.457  1658  2795 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 12:45:17.457  1658  2795 E ActivityManager: java.lang.Throwable
+11-19 12:45:17.457  1658  2795 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 12:45:17.457  1658  2795 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 12:45:17.457  1658  2795 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 12:45:17.457  1658  2795 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 12:45:17.457  1658  2795 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+--------- beginning of crash
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: Process: org.mozilla.reference.browser, PID: 15734
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting!
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:272)
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:210)
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:358)
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.finish(AndroidJUnitRunner.java:408)
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:397)
+11-19 12:45:22.326 15734 15792 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+0_2_ThreeDotMenuTest#goForwardTest
+0_1_ThreeDotMenuTest#findInPageTest
+--------- beginning of main
+--------- beginning of system
+11-19 12:47:14.027  1658 15353 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 12:47:14.027  1658 15353 E ActivityManager: java.lang.Throwable
+11-19 12:47:14.027  1658 15353 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 12:47:14.027  1658 15353 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 12:47:14.027  1658 15353 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 12:47:14.027  1658 15353 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 12:47:14.027  1658 15353 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+--------- beginning of crash
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: Process: org.mozilla.reference.browser, PID: 16601
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting!
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:272)
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:210)
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:358)
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.finish(AndroidJUnitRunner.java:408)
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:397)
+11-19 12:47:19.743 16601 16631 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+0_2_ThreeDotMenuTest#openSettingsTest
+0_1_TabTrayMenuTest#goBackFromTabTrayTest
+--------- beginning of main
+--------- beginning of system
+11-19 12:57:50.725  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:50.725  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:57:50.725  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:57:50.865  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:50.865  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:57:50.865  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:57:51.050  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.050  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:57:51.050  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:57:51.207  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.207  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:57:51.207  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:57:51.901  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.901  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:57:51.901  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:57:51.901  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 12:58:05.084  1658  1770 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 12:58:05.084  1658  1770 E ActivityManager: java.lang.Throwable
+11-19 12:58:05.084  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 12:58:05.084  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 12:58:05.084  1658  1770 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 12:58:05.084  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 12:58:05.084  1658  1770 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+0_2_TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+11-19 12:58:30.218  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.218  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:30.218  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:30.366  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.366  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:30.366  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:30.510  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.510  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:30.510  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:30.649  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.649  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:30.649  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:30.810  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.810  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:30.810  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:31.515  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:31.515  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:58:31.515  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:58:31.515  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 12:58:45.217  1658  1905 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 12:58:45.217  1658  1905 E ActivityManager: java.lang.Throwable
+11-19 12:58:45.217  1658  1905 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 12:58:45.217  1658  1905 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 12:58:45.217  1658  1905 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 12:58:45.217  1658  1905 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 12:58:45.217  1658  1905 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+1_1_0_2_TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+11-19 12:59:52.775  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:52.775  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:52.775  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:52.926  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:52.926  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:52.926  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:53.081  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.081  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:53.081  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:53.225  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.225  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:53.225  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:53.407  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.407  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:53.407  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:53.571  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.571  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:53.571  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:54.247  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:54.247  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 12:59:54.247  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 12:59:54.247  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 13:00:08.987  1658  1770 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 13:00:08.987  1658  1770 E ActivityManager: java.lang.Throwable
+11-19 13:00:08.987  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 13:00:08.987  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 13:00:08.987  1658  1770 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 13:00:08.987  1658  1770 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 13:00:08.987  1658  1770 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+0_1_ThreeDotMenuTest#refreshPageTest
+--------- beginning of main
+--------- beginning of system
+11-19 13:19:59.388  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.388  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:19:59.388  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:19:59.536  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.536  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:19:59.536  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:19:59.714  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.714  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:19:59.714  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:00.451  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:00.451  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:00.451  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:00.451  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 13:20:07.648  1658  2097 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 13:20:07.648  1658  2097 E ActivityManager: java.lang.Throwable
+11-19 13:20:07.648  1658  2097 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 13:20:07.648  1658  2097 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 13:20:07.648  1658  2097 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 13:20:07.648  1658  2097 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 13:20:07.648  1658  2097 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+11-19 13:20:30.670 27423 27423 E WindowManager: 
+11-19 13:20:30.670 27423 27423 E WindowManager: android.view.WindowLeaked: Activity org.mozilla.reference.browser.BrowserActivity has leaked window androidx.appcompat.app.AppCompatDelegateImpl$ListMenuDecorView{9d4f4ff V.E...... ......I. 0,0-0,0} that was originally added here
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.openPanel(AppCompatDelegateImpl.java:1576)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUpPanel(AppCompatDelegateImpl.java:1895)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUp(AppCompatDelegateImpl.java:1331)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.dispatchKeyEvent(AppCompatDelegateImpl.java:1325)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback.dispatchKeyEvent(AppCompatDelegateImpl.java:2813)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:317)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4327)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4298)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3995)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4052)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4028)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4189)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2365)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1961)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1952)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2342)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.os.Looper.loop(Looper.java:136)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:30.670 27423 27423 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+0_2_TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+11-19 13:20:44.946  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:44.946  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:44.946  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.102  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.102  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.102  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.260  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.260  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.260  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.405  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.405  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.405  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.551  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.551  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.551  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.743  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.743  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.743  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:45.906  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.906  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:45.906  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:46.564  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:46.564  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:20:46.564  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:20:46.564  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 13:21:00.293  1658  1673 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 13:21:00.293  1658  1673 E ActivityManager: java.lang.Throwable
+11-19 13:21:00.293  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 13:21:00.293  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 13:21:00.293  1658  1673 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 13:21:00.293  1658  1673 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 13:21:00.293  1658  1673 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)
+1_1_0_2_TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+11-19 13:22:06.230  1759  1759 E ActivityThread: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:22:06.230  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing pause of activity that is not resumed: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3674)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3662)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3636)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1472)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:22:06.230  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:22:07.020  1759  1759 E ActivityThread: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:22:07.020  1759  1759 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is already stopped: {com.android.systemui/com.android.systemui.recents.RecentsActivity}
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3798)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3886)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.app.ActivityThread.-wrap25(ActivityThread.java)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1494)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.os.Looper.loop(Looper.java:154)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:22:07.020  1759  1759 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+11-19 13:22:07.020  1759  1759 E ActivityThread: ActivityClientRecord{paused=true, stopped=true, hideForNow=false, startsNotResumed=false, isForward=true, pendingConfigChanges=0, onlyLocalRequest=false, preserveWindow=false, Activity{resumed=false, stopped=true, finished=false, destroyed=false, startedActivity=false, temporaryPause=false, changingConfigurations=false, visibleBehind=false}}
+11-19 13:22:21.699  1658  2079 E ActivityManager: Sending non-protected broadcast com.example.pkg.END_EMMA from system uid 0 pkg null
+11-19 13:22:21.699  1658  2079 E ActivityManager: java.lang.Throwable
+11-19 13:22:21.699  1658  2079 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17785)
+11-19 13:22:21.699  1658  2079 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18346)
+11-19 13:22:21.699  1658  2079 E ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+11-19 13:22:21.699  1658  2079 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+11-19 13:22:21.699  1658  2079 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:565)

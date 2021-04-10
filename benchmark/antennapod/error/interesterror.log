@@ -124,3 +124,1667 @@
 
 --------- beginning of /dev/log/system
 
+1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_6_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 1595): Starting window AppWindowToken{a559d600 token=Token{a54dbd88 ActivityRecord{a54dbc28 u0 de.danoeh.antennapod/.activity.MainActivity t13}}} timed out
+
+0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 4903): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4903): Failed to find provider info for com.google.settings
+
+0_5_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_1_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_4_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/WindowManager( 1595): Starting window AppWindowToken{a54721e8 token=Token{a52ead48 ActivityRecord{a5471ed0 u0 de.danoeh.antennapod/.activity.MainActivity t87}}} timed out
+
+0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+0_3_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(15400): Failed to find provider info for com.google.android.gsf.gservices
+
+0_4_6_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(18351): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+
+E/AndroidRuntime(18351): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@a52fbf30already registered!
+
+E/AndroidRuntime(18351): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+E/AndroidRuntime(18351): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime(18351): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+
+E/AndroidRuntime(18351): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+
+E/AndroidRuntime(18351): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+
+E/AndroidRuntime(18351): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+
+E/AndroidRuntime(18351): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+
+E/AndroidRuntime(18351): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+
+E/AndroidRuntime(18351): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+E/AndroidRuntime(18351): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+E/AndroidRuntime(18351): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+E/AndroidRuntime(18351): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(18351): Error reporting crash
+
+E/AndroidRuntime(18351): java.lang.NullPointerException
+
+E/AndroidRuntime(18351): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+
+E/AndroidRuntime(18351): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+
+E/AndroidRuntime(18351): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+
+E/AndroidRuntime(18351): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(18375): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+
+E/AndroidRuntime(18375): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@a56b1f18already registered!
+
+E/AndroidRuntime(18375): 	at android.os.Parcel.readException(Parcel.java:1473)
+
+E/AndroidRuntime(18375): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+E/AndroidRuntime(18375): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+
+E/AndroidRuntime(18375): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+
+E/AndroidRuntime(18375): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+
+E/AndroidRuntime(18375): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+
+E/AndroidRuntime(18375): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+
+E/AndroidRuntime(18375): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+
+E/AndroidRuntime(18375): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+E/AndroidRuntime(18375): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+E/AndroidRuntime(18375): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+E/AndroidRuntime(18375): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(18375): Error reporting crash
+
+E/AndroidRuntime(18375): java.lang.NullPointerException
+
+E/AndroidRuntime(18375): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+
+E/AndroidRuntime(18375): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+
+E/AndroidRuntime(18375): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+
+E/AndroidRuntime(18375): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_7_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_2_028
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_11_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 1595): Starting window AppWindowToken{a56b7a90 token=Token{a56872a8 ActivityRecord{a5687148 u0 de.danoeh.antennapod/.activity.MainActivity t131}}} timed out
+
+0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_13_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_11_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_13_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_13_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_13_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.settings
+
+E/ActivityThread(32654): Failed to find provider info for com.google.settings
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(32654): Failed to find provider info for com.google.android.gsf.gservices
+
+1_7_0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_7_0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_5_0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 1587): Starting window AppWindowToken{a5375990 token=Token{a562f150 ActivityRecord{a562eff0 u0 de.danoeh.antennapod/.activity.MainActivity t15}}} timed out
+
+0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 5993): 
+
+E/WindowManager( 5993): android.view.WindowLeaked: Activity de.danoeh.antennapod.activity.MainActivity has leaked window android.widget.LinearLayout{a555cb30 V.E..... ......I. 0,0-264,96} that was originally added here
+
+E/WindowManager( 5993): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 5993): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 5993): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 5993): 	at android.support.v7.widget.TooltipPopup.show(TooltipPopup.java:85)
+
+E/WindowManager( 5993): 	at android.support.v7.widget.TooltipCompatHandler.show(TooltipCompatHandler.java:168)
+
+E/WindowManager( 5993): 	at android.support.v7.widget.TooltipCompatHandler.onLongClick(TooltipCompatHandler.java:116)
+
+E/WindowManager( 5993): 	at android.view.View.performLongClick(View.java:4474)
+
+E/WindowManager( 5993): 	at android.view.View$CheckForLongPress.run(View.java:18401)
+
+E/WindowManager( 5993): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/WindowManager( 5993): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/WindowManager( 5993): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 5993): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 5993): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 5993): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 5993): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 5993): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 5993): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_7_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_1_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_3_1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_1_2_3_1_7_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 1589): Starting window AppWindowToken{a5357938 token=Token{a53576d0 ActivityRecord{a5357570 u0 de.danoeh.antennapod/.activity.MainActivity t8}}} timed out
+
+0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_5_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+0_14_1_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+0_15_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_8_3_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 9936): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 9936): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 8456): Failed to find provider info for com.google.android.gsf.gservices
+
+1_2_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_6_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_15_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_2_2_019
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+1_8_0_15_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_9_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_2_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_4_0_2_2_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

@@ -1,0 +1,34 @@
+{
+   "consteps":
+   {
+   },
+   "presteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"Set Interval",
+         "type":"NORMAL"
+      }
+
+   },
+   "valuestepmap":
+   {
+      "1":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"scroll",
+	    "text":"1 hour",
+            "type":"NORMAL",
+         }
+
+      }
+
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"prefAutoUpdateIntervall"
+}

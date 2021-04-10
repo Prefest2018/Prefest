@@ -1,0 +1,16 @@
+fr.neamar.kiss.androidTest.FavoritesTest testExternalBarDisplayed
+fr.neamar.kiss.androidTest.FavoritesTest testExternalBarHiddenWhenViewingAllApps
+fr.neamar.kiss.androidTest.FavoritesTest testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn
+fr.neamar.kiss.androidTest.FavoritesTest testExternalBarHiddenOnSearch
+fr.neamar.kiss.androidTest.FavoritesTest testInternalBarHidden
+fr.neamar.kiss.androidTest.FavoritesTest testInternalBarHiddenOnSearch
+fr.neamar.kiss.androidTest.FavoritesTest testInternalBarDisplayedWhenViewingAllApps
+fr.neamar.kiss.androidTest.MainActivityTest testHintDisplayed
+fr.neamar.kiss.androidTest.MainActivityTest testCanTypeTextIntoSearchBox
+fr.neamar.kiss.androidTest.MainActivityTest testSearchBoxTrimming
+fr.neamar.kiss.androidTest.MainActivityTest testMenuAndClearButtonsDisplayed
+fr.neamar.kiss.androidTest.MainActivityTest testSearchResultAppears
+fr.neamar.kiss.androidTest.MainActivityTest testBatterySettingAppears
+fr.neamar.kiss.androidTest.MainActivityTest testKissBarDisplayed
+fr.neamar.kiss.androidTest.MainActivityTest testKissBarHidden
+fr.neamar.kiss.androidTest.MainActivityTest testKissBarEmptiesSearch

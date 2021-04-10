@@ -1,0 +1,772 @@
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 256.478999853 s
+
+jacoco time: 5.00400018692 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 276.536999941 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 3575-6231 ,target branch is: 3575-6230
+interests are:
+open_calendar_from_snooze      0    31     Advanced
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 2766-4815 ,target branch is: 2766-4814
+interests are:
+enable_reminding_key      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1924-3238 ,target branch is: 1924-3237
+interests are:
+snooze_hide_event_description      1    59     Advanced
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_020 2_022 1_019 1_017 1_018 1_014 1_011 1_010 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 1_026 1_024 1_025 1_022 1_023 1_020 1_021 2_009 2_005 2_006 2_002 2_003 2_004 3_004 3_005 3_002 3_003 3_000 3_001 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 4855-8321 ,target branch is: 4855-8320
+interests are:
+notification_led      0    22     LED
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 4842-8294 ,target branch is: 4842-8295
+interests are:
+add_empty_action_to_the_end      1    35     Pure Hacks
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 4825-8260 ,target branch is: 4825-8261
+interests are:
+pref_key_enable_allow_swipe      1    26     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 5600-10001 ,target branch is: 5600-10002
+interests are:
+skip_expired_events      1    8     Calendar handling options
+discovered tags are : 8_029 8_007 6_021 7_000 7_022 7_029 8_028 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 4822-8254 ,target branch is: 4822-8255
+interests are:
+heads_up_notification      1    28     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 5311-9413 ,target branch is: 5311-9414
+interests are:
+enable_quiet_hours      1    44     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 4996-8605 ,target branch is: 4996-8604
+interests are:
+enable_manual_calendar_rescan      0    0     Calendar handling options
+discovered tags are : 7_019 1_008 2_024 2_014 7_000 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 4859-8329 ,target branch is: 4859-8328
+interests are:
+notification_cal_color      0    30     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1946-3282 ,target branch is: 1946-3281
+interests are:
+always_use_external_editor      1    60     Advanced
+discovered tags are : 7_008 7_009 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 7_020 7_021 7_024 7_022 7_023 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 1_019 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 3_004 3_005 3_002 3_003 3_000 3_001 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 5045-8737 ,target branch is: 5045-8738
+interests are:
+pref_key_enable_allow_swipe      1    26     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 5243-9253 ,target branch is: 5243-9254
+interests are:
+skip_expired_events      1    8     Calendar handling options
+discovered tags are : 1_000 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 5055-8808 ,target branch is: 5055-8807
+interests are:
+enable_manual_calendar_rescan      0    0     Calendar handling options
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_026 2_020 2_021 2_022 2_017 2_018 2_019 2_012 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 4_021 8_004 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_016 1_014 1_011 1_012 1_028 1_029 1_027 1_024 1_023 1_020 1_021 6_020 6_021 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 3545-6189 ,target branch is: 3545-6188
+interests are:
+reminders_custom_vibration      1    54     null
+enable_reminding_key      1    49     null
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 4816-8242 ,target branch is: 4816-8243
+interests are:
+show_event_desc_in_the_notification      1    34     Advanced
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 4846-8302 ,target branch is: 4846-8303
+interests are:
+pref_key_enable_swipe_to_snooze      1    27     Notification behavior
+pref_key_enable_allow_swipe      1    26     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 3543-6186 ,target branch is: 3543-6185
+interests are:
+reminders_custom_vibration      1    54     null
+enable_reminding_key      1    49     null
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 4840-8290 ,target branch is: 4840-8291
+interests are:
+pref_key_enable_allow_swipe      1    26     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 3577-6234 ,target branch is: 3577-6233
+interests are:
+reminders_custom_ringtone      1    52     null
+enable_reminding_key      1    49     null
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 4826-8262 ,target branch is: 4826-8263
+interests are:
+pref_enable_bundled_notifications      1    25     Notification behavior
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 4461-7662 ,target branch is: 4461-7663
+interests are:
+max_notifications_collapse_everything      1    33     Advanced
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 8_011 8_010 8_013 8_012 8_015 8_014 8_017 8_016 3_028 8_019 3_029 8_018 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 8_020 8_022 8_021 8_024 8_023 8_026 4_000 8_025 4_001 8_028 4_002 8_027 3_017 3_018 8_029 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 8_000 8_002 4_020 8_001 4_021 8_004 4_022 8_003 4_023 8_006 4_024 8_005 8_008 8_007 8_009 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 4835-8281 ,target branch is: 4835-8280
+interests are:
+enable_notification_mute      0    9     Mute options
+discovered tags are : 6_011 6_012 1_000 6_013 
+--------------------------------
+index.1,  interestcase 1_000 start:
+tagetlogs are:[3577-6233, 1946-3281, 4846-8303, 4822-8255, 4826-8263, 1924-3237, 5311-9414, 2766-4814, 5055-8807, 4461-7663, 5243-9254, 4859-8328, 3545-6188, 4816-8243, 4842-8295, 4835-8280, 4855-8320, 4840-8291, 5045-8738, 3543-6185, 3575-6230, 4825-8261]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_1_1_000.py]
+
+OK
+
+consumed time: 144.077000141 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 30.5650000572 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [3577-6233, 1946-3281, 4846-8303, 4822-8255, 4826-8263, 1924-3237, 5311-9414, 2766-4814, 5055-8807, 4461-7663, 4859-8328, 3545-6188, 4816-8243, 4842-8295, 4835-8280, 4855-8320, 4840-8291, 5045-8738, 3543-6185, 3575-6230, 4825-8261]
+uncovered targets are: [5243-9254]
+interestcase 0_1_1_000 end
+
+index.2,  interestcase 7_000 start:
+tagetlogs are:[4996-8604, 5600-10002]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py]
+
+OK
+
+consumed time: 29.378000021 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py", line 259, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"28\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 66.9480001926 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [4996-8604]
+uncovered targets are: [5600-10002]
+interestcase 0_2_7_000 end
+
+index.3,  interestcase 1_000 start:
+tagetlogs are:[5243-9254]
+current preference, name:skip_expired_events, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_3_1_000.py]
+
+OK
+
+consumed time: 23.6900000572 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 29.8080000877 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [5243-9254]
+target: 5243-9254 uncovered, added to then retrial list!
+interestcase 0_3_1_000 end
+
+index.4,  interestcase 8_028 start:
+tagetlogs are:[5600-10002]
+current preference, name:skip_expired_events, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py]
+
+OK
+
+consumed time: 25.6819999218 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py", line 240, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.github.quarck.calnotify:id/snooze_view_menu\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.0989999771 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [5600-10002]
+target: 5600-10002 uncovered, added to then retrial list!
+interestcase 0_4_8_028 end
+
+index.5,  interestcase 7_000 start:
+tagetlogs are:[5600-10002]
+current preference, name:enable_manual_calendar_rescan, value:1
+current preference, name:remind_events_no_rmdnrs, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:open_calendar_from_snooze, value:1
+current preference, name:max_notifications_collapse_everything, value:0
+current preference, name:enable_quiet_hours, value:0
+current preference, name:enable_reminding_key, value:0
+current preference, name:always_use_external_editor, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py]
+
+OK
+
+consumed time: 81.3020000458 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py", line 283, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"28\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 74.6160001755 s
+
+jacoco time: 5.00299978256 s
+
+covered targets are: [5600-10002]
+uncovered targets are: []
+target: 5600-10002 covered after retrial!
+interestcase 0_5_7_000 end
+
+index.6,  interestcase 1_000 start:
+tagetlogs are:[5243-9254]
+current preference, name:enable_manual_calendar_rescan, value:1
+current preference, name:remind_events_no_rmdnrs, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:1
+current preference, name:pref_vibration_pattern, value:Single Very Long
+current preference, name:notification_led, value:1
+current preference, name:pref_enable_bundled_notifications, value:0
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:0
+current preference, name:heads_up_notification, value:0
+current preference, name:notification_cal_color, value:1
+current preference, name:open_calendar_from_snooze, value:1
+current preference, name:max_notifications_collapse_everything, value:0
+current preference, name:show_event_desc_in_the_notification, value:0
+current preference, name:add_empty_action_to_the_end, value:0
+current preference, name:enable_quiet_hours, value:0
+current preference, name:enable_reminding_key, value:0
+current preference, name:reminders_custom_ringtone, value:0
+current preference, name:reminders_custom_vibration, value:0
+current preference, name:snooze_hide_event_description, value:0
+current preference, name:always_use_external_editor, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_6_1_000.py]
+
+OK
+
+consumed time: 160.027999878 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 29.5489997864 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [5243-9254]
+loclog: 5243-9254 uncovered after retrial, deleted!
+interestcase 0_6_1_000 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 4850-8311 ,target branch is: 4850-8310
+interests are:
+use_alarm_stream_for_notification      1    19     Ringtone
+discovered tags are : 0_1_1_000 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 4853-8316 ,target branch is: 4853-8317
+interests are:
+reminder_vibra_on      1    55     null
+reminders_custom_vibration      1    54     null
+discovered tags are : 0_1_1_000 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 4863-8336 ,target branch is: 4863-8337
+interests are:
+pebble_forward_reminders      1    15     Pebble
+discovered tags are : 0_1_1_000 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 4841-8292 ,target branch is: 4841-8293
+interests are:
+pref_key_enable_swipe_to_snooze      0    27     Notification behavior
+pref_key_enable_allow_swipe      1    26     Notification behavior
+discovered tags are : 0_1_1_000 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 4971-8534 ,target branch is: 4971-8535
+interests are:
+notification_wake_screen      1    29     Notification behavior
+discovered tags are : 0_1_1_000 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 1144-2000 ,target branch is: 1144-2001
+interests are:
+enable_reminding_key      1    49     null
+discovered tags are : 0_1_1_000 
+--------------------------------
+index.1,  interestcase 0_1_1_000 start:
+tagetlogs are:[4971-8535]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_wake_screen, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_1_0_1_1_000.py]
+
+OK
+
+consumed time: 135.502000093 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 29.3240001202 s
+
+jacoco time: 5.00299978256 s
+
+covered targets are: []
+uncovered targets are: [4971-8535]
+loclog: 4971-8535 uncovered after retrial, deleted!
+interestcase 1_1_0_1_1_000 end
+
+index.2,  interestcase 0_1_1_000 start:
+tagetlogs are:[4863-8337]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:pebble_forward_reminders, value:1
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_2_0_1_1_000.py]
+
+OK
+
+consumed time: 151.524000168 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 29.2699999809 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4863-8337]
+loclog: 4863-8337 uncovered after retrial, deleted!
+interestcase 1_2_0_1_1_000 end
+
+index.3,  interestcase 0_1_1_000 start:
+tagetlogs are:[4841-8293]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:0
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_3_0_1_1_000.py]
+
+OK
+
+consumed time: 144.855999947 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 33.8369998932 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4841-8293]
+loclog: 4841-8293 uncovered after retrial, deleted!
+interestcase 1_3_0_1_1_000 end
+
+index.4,  interestcase 0_1_1_000 start:
+tagetlogs are:[1144-2001]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_4_0_1_1_000.py]
+
+OK
+
+consumed time: 144.726000071 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 29.0939998627 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1144-2001]
+loclog: 1144-2001 uncovered after retrial, deleted!
+interestcase 1_4_0_1_1_000 end
+
+index.5,  interestcase 0_1_1_000 start:
+tagetlogs are:[4850-8310]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:use_alarm_stream_for_notification, value:1
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_5_0_1_1_000.py]
+
+OK
+
+consumed time: 151.820999861 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 30.2850000858 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4850-8310]
+loclog: 4850-8310 uncovered after retrial, deleted!
+interestcase 1_5_0_1_1_000 end
+
+index.6,  interestcase 0_1_1_000 start:
+tagetlogs are:[4853-8317]
+current preference, name:enable_manual_calendar_rescan, value:0
+current preference, name:skip_expired_events, value:1
+current preference, name:enable_notification_mute, value:0
+current preference, name:notification_led, value:0
+current preference, name:pref_enable_bundled_notifications, value:1
+current preference, name:pref_key_enable_allow_swipe, value:1
+current preference, name:pref_key_enable_swipe_to_snooze, value:1
+current preference, name:heads_up_notification, value:1
+current preference, name:notification_cal_color, value:0
+current preference, name:open_calendar_from_snooze, value:0
+current preference, name:max_notifications_collapse_everything, value:1
+current preference, name:show_event_desc_in_the_notification, value:1
+current preference, name:add_empty_action_to_the_end, value:1
+current preference, name:enable_quiet_hours, value:1
+current preference, name:enable_reminding_key, value:1
+current preference, name:reminders_custom_ringtone, value:1
+current preference, name:reminders_custom_vibration, value:1
+current preference, name:reminder_vibra_on, value:1
+current preference, name:snooze_hide_event_description, value:1
+current preference, name:always_use_external_editor, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_6_0_1_1_000.py]
+
+OK
+
+consumed time: 148.053999901 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 29.5970001221 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4853-8317]
+loclog: 4853-8317 uncovered after retrial, deleted!
+interestcase 1_6_0_1_1_000 end
+

@@ -1,0 +1,51 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"OK",
+         "type":"NORMAL"
+      }
+
+   },
+   "presteps":
+   {
+      "0":
+      {
+         "resourceId":"org.tint:id\/SpinnerPreferenceSpinner",
+         "instance":0,
+         "operationType":"click",
+         "className":"android.widget.Spinner",
+         "type":"NORMAL"
+      }
+
+   },
+   "valuestepmap":
+   {
+      "":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Android",
+            "type":"NORMAL"
+         }
+      },
+      "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/534.24 (KHTML, like Gecko) Chrome\/11.0.696.34 Safari\/534.24":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Blank page",
+            "type":"NORMAL"
+         }
+      },
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"PREFERENCE_USER_AGENT"
+}

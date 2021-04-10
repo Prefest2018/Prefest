@@ -1,0 +1,2795 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 3441-5759 ,target branch is: 3441-5758
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 2878-4837 ,target branch is: 2878-4838
+interests are:
+appwidget_0_general_showweeks      1    50     Miscellaneous
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick AppSettingsTest#test_dateTapPref AppSettingsTest#test_clockTapPref WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesActivityTest#test_partialUpdateReciever WidgetSettingsTest#test_riseSetOrderPref AppSettingsTest#test_localePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref AlarmDialogTest#test_showAlarmDialog DialogTest#test_showHelpDialog DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe WidgetTimezonesTest#test_eot WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref WidgetSettingsTest#test_sunPosMapModePref SuntimesActivityTest#test_issue408 TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timezoneModePref WidgetTimezonesTest#test_timezone_apparentSolarTime0 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 8992-14892 ,target branch is: 8992-14893
+interests are:
+app_appearance_theme      Light Theme / Dark Theme (Night Mode)    33     Appearance Settings
+discovered tags are : SuntimesActivityTest#test_partialUpdateReciever 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 5696-9354 ,target branch is: 5696-9353
+interests are:
+appwidget_0_appearance_timeformatmode      System format    9     General Settings
+discovered tags are : SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesSettingsActivityTest#test_showSettingsActivity_general 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 9377-15613 ,target branch is: 9377-15612
+interests are:
+appwidget_0_general_showseconds      1    52     Miscellaneous
+discovered tags are : SuntimesActivityTest#test_appCrash74 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 1237-2089 ,target branch is: 1237-2090
+interests are:
+app_plugins_enabled      1    13     Experimental Settings
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick AppSettingsTest#test_dateTapPref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesResTest#test_stringArrays WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_observerHeightPref WidgetSettingsTest#test_riseSetOrderPref WidgetSettingsTest#test_lengthUnitsPref AppSettingsTest#test_showLightmapPref AppSettingsTest#test_showFieldsPref AlarmDialogTest#test_showAlarmDialog LocationDialogTest#test_showLocationDialog AppSettingsTest#test_timeZoneSortPref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime SuntimesThemeTest#test_initTheme WidgetSettingsTest#test_timeModePref SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showNoonPref WidgetTimezonesTest#test_timezone_solarTime LocationDialogTest#test_setLocation SuntimesSettingsActivityTest#test_showSettingsActivity_widgets WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timeMode2OverridePref SuntimesActivityTest#test_appCrash74 DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_1x1MoonModePref WidgetSettingsTest#test_StringSetPref WidgetSettingsTest#test_1x1ModePref DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref SuntimesActivityTest#test_activity DialogTest#test_showHelpDialog AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe AppSettingsTest#test_themePref WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_issue408 WidgetSettingsTest#test_dateModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetTimezonesTest#test_timezone_apparentSolarTime0 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 7395-12341 ,target branch is: 7395-12340
+interests are:
+app_ui_clocktapaction      Do nothing    54     Action Settings
+discovered tags are : SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick SuntimesActivityTest#test_onClockClick 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 11185-18475 ,target branch is: 11185-18476
+interests are:
+app_accessibility_verbose      1    49     User Interface
+discovered tags are : DialogTest#test_showLightmapDialog SuntimesActivityTest#test_onLightmapClick WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref WidgetSettingsTest#test_actionLaunchPref AppSettingsTest#test_localePref WidgetSettingsTest#test_actionModePref WidgetSettingsTest#test_StringSetPref SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref SuntimesSettingsActivityTest#test_showSettingsActivity_locale SuntimesActivityTest#test_activity AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog AppSettingsTest#test_localeModePref SuntimesActivityTest#test_onClockClick LocationDialogTest#test_showLocationDialog WidgetSettingsTest#test_datePref WidgetTimezonesTest#test_eot WidgetTimezonesTest#test_timezone_localMeanTime SuntimesActivityTest#test_onNoteClick SuntimesThemeTest#test_initTheme SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showNoonPref SuntimesActivityTest#test_issue408 WidgetSettingsTest#test_dateModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetSettingsTest#test_timeMode2OverridePref 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 9420-15690 ,target branch is: 9420-15689
+interests are:
+app_ui_showmoon      0    45     User Interface
+discovered tags are : SuntimesScreenshots#makeScreenshot DialogTest#test_showEquinoxDialog SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onClockClick LocationDialogTest#test_showLocationDialog 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 2875-4832 ,target branch is: 2875-4831
+interests are:
+appwidget_0_general_showweeks      1    50     Miscellaneous
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick AppSettingsTest#test_dateTapPref AppSettingsTest#test_clockTapPref WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesActivityTest#test_partialUpdateReciever WidgetSettingsTest#test_riseSetOrderPref AppSettingsTest#test_localePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref AlarmDialogTest#test_showAlarmDialog DialogTest#test_showHelpDialog DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe WidgetTimezonesTest#test_eot WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref WidgetSettingsTest#test_sunPosMapModePref SuntimesActivityTest#test_issue408 TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timezoneModePref WidgetTimezonesTest#test_timezone_apparentSolarTime0 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 9653-16071 ,target branch is: 9653-16072
+interests are:
+app_ui_showmoon      0    45     User Interface
+discovered tags are : LocationDialogTest#test_setLocationCurrent SuntimesActivityTest#test_fullUpdateReciever AppSettingsTest#test_dateTapPref SuntimesSettingsActivityTest#test_showSettingsActivity_places SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_showEquinoxPref WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_observerHeightPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesScreenshots#makeScreenshot AppSettingsTest#test_showFieldsPref DialogTest#test_showHelpDialog DialogTest#test_showAboutDialog WidgetTimezonesTest#test_timeZonesLoadTask SuntimesActivityTest#test_userSwappedCard_withSwipe AppSettingsTest#test_showWarningsPref SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_apparentSolarTime1 SuntimesActivityTest#test_onNoteClick WidgetSettingsTest#test_timeModePref SuntimesActivityTest#test_issue408 WidgetSettingsTest#test_showTimeDatePref SuntimesSettingsActivityTest#test_showSettingsActivity_widgets SuntimesActivityTest#test_appCrash74 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 5729-9403 ,target branch is: 5729-9404
+interests are:
+appwidget_0_general_trackingmode      Closest Event    47     User Interface
+discovered tags are : LocationDialogTest#test_setLocationCurrent SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick WidgetTimezonesTest#test_eot LocationDialogTest#test_setLocation SuntimesActivityTest#test_partialUpdateReciever SuntimesActivityTest#test_issue408 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 554-984 ,target branch is: 554-983
+interests are:
+appwidget_0_location_altitude_enabled      0    11     General Settings
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesResTest#test_stringArrays WidgetSettingsTest#test_actionLaunchPref WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_showHoursPref WidgetSettingsTest#test_lengthUnitsPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref WidgetSettingsTest#test_timeMode3Pref AppSettingsTest#test_showFieldsPref AlarmDialogTest#test_showAlarmDialog AppSettingsTest#test_localeModePref LocationDialogTest#test_showLocationDialog WidgetSettingsTest#test_datePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime SuntimesThemeTest#test_initTheme SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref SuntimesResTest#test_plurals WidgetSettingsTest#test_titleTextPref WidgetSettingsTest#test_showNoonPref WidgetSettingsTest#test_solarTimeModePref WidgetTimezonesTest#test_timezone_solarTime WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timeMode2OverridePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_showEquinoxPref AppSettingsTest#test_localePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_1x1MoonModePref WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesScreenshots#makeScreenshot SuntimesSettingsActivityTest#test_showSettingsActivity_locale DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref SuntimesActivityTest#test_activity DialogTest#test_showHelpDialog AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe AppSettingsTest#test_themePref AppSettingsTest#test_showWarningsPref WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_issue408 TimeZoneDialogTest#test_showTimezoneDialog TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_dateModePref WidgetSettingsTest#test_timezoneModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetTimezonesTest#test_timezone_apparentSolarTime0 WidgetSettingsTest#test_1x1SunPosModePref 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 10700-17653 ,target branch is: 10700-17652
+interests are:
+app_ui_clocktapaction      Do nothing    54     Action Settings
+discovered tags are : SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick SuntimesActivityTest#test_onClockClick 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 2898-4877 ,target branch is: 2898-4878
+interests are:
+appwidget_0_general_showhours      0    51     Miscellaneous
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick AppSettingsTest#test_dateTapPref AppSettingsTest#test_clockTapPref WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesActivityTest#test_partialUpdateReciever WidgetSettingsTest#test_riseSetOrderPref AppSettingsTest#test_localePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref AlarmDialogTest#test_showAlarmDialog DialogTest#test_showHelpDialog DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe WidgetTimezonesTest#test_eot WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref WidgetSettingsTest#test_sunPosMapModePref SuntimesActivityTest#test_issue408 TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timezoneModePref WidgetTimezonesTest#test_timezone_apparentSolarTime0 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 3440-5756 ,target branch is: 3440-5757
+interests are:
+ass_location_network      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 4953-8184 ,target branch is: 4953-8183
+interests are:
+app_ui_notetapaction      Set alarm for note    57     Action Settings
+discovered tags are : SuntimesActivityTest#test_onNoteClick 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 2734-4614 ,target branch is: 2734-4615
+interests are:
+app_appearance_theme      Light Theme    33     Appearance Settings
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick AppSettingsTest#test_dateTapPref WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general AppSettingsTest#test_clockTapPref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesResTest#test_stringArrays WidgetSettingsTest#test_actionLaunchPref WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_observerHeightPref WidgetSettingsTest#test_showHoursPref WidgetSettingsTest#test_riseSetOrderPref WidgetSettingsTest#test_lengthUnitsPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref WidgetSettingsTest#test_timeMode3Pref AppSettingsTest#test_showFieldsPref AlarmDialogTest#test_showAlarmDialog WidgetTimezonesTest#test_timeZonesLoadTask AppSettingsTest#test_localeModePref LocationDialogTest#test_showLocationDialog SuntimesScreenshots1#makeScreenshot AppSettingsTest#test_timeZoneSortPref WidgetSettingsTest#test_datePref WidgetSettingsTest#test_themePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime SuntimesThemeTest#test_initTheme WidgetSettingsTest#test_timeModePref SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref SuntimesResTest#test_plurals WidgetSettingsTest#test_titleTextPref WidgetSettingsTest#test_showNoonPref WidgetSettingsTest#test_solarTimeModePref WidgetSettingsTest#test_sunPosMapModePref WidgetTimezonesTest#test_timezone_solarTime WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation SuntimesSettingsActivityTest#test_showSettingsActivity_widgets WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timeMode2OverridePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_showEquinoxPref AppSettingsTest#test_gpsMaxElapsedPref AppSettingsTest#test_localePref WidgetSettingsTest#test_actionModePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_1x1MoonModePref WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity WidgetSettingsTest#test_1x1ModePref SuntimesScreenshots#makeScreenshot SuntimesSettingsActivityTest#test_showSettingsActivity_locale DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref SuntimesActivityTest#test_activity DialogTest#test_showHelpDialog AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog WidgetSettingsTest#test_timezonePref SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe WidgetSettingsTest#test_showComparePref AppSettingsTest#test_themePref AppSettingsTest#test_showWarningsPref WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_issue408 TimeZoneDialogTest#test_showTimezoneDialog TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_dateModePref WidgetSettingsTest#test_timezoneModePref WidgetSettingsTest#test_showTitlePref SuntimesActivityTest#test_onDataSourceUIClick WidgetTimezonesTest#test_timezone_apparentSolarTime0 WidgetSettingsTest#test_1x1SunPosModePref WidgetSettingsTest#test_showWeeksPref 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 5765-9465 ,target branch is: 5765-9466
+interests are:
+appwidget_0_general_trackingmode      Closest Event    47     User Interface
+discovered tags are : SuntimesActivityTest#test_onLightmapClick SuntimesActivityTest#test_partialUpdateReciever SuntimesActivityTest#test_onClockClick 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 2279-3835_0 ,target branch is: 2279-3835_0
+interests are:
+appwidget_0_general_observerheight          12     General Settings
+discovered tags are : SuntimesSettingsActivityTest#test_showSettingsActivity 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 2279-3835 ,target branch is: 2279-3836
+interests are:
+appwidget_0_general_observerheight      1.8288    12     General Settings
+discovered tags are : SuntimesSettingsActivityTest#test_showSettingsActivity 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 3442-5761 ,target branch is: 3442-5760
+interests are:
+ass_location_network      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 2698-4552 ,target branch is: 2698-4551
+interests are:
+appwidget_0_general_showseconds      1    52     Miscellaneous
+discovered tags are : SuntimesScreenshots#makeScreenshot 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 3439-5755 ,target branch is: 3439-5754
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 7392-12335 ,target branch is: 7392-12334
+interests are:
+app_ui_clocktapaction      Do nothing    54     Action Settings
+discovered tags are : SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_onDateClick SuntimesActivityTest#test_onClockClick 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 11266-18639 ,target branch is: 11266-18638
+interests are:
+appwidget_0_location_altitude_enabled      0    11     General Settings
+discovered tags are : DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever WidgetSettingsTest#test_actionLaunchPref AppSettingsTest#test_localePref WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref SuntimesSettingsActivityTest#test_showSettingsActivity_locale SuntimesActivityTest#test_activity AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog AppSettingsTest#test_localeModePref SuntimesActivityTest#test_onClockClick LocationDialogTest#test_showLocationDialog AppSettingsTest#test_themePref WidgetSettingsTest#test_datePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime WidgetTimezonesTest#test_timezone_apparentSolarTime1 SuntimesActivityTest#test_onNoteClick SuntimesThemeTest#test_initTheme SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showNoonPref SuntimesActivityTest#test_issue408 TimeZoneDialogTest#test_showTimezoneDialog WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_dateModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetSettingsTest#test_1x1SunPosModePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 3437-5750 ,target branch is: 3437-5751
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 11269-18645 ,target branch is: 11269-18644
+interests are:
+app_ui_showequinox      0    46     User Interface
+discovered tags are : DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_localePref WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesScreenshots#makeScreenshot WidgetSettingsTest#test_timeMode3Pref SuntimesSettingsActivityTest#test_showSettingsActivity_locale SuntimesActivityTest#test_activity AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog AppSettingsTest#test_localeModePref SuntimesActivityTest#test_onClockClick LocationDialogTest#test_showLocationDialog WidgetSettingsTest#test_datePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime WidgetTimezonesTest#test_timezone_apparentSolarTime1 SuntimesActivityTest#test_onNoteClick SuntimesThemeTest#test_initTheme SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showNoonPref SuntimesActivityTest#test_issue408 TimeZoneDialogTest#test_showTimezoneDialog WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_dateModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetSettingsTest#test_1x1SunPosModePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 544-962 ,target branch is: 544-961
+interests are:
+appwidget_0_location_altitude_enabled      0    11     General Settings
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever SuntimesActivityTest#test_onLightmapClick WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesResTest#test_stringArrays WidgetSettingsTest#test_actionLaunchPref WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_showHoursPref WidgetSettingsTest#test_lengthUnitsPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref WidgetSettingsTest#test_timeMode3Pref AppSettingsTest#test_showFieldsPref AlarmDialogTest#test_showAlarmDialog AppSettingsTest#test_localeModePref LocationDialogTest#test_showLocationDialog WidgetSettingsTest#test_datePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime SuntimesThemeTest#test_initTheme SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref SuntimesResTest#test_plurals WidgetSettingsTest#test_titleTextPref WidgetSettingsTest#test_showNoonPref WidgetSettingsTest#test_solarTimeModePref WidgetTimezonesTest#test_timezone_solarTime WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation WidgetSettingsTest#test_locationModePref WidgetSettingsTest#test_timeMode2OverridePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent WidgetSettingsTest#test_calculatorModePref AppSettingsTest#test_showDataSourcePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_showEquinoxPref AppSettingsTest#test_localePref WidgetSettingsTest#test_nextUpdate WidgetSettingsTest#test_1x1MoonModePref WidgetSettingsTest#test_StringSetPref SuntimesSettingsActivityTest#test_showSettingsActivity SuntimesScreenshots#makeScreenshot SuntimesSettingsActivityTest#test_showSettingsActivity_locale DialogTest#test_showEquinoxDialog WidgetSettingsTest#test_timeFormatModePref SuntimesActivityTest#test_activity DialogTest#test_showHelpDialog AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe AppSettingsTest#test_themePref AppSettingsTest#test_showWarningsPref WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_issue408 TimeZoneDialogTest#test_showTimezoneDialog TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_dateModePref WidgetSettingsTest#test_timezoneModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetTimezonesTest#test_timezone_apparentSolarTime0 WidgetSettingsTest#test_1x1SunPosModePref 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 6863-11443 ,target branch is: 6863-11442
+interests are:
+appwidget_0_general_lengthunits      Metric    10     General Settings
+discovered tags are : LocationDialogTest#test_setLocationCurrent LocationDialogTest#test_setLocation SuntimesActivityTest#test_appCrash74 SuntimesActivityTest#test_userSwappedCard_withSwipe LocationDialogTest#test_showLocationDialog 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 293-586 ,target branch is: 293-585
+interests are:
+ass_location_network      0    -1     null
+discovered tags are : LocationDialogTest#test_setLocationCurrent LocationDialogTest#test_setLocation SuntimesActivityTest#test_appCrash74 SuntimesActivityTest#test_userSwappedCard_withSwipe LocationDialogTest#test_showLocationDialog 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 2643-4480 ,target branch is: 2643-4479
+interests are:
+appwidget_0_general_showseconds      1    52     Miscellaneous
+discovered tags are : SuntimesActivityTest#test_onSolsticeEquinoxClick SuntimesActivityTest#test_fullUpdateReciever AppSettingsTest#test_dateTapPref WidgetSettingsTest#test_timeMode2Pref SuntimesSettingsActivityTest#test_showSettingsActivity_general AppSettingsTest#test_clockTapPref SuntimesSettingsActivityTest#test_showSettingsActivity_places AppSettingsTest#test_gpsMaxAgePref SuntimesResTest#test_stringArrays WidgetSettingsTest#test_trackingModePref WidgetSettingsTest#test_showHoursPref SuntimesSettingsActivityTest#test_showSettingsActivity_ui AppSettingsTest#test_showLightmapPref WidgetSettingsTest#test_timeMode3Pref AppSettingsTest#test_localeModePref LocationDialogTest#test_showLocationDialog AppSettingsTest#test_timeZoneSortPref WidgetSettingsTest#test_datePref WidgetSettingsTest#test_themePref WidgetTimezonesTest#test_eot SuntimesActivityTest#test_onNoteSwipe WidgetTimezonesTest#test_timezone_localMeanTime SuntimesThemeTest#test_initTheme WidgetSettingsTest#test_timeModePref SuntimesActivityTest#test_onDateClick WidgetSettingsTest#test_showSecondsPref WidgetSettingsTest#test_sunPosMapModePref WidgetTimezonesTest#test_timezone_solarTime WidgetSettingsTest#test_showMajorLatitudesPref WidgetSettingsTest#test_showTimeDatePref LocationDialogTest#test_setLocation SuntimesSettingsActivityTest#test_showSettingsActivity_widgets WidgetSettingsTest#test_timeMode2OverridePref WidgetSettingsTest#test_allowResizePref SuntimesActivityTest#test_appCrash74 DialogTest#test_showLightmapDialog LocationDialogTest#test_setLocationCurrent WidgetSettingsTest#test_calculatorModePref WidgetSettingsTest#test_compareModePref SuntimesActivityTest#test_partialUpdateReciever AppSettingsTest#test_showEquinoxPref AppSettingsTest#test_gpsMaxElapsedPref AppSettingsTest#test_localePref WidgetSettingsTest#test_1x1MoonModePref WidgetSettingsTest#test_StringSetPref WidgetSettingsTest#test_1x1ModePref SuntimesScreenshots#makeScreenshot SuntimesSettingsActivityTest#test_showSettingsActivity_locale DialogTest#test_showEquinoxDialog DialogTest#test_showHelpDialog AppSettingsTest#test_noteTapPref DialogTest#test_showAboutDialog WidgetSettingsTest#test_timezonePref SuntimesActivityTest#test_onClockClick SuntimesActivityTest#test_userSwappedCard_withSwipe AppSettingsTest#test_themePref AppSettingsTest#test_showWarningsPref WidgetTimezonesTest#test_timezone_apparentSolarTime1 WidgetSettingsTest#test_showLabelsPref SuntimesActivityTest#test_onNoteClick SuntimesActivityTest#test_issue408 TimeDateDialogTest#test_showDateDialog WidgetSettingsTest#test_dateModePref WidgetSettingsTest#test_timezoneModePref SuntimesActivityTest#test_onDataSourceUIClick WidgetTimezonesTest#test_timezone_apparentSolarTime0 WidgetSettingsTest#test_1x1SunPosModePref WidgetSettingsTest#test_showWeeksPref 
+--------------------------------
+index.1,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[1237-2090, 11266-18638, 3442-5760, 544-961, 2734-4615, 2643-4479, 5729-9404, 6863-11442, 3440-5757, 293-585, 9653-16072, 554-983, 11269-18644]
+current preference, name:appwidget_0_general_lengthunits, value:Metric
+current preference, name:appwidget_0_location_altitude_enabled, value:0
+current preference, name:app_plugins_enabled, value:1
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:0
+current preference, name:app_ui_showequinox, value:0
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:appwidget_0_general_showseconds, value:1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_1_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 47.59353041648865 s
+
+jacoco time: 3.0028607845306396 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.281
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1237-2090, 2643-4479, 5729-9404, 6863-11442, 11269-18644]
+uncovered targets are: [11266-18638, 3442-5760, 544-961, 2734-4615, 3440-5757, 293-585, 9653-16072, 554-983]
+interestcase 0_1_LocationDialogTest#test_setLocationCurrent end
+
+index.2,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[11266-18638, 3442-5760, 544-961, 2734-4615, 3440-5757, 293-585, 9653-16072, 554-983]
+current preference, name:appwidget_0_location_altitude_enabled, value:0
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:0
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_2_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 46.50369691848755 s
+
+jacoco time: 3.0022504329681396 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.1
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [11266-18638, 3442-5760, 544-961, 2734-4615, 3440-5757, 293-585, 9653-16072, 554-983]
+target: 11266-18638 uncovered, added to then retrial list!
+target: 3442-5760 uncovered, added to then retrial list!
+target: 544-961 uncovered, added to then retrial list!
+target: 2734-4615 uncovered, added to then retrial list!
+target: 3440-5757 uncovered, added to then retrial list!
+target: 293-585 uncovered, added to then retrial list!
+target: 9653-16072 uncovered, added to then retrial list!
+target: 554-983 uncovered, added to then retrial list!
+interestcase 0_2_LocationDialogTest#test_setLocationCurrent end
+
+index.3,  interestcase SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[2279-3835_0, 5696-9353]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_observerheight, value:
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_3_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 34.229928731918335 s
+
+jacoco time: 3.0020124912261963 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.666
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [2279-3835_0]
+uncovered targets are: [5696-9353]
+interestcase 0_3_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.4,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[2698-4551, 2898-4878, 9420-15689, 2875-4831, 2878-4838, 11185-18476]
+current preference, name:app_ui_showmoon, value:0
+current preference, name:app_accessibility_verbose, value:1
+current preference, name:appwidget_0_general_showweeks, value:1
+current preference, name:appwidget_0_general_showhours, value:0
+current preference, name:appwidget_0_general_showseconds, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_4_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 28.13313937187195 s
+
+jacoco time: 3.0029380321502686 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 15,775
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [2898-4878, 2875-4831, 2878-4838, 11185-18476]
+uncovered targets are: [2698-4551, 9420-15689]
+interestcase 0_4_SuntimesScreenshots#makeScreenshot end
+
+index.5,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[2698-4551, 9420-15689]
+current preference, name:app_ui_showmoon, value:0
+current preference, name:appwidget_0_general_showseconds, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_5_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 23.6253399848938 s
+
+jacoco time: 3.001230239868164 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 15,362
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2698-4551, 9420-15689]
+target: 2698-4551 uncovered, added to then retrial list!
+target: 9420-15689 uncovered, added to then retrial list!
+interestcase 0_5_SuntimesScreenshots#makeScreenshot end
+
+index.6,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3441-5758, 3439-5754, 3437-5751]
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_6_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 1.9228975772857666 s
+
+jacoco time: 3.001242160797119 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.233
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3441-5758, 3439-5754, 3437-5751]
+target: 3441-5758 uncovered, added to then retrial list!
+target: 3439-5754 uncovered, added to then retrial list!
+target: 3437-5751 uncovered, added to then retrial list!
+interestcase 0_6_LocationDialogTest#test_setLocationCurrent end
+
+index.7,  interestcase SuntimesActivityTest#test_appCrash74 start:
+tagetlogs are:[9377-15612]
+current preference, name:appwidget_0_general_showseconds, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_7_SuntimesActivityTest#test_appCrash74.py]
+
+OK
+
+consumed time: 23.240916967391968 s
+
+jacoco time: 3.001497268676758 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_appCrash74', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_appCrash74
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_appCrash74
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.773
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [9377-15612]
+uncovered targets are: []
+interestcase 0_7_SuntimesActivityTest#test_appCrash74 end
+
+index.8,  interestcase SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[5696-9353, 2279-3836]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_observerheight, value:1.8288
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_8_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 30.93109917640686 s
+
+jacoco time: 3.0022149085998535 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 7.817
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [5696-9353, 2279-3836]
+target: 5696-9353 uncovered, added to then retrial list!
+target: 2279-3836 uncovered, added to then retrial list!
+interestcase 0_8_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.9,  interestcase SuntimesActivityTest#test_onNoteClick start:
+tagetlogs are:[4953-8183]
+current preference, name:app_ui_notetapaction, value:Set alarm for note
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_9_SuntimesActivityTest#test_onNoteClick.py]
+
+OK
+
+consumed time: 23.444812059402466 s
+
+jacoco time: 3.002858877182007 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_onNoteClick', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.658
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [4953-8183]
+uncovered targets are: []
+interestcase 0_9_SuntimesActivityTest#test_onNoteClick end
+
+index.10,  interestcase SuntimesActivityTest#test_onClockClick start:
+tagetlogs are:[7395-12340, 10700-17652, 7392-12334, 5765-9466]
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:app_ui_clocktapaction, value:Do nothing
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_10_SuntimesActivityTest#test_onClockClick.py]
+
+OK
+
+consumed time: 22.004149198532104 s
+
+jacoco time: 3.0033133029937744 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_onClockClick', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onClockClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onClockClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.003
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [10700-17652]
+uncovered targets are: [7395-12340, 7392-12334, 5765-9466]
+interestcase 0_10_SuntimesActivityTest#test_onClockClick end
+
+index.11,  interestcase SuntimesActivityTest#test_onClockClick start:
+tagetlogs are:[7395-12340, 7392-12334, 5765-9466]
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:app_ui_clocktapaction, value:Do nothing
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_11_SuntimesActivityTest#test_onClockClick.py]
+
+OK
+
+consumed time: 22.53758144378662 s
+
+jacoco time: 3.0022943019866943 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_onClockClick', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onClockClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onClockClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.024
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [7395-12340, 7392-12334, 5765-9466]
+target: 7395-12340 uncovered, added to then retrial list!
+target: 7392-12334 uncovered, added to then retrial list!
+target: 5765-9466 uncovered, added to then retrial list!
+interestcase 0_11_SuntimesActivityTest#test_onClockClick end
+
+index.12,  interestcase SuntimesActivityTest#test_partialUpdateReciever start:
+tagetlogs are:[8992-14893]
+current preference, name:app_appearance_theme, value:Light Theme / Dark Theme (Night Mode)
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_12_SuntimesActivityTest#test_partialUpdateReciever.py]
+
+OK
+
+consumed time: 32.40063142776489 s
+
+jacoco time: 3.0027992725372314 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_partialUpdateReciever', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 0.872
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [8992-14893]
+uncovered targets are: []
+interestcase 0_12_SuntimesActivityTest#test_partialUpdateReciever end
+
+index.13,  interestcase SuntimesActivityTest#test_partialUpdateReciever start:
+tagetlogs are:[5765-9466]
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_13_SuntimesActivityTest#test_partialUpdateReciever.py]
+
+OK
+
+consumed time: 89.40326380729675 s
+
+jacoco time: 3.002439022064209 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_partialUpdateReciever', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 0.804
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [5765-9466]
+loclog: 5765-9466 uncovered after retrial, deleted!
+interestcase 0_13_SuntimesActivityTest#test_partialUpdateReciever end
+
+index.14,  interestcase SuntimesActivityTest#test_onNoteClick start:
+tagetlogs are:[7392-12334]
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_ui_notetapaction, value:Do nothing
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_14_SuntimesActivityTest#test_onNoteClick.py]
+
+OK
+
+consumed time: 98.93871355056763 s
+
+jacoco time: 3.0017902851104736 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_onNoteClick', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.101
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [7392-12334]
+loclog: 7392-12334 uncovered after retrial, deleted!
+interestcase 0_14_SuntimesActivityTest#test_onNoteClick end
+
+index.15,  interestcase SuntimesActivityTest#test_onNoteClick start:
+tagetlogs are:[7395-12340]
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_ui_notetapaction, value:Do nothing
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_15_SuntimesActivityTest#test_onNoteClick.py]
+
+OK
+
+consumed time: 74.71088814735413 s
+
+jacoco time: 3.001124620437622 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_onNoteClick', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_onNoteClick
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 0.938
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [7395-12340]
+loclog: 7395-12340 uncovered after retrial, deleted!
+interestcase 0_15_SuntimesActivityTest#test_onNoteClick end
+
+index.16,  interestcase SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[2279-3836]
+current preference, name:appwidget_0_general_observerheight, value:1.8288
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_16_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 63.15709447860718 s
+
+jacoco time: 3.002019166946411 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.842
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2279-3836]
+loclog: 2279-3836 uncovered after retrial, deleted!
+interestcase 0_16_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.17,  interestcase SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[5696-9353]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_17_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 57.11094045639038 s
+
+jacoco time: 3.0028293132781982 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.006
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [5696-9353]
+loclog: 5696-9353 uncovered after retrial, deleted!
+interestcase 0_17_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.18,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3437-5751]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_18_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 76.81098079681396 s
+
+jacoco time: 3.0025041103363037 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.227
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3437-5751]
+loclog: 3437-5751 uncovered after retrial, deleted!
+interestcase 0_18_LocationDialogTest#test_setLocationCurrent end
+
+index.19,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3439-5754]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_19_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 76.55562686920166 s
+
+jacoco time: 3.0014359951019287 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.341
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3439-5754]
+loclog: 3439-5754 uncovered after retrial, deleted!
+interestcase 0_19_LocationDialogTest#test_setLocationCurrent end
+
+index.20,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3441-5758]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_20_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 76.72678422927856 s
+
+jacoco time: 3.002917766571045 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.174
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3441-5758]
+loclog: 3441-5758 uncovered after retrial, deleted!
+interestcase 0_20_LocationDialogTest#test_setLocationCurrent end
+
+index.21,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[9420-15689]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_showwarnings, value:0
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_21_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 56.15571069717407 s
+
+jacoco time: 3.001373529434204 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 16,002
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [9420-15689]
+loclog: 9420-15689 uncovered after retrial, deleted!
+interestcase 0_21_SuntimesScreenshots#makeScreenshot end
+
+index.22,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[2698-4551]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Metric
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_showwarnings, value:0
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_22_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 87.20030045509338 s
+
+jacoco time: 3.002723455429077 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17,681
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2698-4551]
+loclog: 2698-4551 uncovered after retrial, deleted!
+interestcase 0_22_SuntimesScreenshots#makeScreenshot end
+
+index.23,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[554-983]
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_23_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 49.77458119392395 s
+
+jacoco time: 3.0021793842315674 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17,8
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [554-983]
+loclog: 554-983 uncovered after retrial, deleted!
+interestcase 0_23_SuntimesScreenshots#makeScreenshot end
+
+index.24,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[9653-16072]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_showwarnings, value:0
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_24_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 87.03105640411377 s
+
+jacoco time: 3.00234317779541 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17,795
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [9653-16072]
+loclog: 9653-16072 uncovered after retrial, deleted!
+interestcase 0_24_SuntimesScreenshots#makeScreenshot end
+
+index.25,  interestcase LocationDialogTest#test_setLocation start:
+tagetlogs are:[293-585]
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_25_LocationDialogTest#test_setLocation.py]
+
+OK
+
+consumed time: 64.58498072624207 s
+
+jacoco time: 3.0016963481903076 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocation', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocation
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocation
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 14.276
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [293-585]
+loclog: 293-585 uncovered after retrial, deleted!
+interestcase 0_25_LocationDialogTest#test_setLocation end
+
+index.26,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3440-5757]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_26_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 81.6962502002716 s
+
+jacoco time: 3.0022175312042236 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.298
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3440-5757]
+loclog: 3440-5757 uncovered after retrial, deleted!
+interestcase 0_26_LocationDialogTest#test_setLocationCurrent end
+
+index.27,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[2734-4615]
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_27_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 37.85554814338684 s
+
+jacoco time: 3.0012505054473877 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17,468
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2734-4615]
+loclog: 2734-4615 uncovered after retrial, deleted!
+interestcase 0_27_SuntimesScreenshots#makeScreenshot end
+
+index.28,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[544-961]
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_28_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 45.64625024795532 s
+
+jacoco time: 3.002227783203125 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 18,167
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [544-961]
+loclog: 544-961 uncovered after retrial, deleted!
+interestcase 0_28_SuntimesScreenshots#makeScreenshot end
+
+index.29,  interestcase LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3442-5760]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_29_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 55.603612422943115 s
+
+jacoco time: 3.002556562423706 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.097
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3442-5760]
+loclog: 3442-5760 uncovered after retrial, deleted!
+interestcase 0_29_LocationDialogTest#test_setLocationCurrent end
+
+index.30,  interestcase SuntimesScreenshots#makeScreenshot start:
+tagetlogs are:[11266-18638]
+current preference, name:appwidget_0_location_altitude_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase0_30_SuntimesScreenshots#makeScreenshot.py]
+
+OK
+
+consumed time: 32.67234134674072 s
+
+jacoco time: 3.0016801357269287 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesScreenshots#makeScreenshot', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesScreenshots:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=makeScreenshot
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesScreenshots
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 17,83
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [11266-18638]
+loclog: 11266-18638 uncovered after retrial, deleted!
+interestcase 0_30_SuntimesScreenshots#makeScreenshot end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1348-2274 ,target branch is: 1348-2273
+interests are:
+getFix_maxAge      1 minute    31     Places
+discovered tags are : 0_18_LocationDialogTest#test_setLocationCurrent 0_2_LocationDialogTest#test_setLocationCurrent 0_29_LocationDialogTest#test_setLocationCurrent 0_20_LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 2735-4617 ,target branch is: 2735-4616
+interests are:
+app_appearance_theme      Light Theme    33     Appearance Settings
+discovered tags are : 0_12_SuntimesActivityTest#test_partialUpdateReciever 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 5432-8906 ,target branch is: 5432-8905
+interests are:
+app_locale_mode      System    27     Language Settings
+discovered tags are : 0_17_SuntimesSettingsActivityTest#test_showSettingsActivity 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 3457-5810 ,target branch is: 3457-5809
+interests are:
+getFix_maxAge      any age    31     Places
+discovered tags are : 0_18_LocationDialogTest#test_setLocationCurrent 0_2_LocationDialogTest#test_setLocationCurrent 0_29_LocationDialogTest#test_setLocationCurrent 0_20_LocationDialogTest#test_setLocationCurrent 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 10912-17986 ,target branch is: 10912-17987
+interests are:
+app_locale_mode      System    27     Language Settings
+discovered tags are : 0_17_SuntimesSettingsActivityTest#test_showSettingsActivity 
+--------------------------------
+index.1,  interestcase 0_17_SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[10912-17987]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase1_1_0_17_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 56.422046422958374 s
+
+jacoco time: 3.0026023387908936 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.981
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [10912-17987]
+loclog: 10912-17987 uncovered after retrial, deleted!
+interestcase 1_1_0_17_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.2,  interestcase 0_17_SuntimesSettingsActivityTest#test_showSettingsActivity start:
+tagetlogs are:[5432-8905]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase1_2_0_17_SuntimesSettingsActivityTest#test_showSettingsActivity.py]
+
+OK
+
+consumed time: 58.87514591217041 s
+
+jacoco time: 3.0026421546936035 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest#test_showSettingsActivity', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_showSettingsActivity
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesSettingsActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.042
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [5432-8905]
+loclog: 5432-8905 uncovered after retrial, deleted!
+interestcase 1_2_0_17_SuntimesSettingsActivityTest#test_showSettingsActivity end
+
+index.3,  interestcase 0_29_LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[1348-2273]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:getFix_maxAge, value:1 minute
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase1_3_0_29_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 83.77764797210693 s
+
+jacoco time: 3.00246000289917 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.171
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1348-2273]
+loclog: 1348-2273 uncovered after retrial, deleted!
+interestcase 1_3_0_29_LocationDialogTest#test_setLocationCurrent end
+
+index.4,  interestcase 0_12_SuntimesActivityTest#test_partialUpdateReciever start:
+tagetlogs are:[2735-4616]
+current preference, name:app_appearance_theme, value:Light Theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase1_4_0_12_SuntimesActivityTest#test_partialUpdateReciever.py]
+
+OK
+
+consumed time: 32.07368040084839 s
+
+jacoco time: 3.001622438430786 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.SuntimesActivityTest#test_partialUpdateReciever', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.SuntimesActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_partialUpdateReciever
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.SuntimesActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 0.935
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2735-4616]
+loclog: 2735-4616 uncovered after retrial, deleted!
+interestcase 1_4_0_12_SuntimesActivityTest#test_partialUpdateReciever end
+
+index.5,  interestcase 0_29_LocationDialogTest#test_setLocationCurrent start:
+tagetlogs are:[3457-5809]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_lengthunits, value:Imperial
+current preference, name:appwidget_0_location_altitude_enabled, value:1
+current preference, name:app_plugins_enabled, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:getFix_maxAge, value:any age
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Upcoming Event
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current systemservice, name: ass_location_network, value: 1
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\suntimes_bak\testcase\interestcases\testcase1_5_0_29_LocationDialogTest#test_setLocationCurrent.py]
+
+OK
+
+consumed time: 82.77067637443542 s
+
+jacoco time: 3.002140760421753 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'com.forrestguice.suntimeswidget.LocationDialogTest#test_setLocationCurrent', com.forrestguice.suntimeswidget.test/android.support.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.forrestguice.suntimeswidget.LocationDialogTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=test_setLocationCurrent
+
+INSTRUMENTATION_STATUS: class=com.forrestguice.suntimeswidget.LocationDialogTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 11.046
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3457-5809]
+loclog: 3457-5809 uncovered after retrial, deleted!
+interestcase 1_5_0_29_LocationDialogTest#test_setLocationCurrent end
+

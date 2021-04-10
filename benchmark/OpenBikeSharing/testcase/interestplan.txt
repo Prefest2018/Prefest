@@ -1,0 +1,902 @@
+This exploration took time: 38s
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_default_tab, value:Favorites
+current preference, name:pref_strip_id_station, value:1
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_default_tab, value:null
+current preference, name:pref_strip_id_station, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 27.3399999142 s
+
+jacoco time: 5.00400018692 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 18.6790001392 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 481-824 ,target branch is: 481-823
+interests are:
+pref_map_layer      OpenCycleMap    1     null
+discovered tags are : 6_011 1_016 5_006 1_014 5_004 6_023 6_012 5_005 6_024 6_013 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 326-546_0 ,target branch is: 326-546_0
+interests are:
+pref_api_url          4     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 326-546_1 ,target branch is: 326-546_1
+interests are:
+pref_api_url      random    4     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 326-546_2 ,target branch is: 326-546_2
+interests are:
+pref_api_url      http://api.citybik.es/v2/    4     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 333-558_3 ,target branch is: 333-558_3
+interests are:
+pref_api_url          4     null
+discovered tags are : 2_009 4_025 4_026 6_021 2_028 6_005 4_000 6_024 6_013 6_025 6_004 5_022 3_006 3_018 3_008 1_007 3_020 1_027 1_024 1_002 5_007 1_011 3_003 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 333-558_4 ,target branch is: 333-558_4
+interests are:
+pref_api_url      random    4     null
+discovered tags are : 2_009 4_025 4_026 6_021 2_028 6_005 4_000 6_024 6_013 6_025 6_004 5_022 3_006 3_018 3_008 1_007 3_020 1_027 1_024 1_002 5_007 1_011 3_003 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 333-558_5 ,target branch is: 333-558_5
+interests are:
+pref_api_url      http://api.citybik.es/v2/    4     null
+discovered tags are : 2_009 4_025 4_026 6_021 2_028 6_005 4_000 6_024 6_013 6_025 6_004 5_022 3_006 3_018 3_008 1_007 3_020 1_027 1_024 1_002 5_007 1_011 3_003 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 519_6 ,target branch is: 519_6
+interests are:
+pref_api_url          4     null
+discovered tags are : 1_009 2_022 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 519_7 ,target branch is: 519_7
+interests are:
+pref_api_url      random    4     null
+discovered tags are : 1_009 2_022 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 519_8 ,target branch is: 519_8
+interests are:
+pref_api_url      http://api.citybik.es/v2/    4     null
+discovered tags are : 1_009 2_022 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 186-331 ,target branch is: 186-330
+interests are:
+pref_map_layer      Mapnik    1     null
+discovered tags are : 4_014 4_018 2_028 2_006 2_029 2_007 2_008 2_024 2_026 4_010 4_012 4_013 3_028 3_006 3_029 3_027 3_005 3_020 3_023 4_025 4_004 4_028 4_007 4_008 4_009 2_019 4_022 4_001 2_011 4_024 3_018 3_015 3_016 3_019 1_026 3_013 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 187-333 ,target branch is: 187-332
+interests are:
+pref_map_layer      Mapnik    1     null
+discovered tags are : 5_011 5_022 5_012 5_020 1_017 1_018 5_009 5_006 5_017 5_018 1_025 1_022 1_023 5_013 5_024 5_014 5_025 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 188-335 ,target branch is: 188-334
+interests are:
+pref_map_layer      OpenCycleMap    1     null
+discovered tags are : 6_020 6_021 6_022 6_011 4_029 6_005 6_016 6_006 6_017 6_007 6_029 6_019 6_014 6_015 3_009 3_010 5_004 5_005 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 479-820 ,target branch is: 479-819
+interests are:
+pref_map_layer      Mapnik    1     null
+discovered tags are : 4_006 4_028 2_027 4_018 2_017 4_008 2_023 2_001 2_003 2_015 2_004 4_022 4_012 4_023 3_026 3_004 3_020 1_027 3_013 3_003 3_001 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 480-822 ,target branch is: 480-821
+interests are:
+pref_map_layer      Mapnik    1     null
+discovered tags are : 5_021 5_019 6_024 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 303-503 ,target branch is: 303-504
+interests are:
+ass_location_network      1    -1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_005 6_006 6_007 6_008 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+index.1,  interestcase 5_005 start:
+tagetlogs are:[481-823, 326-546_0, 303-504, 188-334]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_api_url, value:
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_1_5_005.py]
+
+OK
+
+consumed time: 29.4430000782 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 50.0150001049 s
+
+jacoco time: 5.00199985504 s
+
+covered targets are: [326-546_0]
+uncovered targets are: [481-823, 303-504, 188-334]
+interestcase 0_1_5_005 end
+
+index.2,  interestcase 5_004 start:
+tagetlogs are:[481-823, 303-504, 326-546_1, 188-334]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_api_url, value:random
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_2_5_004.py]
+
+OK
+
+consumed time: 30.7929999828 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_2_5_004.py", line 247, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Estación de Tren\")", "new UiSelector().className(\"android.widget.TextView\").instance(15)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_2_5_004.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.8330001831 s
+
+jacoco time: 5.00299978256 s
+
+covered targets are: [326-546_1]
+uncovered targets are: [481-823, 303-504, 188-334]
+interestcase 0_2_5_004 end
+
+index.3,  interestcase 6_011 start:
+tagetlogs are:[481-823, 303-504, 326-546_2, 188-334]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_api_url, value:http://api.citybik.es/v2/
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_3_6_011.py]
+
+OK
+
+consumed time: 26.1340000629 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 47.4039998055 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [326-546_2]
+uncovered targets are: [481-823, 303-504, 188-334]
+interestcase 0_3_6_011 end
+
+index.4,  interestcase 5_004 start:
+tagetlogs are:[481-823, 303-504, 188-334]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_4_5_004.py]
+
+OK
+
+consumed time: 13.5009999275 s
+
+jacoco time: 5.00200009346 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_4_5_004.py", line 244, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Estación de Tren\")", "new UiSelector().className(\"android.widget.TextView\").instance(15)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_4_5_004.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.0110001564 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [481-823, 303-504, 188-334]
+target: 481-823 uncovered, added to then retrial list!
+target: 303-504 uncovered, added to then retrial list!
+target: 188-334 uncovered, added to then retrial list!
+interestcase 0_4_5_004 end
+
+index.5,  interestcase 1_017 start:
+tagetlogs are:[187-332]
+current preference, name:pref_map_layer, value:Mapnik
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_5_1_017.py]
+
+OK
+
+consumed time: 13.8299999237 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 56.1969997883 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [187-332]
+target: 187-332 uncovered, added to then retrial list!
+interestcase 0_5_1_017 end
+
+index.6,  interestcase 1_009 start:
+tagetlogs are:[519_8]
+current preference, name:pref_api_url, value:http://api.citybik.es/v2/
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_6_1_009.py]
+
+OK
+
+consumed time: 28.6589999199 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_6_1_009.py", line 242, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"7\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_6_1_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 36.0360000134 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [519_8]
+uncovered targets are: []
+interestcase 0_6_1_009 end
+
+index.7,  interestcase 2_022 start:
+tagetlogs are:[519_6]
+current preference, name:pref_api_url, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_7_2_022.py]
+
+OK
+
+consumed time: 24.8340001106 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 25.0780000687 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [519_6]
+uncovered targets are: []
+interestcase 0_7_2_022 end
+
+index.8,  interestcase 2_022 start:
+tagetlogs are:[519_7]
+current preference, name:pref_api_url, value:random
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_8_2_022.py]
+
+OK
+
+consumed time: 24.6289999485 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 22.9609999657 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [519_7]
+uncovered targets are: []
+interestcase 0_8_2_022 end
+
+index.9,  interestcase 2_028 start:
+tagetlogs are:[333-558_4, 186-330]
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_api_url, value:random
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_9_2_028.py]
+
+OK
+
+consumed time: 29.4949998856 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_9_2_028.py", line 238, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"9\")", "new UiSelector().className(\"android.widget.TextView\").instance(13)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_9_2_028.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.5179998875 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [333-558_4]
+uncovered targets are: [186-330]
+interestcase 0_9_2_028 end
+
+index.10,  interestcase 3_006 start:
+tagetlogs are:[333-558_3, 186-330]
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_api_url, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_10_3_006.py]
+
+OK
+
+consumed time: 25.8139998913 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 50.4440000057 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [333-558_3]
+uncovered targets are: [186-330]
+interestcase 0_10_3_006 end
+
+index.11,  interestcase 5_019 start:
+tagetlogs are:[480-821]
+current preference, name:pref_map_layer, value:Mapnik
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_11_5_019.py]
+
+OK
+
+consumed time: 13.1679999828 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_11_5_019.py", line 230, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Castros\")", "new UiSelector().className(\"android.widget.TextView\").instance(21)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_11_5_019.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 21.4679999352 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [480-821]
+target: 480-821 uncovered, added to then retrial list!
+interestcase 0_11_5_019 end
+
+index.12,  interestcase 4_025 start:
+tagetlogs are:[186-330, 333-558_5]
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_api_url, value:http://api.citybik.es/v2/
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_12_4_025.py]
+
+OK
+
+consumed time: 35.1759998798 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 56.8150000572 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [333-558_5]
+uncovered targets are: [186-330]
+interestcase 0_12_4_025 end
+
+index.13,  interestcase 4_018 start:
+tagetlogs are:[186-330, 479-819]
+current preference, name:pref_map_layer, value:Mapnik
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_13_4_018.py]
+
+OK
+
+consumed time: 13.1540000439 s
+
+jacoco time: 5.00199985504 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_13_4_018.py", line 255, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/up\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_13_4_018.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 48.8199999332 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [186-330, 479-819]
+target: 186-330 uncovered, added to then retrial list!
+target: 479-819 uncovered, added to then retrial list!
+interestcase 0_13_4_018 end
+
+index.14,  interestcase 1_027 start:
+tagetlogs are:[479-819]
+current preference, name:pref_map_layer, value:OSMPublicTransport
+current preference, name:pref_strip_id_station, value:0
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_14_1_027.py]
+
+OK
+
+consumed time: 17.7539999485 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_14_1_027.py", line 259, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/up\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_14_1_027.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 42.3259999752 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [479-819]
+loclog: 479-819 uncovered after retrial, deleted!
+interestcase 0_14_1_027 end
+
+index.15,  interestcase 3_020 start:
+tagetlogs are:[186-330]
+current preference, name:pref_map_layer, value:OSMPublicTransport
+current preference, name:pref_strip_id_station, value:0
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_15_3_020.py]
+
+OK
+
+consumed time: 16.6619999409 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 42.6019999981 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [186-330]
+loclog: 186-330 uncovered after retrial, deleted!
+interestcase 0_15_3_020 end
+
+index.16,  interestcase 6_024 start:
+tagetlogs are:[480-821]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_strip_id_station, value:1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_16_6_024.py]
+
+OK
+
+consumed time: 16.0720000267 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 42.1909999847 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [480-821]
+loclog: 480-821 uncovered after retrial, deleted!
+interestcase 0_16_6_024 end
+
+index.17,  interestcase 1_018 start:
+tagetlogs are:[187-332]
+current preference, name:pref_map_layer, value:OpenCycleMap
+current preference, name:pref_strip_id_station, value:0
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_17_1_018.py]
+
+OK
+
+consumed time: 16.2079999447 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 53.8010001183 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [187-332]
+loclog: 187-332 uncovered after retrial, deleted!
+interestcase 0_17_1_018 end
+
+index.18,  interestcase 6_017 start:
+tagetlogs are:[188-334]
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_strip_id_station, value:0
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_18_6_017.py]
+
+OK
+
+consumed time: 17.6330001354 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 50.984000206 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [188-334]
+loclog: 188-334 uncovered after retrial, deleted!
+interestcase 0_18_6_017 end
+
+index.19,  interestcase 1_027 start:
+tagetlogs are:[303-504]
+current preference, name:pref_strip_id_station, value:0
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_19_1_027.py]
+
+OK
+
+consumed time: 14.263999939 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_19_1_027.py", line 257, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/up\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_19_1_027.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 44.1459999084 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [303-504]
+loclog: 303-504 uncovered after retrial, deleted!
+interestcase 0_19_1_027 end
+
+index.20,  interestcase 6_024 start:
+tagetlogs are:[481-823]
+current preference, name:pref_map_layer, value:Mapnik
+current preference, name:pref_strip_id_station, value:1
+current systemservice, name: ass_location_network, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\OpenBikeSharing\testcase\interestcases\testcase0_20_6_024.py]
+
+OK
+
+consumed time: 17.5520000458 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 42.3839998245 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [481-823]
+loclog: 481-823 uncovered after retrial, deleted!
+interestcase 0_20_6_024 end
+

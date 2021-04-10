@@ -1,0 +1,469 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1033-2105 ,target branch is: 1033-2106
+interests are:
+home_dock      1    5     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 199-499 ,target branch is: 199-500
+interests are:
+power      1    7     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 945-1911 ,target branch is: 945-1912
+interests are:
+power      1    7     General Settings
+discovered tags are : 6_000 2_028 6_005 6_027 6_007 6_024 4_012 3_028 3_006 3_007 3_004 1_018 5_018 3_001 4_003 4_004 4_026 2_016 4_007 4_029 2_018 2_019 6_017 2_015 4_000 5_023 1_007 1_024 1_002 1_000 5_005 5_025 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 200-501 ,target branch is: 200-502
+interests are:
+headset      1    6     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 561-1160 ,target branch is: 561-1161
+interests are:
+headset      1    6     General Settings
+discovered tags are : 2_009 6_020 6_021 6_000 4_017 2_028 4_019 2_008 2_024 6_028 2_004 6_001 6_023 6_002 2_000 3_028 3_006 3_026 3_020 4_003 4_026 4_007 4_029 2_018 6_016 6_017 4_020 4_021 4_000 4_022 6_013 4_023 3_018 5_020 3_015 5_021 3_016 1_007 5_008 1_026 5_006 1_002 5_007 1_003 5_027 1_020 5_003 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 942-1906 ,target branch is: 942-1905
+interests are:
+car_mode      0    4     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 1301-2566 ,target branch is: 1301-2565
+interests are:
+enableTTS      1    8     General Settings
+discovered tags are : 6_023 3_022 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1310-2584 ,target branch is: 1310-2585
+interests are:
+enableTTS      1    8     General Settings
+discovered tags are : 4_000 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 197-496 ,target branch is: 197-495
+interests are:
+car_mode      0    4     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 563-1165 ,target branch is: 563-1164
+interests are:
+toasts      0    1     General Settings
+discovered tags are : 2_009 6_020 6_021 6_000 4_017 2_028 4_019 2_008 2_024 6_028 2_004 6_001 6_023 6_002 2_000 3_028 3_006 3_026 3_020 4_003 4_026 4_007 4_029 2_018 6_016 6_017 4_020 4_021 4_000 4_022 6_013 4_023 3_018 5_020 3_015 5_021 3_016 1_007 5_008 1_026 5_006 1_002 5_007 1_003 5_027 1_020 5_003 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 944-1909 ,target branch is: 944-1910
+interests are:
+headset      1    6     General Settings
+discovered tags are : 6_000 2_028 6_005 6_027 6_007 6_024 4_012 3_028 3_006 3_007 3_004 1_018 5_018 3_001 4_003 4_004 4_026 2_016 4_007 4_029 2_018 2_019 6_017 2_015 4_000 5_023 1_007 1_024 1_002 1_000 5_005 5_025 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1001-2045 ,target branch is: 1001-2044
+interests are:
+toasts      0    1     General Settings
+discovered tags are : 6_023 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1307-2579 ,target branch is: 1307-2578
+interests are:
+home_dock      1    5     General Settings
+discovered tags are : 4_000 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 1028-2095 ,target branch is: 1028-2094
+interests are:
+useLocalStorage      1    3     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 1312-2589 ,target branch is: 1312-2590
+interests are:
+home_dock      0    5     General Settings
+discovered tags are : 4_000 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 551-1128 ,target branch is: 551-1127
+interests are:
+toasts      0    1     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 548-1122 ,target branch is: 548-1121
+interests are:
+useLocalStorage      1    3     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 1032-2104 ,target branch is: 1032-2103
+interests are:
+car_mode      0    4     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 1304-2573 ,target branch is: 1304-2572
+interests are:
+useLocalStorage      1    3     General Settings
+discovered tags are : 4_000 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 1306-2576 ,target branch is: 1306-2577
+interests are:
+car_mode      0    4     General Settings
+discovered tags are : 4_000 
+--------------------------------
+index.1,  interestcase 6_023 start:
+tagetlogs are:[1001-2044, 1032-2103, 1301-2565, 197-495, 200-502, 561-1161, 942-1905, 1028-2094, 548-1121, 551-1127, 199-500, 1033-2106, 563-1164]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:1
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_1_6_023.py]
+
+OK
+
+consumed time: 55.0250000954 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 17.7160000801 s
+
+jacoco time: 5.00299978256 s
+
+covered targets are: [1001-2044, 1032-2103, 1301-2565, 197-495, 200-502, 561-1161, 942-1905, 1028-2094, 548-1121, 551-1127, 199-500, 1033-2106, 563-1164]
+uncovered targets are: []
+interestcase 0_1_6_023 end
+
+index.2,  interestcase 4_000 start:
+tagetlogs are:[1307-2578, 1304-2572, 1310-2585, 944-1910, 945-1912, 1306-2577]
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:1
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_2_4_000.py]
+
+OK
+
+consumed time: 49.626999855 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_2_4_000.py", line 247, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"testr Connection\")", "new UiSelector().className(\"android.widget.TextView\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_2_4_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 46.0780000687 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1307-2578, 1304-2572, 1310-2585, 1306-2577]
+uncovered targets are: [944-1910, 945-1912]
+interestcase 0_2_4_000 end
+
+index.3,  interestcase 4_000 start:
+tagetlogs are:[1312-2590, 944-1910, 945-1912]
+current preference, name:home_dock, value:0
+current preference, name:headset, value:1
+current preference, name:power, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_3_4_000.py]
+
+OK
+
+consumed time: 30.5699999332 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_3_4_000.py", line 238, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"testr Connection\")", "new UiSelector().className(\"android.widget.TextView\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase0_3_4_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 49.3420000076 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1312-2590, 944-1910, 945-1912]
+uncovered targets are: []
+interestcase 0_3_4_000 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1314-2594 ,target branch is: 1314-2593
+interests are:
+power      0    7     General Settings
+discovered tags are : 0_1_6_023 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 1317-2600 ,target branch is: 1317-2599
+interests are:
+enableGTalk      0    9     General Settings
+discovered tags are : 0_2_4_000 0_1_6_023 0_3_4_000 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 1311-2588 ,target branch is: 1311-2587
+interests are:
+car_mode      1    4     General Settings
+discovered tags are : 0_2_4_000 0_1_6_023 0_3_4_000 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 1308-2580 ,target branch is: 1308-2581
+interests are:
+headset      0    6     General Settings
+discovered tags are : 0_2_4_000 0_1_6_023 0_3_4_000 
+--------------------------------
+index.1,  interestcase 0_1_6_023 start:
+tagetlogs are:[1308-2581]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:0
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase1_1_0_1_6_023.py]
+
+OK
+
+consumed time: 52.5260000229 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 17.3020000458 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1308-2581]
+loclog: 1308-2581 uncovered after retrial, deleted!
+interestcase 1_1_0_1_6_023 end
+
+index.2,  interestcase 0_1_6_023 start:
+tagetlogs are:[1317-2599]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:1
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+current preference, name:enableGTalk, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase1_2_0_1_6_023.py]
+
+OK
+
+consumed time: 59.739000082 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 17.4440000057 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [1317-2599]
+loclog: 1317-2599 uncovered after retrial, deleted!
+interestcase 1_2_0_1_6_023 end
+
+index.3,  interestcase 0_1_6_023 start:
+tagetlogs are:[1311-2587]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:1
+current preference, name:home_dock, value:1
+current preference, name:headset, value:1
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase1_3_0_1_6_023.py]
+
+OK
+
+consumed time: 54.9210000038 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 17.8729999065 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1311-2587]
+uncovered targets are: []
+target: 1311-2587 covered after retrial!
+interestcase 1_3_0_1_6_023 end
+
+index.4,  interestcase 0_1_6_023 start:
+tagetlogs are:[1314-2593]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:1
+current preference, name:power, value:0
+current preference, name:enableTTS, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase1_4_0_1_6_023.py]
+
+OK
+
+consumed time: 55.6970000267 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 17.4439997673 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [1314-2593]
+loclog: 1314-2593 uncovered after retrial, deleted!
+interestcase 1_4_0_1_6_023 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 1313-2591 ,target branch is: 1313-2592
+interests are:
+headset      0    6     General Settings
+discovered tags are : 1_2_0_1_6_023 
+--------------------------------
+index.1,  interestcase 1_2_0_1_6_023 start:
+tagetlogs are:[1313-2592]
+current preference, name:toasts, value:0
+current preference, name:useLocalStorage, value:1
+current preference, name:car_mode, value:0
+current preference, name:home_dock, value:1
+current preference, name:headset, value:0
+current preference, name:power, value:1
+current preference, name:enableTTS, value:1
+current preference, name:enableGTalk, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\a2dpvolume\testcase\interestcases\testcase2_1_1_2_0_1_6_023.py]
+
+OK
+
+consumed time: 59.2219998837 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 17.3870000839 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1313-2592]
+loclog: 1313-2592 uncovered after retrial, deleted!
+interestcase 2_1_1_2_0_1_6_023 end
+

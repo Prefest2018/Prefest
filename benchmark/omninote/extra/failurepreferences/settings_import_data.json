@@ -1,0 +1,57 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"OK",
+         "type":"NORMAL"
+      }
+
+   },
+   "presteps":
+   {
+      "0":
+      {
+         "resourceId":"a2dp.Vol:id\/enableTTSBox",
+         "instance":8,
+         "operationType":"click",
+         "className":"android.widget.TextView",
+         "type":"NORMAL"
+      }
+
+   },
+   "valuestepmap":
+   {
+      "value2":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"scroll",
+            "type":"NORMAL",
+            "fromx":0.5,
+            "tox":0.5,
+            "fromy":0.2,
+            "toy":0.8
+         }
+
+      },
+      "value1":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"value1",
+            "type":"NORMAL"
+         }
+
+      }
+
+   },
+   "type":"STRING",
+   "adapted":false,
+   "key":"settings_import_data"
+}

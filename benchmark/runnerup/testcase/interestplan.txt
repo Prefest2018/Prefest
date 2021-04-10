@@ -1,0 +1,702 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1683-3220 ,target branch is: 1683-3221
+interests are:
+pref_keystartstop_active      1    44     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1852-3553 ,target branch is: 1852-3552
+interests are:
+pref_startgps      1    39     null
+discovered tags are : 2_028 2_023 2_024 2_026 2_022 3_028 1_019 1_015 1_016 1_011 1_012 3_025 3_022 1_010 4_003 4_004 4_005 4_007 4_008 4_009 2_012 2_014 2_015 4_000 2_010 4_001 2_011 4_002 5_000 3_017 3_018 3_016 1_028 3_019 1_029 1_027 3_010 5_007 1_025 5_004 3_013 5_005 3_014 5_002 1_020 3_011 5_003 3_012 4_015 4_017 2_005 4_018 4_019 2_007 2_008 2_001 2_003 4_012 5_011 3_006 3_004 3_008 3_009 5_019 5_017 5_018 5_015 3_002 5_016 3_003 3_001 4_025 4_026 4_027 4_029 4_020 4_021 4_022 4_024 5_022 5_023 5_020 5_021 1_008 1_009 1_006 1_005 1_002 5_025 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 7474-15269 ,target branch is: 7474-15270
+interests are:
+pref_convert_advanced_distance_rest_to_recovery      1    73     null
+discovered tags are : 4_004 4_029 2_024 2_025 2_026 4_021 4_022 2_022 4_013 3_029 3_027 3_005 3_009 1_007 1_014 1_003 1_022 5_027 1_023 3_003 1_010 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 4369-8897 ,target branch is: 4369-8896
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 2282-4266 ,target branch is: 2282-4265
+interests are:
+pref_unit      Kilometers    37     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 5281-10573 ,target branch is: 5281-10572
+interests are:
+pref_use_temperature_sensor      1    47     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_0 ,target branch is: 6149-12105_0
+interests are:
+pref_pollDistance      1    60     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_1 ,target branch is: 6149-12105_1
+interests are:
+pref_pollDistance      0    60     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_2 ,target branch is: 6149-12105_2
+interests are:
+pref_pollDistance          60     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_3 ,target branch is: 6149-12105_3
+interests are:
+pref_pollDistance      2147483647    60     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_4 ,target branch is: 6149-12105_4
+interests are:
+pref_pollInterval      0    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_5 ,target branch is: 6149-12105_5
+interests are:
+pref_pollInterval          59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_6 ,target branch is: 6149-12105_6
+interests are:
+pref_pollInterval      1    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 6149-12105_7 ,target branch is: 6149-12105_7
+interests are:
+pref_pollInterval      2147483647    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 1826-3502 ,target branch is: 1826-3501
+interests are:
+pref_startgps      1    39     null
+discovered tags are : 2_010 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 2793-5183 ,target branch is: 2793-5182
+interests are:
+pref_use_cadence_step_sensor      0    46     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 6148-12102_8 ,target branch is: 6148-12102_8
+interests are:
+pref_pollInterval      0    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 6148-12102_9 ,target branch is: 6148-12102_9
+interests are:
+pref_pollInterval          59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 6148-12102_10 ,target branch is: 6148-12102_10
+interests are:
+pref_pollInterval      1    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 6148-12102_11 ,target branch is: 6148-12102_11
+interests are:
+pref_pollInterval      2147483647    59     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 2688-5022 ,target branch is: 2688-5021
+interests are:
+pref_use_pressure_sensor      1    48     null
+discovered tags are : 2_009 4_016 4_017 2_029 4_012 5_011 3_006 3_007 3_008 3_009 3_002 1_012 1_010 3_001 4_004 4_028 4_007 2_018 2_019 2_010 1_009 1_028 1_026 1_027 5_002 1_020 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 1670-3200 ,target branch is: 1670-3199
+interests are:
+pref_startgps      1    39     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 1754-3340 ,target branch is: 1754-3339
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 2283-4267 ,target branch is: 2283-4268
+interests are:
+pref_unit      Kilometers    37     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+index.1,  interestcase 2_010 start:
+tagetlogs are:[6148-12102_11, 1852-3552, 5281-10572, 4369-8896, 1683-3221, 1670-3199, 6149-12105_7, 2282-4265, 1826-3501, 6149-12105_0, 1754-3339, 2283-4268, 2793-5182, 2688-5021]
+current preference, name:pref_unit, value:Kilometers
+current preference, name:pref_startgps, value:1
+current preference, name:pref_keystartstop_active, value:1
+current preference, name:pref_use_cadence_step_sensor, value:0
+current preference, name:pref_use_temperature_sensor, value:1
+current preference, name:pref_use_pressure_sensor, value:1
+current preference, name:pref_pollInterval, value:2147483647
+current preference, name:pref_pollDistance, value:1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_1_2_010.py]
+
+OK
+
+consumed time: 69.6909999847 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_1_2_010.py", line 249, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"00:05:00\")", "new UiSelector().className(\"android.widget.TextView\").instance(9)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_1_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.3759999275 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [6148-12102_11, 1852-3552, 5281-10572, 4369-8896, 1683-3221, 1670-3199, 6149-12105_7, 2282-4265, 6149-12105_0, 1754-3339, 2688-5021]
+uncovered targets are: [1826-3501, 2283-4268, 2793-5182]
+interestcase 0_1_2_010 end
+
+index.2,  interestcase 2_010 start:
+tagetlogs are:[6148-12102_10, 1826-3501, 6149-12105_1, 6149-12105_6, 2283-4268, 2793-5182]
+current preference, name:pref_unit, value:Kilometers
+current preference, name:pref_startgps, value:1
+current preference, name:pref_use_cadence_step_sensor, value:0
+current preference, name:pref_pollInterval, value:1
+current preference, name:pref_pollDistance, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_2_2_010.py]
+
+OK
+
+consumed time: 59.1689999104 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_2_2_010.py", line 236, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_2_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.260999918 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [6148-12102_10, 6149-12105_1, 6149-12105_6]
+uncovered targets are: [1826-3501, 2283-4268, 2793-5182]
+interestcase 0_2_2_010 end
+
+index.3,  interestcase 2_010 start:
+tagetlogs are:[1826-3501, 6149-12105_2, 6149-12105_4, 2283-4268, 6148-12102_8, 2793-5182]
+current preference, name:pref_unit, value:Kilometers
+current preference, name:pref_startgps, value:1
+current preference, name:pref_use_cadence_step_sensor, value:0
+current preference, name:pref_pollInterval, value:0
+current preference, name:pref_pollDistance, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_3_2_010.py]
+
+OK
+
+consumed time: 56.2569999695 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_3_2_010.py", line 236, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_3_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.3480000496 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [6149-12105_2, 6149-12105_4, 6148-12102_8]
+uncovered targets are: [1826-3501, 2283-4268, 2793-5182]
+interestcase 0_3_2_010 end
+
+index.4,  interestcase 2_010 start:
+tagetlogs are:[1826-3501, 6149-12105_3, 6149-12105_5, 6148-12102_9, 2283-4268, 2793-5182]
+current preference, name:pref_unit, value:Kilometers
+current preference, name:pref_startgps, value:1
+current preference, name:pref_use_cadence_step_sensor, value:0
+current preference, name:pref_pollInterval, value:
+current preference, name:pref_pollDistance, value:2147483647
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_4_2_010.py]
+
+OK
+
+consumed time: 63.7720000744 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_4_2_010.py", line 236, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_4_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.2999999523 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [6149-12105_3, 6149-12105_5, 6148-12102_9]
+uncovered targets are: [1826-3501, 2283-4268, 2793-5182]
+interestcase 0_4_2_010 end
+
+index.5,  interestcase 2_010 start:
+tagetlogs are:[1826-3501, 2283-4268, 2793-5182]
+current preference, name:pref_unit, value:Kilometers
+current preference, name:pref_startgps, value:1
+current preference, name:pref_use_cadence_step_sensor, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_5_2_010.py]
+
+OK
+
+consumed time: 28.731000185 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_5_2_010.py", line 229, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Start GPS\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_5_2_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.493999958 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1826-3501, 2283-4268, 2793-5182]
+target: 1826-3501 uncovered, added to then retrial list!
+target: 2283-4268 uncovered, added to then retrial list!
+target: 2793-5182 uncovered, added to then retrial list!
+interestcase 0_5_2_010 end
+
+index.6,  interestcase 4_021 start:
+tagetlogs are:[7474-15270]
+current preference, name:pref_convert_advanced_distance_rest_to_recovery, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_6_4_021.py]
+
+OK
+
+consumed time: 16.9809999466 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_6_4_021.py", line 247, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/checkbox\").className(\"android.widget.CheckBox\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_6_4_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 43.0469999313 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [7474-15270]
+uncovered targets are: []
+interestcase 0_6_4_021 end
+
+index.7,  interestcase 1_010 start:
+tagetlogs are:[2793-5182]
+current preference, name:pref_unit, value:Miles
+current preference, name:pref_startgps, value:0
+current preference, name:pref_keystartstop_active, value:0
+current preference, name:pref_use_cadence_step_sensor, value:0
+current preference, name:pref_use_temperature_sensor, value:0
+current preference, name:pref_use_pressure_sensor, value:0
+current preference, name:pref_convert_advanced_distance_rest_to_recovery, value:0
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_7_1_010.py]
+
+OK
+
+consumed time: 49.0789999962 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_7_1_010.py", line 275, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Warmup\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_7_1_010.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 57.3300001621 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2793-5182]
+loclog: 2793-5182 uncovered after retrial, deleted!
+interestcase 0_7_1_010 end
+
+index.8,  interestcase 2_022 start:
+tagetlogs are:[2283-4268]
+current preference, name:pref_unit, value:Miles
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_8_2_022.py]
+
+OK
+
+consumed time: 18.5709998608 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_8_2_022.py", line 234, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_8_2_022.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.8529999256 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2283-4268]
+loclog: 2283-4268 uncovered after retrial, deleted!
+interestcase 0_8_2_022 end
+
+index.9,  interestcase 2_010 start:
+tagetlogs are:[1826-3501]
+current preference, name:pref_unit, value:Miles
+current preference, name:pref_startgps, value:0
+current preference, name:pref_keystartstop_active, value:0
+current preference, name:pref_use_cadence_step_sensor, value:1
+current preference, name:pref_use_temperature_sensor, value:0
+current preference, name:pref_use_pressure_sensor, value:0
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\runnerup\testcase\interestcases\testcase0_9_2_010.py]
+
+OK
+
+consumed time: 44.2009999752 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 46.9720001221 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [1826-3501]
+loclog: 1826-3501 uncovered after retrial, deleted!
+interestcase 0_9_2_010 end
+

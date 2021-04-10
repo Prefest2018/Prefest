@@ -1,0 +1,153 @@
+current preference, name:pref_short_toggle, value:1
+current preference, name:pref_checkmark_reverse_order, value:1
+current preference, name:pref_pure_black, value:1
+current preference, name:pref_snooze_interval, value:Always ask
+current preference, name:pref_sticky_notifications, value:1
+current preference, name:pref_led_notifications, value:1
+current preference, name:pref_developer, value:1
+current preference, name:pref_feature_numerical_habits, value:1
+current preference, name:pref_feature_sync, value:1
+current preference, name:pref_short_toggle, value:0
+current preference, name:pref_checkmark_reverse_order, value:0
+current preference, name:pref_pure_black, value:0
+current preference, name:pref_snooze_interval, value:15 minutes
+current preference, name:pref_sticky_notifications, value:0
+current preference, name:pref_led_notifications, value:0
+current preference, name:pref_developer, value:0
+current preference, name:pref_feature_numerical_habits, value:0
+current preference, name:pref_feature_sync, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 77.6630001068 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 77.6270000935 s
+
+jacoco time: 5.00200009346 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 155-247 ,target branch is: 155-248
+interests are:
+pref_feature_numerical_habits      1    17     Development
+discovered tags are : 6_000 2_028 9_011 6_001 2_020 8_014 8_017 3_029 7_002 1_015 3_021 1_014 1_011 3_022 7_005 4_004 9_025 4_005 9_024 4_008 9_021 4_009 2_019 2_013 8_023 8_025 2_010 2_011 3_017 3_019 3_010 10_023 3_013 1_022 5_005 5_002 10_025 10_024 1_021 6_022 2_005 4_018 4_019 2_003 2_004 6_023 4_011 6_024 5_011 3_006 3_005 10_015 7_025 7_022 10_017 7_023 5_016 10_014 3_001 9_003 6_010 9_002 6_016 6_018 4_022 8_003 8_006 8_005 5_020 5_021 7_013 1_004 1_002 7_012 10_001 1_001 5_024 10_003 7_015 9_006 10_002 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 4898-7512 ,target branch is: 4898-7511
+interests are:
+pref_pure_black      1    2     Interface
+discovered tags are : 7_009 9_010 2_023 2_025 2_026 2_022 7_002 7_003 7_000 7_006 7_005 2_016 9_023 9_022 2_013 2_015 5_000 5_008 10_027 10_026 5_006 10_029 10_028 5_004 5_005 10_022 10_025 5_003 10_024 2_005 2_006 2_007 2_004 5_011 5_012 5_010 10_016 10_015 5_017 7_028 5_016 10_011 5_013 10_014 9_005 9_004 5_023 5_020 10_009 10_008 10_005 7_013 5_028 10_007 7_011 10_006 5_026 7_017 9_008 10_000 7_018 9_007 5_025 9_006 8_011 8_010 8_012 8_017 8_019 8_018 3_026 1_019 1_017 1_018 3_020 1_015 3_021 3_024 3_025 1_010 4_004 4_006 4_007 4_008 8_020 4_001 1_027 1_022 3_014 1_023 1_020 4_018 6_027 6_028 6_024 6_025 3_004 3_008 3_003 4_026 4_028 4_029 6_017 8_002 4_020 8_001 8_004 8_003 6_014 1_008 1_009 
+--------------------------------
+index.1,  interestcase 7_002 start:
+tagetlogs are:[4898-7511, 155-248]
+current preference, name:pref_pure_black, value:1
+current preference, name:pref_feature_numerical_habits, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\interestcases\testcase0_1_7_002.py]
+
+OK
+
+consumed time: 30.7120001316 s
+
+jacoco time: 5.00199985504 s
+
+OK
+
+consumed time: 22.9820001125 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4898-7511, 155-248]
+target: 4898-7511 uncovered, added to then retrial list!
+target: 155-248 uncovered, added to then retrial list!
+interestcase 0_1_7_002 end
+
+index.2,  interestcase 4_008 start:
+tagetlogs are:[155-248]
+current preference, name:pref_pure_black, value:0
+current preference, name:pref_feature_numerical_habits, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\interestcases\testcase0_2_4_008.py]
+
+OK
+
+consumed time: 31.0449998379 s
+
+jacoco time: 5.00200009346 s
+
+OK
+
+consumed time: 25.0620000362 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [155-248]
+loclog: 155-248 uncovered after retrial, deleted!
+interestcase 0_2_4_008 end
+
+index.3,  interestcase 4_008 start:
+tagetlogs are:[4898-7511]
+current preference, name:pref_pure_black, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\interestcases\testcase0_3_4_008.py]
+
+OK
+
+consumed time: 13.9000000954 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 25.3440001011 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [4898-7511]
+uncovered targets are: []
+target: 4898-7511 covered after retrial!
+interestcase 0_3_4_008 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 90-141 ,target branch is: 90-140
+interests are:
+pref_developer      1    16     Development
+discovered tags are : 0_2_4_008 0_3_4_008 0_1_7_002 
+--------------------------------
+index.1,  interestcase 0_3_4_008 start:
+tagetlogs are:[90-140]
+current preference, name:pref_pure_black, value:1
+current preference, name:pref_developer, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\uhabits\testcase\interestcases\testcase1_1_0_3_4_008.py]
+
+OK
+
+consumed time: 30.1849999428 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 27.368999958 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [90-140]
+loclog: 90-140 uncovered after retrial, deleted!
+interestcase 1_1_0_3_4_008 end
+

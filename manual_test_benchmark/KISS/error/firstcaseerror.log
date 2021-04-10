@@ -1,0 +1,96 @@
+FavoritesTest#testExternalBarDisplayed
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testExternalBarHiddenWhenViewingAllApps
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testExternalBarHiddenOnSearch
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHidden
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHiddenOnSearch
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarDisplayedWhenViewingAllApps
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testHintDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testCanTypeTextIntoSearchBox
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testSearchBoxTrimming
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testMenuAndClearButtonsDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testSearchResultAppears
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBatterySettingAppears
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarHidden
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarEmptiesSearch
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testExternalBarDisplayed
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testExternalBarHiddenWhenViewingAllApps
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testExternalBarHiddenOnSearch
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHidden
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarHiddenOnSearch
+--------- beginning of main
+--------- beginning of system
+FavoritesTest#testInternalBarDisplayedWhenViewingAllApps
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testHintDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testCanTypeTextIntoSearchBox
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testSearchBoxTrimming
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testMenuAndClearButtonsDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testSearchResultAppears
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBatterySettingAppears
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarDisplayed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarHidden
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testKissBarEmptiesSearch
+--------- beginning of main
+--------- beginning of system

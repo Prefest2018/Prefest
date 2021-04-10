@@ -1,0 +1,327 @@
+1_6_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_4_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_5_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_5_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_5_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_7_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6854): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 6854): Process: com.amaze.filemanager, PID: 6854
+
+E/AndroidRuntime( 6854): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 6854): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 6854): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 6854): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 6854): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 6854): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 6854): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 6854): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 6854): Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+
+E/AndroidRuntime( 6854): 	at android.view.AbsSavedState.<init>(AbsSavedState.java:57)
+
+E/AndroidRuntime( 6854): 	at android.view.View$BaseSavedState.<init>(View.java:18661)
+
+E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:128)
+
+E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:120)
+
+E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:142)
+
+E/AndroidRuntime( 6854): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:140)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readParcelable(Parcel.java:2104)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readValue(Parcel.java:2013)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readSparseArrayInternal(Parcel.java:2363)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readSparseArray(Parcel.java:1735)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readValue(Parcel.java:2070)
+
+E/AndroidRuntime( 6854): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+
+E/AndroidRuntime( 6854): 	at android.os.Bundle.unparcel(Bundle.java:249)
+
+E/AndroidRuntime( 6854): 	at android.os.Bundle.getSparseParcelableArray(Bundle.java:1273)
+
+E/AndroidRuntime( 6854): 	at com.android.internal.policy.impl.PhoneWindow.restoreHierarchyState(PhoneWindow.java:1741)
+
+E/AndroidRuntime( 6854): 	at android.app.Activity.onRestoreInstanceState(Activity.java:944)
+
+E/AndroidRuntime( 6854): 	at android.app.Activity.performRestoreInstanceState(Activity.java:916)
+
+E/AndroidRuntime( 6854): 	at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1138)
+
+E/AndroidRuntime( 6854): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2173)
+
+E/AndroidRuntime( 6854): 	... 11 more
+
+10_4_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_4_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_7_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_4_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_3_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_3_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+17_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+18_4_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+19_6_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+20_5_007
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+21_1_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+22_5_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+23_4_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+24_3_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+25_4_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5955): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 5955): Process: com.amaze.filemanager, PID: 5955
+
+E/AndroidRuntime( 5955): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 5955): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 5955): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 5955): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 5955): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 5955): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 5955): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 5955): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 5955): Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.design.widget.NavigationView$SavedState
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+
+E/AndroidRuntime( 5955): 	at android.view.AbsSavedState.<init>(AbsSavedState.java:57)
+
+E/AndroidRuntime( 5955): 	at android.view.View$BaseSavedState.<init>(View.java:18661)
+
+E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:128)
+
+E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState.<init>(CustomNavigationView.java:120)
+
+E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:142)
+
+E/AndroidRuntime( 5955): 	at com.amaze.filemanager.ui.views.drawer.CustomNavigationView$SavedState$1.createFromParcel(CustomNavigationView.java:140)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readParcelable(Parcel.java:2104)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readValue(Parcel.java:2013)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readSparseArrayInternal(Parcel.java:2363)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readSparseArray(Parcel.java:1735)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readValue(Parcel.java:2070)
+
+E/AndroidRuntime( 5955): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+
+E/AndroidRuntime( 5955): 	at android.os.Bundle.unparcel(Bundle.java:249)
+
+E/AndroidRuntime( 5955): 	at android.os.Bundle.getSparseParcelableArray(Bundle.java:1273)
+
+E/AndroidRuntime( 5955): 	at com.android.internal.policy.impl.PhoneWindow.restoreHierarchyState(PhoneWindow.java:1741)
+
+E/AndroidRuntime( 5955): 	at android.app.Activity.onRestoreInstanceState(Activity.java:944)
+
+E/AndroidRuntime( 5955): 	at android.app.Activity.performRestoreInstanceState(Activity.java:916)
+
+E/AndroidRuntime( 5955): 	at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1138)
+
+E/AndroidRuntime( 5955): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2173)
+
+E/AndroidRuntime( 5955): 	... 11 more
+
+26_5_005
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+27_6_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+28_5_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+29_1_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+30_6_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+31_7_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+32_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+33_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+34_3_012
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+35_5_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

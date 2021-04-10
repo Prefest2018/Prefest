@@ -1,0 +1,1758 @@
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 228.305999994 s
+
+jacoco time: 5.00600004196 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 311.421000004 s
+
+jacoco time: 5.00400018692 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1034-1813 ,target branch is: 1034-1812
+interests are:
+showampm      1    22     Miscellaneous
+discovered tags are : 4_003 4_004 6_020 4_005 2_005 2_007 2_012 4_001 8_029 5_006 5_018 5_004 3_002 3_003 1_012 5_024 3_000 1_020 5_003 3_012 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 725-1306 ,target branch is: 725-1305
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 8_008 8_007 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1577-2770 ,target branch is: 1577-2771
+interests are:
+screen_orientation      Landscape (Horizontal)    23     Appearance
+discovered tags are : 8_008 8_007 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 736-1327_0 ,target branch is: 736-1327_0
+interests are:
+memo_text          20     Always On Memo
+discovered tags are : 6_009 6_008 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 767-1375 ,target branch is: 767-1374
+interests are:
+double_tap_action      Turn the screen on    6     Gestures & actions
+discovered tags are : 7_004 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 982-1727 ,target branch is: 982-1728
+interests are:
+watchface_battery      Shown    16     Styles
+discovered tags are : 4_003 4_004 4_005 2_005 2_007 2_012 4_001 8_029 3_002 3_003 1_012 3_000 1_020 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 47-89 ,target branch is: 47-88
+interests are:
+enabled      0    0     General
+discovered tags are : 7_008 7_009 2_023 2_024 2_025 2_020 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_016 2_017 2_018 2_019 2_014 2_015 2_010 2_011 5_008 5_009 5_006 5_007 5_004 5_005 5_003 2_009 5_011 5_012 5_010 7_021 5_019 7_024 5_017 7_022 5_018 7_023 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 7_011 5_029 7_012 5_024 5_025 6_000 8_011 8_010 8_013 8_012 8_015 6_001 8_014 8_017 6_003 8_016 6_004 3_020 1_015 3_021 1_016 1_013 1_014 3_024 3_025 3_022 3_023 4_003 4_009 8_026 4_001 8_028 4_002 8_027 8_029 3_019 1_024 1_022 1_023 3_011 4_014 4_015 4_016 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 4_020 4_021 8_006 8_008 8_007 1_000 1_001 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 363-676 ,target branch is: 363-677
+interests are:
+showampm      0    22     Miscellaneous
+discovered tags are : 6_020 6_009 5_018 6_008 3_012 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 766-1373 ,target branch is: 766-1372
+interests are:
+battery_saver      0    26     Behaviour
+discovered tags are : 4_003 4_004 4_005 7_008 6_021 8_013 6_008 4_001 6_009 5_006 5_004 7_004 5_003 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 215-389 ,target branch is: 215-388
+interests are:
+raise_to_wake      1    27     Behaviour
+discovered tags are : 2_009 2_023 2_024 2_025 2_020 2_021 2_022 1_015 1_016 1_013 1_014 2_016 2_017 2_018 2_019 2_014 2_015 2_010 2_011 8_029 7_011 1_024 7_012 1_022 1_000 1_023 1_001 3_011 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 720-1294 ,target branch is: 720-1295
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 8_008 8_007 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 769-1378 ,target branch is: 769-1379
+interests are:
+swipe_up_action      Turn the screen on    7     Gestures & actions
+discovered tags are : 7_004 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 449-804 ,target branch is: 449-805
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 7_008 6_021 2_005 2_007 2_012 8_013 6_008 8_004 8_008 8_007 6_009 5_006 5_004 7_004 5_003 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 1444-2554 ,target branch is: 1444-2555
+interests are:
+proximity_to_lock      1    33     Behaviour
+discovered tags are : 2_001 6_005 2_002 8_010 2_003 8_012 6_002 3_006 1_019 3_020 1_013 7_006 7_029 6_011 8_022 4_021 4_000 2_011 4_002 5_000 3_016 7_010 1_002 5_007 5_005 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 722-1298 ,target branch is: 722-1299
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 8_008 8_007 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 774-1389 ,target branch is: 774-1388
+interests are:
+notifications_alerts      1    28     Behaviour
+discovered tags are : 7_008 6_021 2_005 2_007 8_013 6_008 6_009 3_002 3_003 1_012 3_000 7_004 4_003 4_004 4_005 2_012 8_004 4_001 8_008 8_029 8_007 5_006 5_004 7_015 1_020 5_003 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 213-385 ,target branch is: 213-384
+interests are:
+persistent_notification      0    37     Miscellaneous
+enabled      1    0     General
+discovered tags are : 7_008 7_009 2_023 2_024 2_025 2_020 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_016 2_017 2_018 2_019 2_014 2_015 2_010 2_011 5_008 5_009 5_006 5_007 5_004 5_005 5_003 2_009 5_011 5_012 5_010 7_021 5_019 7_024 5_017 7_022 5_018 7_023 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 7_011 5_029 7_012 5_024 5_025 6_000 8_011 8_010 8_013 8_012 8_015 6_001 8_014 8_017 6_003 8_016 6_004 3_020 1_015 3_021 1_016 1_013 1_014 3_024 3_025 3_022 3_023 4_003 4_009 8_026 4_001 8_028 4_002 8_027 8_029 3_019 1_024 1_022 1_023 3_011 4_014 4_015 4_016 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 4_020 4_021 8_006 8_008 8_007 1_000 1_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 501-881 ,target branch is: 501-882
+interests are:
+showampm      1    22     Miscellaneous
+discovered tags are : 6_020 6_009 5_018 6_008 5_024 3_012 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 825-1483 ,target branch is: 825-1482
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 7_008 6_021 2_005 2_007 8_013 6_008 8_004 8_008 8_007 6_009 5_006 5_004 7_004 5_003 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 702-1265 ,target branch is: 702-1266
+interests are:
+movement_style      Move the widget automatically    31     Behaviour
+discovered tags are : 8_029 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 773-1387 ,target branch is: 773-1386
+interests are:
+stop_delay      Disabled    2     Automatic Rules
+discovered tags are : 4_003 4_004 4_005 7_008 2_005 2_007 2_012 1_012 4_001 7_004 7_015 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 772-1385 ,target branch is: 772-1384
+interests are:
+auto_brightness      0    32     Behaviour
+discovered tags are : 7_008 6_021 6_009 6_008 7_004 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 723-1300 ,target branch is: 723-1301
+interests are:
+screen_orientation      Portrait (Vertical)    23     Appearance
+discovered tags are : 8_008 8_007 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 770-1381 ,target branch is: 770-1380
+interests are:
+proximity_to_lock      1    33     Behaviour
+discovered tags are : 7_008 6_021 2_005 2_007 8_013 6_008 6_009 3_002 3_003 1_012 3_000 7_004 4_003 4_004 4_005 2_012 8_004 4_001 8_008 8_029 8_007 5_006 5_004 7_015 1_020 5_003 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 775-1390 ,target branch is: 775-1391
+interests are:
+doze_mode      1    34     Miscellaneous
+discovered tags are : 8_029 2_005 2_007 2_012 3_002 3_003 1_012 3_000 1_020 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 980-1725 ,target branch is: 980-1724
+interests are:
+watchface_battery      Hidden    16     Styles
+discovered tags are : 7_008 6_021 8_013 6_008 8_004 8_008 8_007 6_009 5_006 5_004 7_004 7_015 5_003 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 1189-2064 ,target branch is: 1189-2065
+interests are:
+ass_musicactive      1    -1     null
+discovered tags are : 7_008 6_021 2_005 2_007 8_013 6_008 6_009 3_002 3_003 1_012 3_000 7_004 4_003 4_004 4_005 2_012 8_004 4_001 8_008 8_029 8_007 5_006 5_004 7_015 1_020 5_003 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 1038-1820 ,target branch is: 1038-1824
+interests are:
+watchface_battery      Shown    16     Styles
+discovered tags are : 3_012 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 777-1394 ,target branch is: 777-1395
+interests are:
+google_now_shortcut      0    12     Shortcuts
+discovered tags are : 2_005 2_007 2_012 8_004 1_012 1_020 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 776-1393 ,target branch is: 776-1392
+interests are:
+camera_shortcut      1    11     Shortcuts
+discovered tags are : 8_029 2_005 2_007 2_012 3_002 3_003 3_000 7_015 1_020 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 737-1328_1 ,target branch is: 737-1328_1
+interests are:
+memo_text          20     Always On Memo
+discovered tags are : 4_003 4_004 4_005 7_008 6_021 8_013 6_008 8_004 4_001 8_008 8_007 6_009 5_006 5_004 3_002 3_003 7_004 7_015 5_003 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 212-382 ,target branch is: 212-383
+interests are:
+enabled      0    0     General
+discovered tags are : 7_008 7_009 2_023 2_024 2_025 2_020 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_016 2_017 2_018 2_019 2_014 2_015 2_010 2_011 5_008 5_009 5_006 5_007 5_004 5_005 5_003 2_009 5_011 5_012 5_010 7_021 5_019 7_024 5_017 7_022 5_018 7_023 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 7_011 5_029 7_012 5_024 5_025 6_000 8_011 8_010 8_013 8_012 8_015 6_001 8_014 8_017 6_003 8_016 6_004 3_020 1_015 3_021 1_016 1_013 1_014 3_024 3_025 3_022 3_023 4_003 4_009 8_026 4_001 8_028 4_002 8_027 8_029 3_019 1_024 1_022 1_023 3_011 4_014 4_015 4_016 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 4_020 4_021 8_006 8_008 8_007 1_000 1_001 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 736-1326_2 ,target branch is: 736-1326_2
+interests are:
+memo_text          20     Always On Memo
+discovered tags are : 4_003 4_004 4_005 7_008 6_021 2_005 2_007 2_012 8_013 8_004 4_001 8_008 8_029 8_007 5_006 5_004 3_002 3_003 1_012 3_000 7_004 7_015 1_020 5_003 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 771-1382 ,target branch is: 771-1383
+interests are:
+proximity_to_lock      1    33     Behaviour
+discovered tags are : 7_008 6_021 2_005 2_007 8_013 6_008 6_009 3_002 3_003 1_012 3_000 7_004 4_003 4_004 4_005 2_012 8_004 4_001 8_008 8_029 8_007 5_006 5_004 7_015 1_020 5_003 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 214-386 ,target branch is: 214-387
+interests are:
+notifications_alerts      1    28     Behaviour
+discovered tags are : 7_008 7_009 2_023 2_024 2_025 2_020 2_021 2_022 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 2_016 2_017 2_018 2_019 2_014 2_015 2_010 2_011 5_008 5_009 5_006 5_007 5_004 5_005 5_003 2_009 5_011 5_012 5_010 7_021 5_019 7_024 5_017 7_022 5_018 7_023 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 7_011 5_029 7_012 5_024 5_025 6_000 8_011 8_010 8_013 8_012 8_015 6_001 8_014 8_017 6_003 8_016 6_004 3_020 1_015 3_021 1_016 1_013 1_014 3_024 3_025 3_022 3_023 4_003 4_009 8_026 4_001 8_028 4_002 8_027 8_029 3_019 1_024 1_022 1_023 3_011 4_014 4_015 4_016 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 4_020 4_021 8_006 8_008 8_007 1_000 1_001 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 806-1444 ,target branch is: 806-1445
+interests are:
+exit_animation      Fade out    25     Appearance
+discovered tags are : 4_003 4_004 7_008 6_021 2_005 2_007 8_013 6_008 8_004 4_001 8_008 8_029 8_007 6_009 5_006 5_004 3_002 3_003 1_012 3_000 7_004 7_015 1_020 5_003 
+--------------------------------
+NO.36 Scene:
+discovered in ineration NO. 0
+origin branch is: 807-1446 ,target branch is: 807-1447
+interests are:
+exit_animation      Slide out    25     Appearance
+discovered tags are : 4_003 4_004 7_008 6_021 2_005 2_007 8_013 6_008 8_004 4_001 8_008 8_029 8_007 6_009 5_006 5_004 3_002 3_003 1_012 3_000 7_004 7_015 1_020 5_003 
+--------------------------------
+NO.37 Scene:
+discovered in ineration NO. 0
+origin branch is: 778-1398 ,target branch is: 778-1397
+interests are:
+auto_brightness      0    32     Behaviour
+discovered tags are : 7_008 6_021 6_009 6_008 7_004 
+--------------------------------
+NO.38 Scene:
+discovered in ineration NO. 0
+origin branch is: 1057-1851 ,target branch is: 1057-1852
+interests are:
+greenify_enabled      1    35     Miscellaneous
+discovered tags are : 4_004 4_005 7_008 2_005 2_007 8_004 4_001 8_008 8_029 8_007 5_004 3_003 1_012 3_000 7_004 1_020 5_003 
+--------------------------------
+index.1,  interestcase 2_005 start:
+tagetlogs are:[725-1305, 720-1295, 1034-1812, 736-1326_2, 1189-2065, 449-805, 825-1482, 776-1392, 774-1388, 771-1383, 982-1728, 770-1380, 723-1301, 775-1391, 722-1299, 807-1447, 773-1386, 777-1395, 1057-1852]
+current preference, name:stop_delay, value:Disabled
+current preference, name:camera_shortcut, value:1
+current preference, name:google_now_shortcut, value:0
+current preference, name:watchface_battery, value:Shown
+current preference, name:memo_text, value:
+current preference, name:showampm, value:1
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:exit_animation, value:Slide out
+current preference, name:notifications_alerts, value:1
+current preference, name:proximity_to_lock, value:1
+current preference, name:doze_mode, value:1
+current preference, name:greenify_enabled, value:1
+current systemservice, name: ass_musicactive, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_1_2_005.py]
+
+OK
+
+consumed time: 96.6260001659 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_1_2_005.py", line 251, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_1_2_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.4079999924 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [720-1295, 1034-1812, 736-1326_2, 1189-2065, 449-805, 825-1482, 776-1392, 982-1728, 723-1301, 722-1299, 807-1447, 773-1386, 777-1395]
+uncovered targets are: [725-1305, 774-1388, 771-1383, 770-1380, 775-1391, 1057-1852]
+interestcase 0_1_2_005 end
+
+index.2,  interestcase 8_008 start:
+tagetlogs are:[725-1305, 737-1328_1, 213-384, 774-1388, 771-1383, 770-1380, 806-1445, 1057-1852, 980-1724, 214-387]
+current preference, name:enabled, value:1
+current preference, name:watchface_battery, value:Hidden
+current preference, name:memo_text, value:
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:exit_animation, value:Fade out
+current preference, name:notifications_alerts, value:1
+current preference, name:proximity_to_lock, value:1
+current preference, name:greenify_enabled, value:1
+current preference, name:persistent_notification, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_2_8_008.py]
+
+OK
+
+consumed time: 83.771999836 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_2_8_008.py", line 236, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_2_8_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 21.0329999924 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [771-1383, 770-1380, 806-1445, 980-1724]
+uncovered targets are: [725-1305, 737-1328_1, 213-384, 774-1388, 1057-1852, 214-387]
+interestcase 0_2_8_008 end
+
+index.3,  interestcase 8_007 start:
+tagetlogs are:[725-1305, 737-1328_1, 213-384, 774-1388, 1057-1852, 214-387]
+current preference, name:enabled, value:1
+current preference, name:memo_text, value:
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:notifications_alerts, value:1
+current preference, name:greenify_enabled, value:1
+current preference, name:persistent_notification, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_3_8_007.py]
+
+OK
+
+consumed time: 73.7330000401 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_3_8_007.py", line 225, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_3_8_007.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.4719998837 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: []
+uncovered targets are: [725-1305, 737-1328_1, 213-384, 774-1388, 1057-1852, 214-387]
+target: 725-1305 uncovered, added to then retrial list!
+loclog: 737-1328_1 deleted !
+target: 213-384 uncovered, added to then retrial list!
+target: 774-1388 uncovered, added to then retrial list!
+target: 1057-1852 uncovered, added to then retrial list!
+target: 214-387 uncovered, added to then retrial list!
+interestcase 0_3_8_007 end
+
+index.4,  interestcase 3_012 start:
+tagetlogs are:[501-882, 1038-1824]
+current preference, name:watchface_battery, value:Shown
+current preference, name:showampm, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_4_3_012.py]
+
+OK
+
+consumed time: 22.4589998722 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 71.3220000267 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [501-882, 1038-1824]
+uncovered targets are: []
+interestcase 0_4_3_012 end
+
+index.5,  interestcase 6_009 start:
+tagetlogs are:[772-1384, 736-1327_0, 363-677, 778-1397, 766-1372]
+current preference, name:memo_text, value:
+current preference, name:showampm, value:0
+current preference, name:battery_saver, value:0
+current preference, name:auto_brightness, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_5_6_009.py]
+
+OK
+
+consumed time: 51.984000206 s
+
+jacoco time: 5.00599980354 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_5_6_009.py", line 219, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_5_6_009.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.0269999504 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [772-1384, 766-1372]
+uncovered targets are: [736-1327_0, 363-677, 778-1397]
+interestcase 0_5_6_009 end
+
+index.6,  interestcase 6_008 start:
+tagetlogs are:[736-1327_0, 363-677, 778-1397]
+current preference, name:memo_text, value:
+current preference, name:showampm, value:0
+current preference, name:auto_brightness, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_6_6_008.py]
+
+OK
+
+consumed time: 46.5199999809 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_6_6_008.py", line 216, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_6_6_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.1059999466 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [736-1327_0, 363-677, 778-1397]
+loclog: 736-1327_0 deleted !
+target: 363-677 uncovered, added to then retrial list!
+target: 778-1397 uncovered, added to then retrial list!
+interestcase 0_6_6_008 end
+
+index.7,  interestcase 8_008 start:
+tagetlogs are:[1577-2771, 212-383, 47-88]
+current preference, name:enabled, value:0
+current preference, name:screen_orientation, value:Landscape (Horizontal)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_7_8_008.py]
+
+OK
+
+consumed time: 21.4849998951 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_7_8_008.py", line 212, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_7_8_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.8090000153 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: [1577-2771, 212-383, 47-88]
+uncovered targets are: []
+interestcase 0_7_8_008 end
+
+index.8,  interestcase 8_029 start:
+tagetlogs are:[702-1266, 215-388, 775-1391]
+current preference, name:raise_to_wake, value:1
+current preference, name:movement_style, value:Move the widget automatically
+current preference, name:doze_mode, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_8_8_029.py]
+
+OK
+
+consumed time: 31.7239999771 s
+
+jacoco time: 5.00900006294 s
+
+FAIL
+
+str(e):		Message: UiSelector[RESOURCE_ID=com.tomer.alwayson:id/preview]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_8_8_029.py", line 213, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[RESOURCE_ID=com.tomer.alwayson:id/preview]
+
+
+
+
+
+consumed time: 20.0480000973 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [702-1266, 215-388, 775-1391]
+target: 702-1266 uncovered, added to then retrial list!
+target: 215-388 uncovered, added to then retrial list!
+target: 775-1391 uncovered, added to then retrial list!
+interestcase 0_8_8_029 end
+
+index.9,  interestcase 2_001 start:
+tagetlogs are:[1444-2555]
+current preference, name:proximity_to_lock, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_9_2_001.py]
+
+OK
+
+consumed time: 23.0149998665 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 12.1320002079 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: [1444-2555]
+uncovered targets are: []
+interestcase 0_9_2_001 end
+
+index.10,  interestcase 7_004 start:
+tagetlogs are:[767-1374, 769-1379]
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:swipe_up_action, value:Turn the screen on
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_10_7_004.py]
+
+OK
+
+consumed time: 21.6830000877 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_10_7_004.py", line 211, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_10_7_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.6610000134 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: [767-1374]
+uncovered targets are: [769-1379]
+interestcase 0_10_7_004 end
+
+index.11,  interestcase 7_004 start:
+tagetlogs are:[769-1379]
+current preference, name:swipe_up_action, value:Turn the screen on
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_11_7_004.py]
+
+OK
+
+consumed time: 17.7369999886 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_11_7_004.py", line 208, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_11_7_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.1779999733 s
+
+jacoco time: 5.01099991798 s
+
+covered targets are: []
+uncovered targets are: [769-1379]
+target: 769-1379 uncovered, added to then retrial list!
+interestcase 0_11_7_004 end
+
+index.12,  interestcase 7_004 start:
+tagetlogs are:[769-1379]
+current preference, name:enabled, value:1
+current preference, name:double_tap_action, value:Off
+current preference, name:swipe_up_action, value:Turn the screen on
+current preference, name:battery_saver, value:1
+current preference, name:raise_to_wake, value:1
+current preference, name:notifications_alerts, value:0
+current preference, name:persistent_notification, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_12_7_004.py]
+
+OK
+
+consumed time: 63.0360000134 s
+
+jacoco time: 5.00999999046 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_12_7_004.py", line 228, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_12_7_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.1419999599 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [769-1379]
+uncovered targets are: []
+target: 769-1379 covered after retrial!
+interestcase 0_12_7_004 end
+
+index.13,  interestcase 2_007 start:
+tagetlogs are:[775-1391]
+current preference, name:enabled, value:0
+current preference, name:stop_delay, value:1 Minute
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:watchface_battery, value:Hidden
+current preference, name:showampm, value:0
+current preference, name:screen_orientation, value:Landscape (Horizontal)
+current preference, name:battery_saver, value:0
+current preference, name:notifications_alerts, value:0
+current preference, name:auto_brightness, value:0
+current preference, name:proximity_to_lock, value:0
+current preference, name:doze_mode, value:1
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_13_2_007.py]
+
+OK
+
+consumed time: 80.2269999981 s
+
+jacoco time: 5.01099991798 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_13_2_007.py", line 246, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_13_2_007.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.3929998875 s
+
+jacoco time: 5.0070002079 s
+
+covered targets are: []
+uncovered targets are: [775-1391]
+loclog: 775-1391 uncovered after retrial, deleted!
+interestcase 0_13_2_007 end
+
+index.14,  interestcase 2_009 start:
+tagetlogs are:[215-388]
+current preference, name:enabled, value:1
+current preference, name:raise_to_wake, value:1
+current preference, name:notifications_alerts, value:0
+current preference, name:persistent_notification, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_14_2_009.py]
+
+OK
+
+consumed time: 44.7160000801 s
+
+jacoco time: 5.00900006294 s
+
+OK
+
+consumed time: 17.2590000629 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: []
+uncovered targets are: [215-388]
+loclog: 215-388 uncovered after retrial, deleted!
+interestcase 0_14_2_009 end
+
+index.15,  interestcase 8_029 start:
+tagetlogs are:[702-1266]
+current preference, name:enabled, value:1
+current preference, name:stop_delay, value:Disabled
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:camera_shortcut, value:0
+current preference, name:google_now_shortcut, value:0
+current preference, name:watchface_battery, value:Hidden
+current preference, name:showampm, value:0
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:battery_saver, value:0
+current preference, name:raise_to_wake, value:0
+current preference, name:notifications_alerts, value:0
+current preference, name:movement_style, value:Move the widget automatically
+current preference, name:auto_brightness, value:0
+current preference, name:proximity_to_lock, value:0
+current preference, name:doze_mode, value:0
+current preference, name:persistent_notification, value:1
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_15_8_029.py]
+
+OK
+
+consumed time: 113.521000147 s
+
+jacoco time: 5.00899982452 s
+
+OK
+
+consumed time: 17.3209998608 s
+
+jacoco time: 5.01200008392 s
+
+covered targets are: []
+uncovered targets are: [702-1266]
+loclog: 702-1266 uncovered after retrial, deleted!
+interestcase 0_15_8_029 end
+
+index.16,  interestcase 7_008 start:
+tagetlogs are:[778-1397]
+current preference, name:enabled, value:1
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:watchface_battery, value:Shown
+current preference, name:screen_orientation, value:Landscape (Horizontal)
+current preference, name:battery_saver, value:1
+current preference, name:raise_to_wake, value:1
+current preference, name:notifications_alerts, value:0
+current preference, name:auto_brightness, value:0
+current preference, name:proximity_to_lock, value:0
+current preference, name:persistent_notification, value:1
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_16_7_008.py]
+
+OK
+
+consumed time: 75.7649998665 s
+
+jacoco time: 5.00900006294 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_16_7_008.py", line 240, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_16_7_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.6509997845 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: [778-1397]
+uncovered targets are: []
+target: 778-1397 covered after retrial!
+interestcase 0_16_7_008 end
+
+index.17,  interestcase 6_020 start:
+tagetlogs are:[363-677]
+current preference, name:enabled, value:0
+current preference, name:watchface_battery, value:Shown
+current preference, name:showampm, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_17_6_020.py]
+
+OK
+
+consumed time: 30.2649998665 s
+
+jacoco time: 5.0070002079 s
+
+OK
+
+consumed time: 103.210000038 s
+
+jacoco time: 5.01399993896 s
+
+covered targets are: []
+uncovered targets are: [363-677]
+loclog: 363-677 uncovered after retrial, deleted!
+interestcase 0_17_6_020 end
+
+index.18,  interestcase 7_009 start:
+tagetlogs are:[214-387]
+current preference, name:enabled, value:1
+current preference, name:notifications_alerts, value:1
+current preference, name:persistent_notification, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_18_7_009.py]
+
+OK
+
+consumed time: 39.496999979 s
+
+jacoco time: 5.00900006294 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_18_7_009.py", line 238, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"T\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_18_7_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 61.7490000725 s
+
+jacoco time: 5.01099991798 s
+
+covered targets are: [214-387]
+uncovered targets are: []
+target: 214-387 covered after retrial!
+interestcase 0_18_7_009 end
+
+index.19,  interestcase 4_004 start:
+tagetlogs are:[1057-1852]
+current preference, name:enabled, value:0
+current preference, name:stop_delay, value:1 Minute
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:watchface_battery, value:Hidden
+current preference, name:showampm, value:0
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:battery_saver, value:1
+current preference, name:notifications_alerts, value:0
+current preference, name:auto_brightness, value:0
+current preference, name:proximity_to_lock, value:0
+current preference, name:doze_mode, value:1
+current preference, name:greenify_enabled, value:1
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_19_4_004.py]
+
+OK
+
+consumed time: 86.4990000725 s
+
+jacoco time: 5.00900006294 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_19_4_004.py", line 249, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_19_4_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.995000124 s
+
+jacoco time: 5.00999999046 s
+
+covered targets are: []
+uncovered targets are: [1057-1852]
+loclog: 1057-1852 uncovered after retrial, deleted!
+interestcase 0_19_4_004 end
+
+index.20,  interestcase 6_021 start:
+tagetlogs are:[774-1388]
+current preference, name:enabled, value:0
+current preference, name:stop_delay, value:Disabled
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:watchface_battery, value:Shown
+current preference, name:screen_orientation, value:Landscape (Horizontal)
+current preference, name:battery_saver, value:1
+current preference, name:notifications_alerts, value:1
+current preference, name:auto_brightness, value:1
+current preference, name:proximity_to_lock, value:0
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_20_6_021.py]
+
+OK
+
+consumed time: 74.1659998894 s
+
+jacoco time: 5.00900006294 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_20_6_021.py", line 240, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_20_6_021.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.1600000858 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [774-1388]
+uncovered targets are: []
+target: 774-1388 covered after retrial!
+interestcase 0_20_6_021 end
+
+index.21,  interestcase 2_023 start:
+tagetlogs are:[213-384]
+current preference, name:enabled, value:1
+current preference, name:persistent_notification, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_21_2_023.py]
+
+OK
+
+consumed time: 32.7409999371 s
+
+jacoco time: 5.0110001564 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_21_2_023.py", line 238, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Raleway Dots\")", "new UiSelector().className(\"android.widget.CheckedTextView\").instance(7)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_21_2_023.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 117.835999966 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: [213-384]
+uncovered targets are: []
+target: 213-384 covered after retrial!
+interestcase 0_21_2_023 end
+
+index.22,  interestcase 2_012 start:
+tagetlogs are:[725-1305]
+current preference, name:enabled, value:0
+current preference, name:stop_delay, value:1 Minute
+current preference, name:double_tap_action, value:Turn the screen on
+current preference, name:camera_shortcut, value:0
+current preference, name:google_now_shortcut, value:1
+current preference, name:watchface_battery, value:Hidden
+current preference, name:showampm, value:0
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:battery_saver, value:0
+current preference, name:notifications_alerts, value:0
+current preference, name:auto_brightness, value:0
+current preference, name:proximity_to_lock, value:0
+current preference, name:doze_mode, value:0
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_22_2_012.py]
+
+OK
+
+consumed time: 87.6159999371 s
+
+jacoco time: 5.1970000267 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_22_2_012.py", line 254, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase0_22_2_012.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.0750000477 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: []
+uncovered targets are: [725-1305]
+loclog: 725-1305 uncovered after retrial, deleted!
+interestcase 0_22_2_012 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 736-1326_0 ,target branch is: 736-1326_0
+interests are:
+memo_text      random    20     Always On Memo
+discovered tags are : 0_6_6_008 0_7_8_008 0_8_8_029 0_10_7_004 0_20_6_021 0_16_7_008 0_3_8_007 0_2_8_008 0_19_4_004 0_15_8_029 0_22_2_012 0_1_2_005 0_13_2_007 0_12_7_004 0_5_6_009 0_11_7_004 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 1196-2077 ,target branch is: 1196-2076
+interests are:
+ass_musicactive      0    -1     null
+discovered tags are : 0_1_2_005 0_2_8_008 
+--------------------------------
+index.1,  interestcase 0_6_6_008 start:
+tagetlogs are:[736-1326_0]
+current preference, name:memo_text, value:random
+current preference, name:showampm, value:0
+current preference, name:auto_brightness, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_1_0_6_6_008.py]
+
+OK
+
+consumed time: 49.239000082 s
+
+jacoco time: 5.0119998455 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_1_0_6_6_008.py", line 216, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_1_0_6_6_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.1850001812 s
+
+jacoco time: 5.00599980354 s
+
+covered targets are: [736-1326_0]
+uncovered targets are: []
+target: 736-1326_0 covered after retrial!
+interestcase 1_1_0_6_6_008 end
+
+index.2,  interestcase 0_1_2_005 start:
+tagetlogs are:[1196-2076]
+current preference, name:stop_delay, value:Disabled
+current preference, name:camera_shortcut, value:1
+current preference, name:google_now_shortcut, value:0
+current preference, name:watchface_battery, value:Shown
+current preference, name:memo_text, value:
+current preference, name:showampm, value:1
+current preference, name:screen_orientation, value:Portrait (Vertical)
+current preference, name:exit_animation, value:Slide out
+current preference, name:notifications_alerts, value:1
+current preference, name:proximity_to_lock, value:1
+current preference, name:doze_mode, value:1
+current preference, name:greenify_enabled, value:1
+current systemservice, name: ass_musicactive, value: 1
+current systemservice, name: ass_musicactive, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_2_0_1_2_005.py]
+
+OK
+
+consumed time: 153.292000055 s
+
+jacoco time: 5.0110001564 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_2_0_1_2_005.py", line 251, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase1_2_0_1_2_005.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.0450000763 s
+
+jacoco time: 5.01300001144 s
+
+covered targets are: []
+uncovered targets are: [1196-2076]
+loclog: 1196-2076 uncovered after retrial, deleted!
+interestcase 1_2_0_1_2_005 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 737-1328_0 ,target branch is: 737-1328_0
+interests are:
+memo_text      random    20     Always On Memo
+discovered tags are : 1_1_0_6_6_008 
+--------------------------------
+index.1,  interestcase 1_1_0_6_6_008 start:
+tagetlogs are:[737-1328_0]
+current preference, name:memo_text, value:random
+current preference, name:showampm, value:0
+current preference, name:auto_brightness, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase2_1_1_1_0_6_6_008.py]
+
+OK
+
+consumed time: 51.8159999847 s
+
+jacoco time: 5.02300000191 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase2_1_1_1_0_6_6_008.py", line 216, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.android.browser:id/url\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\alwayson\testcase\interestcases\testcase2_1_1_1_0_6_6_008.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.2829999924 s
+
+jacoco time: 5.00900006294 s
+
+covered targets are: [737-1328_0]
+uncovered targets are: []
+target: 737-1328_0 covered after retrial!
+interestcase 2_1_1_1_0_6_6_008 end
+

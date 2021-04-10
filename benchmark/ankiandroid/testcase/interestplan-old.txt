@@ -1,0 +1,2601 @@
+This exploration took time: 144s
+current preference, name:resched, value:0
+current preference, name:stepsOn, value:0
+current preference, name:safeDisplay, value:1
+current preference, name:useInputTag, value:1
+current preference, name:fixHebrewText, value:1
+current preference, name:providerEnabled, value:0
+current preference, name:tts, value:1
+current preference, name:dictionary, value:Aedict
+current preference, name:convertFenText, value:1
+current preference, name:scrolling_buttons, value:1
+current preference, name:double_scrolling, value:1
+current preference, name:html_javascript_debugging, value:1
+current preference, name:advanced_statistics_enabled, value:1
+current preference, name:dayTheme, value:Plain
+current preference, name:nightTheme, value:Dark
+current preference, name:overrideFontBehavior, value:Always
+current preference, name:customButtonUndo, value:Menu only
+current preference, name:customButtonScheduleCard, value:Menu only
+current preference, name:customButtonMarkCard, value:Menu only
+current preference, name:customButtonEditCard, value:Menu only
+current preference, name:customButtonAddCard, value:Menu only
+current preference, name:customButtonReplay, value:Menu only
+current preference, name:customButtonSelectTts, value:Disabled
+current preference, name:customButtonDeckOptions, value:Disabled
+current preference, name:customButtonBury, value:Show if room
+current preference, name:customButtonSuspend, value:Show if room
+current preference, name:customButtonDelete, value:Show if room
+current preference, name:customButtonShowHideWhiteboard, value:Menu only
+current preference, name:customButtonClearWhiteboard, value:Menu only
+current preference, name:useCustomSyncServer, value:1
+current preference, name:syncFetchesMedia, value:0
+current preference, name:automaticSyncMode, value:1
+current preference, name:useCurrent, value:Decide by note type
+current preference, name:analyticsOptIn, value:0
+current preference, name:reportErrorMode, value:Always report
+current preference, name:minimumCardsDueForNotification, value:More than %d cards due
+current preference, name:widgetVibrate, value:1
+current preference, name:widgetBlink, value:1
+current preference, name:gestures, value:1
+current preference, name:gestureSwipeUp, value:Lookup expression
+current preference, name:gestureSwipeDown, value:Lookup expression
+current preference, name:gestureSwipeLeft, value:Lookup expression
+current preference, name:gestureSwipeRight, value:Lookup expression
+current preference, name:gestureDoubleTap, value:Lookup expression
+current preference, name:gestureTapTop, value:Lookup expression
+current preference, name:gestureTapBottom, value:Lookup expression
+current preference, name:gestureTapLeft, value:Lookup expression
+current preference, name:gestureTapRight, value:Lookup expression
+current preference, name:newSpread, value:New cards after reviews
+current preference, name:keepScreenOn, value:1
+current preference, name:fullscreenMode, value:Hide the system bars
+current preference, name:centerVertically, value:1
+current preference, name:showEstimates, value:1
+current preference, name:answerButtonPosition, value:Top
+current preference, name:showProgress, value:1
+current preference, name:showETA, value:0
+current preference, name:blackWhiteboard, value:0
+current preference, name:timeoutAnswer, value:1
+current preference, name:newBury, value:0
+current preference, name:revBury, value:0
+current preference, name:showAnswerTimer, value:1
+current preference, name:autoPlayAudio, value:1
+current preference, name:replayQuestion, value:1
+current preference, name:reminderEnabled, value:1
+current preference, name:resched, value:1
+current preference, name:stepsOn, value:1
+current preference, name:safeDisplay, value:0
+current preference, name:useInputTag, value:0
+current preference, name:fixHebrewText, value:0
+current preference, name:providerEnabled, value:1
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:convertFenText, value:0
+current preference, name:scrolling_buttons, value:0
+current preference, name:double_scrolling, value:0
+current preference, name:html_javascript_debugging, value:0
+current preference, name:advanced_statistics_enabled, value:0
+current preference, name:dayTheme, value:Light
+current preference, name:nightTheme, value:Black
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:customButtonUndo, value:Always show
+current preference, name:customButtonScheduleCard, value:Always show
+current preference, name:customButtonMarkCard, value:Always show
+current preference, name:customButtonEditCard, value:Show if room
+current preference, name:customButtonAddCard, value:Disabled
+current preference, name:customButtonReplay, value:Show if room
+current preference, name:customButtonSelectTts, value:Menu only
+current preference, name:customButtonDeckOptions, value:Menu only
+current preference, name:customButtonBury, value:Menu only
+current preference, name:customButtonSuspend, value:Menu only
+current preference, name:customButtonDelete, value:Menu only
+current preference, name:customButtonShowHideWhiteboard, value:Always show
+current preference, name:customButtonClearWhiteboard, value:Show if room
+current preference, name:useCustomSyncServer, value:0
+current preference, name:syncFetchesMedia, value:1
+current preference, name:automaticSyncMode, value:0
+current preference, name:useCurrent, value:Use current deck
+current preference, name:analyticsOptIn, value:1
+current preference, name:reportErrorMode, value:Ask me
+current preference, name:minimumCardsDueForNotification, value:Pending messages available
+current preference, name:widgetVibrate, value:0
+current preference, name:widgetBlink, value:0
+current preference, name:gestures, value:0
+current preference, name:gestureSwipeUp, value:No action
+current preference, name:gestureSwipeDown, value:No action
+current preference, name:gestureSwipeLeft, value:Answer recommended (green)
+current preference, name:gestureSwipeRight, value:Answer button 1
+current preference, name:gestureDoubleTap, value:No action
+current preference, name:gestureTapTop, value:Show answer
+current preference, name:gestureTapBottom, value:Show answer
+current preference, name:gestureTapLeft, value:Show answer
+current preference, name:gestureTapRight, value:Show answer
+current preference, name:newSpread, value:Mix new cards and reviews
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:showEstimates, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showProgress, value:0
+current preference, name:showETA, value:1
+current preference, name:blackWhiteboard, value:1
+current preference, name:timeoutAnswer, value:0
+current preference, name:newBury, value:1
+current preference, name:revBury, value:1
+current preference, name:showAnswerTimer, value:0
+current preference, name:autoPlayAudio, value:0
+current preference, name:replayQuestion, value:0
+current preference, name:reminderEnabled, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\precase_log.py]
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\precase_log.py", line 157, in <module>
+
+    scrollToClickElement(driver, "new UiSelector().text(\"Define custom steps\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\precase_log.py", line 98, in scrollToClickElement
+
+    element = scrollToFindElement(driver, str)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\precase_log.py", line 92, in scrollToFindElement
+
+    swipe(driver, 0.5, 0.2, 0.5, 0.55)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\precase_log.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=1000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 40.7369999886 s
+
+jacoco time: 5.00499987602 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\defaultprecase_log.py]
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\defaultprecase_log.py", line 155, in <module>
+
+    scrollToClickElement(driver, "new UiSelector().text(\"Reschedule\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\defaultprecase_log.py", line 98, in scrollToClickElement
+
+    element = scrollToFindElement(driver, str)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\defaultprecase_log.py", line 92, in scrollToFindElement
+
+    swipe(driver, 0.5, 0.2, 0.5, 0.55)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\allpreferencecases\defaultprecase_log.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=1000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 20.7430000305 s
+
+jacoco time: 5.00500011444 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1421-2544 ,target branch is: 1421-2549
+interests are:
+dictionary      Fora    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 3104-5812 ,target branch is: 3104-5813
+interests are:
+dictionary      Aedict    53     Plugins
+discovered tags are : 5_023 7_020 7_010 2_019 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 3121-5843 ,target branch is: 3121-5844
+interests are:
+scrolling_buttons      1    56     Plugins
+discovered tags are : 1_028 1_007 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1421-2544 ,target branch is: 1421-2547
+interests are:
+dictionary      Leo.org (App)    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 1421-2544 ,target branch is: 1421-2548
+interests are:
+dictionary      ColorDict/GoldenDict    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 3143-5883 ,target branch is: 3143-5884
+interests are:
+tts      1    52     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 3154-5905 ,target branch is: 3154-5906
+interests are:
+timeoutAnswer      1    126     Automatic display answer
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 3113-5826 ,target branch is: 3113-5827
+interests are:
+tts      1    52     Plugins
+discovered tags are : 1_028 1_007 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 3070-5749 ,target branch is: 3070-5750
+interests are:
+dictionary      Aedict    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 2979-5543 ,target branch is: 2979-5544
+interests are:
+html_javascript_debugging      1    59     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 2951-5477 ,target branch is: 2951-5476
+interests are:
+useInputTag      1    49     Workarounds
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 2897-5370 ,target branch is: 2897-5371
+interests are:
+html_javascript_debugging      1    59     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 3194-5983 ,target branch is: 3194-5982
+interests are:
+showETA      0    123     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 3548-6860_0 ,target branch is: 3548-6860_0
+interests are:
+deckPath          44     null
+discovered tags are : 3_004 2_017 4_011 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 685-1156 ,target branch is: 685-1157
+interests are:
+analyticsOptIn      1    93     AnkiDroid
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 3075-5760 ,target branch is: 3075-5759
+interests are:
+answerButtonPosition      Top    121     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 3164-5922 ,target branch is: 3164-5923
+interests are:
+keepScreenOn      1    114     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 2944-5463 ,target branch is: 2944-5464
+interests are:
+useInputTag      1    49     Workarounds
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 3027-5646 ,target branch is: 3027-5647
+interests are:
+timeoutAnswer      1    126     Automatic display answer
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 4465-8458 ,target branch is: 4465-8459
+interests are:
+overrideFontBehavior      Always    68     Fonts
+discovered tags are : 7_009 6_022 6_006 6_018 6_002 6_003 6_025 5_022 5_023 7_020 7_010 7_025 7_023 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 2971-5527 ,target branch is: 2971-5528
+interests are:
+timeoutAnswer      1    126     Automatic display answer
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 3078-5766 ,target branch is: 3078-5765
+interests are:
+answerButtonPosition      Top    121     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 4457_1 ,target branch is: 4457_1
+interests are:
+deckPath          44     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_001 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 4441_2 ,target branch is: 4441_2
+interests are:
+deckPath          44     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_001 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 2940-5456 ,target branch is: 2940-5455
+interests are:
+useInputTag      1    49     Workarounds
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 4721-8900 ,target branch is: 4721-8901
+interests are:
+tts      1    52     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 3123-5847 ,target branch is: 3123-5848
+interests are:
+scrolling_buttons      1    56     Plugins
+discovered tags are : 1_028 1_007 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 4779-9044 ,target branch is: 4779-9043
+interests are:
+fullscreenMode      Hide the system bars    115     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 2974-5533 ,target branch is: 2974-5534
+interests are:
+centerVertically      1    116     Display
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 1920-3321 ,target branch is: 1920-3320
+interests are:
+overrideFontBehavior      Always    68     Fonts
+discovered tags are : 7_009 6_022 6_006 6_018 6_002 6_003 6_025 5_022 5_023 7_020 7_010 7_025 7_023 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 5113_3 ,target branch is: 5113_3
+interests are:
+deckPath          44     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_001 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 3108-5818 ,target branch is: 3108-5819
+interests are:
+dictionary      Aedict    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 4372-8312 ,target branch is: 4372-8311
+interests are:
+minimumCardsDueForNotification      Pending messages available    95     Notifications
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 7_008 7_009 7_002 7_003 7_000 7_001 7_006 7_007 7_004 7_005 7_020 7_021 7_024 7_025 7_022 7_023 7_028 7_029 7_026 7_027 7_019 7_010 7_013 7_014 7_011 7_012 7_017 7_018 7_015 7_016 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 1_019 6_009 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_001 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 3109-5820 ,target branch is: 3109-5821
+interests are:
+tts      1    52     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 1421-2544 ,target branch is: 1421-2545
+interests are:
+dictionary      Aedict    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 1421-2544 ,target branch is: 1421-2546
+interests are:
+dictionary      Eijiro (Web)    53     Plugins
+discovered tags are : 2_009 4_014 4_016 7_009 6_022 2_028 2_023 6_006 4_010 6_002 6_003 6_025 2_022 3_028 3_007 3_026 7_020 7_025 7_023 3_002 3_025 3_001 4_009 2_019 2_013 6_018 4_023 5_022 5_023 7_010 1_028 1_006 1_007 1_026 1_005 1_024 5_004 
+--------------------------------
+index.1,  interestcase 5_023 start:
+tagetlogs are:[4441_2, 685-1157, 5113_3, 2940-5455, 2979-5544, 1920-3320, 2974-5534, 3075-5759, 3154-5906, 3027-5647, 2897-5371, 3143-5884, 4465-8459, 3108-5819, 4721-8901, 3078-5765, 3104-5813, 4457_1, 4779-9043, 3164-5923, 2944-5464, 4372-8311, 1421-2545, 2951-5476, 2971-5528, 3109-5821, 3070-5750, 3194-5982]
+current preference, name:deckPath, value:
+current preference, name:useInputTag, value:1
+current preference, name:tts, value:1
+current preference, name:dictionary, value:Aedict
+current preference, name:html_javascript_debugging, value:1
+current preference, name:overrideFontBehavior, value:Always
+current preference, name:analyticsOptIn, value:1
+current preference, name:minimumCardsDueForNotification, value:Pending messages available
+current preference, name:keepScreenOn, value:1
+current preference, name:fullscreenMode, value:Hide the system bars
+current preference, name:centerVertically, value:1
+current preference, name:answerButtonPosition, value:Top
+current preference, name:showETA, value:0
+current preference, name:timeoutAnswer, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_1_5_023.py]
+
+OK
+
+consumed time: 102.131999969 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_1_5_023.py", line 249, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.ichi2.anki:id/action_search\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_1_5_023.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 53.2479999065 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4441_2, 685-1157, 5113_3, 4457_1, 4372-8311]
+uncovered targets are: [2940-5455, 2979-5544, 1920-3320, 2974-5534, 3075-5759, 3154-5906, 3027-5647, 2897-5371, 3143-5884, 4465-8459, 3108-5819, 4721-8901, 3078-5765, 3104-5813, 4779-9043, 3164-5923, 2944-5464, 1421-2545, 2951-5476, 2971-5528, 3109-5821, 3070-5750, 3194-5982]
+interestcase 0_1_5_023 end
+
+index.2,  interestcase 7_020 start:
+tagetlogs are:[2940-5455, 2979-5544, 1920-3320, 2974-5534, 3075-5759, 3154-5906, 3027-5647, 2897-5371, 3143-5884, 4465-8459, 3108-5819, 4721-8901, 3078-5765, 3104-5813, 4779-9043, 3164-5923, 2944-5464, 1421-2545, 2951-5476, 2971-5528, 3109-5821, 3070-5750, 3194-5982]
+current preference, name:useInputTag, value:1
+current preference, name:tts, value:1
+current preference, name:dictionary, value:Aedict
+current preference, name:html_javascript_debugging, value:1
+current preference, name:overrideFontBehavior, value:Always
+current preference, name:keepScreenOn, value:1
+current preference, name:fullscreenMode, value:Hide the system bars
+current preference, name:centerVertically, value:1
+current preference, name:answerButtonPosition, value:Top
+current preference, name:showETA, value:0
+current preference, name:timeoutAnswer, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_2_7_020.py]
+
+OK
+
+consumed time: 89.8919999599 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_2_7_020.py", line 244, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Menu only\")", "new UiSelector().className(\"android.widget.TextView\").instance(14)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_2_7_020.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 81.6579999924 s
+
+jacoco time: 5.00899982452 s
+
+covered targets are: []
+uncovered targets are: [2940-5455, 2979-5544, 1920-3320, 2974-5534, 3075-5759, 3154-5906, 3027-5647, 2897-5371, 3143-5884, 4465-8459, 3108-5819, 4721-8901, 3078-5765, 3104-5813, 4779-9043, 3164-5923, 2944-5464, 1421-2545, 2951-5476, 2971-5528, 3109-5821, 3070-5750, 3194-5982]
+target: 2940-5455 uncovered, added to then retrial list!
+target: 2979-5544 uncovered, added to then retrial list!
+target: 1920-3320 uncovered, added to then retrial list!
+target: 2974-5534 uncovered, added to then retrial list!
+target: 3075-5759 uncovered, added to then retrial list!
+target: 3154-5906 uncovered, added to then retrial list!
+target: 3027-5647 uncovered, added to then retrial list!
+target: 2897-5371 uncovered, added to then retrial list!
+target: 3143-5884 uncovered, added to then retrial list!
+target: 4465-8459 uncovered, added to then retrial list!
+target: 3108-5819 uncovered, added to then retrial list!
+target: 4721-8901 uncovered, added to then retrial list!
+target: 3078-5765 uncovered, added to then retrial list!
+target: 3104-5813 uncovered, added to then retrial list!
+target: 4779-9043 uncovered, added to then retrial list!
+target: 3164-5923 uncovered, added to then retrial list!
+target: 2944-5464 uncovered, added to then retrial list!
+target: 1421-2545 uncovered, added to then retrial list!
+target: 2951-5476 uncovered, added to then retrial list!
+target: 2971-5528 uncovered, added to then retrial list!
+target: 3109-5821 uncovered, added to then retrial list!
+target: 3070-5750 uncovered, added to then retrial list!
+target: 3194-5982 uncovered, added to then retrial list!
+interestcase 0_2_7_020 end
+
+index.3,  interestcase 3_004 start:
+tagetlogs are:[3548-6860_0]
+current preference, name:deckPath, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_3_3_004.py]
+
+OK
+
+consumed time: 31.2110002041 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 61.8880000114 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [3548-6860_0]
+uncovered targets are: []
+interestcase 0_3_3_004 end
+
+index.4,  interestcase 1_028 start:
+tagetlogs are:[3123-5848, 1421-2547, 3121-5844, 3113-5827]
+current preference, name:tts, value:1
+current preference, name:dictionary, value:Leo.org (App)
+current preference, name:scrolling_buttons, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_4_1_028.py]
+
+OK
+
+consumed time: 44.6700000763 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 53.2369999886 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [3123-5848, 1421-2547, 3121-5844, 3113-5827]
+target: 3123-5848 uncovered, added to then retrial list!
+target: 1421-2547 uncovered, added to then retrial list!
+target: 3121-5844 uncovered, added to then retrial list!
+target: 3113-5827 uncovered, added to then retrial list!
+interestcase 0_4_1_028 end
+
+index.5,  interestcase 2_009 start:
+tagetlogs are:[1421-2546]
+current preference, name:dictionary, value:Eijiro (Web)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_5_2_009.py]
+
+OK
+
+consumed time: 17.6630001068 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 55.5820000172 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1421-2546]
+target: 1421-2546 uncovered, added to then retrial list!
+interestcase 0_5_2_009 end
+
+index.6,  interestcase 4_014 start:
+tagetlogs are:[1421-2549]
+current preference, name:dictionary, value:Fora
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_6_4_014.py]
+
+OK
+
+consumed time: 18.7589998245 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 90.8440001011 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1421-2549]
+target: 1421-2549 uncovered, added to then retrial list!
+interestcase 0_6_4_014 end
+
+index.7,  interestcase 4_016 start:
+tagetlogs are:[1421-2548]
+current preference, name:dictionary, value:ColorDict/GoldenDict
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_7_4_016.py]
+
+OK
+
+consumed time: 17.8289999962 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 23.9179999828 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1421-2548]
+target: 1421-2548 uncovered, added to then retrial list!
+interestcase 0_7_4_016 end
+
+index.8,  interestcase 7_009 start:
+tagetlogs are:[1421-2548]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_8_7_009.py]
+
+OK
+
+consumed time: 71.0870001316 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 41.2720000744 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1421-2548]
+loclog: 1421-2548 uncovered after retrial, deleted!
+interestcase 0_8_7_009 end
+
+index.9,  interestcase 6_022 start:
+tagetlogs are:[1421-2549]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_9_6_022.py]
+
+OK
+
+consumed time: 81.8990001678 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 33.484000206 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [1421-2549]
+loclog: 1421-2549 uncovered after retrial, deleted!
+interestcase 0_9_6_022 end
+
+index.10,  interestcase 2_028 start:
+tagetlogs are:[1421-2546]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_10_2_028.py]
+
+OK
+
+consumed time: 76.1930000782 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 59.3629999161 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1421-2546]
+loclog: 1421-2546 uncovered after retrial, deleted!
+interestcase 0_10_2_028 end
+
+index.11,  interestcase 1_007 start:
+tagetlogs are:[3113-5827]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:scrolling_buttons, value:0
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_11_1_007.py]
+
+OK
+
+consumed time: 115.208999872 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_11_1_007.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageButton\").description(\"Navigate up\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_11_1_007.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.5440001488 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3113-5827]
+loclog: 3113-5827 uncovered after retrial, deleted!
+interestcase 0_11_1_007 end
+
+index.12,  interestcase 1_028 start:
+tagetlogs are:[3121-5844]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:scrolling_buttons, value:1
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_12_1_028.py]
+
+OK
+
+consumed time: 119.193000078 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 54.0260000229 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [3121-5844]
+loclog: 3121-5844 uncovered after retrial, deleted!
+interestcase 0_12_1_028 end
+
+index.13,  interestcase 2_023 start:
+tagetlogs are:[1421-2547]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_13_2_023.py]
+
+OK
+
+consumed time: 74.2910001278 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 65.3220000267 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1421-2547]
+loclog: 1421-2547 uncovered after retrial, deleted!
+interestcase 0_13_2_023 end
+
+index.14,  interestcase 1_028 start:
+tagetlogs are:[3123-5848]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:scrolling_buttons, value:0
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_14_1_028.py]
+
+OK
+
+consumed time: 119.225999832 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 52.9530000687 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [3123-5848]
+loclog: 3123-5848 uncovered after retrial, deleted!
+interestcase 0_14_1_028 end
+
+index.15,  interestcase 6_006 start:
+tagetlogs are:[3194-5982]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:0
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_15_6_006.py]
+
+OK
+
+consumed time: 105.160000086 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 48.9430000782 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [3194-5982]
+loclog: 3194-5982 uncovered after retrial, deleted!
+interestcase 0_15_6_006 end
+
+index.16,  interestcase 4_010 start:
+tagetlogs are:[3070-5750]
+current preference, name:dictionary, value:Aedict
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_16_4_010.py]
+
+OK
+
+consumed time: 49.0250000954 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 61.986000061 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3070-5750]
+loclog: 3070-5750 uncovered after retrial, deleted!
+interestcase 0_16_4_010 end
+
+index.17,  interestcase 6_002 start:
+tagetlogs are:[3109-5821]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:1
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_17_6_002.py]
+
+OK
+
+consumed time: 76.2980000973 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 24.1540000439 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3109-5821]
+loclog: 3109-5821 uncovered after retrial, deleted!
+interestcase 0_17_6_002 end
+
+index.18,  interestcase 6_003 start:
+tagetlogs are:[2971-5528]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:timeoutAnswer, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_18_6_003.py]
+
+OK
+
+consumed time: 91.0869998932 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_18_6_003.py", line 220, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Order added\")", "new UiSelector().className(\"android.widget.CheckedTextView\").instance(5)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_18_6_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 33.8849999905 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [2971-5528]
+loclog: 2971-5528 uncovered after retrial, deleted!
+interestcase 0_18_6_003 end
+
+index.19,  interestcase 6_025 start:
+tagetlogs are:[2951-5476]
+current preference, name:useInputTag, value:1
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_19_6_025.py]
+
+OK
+
+consumed time: 67.8299999237 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 66.5759999752 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2951-5476]
+loclog: 2951-5476 uncovered after retrial, deleted!
+interestcase 0_19_6_025 end
+
+index.20,  interestcase 2_022 start:
+tagetlogs are:[1421-2545]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_20_2_022.py]
+
+OK
+
+consumed time: 70.7750000954 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 22.9819998741 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1421-2545]
+loclog: 1421-2545 uncovered after retrial, deleted!
+interestcase 0_20_2_022 end
+
+index.21,  interestcase 3_007 start:
+tagetlogs are:[2944-5464]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_21_3_007.py]
+
+OK
+
+consumed time: 75.0440001488 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 82.4409999847 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2944-5464]
+loclog: 2944-5464 uncovered after retrial, deleted!
+interestcase 0_21_3_007 end
+
+index.22,  interestcase 3_028 start:
+tagetlogs are:[3164-5923]
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_22_3_028.py]
+
+OK
+
+consumed time: 34.5850000381 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 56.5110001564 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [3164-5923]
+loclog: 3164-5923 uncovered after retrial, deleted!
+interestcase 0_22_3_028 end
+
+index.23,  interestcase 3_026 start:
+tagetlogs are:[4779-9043]
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Hide the system bars
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_23_3_026.py]
+
+OK
+
+consumed time: 38.2279999256 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 58.9769999981 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4779-9043]
+loclog: 4779-9043 uncovered after retrial, deleted!
+interestcase 0_23_3_026 end
+
+index.24,  interestcase 7_010 start:
+tagetlogs are:[3104-5813]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_24_7_010.py]
+
+OK
+
+consumed time: 102.91899991 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 24.0969998837 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [3104-5813]
+loclog: 3104-5813 uncovered after retrial, deleted!
+interestcase 0_24_7_010 end
+
+index.25,  interestcase 7_025 start:
+tagetlogs are:[3078-5765]
+current preference, name:useInputTag, value:0
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_25_7_025.py]
+
+OK
+
+consumed time: 75.9440000057 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_25_7_025.py", line 223, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.\")", "new UiSelector().className(\"android.widget.TextView\").instance(13)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_25_7_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 61.376999855 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [3078-5765]
+loclog: 3078-5765 uncovered after retrial, deleted!
+interestcase 0_25_7_025 end
+
+index.26,  interestcase 7_023 start:
+tagetlogs are:[4721-8901]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_26_7_023.py]
+
+OK
+
+consumed time: 102.534999847 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 55.9649999142 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [4721-8901]
+loclog: 4721-8901 uncovered after retrial, deleted!
+interestcase 0_26_7_023 end
+
+index.27,  interestcase 3_002 start:
+tagetlogs are:[3108-5819]
+current preference, name:useInputTag, value:0
+current preference, name:dictionary, value:None
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_27_3_002.py]
+
+OK
+
+consumed time: 65.489000082 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_27_3_002.py", line 214, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/edit\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_27_3_002.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 39.5680000782 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3108-5819]
+loclog: 3108-5819 uncovered after retrial, deleted!
+interestcase 0_27_3_002 end
+
+index.28,  interestcase 6_018 start:
+tagetlogs are:[4465-8459]
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_28_6_018.py]
+
+OK
+
+consumed time: 34.3129999638 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 72.5869998932 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4465-8459]
+loclog: 4465-8459 uncovered after retrial, deleted!
+interestcase 0_28_6_018 end
+
+index.29,  interestcase 3_025 start:
+tagetlogs are:[3143-5884]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_29_3_025.py]
+
+OK
+
+consumed time: 94.2209999561 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 29.2660000324 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3143-5884]
+loclog: 3143-5884 uncovered after retrial, deleted!
+interestcase 0_29_3_025 end
+
+index.30,  interestcase 3_001 start:
+tagetlogs are:[2897-5371]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:1
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_30_3_001.py]
+
+OK
+
+consumed time: 75.5020000935 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 56.7349998951 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [2897-5371]
+loclog: 2897-5371 uncovered after retrial, deleted!
+interestcase 0_30_3_001 end
+
+index.31,  interestcase 4_009 start:
+tagetlogs are:[3027-5647]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_31_4_009.py]
+
+OK
+
+consumed time: 100.203000069 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 48.8809998035 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [3027-5647]
+loclog: 3027-5647 uncovered after retrial, deleted!
+interestcase 0_31_4_009 end
+
+index.32,  interestcase 2_019 start:
+tagetlogs are:[3154-5906]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_32_2_019.py]
+
+OK
+
+consumed time: 95.8090000153 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 29.0269999504 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [3154-5906]
+loclog: 3154-5906 uncovered after retrial, deleted!
+interestcase 0_32_2_019 end
+
+index.33,  interestcase 2_013 start:
+tagetlogs are:[3075-5759]
+current preference, name:useInputTag, value:0
+current preference, name:dictionary, value:None
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Top
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_33_2_013.py]
+
+OK
+
+consumed time: 64.0369999409 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 38.4210000038 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [3075-5759]
+loclog: 3075-5759 uncovered after retrial, deleted!
+interestcase 0_33_2_013 end
+
+index.34,  interestcase 4_023 start:
+tagetlogs are:[2974-5534]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:1
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_34_4_023.py]
+
+OK
+
+consumed time: 85.6510000229 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 62.1960000992 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2974-5534]
+loclog: 2974-5534 uncovered after retrial, deleted!
+interestcase 0_34_4_023 end
+
+index.35,  interestcase 5_022 start:
+tagetlogs are:[1920-3320]
+current preference, name:overrideFontBehavior, value:Always
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_35_5_022.py]
+
+OK
+
+consumed time: 32.0840001106 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 27.3840000629 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1920-3320]
+loclog: 1920-3320 uncovered after retrial, deleted!
+interestcase 0_35_5_022 end
+
+index.36,  interestcase 1_006 start:
+tagetlogs are:[2979-5544]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_36_1_006.py]
+
+OK
+
+consumed time: 87.3789999485 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 40.1070001125 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2979-5544]
+loclog: 2979-5544 uncovered after retrial, deleted!
+interestcase 0_36_1_006 end
+
+index.37,  interestcase 1_026 start:
+tagetlogs are:[2940-5455]
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase0_37_1_026.py]
+
+OK
+
+consumed time: 77.4119999409 s
+
+jacoco time: 5.007999897 s
+
+OK
+
+consumed time: 40.3999998569 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [2940-5455]
+loclog: 2940-5455 uncovered after retrial, deleted!
+interestcase 0_37_1_026 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 3548-6860_0 ,target branch is: 3548-6860_0
+interests are:
+deckPath      random    44     null
+discovered tags are : 0_3_3_004 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 4457_1 ,target branch is: 4457_1
+interests are:
+deckPath      random    44     null
+discovered tags are : 0_23_3_026 0_25_7_025 0_31_4_009 0_24_7_010 0_5_2_009 0_17_6_002 0_28_6_018 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_3_3_004 0_21_3_007 0_26_7_023 0_34_4_023 0_35_5_022 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_22_3_028 0_27_3_002 0_6_4_014 0_36_1_006 0_4_1_028 0_15_6_006 0_7_4_016 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 5345-10085 ,target branch is: 5345-10084
+interests are:
+gestures      1    98     null
+discovered tags are : 0_23_3_026 0_25_7_025 0_31_4_009 0_24_7_010 0_17_6_002 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_21_3_007 0_26_7_023 0_34_4_023 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_27_3_002 0_36_1_006 0_15_6_006 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 4441_2 ,target branch is: 4441_2
+interests are:
+deckPath      random    44     null
+discovered tags are : 0_23_3_026 0_25_7_025 0_31_4_009 0_24_7_010 0_5_2_009 0_17_6_002 0_28_6_018 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_3_3_004 0_21_3_007 0_26_7_023 0_34_4_023 0_35_5_022 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_22_3_028 0_27_3_002 0_6_4_014 0_36_1_006 0_4_1_028 0_15_6_006 0_7_4_016 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 5519-10696 ,target branch is: 5519-10697
+interests are:
+useCustomSyncServer      1    85     null
+discovered tags are : 0_25_7_025 0_31_4_009 0_24_7_010 0_5_2_009 0_17_6_002 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_3_3_004 0_21_3_007 0_26_7_023 0_34_4_023 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_27_3_002 0_6_4_014 0_36_1_006 0_4_1_028 0_15_6_006 0_7_4_016 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 5518-10694 ,target branch is: 5518-10695
+interests are:
+advanced_statistics_enabled      1    61     null
+discovered tags are : 0_25_7_025 0_31_4_009 0_24_7_010 0_5_2_009 0_17_6_002 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_3_3_004 0_21_3_007 0_26_7_023 0_34_4_023 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_27_3_002 0_6_4_014 0_36_1_006 0_4_1_028 0_15_6_006 0_7_4_016 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 5113_3 ,target branch is: 5113_3
+interests are:
+deckPath      random    44     null
+discovered tags are : 0_23_3_026 0_25_7_025 0_31_4_009 0_24_7_010 0_5_2_009 0_17_6_002 0_28_6_018 0_20_2_022 0_19_6_025 0_8_7_009 0_37_1_026 0_10_2_028 0_12_1_028 0_3_3_004 0_21_3_007 0_26_7_023 0_34_4_023 0_35_5_022 0_13_2_023 0_32_2_019 0_16_4_010 0_2_7_020 0_29_3_025 0_1_5_023 0_18_6_003 0_11_1_007 0_22_3_028 0_27_3_002 0_6_4_014 0_36_1_006 0_4_1_028 0_15_6_006 0_7_4_016 0_33_2_013 0_14_1_028 0_9_6_022 0_30_3_001 
+--------------------------------
+index.1,  interestcase 0_25_7_025 start:
+tagetlogs are:[5519-10697]
+current preference, name:useInputTag, value:0
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:useCustomSyncServer, value:1
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_1_0_25_7_025.py]
+
+OK
+
+consumed time: 98.9409999847 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_1_0_25_7_025.py", line 222, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.\")", "new UiSelector().className(\"android.widget.TextView\").instance(13)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_1_0_25_7_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 61.0859999657 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [5519-10697]
+loclog: 5519-10697 uncovered after retrial, deleted!
+interestcase 1_1_0_25_7_025 end
+
+index.2,  interestcase 0_23_3_026 start:
+tagetlogs are:[5345-10084]
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:gestures, value:1
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Hide the system bars
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_2_0_23_3_026.py]
+
+OK
+
+consumed time: 66.5169999599 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 57.6370000839 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [5345-10084]
+loclog: 5345-10084 uncovered after retrial, deleted!
+interestcase 1_2_0_23_3_026 end
+
+index.3,  interestcase 0_3_3_004 start:
+tagetlogs are:[3548-6860_0]
+current preference, name:deckPath, value:random
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_3_0_3_3_004.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_3_0_3_3_004.py", line 156, in <module>
+
+    typeText(driver,"random")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_3_0_3_3_004.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_3_0_3_3_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.1730000973 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 62.1440000534 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [3548-6860_0]
+uncovered targets are: []
+target: 3548-6860_0 covered after retrial!
+interestcase 1_3_0_3_3_004 end
+
+index.4,  interestcase 0_31_4_009 start:
+tagetlogs are:[5113_3]
+current preference, name:deckPath, value:random
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_4_0_31_4_009.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_4_0_31_4_009.py", line 156, in <module>
+
+    typeText(driver,"random")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_4_0_31_4_009.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_4_0_31_4_009.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.5460000038 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 51.2920000553 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [5113_3]
+uncovered targets are: []
+target: 5113_3 covered after retrial!
+interestcase 1_4_0_31_4_009 end
+
+index.5,  interestcase 0_24_7_010 start:
+tagetlogs are:[4457_1]
+current preference, name:deckPath, value:random
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_5_0_24_7_010.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_5_0_24_7_010.py", line 156, in <module>
+
+    typeText(driver,"random")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_5_0_24_7_010.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_5_0_24_7_010.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.5360000134 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 24.1169998646 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [4457_1]
+uncovered targets are: []
+target: 4457_1 covered after retrial!
+interestcase 1_5_0_24_7_010 end
+
+index.6,  interestcase 0_5_2_009 start:
+tagetlogs are:[5518-10695]
+current preference, name:dictionary, value:Eijiro (Web)
+current preference, name:advanced_statistics_enabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_6_0_5_2_009.py]
+
+OK
+
+consumed time: 37.9300000668 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 55.4149999619 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [5518-10695]
+loclog: 5518-10695 uncovered after retrial, deleted!
+interestcase 1_6_0_5_2_009 end
+
+index.7,  interestcase 0_17_6_002 start:
+tagetlogs are:[4441_2]
+current preference, name:deckPath, value:random
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:1
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_7_0_17_6_002.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_7_0_17_6_002.py", line 156, in <module>
+
+    typeText(driver,"random")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_7_0_17_6_002.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase1_7_0_17_6_002.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.4369997978 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 23.9719998837 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [4441_2]
+uncovered targets are: []
+target: 4441_2 covered after retrial!
+interestcase 1_7_0_17_6_002 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 3548-6860_0 ,target branch is: 3548-6860_0
+interests are:
+deckPath      /sdcard/AnkiDroid    44     null
+discovered tags are : 1_3_0_3_3_004 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 2
+origin branch is: 4457_1 ,target branch is: 4457_1
+interests are:
+deckPath      /sdcard/AnkiDroid    44     null
+discovered tags are : 1_5_0_24_7_010 1_7_0_17_6_002 1_4_0_31_4_009 1_2_0_23_3_026 1_3_0_3_3_004 1_1_0_25_7_025 1_6_0_5_2_009 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 2
+origin branch is: 4441_2 ,target branch is: 4441_2
+interests are:
+deckPath      /sdcard/AnkiDroid    44     null
+discovered tags are : 1_5_0_24_7_010 1_7_0_17_6_002 1_4_0_31_4_009 1_2_0_23_3_026 1_3_0_3_3_004 1_1_0_25_7_025 1_6_0_5_2_009 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 2
+origin branch is: 5113_3 ,target branch is: 5113_3
+interests are:
+deckPath      /sdcard/AnkiDroid    44     null
+discovered tags are : 1_5_0_24_7_010 1_7_0_17_6_002 1_4_0_31_4_009 1_2_0_23_3_026 1_3_0_3_3_004 1_1_0_25_7_025 1_6_0_5_2_009 
+--------------------------------
+index.1,  interestcase 1_3_0_3_3_004 start:
+tagetlogs are:[3548-6860_0]
+current preference, name:deckPath, value:/sdcard/AnkiDroid
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_1_1_3_0_3_3_004.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_1_1_3_0_3_3_004.py", line 156, in <module>
+
+    typeText(driver,"/sdcard/AnkiDroid")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_1_1_3_0_3_3_004.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_1_1_3_0_3_3_004.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.6260001659 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 62.2259998322 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [3548-6860_0]
+uncovered targets are: []
+target: 3548-6860_0 covered after retrial!
+interestcase 2_1_1_3_0_3_3_004 end
+
+index.2,  interestcase 1_5_0_24_7_010 start:
+tagetlogs are:[5113_3]
+current preference, name:deckPath, value:/sdcard/AnkiDroid
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_2_1_5_0_24_7_010.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_2_1_5_0_24_7_010.py", line 156, in <module>
+
+    typeText(driver,"/sdcard/AnkiDroid")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_2_1_5_0_24_7_010.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_2_1_5_0_24_7_010.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.4779999256 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 24.2430000305 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [5113_3]
+uncovered targets are: []
+target: 5113_3 covered after retrial!
+interestcase 2_2_1_5_0_24_7_010 end
+
+index.3,  interestcase 1_7_0_17_6_002 start:
+tagetlogs are:[4457_1]
+current preference, name:deckPath, value:/sdcard/AnkiDroid
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:1
+current preference, name:dictionary, value:None
+current preference, name:overrideFontBehavior, value:When no font specified on flashcards
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:answerButtonPosition, value:Bottom
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_3_1_7_0_17_6_002.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_3_1_7_0_17_6_002.py", line 156, in <module>
+
+    typeText(driver,"/sdcard/AnkiDroid")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_3_1_7_0_17_6_002.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_3_1_7_0_17_6_002.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.7320001125 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 24.9300000668 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [4457_1]
+uncovered targets are: []
+target: 4457_1 covered after retrial!
+interestcase 2_3_1_7_0_17_6_002 end
+
+index.4,  interestcase 1_4_0_31_4_009 start:
+tagetlogs are:[4441_2]
+current preference, name:deckPath, value:/sdcard/AnkiDroid
+current preference, name:useInputTag, value:0
+current preference, name:tts, value:0
+current preference, name:dictionary, value:None
+current preference, name:html_javascript_debugging, value:0
+current preference, name:analyticsOptIn, value:0
+current preference, name:minimumCardsDueForNotification, value:Never notify
+current preference, name:keepScreenOn, value:0
+current preference, name:fullscreenMode, value:Off
+current preference, name:centerVertically, value:0
+current preference, name:answerButtonPosition, value:Bottom
+current preference, name:showETA, value:1
+current preference, name:timeoutAnswer, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_4_1_4_0_31_4_009.py]
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_4_1_4_0_31_4_009.py", line 156, in <module>
+
+    typeText(driver,"/sdcard/AnkiDroid")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_4_1_4_0_31_4_009.py", line 134, in typeText
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\ankiandroid\testcase\interestcases\testcase2_4_1_4_0_31_4_009.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 33.9800000191 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 48.7239999771 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [4441_2]
+uncovered targets are: []
+target: 4441_2 covered after retrial!
+interestcase 2_4_1_4_0_31_4_009 end
+

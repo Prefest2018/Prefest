@@ -1,0 +1,407 @@
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_6_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_6_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_8_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_8_029
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+0_8_8_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_6_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_5_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_7_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_8_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_8_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_6_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityManager( 1586): ANR in com.tomer.alwayson
+
+E/ActivityManager( 1586): PID: 28745
+E/ActivityManager( 1586): ANR in com.tomer.alwayson
+
+
+E/ActivityManager( 1586): Reason: Broadcast of Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+
+E/ActivityManager( 1586): PID: 28745
+E/ActivityManager( 1586): Load: 1.49 / 1.58 / 1.39
+
+
+E/ActivityManager( 1586): Reason: Broadcast of Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+E/ActivityManager( 1586): CPU usage from 8084ms to 0ms ago:
+
+E/ActivityManager( 1586): Load: 1.49 / 1.58 / 1.39
+
+E/ActivityManager( 1586):   75% 1177/adbd: 0.8% user + 74% kernel / faults: 67326 minor
+
+
+E/ActivityManager( 1586):   28% 28745/com.tomer.alwayson: 0% user + 28% kernel / faults: 719 minor
+
+E/ActivityManager( 1586): CPU usage from 8084ms to 0ms ago:
+E/ActivityManager( 1586): ANR in com.tomer.alwayson
+E/ActivityManager( 1586):   19% 1586/system_server: 0.7% user + 18% kernel / faults: 346 minor
+
+
+E/ActivityManager( 1586): PID: 28745
+
+
+E/ActivityManager( 1586):   17% 28696/logcat: 0.1% user + 17% kernel
+E/ActivityManager( 1586):   75% 1177/adbd: 0.8% user + 74% kernel / faults: 67326 minor
+
+E/ActivityManager( 1586): Reason: Broadcast of Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+
+E/ActivityManager( 1586):   28% 28745/com.tomer.alwayson: 0% user + 28% kernel / faults: 719 minor
+E/ActivityManager( 1586):   17% 28387/logcat: 0% user + 17% kernel / faults: 1 minor
+
+E/ActivityManager( 1586): Load: 1.49 / 1.58 / 1.39
+
+
+
+E/ActivityManager( 1586): CPU usage from 8084ms to 0ms ago:
+E/ActivityManager( 1586):   19% 1586/system_server: 0.7% user + 18% kernel / faults: 346 minor
+E/ActivityManager( 1586):   17% 2654/logcat: 0.4% user + 16% kernel / faults: 9 minor
+
+
+E/ActivityManager( 1586):   75% 1177/adbd: 0.8% user + 74% kernel / faults: 67326 minor
+
+E/ActivityManager( 1586):   28% 28745/com.tomer.alwayson: 0% user + 28% kernel / faults: 719 minor
+
+E/ActivityManager( 1586):   19% 1586/system_server: 0.7% user + 18% kernel / faults: 346 minor
+
+E/ActivityManager( 1586):   15% 3392/logcat: 0.7% user + 14% kernel
+E/ActivityManager( 1586):   17% 28696/logcat: 0.1% user + 17% kernel
+
+
+E/ActivityManager( 1586):   17% 28387/logcat: 0% user + 17% kernel / faults: 1 minor
+
+
+E/ActivityManager( 1586):   17% 2654/logcat: 0.4% user + 16% kernel / faults: 9 minor
+E/ActivityManager( 1586):   17% 28696/logcat: 0.1% user + 17% kernel
+E/ActivityManager( 1586):   15% 19589/logcat: 0% user + 15% kernel / faults: 4 minor
+
+
+E/ActivityManager( 1586):   15% 3392/logcat: 0.7% user + 14% kernel
+
+E/ActivityManager( 1586):   17% 28387/logcat: 0% user + 17% kernel / faults: 1 minor
+
+E/ActivityManager( 1586):   15% 28385/logcat: 0% user + 15% kernel / faults: 10 minor
+
+E/ActivityManager( 1586):   15% 19589/logcat: 0% user + 15% kernel / faults: 4 minor
+E/ActivityManager( 1586):   17% 2654/logcat: 0.4% user + 16% kernel / faults: 9 minor
+
+
+
+E/ActivityManager( 1586):   15% 2656/logcat: 0.7% user + 14% kernel
+E/ActivityManager( 1586):   15% 28385/logcat: 0% user + 15% kernel / faults: 10 minor
+E/ActivityManager( 1586):   15% 3392/logcat: 0.7% user + 14% kernel
+
+
+E/ActivityManager( 1586):   15% 3079/logcat: 0.7% user + 14% kernel / faults: 3 minor
+
+E/ActivityManager( 1586):   15% 19589/logcat: 0% user + 15% kernel / faults: 4 minor
+
+E/ActivityManager( 1586):   15% 2656/logcat: 0.7% user + 14% kernel
+
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):   15% 3079/logcat: 0.7% user + 14% kernel / faults: 3 minor
+E/ActivityManager( 1586):   15% 28385/logcat: 0% user + 15% kernel / faults: 10 minor
+
+
+E/ActivityManager( 1586):   8.9% 28718/uiautomator: 2.1% user + 6.8% kernel / faults: 573 minor
+
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):   15% 2656/logcat: 0.7% user + 14% kernel
+
+
+E/ActivityManager( 1586):   1.2% 25500/kworker/1:2: 0% user + 1.2% kernel
+
+E/ActivityManager( 1586):   8.9% 28718/uiautomator: 2.1% user + 6.8% kernel / faults: 573 minor
+
+E/ActivityManager( 1586):   15% 3079/logcat: 0.7% user + 14% kernel / faults: 3 minor
+
+E/ActivityManager( 1586):   0.8% 25119/kworker/2:0: 0% user + 0.8% kernel
+
+E/ActivityManager( 1586):   1.2% 25500/kworker/1:2: 0% user + 1.2% kernel
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+
+
+
+E/ActivityManager( 1586):   0.8% 28184/kworker/3:0: 0% user + 0.8% kernel
+E/ActivityManager( 1586):   0.8% 25119/kworker/2:0: 0% user + 0.8% kernel
+
+E/ActivityManager( 1586):   8.9% 28718/uiautomator: 2.1% user + 6.8% kernel / faults: 573 minor
+
+
+E/ActivityManager( 1586):   0.3% 28765/kworker/0:1: 0% user + 0.3% kernel
+E/ActivityManager( 1586):   0.8% 28184/kworker/3:0: 0% user + 0.8% kernel
+
+E/ActivityManager( 1586):   1.2% 25500/kworker/1:2: 0% user + 1.2% kernel
+
+E/ActivityManager( 1586):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+
+E/ActivityManager( 1586):   0.3% 28765/kworker/0:1: 0% user + 0.3% kernel
+E/ActivityManager( 1586):   0.8% 25119/kworker/2:0: 0% user + 0.8% kernel
+
+
+
+E/ActivityManager( 1586):   0% 12/ksoftirqd/1: 0% user + 0% kernel
+
+E/ActivityManager( 1586):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+
+E/ActivityManager( 1586):   0% 16/ksoftirqd/2: 0% user + 0% kernel
+E/ActivityManager( 1586):   0.8% 28184/kworker/3:0: 0% user + 0.8% kernel
+E/ActivityManager( 1586):   0% 12/ksoftirqd/1: 0% user + 0% kernel
+
+
+
+E/ActivityManager( 1586):   0.3% 28765/kworker/0:1: 0% user + 0.3% kernel
+E/ActivityManager( 1586): 71% TOTAL: 1.6% user + 69% kernel + 0% softirq
+
+E/ActivityManager( 1586):   0% 16/ksoftirqd/2: 0% user + 0% kernel
+
+E/ActivityManager( 1586): CPU usage from 1618ms to 2132ms later:
+E/ActivityManager( 1586):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+
+
+E/ActivityManager( 1586): 71% TOTAL: 1.6% user + 69% kernel + 0% softirq
+
+
+E/ActivityManager( 1586):   74% 1177/adbd: 0% user + 74% kernel / faults: 3734 minor
+E/ActivityManager( 1586):   0% 12/ksoftirqd/1: 0% user + 0% kernel
+E/ActivityManager( 1586): CPU usage from 1618ms to 2132ms later:
+
+
+E/ActivityManager( 1586):   0% 16/ksoftirqd/2: 0% user + 0% kernel
+
+E/ActivityManager( 1586):   74% 1177/adbd: 0% user + 74% kernel / faults: 3734 minor
+
+E/ActivityManager( 1586):     29% 2173/adbd: 0% user + 29% kernel
+
+E/ActivityManager( 1586):     29% 2173/adbd: 0% user + 29% kernel
+E/ActivityManager( 1586): 71% TOTAL: 1.6% user + 69% kernel + 0% softirq
+
+
+
+E/ActivityManager( 1586):     25% 1177/adbd: 0% user + 25% kernel
+E/ActivityManager( 1586): CPU usage from 1618ms to 2132ms later:
+E/ActivityManager( 1586):     25% 1177/adbd: 0% user + 25% kernel
+
+
+
+E/ActivityManager( 1586):   74% 1177/adbd: 0% user + 74% kernel / faults: 3734 minor
+E/ActivityManager( 1586):     19% 2174/adbd: 0% user + 19% kernel
+E/ActivityManager( 1586):     19% 2174/adbd: 0% user + 19% kernel
+
+
+
+E/ActivityManager( 1586):   21% 1586/system_server: 3.9% user + 17% kernel / faults: 1 minor
+E/ActivityManager( 1586):   21% 1586/system_server: 3.9% user + 17% kernel / faults: 1 minor
+E/ActivityManager( 1586):     29% 2173/adbd: 0% user + 29% kernel
+
+E/ActivityManager( 1586):     11% 1586/system_server: 0% user + 11% kernel
+
+
+
+E/ActivityManager( 1586):     11% 1586/system_server: 0% user + 11% kernel
+E/ActivityManager( 1586):     25% 1177/adbd: 0% user + 25% kernel
+E/ActivityManager( 1586):     3.9% 1774/Binder_9: 0% user + 3.9% kernel
+
+
+
+E/ActivityManager( 1586):     19% 2174/adbd: 0% user + 19% kernel
+E/ActivityManager( 1586):     3.9% 1774/Binder_9: 0% user + 3.9% kernel
+E/ActivityManager( 1586):     1.9% 1598/Binder_2: 0% user + 1.9% kernel
+
+
+
+E/ActivityManager( 1586):     1.9% 1598/Binder_2: 0% user + 1.9% kernel
+E/ActivityManager( 1586):   21% 1586/system_server: 3.9% user + 17% kernel / faults: 1 minor
+E/ActivityManager( 1586):     1.9% 1601/ActivityManager: 0% user + 1.9% kernel
+
+
+
+E/ActivityManager( 1586):     11% 1586/system_server: 0% user + 11% kernel
+E/ActivityManager( 1586):     1.9% 1601/ActivityManager: 0% user + 1.9% kernel
+E/ActivityManager( 1586):     1.9% 1773/Binder_8: 1.9% user + 0% kernel
+
+
+
+E/ActivityManager( 1586):     3.9% 1774/Binder_9: 0% user + 3.9% kernel
+E/ActivityManager( 1586):     1.9% 1773/Binder_8: 1.9% user + 0% kernel
+E/ActivityManager( 1586):     1.9% 24457/Binder_A: 0% user + 1.9% kernel
+
+
+
+E/ActivityManager( 1586):     1.9% 1598/Binder_2: 0% user + 1.9% kernel
+E/ActivityManager( 1586):     1.9% 24457/Binder_A: 0% user + 1.9% kernel
+E/ActivityManager( 1586):   17% 2654/logcat: 3.9% user + 13% kernel
+
+
+
+E/ActivityManager( 1586):   15% 3079/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):     1.9% 1601/ActivityManager: 0% user + 1.9% kernel
+
+E/ActivityManager( 1586):   17% 2654/logcat: 3.9% user + 13% kernel
+
+E/ActivityManager( 1586):   15% 3392/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):     1.9% 1773/Binder_8: 1.9% user + 0% kernel
+
+E/ActivityManager( 1586):   15% 3079/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):   16% 28385/logcat: 0% user + 16% kernel
+
+E/ActivityManager( 1586):     1.9% 24457/Binder_A: 0% user + 1.9% kernel
+
+E/ActivityManager( 1586):   17% 28696/logcat: 0% user + 17% kernel
+
+
+E/ActivityManager( 1586):   15% 3392/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):   15% 2656/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):   17% 2654/logcat: 3.9% user + 13% kernel
+
+
+
+E/ActivityManager( 1586):   16% 28385/logcat: 0% user + 16% kernel
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):   15% 3079/logcat: 0% user + 15% kernel
+
+
+E/ActivityManager( 1586):   17% 28696/logcat: 0% user + 17% kernel
+
+E/ActivityManager( 1586):   15% 28387/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586):   15% 3392/logcat: 0% user + 15% kernel
+
+
+E/ActivityManager( 1586):   15% 2656/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):   16% 28385/logcat: 0% user + 16% kernel
+E/ActivityManager( 1586):   13% 19589/logcat: 0% user + 13% kernel
+
+
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):   11% 28718/uiautomator: 5.8% user + 5.8% kernel / faults: 54 minor
+E/ActivityManager( 1586):   17% 28696/logcat: 0% user + 17% kernel
+
+
+E/ActivityManager( 1586):   15% 28387/logcat: 0% user + 15% kernel
+
+E/ActivityManager( 1586):     7.8% 28761/Binder_3: 7.8% user + 0% kernel
+E/ActivityManager( 1586):   15% 2656/logcat: 0% user + 15% kernel
+
+
+E/ActivityManager( 1586):     3.9% 28727/Binder_1: 1.9% user + 1.9% kernel
+
+
+E/ActivityManager( 1586):   13% 19589/logcat: 0% user + 13% kernel
+E/ActivityManager( 1586):     3.9% 28728/Binder_2: 0% user + 3.9% kernel
+
+E/ActivityManager( 1586):   15% 20079/logcat: 0% user + 15% kernel
+
+
+E/ActivityManager( 1586):   11% 28718/uiautomator: 5.8% user + 5.8% kernel / faults: 54 minor
+E/ActivityManager( 1586):   15% 28387/logcat: 0% user + 15% kernel
+E/ActivityManager( 1586): 74% TOTAL: 2.5% user + 71% kernel
+
+
+
+E/ActivityManager( 1586):     7.8% 28761/Binder_3: 7.8% user + 0% kernel
+E/ActivityManager( 1586):   13% 19589/logcat: 0% user + 13% kernel
+
+
+E/ActivityManager( 1586):     3.9% 28727/Binder_1: 1.9% user + 1.9% kernel
+E/ActivityManager( 1586):   11% 28718/uiautomator: 5.8% user + 5.8% kernel / faults: 54 minor
+
+
+E/ActivityManager( 1586):     3.9% 28728/Binder_2: 0% user + 3.9% kernel
+E/ActivityManager( 1586):     7.8% 28761/Binder_3: 7.8% user + 0% kernel
+
+
+E/ActivityManager( 1586): 74% TOTAL: 2.5% user + 71% kernel
+
+E/ActivityManager( 1586):     3.9% 28727/Binder_1: 1.9% user + 1.9% kernel
+
+E/ActivityManager( 1586):     3.9% 28728/Binder_2: 0% user + 3.9% kernel
+
+E/ActivityManager( 1586): 74% TOTAL: 2.5% user + 71% kernel
+
+1_1_0_1_6_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

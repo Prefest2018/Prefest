@@ -1,0 +1,4 @@
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+

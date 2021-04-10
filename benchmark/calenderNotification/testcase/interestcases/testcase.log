@@ -1,0 +1,320 @@
+firsttestcase 0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_1_1_000.py]
+
+OK
+
+consumed time: 132.757999897 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 29.8949999809 s
+
+jacoco time: 5.0039999485 s
+
+firsttestcase 0_1_1_000 end
+
+firsttestcase 0_2_7_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py]
+
+OK
+
+consumed time: 27.2769999504 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py", line 259, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"28\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_2_7_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 65.3030002117 s
+
+jacoco time: 5.00299978256 s
+
+firsttestcase 0_2_7_000 end
+
+firsttestcase 0_3_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_3_1_000.py]
+
+OK
+
+consumed time: 21.6009998322 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 28.5 s
+
+jacoco time: 5.0039999485 s
+
+firsttestcase 0_3_1_000 end
+
+firsttestcase 0_4_8_028 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py]
+
+OK
+
+consumed time: 20.4229998589 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py", line 240, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.github.quarck.calnotify:id/snooze_view_menu\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_4_8_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 30.5829999447 s
+
+jacoco time: 5.00800013542 s
+
+firsttestcase 0_4_8_028 end
+
+firsttestcase 0_5_7_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py]
+
+OK
+
+consumed time: 79.4449999332 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py", line 283, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"28\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_5_7_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 66.3250000477 s
+
+jacoco time: 5.00299978256 s
+
+firsttestcase 0_5_7_000 end
+
+firsttestcase 0_6_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase0_6_1_000.py]
+
+OK
+
+consumed time: 152.273000002 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 30.021999836 s
+
+jacoco time: 5.00400018692 s
+
+firsttestcase 0_6_1_000 end
+
+firsttestcase 1_1_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_1_0_1_1_000.py]
+
+OK
+
+consumed time: 136.572999954 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 28.6519999504 s
+
+jacoco time: 5.00300002098 s
+
+firsttestcase 1_1_0_1_1_000 end
+
+firsttestcase 1_2_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_2_0_1_1_000.py]
+
+OK
+
+consumed time: 154.14199996 s
+
+jacoco time: 5.00400018692 s
+
+OK
+
+consumed time: 28.2669999599 s
+
+jacoco time: 5.00499987602 s
+
+firsttestcase 1_2_0_1_1_000 end
+
+firsttestcase 1_3_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_3_0_1_1_000.py]
+
+OK
+
+consumed time: 144.315000057 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 28.756000042 s
+
+jacoco time: 5.0039999485 s
+
+firsttestcase 1_3_0_1_1_000 end
+
+firsttestcase 1_4_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_4_0_1_1_000.py]
+
+OK
+
+consumed time: 143.887000084 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 28.2669999599 s
+
+jacoco time: 5.0039999485 s
+
+firsttestcase 1_4_0_1_1_000 end
+
+firsttestcase 1_5_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_5_0_1_1_000.py]
+
+OK
+
+consumed time: 143.481999874 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 28.7810001373 s
+
+jacoco time: 5.00499987602 s
+
+firsttestcase 1_5_0_1_1_000 end
+
+firsttestcase 1_6_0_1_1_000 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\interestcases\testcase1_6_0_1_1_000.py]
+
+OK
+
+consumed time: 150.269999981 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 29.3320000172 s
+
+jacoco time: 5.00500011444 s
+
+firsttestcase 1_6_0_1_1_000 end
+
+execution end: 3 failed
+

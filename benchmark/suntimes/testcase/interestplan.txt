@@ -1,0 +1,2349 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 5461-8534 ,target branch is: 5461-8533
+interests are:
+app_ui_showgoldhour      0    20     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 5070-7906 ,target branch is: 5070-7907
+interests are:
+app_ui_showequinox      0    27     Solstice / Equinox
+discovered tags are : 4_017 1_019 4_007 5_008 2_025 4_021 3_022 3_023 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 5479-8571 ,target branch is: 5479-8570
+interests are:
+app_ui_showmoon      0    22     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 5472-8556 ,target branch is: 5472-8555
+interests are:
+app_ui_showwarnings      0    23     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 5407-8447 ,target branch is: 5407-8448
+interests are:
+app_accessibility_verbose      1    26     User Interface
+discovered tags are : 2_027 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 1017-1565 ,target branch is: 1017-1564
+interests are:
+appwidget_0_general_showseconds      1    3     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 5468-8548 ,target branch is: 5468-8547
+interests are:
+app_ui_showequinox      0    27     Solstice / Equinox
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 5125-7986 ,target branch is: 5125-7985
+interests are:
+app_ui_showwarnings      0    23     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 5476-8563 ,target branch is: 5476-8564
+interests are:
+app_ui_showlightmap      0    21     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 107-159 ,target branch is: 107-158
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 4_003 4_007 4_008 2_008 2_025 4_000 4_001 4_002 3_028 5_001 3_029 3_027 1_019 1_017 1_013 1_003 5_004 5_002 3_022 3_023 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 1604-2446 ,target branch is: 1604-2445
+interests are:
+ass_location_network      1    -1     null
+discovered tags are : 3_027 5_002 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 2215-3387 ,target branch is: 2215-3386
+interests are:
+app_ui_clocktapaction      Do nothing    29     Action Settings
+discovered tags are : 3_026 4_020 1_021 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1401-2134 ,target branch is: 1401-2133
+interests are:
+getFix_maxElapsed      15 seconds    35     Places
+discovered tags are : 3_027 5_002 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 5071-7908 ,target branch is: 5071-7909
+interests are:
+app_ui_showmoon      0    22     User Interface
+discovered tags are : 4_017 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 1123-1735 ,target branch is: 1123-1736
+interests are:
+appwidget_0_general_showseconds      1    3     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 5470-8552 ,target branch is: 5470-8551
+interests are:
+app_ui_showwarnings      0    23     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 1114-1718 ,target branch is: 1114-1717
+interests are:
+appwidget_0_general_showweeks      1    24     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 1175-1834 ,target branch is: 1175-1835
+interests are:
+app_appearance_theme      Light Theme    17     Appearance Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 2355-3603 ,target branch is: 2355-3599
+interests are:
+app_ui_notetapaction      Do nothing    31     Action Settings
+discovered tags are : 4_014 2_007 2_025 2_026 2_004 4_010 4_012 3_004 3_027 3_005 5_019 1_015 3_020 3_021 5_015 3_022 3_000 5_014 3_023 4_025 4_005 2_013 2_014 4_000 4_022 4_001 5_022 3_018 5_021 1_009 1_029 1_004 5_009 1_002 1_003 1_000 5_005 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 1117-1723 ,target branch is: 1117-1724
+interests are:
+appwidget_0_general_showweeks      1    24     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 5307-8291 ,target branch is: 5307-8292
+interests are:
+app_ui_showlightmap      0    21     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 1028-1586 ,target branch is: 1028-1585
+interests are:
+appwidget_0_general_showseconds      1    3     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 2224-3407 ,target branch is: 2224-3406
+interests are:
+app_ui_datetapaction      Do nothing    30     Action Settings
+discovered tags are : 4_017 1_017 3_019 3_002 4_021 1_000 5_027 5_014 4_002 4_024 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 5462-8535 ,target branch is: 5462-8536
+interests are:
+app_ui_showbluehour      1    19     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 2224-3407 ,target branch is: 2224-3408
+interests are:
+app_ui_datetapaction      Show calendar app    30     Action Settings
+discovered tags are : 4_017 1_017 3_019 3_002 4_021 1_000 5_027 5_014 4_002 4_024 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 957-1450 ,target branch is: 957-1451
+interests are:
+appwidget_0_appearance_timeformatmode      System format    2     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 2224-3407 ,target branch is: 2224-3409
+interests are:
+app_ui_datetapaction      Swap cards (today/tomorrow)    30     Action Settings
+discovered tags are : 4_017 1_017 3_019 3_002 4_021 1_000 5_027 5_014 4_002 4_024 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 1174-1833 ,target branch is: 1174-1832
+interests are:
+app_appearance_theme      Light Theme    17     Appearance Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 113-166 ,target branch is: 113-167
+interests are:
+ass_location_network      1    -1     null
+discovered tags are : 4_003 4_007 4_008 2_008 2_025 4_000 4_001 4_002 3_028 5_001 3_029 3_027 1_019 1_017 1_013 1_003 5_004 5_002 3_022 3_023 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 1124-1737 ,target branch is: 1124-1738
+interests are:
+appwidget_0_general_showhours      0    25     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 1598-2432 ,target branch is: 1598-2433
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 3_027 5_002 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 5471-8554 ,target branch is: 5471-8553
+interests are:
+app_ui_showwarnings      0    23     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 1599-2435 ,target branch is: 1599-2434
+interests are:
+ass_location_gps      0    -1     null
+discovered tags are : 3_027 5_002 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 1016-1562 ,target branch is: 1016-1563
+interests are:
+appwidget_0_general_showtimedate      0    4     General Settings
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 2755-4220 ,target branch is: 2755-4221
+interests are:
+appwidget_0_general_trackingmode      Closest Event    28     Solstice / Equinox
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 2216-3389 ,target branch is: 2216-3390
+interests are:
+app_ui_clocktapaction      Do nothing    29     Action Settings
+discovered tags are : 2_028 2_023 2_024 2_025 2_026 3_026 1_017 1_015 3_020 3_021 1_013 1_014 1_011 1_012 3_025 1_010 3_023 4_004 4_006 2_017 2_019 2_013 2_014 2_015 4_001 5_000 3_017 3_018 1_026 5_009 3_010 5_006 3_013 1_021 2_005 2_006 4_019 2_007 2_003 4_010 4_011 4_012 2_000 4_013 5_011 5_012 3_007 3_004 3_008 5_017 5_018 5_015 5_016 3_000 3_001 4_025 4_026 4_020 4_021 4_022 4_023 4_024 5_022 5_021 1_008 1_006 1_007 1_004 1_005 5_024 
+--------------------------------
+NO.36 Scene:
+discovered in ineration NO. 0
+origin branch is: 5284-8260 ,target branch is: 5284-8261
+interests are:
+app_ui_showdatasource      0    18     User Interface
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.37 Scene:
+discovered in ineration NO. 0
+origin branch is: 2355-3603 ,target branch is: 2355-3602
+interests are:
+app_ui_notetapaction      Show previous note    31     Action Settings
+discovered tags are : 4_014 2_007 2_025 2_026 2_004 4_010 4_012 3_004 3_027 3_005 5_019 1_015 3_020 3_021 5_015 3_022 3_000 5_014 3_023 4_025 4_005 2_013 2_014 4_000 4_022 4_001 5_022 3_018 5_021 1_009 1_029 1_004 5_009 1_002 1_003 1_000 5_005 
+--------------------------------
+NO.38 Scene:
+discovered in ineration NO. 0
+origin branch is: 881-1336 ,target branch is: 881-1335
+interests are:
+app_locale_mode      User Defined    10     Language Settings
+discovered tags are : 4_015 3_026 3_015 1_009 2_018 2_012 2_001 1_027 4_020 1_023 1_001 1_021 
+--------------------------------
+NO.39 Scene:
+discovered in ineration NO. 0
+origin branch is: 2355-3603 ,target branch is: 2355-3601
+interests are:
+app_ui_notetapaction      Set alarm for note    31     Action Settings
+discovered tags are : 4_014 2_007 2_025 2_026 2_004 4_010 4_012 3_004 3_027 3_005 5_019 1_015 3_020 3_021 5_015 3_022 3_000 5_014 3_023 4_025 4_005 2_013 2_014 4_000 4_022 4_001 5_022 3_018 5_021 1_009 1_029 1_004 5_009 1_002 1_003 1_000 5_005 
+--------------------------------
+index.1,  interestcase 4_017 start:
+tagetlogs are:[5407-8448, 1114-1717, 5071-7909, 957-1451, 2224-3408, 5125-7985, 5462-8536, 2755-4221, 1175-1835, 1016-1563, 5479-8570, 5472-8555, 5470-8551, 5461-8533, 5307-8292, 1117-1724, 1028-1585, 1174-1832, 1124-1738, 1017-1564, 5468-8547, 5476-8564, 5070-7907, 1123-1736, 5284-8261, 5471-8553]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_showseconds, value:1
+current preference, name:appwidget_0_general_showtimedate, value:0
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showdatasource, value:0
+current preference, name:app_ui_showbluehour, value:1
+current preference, name:app_ui_showgoldhour, value:0
+current preference, name:app_ui_showlightmap, value:0
+current preference, name:app_ui_showmoon, value:0
+current preference, name:app_ui_showwarnings, value:0
+current preference, name:appwidget_0_general_showweeks, value:1
+current preference, name:appwidget_0_general_showhours, value:0
+current preference, name:app_accessibility_verbose, value:1
+current preference, name:app_ui_showequinox, value:0
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:app_ui_datetapaction, value:Show calendar app
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_1_4_017.py]
+
+OK
+
+consumed time: 116.603000164 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_1_4_017.py", line 260, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"11\")", "new UiSelector().className(\"android.widget.Button\").instance(2)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_1_4_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 24.629999876 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [5407-8448, 5071-7909, 2224-3408, 5125-7985, 5462-8536, 5472-8555, 5470-8551, 5461-8533, 5307-8292, 1028-1585, 1174-1832, 5468-8547, 5476-8564, 5070-7907, 1123-1736, 5284-8261, 5471-8553]
+uncovered targets are: [1114-1717, 957-1451, 2755-4221, 1175-1835, 1016-1563, 5479-8570, 1117-1724, 1124-1738, 1017-1564]
+interestcase 0_1_4_017 end
+
+index.2,  interestcase 1_000 start:
+tagetlogs are:[1114-1717, 2355-3599, 957-1451, 2224-3409, 2755-4221, 1175-1835, 1016-1563, 5479-8570, 1117-1724, 1124-1738, 1017-1564]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_showseconds, value:1
+current preference, name:appwidget_0_general_showtimedate, value:0
+current preference, name:app_appearance_theme, value:Light Theme
+current preference, name:app_ui_showmoon, value:0
+current preference, name:appwidget_0_general_showweeks, value:1
+current preference, name:appwidget_0_general_showhours, value:0
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+current preference, name:app_ui_datetapaction, value:Swap cards (today/tomorrow)
+current preference, name:app_ui_notetapaction, value:Do nothing
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_2_1_000.py]
+
+OK
+
+consumed time: 74.7339999676 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_2_1_000.py", line 246, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"[w] The date is set to a day other than today.\")", "new UiSelector().className(\"android.widget.TextView\").instance(37)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_2_1_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.0230000019 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: []
+uncovered targets are: [1114-1717, 2355-3599, 957-1451, 2224-3409, 2755-4221, 1175-1835, 1016-1563, 5479-8570, 1117-1724, 1124-1738, 1017-1564]
+target: 1114-1717 uncovered, added to then retrial list!
+target: 2355-3599 uncovered, added to then retrial list!
+target: 957-1451 uncovered, added to then retrial list!
+target: 2224-3409 uncovered, added to then retrial list!
+target: 2755-4221 uncovered, added to then retrial list!
+target: 1175-1835 uncovered, added to then retrial list!
+target: 1016-1563 uncovered, added to then retrial list!
+target: 5479-8570 uncovered, added to then retrial list!
+target: 1117-1724 uncovered, added to then retrial list!
+target: 1124-1738 uncovered, added to then retrial list!
+target: 1017-1564 uncovered, added to then retrial list!
+interestcase 0_2_1_000 end
+
+index.3,  interestcase 4_020 start:
+tagetlogs are:[2215-3386, 881-1335, 2216-3390]
+current preference, name:app_locale_mode, value:User Defined
+current preference, name:app_ui_clocktapaction, value:Do nothing
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_3_4_020.py]
+
+OK
+
+consumed time: 31.5009999275 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_3_4_020.py", line 234, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/icon1\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_3_4_020.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.1369998455 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [2215-3386, 881-1335]
+uncovered targets are: [2216-3390]
+interestcase 0_3_4_020 end
+
+index.4,  interestcase 1_017 start:
+tagetlogs are:[2224-3406, 107-158, 2216-3390]
+current preference, name:app_ui_clocktapaction, value:Do nothing
+current preference, name:app_ui_datetapaction, value:Do nothing
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_4_1_017.py]
+
+OK
+
+consumed time: 26.1080000401 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_4_1_017.py", line 231, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Cancel\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_4_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.0010001659 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [107-158]
+uncovered targets are: [2224-3406, 2216-3390]
+interestcase 0_4_1_017 end
+
+index.5,  interestcase 1_017 start:
+tagetlogs are:[2224-3406, 113-167, 2216-3390]
+current preference, name:app_ui_clocktapaction, value:Do nothing
+current preference, name:app_ui_datetapaction, value:Do nothing
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_5_1_017.py]
+
+OK
+
+consumed time: 29.1680002213 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_5_1_017.py", line 231, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Cancel\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_5_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.8630001545 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [2224-3406, 113-167, 2216-3390]
+target: 2224-3406 uncovered, added to then retrial list!
+target: 113-167 uncovered, added to then retrial list!
+target: 2216-3390 uncovered, added to then retrial list!
+interestcase 0_5_1_017 end
+
+index.6,  interestcase 3_027 start:
+tagetlogs are:[1401-2133, 1599-2434, 2355-3601, 1598-2433]
+current preference, name:app_ui_notetapaction, value:Set alarm for note
+current preference, name:getFix_maxElapsed, value:15 seconds
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_6_3_027.py]
+
+OK
+
+consumed time: 28.7430000305 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_6_3_027.py", line 234, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.forrestguice.suntimeswidget:id/action_location_add\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_6_3_027.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.868999958 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [2355-3601]
+uncovered targets are: [1401-2133, 1599-2434, 1598-2433]
+interestcase 0_6_3_027 end
+
+index.7,  interestcase 3_027 start:
+tagetlogs are:[1401-2133, 1599-2434, 1598-2433, 2355-3602]
+current preference, name:app_ui_notetapaction, value:Show previous note
+current preference, name:getFix_maxElapsed, value:15 seconds
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_7_3_027.py]
+
+OK
+
+consumed time: 26.0809998512 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_7_3_027.py", line 262, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"time4a-noaa\")", "new UiSelector().className(\"android.widget.TextView\").instance(27)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_7_3_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 59.4309999943 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: [2355-3602]
+uncovered targets are: [1401-2133, 1599-2434, 1598-2433]
+interestcase 0_7_3_027 end
+
+index.8,  interestcase 5_002 start:
+tagetlogs are:[1401-2133, 1599-2434, 1598-2433]
+current preference, name:getFix_maxElapsed, value:15 seconds
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_8_5_002.py]
+
+OK
+
+consumed time: 18.0739998817 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 82.635999918 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1401-2133, 1599-2434, 1598-2433]
+target: 1401-2133 uncovered, added to then retrial list!
+target: 1599-2434 uncovered, added to then retrial list!
+target: 1598-2433 uncovered, added to then retrial list!
+interestcase 0_8_5_002 end
+
+index.9,  interestcase 5_002 start:
+tagetlogs are:[1604-2445]
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_9_5_002.py]
+
+OK
+
+consumed time: 6.75499987602 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 74.9040000439 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1604-2445]
+target: 1604-2445 uncovered, added to then retrial list!
+interestcase 0_9_5_002 end
+
+index.10,  interestcase 3_027 start:
+tagetlogs are:[1604-2445]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_10_3_027.py]
+
+OK
+
+consumed time: 101.769999981 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_10_3_027.py", line 292, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"time4a-noaa\")", "new UiSelector().className(\"android.widget.TextView\").instance(27)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_10_3_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 59.8190000057 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1604-2445]
+loclog: 1604-2445 uncovered after retrial, deleted!
+interestcase 0_10_3_027 end
+
+index.11,  interestcase 3_027 start:
+tagetlogs are:[1598-2433]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_11_3_027.py]
+
+OK
+
+consumed time: 114.567000151 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Set Alarm]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_11_3_027.py", line 291, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Set Alarm]
+
+
+
+
+
+consumed time: 50.1530001163 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1598-2433]
+loclog: 1598-2433 uncovered after retrial, deleted!
+interestcase 0_11_3_027 end
+
+index.12,  interestcase 3_027 start:
+tagetlogs are:[1599-2434]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_12_3_027.py]
+
+OK
+
+consumed time: 115.105999947 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_12_3_027.py", line 292, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"time4a-noaa\")", "new UiSelector().className(\"android.widget.TextView\").instance(27)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_12_3_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 62.3050000668 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1599-2434]
+loclog: 1599-2434 uncovered after retrial, deleted!
+interestcase 0_12_3_027 end
+
+index.13,  interestcase 3_027 start:
+tagetlogs are:[1401-2133]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current preference, name:getFix_maxElapsed, value:15 seconds
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_13_3_027.py]
+
+OK
+
+consumed time: 124.40899992 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Set Alarm]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_13_3_027.py", line 296, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Set Alarm]
+
+
+
+
+
+consumed time: 50.0639998913 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [1401-2133]
+uncovered targets are: []
+target: 1401-2133 covered after retrial!
+interestcase 0_13_3_027 end
+
+index.14,  interestcase 2_025 start:
+tagetlogs are:[2216-3390]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_clocktapaction, value:Do nothing
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_14_2_025.py]
+
+OK
+
+consumed time: 122.53399992 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_14_2_025.py", line 268, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_14_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 30.7869999409 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: []
+uncovered targets are: [2216-3390]
+loclog: 2216-3390 uncovered after retrial, deleted!
+interestcase 0_14_2_025 end
+
+index.15,  interestcase 2_025 start:
+tagetlogs are:[113-167]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_15_2_025.py]
+
+OK
+
+consumed time: 110.824999809 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_15_2_025.py", line 263, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_15_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.6069998741 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [113-167]
+loclog: 113-167 uncovered after retrial, deleted!
+interestcase 0_15_2_025 end
+
+index.16,  interestcase 3_019 start:
+tagetlogs are:[2224-3406]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_datetapaction, value:Do nothing
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_16_3_019.py]
+
+OK
+
+consumed time: 115.562999964 s
+
+jacoco time: 5.00699996948 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_16_3_019.py", line 261, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"13\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_16_3_019.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.8819999695 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: [2224-3406]
+uncovered targets are: []
+target: 2224-3406 covered after retrial!
+interestcase 0_16_3_019 end
+
+index.17,  interestcase 2_025 start:
+tagetlogs are:[1017-1564]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_17_2_025.py]
+
+OK
+
+consumed time: 71.5810000896 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_17_2_025.py", line 249, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_17_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 38.6510000229 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1017-1564]
+loclog: 1017-1564 uncovered after retrial, deleted!
+interestcase 0_17_2_025 end
+
+index.18,  interestcase 2_025 start:
+tagetlogs are:[1124-1738]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:0
+current preference, name:app_ui_showequinox, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_18_2_025.py]
+
+OK
+
+consumed time: 82.5489997864 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_18_2_025.py", line 253, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_18_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.2190001011 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [1124-1738]
+uncovered targets are: []
+target: 1124-1738 covered after retrial!
+interestcase 0_18_2_025 end
+
+index.19,  interestcase 2_025 start:
+tagetlogs are:[1117-1724]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:app_ui_showequinox, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_19_2_025.py]
+
+OK
+
+consumed time: 77.1710000038 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_19_2_025.py", line 251, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_19_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 30.7150001526 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1117-1724]
+loclog: 1117-1724 uncovered after retrial, deleted!
+interestcase 0_19_2_025 end
+
+index.20,  interestcase 2_025 start:
+tagetlogs are:[5479-8570]
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_20_2_025.py]
+
+OK
+
+consumed time: 47.9200000763 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_20_2_025.py", line 240, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_20_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 33.0659999847 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [5479-8570]
+loclog: 5479-8570 uncovered after retrial, deleted!
+interestcase 0_20_2_025 end
+
+index.21,  interestcase 2_025 start:
+tagetlogs are:[1016-1563]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:0
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showequinox, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_21_2_025.py]
+
+OK
+
+consumed time: 70.6349999905 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_21_2_025.py", line 249, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_21_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 25.6260001659 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [1016-1563]
+uncovered targets are: []
+target: 1016-1563 covered after retrial!
+interestcase 0_21_2_025 end
+
+index.22,  interestcase 2_025 start:
+tagetlogs are:[1175-1835]
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_22_2_025.py]
+
+OK
+
+consumed time: 28.2130000591 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_22_2_025.py", line 234, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_22_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.1990001202 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1175-1835]
+loclog: 1175-1835 uncovered after retrial, deleted!
+interestcase 0_22_2_025 end
+
+index.23,  interestcase 2_025 start:
+tagetlogs are:[2755-4221]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_ui_showequinox, value:1
+current preference, name:appwidget_0_general_trackingmode, value:Closest Event
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_23_2_025.py]
+
+OK
+
+consumed time: 95.3929998875 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_23_2_025.py", line 255, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_23_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.3819999695 s
+
+jacoco time: 5.01900005341 s
+
+covered targets are: [2755-4221]
+uncovered targets are: []
+target: 2755-4221 covered after retrial!
+interestcase 0_23_2_025 end
+
+index.24,  interestcase 3_019 start:
+tagetlogs are:[2224-3409]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_datetapaction, value:Swap cards (today/tomorrow)
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_24_3_019.py]
+
+OK
+
+consumed time: 118.103000164 s
+
+jacoco time: 5.00299978256 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_24_3_019.py", line 261, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"13\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_24_3_019.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.1960000992 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [2224-3409]
+uncovered targets are: []
+target: 2224-3409 covered after retrial!
+interestcase 0_24_3_019 end
+
+index.25,  interestcase 2_025 start:
+tagetlogs are:[957-1451]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_25_2_025.py]
+
+OK
+
+consumed time: 34.5509998798 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_25_2_025.py", line 239, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_25_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.6949999332 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [957-1451]
+loclog: 957-1451 uncovered after retrial, deleted!
+interestcase 0_25_2_025 end
+
+index.26,  interestcase 2_025 start:
+tagetlogs are:[2355-3599]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Do nothing
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_26_2_025.py]
+
+OK
+
+consumed time: 120.345000029 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_26_2_025.py", line 266, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_26_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.0099999905 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [2355-3599]
+loclog: 2355-3599 uncovered after retrial, deleted!
+interestcase 0_26_2_025 end
+
+index.27,  interestcase 2_025 start:
+tagetlogs are:[1114-1717]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:appwidget_0_general_showweeks, value:1
+current preference, name:app_ui_showequinox, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_27_2_025.py]
+
+OK
+
+consumed time: 79.7870001793 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_27_2_025.py", line 251, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Prescott, AZ\")", "new UiSelector().className(\"android.widget.CheckedTextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase0_27_2_025.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.8149998188 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1114-1717]
+uncovered targets are: []
+target: 1114-1717 covered after retrial!
+interestcase 0_27_2_025 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 5126-7987 ,target branch is: 5126-7988
+interests are:
+app_ui_showwarnings      1    23     User Interface
+discovered tags are : 0_2_1_000 0_7_3_027 0_1_4_017 0_5_1_017 0_8_5_002 0_9_5_002 0_6_3_027 0_4_1_017 0_10_3_027 0_3_4_020 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 2355-3601 ,target branch is: 2355-3599
+interests are:
+app_ui_notetapaction      Do nothing    31     Action Settings
+discovered tags are : 0_6_3_027 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 2355-3602 ,target branch is: 2355-3599
+interests are:
+app_ui_notetapaction      Do nothing    31     Action Settings
+discovered tags are : 0_7_3_027 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 160-241 ,target branch is: 160-242
+interests are:
+getFix_passiveMode      1    37     Places
+discovered tags are : 0_7_3_027 0_5_1_017 0_8_5_002 0_9_5_002 0_16_3_019 0_4_1_017 0_15_2_025 0_20_2_025 0_19_2_025 0_18_2_025 0_6_3_027 0_17_2_025 0_27_2_025 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 2512-3844 ,target branch is: 2512-3843
+interests are:
+appwidget_0_appearance_timeformatmode      System format    2     General Settings
+discovered tags are : 0_25_2_025 0_13_3_027 0_26_2_025 0_12_3_027 0_14_2_025 0_16_3_019 0_21_2_025 0_15_2_025 0_19_2_025 0_2_1_000 0_18_2_025 0_1_4_017 0_11_3_027 0_23_2_025 0_10_3_027 0_24_3_019 0_17_2_025 0_27_2_025 
+--------------------------------
+index.1,  interestcase 0_7_3_027 start:
+tagetlogs are:[160-242]
+current preference, name:app_ui_notetapaction, value:Show previous note
+current preference, name:getFix_maxElapsed, value:15 seconds
+current preference, name:getFix_passiveMode, value:1
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_1_0_7_3_027.py]
+
+OK
+
+consumed time: 32.9059998989 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_1_0_7_3_027.py", line 264, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"time4a-noaa\")", "new UiSelector().className(\"android.widget.TextView\").instance(27)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_1_0_7_3_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 59.1480000019 s
+
+jacoco time: 5.00199985504 s
+
+covered targets are: [160-242]
+uncovered targets are: []
+target: 160-242 covered after retrial!
+interestcase 1_1_0_7_3_027 end
+
+index.2,  interestcase 0_10_3_027 start:
+tagetlogs are:[2512-3843]
+current preference, name:appwidget_0_appearance_timeformatmode, value:System format
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_2_0_10_3_027.py]
+
+OK
+
+consumed time: 123.847000122 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Set Alarm]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_2_0_10_3_027.py", line 293, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Set Alarm]
+
+
+
+
+
+consumed time: 52.9460000992 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [2512-3843]
+loclog: 2512-3843 uncovered after retrial, deleted!
+interestcase 1_2_0_10_3_027 end
+
+index.3,  interestcase 0_10_3_027 start:
+tagetlogs are:[5126-7988]
+current preference, name:appwidget_0_general_showseconds, value:0
+current preference, name:appwidget_0_general_showtimedate, value:1
+current preference, name:app_locale_mode, value:System
+current preference, name:app_appearance_theme, value:Dark Theme
+current preference, name:app_ui_showdatasource, value:1
+current preference, name:app_ui_showbluehour, value:0
+current preference, name:app_ui_showgoldhour, value:1
+current preference, name:app_ui_showlightmap, value:1
+current preference, name:app_ui_showmoon, value:1
+current preference, name:app_ui_showwarnings, value:1
+current preference, name:appwidget_0_general_showweeks, value:0
+current preference, name:appwidget_0_general_showhours, value:1
+current preference, name:app_accessibility_verbose, value:0
+current preference, name:app_ui_showequinox, value:1
+current preference, name:app_ui_notetapaction, value:Show next note
+current systemservice, name: ass_location_network, value: 0
+current systemservice, name: ass_location_gps, value: 1
+current systemservice, name: ass_location_network, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_3_0_10_3_027.py]
+
+OK
+
+consumed time: 121.825000048 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Set Alarm]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_3_0_10_3_027.py", line 291, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Set Alarm]
+
+
+
+
+
+consumed time: 50.4370000362 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [5126-7988]
+loclog: 5126-7988 uncovered after retrial, deleted!
+interestcase 1_3_0_10_3_027 end
+
+index.4,  interestcase 0_7_3_027 start:
+tagetlogs are:[2355-3599]
+current preference, name:app_ui_notetapaction, value:Do nothing
+current preference, name:getFix_maxElapsed, value:15 seconds
+current systemservice, name: ass_location_gps, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_4_0_7_3_027.py]
+
+OK
+
+consumed time: 28.6019999981 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_4_0_7_3_027.py", line 262, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"time4a-noaa\")", "new UiSelector().className(\"android.widget.TextView\").instance(27)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\suntimes\testcase\interestcases\testcase1_4_0_7_3_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 58.6849999428 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [2355-3599]
+uncovered targets are: []
+target: 2355-3599 covered after retrial!
+interestcase 1_4_0_7_3_027 end
+

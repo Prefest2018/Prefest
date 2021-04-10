@@ -1,0 +1,33 @@
+firsttestcase 1_6_006 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\AmazeFileManager\testcase\interestcases-old\testcase1_6_006.py]
+
+consumed time: 110.43599987 s
+
+jacoco time: 42.2080001831 s
+
+OK
+
+consumed time: 72.3940000534 s
+
+jacoco time: 5.02800011635 s
+
+firsttestcase 1_6_006 end
+
+firsttestcase 6_5_005 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\AmazeFileManager\testcase\interestcases-old\testcase6_5_005.py]
+
+consumed time: 57.2660000324 s
+
+jacoco time: 38.8180000782 s
+
+OK
+
+consumed time: 87.4149999619 s
+
+jacoco time: 5.02999997139 s
+
+firsttestcase 6_5_005 end
+
+firsttestcase 9_7_021 start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\AmazeFileManager\testcase\interestcases-old\testcase9_7_021.py]
+

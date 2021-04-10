@@ -12,3 +12,9 @@ try:
 	element.click()
 except NoSuchElementException:
 	time.sleep(0.1)
+try:
+	element = driver.find_element_by_android_uiautomator("new UiSelector().text(\"Cancel\")")
+	element.click()
+	time.sleep(1)
+except NoSuchElementException:
+	time.sleep(0.1)

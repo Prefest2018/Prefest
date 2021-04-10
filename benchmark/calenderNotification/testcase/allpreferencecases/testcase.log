@@ -1,0 +1,26 @@
+firsttestcase defaultprecase_log start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 273.713999987 s
+
+jacoco time: 5.00499987602 s
+
+firsttestcase defaultprecase_log end
+
+firsttestcase precase_log start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\calenderNotification\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 241.437000036 s
+
+jacoco time: 5.00499987602 s
+
+firsttestcase precase_log end
+
+execution end: 0 failed
+
+execution end: 0 failed
+

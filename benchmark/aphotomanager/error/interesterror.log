@@ -1,115 +1,635 @@
-1_5_027
-1_5_027
+preference_pre_reverse
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-2_3_004
+preference_pre_default
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-3_1_000
+0_1_2_029
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-4_3_000
+0_2_2_022
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-5_2_029
+0_3_5_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-6_2_017
+0_4_5_012
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-7_4_013
+0_5_3_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-8_2_013
+0_6_3_000
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-9_4_014
---------- beginning of /dev/log/system
-
---------- beginning of /dev/log/main
-
-10_4_009
+0_7_4_014
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-11_1_001
+0_8_1_013
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-12_3_017
+0_9_3_028
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-13_2_029
+0_10_5_022
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-14_3_007
+0_11_4_009
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-15_3_007
+0_12_3_002
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-16_2_029
+0_13_5_025
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-17_2_029
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+
+
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+
+
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+
+E/ActivityThread(17396): Failed to find provider info for com.google.settings
+
+0_14_4_013
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-18_2_013
+0_15_2_027
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-19_1_010
+0_16_3_015
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-20_4_009
+0_17_2_028
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-21_2_029
+0_18_3_004
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-22_2_029
+0_19_2_017
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system
 
-23_2_013
+0_20_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_21_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_22_2_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_7_4_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_11_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_11_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_5_0_5_3_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_7_0_4_5_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_8_0_3_5_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread(30574): Failed to find provider info for com.google.android.gsf.gservices
+
+1_9_0_20_3_026
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_10_0_11_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_11_0_8_1_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_12_0_12_3_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_13_0_10_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_13_0_10_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_2_1_12_0_12_3_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_1_2_2_1_12_0_12_3_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_2_2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_1_3_2_2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_2_3_1_2_2_1_12_0_12_3_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_1_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_2_4_1_3_2_2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_3_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_1_5_3_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_2_5_1_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_3_5_2_4_1_3_2_2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_1_6_1_5_3_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_2_6_3_5_2_4_1_3_2_2_3_1_6_0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_1_6_1_5_3_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_2_6_3_5_2_4_1_3_2_2_3_1_6_0_2_2_022
+7_1_6_1_5_3_4_3_3_3_2_4_1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_5_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_5_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_3_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_4_014
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_3_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_4_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_4_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_4_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_18_3_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_19_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+E/ActivityThread( 2518): Failed to find provider info for com.google.android.gsf.gservices
+
+
+
+1_1_0_9_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_3_0_1_2_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_4_0_9_4_009
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_1_1_2_0_1_2_029
 --------- beginning of /dev/log/main
 
 --------- beginning of /dev/log/system

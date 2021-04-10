@@ -1,0 +1,1959 @@
+This exploration took time: 51s
+current preference, name:datePickerUseDecade, value:1
+current preference, name:mapsForgeEnabled, value:1
+current preference, name:mediaUpdateStrategy, value:jpg file only
+current preference, name:xmp_file_schema_long, value:1
+current preference, name:renamePrivateJpg, value:1
+current preference, name:clearSelectionAfterCommand, value:0
+current preference, name:debugEnabledSql, value:1
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnabledMemory, value:1
+current preference, name:debugEnabledJpg, value:1
+current preference, name:debugEnabledJpgMetaIo, value:1
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:1
+current preference, name:datePickerUseDecade, value:0
+current preference, name:mapsForgeEnabled, value:0
+current preference, name:mediaUpdateStrategy, value:jpg and xmp (Create if not found)
+current preference, name:xmp_file_schema_long, value:0
+current preference, name:renamePrivateJpg, value:0
+current preference, name:clearSelectionAfterCommand, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnabledJpg, value:0
+current preference, name:debugEnabledJpgMetaIo, value:0
+current preference, name:debugEnableLibs, value:0
+current preference, name:debugEnabled, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 94.6879999638 s
+
+jacoco time: 5.00499987602 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 89.0160000324 s
+
+jacoco time: 5.0039999485 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 2962-5200 ,target branch is: 2962-5201
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 5_022 3_027 2_027 1_026 5_027 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 2231-3932 ,target branch is: 2231-3933
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 3110-5544 ,target branch is: 3110-5545
+interests are:
+debugEnabledJpg      1    22     Diagnostics
+discovered tags are : 5_022 4_009 5_027 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 628-1076 ,target branch is: 628-1077
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 565-967_0 ,target branch is: 565-967_0
+interests are:
+actionBarHideTimeInMilliSecs          4     Photos
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 636-1093 ,target branch is: 636-1094
+interests are:
+debugEnabledMemory      1    21     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 2477-4334 ,target branch is: 2477-4335
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 4_014 4_004 2_005 2_006 2_018 2_019 2_020 4_011 5_011 5_021 3_005 1_017 1_006 5_008 1_024 1_002 1_025 5_004 3_024 3_013 1_012 3_025 3_014 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 962-1692 ,target branch is: 962-1693
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 706-1252 ,target branch is: 706-1253
+interests are:
+debugEnabledMemory      1    21     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 3168-5681 ,target branch is: 3168-5682
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 3333-6011 ,target branch is: 3333-6010
+interests are:
+debugEnableLibs      0    24     Diagnostics
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 2167-3842 ,target branch is: 2167-3841
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1813-3289 ,target branch is: 1813-3290
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_006 3_026 2_029 4_009 1_001 4_012 2_022 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 91-121 ,target branch is: 91-122
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_006 3_026 2_029 4_009 1_001 4_012 2_022 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 1942-3484_1 ,target branch is: 1942-3484_1
+interests are:
+logCatDir          28     Diagnostics
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 2028-3633 ,target branch is: 2028-3634
+interests are:
+debugEnabledViewItem      1    19     Diagnostics
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 3_006 3_007 3_004 3_005 3_008 3_009 3_020 3_021 3_002 3_003 3_022 3_000 3_023 3_001 2_016 2_017 2_018 2_019 3_017 3_018 3_015 3_016 3_019 3_010 3_013 1_000 3_014 3_011 3_012 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 2930-5132 ,target branch is: 2930-5131
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_026 2_029 1_001 4_012 2_022 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 1351-2421 ,target branch is: 1351-2422
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 5_012 3_002 5_025 4_013 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 288-446 ,target branch is: 288-447
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_006 3_026 2_029 4_009 1_001 4_012 2_022 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 2929-5129 ,target branch is: 2929-5128
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 3_026 2_029 1_001 4_012 2_022 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 929-1626 ,target branch is: 929-1625
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_028 3_017 3_029 1_028 1_018 2_015 2_004 4_010 2_021 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 304-472 ,target branch is: 304-473
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_006 3_026 2_029 4_009 1_001 4_012 2_022 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 2217-3909 ,target branch is: 2217-3908
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 2247-3959 ,target branch is: 2247-3960
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 3109-5543 ,target branch is: 3109-5542
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 5_022 4_009 5_027 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 2027-3631 ,target branch is: 2027-3630
+interests are:
+debugEnableLibs      0    24     Diagnostics
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 3_006 3_007 3_004 3_005 3_008 3_009 3_020 3_021 3_002 3_003 3_022 3_000 3_023 3_001 2_016 2_017 2_018 2_019 3_017 3_018 3_015 3_016 3_019 3_010 3_013 1_000 3_014 3_011 3_012 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 2213-3900 ,target branch is: 2213-3899
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 3439-6167_2 ,target branch is: 3439-6167_2
+interests are:
+pickHistoryMax          16     Edit
+discovered tags are : 3_027 3_016 5_019 2_013 1_005 5_006 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 2933-5134 ,target branch is: 2933-5135
+interests are:
+debugEnabledJpgMetaIo      1    23     Diagnostics
+discovered tags are : 5_022 3_027 2_027 1_026 5_027 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 2283-4024 ,target branch is: 2283-4023
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 2286-4030 ,target branch is: 2286-4031
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 275-424 ,target branch is: 275-425
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_006 3_026 2_029 4_009 1_001 4_012 2_022 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2787 ,target branch is: 1564-2788
+interests are:
+debugEnabledMemory      1    21     Diagnostics
+discovered tags are : 5_012 3_002 5_025 4_013 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 3477-6231 ,target branch is: 3477-6232
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_027 3_016 5_019 2_013 1_005 5_006 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 1121-2047 ,target branch is: 1121-2048
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 565-966_3 ,target branch is: 565-966_3
+interests are:
+actionBarHideTimeInMilliSecs          4     Photos
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.36 Scene:
+discovered in ineration NO. 0
+origin branch is: 976-1713 ,target branch is: 976-1714
+interests are:
+debugEnabledViewItem      1    19     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.37 Scene:
+discovered in ineration NO. 0
+origin branch is: 1940-3477_4 ,target branch is: 1940-3477_4
+interests are:
+imageDetailThumbnailIfBiggerThan          5     Photos
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.38 Scene:
+discovered in ineration NO. 0
+origin branch is: 2248-3961 ,target branch is: 2248-3962
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.39 Scene:
+discovered in ineration NO. 0
+origin branch is: 3586-6418 ,target branch is: 3586-6419
+interests are:
+debugEnabledViewItem      1    19     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.40 Scene:
+discovered in ineration NO. 0
+origin branch is: 2209-3892 ,target branch is: 2209-3893
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.41 Scene:
+discovered in ineration NO. 0
+origin branch is: 3458-6201 ,target branch is: 3458-6202
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_027 3_016 5_019 2_013 1_005 5_006 
+--------------------------------
+NO.42 Scene:
+discovered in ineration NO. 0
+origin branch is: 2324-4091 ,target branch is: 2324-4092
+interests are:
+mapsForgeEnabled      1    9     Show in map
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.43 Scene:
+discovered in ineration NO. 0
+origin branch is: 446-774 ,target branch is: 446-775
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.44 Scene:
+discovered in ineration NO. 0
+origin branch is: 3590-6426 ,target branch is: 3590-6427
+interests are:
+debugEnabledViewItem      1    19     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.45 Scene:
+discovered in ineration NO. 0
+origin branch is: 3601-6443 ,target branch is: 3601-6444
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.46 Scene:
+discovered in ineration NO. 0
+origin branch is: 904-1599 ,target branch is: 904-1600
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_028 3_017 3_029 1_028 1_018 2_015 2_004 4_010 2_021 
+--------------------------------
+NO.47 Scene:
+discovered in ineration NO. 0
+origin branch is: 2228-3928 ,target branch is: 2228-3929
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.48 Scene:
+discovered in ineration NO. 0
+origin branch is: 2337-4113 ,target branch is: 2337-4114
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.49 Scene:
+discovered in ineration NO. 0
+origin branch is: 1704-3069 ,target branch is: 1704-3068
+interests are:
+renamePrivateJpg      0    14     Edit
+discovered tags are : 5_022 4_009 5_027 
+--------------------------------
+NO.50 Scene:
+discovered in ineration NO. 0
+origin branch is: 2667-4633 ,target branch is: 2667-4634
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 4_014 4_004 2_005 2_006 2_018 2_019 2_020 4_011 5_011 5_021 3_005 1_017 1_006 5_008 1_024 1_002 1_025 5_004 3_024 3_013 1_012 3_025 3_014 
+--------------------------------
+NO.51 Scene:
+discovered in ineration NO. 0
+origin branch is: 3575-6400 ,target branch is: 3575-6401
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.52 Scene:
+discovered in ineration NO. 0
+origin branch is: 567-971 ,target branch is: 567-972
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_009 4_016 4_017 2_027 4_018 4_019 2_023 5_010 3_009 1_013 5_015 1_011 3_003 3_000 1_010 3_023 4_003 4_025 4_026 4_027 4_028 2_016 4_029 4_009 2_014 4_020 4_021 4_022 2_010 4_023 4_024 5_000 5_022 5_001 5_020 3_016 3_019 1_004 5_009 1_000 5_027 5_002 1_020 1_021 
+--------------------------------
+NO.53 Scene:
+discovered in ineration NO. 0
+origin branch is: 2240-3945 ,target branch is: 2240-3946
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.54 Scene:
+discovered in ineration NO. 0
+origin branch is: 1946_5 ,target branch is: 1946_5
+interests are:
+imageDetailThumbnailIfBiggerThan          5     Photos
+discovered tags are : 4_015 2_027 2_028 2_024 2_002 2_025 2_003 2_026 3_027 1_019 1_016 3_021 5_017 1_014 5_013 3_022 3_000 4_006 2_012 4_001 2_011 5_023 3_018 1_009 1_027 3_010 5_028 1_003 5_026 5_024 5_003 
+--------------------------------
+NO.55 Scene:
+discovered in ineration NO. 0
+origin branch is: 2168-3844 ,target branch is: 2168-3845
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.56 Scene:
+discovered in ineration NO. 0
+origin branch is: 2252-3967 ,target branch is: 2252-3968
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_013 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_029 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 3_007 5_010 3_008 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_007 1_004 5_029 1_000 5_027 
+--------------------------------
+NO.57 Scene:
+discovered in ineration NO. 0
+origin branch is: 1849-3346 ,target branch is: 1849-3347
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 2_027 2_023 3_027 1_015 1_013 1_011 1_010 3_023 4_003 2_016 4_007 4_009 2_014 4_000 2_010 5_000 5_001 3_018 3_016 3_019 1_026 5_009 5_002 1_020 1_021 2_009 4_016 4_017 4_018 4_019 2_007 2_003 5_010 3_009 5_015 3_003 5_013 3_000 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 5_022 5_020 1_004 1_000 5_027 
+--------------------------------
+NO.58 Scene:
+discovered in ineration NO. 0
+origin branch is: 2341-4119 ,target branch is: 2341-4120
+interests are:
+debugEnabledMap      1    20     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.59 Scene:
+discovered in ineration NO. 0
+origin branch is: 961-1690 ,target branch is: 961-1689
+interests are:
+debugEnabledSql      1    18     Diagnostics
+discovered tags are : 3_015 3_004 2_017 2_029 2_008 1_022 5_005 5_016 1_001 2_022 
+--------------------------------
+NO.60 Scene:
+discovered in ineration NO. 0
+origin branch is: 2306-4064 ,target branch is: 2306-4065
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 5_012 3_002 5_025 4_013 
+--------------------------------
+NO.61 Scene:
+discovered in ineration NO. 0
+origin branch is: 3046-5408 ,target branch is: 3046-5409
+interests are:
+debugEnabled      1    25     Diagnostics
+discovered tags are : 5_027 
+--------------------------------
+index.1,  interestcase 2_029 start:
+tagetlogs are:[962-1693, 2028-3634, 304-473, 3168-5682, 1940-3477_4, 2930-5131, 2209-3893, 2168-3845, 2324-4092, 2217-3908, 1121-2048, 288-447, 3333-6010, 2248-3962, 961-1689, 2283-4023, 2341-4120, 2337-4114, 2929-5128, 976-1714, 2213-3899, 2247-3960, 2286-4031, 2228-3929, 275-425, 1942-3484_1, 2231-3933, 2027-3630, 91-122, 2167-3841, 1813-3290]
+current preference, name:imageDetailThumbnailIfBiggerThan, value:
+current preference, name:mapsForgeEnabled, value:1
+current preference, name:debugEnabledSql, value:1
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnableLibs, value:0
+current preference, name:debugEnabled, value:1
+current preference, name:logCatDir, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_1_2_029.py]
+
+OK
+
+consumed time: 85.251999855 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_1_2_029.py", line 264, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_1_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 46.3310000896 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [304-473, 3168-5682, 1940-3477_4, 2209-3893, 2324-4092, 288-447, 3333-6010, 2248-3962, 961-1689, 2283-4023, 2341-4120, 2337-4114, 2929-5128, 976-1714, 2213-3899, 2247-3960, 2228-3929, 275-425, 1942-3484_1, 2231-3933, 2027-3630, 91-122, 2167-3841, 1813-3290]
+uncovered targets are: [962-1693, 2028-3634, 2930-5131, 2168-3845, 2217-3908, 1121-2048, 2286-4031]
+interestcase 0_1_2_029 end
+
+index.2,  interestcase 2_022 start:
+tagetlogs are:[962-1693, 2028-3634, 2930-5131, 2168-3845, 2217-3908, 1121-2048, 2286-4031]
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_2_2_022.py]
+
+OK
+
+consumed time: 42.2440001965 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_2_2_022.py", line 233, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"sbin \")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_2_2_022.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.4800000191 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [962-1693, 2028-3634, 2930-5131, 2168-3845, 2217-3908, 1121-2048, 2286-4031]
+target: 962-1693 uncovered, added to then retrial list!
+target: 2028-3634 uncovered, added to then retrial list!
+target: 2930-5131 uncovered, added to then retrial list!
+target: 2168-3845 uncovered, added to then retrial list!
+target: 2217-3908 uncovered, added to then retrial list!
+target: 1121-2048 uncovered, added to then retrial list!
+target: 2286-4031 uncovered, added to then retrial list!
+interestcase 0_2_2_022 end
+
+index.3,  interestcase 5_027 start:
+tagetlogs are:[3046-5409, 706-1253, 565-966_3, 3575-6401, 3590-6427, 446-775, 3110-5545, 636-1094, 3601-6444, 565-967_0, 2240-3946, 1704-3068, 567-972, 1849-3347, 2933-5135, 2962-5201, 3586-6419, 628-1077, 3109-5542, 2252-3968]
+current preference, name:actionBarHideTimeInMilliSecs, value:
+current preference, name:renamePrivateJpg, value:0
+current preference, name:debugEnabledSql, value:1
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMemory, value:1
+current preference, name:debugEnabledJpg, value:1
+current preference, name:debugEnabledJpgMetaIo, value:1
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_3_5_027.py]
+
+OK
+
+consumed time: 75.507999897 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_3_5_027.py", line 255, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageButton\").description(\"Mais opções\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_3_5_027.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 35.6610000134 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [3046-5409, 706-1253, 565-966_3, 3575-6401, 3590-6427, 446-775, 636-1094, 3601-6444, 565-967_0, 2240-3946, 1704-3068, 567-972, 1849-3347, 2933-5135, 2962-5201, 3586-6419, 628-1077, 3109-5542, 2252-3968]
+uncovered targets are: [3110-5545]
+interestcase 0_3_5_027 end
+
+index.4,  interestcase 5_012 start:
+tagetlogs are:[1564-2788, 2306-4065, 1351-2422]
+current preference, name:debugEnabledMemory, value:1
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_4_5_012.py]
+
+OK
+
+consumed time: 36.5640001297 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_4_5_012.py", line 243, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Cancelar\")", "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/chkUpdateAffectedPhotos\").className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_4_5_012.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 35.9200000763 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1564-2788, 2306-4065, 1351-2422]
+target: 1564-2788 uncovered, added to then retrial list!
+target: 2306-4065 uncovered, added to then retrial list!
+target: 1351-2422 uncovered, added to then retrial list!
+interestcase 0_4_5_012 end
+
+index.5,  interestcase 3_027 start:
+tagetlogs are:[3458-6202, 3477-6232, 1946_5, 3439-6167_2]
+current preference, name:imageDetailThumbnailIfBiggerThan, value:
+current preference, name:pickHistoryMax, value:
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_5_3_027.py]
+
+OK
+
+consumed time: 54.0590000153 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 61.6710000038 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [3458-6202, 3477-6232, 1946_5, 3439-6167_2]
+uncovered targets are: []
+interestcase 0_5_3_027 end
+
+index.6,  interestcase 4_014 start:
+tagetlogs are:[2477-4335, 2667-4634]
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_6_4_014.py]
+
+OK
+
+consumed time: 31.4639999866 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 48.8630001545 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [2477-4335, 2667-4634]
+uncovered targets are: []
+interestcase 0_6_4_014 end
+
+index.7,  interestcase 3_028 start:
+tagetlogs are:[904-1600, 929-1625]
+current preference, name:debugEnabled, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_7_3_028.py]
+
+OK
+
+consumed time: 29.9800000191 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_7_3_028.py", line 237, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/action_edit\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_7_3_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 35.6789999008 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [904-1600, 929-1625]
+uncovered targets are: []
+interestcase 0_7_3_028 end
+
+index.8,  interestcase 5_022 start:
+tagetlogs are:[3110-5545]
+current preference, name:debugEnabledJpg, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_8_5_022.py]
+
+OK
+
+consumed time: 27.0460000038 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_8_5_022.py", line 252, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/add\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_8_5_022.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 60.4449999332 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [3110-5545]
+target: 3110-5545 uncovered, added to then retrial list!
+interestcase 0_8_5_022 end
+
+index.9,  interestcase 4_009 start:
+tagetlogs are:[3110-5545]
+current preference, name:renamePrivateJpg, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnabledJpg, value:1
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_9_4_009.py]
+
+OK
+
+consumed time: 62.7320001125 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[CLASS=android.widget.TextView]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_9_4_009.py", line 250, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[CLASS=android.widget.TextView]
+
+
+
+
+
+consumed time: 62.7999999523 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [3110-5545]
+loclog: 3110-5545 uncovered after retrial, deleted!
+interestcase 0_9_4_009 end
+
+index.10,  interestcase 4_013 start:
+tagetlogs are:[1351-2422]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_10_4_013.py]
+
+OK
+
+consumed time: 57.638999939 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[CLASS=android.widget.ImageView, RESOURCE_ID=android:id/home]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_10_4_013.py", line 240, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[CLASS=android.widget.ImageView, RESOURCE_ID=android:id/home]
+
+
+
+
+
+consumed time: 23.4709999561 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [1351-2422]
+loclog: 1351-2422 uncovered after retrial, deleted!
+interestcase 0_10_4_013 end
+
+index.11,  interestcase 4_013 start:
+tagetlogs are:[2306-4065]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_11_4_013.py]
+
+OK
+
+consumed time: 56.4859998226 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_11_4_013.py", line 239, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"android:id/home\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_11_4_013.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 19.1119999886 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2306-4065]
+loclog: 2306-4065 uncovered after retrial, deleted!
+interestcase 0_11_4_013 end
+
+index.12,  interestcase 4_013 start:
+tagetlogs are:[1564-2788]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_12_4_013.py]
+
+OK
+
+consumed time: 52.743999958 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: UiSelector[CLASS=android.widget.ImageView, RESOURCE_ID=android:id/home]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_12_4_013.py", line 240, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[CLASS=android.widget.ImageView, RESOURCE_ID=android:id/home]
+
+
+
+
+
+consumed time: 24.1510000229 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1564-2788]
+loclog: 1564-2788 uncovered after retrial, deleted!
+interestcase 0_12_4_013 end
+
+index.13,  interestcase 2_029 start:
+tagetlogs are:[2286-4031]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_13_2_029.py]
+
+OK
+
+consumed time: 64.3870000839 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_13_2_029.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_13_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 43.9670000076 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2286-4031]
+loclog: 2286-4031 uncovered after retrial, deleted!
+interestcase 0_13_2_029 end
+
+index.14,  interestcase 4_009 start:
+tagetlogs are:[1121-2048]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_14_4_009.py]
+
+OK
+
+consumed time: 42.356000185 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_14_4_009.py", line 257, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"acct \")", "new UiSelector().className(\"android.widget.TextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_14_4_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 79.6770000458 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [1121-2048]
+loclog: 1121-2048 uncovered after retrial, deleted!
+interestcase 0_14_4_009 end
+
+index.15,  interestcase 2_029 start:
+tagetlogs are:[2217-3908]
+current preference, name:mapsForgeEnabled, value:0
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_15_2_029.py]
+
+OK
+
+consumed time: 69.1540000439 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_15_2_029.py", line 262, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_15_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 43.6930000782 s
+
+jacoco time: 5.00200009346 s
+
+covered targets are: []
+uncovered targets are: [2217-3908]
+loclog: 2217-3908 uncovered after retrial, deleted!
+interestcase 0_15_2_029 end
+
+index.16,  interestcase 2_029 start:
+tagetlogs are:[2168-3845]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_16_2_029.py]
+
+OK
+
+consumed time: 60.6169998646 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_16_2_029.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_16_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.1309998035 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [2168-3845]
+uncovered targets are: []
+target: 2168-3845 covered after retrial!
+interestcase 0_16_2_029 end
+
+index.17,  interestcase 2_029 start:
+tagetlogs are:[2930-5131]
+current preference, name:mapsForgeEnabled, value:0
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_17_2_029.py]
+
+OK
+
+consumed time: 71.1860001087 s
+
+jacoco time: 5.00299978256 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_17_2_029.py", line 262, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_17_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.0199999809 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [2930-5131]
+loclog: 2930-5131 uncovered after retrial, deleted!
+interestcase 0_17_2_029 end
+
+index.18,  interestcase 3_000 start:
+tagetlogs are:[2028-3634]
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_18_3_000.py]
+
+OK
+
+consumed time: 56.5439999104 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_18_3_000.py", line 250, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Cancelar\")", "new UiSelector().className(\"android.widget.Button\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_18_3_000.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.753000021 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [2028-3634]
+loclog: 2028-3634 uncovered after retrial, deleted!
+interestcase 0_18_3_000 end
+
+index.19,  interestcase 2_029 start:
+tagetlogs are:[962-1693]
+current preference, name:mapsForgeEnabled, value:0
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMap, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_19_2_029.py]
+
+OK
+
+consumed time: 65.3009998798 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_19_2_029.py", line 262, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase0_19_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 47.7109999657 s
+
+jacoco time: 5.00199985504 s
+
+covered targets are: []
+uncovered targets are: [962-1693]
+loclog: 962-1693 uncovered after retrial, deleted!
+interestcase 0_19_2_029 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 3016-5302 ,target branch is: 3016-5303
+interests are:
+debugEnabledSql      0    18     Diagnostics
+discovered tags are : 0_1_2_029 0_13_2_029 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 3465-6213 ,target branch is: 3465-6212
+interests are:
+debugEnabled      0    25     Diagnostics
+discovered tags are : 0_7_3_028 0_2_2_022 0_8_5_022 0_3_5_027 0_5_3_027 0_9_4_009 0_4_5_012 0_6_4_014 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 3499-6264 ,target branch is: 3499-6265
+interests are:
+debugEnabledSql      0    18     Diagnostics
+discovered tags are : 0_1_2_029 0_13_2_029 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 3466-6216 ,target branch is: 3466-6215
+interests are:
+debugEnabled      0    25     Diagnostics
+discovered tags are : 0_7_3_028 0_2_2_022 0_8_5_022 0_3_5_027 0_5_3_027 0_9_4_009 0_4_5_012 0_6_4_014 
+--------------------------------
+index.1,  interestcase 0_9_4_009 start:
+tagetlogs are:[3465-6212]
+current preference, name:renamePrivateJpg, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnabledJpg, value:1
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_1_0_9_4_009.py]
+
+OK
+
+consumed time: 67.0299999714 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[CLASS=android.widget.TextView]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_1_0_9_4_009.py", line 250, in <module>
+
+    TouchAction(driver).tap(element).perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[CLASS=android.widget.TextView]
+
+
+
+
+
+consumed time: 63.0290000439 s
+
+jacoco time: 5.00200009346 s
+
+covered targets are: []
+uncovered targets are: [3465-6212]
+loclog: 3465-6212 uncovered after retrial, deleted!
+interestcase 1_1_0_9_4_009 end
+
+index.2,  interestcase 0_1_2_029 start:
+tagetlogs are:[3499-6265]
+current preference, name:imageDetailThumbnailIfBiggerThan, value:
+current preference, name:mapsForgeEnabled, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnableLibs, value:0
+current preference, name:debugEnabled, value:1
+current preference, name:logCatDir, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_2_0_1_2_029.py]
+
+OK
+
+consumed time: 83.5750000477 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_2_0_1_2_029.py", line 264, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_2_0_1_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.3169999123 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [3499-6265]
+uncovered targets are: []
+target: 3499-6265 covered after retrial!
+interestcase 1_2_0_1_2_029 end
+
+index.3,  interestcase 0_1_2_029 start:
+tagetlogs are:[3016-5303]
+current preference, name:imageDetailThumbnailIfBiggerThan, value:
+current preference, name:mapsForgeEnabled, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnableLibs, value:0
+current preference, name:debugEnabled, value:1
+current preference, name:logCatDir, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_3_0_1_2_029.py]
+
+OK
+
+consumed time: 92.614000082 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_3_0_1_2_029.py", line 264, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_3_0_1_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 44.9149999619 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [3016-5303]
+uncovered targets are: []
+target: 3016-5303 covered after retrial!
+interestcase 1_3_0_1_2_029 end
+
+index.4,  interestcase 0_9_4_009 start:
+tagetlogs are:[3466-6215]
+current preference, name:renamePrivateJpg, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:0
+current preference, name:debugEnabledMemory, value:0
+current preference, name:debugEnabledJpg, value:1
+current preference, name:debugEnableLibs, value:1
+current preference, name:debugEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_4_0_9_4_009.py]
+
+OK
+
+consumed time: 68.3539998531 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_4_0_9_4_009.py", line 265, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"acct \")", "new UiSelector().className(\"android.widget.TextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase1_4_0_9_4_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 79.132999897 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [3466-6215]
+loclog: 3466-6215 uncovered after retrial, deleted!
+interestcase 1_4_0_9_4_009 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 3017-5305 ,target branch is: 3017-5304
+interests are:
+debugEnabled      0    25     Diagnostics
+discovered tags are : 1_2_0_1_2_029 1_3_0_1_2_029 
+--------------------------------
+index.1,  interestcase 1_2_0_1_2_029 start:
+tagetlogs are:[3017-5304]
+current preference, name:imageDetailThumbnailIfBiggerThan, value:
+current preference, name:mapsForgeEnabled, value:1
+current preference, name:debugEnabledSql, value:0
+current preference, name:debugEnabledViewItem, value:1
+current preference, name:debugEnabledMap, value:1
+current preference, name:debugEnableLibs, value:0
+current preference, name:debugEnabled, value:0
+current preference, name:logCatDir, value:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase2_1_1_2_0_1_2_029.py]
+
+OK
+
+consumed time: 85.882999897 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase2_1_1_2_0_1_2_029.py", line 264, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.k3b.android.androFotoFinder:id/bookmark\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\aphotomanager\testcase\interestcases\testcase2_1_1_2_0_1_2_029.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.2489998341 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [3017-5304]
+loclog: 3017-5304 uncovered after retrial, deleted!
+interestcase 2_1_1_2_0_1_2_029 end
+

@@ -1,0 +1,2194 @@
+This exploration took time: 419s
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_sync_interval, value:Weekly
+current preference, name:pref_upload_immediately, value:0
+current preference, name:pref_sync_on_app_start, value:1
+current preference, name:pref_sync_via_wifi, value:1
+current preference, name:preflocale, value:简体中文
+current preference, name:applicationtheme, value:Material Dark
+current preference, name:prefdefaultstatus, value:Reconciled
+current preference, name:prefdefaultpayee, value:Last
+current preference, name:accountsopenvisible, value:1
+current preference, name:accountsfavoritevisible, value:1
+current preference, name:transactionshownbalance, value:1
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Condensed
+current preference, name:prefapplicationfontsize, value:Small
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current preference, name:preftextsearchtype, value:0
+current preference, name:pref_sms_automatic_transactions, value:1
+current preference, name:pref_sms_trans_status_notification, value:1
+current preference, name:prefshowtutorial, value:0
+current preference, name:pref_budget_show_simple_view, value:1
+current preference, name:pref_sync_enabled, value:0
+current preference, name:pref_sync_provider, value:null
+current preference, name:pref_sync_interval, value:Every 3 hours
+current preference, name:pref_upload_immediately, value:1
+current preference, name:pref_sync_on_app_start, value:0
+current preference, name:pref_sync_via_wifi, value:0
+current preference, name:preflocale, value:Default
+current preference, name:applicationtheme, value:Material Light
+current preference, name:prefdefaultstatus, value:None
+current preference, name:prefdefaultpayee, value:None
+current preference, name:accountsopenvisible, value:0
+current preference, name:accountsfavoritevisible, value:0
+current preference, name:transactionshownbalance, value:0
+current preference, name:pref_transaction_hide_reconciled_amounts, value:0
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefapplicationfontsize, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:1
+current preference, name:prefbehaviour_focus_filter, value:1
+current preference, name:preftextsearchtype, value:1
+current preference, name:pref_sms_automatic_transactions, value:0
+current preference, name:pref_sms_trans_status_notification, value:0
+current preference, name:prefshowtutorial, value:1
+current preference, name:pref_budget_show_simple_view, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\precase_log.py]
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\precase_log.py", line 164, in <module>
+
+    scrollToClickElement(driver, "new UiSelector().text(\"Sync on start\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\precase_log.py", line 98, in scrollToClickElement
+
+    element = scrollToFindElement(driver, str)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\precase_log.py", line 79, in scrollToFindElement
+
+    swipe(driver, 0.5, 0.55, 0.5, 0.2)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\precase_log.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=1000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 34.8169999123 s
+
+jacoco time: 5.00999999046 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 173.353999853 s
+
+jacoco time: 5.00400018692 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 3414-5486 ,target branch is: 3414-5485
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 105-180 ,target branch is: 105-181
+interests are:
+prefapplicationfont      Roboto Light    50     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 316-535 ,target branch is: 316-536
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1959-3281 ,target branch is: 1959-3280
+interests are:
+prefrepeatingtransactionnotifications      0    11     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 317-538 ,target branch is: 317-537
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 8398-13529 ,target branch is: 8398-13530
+interests are:
+pref_sync_enabled      1    61     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 5403-8906 ,target branch is: 5403-8905
+interests are:
+pref_sync_provider      Box    62     null
+pref_sync_enabled      1    61     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 5403-8906 ,target branch is: 5403-8904
+interests are:
+pref_sync_provider      Google Drive    62     null
+pref_sync_enabled      1    61     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 8363-13473 ,target branch is: 8363-13474
+interests are:
+pref_sync_enabled      1    61     null
+discovered tags are : 3_026 6_000 2_019 1_016 1_025 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 5403-8906 ,target branch is: 5403-8903
+interests are:
+pref_sync_provider      OneDrive    62     null
+pref_sync_enabled      1    61     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 5403-8906 ,target branch is: 5403-8902
+interests are:
+pref_sync_provider      Dropbox    62     null
+pref_sync_enabled      1    61     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 3728-6139 ,target branch is: 3728-6138
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 487-841 ,target branch is: 487-840
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_028 2_024 2_025 2_026 2_017 2_011 5_001 5_008 5_009 5_006 2_009 2_006 2_007 2_008 2_001 2_003 2_004 5_011 5_012 5_019 5_017 5_015 5_014 5_023 5_029 5_024 5_025 6_000 6_005 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 1_019 1_015 1_016 3_021 1_011 1_012 3_025 3_022 3_023 4_003 4_004 4_006 4_007 4_008 4_009 4_001 3_018 1_028 1_029 1_026 1_027 1_025 3_013 3_011 1_021 3_012 4_014 4_016 6_021 6_022 4_018 4_019 6_027 4_010 6_023 4_011 6_026 3_006 3_007 3_005 3_008 3_009 3_003 4_027 6_011 4_029 6_017 6_019 6_012 4_022 4_023 6_014 6_015 1_006 1_007 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 9801-15661 ,target branch is: 9801-15660
+interests are:
+prefrepeatingtransactionnotifications      0    11     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 10435-16671 ,target branch is: 10435-16670
+interests are:
+prefbehaviour_focus_filter      0    13     null
+discovered tags are : 6_000 3_005 2_017 2_019 1_016 1_025 3_002 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 318-540 ,target branch is: 318-539
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 9167-14711 ,target branch is: 9167-14710
+interests are:
+prefbehaviour_focus_filter      0    13     null
+discovered tags are : 2_014 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 3726-6135 ,target branch is: 3726-6134
+interests are:
+pref_transaction_hide_reconciled_amounts      1    49     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+index.1,  interestcase 2_014 start:
+tagetlogs are:[5403-8902, 9167-14710, 1959-3280, 105-181, 316-536, 318-539, 9801-15660, 317-537, 3726-6134, 3414-5485, 8398-13530, 3728-6138]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Light
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_1_2_014.py]
+
+OK
+
+consumed time: 40.8310000896 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 47.0220000744 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [5403-8902, 9167-14710, 1959-3280, 105-181, 316-536, 318-539, 9801-15660, 317-537, 3726-6134, 8398-13530, 3728-6138]
+uncovered targets are: [3414-5485]
+interestcase 0_1_2_014 end
+
+index.2,  interestcase 6_000 start:
+tagetlogs are:[5403-8903, 487-840, 3414-5485, 10435-16670, 8363-13474]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_2_6_000.py]
+
+OK
+
+consumed time: 37.3050000668 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_2_6_000.py", line 220, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 62.2490000725 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [5403-8903, 487-840, 10435-16670]
+uncovered targets are: [3414-5485, 8363-13474]
+interestcase 0_2_6_000 end
+
+index.3,  interestcase 2_019 start:
+tagetlogs are:[3414-5485, 5403-8904, 8363-13474]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Google Drive
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_3_2_019.py]
+
+OK
+
+consumed time: 20.3159999847 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_3_2_019.py", line 190, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_3_2_019.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.0509998798 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: [5403-8904]
+uncovered targets are: [3414-5485, 8363-13474]
+interestcase 0_3_2_019 end
+
+index.4,  interestcase 3_026 start:
+tagetlogs are:[3414-5485, 8363-13474, 5403-8905]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Box
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_4_3_026.py]
+
+OK
+
+consumed time: 25.7029998302 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_4_3_026.py", line 200, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"$ 0.00\")", "new UiSelector().className(\"android.widget.TextView\").instance(18)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_4_3_026.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 38.6199998856 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [8363-13474, 5403-8905]
+uncovered targets are: [3414-5485]
+interestcase 0_4_3_026 end
+
+index.5,  interestcase 2_027 start:
+tagetlogs are:[3414-5485]
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_5_2_027.py]
+
+OK
+
+consumed time: 6.91000008583 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_5_2_027.py", line 181, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 21.3900001049 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [3414-5485]
+target: 3414-5485 uncovered, added to then retrial list!
+interestcase 0_5_2_027 end
+
+index.6,  interestcase 2_028 start:
+tagetlogs are:[3414-5485]
+current preference, name:prefrepeatingtransactionnotifications, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_6_2_028.py]
+
+OK
+
+consumed time: 15.0800001621 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_6_2_028.py", line 201, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_src_text\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase0_6_2_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 44.5169999599 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [3414-5485]
+loclog: 3414-5485 uncovered after retrial, deleted!
+interestcase 0_6_2_028 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8196 ,target branch is: 4963-8200
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 1295-2194 ,target branch is: 1295-2195
+interests are:
+prefapplicationfont      Roboto Medium    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 6330-10358 ,target branch is: 6330-10357
+interests are:
+pref_sync_enabled      0    61     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_3_2_019 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8196 ,target branch is: 4963-8198
+interests are:
+prefapplicationfont      Roboto Light    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8197 ,target branch is: 4963-8200
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8197 ,target branch is: 4963-8201
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 128-227 ,target branch is: 128-226
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-51
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8197 ,target branch is: 4963-8198
+interests are:
+prefapplicationfont      Roboto Light    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 1
+origin branch is: 4963-8196 ,target branch is: 4963-8201
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_1_2_014 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 1
+origin branch is: 107-185 ,target branch is: 107-184
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-67
+interests are:
+prefapplicationfont      Roboto Condensed Light    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-53
+interests are:
+prefapplicationfont      Roboto Medium    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 1
+origin branch is: 10200-16290 ,target branch is: 10200-16291
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_2_6_000 0_3_2_019 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-59
+interests are:
+prefapplicationfont      Roboto Condensed    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 1
+origin branch is: 32-49 ,target branch is: 32-57
+interests are:
+prefapplicationfont      Roboto Black    50     null
+discovered tags are : 0_4_3_026 0_2_6_000 0_1_2_014 0_5_2_027 0_3_2_019 0_6_2_028 
+--------------------------------
+index.1,  interestcase 0_4_3_026 start:
+tagetlogs are:[6330-10357]
+current preference, name:pref_sync_enabled, value:0
+current preference, name:pref_sync_provider, value:Box
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_1_0_4_3_026.py]
+
+OK
+
+consumed time: 22.7839999199 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_1_0_4_3_026.py", line 202, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/menu_chart\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_1_0_4_3_026.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.0110001564 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [6330-10357]
+loclog: 6330-10357 uncovered after retrial, deleted!
+interestcase 1_1_0_4_3_026 end
+
+index.2,  interestcase 0_2_6_000 start:
+tagetlogs are:[32-57]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Black
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_2_0_2_6_000.py]
+
+OK
+
+consumed time: 38.492000103 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_2_0_2_6_000.py", line 222, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_2_0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 63.2610001564 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [32-57]
+uncovered targets are: []
+target: 32-57 covered after retrial!
+interestcase 1_2_0_2_6_000 end
+
+index.3,  interestcase 0_1_2_014 start:
+tagetlogs are:[32-46]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_3_0_1_2_014.py]
+
+OK
+
+consumed time: 43.5740001202 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_3_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_3_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.8839998245 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [32-46]
+loclog: 32-46 uncovered after retrial, deleted!
+interestcase 1_3_0_1_2_014 end
+
+index.4,  interestcase 0_1_2_014 start:
+tagetlogs are:[4963-8198]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Light
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_4_0_1_2_014.py]
+
+OK
+
+consumed time: 51.3129999638 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_4_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_4_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.7490000725 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [4963-8198]
+loclog: 4963-8198 uncovered after retrial, deleted!
+interestcase 1_4_0_1_2_014 end
+
+index.5,  interestcase 0_5_2_027 start:
+tagetlogs are:[32-59]
+current preference, name:prefapplicationfont, value:Roboto Condensed
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_5_0_5_2_027.py]
+
+OK
+
+consumed time: 13.5859999657 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_5_0_5_2_027.py", line 187, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 22.0539999008 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [32-59]
+uncovered targets are: []
+target: 32-59 covered after retrial!
+interestcase 1_5_0_5_2_027 end
+
+index.6,  interestcase 0_1_2_014 start:
+tagetlogs are:[4963-8201]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_6_0_1_2_014.py]
+
+OK
+
+consumed time: 47.7320001125 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_6_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_6_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 37.0600001812 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [4963-8201]
+loclog: 4963-8201 uncovered after retrial, deleted!
+interestcase 1_6_0_1_2_014 end
+
+index.7,  interestcase 0_3_2_019 start:
+tagetlogs are:[1295-2195]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Google Drive
+current preference, name:prefapplicationfont, value:Roboto Medium
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_7_0_3_2_019.py]
+
+OK
+
+consumed time: 24.5649998188 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_7_0_3_2_019.py", line 196, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_7_0_3_2_019.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.0360000134 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1295-2195]
+uncovered targets are: []
+target: 1295-2195 covered after retrial!
+interestcase 1_7_0_3_2_019 end
+
+index.8,  interestcase 0_1_2_014 start:
+tagetlogs are:[4963-8200]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Regular
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_8_0_1_2_014.py]
+
+OK
+
+consumed time: 44.3190000057 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_8_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_8_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 38.4329998493 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [4963-8200]
+loclog: 4963-8200 uncovered after retrial, deleted!
+interestcase 1_8_0_1_2_014 end
+
+index.9,  interestcase 0_6_2_028 start:
+tagetlogs are:[107-184]
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_9_0_6_2_028.py]
+
+OK
+
+consumed time: 21.1229999065 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_9_0_6_2_028.py", line 207, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_src_text\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_9_0_6_2_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 43.0639998913 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [107-184]
+uncovered targets are: []
+target: 107-184 covered after retrial!
+interestcase 1_9_0_6_2_028 end
+
+index.10,  interestcase 0_5_2_027 start:
+tagetlogs are:[128-226]
+current preference, name:prefapplicationfont, value:Default
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_10_0_5_2_027.py]
+
+OK
+
+consumed time: 14.7820000648 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_10_0_5_2_027.py", line 188, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Expenses\")", "new UiSelector().className(\"android.widget.TextView\").instance(15)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_10_0_5_2_027.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 54.4579999447 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [128-226]
+loclog: 128-226 uncovered after retrial, deleted!
+interestcase 1_10_0_5_2_027 end
+
+index.11,  interestcase 0_5_2_027 start:
+tagetlogs are:[32-51]
+current preference, name:prefapplicationfont, value:Roboto Regular
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_11_0_5_2_027.py]
+
+OK
+
+consumed time: 13.1119999886 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_11_0_5_2_027.py", line 187, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 21.9170000553 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [32-51]
+uncovered targets are: []
+target: 32-51 covered after retrial!
+interestcase 1_11_0_5_2_027 end
+
+index.12,  interestcase 0_2_6_000 start:
+tagetlogs are:[32-53]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Medium
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_12_0_2_6_000.py]
+
+OK
+
+consumed time: 40.0629999638 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_12_0_2_6_000.py", line 222, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_12_0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 63.6640000343 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [32-53]
+uncovered targets are: []
+target: 32-53 covered after retrial!
+interestcase 1_12_0_2_6_000 end
+
+index.13,  interestcase 0_2_6_000 start:
+tagetlogs are:[10200-16291]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_13_0_2_6_000.py]
+
+OK
+
+consumed time: 43.5580000877 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_13_0_2_6_000.py", line 222, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_13_0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 62.3329999447 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [10200-16291]
+loclog: 10200-16291 uncovered after retrial, deleted!
+interestcase 1_13_0_2_6_000 end
+
+index.14,  interestcase 0_5_2_027 start:
+tagetlogs are:[32-67]
+current preference, name:prefapplicationfont, value:Roboto Condensed Light
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_14_0_5_2_027.py]
+
+OK
+
+consumed time: 12.8569998741 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase1_14_0_5_2_027.py", line 187, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 21.6330001354 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [32-67]
+uncovered targets are: []
+target: 32-67 covered after retrial!
+interestcase 1_14_0_5_2_027 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-57 ,target branch is: 32-59
+interests are:
+prefapplicationfont      Roboto Condensed    50     null
+discovered tags are : 1_3_0_1_2_014 1_2_0_2_6_000 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-57 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_3_0_1_2_014 1_2_0_2_6_000 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-67 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_14_0_5_2_027 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 2
+origin branch is: 112-195 ,target branch is: 112-194
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_14_0_5_2_027 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 2
+origin branch is: 108-186 ,target branch is: 108-187
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 1_3_0_1_2_014 1_14_0_5_2_027 1_8_0_1_2_014 1_5_0_5_2_027 1_7_0_3_2_019 1_12_0_2_6_000 1_2_0_2_6_000 1_13_0_2_6_000 1_6_0_1_2_014 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 2
+origin branch is: 109-189 ,target branch is: 109-188
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_8_0_1_2_014 1_7_0_3_2_019 1_12_0_2_6_000 1_13_0_2_6_000 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-53 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_8_0_1_2_014 1_7_0_3_2_019 1_12_0_2_6_000 1_13_0_2_6_000 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-59 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_5_0_5_2_027 1_6_0_1_2_014 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 2
+origin branch is: 110-191 ,target branch is: 110-190
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_3_0_1_2_014 1_2_0_2_6_000 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 2
+origin branch is: 8259-13312 ,target branch is: 8259-13311
+interests are:
+prefrepeatingtransactionnotifications      0    11     null
+discovered tags are : 1_3_0_1_2_014 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-51 ,target branch is: 32-46
+interests are:
+prefapplicationfont      Default    50     null
+discovered tags are : 1_8_0_1_2_014 1_9_0_6_2_028 1_12_0_2_6_000 1_11_0_5_2_027 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 2
+origin branch is: 111-192 ,target branch is: 111-193
+interests are:
+prefapplicationfont      Roboto Condensed    50     null
+discovered tags are : 1_14_0_5_2_027 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-51 ,target branch is: 32-59
+interests are:
+prefapplicationfont      Roboto Condensed    50     null
+discovered tags are : 1_8_0_1_2_014 1_9_0_6_2_028 1_12_0_2_6_000 1_11_0_5_2_027 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-57 ,target branch is: 32-51
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 1_3_0_1_2_014 1_2_0_2_6_000 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 2
+origin branch is: 32-67 ,target branch is: 32-51
+interests are:
+prefapplicationfont      Roboto Regular    50     null
+discovered tags are : 1_14_0_5_2_027 
+--------------------------------
+index.1,  interestcase 1_8_0_1_2_014 start:
+tagetlogs are:[109-188]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_1_1_8_0_1_2_014.py]
+
+OK
+
+consumed time: 45.3310000896 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_1_1_8_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_1_1_8_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 32.1940000057 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: [109-188]
+uncovered targets are: []
+target: 109-188 covered after retrial!
+interestcase 2_1_1_8_0_1_2_014 end
+
+index.2,  interestcase 1_14_0_5_2_027 start:
+tagetlogs are:[111-193]
+current preference, name:prefapplicationfont, value:Roboto Condensed
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_2_1_14_0_5_2_027.py]
+
+OK
+
+consumed time: 12.9949998856 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_2_1_14_0_5_2_027.py", line 187, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 21.4909999371 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: [111-193]
+uncovered targets are: []
+target: 111-193 covered after retrial!
+interestcase 2_2_1_14_0_5_2_027 end
+
+index.3,  interestcase 1_3_0_1_2_014 start:
+tagetlogs are:[108-187]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Regular
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_3_1_3_0_1_2_014.py]
+
+OK
+
+consumed time: 46.7750000954 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_3_1_3_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_3_1_3_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 31.4409999847 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [108-187]
+uncovered targets are: []
+target: 108-187 covered after retrial!
+interestcase 2_3_1_3_0_1_2_014 end
+
+index.4,  interestcase 1_3_0_1_2_014 start:
+tagetlogs are:[8259-13311]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:Dropbox
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:0
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_4_1_3_0_1_2_014.py]
+
+OK
+
+consumed time: 50.9379999638 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_4_1_3_0_1_2_014.py", line 221, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/radio\").className(\"android.widget.RadioButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_4_1_3_0_1_2_014.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 29.7999999523 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [8259-13311]
+loclog: 8259-13311 uncovered after retrial, deleted!
+interestcase 2_4_1_3_0_1_2_014 end
+
+index.5,  interestcase 1_9_0_6_2_028 start:
+tagetlogs are:[32-46]
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefrepeatingtransactionnotifications, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_5_1_9_0_6_2_028.py]
+
+OK
+
+consumed time: 24.0160000324 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_5_1_9_0_6_2_028.py", line 207, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_src_text\").className(\"android.widget.EditText\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_5_1_9_0_6_2_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 44.3059999943 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [32-46]
+loclog: 32-46 uncovered after retrial, deleted!
+interestcase 2_5_1_9_0_6_2_028 end
+
+index.6,  interestcase 1_14_0_5_2_027 start:
+tagetlogs are:[112-194]
+current preference, name:prefapplicationfont, value:Default
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_6_1_14_0_5_2_027.py]
+
+OK
+
+consumed time: 21.5580000877 s
+
+jacoco time: 5.00999999046 s
+
+FAIL
+
+str(e):		Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_6_1_14_0_5_2_027.py", line 187, in <module>
+
+    TouchAction(driver).long_press(element).release().perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: UiSelector[TEXT=Cash Accounts]
+
+
+
+
+
+consumed time: 21.6799998283 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [112-194]
+loclog: 112-194 uncovered after retrial, deleted!
+interestcase 2_6_1_14_0_5_2_027 end
+
+index.7,  interestcase 1_12_0_2_6_000 start:
+tagetlogs are:[32-59]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Roboto Condensed
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_7_1_12_0_2_6_000.py]
+
+OK
+
+consumed time: 39.5850000381 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_7_1_12_0_2_6_000.py", line 222, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_7_1_12_0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 63.135999918 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [32-59]
+uncovered targets are: []
+target: 32-59 covered after retrial!
+interestcase 2_7_1_12_0_2_6_000 end
+
+index.8,  interestcase 1_2_0_2_6_000 start:
+tagetlogs are:[110-190]
+current preference, name:pref_sync_enabled, value:1
+current preference, name:pref_sync_provider, value:OneDrive
+current preference, name:pref_transaction_hide_reconciled_amounts, value:1
+current preference, name:prefapplicationfont, value:Default
+current preference, name:prefbehaviour_focus_filter, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_8_1_2_0_2_6_000.py]
+
+OK
+
+consumed time: 46.1400001049 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_8_1_2_0_2_6_000.py", line 222, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"com.money.manager.ex:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\amme\testcase\interestcases\testcase2_8_1_2_0_2_6_000.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 62.3510000706 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [110-190]
+uncovered targets are: []
+target: 110-190 covered after retrial!
+interestcase 2_8_1_2_0_2_6_000 end
+

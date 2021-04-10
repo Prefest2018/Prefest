@@ -1,0 +1,284 @@
+This exploration took time: 199s
+NO.0 Scene:
+origin branch is: 963-1744 ,target branch is: 963-1745
+interests are:
+prefTheme      Dark    61     Appearance
+preinterests are : 
+prefEnableAutoDownloadOnMobile      0    15      null
+[3_023, 5_023, 3_016, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 5_013, 3_009, 1_028, 5_018, 6_020, 1_016, 3_010, 6_027, 2_009, 6_022, 1_019, 6_001, 1_013, 6_026, 6_018, 4_029, 1_001, 6_007, 1_011, 6_010, 5_008, 1_012, 3_028, 2_014, 3_024, 2_012, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 2_023, 5_021, 2_026, 2_021, 5_005, 3_021, 5_003, 6_009, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 3_011, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 6_002, 5_026, 4_021, 4_006, 5_029, 6_000, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 6_011, 2_028, 1_017, 1_002, 6_008, 3_020, 6_019, 3_027, 6_003, 4_015, 6_012, 5_017, 5_002, 4_000, 6_004, 6_017, 4_001, 6_021, 3_006, 1_009, 6_016, 4_022, 3_012, 6_014, 3_019, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 6_023, 5_004, 4_027, 1_018, 6_029, 3_014, 4_026, 4_005, 3_007, 4_003, 1_003, 6_028, 5_025, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 4_010, 3_025, 3_015, 2_003, 4_025, 2_029, 4_009, 1_014, 6_024, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.1 Scene:
+origin branch is: 963-1744 ,target branch is: 963-1746
+interests are:
+prefTheme      Black (AMOLED ready)    61     Appearance
+preinterests are : 
+prefEnableAutoDownloadOnMobile      0    15      null
+[3_023, 5_023, 3_016, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 5_013, 3_009, 1_028, 5_018, 6_020, 1_016, 3_010, 6_027, 2_009, 6_022, 1_019, 6_001, 1_013, 6_026, 6_018, 4_029, 1_001, 6_007, 1_011, 6_010, 5_008, 1_012, 3_028, 2_014, 3_024, 2_012, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 2_023, 5_021, 2_026, 2_021, 5_005, 3_021, 5_003, 6_009, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 3_011, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 6_002, 5_026, 4_021, 4_006, 5_029, 6_000, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 6_011, 2_028, 1_017, 1_002, 6_008, 3_020, 6_019, 3_027, 6_003, 4_015, 6_012, 5_017, 5_002, 4_000, 6_004, 6_017, 4_001, 6_021, 3_006, 1_009, 6_016, 4_022, 3_012, 6_014, 3_019, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 6_023, 5_004, 4_027, 1_018, 6_029, 3_014, 4_026, 4_005, 3_007, 4_003, 1_003, 6_028, 5_025, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 4_010, 3_025, 3_015, 2_003, 4_025, 2_029, 4_009, 1_014, 6_024, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.2 Scene:
+origin branch is: 901-1647 ,target branch is: 901-1648
+interests are:
+prefDrawerFeedIndicator      Number of downloaded episodes    64     Appearance
+preinterests are : 
+prefMobileUpdate      0    31      Details
+ass_mobiledata      1    -1      null
+[3_023, 5_023, 3_016, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 5_013, 3_009, 1_028, 5_018, 6_020, 1_016, 3_010, 6_027, 2_009, 6_022, 1_019, 6_001, 1_013, 6_026, 6_018, 4_029, 1_001, 6_007, 1_011, 6_010, 5_008, 1_012, 3_028, 2_014, 3_024, 2_012, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 2_023, 5_021, 2_026, 2_021, 5_005, 3_021, 5_003, 6_009, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 3_011, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 6_002, 5_026, 4_021, 4_006, 5_029, 6_000, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 6_011, 2_028, 1_017, 1_002, 6_008, 3_020, 6_019, 3_027, 6_003, 4_015, 6_012, 5_017, 5_002, 4_000, 6_004, 6_017, 4_001, 6_021, 3_006, 1_009, 6_016, 4_022, 3_012, 6_014, 3_019, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 6_023, 5_004, 4_027, 1_018, 6_029, 3_014, 4_026, 4_005, 3_007, 4_003, 1_003, 6_028, 5_025, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 4_010, 3_025, 3_015, 2_003, 4_025, 2_029, 4_009, 1_014, 6_024, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.3 Scene:
+origin branch is: 902-1649 ,target branch is: 902-1650
+interests are:
+prefDrawerFeedIndicator      Number of new episodes    64     Appearance
+preinterests are : 
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 1_020, 3_003, 3_004, 1_007, 5_013, 1_028, 5_018, 1_016, 2_009, 1_019, 1_013, 4_029, 1_001, 1_011, 5_008, 1_012, 3_028, 2_014, 2_012, 2_023, 5_021, 2_026, 2_021, 5_005, 5_003, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 5_026, 4_021, 4_006, 5_029, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 2_028, 1_017, 1_002, 3_027, 4_015, 5_017, 5_002, 4_000, 4_001, 1_009, 4_022, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 5_004, 4_027, 1_018, 4_026, 4_005, 4_003, 1_003, 5_025, 1_008, 1_010, 1_026, 4_010, 3_025, 2_003, 4_025, 2_029, 4_009, 1_014, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.4 Scene:
+origin branch is: 902-1649 ,target branch is: 902-1651
+interests are:
+prefDrawerFeedIndicator      Number of unplayed episodes    64     Appearance
+preinterests are : 
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 1_020, 3_003, 3_004, 1_007, 5_013, 1_028, 5_018, 1_016, 2_009, 1_019, 1_013, 4_029, 1_001, 1_011, 5_008, 1_012, 3_028, 2_014, 2_012, 2_023, 5_021, 2_026, 2_021, 5_005, 5_003, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 5_026, 4_021, 4_006, 5_029, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 2_028, 1_017, 1_002, 3_027, 4_015, 5_017, 5_002, 4_000, 4_001, 1_009, 4_022, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 5_004, 4_027, 1_018, 4_026, 4_005, 4_003, 1_003, 5_025, 1_008, 1_010, 1_026, 4_010, 3_025, 2_003, 4_025, 2_029, 4_009, 1_014, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.5 Scene:
+origin branch is: 902-1649 ,target branch is: 902-1652
+interests are:
+prefDrawerFeedIndicator      Number of downloaded episodes    64     Appearance
+preinterests are : 
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 1_020, 3_003, 3_004, 1_007, 5_013, 1_028, 5_018, 1_016, 2_009, 1_019, 1_013, 4_029, 1_001, 1_011, 5_008, 1_012, 3_028, 2_014, 2_012, 2_023, 5_021, 2_026, 2_021, 5_005, 5_003, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 5_026, 4_021, 4_006, 5_029, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 2_028, 1_017, 1_002, 3_027, 4_015, 5_017, 5_002, 4_000, 4_001, 1_009, 4_022, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 5_004, 4_027, 1_018, 4_026, 4_005, 4_003, 1_003, 5_025, 1_008, 1_010, 1_026, 4_010, 3_025, 2_003, 4_025, 2_029, 4_009, 1_014, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.6 Scene:
+origin branch is: 9906-16816 ,target branch is: 9906-16817
+interests are:
+prefDrawerFeedOrder      Sort alphabetically    63     Appearance
+preinterests are : 
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_023, 3_016, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 3_000, 1_023, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 2_011, 2_004, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 3_009, 1_028, 1_016, 3_010, 2_009, 1_019, 1_013, 1_001, 1_011, 1_012, 3_028, 2_014, 3_024, 2_012, 3_008, 2_023, 2_026, 2_021, 3_021, 2_022, 2_027, 2_024, 4_007, 2_016, 1_004, 1_000, 3_011, 2_010, 3_026, 2_015, 2_025, 1_015, 4_021, 4_006, 2_013, 4_016, 2_017, 2_020, 2_028, 1_017, 1_002, 3_020, 3_027, 4_015, 4_000, 4_001, 3_006, 1_009, 4_022, 3_012, 3_019, 3_029, 4_023, 4_004, 4_024, 4_002, 1_018, 3_014, 4_005, 3_007, 4_003, 1_003, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 4_010, 3_025, 3_015, 2_003, 4_025, 2_029, 4_009, 1_014, 4_017, 4_018, 4_019, 4_008, 4_012, 4_011]
+--------------------------------
+NO.7 Scene:
+origin branch is: 833-1537 ,target branch is: 833-1538
+interests are:
+prefEpisodeCleanup      Never    13     null
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefQueueAddToFront      0    47      Queue
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_023, 5_023, 3_016, 2_018, 4_020, 3_005, 4_014, 4_013, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 5_013, 3_009, 1_028, 5_018, 6_020, 1_016, 3_010, 6_027, 2_009, 6_022, 1_019, 6_001, 1_013, 6_026, 6_018, 4_029, 1_001, 6_007, 1_011, 6_010, 5_008, 1_012, 3_028, 2_014, 3_024, 2_012, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 2_023, 5_021, 2_026, 2_021, 5_005, 3_021, 5_003, 6_009, 2_022, 2_027, 5_020, 2_024, 4_007, 2_016, 1_004, 5_011, 1_000, 5_028, 3_011, 2_010, 5_022, 3_026, 2_015, 2_025, 5_000, 1_015, 5_019, 6_002, 5_026, 4_021, 4_006, 5_029, 6_000, 2_013, 5_006, 5_009, 4_016, 5_016, 2_017, 2_020, 6_011, 2_028, 1_017, 1_002, 6_008, 3_020, 6_019, 3_027, 6_003, 4_015, 6_012, 5_017, 5_002, 4_000, 6_004, 6_017, 4_001, 6_021, 3_006, 1_009, 6_016, 4_022, 3_012, 6_014, 3_019, 5_010, 3_029, 4_023, 4_004, 4_024, 5_001, 5_007, 4_028, 5_027, 4_002, 6_023, 5_004, 4_027, 1_018, 6_029, 3_014, 4_026, 4_005, 3_007, 4_003, 1_003, 6_028, 5_025, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 4_010, 3_025, 3_015, 2_003, 4_025, 2_029, 4_009, 1_014, 6_024, 4_017, 4_018, 4_019, 5_024, 4_008, 4_012, 4_011]
+--------------------------------
+NO.8 Scene:
+origin branch is: 6575-11060 ,target branch is: 6575-11061
+interests are:
+prefEnableAutoDl      1    11     null
+preinterests are : 
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefEnableAutoDownloadOnMobile      0    15      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_023, 5_023, 3_016, 2_018, 4_020, 3_005, 1_022, 1_027, 2_019, 2_002, 1_021, 2_005, 2_000, 1_025, 3_002, 2_001, 2_006, 3_000, 1_023, 5_012, 1_005, 2_007, 3_001, 1_006, 1_024, 1_029, 5_014, 2_011, 2_004, 5_015, 2_008, 3_013, 1_020, 3_003, 3_004, 1_007, 5_013, 3_009, 1_028, 5_018, 6_020, 1_016, 3_010, 6_027, 2_009, 6_022, 1_019, 6_001, 1_013, 6_026, 6_018, 1_001, 6_007, 1_011, 6_010, 1_012, 2_014, 2_012, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 2_023, 5_021, 2_026, 2_021, 3_021, 6_009, 2_022, 2_027, 5_020, 2_024, 2_016, 1_004, 5_011, 1_000, 5_028, 3_011, 2_010, 5_022, 2_015, 2_025, 1_015, 5_019, 6_002, 5_026, 5_029, 6_000, 2_013, 4_016, 5_016, 2_017, 2_020, 6_011, 2_028, 1_017, 1_002, 6_008, 3_020, 6_019, 6_003, 6_012, 5_017, 6_004, 6_017, 6_021, 3_006, 6_016, 3_012, 6_014, 3_019, 5_027, 6_023, 1_018, 6_029, 3_014, 3_007, 1_003, 6_028, 5_025, 1_008, 1_010, 3_022, 3_018, 3_017, 1_026, 3_015, 2_003, 2_029, 1_014, 6_024, 4_017, 4_018, 4_019, 5_024]
+--------------------------------
+NO.9 Scene:
+origin branch is: 795-1458 ,target branch is: 795-1454
+interests are:
+prefBackButtonBehavior      Open navigation drawer    69     Behavior
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_009, 1_015, 2_028, 1_008, 5_024]
+--------------------------------
+NO.10 Scene:
+origin branch is: 795-1458 ,target branch is: 795-1455
+interests are:
+prefBackButtonBehavior      Confirm to exit    69     Behavior
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_009, 1_015, 2_028, 1_008, 5_024]
+--------------------------------
+NO.11 Scene:
+origin branch is: 795-1458 ,target branch is: 795-1456
+interests are:
+prefBackButtonBehavior      Double tap to exit    69     Behavior
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_009, 1_015, 2_028, 1_008, 5_024]
+--------------------------------
+NO.12 Scene:
+origin branch is: 795-1458 ,target branch is: 795-1457
+interests are:
+prefBackButtonBehavior      Go to page…    69     Behavior
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_009, 1_015, 2_028, 1_008, 5_024]
+--------------------------------
+NO.13 Scene:
+origin branch is: 796-1460 ,target branch is: 796-1461
+interests are:
+prefBackButtonBehavior      Go to page…    69     Behavior
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefBackButtonBehavior      Default    69      Behavior
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_009, 1_015, 2_028, 1_008, 5_024]
+--------------------------------
+NO.14 Scene:
+origin branch is: 180-351 ,target branch is: 180-352
+interests are:
+prefEnableAutoDownloadOnMobile      1    15     null
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefQueueAddToFront      0    47      Queue
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+prefShowDownloadReport      1    33      Details
+[5_023, 4_014, 2_019, 3_002, 1_023, 3_001, 1_024, 2_004, 1_007, 6_027, 6_022, 1_012, 2_021, 5_011, 1_002, 3_006, 6_028, 5_025, 3_018, 3_017, 4_018]
+--------------------------------
+NO.15 Scene:
+origin branch is: 6073-10223 ,target branch is: 6072-10222
+interests are:
+prefShowDownloadReport      0    33     Details
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefQueueAddToFront      0    47      Queue
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 4_014, 2_019, 3_002, 1_023, 3_001, 1_024, 2_004, 1_007, 6_027, 6_022, 1_012, 5_011, 1_002, 3_006, 6_028, 5_025, 3_018, 3_017, 4_018]
+--------------------------------
+NO.16 Scene:
+origin branch is: 223-475 ,target branch is: 223-479
+interests are:
+prefMobileUpdate      1    31     Details
+preinterests are : 
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefEnableAutoDownloadOnMobile      0    15      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+prefShowDownloadReport      1    33      Details
+[2_019, 1_000]
+--------------------------------
+NO.17 Scene:
+origin branch is: 7037-11722 ,target branch is: 7037-11721
+interests are:
+prefQueueAddToFront      1    47     Queue
+preinterests are : 
+prefMobileUpdate      0    31      Details
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefEnableAutoDownloadOnMobile      0    15      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+prefShowDownloadReport      1    33      Details
+[2_019, 5_011]
+--------------------------------
+NO.18 Scene:
+origin branch is: 387-798 ,target branch is: 386-797
+interests are:
+ass_mobiledata      0    -1     null
+preinterests are : 
+prefMobileUpdate      0    31      Details
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefEnableAutoDownloadOnMobile      0    15      null
+prefQueueAddToFront      0    47      Queue
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+prefShowDownloadReport      1    33      Details
+[2_019, 1_000]
+--------------------------------
+NO.19 Scene:
+origin branch is: 6906-11504 ,target branch is: 6906-11505
+interests are:
+prefEnableAutoDl      1    11     null
+preinterests are : 
+prefMobileUpdate      0    31      Details
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+ass_mobiledata      1    -1      null
+prefEnableAutoDownloadOnMobile      0    15      null
+prefQueueAddToFront      0    47      Queue
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+prefShowDownloadReport      1    33      Details
+[2_019]
+--------------------------------
+NO.20 Scene:
+origin branch is: 9907-16819 ,target branch is: 9907-16818
+interests are:
+prefDrawerFeedOrder      Sort alphabetically    63     Appearance
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 5_012, 5_014, 5_015, 5_013, 5_018, 6_020, 6_027, 6_022, 6_001, 6_026, 6_018, 4_029, 6_007, 6_010, 5_008, 6_025, 6_005, 6_015, 6_013, 6_006, 5_021, 5_005, 5_003, 6_009, 5_020, 5_011, 5_028, 5_022, 5_000, 5_019, 6_002, 5_026, 5_029, 6_000, 5_006, 5_009, 5_016, 6_011, 6_008, 6_019, 6_003, 6_012, 5_017, 5_002, 6_004, 6_017, 6_021, 6_016, 6_014, 5_010, 5_001, 5_007, 4_028, 5_027, 6_023, 5_004, 4_027, 6_029, 4_026, 6_028, 5_025, 4_025, 6_024, 5_024]
+--------------------------------
+NO.21 Scene:
+origin branch is: 9908-16821 ,target branch is: 9908-16820
+interests are:
+prefDrawerFeedOrder      Sort by number of played episodes    63     Appearance
+preinterests are : 
+prefDrawerFeedOrder      Sort by publication date    63      Appearance
+prefEnableAutoDl      0    11      null
+prefImageCacheSize      20 MiB    54      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[5_023, 5_012, 5_014, 5_015, 5_013, 5_018, 6_020, 6_027, 6_022, 6_001, 6_026, 6_018, 4_029, 6_007, 6_010, 5_008, 6_025, 6_005, 6_015, 6_013, 6_006, 5_021, 5_005, 5_003, 6_009, 5_020, 5_011, 5_028, 5_022, 5_000, 5_019, 6_002, 5_026, 5_029, 6_000, 5_006, 5_009, 5_016, 6_011, 6_008, 6_019, 6_003, 6_012, 5_017, 5_002, 6_004, 6_017, 6_021, 6_016, 6_014, 5_010, 5_001, 5_007, 4_028, 5_027, 6_023, 5_004, 4_027, 6_029, 4_026, 6_028, 5_025, 4_025, 6_024, 5_024]
+--------------------------------
+NO.22 Scene:
+origin branch is: 902-1651 ,target branch is: 902-1650
+interests are:
+prefDrawerFeedIndicator      Number of new episodes    64     Appearance
+preinterests are : 
+prefDrawerFeedOrder      Sort alphabetically    63      Appearance
+prefImageCacheSize      20 MiB    54      null
+prefEnableAutoDl      0    11      null
+prefEpisodeCleanup      When not in queue    13      null
+prefDrawerFeedIndicator      Number of new episodes    64      Appearance
+[3_023, 3_016, 3_005, 3_013, 3_009, 6_020, 3_010, 6_027, 6_022, 6_001, 6_026, 6_018, 6_007, 6_010, 3_024, 6_025, 6_005, 6_015, 6_013, 3_008, 6_006, 3_021, 6_009, 3_011, 6_002, 5_029, 6_000, 6_011, 6_008, 3_020, 6_019, 6_003, 6_012, 6_004, 6_017, 6_021, 3_006, 6_016, 3_012, 6_014, 3_019, 6_023, 6_029, 3_014, 3_007, 6_028, 3_022, 3_018, 3_017, 3_025, 3_015, 6_024]
+--------------------------------
+index.1,  interestcase 2_019 start:
+tagetlogs are:[901-1648, 6906-11505, 386-797, 7037-11721, 902-1652, 6072-10222, 9906-16817, 833-1538, 223-479, 963-1746, 180-352, 6575-11061]
+current preference, name:prefEnableAutoDl, value:1
+current preference, name:prefEpisodeCleanup, value:Never
+current preference, name:prefEnableAutoDownloadOnMobile, value:1
+current preference, name:prefMobileUpdate, value:1
+current preference, name:prefShowDownloadReport, value:0
+current preference, name:prefQueueAddToFront, value:1
+current preference, name:prefTheme, value:Black (AMOLED ready)
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of downloaded episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, D:\2018_preference_project\projecthome\projecthome_final\antennapod\testcase\interestcases\testcase1_2_019.py]
+

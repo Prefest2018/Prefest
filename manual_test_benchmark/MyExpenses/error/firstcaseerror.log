@@ -1,0 +1,486 @@
+AccountEditTest#saveAccount
+--------- beginning of main
+--------- beginning of system
+AccountEditTest#currenciesAreLoaded
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToTransaction
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToTemplate
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToBudget
+--------- beginning of main
+--------- beginning of system
+ExpenseEditFlowTest#testScenarioForBug5b11072e6007d59fcd92c40b
+--------- beginning of main
+--------- beginning of system
+ExpenseEditFlowTest#calculatorMaintainsType
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithTransactionAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldKeepStatusAndUuidAfterSave
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithForeignExchangeTransfer
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithTransferAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldSwitchAccountViewsForReceivingTransferPart
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldKeepAccountViewsForGivingTransferPart
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithSplitTransactionAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithSplitTemplateAndLoadParts
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateFromSplitTemplateAndLoadParts
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithPlanAndPrepareForm
+--------- beginning of system
+--------- beginning of main
+ExpenseEditLoadDataTest#shouldInstantiateFromTemplateAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateFromIntent
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldNotEditSealed
+--------- beginning of system
+--------- beginning of main
+ExpenseEditTest#formForTransactionIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#statusIsShownWhenBankAccountIsSelected
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForTransferIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForSplitIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForTemplateIsPrepared
+--------- beginning of system
+--------- beginning of main
+ExpenseEditTest#accountIdInExtraShouldPopulateSpinner
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#currencyInExtraShouldPopulateSpinner
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#saveAsNewWorksMultipleTimesInARow
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#shouldSaveTemplateWithAmount
+--------- beginning of main
+--------- beginning of system
+ForeignTransferEditTest#shouldSaveForeignTransfer
+--------- beginning of main
+--------- beginning of system
+ManageCategoriesTest#setupCategoriesShouldPopulateList
+--------- beginning of main
+--------- beginning of system
+ManageCurrenciesTest#changeOfFractionDigitsWithUpdateShouldKeepTransactionSum
+--------- beginning of main
+--------- beginning of system
+ManageCurrenciesTest#changeOfFractionDigitsWithoutUpdateShouldChangeTransactionSum
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateOpensDialogAndApplySaveActionIsTriggered
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateOpensDialogAndApplyEditActionIsTriggered
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateWithDefaultActionApplySave
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateWithDefaultActionApplyEdit
+--------- beginning of main
+--------- beginning of system
+MyExpensesAmountSearchFilterTest#amountFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#cloneCommandIncreasesListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#editCommandKeepsListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#createTemplateCommandCreatesTemplate
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandDecreasesListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandWithVoidOption
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandCancelKeepsListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#splitCommandCreatesSplitTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#cabIsRestoredAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+MyExpensesCategorySearchFilterTest#catFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCommentSearchFilterTest#amountFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesIntentTest#shouldNavigateToAccountReceivedThroughIntent
+--------- beginning of main
+--------- beginning of system
+MyExpensesPayeeFilterTest#payeeFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#viewPagerIsSetup
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#floatingActionButtonOpensForm
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#helpDialogIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#settingsScreenIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#inActiveItemsOpenDialog
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#newAccountFormIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#editAccountFormIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogDeleteButtonDeletes
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogCancelButtonCancels
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogShowsLabelOfAccountToBeDeleted
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#templateScreenIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#titleAndSubtitleAreSetAndSurviveOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepAccountAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepMethodAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepStatusAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldHandleNewInstanceAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldHandleExistingInstanceAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageCategories
+--------- beginning of system
+--------- beginning of main
+SettingsTest#manageParties
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageMethods
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importGrisbi
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importQif
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importCsv
+--------- beginning of main
+--------- beginning of system
+SettingsTest#backup
+--------- beginning of main
+--------- beginning of system
+SettingsTest#restore
+--------- beginning of main
+--------- beginning of system
+SettingsTest#restoreLegacy
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageSync
+--------- beginning of main
+--------- beginning of system
+SettingsTest#roadmap
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageCurrencies
+--------- beginning of main
+--------- beginning of system
+SplitEditTest#canceledSplitCleanup
+--------- beginning of main
+--------- beginning of system
+SplitEditTest#canceledTemplateSplitCleanup
+--------- beginning of main
+--------- beginning of system
+AccountEditTest#saveAccount
+--------- beginning of main
+--------- beginning of system
+AccountEditTest#currenciesAreLoaded
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToTransaction
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToTemplate
+--------- beginning of main
+--------- beginning of system
+CategoriesCabTest#shouldNotDeleteCategoryMappedToBudget
+--------- beginning of main
+--------- beginning of system
+ExpenseEditFlowTest#testScenarioForBug5b11072e6007d59fcd92c40b
+--------- beginning of main
+--------- beginning of system
+ExpenseEditFlowTest#calculatorMaintainsType
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithTransactionAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldKeepStatusAndUuidAfterSave
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithForeignExchangeTransfer
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithTransferAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldSwitchAccountViewsForReceivingTransferPart
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldKeepAccountViewsForGivingTransferPart
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithSplitTransactionAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithSplitTemplateAndLoadParts
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateFromSplitTemplateAndLoadParts
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldPopulateWithPlanAndPrepareForm
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldInstantiateFromTemplateAndPrepareForm
+--------- beginning of system
+--------- beginning of main
+ExpenseEditLoadDataTest#shouldPopulateFromIntent
+--------- beginning of main
+--------- beginning of system
+ExpenseEditLoadDataTest#shouldNotEditSealed
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForTransactionIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#statusIsShownWhenBankAccountIsSelected
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForTransferIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForSplitIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#formForTemplateIsPrepared
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#accountIdInExtraShouldPopulateSpinner
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#currencyInExtraShouldPopulateSpinner
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#saveAsNewWorksMultipleTimesInARow
+--------- beginning of main
+--------- beginning of system
+ExpenseEditTest#shouldSaveTemplateWithAmount
+--------- beginning of main
+--------- beginning of system
+ForeignTransferEditTest#shouldSaveForeignTransfer
+--------- beginning of main
+--------- beginning of system
+ManageCategoriesTest#setupCategoriesShouldPopulateList
+--------- beginning of main
+--------- beginning of system
+ManageCurrenciesTest#changeOfFractionDigitsWithUpdateShouldKeepTransactionSum
+--------- beginning of main
+--------- beginning of system
+ManageCurrenciesTest#changeOfFractionDigitsWithoutUpdateShouldChangeTransactionSum
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateOpensDialogAndApplySaveActionIsTriggered
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateOpensDialogAndApplyEditActionIsTriggered
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateWithDefaultActionApplySave
+--------- beginning of main
+--------- beginning of system
+ManageTemplatesTest#clickOnTemplateWithDefaultActionApplyEdit
+--------- beginning of main
+--------- beginning of system
+MyExpensesAmountSearchFilterTest#amountFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#cloneCommandIncreasesListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#editCommandKeepsListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#createTemplateCommandCreatesTemplate
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandDecreasesListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandWithVoidOption
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#deleteCommandCancelKeepsListSize
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#splitCommandCreatesSplitTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCabTest#cabIsRestoredAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+MyExpensesCategorySearchFilterTest#catFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesCommentSearchFilterTest#amountFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesIntentTest#shouldNavigateToAccountReceivedThroughIntent
+--------- beginning of main
+--------- beginning of system
+MyExpensesPayeeFilterTest#payeeFilterShouldHideTransaction
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#viewPagerIsSetup
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#floatingActionButtonOpensForm
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#helpDialogIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#settingsScreenIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#inActiveItemsOpenDialog
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#newAccountFormIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#editAccountFormIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogDeleteButtonDeletes
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogCancelButtonCancels
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#deleteConfirmationDialogShowsLabelOfAccountToBeDeleted
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#templateScreenIsOpened
+--------- beginning of main
+--------- beginning of system
+MyExpensesTest#titleAndSubtitleAreSetAndSurviveOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepAccountAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepMethodAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldKeepStatusAfterOrientationChange
+--------- beginning of system
+--------- beginning of main
+OrientationChangeTest#shouldHandleNewInstanceAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+OrientationChangeTest#shouldHandleExistingInstanceAfterOrientationChange
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageCategories
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageParties
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageMethods
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importGrisbi
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importQif
+--------- beginning of main
+--------- beginning of system
+SettingsTest#importCsv
+--------- beginning of main
+--------- beginning of system
+SettingsTest#backup
+--------- beginning of main
+--------- beginning of system
+SettingsTest#restore
+--------- beginning of main
+--------- beginning of system
+SettingsTest#restoreLegacy
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageSync
+--------- beginning of main
+--------- beginning of system
+SettingsTest#roadmap
+--------- beginning of main
+--------- beginning of system
+SettingsTest#manageCurrencies
+--------- beginning of main
+--------- beginning of system
+SplitEditTest#canceledSplitCleanup
+--------- beginning of main
+--------- beginning of system
+SplitEditTest#canceledTemplateSplitCleanup
+--------- beginning of main
+--------- beginning of system

@@ -1,0 +1,54 @@
+{
+   "consteps":
+   {
+   },
+   "presteps":
+   {
+   },
+   "valuestepmap":
+   {
+      "0":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Material Light",
+            "type":"NORMAL"
+         }
+      },
+      "1":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Material Dark",
+            "type":"NORMAL"
+         }
+      },
+      "2":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Daytime",
+            "type":"NORMAL"
+         }
+      },
+      "3":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Black (for OLED)",
+            "type":"NORMAL"
+         }
+      },
+   },
+   "type":"STRING",
+   "adapted":false,
+   "key":"theme"
+}

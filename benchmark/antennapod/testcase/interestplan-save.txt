@@ -1,0 +1,692 @@
+This exploration took time: 191s
+current preference, name:prefEnableAutoDl, value:1
+current preference, name:prefEpisodeCacheSize, value:100
+current preference, name:prefEpisodeCleanup, value:7
+current preference, name:prefEnableAutoDownloadOnBattery, value:0
+current preference, name:prefEnableAutoDownloadOnMobile, value:1
+current preference, name:prefEnableAutoDownloadWifiFilter, value:1
+current preference, name:prefMobileUpdate, value:1
+current preference, name:prefShowDownloadReport, value:0
+current preference, name:prefPauseOnHeadsetDisconnect, value:0
+current preference, name:prefUnpauseOnHeadsetReconnect, value:0
+current preference, name:prefUnpauseOnBluetoothReconnect, value:1
+current preference, name:prefPauseForFocusLoss, value:1
+current preference, name:prefResumeAfterCall, value:0
+current preference, name:prefVideoBehavior, value:Picture-in-picture mode
+current preference, name:prefHardwareForwardButtonSkips, value:1
+current preference, name:prefHardwarePreviousButtonRestarts, value:1
+current preference, name:prefEnqueueDownloaded, value:0
+current preference, name:prefQueueAddToFront, value:1
+current preference, name:prefFollowQueue, value:0
+current preference, name:prefSmartMarkAsPlayedSecs, value:300
+current preference, name:prefSkipKeepsEpisode, value:0
+current preference, name:prefMediaPlayer, value:ExoPlayer
+current preference, name:prefCast, value:1
+current preference, name:prefImageCacheSize, value:500 MiB
+current preference, name:prefAutoDelete, value:1
+current preference, name:prefFavoriteKeepsEpisode, value:0
+current preference, name:prefTheme, value:Dark
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+current preference, name:prefExpandNotify, value:1
+current preference, name:prefPersistNotify, value:0
+current preference, name:prefLockscreenBackground, value:0
+current preference, name:prefBackButtonBehavior, value:Double tap to exit
+current preference, name:prefEnableAutoDl, value:0
+current preference, name:prefEpisodeCacheSize, value:25
+current preference, name:prefEpisodeCleanup, value:When not in queue
+current preference, name:prefEnableAutoDownloadOnBattery, value:1
+current preference, name:prefEnableAutoDownloadOnMobile, value:0
+current preference, name:prefEnableAutoDownloadWifiFilter, value:0
+current preference, name:prefMobileUpdate, value:0
+current preference, name:prefShowDownloadReport, value:1
+current preference, name:prefPauseOnHeadsetDisconnect, value:1
+current preference, name:prefUnpauseOnHeadsetReconnect, value:1
+current preference, name:prefUnpauseOnBluetoothReconnect, value:0
+current preference, name:prefPauseForFocusLoss, value:0
+current preference, name:prefResumeAfterCall, value:1
+current preference, name:prefVideoBehavior, value:Stop playback
+current preference, name:prefHardwareForwardButtonSkips, value:0
+current preference, name:prefHardwarePreviousButtonRestarts, value:0
+current preference, name:prefEnqueueDownloaded, value:1
+current preference, name:prefQueueAddToFront, value:0
+current preference, name:prefFollowQueue, value:1
+current preference, name:prefSmartMarkAsPlayedSecs, value:30
+current preference, name:prefSkipKeepsEpisode, value:1
+current preference, name:prefMediaPlayer, value:Sonic Media Player
+current preference, name:prefCast, value:0
+current preference, name:prefImageCacheSize, value:100 MiB
+current preference, name:prefAutoDelete, value:0
+current preference, name:prefFavoriteKeepsEpisode, value:1
+current preference, name:prefTheme, value:null
+current preference, name:prefDrawerFeedOrder, value:null
+current preference, name:prefDrawerFeedIndicator, value:null
+current preference, name:prefExpandNotify, value:0
+current preference, name:prefPersistNotify, value:1
+current preference, name:prefLockscreenBackground, value:1
+current preference, name:prefBackButtonBehavior, value:Default
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\precase_log.py]
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\precase_log.py", line 278, in <module>
+
+    clickInList(driver, "new UiSelector().text(\"Sort alphabetically\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\precase_log.py", line 111, in clickInList
+
+    element = scrollToFindElement(driver, str)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\precase_log.py", line 79, in scrollToFindElement
+
+    swipe(driver, 0.5, 0.55, 0.5, 0.2)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\precase_log.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=1000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 191.290999889 s
+
+jacoco time: 5.00600004196 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 212.589999914 s
+
+jacoco time: 5.00300002098 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 902-1649 ,target branch is: 902-1650
+interests are:
+prefDrawerFeedIndicator      Number of new episodes    64     Appearance
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 3_025 1_010 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 4_014 4_015 4_016 4_017 4_018 4_019 4_010 4_011 4_012 4_013 3_004 3_005 3_002 3_003 3_000 3_001 4_025 4_026 4_027 4_028 4_029 4_020 4_021 4_022 4_023 4_024 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 796-1460 ,target branch is: 796-1461
+interests are:
+prefBackButtonBehavior      Go to page…    69     Behavior
+discovered tags are : 1_008 2_028 3_009 1_015 5_024 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 7037-11722 ,target branch is: 7037-11721
+interests are:
+prefQueueAddToFront      1    47     Queue
+discovered tags are : 5_011 2_019 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 180-351 ,target branch is: 180-352
+interests are:
+prefEnableAutoDownloadOnMobile      1    15     null
+discovered tags are : 4_014 6_022 4_018 2_019 6_027 6_028 2_004 2_021 5_011 3_017 3_006 5_023 3_018 1_007 1_024 1_002 3_002 1_012 1_023 5_025 3_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 387-798 ,target branch is: 386-797
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : 2_019 1_000 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 9907-16819 ,target branch is: 9907-16818
+interests are:
+prefDrawerFeedOrder      Sort alphabetically    63     Appearance
+discovered tags are : 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 6_009 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 902-1651 ,target branch is: 902-1650
+interests are:
+prefDrawerFeedIndicator      Number of new episodes    64     Appearance
+discovered tags are : 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 6_009 3_020 3_021 3_024 3_025 3_022 3_023 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 6_020 6_021 6_022 6_027 6_028 6_029 6_023 6_024 6_025 6_026 3_006 3_007 3_005 3_008 3_009 6_010 6_011 6_016 6_017 6_018 6_019 6_012 6_013 6_014 6_015 5_029 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 223-475 ,target branch is: 223-479
+interests are:
+prefMobileUpdate      1    31     Details
+discovered tags are : 2_019 1_000 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 901-1647 ,target branch is: 901-1648
+interests are:
+prefDrawerFeedIndicator      Number of downloaded episodes    64     Appearance
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 6906-11504 ,target branch is: 6906-11505
+interests are:
+prefEnableAutoDl      1    11     null
+discovered tags are : 2_019 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 879_0 ,target branch is: 879_0
+interests are:
+prefAutoUpdateIntervall      1    29     Automation
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 876_1 ,target branch is: 876_1
+interests are:
+prefAutoUpdateIntervall      1    29     Automation
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 880-1610_2 ,target branch is: 880-1610_2
+interests are:
+prefAutoUpdateIntervall      1    29     Automation
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_018 2_019 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 6_009 3_020 3_021 3_024 3_025 3_022 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 3_019 3_010 3_013 3_014 3_011 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 833-1537 ,target branch is: 833-1538
+interests are:
+prefEpisodeCleanup      Never    13     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 795-1458 ,target branch is: 795-1454
+interests are:
+prefBackButtonBehavior      Open navigation drawer    69     Behavior
+discovered tags are : 1_008 2_028 3_009 1_015 5_024 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 795-1458 ,target branch is: 795-1456
+interests are:
+prefBackButtonBehavior      Double tap to exit    69     Behavior
+discovered tags are : 1_008 2_028 3_009 1_015 5_024 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 795-1458 ,target branch is: 795-1455
+interests are:
+prefBackButtonBehavior      Confirm to exit    69     Behavior
+discovered tags are : 1_008 2_028 3_009 1_015 5_024 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 964_3 ,target branch is: 964_3
+interests are:
+prefAutoUpdateIntervall      1    29     Automation
+discovered tags are : 1_019 1_017 1_018 1_015 1_016 1_013 1_014 1_011 1_012 1_010 2_016 2_017 2_018 2_012 2_013 2_014 2_015 2_010 2_011 1_028 1_029 1_026 1_027 1_024 1_025 1_022 1_023 1_020 1_021 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 795-1458 ,target branch is: 795-1457
+interests are:
+prefBackButtonBehavior      Go to page…    69     Behavior
+discovered tags are : 1_008 2_028 3_009 1_015 5_024 
+--------------------------------
+index.1,  interestcase 2_019 start:
+tagetlogs are:[901-1648, 6906-11505, 386-797, 7037-11721, 879_0, 876_1, 833-1538, 223-479, 880-1610_2, 180-352]
+current preference, name:prefEnableAutoDl, value:1
+current preference, name:prefEpisodeCleanup, value:Never
+current preference, name:prefEnableAutoDownloadOnMobile, value:1
+current preference, name:prefAutoUpdateIntervall, value:1
+current preference, name:prefMobileUpdate, value:1
+current preference, name:prefQueueAddToFront, value:1
+current preference, name:prefDrawerFeedIndicator, value:Number of downloaded episodes
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_1_2_019.py]
+
+OK
+
+consumed time: 70.9460000992 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 69.7960000038 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [901-1648, 6906-11505, 386-797, 879_0, 876_1, 833-1538, 223-479]
+uncovered targets are: [7037-11721, 880-1610_2, 180-352]
+interestcase 0_1_2_019 end
+
+index.2,  interestcase 6_022 start:
+tagetlogs are:[902-1650, 9907-16818, 880-1610_2, 180-352]
+current preference, name:prefEnableAutoDownloadOnMobile, value:1
+current preference, name:prefAutoUpdateIntervall, value:1
+current preference, name:prefDrawerFeedOrder, value:Sort alphabetically
+current preference, name:prefDrawerFeedIndicator, value:Number of new episodes
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_2_6_022.py]
+
+OK
+
+consumed time: 45.510999918 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 40.993999958 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [902-1650, 9907-16818, 180-352]
+uncovered targets are: [880-1610_2]
+interestcase 0_2_6_022 end
+
+index.3,  interestcase 5_011 start:
+tagetlogs are:[7037-11721, 880-1610_2]
+current preference, name:prefAutoUpdateIntervall, value:1
+current preference, name:prefQueueAddToFront, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_3_5_011.py]
+
+OK
+
+consumed time: 33.7730000019 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_3_5_011.py", line 251, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.danoeh.antennapod:id/refresh_item\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_3_5_011.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 30.2909998894 s
+
+jacoco time: 5.00200009346 s
+
+covered targets are: []
+uncovered targets are: [7037-11721, 880-1610_2]
+target: 7037-11721 uncovered, added to then retrial list!
+loclog: 880-1610_2 deleted !
+interestcase 0_3_5_011 end
+
+index.4,  interestcase 1_008 start:
+tagetlogs are:[796-1461, 964_3, 795-1457]
+current preference, name:prefAutoUpdateIntervall, value:1
+current preference, name:prefBackButtonBehavior, value:Go to page…
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_4_1_008.py]
+
+OK
+
+consumed time: 31.9679999352 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_4_1_008.py", line 264, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Queue\")", "new UiSelector().className(\"android.widget.TextView\").instance(6)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_4_1_008.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 54.4360001087 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [964_3]
+uncovered targets are: [796-1461, 795-1457]
+interestcase 0_4_1_008 end
+
+index.5,  interestcase 2_028 start:
+tagetlogs are:[796-1461, 795-1457]
+current preference, name:prefBackButtonBehavior, value:Go to page…
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_5_2_028.py]
+
+OK
+
+consumed time: 19.0679998398 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_5_2_028.py", line 239, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"de.danoeh.antennapod:id/refresh_item\").className(\"android.widget.TextView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_5_2_028.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 22.3069999218 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [796-1461, 795-1457]
+target: 796-1461 uncovered, added to then retrial list!
+target: 795-1457 uncovered, added to then retrial list!
+interestcase 0_5_2_028 end
+
+index.6,  interestcase 3_009 start:
+tagetlogs are:[795-1455]
+current preference, name:prefBackButtonBehavior, value:Confirm to exit
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_6_3_009.py]
+
+OK
+
+consumed time: 19.1019999981 s
+
+jacoco time: 5.00300002098 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_6_3_009.py", line 237, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Playback History\")", "new UiSelector().className(\"android.widget.TextView\").instance(11)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_6_3_009.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 20.9660000801 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: []
+uncovered targets are: [795-1455]
+target: 795-1455 uncovered, added to then retrial list!
+interestcase 0_6_3_009 end
+
+index.7,  interestcase 1_015 start:
+tagetlogs are:[795-1454]
+current preference, name:prefBackButtonBehavior, value:Open navigation drawer
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_7_1_015.py]
+
+OK
+
+consumed time: 19.9210000038 s
+
+jacoco time: 5.00400018692 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_7_1_015.py", line 235, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"More options\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_7_1_015.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.5800001621 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [795-1454]
+target: 795-1454 uncovered, added to then retrial list!
+interestcase 0_7_1_015 end
+
+index.8,  interestcase 5_024 start:
+tagetlogs are:[795-1456]
+current preference, name:prefBackButtonBehavior, value:Double tap to exit
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_8_5_024.py]
+
+OK
+
+consumed time: 18.5339999199 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_8_5_024.py", line 235, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageView\").description(\"More options\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_8_5_024.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 15.7419998646 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [795-1456]
+target: 795-1456 uncovered, added to then retrial list!
+interestcase 0_8_5_024 end
+
+index.9,  interestcase 3_009 start:
+tagetlogs are:[795-1456]
+current preference, name:prefEnableAutoDl, value:0
+current preference, name:prefEpisodeCleanup, value:When not in queue
+current preference, name:prefImageCacheSize, value:20 MiB
+current preference, name:prefDrawerFeedIndicator, value:Number of unplayed episodes
+current preference, name:prefBackButtonBehavior, value:Double tap to exit
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\antennapod\testcase\interestcases\testcase0_9_3_009.py]
+

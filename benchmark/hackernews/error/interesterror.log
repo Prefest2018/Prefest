@@ -68,3 +68,562 @@
 
 --------- beginning of /dev/log/system
 
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 3547): 
+
+E/WindowManager( 3547): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a52247a0 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 3547): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 3547): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 3547): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 3547): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 3547): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 3547): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 3547): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager( 3547): 
+
+E/WindowManager( 3547): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a52247a0 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 3547): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 3547): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 3547): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 3547): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 3547): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 3547): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 3547): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/WindowManager( 3547): 
+
+E/WindowManager( 3547): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a52247a0 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 3547): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 3547): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 3547): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 3547): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 3547): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 3547): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 3547): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 3547): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 3547): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 3547): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 3547): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 3547): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_2_2_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 4152): Failed to find provider info for com.google.settings
+
+0_3_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 4922): 
+
+E/WindowManager( 4922): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a53072e8 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 4922): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 4922): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 4922): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 4922): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 4922): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 4922): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 4922): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 4922): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 4922): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 4922): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 4922): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 4922): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 4922): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 4922): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 4922): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 4922): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 4922): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 4922): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread( 5172): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 5172): Failed to find provider info for com.google.settings
+
+0_2_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 5641): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 5641): Failed to find provider info for com.google.settings
+
+0_3_2_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread( 6077): Failed to find provider info for com.google.settings
+
+E/ActivityThread( 6077): Failed to find provider info for com.google.settings
+
+0_4_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 6284): 
+
+E/WindowManager( 6284): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a5318520 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 6284): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 6284): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 6284): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 6284): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 6284): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 6284): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 6284): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 6284): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 6284): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 6284): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 6284): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 6284): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 6284): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 6284): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 6284): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 6284): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 6284): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 6284): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 6284): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 6284): Process: io.dwak.holohackernews.app, PID: 6284
+
+E/AndroidRuntime( 6284): java.lang.IllegalStateException: Fatal Exception thrown on Scheduler.Worker thread.
+
+E/AndroidRuntime( 6284): 	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:62)
+
+E/AndroidRuntime( 6284): 	at android.os.Handler.handleCallback(Handler.java:733)
+
+E/AndroidRuntime( 6284): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+E/AndroidRuntime( 6284): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 6284): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 6284): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 6284): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 6284): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 6284): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 6284): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 6284): Caused by: rx.exceptions.OnErrorFailedException: Error occurred when trying to propagate error to Observer.onError
+
+E/AndroidRuntime( 6284): 	at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:201)
+
+E/AndroidRuntime( 6284): 	at rx.observers.SafeSubscriber.onCompleted(SafeSubscriber.java:87)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorDoOnEach$1.onCompleted(OperatorDoOnEach.java:53)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:609)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.emit(OperatorMerge.java:521)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.onCompleted(OperatorMerge.java:254)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorSubscribeOn$1$1$1.onCompleted(OperatorSubscribeOn.java:66)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.pollQueue(OperatorObserveOn.java:201)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber$2.call(OperatorObserveOn.java:170)
+
+E/AndroidRuntime( 6284): 	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+
+E/AndroidRuntime( 6284): 	... 9 more
+
+E/AndroidRuntime( 6284): Caused by: rx.exceptions.CompositeException: 2 exceptions occurred. 
+
+E/AndroidRuntime( 6284): 	... 23 more
+
+E/AndroidRuntime( 6284): Caused by: rx.exceptions.CompositeException$CompositeExceptionCausalChain: Chain of Causes for CompositeException In Order Received =>
+
+E/AndroidRuntime( 6284): 	at android.util.Log.getStackTraceString(Log.java:329)
+
+E/AndroidRuntime( 6284): 	at android.util.Slog.e(Slog.java:77)
+
+E/AndroidRuntime( 6284): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:80)
+
+E/AndroidRuntime( 6284): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+
+E/AndroidRuntime( 6284): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+
+E/AndroidRuntime( 6284): 	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:66)
+
+E/AndroidRuntime( 6284): 	... 9 more
+
+E/AndroidRuntime( 6284): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 6284): 	at io.dwak.holohackernews.app.ui.storylist.StoryListFragment$1.onCompleted(StoryListFragment.java:84)
+
+E/AndroidRuntime( 6284): 	at rx.observers.SafeSubscriber.onCompleted(SafeSubscriber.java:81)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorDoOnEach$1.onCompleted(OperatorDoOnEach.java:53)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:609)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.emit(OperatorMerge.java:521)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMerge$MergeSubscriber.onCompleted(OperatorMerge.java:254)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorMap$1.onCompleted(OperatorMap.java:44)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorSubscribeOn$1$1$1.onCompleted(OperatorSubscribeOn.java:66)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.pollQueue(OperatorObserveOn.java:201)
+
+E/AndroidRuntime( 6284): 	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber$2.call(OperatorObserveOn.java:170)
+
+E/AndroidRuntime( 6284): 	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+
+E/AndroidRuntime( 6284): 	... 9 more
+
+E/AndroidRuntime( 6284): Caused by: java.lang.RuntimeException: Duplicate found in causal chain so cropping to prevent loop ...
+
+E/AndroidRuntime( 6284): 	at android.util.Log.getStackTraceString(Log.java:329)
+
+E/AndroidRuntime( 6284): 	at android.util.Slog.e(Slog
+
+0_5_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 8410): 
+
+E/WindowManager( 8410): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a532a800 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 8410): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 8410): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 8410): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 8410): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 8410): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 8410): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 8410): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 8410): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 8410): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 8410): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 8410): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 8410): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 8410): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 8410): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 8410): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 8410): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 8410): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 8410): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_9_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 9412): 
+
+E/WindowManager( 9412): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a5351078 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 9412): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 9412): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 9412): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 9412): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 9412): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 9412): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 9412): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 9412): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 9412): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 9412): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 9412): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 9412): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 9412): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 9412): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 9412): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 9412): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 9412): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 9412): 	at dalvik.system.NativeStart.main(Native Method)
+
+1_1_0_1_5_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/WindowManager( 9920): 
+
+E/WindowManager( 9920): android.view.WindowLeaked: Activity io.dwak.holohackernews.app.ui.settings.SettingsActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{a5382bd0 V.E..... R......D 0,0-684,192} that was originally added here
+
+E/WindowManager( 9920): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:348)
+
+E/WindowManager( 9920): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:248)
+
+E/WindowManager( 9920): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+
+E/WindowManager( 9920): 	at android.app.Dialog.show(Dialog.java:286)
+
+E/WindowManager( 9920): 	at android.app.ProgressDialog.show(ProgressDialog.java:116)
+
+E/WindowManager( 9920): 	at android.app.ProgressDialog.show(ProgressDialog.java:104)
+
+E/WindowManager( 9920): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.lambda$onSharedPreferenceChanged$0(SettingsActivity.java:93)
+
+E/WindowManager( 9920): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment.access$lambda$0(SettingsActivity.java)
+
+E/WindowManager( 9920): 	at io.dwak.holohackernews.app.ui.settings.SettingsActivity$SettingsFragment$$Lambda$1.onClick(dalvik_source_hackernews.apk)
+
+E/WindowManager( 9920): 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+
+E/WindowManager( 9920): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/WindowManager( 9920): 	at android.os.Looper.loop(Looper.java:136)
+
+E/WindowManager( 9920): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/WindowManager( 9920): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/WindowManager( 9920): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/WindowManager( 9920): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/WindowManager( 9920): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/WindowManager( 9920): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/ActivityThread(10167): Failed to find provider info for com.google.settings
+
+E/ActivityThread(10167): Failed to find provider info for com.google.settings
+
+1_2_0_5_1_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

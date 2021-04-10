@@ -1,0 +1,2093 @@
+current preference, name:useRestbase_setManually, value:1
+current preference, name:useRestbase, value:1
+current preference, name:mediaWikiBaseUriSupportsLangCode, value:0
+current preference, name:retrofitLog, value:NONE
+current preference, name:suppressNotificationPolling, value:1
+current preference, name:showDeveloperSettings, value:1
+current preference, name:memoryLeakTest, value:1
+current preference, name:crashedBeforeActivityCreated, value:1
+current preference, name:initialOnboardingEnabled, value:1
+current preference, name:descriptionEditTutorialEnabled, value:1
+current preference, name:tocTutorialEnabled, value:1
+current preference, name:selectTextTutorialEnabled, value:1
+current preference, name:shareTutorialEnabled, value:1
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:readingListTutorialEnabled, value:1
+current preference, name:readingListSyncReminder, value:1
+current preference, name:readingListLoginReminder, value:1
+current preference, name:zeroTutorialEnabled, value:1
+current preference, name:feedCustomizeOnboardingCardEnabled, value:1
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:1
+current preference, name:showReadingListsSyncPrompt, value:1
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:showRemoveChineseVariantPrompt, value:1
+current preference, name:showLinkPreviews, value:0
+current preference, name:syncReadingLists, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:preferOfflineContent, value:1
+current preference, name:eventlogging_opt_in, value:0
+current preference, name:always_send_crash_reports, value:0
+current preference, name:zero_warn_when_leaving, value:0
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:mediaWikiBaseUriSupportsLangCode, value:1
+current preference, name:retrofitLog, value:HEADERS
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:showDeveloperSettings, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:crashedBeforeActivityCreated, value:0
+current preference, name:initialOnboardingEnabled, value:0
+current preference, name:descriptionEditTutorialEnabled, value:0
+current preference, name:tocTutorialEnabled, value:0
+current preference, name:selectTextTutorialEnabled, value:0
+current preference, name:shareTutorialEnabled, value:0
+current preference, name:multilingualSearchTutorialEnabled, value:0
+current preference, name:readingListTutorialEnabled, value:0
+current preference, name:readingListSyncReminder, value:0
+current preference, name:readingListLoginReminder, value:0
+current preference, name:zeroTutorialEnabled, value:0
+current preference, name:feedCustomizeOnboardingCardEnabled, value:0
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:0
+current preference, name:showReadingListsSyncPrompt, value:0
+current preference, name:readingListsFirstTimeSync, value:0
+current preference, name:showRemoveChineseVariantPrompt, value:0
+current preference, name:showLinkPreviews, value:1
+current preference, name:syncReadingLists, value:0
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current preference, name:always_send_crash_reports, value:1
+current preference, name:zero_warn_when_leaving, value:1
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 174.040999889 s
+
+jacoco time: 5.0110001564 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 164.262000084 s
+
+jacoco time: 5.0039999485 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 6563-9525 ,target branch is: 6563-9526
+interests are:
+tocTutorialEnabled      0    26     Onboarding
+discovered tags are : 4_009 6_001 5_016 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 7066-10221 ,target branch is: 7066-10220
+interests are:
+suppressNotificationPolling      1    9     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 7275-10507 ,target branch is: 7275-10506
+interests are:
+readingListLoginReminder      0    32     Onboarding
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_022 2_017 2_018 2_012 2_014 2_015 2_011 5_000 5_006 5_005 5_003 2_009 2_005 2_006 2_007 2_008 2_000 5_011 5_010 5_019 5_015 5_016 5_022 5_026 5_025 6_007 6_008 6_001 6_002 6_003 3_029 3_026 1_019 1_017 1_015 1_016 1_013 1_014 1_011 3_025 3_022 1_010 3_023 4_003 4_009 4_001 4_002 3_017 1_028 1_026 1_027 3_010 1_024 3_013 1_023 3_014 3_011 1_021 3_012 4_014 4_016 4_017 4_011 4_012 4_013 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 6_010 6_017 4_021 6_012 6_013 4_023 4_024 1_008 1_009 1_006 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 9884-14212 ,target branch is: 9884-14211
+interests are:
+preferOfflineContent      1    51     Data usage
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 4147-5791 ,target branch is: 4147-5790
+interests are:
+showImages      0    50     Data usage
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 9797-14079 ,target branch is: 9797-14078
+interests are:
+eventlogging_opt_in      0    52     Privacy
+discovered tags are : 6_010 6_011 2_028 2_006 2_029 2_018 2_012 2_025 2_015 4_024 5_001 1_009 1_006 3_010 5_006 1_002 1_003 1_023 3_022 3_000 1_010 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 12498-17950 ,target branch is: 12498-17949
+interests are:
+showImages      0    50     Data usage
+discovered tags are : 5_001 1_019 4_009 2_014 1_013 3_022 1_020 3_000 4_023 2_011 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 4021-5621 ,target branch is: 4021-5622
+interests are:
+eventlogging_opt_in      0    52     Privacy
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 13693-19723 ,target branch is: 13693-19724
+interests are:
+preferOfflineContent      1    51     Data usage
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 3486_0 ,target branch is: 3486_0
+interests are:
+feedHiddenCards          36     Onboarding
+discovered tags are : 6_000 2_027 2_029 6_005 2_024 6_006 2_025 6_007 6_001 2_020 6_002 2_021 6_003 6_004 1_017 1_018 3_020 1_010 3_023 4_003 4_005 4_006 4_007 4_008 2_018 4_009 2_012 2_015 4_001 4_002 5_000 5_001 1_028 5_008 5_006 1_025 5_004 5_005 1_023 5_002 1_020 5_003 3_012 4_015 6_020 4_016 6_021 2_006 6_027 4_010 6_023 6_024 4_012 4_013 6_026 5_011 5_012 5_010 5_019 5_017 5_018 5_016 3_003 5_013 5_014 4_027 6_010 4_028 6_011 6_016 6_017 6_018 6_012 4_022 6_013 6_014 6_015 5_020 1_008 1_009 5_028 5_029 5_027 5_024 5_025 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 3486_1 ,target branch is: 3486_1
+interests are:
+feedHiddenCards      random    36     Onboarding
+discovered tags are : 6_000 2_027 2_029 6_005 2_024 6_006 2_025 6_007 6_001 2_020 6_002 2_021 6_003 6_004 1_017 1_018 3_020 1_010 3_023 4_003 4_005 4_006 4_007 4_008 2_018 4_009 2_012 2_015 4_001 4_002 5_000 5_001 1_028 5_008 5_006 1_025 5_004 5_005 1_023 5_002 1_020 5_003 3_012 4_015 6_020 4_016 6_021 2_006 6_027 4_010 6_023 6_024 4_012 4_013 6_026 5_011 5_012 5_010 5_019 5_017 5_018 5_016 3_003 5_013 5_014 4_027 6_010 4_028 6_011 6_016 6_017 6_018 6_012 4_022 6_013 6_014 6_015 5_020 1_008 1_009 5_028 5_029 5_027 5_024 5_025 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 4345_2 ,target branch is: 4345_2
+interests are:
+readingAppInstallID          12     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 4345_3 ,target branch is: 4345_3
+interests are:
+readingAppInstallID      random    12     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 10559-15272 ,target branch is: 10559-15271
+interests are:
+tocTutorialEnabled      0    26     Onboarding
+discovered tags are : 4_014 4_016 2_025 6_001 4_011 2_021 5_010 1_019 1_017 5_019 1_013 5_016 3_022 3_000 4_003 4_009 2_014 4_021 6_013 4_023 4_002 5_000 1_028 5_026 3_013 5_005 5_027 1_023 3_014 1_020 3_011 5_003 5_025 3_012 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 4022-5623 ,target branch is: 4022-5624
+interests are:
+eventlogging_opt_in      0    52     Privacy
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 4022-5623_4 ,target branch is: 4022-5623_4
+interests are:
+readingAppInstallID          12     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 4022-5623_5 ,target branch is: 4022-5623_5
+interests are:
+readingAppInstallID      random    12     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 4364_6 ,target branch is: 4364_6
+interests are:
+readingAppInstallID          12     Miscellaneous
+discovered tags are : 6_010 6_011 2_028 2_006 2_029 2_018 2_012 2_015 4_024 5_001 1_009 1_006 3_010 5_006 1_002 1_003 1_023 3_022 3_000 1_010 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 4364_7 ,target branch is: 4364_7
+interests are:
+readingAppInstallID      random    12     Miscellaneous
+discovered tags are : 6_010 6_011 2_028 2_006 2_029 2_018 2_012 2_015 4_024 5_001 1_009 1_006 3_010 5_006 1_002 1_003 1_023 3_022 3_000 1_010 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 9260-13312 ,target branch is: 9260-13311
+interests are:
+showImages      0    50     Data usage
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_021 2_022 2_016 2_017 2_018 2_012 2_013 2_014 2_015 2_011 5_000 5_008 5_009 5_006 5_007 5_005 5_002 5_003 2_009 2_006 2_007 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_022 5_021 5_028 5_029 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_018 1_015 3_020 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 4_005 4_006 4_007 4_000 4_001 4_002 3_017 3_018 3_016 3_019 1_029 1_026 1_027 3_010 1_025 1_023 1_020 1_021 3_012 6_020 6_021 6_022 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 6_026 3_007 3_004 3_005 3_009 3_002 3_000 3_001 4_027 6_010 4_028 6_011 6_016 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 13316-19162 ,target branch is: 13316-19163
+interests are:
+restbaseTicket      0    2     RESTBase access
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 12265-17598 ,target branch is: 12265-17599
+interests are:
+showLinkPreviews      0    46     General
+discovered tags are : 2_025 6_001 4_011 2_021 2_000 1_019 1_017 1_013 5_016 3_022 3_000 3_023 4_003 4_009 2_014 2_011 4_002 1_008 1_026 3_013 5_027 1_023 1_020 3_011 3_012 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 579-846 ,target branch is: 579-847
+interests are:
+downloadOnlyOverWiFi      1    49     Data usage
+discovered tags are : 2_027 2_028 2_029 2_025 2_026 2_021 2_022 2_016 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_006 5_007 5_004 5_005 5_003 2_009 2_005 2_006 2_001 2_002 2_004 2_000 5_011 5_010 5_019 5_017 5_015 5_016 5_013 5_022 5_023 5_020 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_006 6_008 6_001 6_002 6_004 3_029 3_026 3_027 1_019 6_009 1_017 1_016 1_013 1_014 1_011 3_024 3_025 3_022 1_010 3_023 4_003 4_005 4_006 4_008 4_009 4_001 4_002 1_028 1_026 1_027 3_010 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 4_016 4_017 6_022 4_018 6_028 6_029 4_010 4_011 6_024 4_012 6_025 4_013 6_026 3_007 3_008 3_000 3_001 4_025 4_027 6_010 6_011 4_029 6_016 6_018 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_002 1_003 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 10283-14795 ,target branch is: 10283-14796
+interests are:
+readingListTutorialEnabled      0    30     Onboarding
+discovered tags are : 5_001 2_025 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 14989-21837 ,target branch is: 14989-21836
+interests are:
+readingListsFirstTimeSync      0    38     Onboarding
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_004 3_005 3_008 3_009 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 10284-14797 ,target branch is: 10284-14798
+interests are:
+readingListTutorialEnabled      0    30     Onboarding
+discovered tags are : 5_001 2_025 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 13334-19191 ,target branch is: 13334-19190
+interests are:
+useRestbase_setManually      1    0     RESTBase access
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 2420-3393 ,target branch is: 2420-3392
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 12026-17280 ,target branch is: 12026-17279
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : 2_027 2_029 2_024 2_025 2_020 2_021 2_018 2_012 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_001 2_002 2_003 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 6_009 1_017 1_018 1_015 3_020 3_021 1_013 1_011 3_024 1_012 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 1_028 3_019 1_029 3_013 1_023 3_014 1_020 3_011 3_012 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_005 3_008 3_009 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 9734-13985 ,target branch is: 9734-13986
+interests are:
+multilingualSearchTutorialEnabled      1    29     Onboarding
+discovered tags are : 1_005 1_002 1_003 1_011 1_000 1_010 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 7055-10205 ,target branch is: 7055-10206
+interests are:
+mediaWikiBaseUriSupportsLangCode      0    4     RESTBase access
+discovered tags are : 2_029 2_025 6_007 6_001 6_003 1_019 1_017 1_018 3_020 3_022 4_003 4_006 4_007 4_008 4_009 2_015 2_010 2_011 4_002 5_001 1_025 1_022 3_013 1_023 1_020 5_003 3_012 4_014 4_016 6_024 2_000 4_013 6_026 3_003 5_013 3_000 3_001 6_010 6_011 6_017 4_022 6_013 4_023 5_022 1_006 1_007 1_003 1_000 5_027 1_001 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 7070-10227 ,target branch is: 7070-10226
+interests are:
+memoryLeakTest      1    21     Miscellaneous
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_026 2_020 2_021 2_022 2_016 2_017 2_018 2_019 2_012 2_013 2_014 2_015 2_010 2_011 5_000 5_001 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_022 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_008 6_001 6_002 6_003 6_004 3_028 3_029 3_026 3_027 1_019 6_009 1_017 1_018 1_015 3_020 1_016 3_021 1_013 1_014 1_011 3_024 1_012 3_025 3_022 1_010 3_023 4_003 4_004 4_005 4_006 4_007 4_008 4_009 4_000 4_001 4_002 3_017 3_018 3_015 3_016 1_028 3_019 1_029 1_026 1_027 3_010 1_024 1_025 1_022 3_013 1_023 3_014 1_020 3_011 1_021 3_012 4_014 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_029 4_010 6_023 4_011 6_024 4_012 6_025 4_013 6_026 3_006 3_007 3_004 3_005 3_008 3_009 3_002 3_003 3_000 3_001 4_025 4_026 4_027 6_010 4_028 6_011 4_029 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_004 1_005 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 11413-16428 ,target branch is: 11413-16429
+interests are:
+initialOnboardingEnabled      1    24     Onboarding
+discovered tags are : 2_027 2_028 2_029 2_023 2_024 2_025 2_020 2_021 2_022 2_016 2_018 2_012 2_015 2_010 2_011 5_000 5_008 5_009 5_006 5_007 5_004 5_005 5_002 5_003 2_009 2_006 2_007 2_001 2_004 2_000 5_011 5_012 5_010 5_019 5_017 5_018 5_015 5_016 5_013 5_014 5_023 5_020 5_021 5_028 5_029 5_026 5_027 5_024 5_025 6_000 6_005 6_006 6_007 6_001 6_002 6_003 6_004 3_028 3_027 1_017 1_018 1_015 3_020 3_021 1_013 1_014 1_011 3_024 3_025 3_022 1_010 3_023 4_003 4_005 4_006 4_007 4_008 4_009 4_001 4_002 3_017 3_015 1_028 1_026 1_025 1_023 3_014 1_020 3_011 1_021 3_012 4_015 6_020 4_016 6_021 4_017 6_022 4_018 4_019 6_027 6_028 6_023 4_011 6_024 4_012 4_013 6_026 3_006 3_005 3_008 3_009 3_003 3_000 3_001 4_026 4_027 6_010 4_028 6_011 6_016 6_017 6_018 4_020 6_019 4_021 6_012 4_022 6_013 4_023 6_014 4_024 6_015 1_008 1_009 1_006 1_007 1_002 1_003 1_000 1_001 
+--------------------------------
+NO.33 Scene:
+discovered in ineration NO. 0
+origin branch is: 7048-10194_8 ,target branch is: 7048-10194_8
+interests are:
+channel          8     Logging
+discovered tags are : 4_016 2_029 4_009 2_025 6_001 2_021 6_003 4_013 1_006 1_018 1_025 1_003 1_022 5_016 1_023 3_003 3_000 3_023 1_021 
+--------------------------------
+NO.34 Scene:
+discovered in ineration NO. 0
+origin branch is: 7048-10194_9 ,target branch is: 7048-10194_9
+interests are:
+channel      random    8     Logging
+discovered tags are : 4_016 2_029 4_009 2_025 6_001 2_021 6_003 4_013 1_006 1_018 1_025 1_003 1_022 5_016 1_023 3_003 3_000 3_023 1_021 
+--------------------------------
+NO.35 Scene:
+discovered in ineration NO. 0
+origin branch is: 7049-10196 ,target branch is: 7049-10197
+interests are:
+channel      random    8     Logging
+discovered tags are : 4_016 2_029 4_009 2_025 6_001 2_021 6_003 4_013 1_006 1_018 1_025 1_003 1_022 5_016 1_023 3_003 3_000 3_023 1_021 
+--------------------------------
+index.1,  interestcase 1_003 start:
+tagetlogs are:[12026-17279, 9797-14078, 9260-13311, 7066-10220, 4022-5623_5, 13334-19190, 9734-13986, 7049-10197, 4364_7, 7055-10206, 4147-5790, 4345_3, 11413-16429, 7048-10194_9, 13693-19724, 13316-19163, 7070-10226, 7275-10506, 2420-3392, 4022-5624, 9884-14211, 14989-21836, 4021-5622, 579-847]
+current preference, name:useRestbase_setManually, value:1
+current preference, name:restbaseTicket, value:0
+current preference, name:mediaWikiBaseUriSupportsLangCode, value:0
+current preference, name:channel, value:random
+current preference, name:suppressNotificationPolling, value:1
+current preference, name:readingAppInstallID, value:random
+current preference, name:memoryLeakTest, value:1
+current preference, name:initialOnboardingEnabled, value:1
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:readingListLoginReminder, value:0
+current preference, name:readingListsFirstTimeSync, value:0
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:preferOfflineContent, value:1
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_1_1_003.py]
+
+OK
+
+consumed time: 119.237999916 s
+
+jacoco time: 5.00800013542 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_1_1_003.py", line 274, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_1_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.5579998493 s
+
+jacoco time: 0.84700012207 s
+
+covered targets are: [12026-17279, 7066-10220, 4022-5623_5, 13334-19190, 7049-10197, 7055-10206, 4147-5790, 4345_3, 11413-16429, 7048-10194_9, 13693-19724, 7070-10226, 7275-10506, 4022-5624, 9884-14211, 14989-21836, 4021-5622]
+uncovered targets are: [9797-14078, 9260-13311, 9734-13986, 4364_7, 13316-19163, 2420-3392, 579-847]
+interestcase 0_1_1_003 end
+
+index.2,  interestcase 1_003 start:
+tagetlogs are:[9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4345_2, 4364_6, 7048-10194_8, 13316-19163, 2420-3392, 579-847]
+current preference, name:restbaseTicket, value:0
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_2_1_003.py]
+
+OK
+
+consumed time: 88.5690000057 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_2_1_003.py", line 258, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.9300000668 s
+
+jacoco time: 0.774999856949 s
+
+covered targets are: [4345_2, 7048-10194_8]
+uncovered targets are: [9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 579-847]
+interestcase 0_2_1_003 end
+
+index.3,  interestcase 1_010 start:
+tagetlogs are:[9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 3486_0, 579-847]
+current preference, name:restbaseTicket, value:0
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:feedHiddenCards, value:
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_3_1_010.py]
+
+OK
+
+consumed time: 90.4309999943 s
+
+jacoco time: 5.0150001049 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_3_1_010.py", line 256, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_3_1_010.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 13.1630001068 s
+
+jacoco time: 0.973000049591 s
+
+covered targets are: [3486_0]
+uncovered targets are: [9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 579-847]
+interestcase 0_3_1_010 end
+
+index.4,  interestcase 1_010 start:
+tagetlogs are:[9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 3486_1, 579-847]
+current preference, name:restbaseTicket, value:0
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:feedHiddenCards, value:random
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_4_1_010.py]
+
+OK
+
+consumed time: 92.3870000839 s
+
+jacoco time: 5.04500007629 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_4_1_010.py", line 256, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_4_1_010.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.8039999008 s
+
+jacoco time: 2.65799999237 s
+
+covered targets are: [3486_1]
+uncovered targets are: [9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 579-847]
+interestcase 0_4_1_010 end
+
+index.5,  interestcase 1_002 start:
+tagetlogs are:[9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163, 2420-3392, 579-847]
+current preference, name:restbaseTicket, value:0
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_5_1_002.py]
+
+OK
+
+consumed time: 72.6860001087 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_5_1_002.py", line 277, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/view_page_header_image_placeholder\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_5_1_002.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 52.7799999714 s
+
+jacoco time: 60.5309998989 s
+
+covered targets are: [9797-14078, 9260-13311, 4022-5623_4, 9734-13986, 4364_6, 13316-19163]
+uncovered targets are: [2420-3392, 579-847]
+interestcase 0_5_1_002 end
+
+index.6,  interestcase 3_022 start:
+tagetlogs are:[12498-17949, 4364_7, 10559-15271, 2420-3392, 12265-17599, 579-847]
+current preference, name:readingAppInstallID, value:random
+current preference, name:tocTutorialEnabled, value:0
+current preference, name:showLinkPreviews, value:0
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_6_3_022.py]
+
+OK
+
+consumed time: 59.5009999275 s
+
+jacoco time: 5.10700011253 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_6_3_022.py", line 258, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_6_3_022.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 27.1859998703 s
+
+jacoco time: 0.992000102997 s
+
+covered targets are: []
+uncovered targets are: [12498-17949, 4364_7, 10559-15271, 2420-3392, 12265-17599, 579-847]
+target: 12498-17949 uncovered, added to then retrial list!
+loclog: 4364_7 deleted !
+target: 10559-15271 uncovered, added to then retrial list!
+target: 2420-3392 uncovered, added to then retrial list!
+target: 12265-17599 uncovered, added to then retrial list!
+target: 579-847 uncovered, added to then retrial list!
+interestcase 0_6_3_022 end
+
+index.7,  interestcase 4_009 start:
+tagetlogs are:[6563-9526]
+current preference, name:tocTutorialEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_7_4_009.py]
+
+OK
+
+consumed time: 36.5209999084 s
+
+jacoco time: 5.01799988747 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_7_4_009.py", line 248, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/search_close_btn\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_7_4_009.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.4389998913 s
+
+jacoco time: 44.6710000038 s
+
+covered targets are: []
+uncovered targets are: [6563-9526]
+target: 6563-9526 uncovered, added to then retrial list!
+interestcase 0_7_4_009 end
+
+index.8,  interestcase 5_001 start:
+tagetlogs are:[10283-14796, 10284-14798]
+current preference, name:readingListTutorialEnabled, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_8_5_001.py]
+
+OK
+
+consumed time: 37.0759999752 s
+
+jacoco time: 5.04100012779 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_8_5_001.py", line 277, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/find_in_page_next\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_8_5_001.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 63.2200000286 s
+
+jacoco time: 0.773999929428 s
+
+covered targets are: []
+uncovered targets are: [10283-14796, 10284-14798]
+target: 10283-14796 uncovered, added to then retrial list!
+target: 10284-14798 uncovered, added to then retrial list!
+interestcase 0_8_5_001 end
+
+index.9,  interestcase 5_001 start:
+tagetlogs are:[10284-14798]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:readingListTutorialEnabled, value:1
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:colorTheme, value:1
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_9_5_001.py]
+
+OK
+
+consumed time: 110.597000122 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 69.6909999847 s
+
+jacoco time: 0.925999879837 s
+
+covered targets are: []
+uncovered targets are: [10284-14798]
+loclog: 10284-14798 uncovered after retrial, deleted!
+interestcase 0_9_5_001 end
+
+index.10,  interestcase 5_001 start:
+tagetlogs are:[10283-14796]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:readingListTutorialEnabled, value:0
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:colorTheme, value:1
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_10_5_001.py]
+
+OK
+
+consumed time: 127.556999922 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_10_5_001.py", line 274, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/view_static_card_icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_10_5_001.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 28.0190000534 s
+
+jacoco time: 50.7750000954 s
+
+covered targets are: []
+uncovered targets are: [10283-14796]
+loclog: 10283-14796 uncovered after retrial, deleted!
+interestcase 0_10_5_001 end
+
+index.11,  interestcase 5_016 start:
+tagetlogs are:[6563-9526]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:channel, value:
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:initialOnboardingEnabled, value:0
+current preference, name:tocTutorialEnabled, value:1
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:showLinkPreviews, value:1
+current preference, name:colorTheme, value:1
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_11_5_016.py]
+
+OK
+
+consumed time: 139.371000051 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_11_5_016.py", line 308, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/random_save_button\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_11_5_016.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 103.28399992 s
+
+jacoco time: 58.2510001659 s
+
+covered targets are: []
+uncovered targets are: [6563-9526]
+loclog: 6563-9526 uncovered after retrial, deleted!
+interestcase 0_11_5_016 end
+
+index.12,  interestcase 1_017 start:
+tagetlogs are:[579-847]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:initialOnboardingEnabled, value:0
+current preference, name:readingListLoginReminder, value:1
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:0
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:colorTheme, value:0
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_12_1_017.py]
+
+OK
+
+consumed time: 118.492000103 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_12_1_017.py", line 294, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"Add language\")", "new UiSelector().className(\"android.widget.TextView\").instance(8)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_12_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 65.885999918 s
+
+jacoco time: 0.964999914169 s
+
+covered targets are: [579-847]
+uncovered targets are: []
+target: 579-847 covered after retrial!
+interestcase 0_12_1_017 end
+
+index.13,  interestcase 1_017 start:
+tagetlogs are:[12265-17599]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:mediaWikiBaseUriSupportsLangCode, value:1
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:initialOnboardingEnabled, value:0
+current preference, name:tocTutorialEnabled, value:1
+current preference, name:readingListLoginReminder, value:1
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:0
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:showLinkPreviews, value:0
+current preference, name:colorTheme, value:0
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_13_1_017.py]
+
+OK
+
+consumed time: 133.520999908 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_13_1_017.py", line 293, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"русский\")", "new UiSelector().className(\"android.widget.TextView\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_13_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.5550000668 s
+
+jacoco time: 0.897000074387 s
+
+covered targets are: [12265-17599]
+uncovered targets are: []
+target: 12265-17599 covered after retrial!
+interestcase 0_13_1_017 end
+
+index.14,  interestcase 1_017 start:
+tagetlogs are:[2420-3392]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:colorTheme, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_14_1_017.py]
+
+OK
+
+consumed time: 72.9459998608 s
+
+jacoco time: 5.00600004196 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_14_1_017.py", line 269, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"русский\")", "new UiSelector().className(\"android.widget.TextView\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_14_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 45.6670000553 s
+
+jacoco time: 0.889999866486 s
+
+covered targets are: []
+uncovered targets are: [2420-3392]
+loclog: 2420-3392 uncovered after retrial, deleted!
+interestcase 0_14_1_017 end
+
+index.15,  interestcase 1_017 start:
+tagetlogs are:[10559-15271]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:initialOnboardingEnabled, value:0
+current preference, name:tocTutorialEnabled, value:0
+current preference, name:readingListLoginReminder, value:1
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:0
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:colorTheme, value:0
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_15_1_017.py]
+
+OK
+
+consumed time: 135.650000095 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_15_1_017.py", line 289, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"русский\")", "new UiSelector().className(\"android.widget.TextView\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_15_1_017.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 46.2740001678 s
+
+jacoco time: 0.873999834061 s
+
+covered targets are: [10559-15271]
+uncovered targets are: []
+target: 10559-15271 covered after retrial!
+interestcase 0_15_1_017 end
+
+index.16,  interestcase 1_019 start:
+tagetlogs are:[12498-17949]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:suppressNotificationPolling, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:feedCustomizeOnboardingCardEnabled, value:0
+current preference, name:feedReadingListsSyncOnboardingCardEnabled, value:0
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:showLinkPreviews, value:1
+current preference, name:colorTheme, value:0
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_16_1_019.py]
+
+OK
+
+consumed time: 129.176000118 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_16_1_019.py", line 302, in <module>
+
+    element = getElememt(driver, "new UiSelector().className(\"android.widget.ImageButton\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase0_16_1_019.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 75.4470000267 s
+
+jacoco time: 60.4469997883 s
+
+covered targets are: []
+uncovered targets are: [12498-17949]
+loclog: 12498-17949 uncovered after retrial, deleted!
+interestcase 0_16_1_019 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 11744-16913 ,target branch is: 11744-16912
+interests are:
+retrofitLog      NONE    5     Logging
+discovered tags are : 0_4_1_010 0_1_1_003 0_3_1_010 0_2_1_003 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 2415-3384 ,target branch is: 2415-3385
+interests are:
+ass_mobiledata      1    -1     null
+discovered tags are : 0_8_5_001 0_13_1_017 0_7_4_009 0_9_5_001 0_12_1_017 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 13365-19254 ,target branch is: 13365-19253
+interests are:
+initialOnboardingEnabled      1    24     Onboarding
+discovered tags are : 0_5_1_002 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 11741-16903 ,target branch is: 11741-16901
+interests are:
+retrofitLog      NONE    5     Logging
+discovered tags are : 0_4_1_010 0_1_1_003 0_3_1_010 0_2_1_003 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 11741-16903 ,target branch is: 11741-16900
+interests are:
+retrofitLog      BODY    5     Logging
+discovered tags are : 0_4_1_010 0_1_1_003 0_3_1_010 0_2_1_003 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 11741-16903 ,target branch is: 11741-16902
+interests are:
+retrofitLog      BASIC    5     Logging
+discovered tags are : 0_4_1_010 0_1_1_003 0_3_1_010 0_2_1_003 
+--------------------------------
+index.1,  interestcase 0_9_5_001 start:
+tagetlogs are:[2415-3385]
+current preference, name:useRestbase_setManually, value:0
+current preference, name:useRestbase, value:0
+current preference, name:restbaseTicket, value:1
+current preference, name:requestSuccesses, value:0
+current preference, name:memoryLeakTest, value:0
+current preference, name:readingListTutorialEnabled, value:1
+current preference, name:readingListsFirstTimeSync, value:1
+current preference, name:colorTheme, value:1
+current preference, name:downloadOnlyOverWiFi, value:0
+current preference, name:showImages, value:1
+current preference, name:preferOfflineContent, value:0
+current preference, name:eventlogging_opt_in, value:1
+current systemservice, name: ass_mobiledata, value: 1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_1_0_9_5_001.py]
+
+OK
+
+consumed time: 134.000999928 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_1_0_9_5_001.py", line 274, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/view_static_card_icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_1_0_9_5_001.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 23.8910000324 s
+
+jacoco time: 6.18099999428 s
+
+covered targets are: []
+uncovered targets are: [2415-3385]
+loclog: 2415-3385 uncovered after retrial, deleted!
+interestcase 1_1_0_9_5_001 end
+
+index.2,  interestcase 0_2_1_003 start:
+tagetlogs are:[11741-16900]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:BODY
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_2_0_2_1_003.py]
+
+OK
+
+consumed time: 84.5730001926 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_2_0_2_1_003.py", line 279, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/search_empty_image\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_2_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 63.4429998398 s
+
+jacoco time: 1.14600014687 s
+
+covered targets are: [11741-16900]
+uncovered targets are: []
+target: 11741-16900 covered after retrial!
+interestcase 1_2_0_2_1_003 end
+
+index.3,  interestcase 0_2_1_003 start:
+tagetlogs are:[11741-16901]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:NONE
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_3_0_2_1_003.py]
+
+OK
+
+consumed time: 92.7460000515 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_3_0_2_1_003.py", line 279, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/search_empty_image\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_3_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 54.7379999161 s
+
+jacoco time: 60.4249999523 s
+
+covered targets are: [11741-16901]
+uncovered targets are: []
+target: 11741-16901 covered after retrial!
+interestcase 1_3_0_2_1_003 end
+
+index.4,  interestcase 0_5_1_002 start:
+tagetlogs are:[13365-19253]
+current preference, name:restbaseTicket, value:0
+current preference, name:readingAppInstallID, value:
+current preference, name:initialOnboardingEnabled, value:1
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_4_0_5_1_002.py]
+
+OK
+
+consumed time: 81.9409999847 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_4_0_5_1_002.py", line 258, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_4_0_5_1_002.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 18.371999979 s
+
+jacoco time: 1.30100011826 s
+
+covered targets are: []
+uncovered targets are: [13365-19253]
+loclog: 13365-19253 uncovered after retrial, deleted!
+interestcase 1_4_0_5_1_002 end
+
+index.5,  interestcase 0_2_1_003 start:
+tagetlogs are:[11741-16902]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:BASIC
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_5_0_2_1_003.py]
+
+OK
+
+consumed time: 99.2980000973 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_5_0_2_1_003.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_5_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.3280000687 s
+
+jacoco time: 0.851000070572 s
+
+covered targets are: [11741-16902]
+uncovered targets are: []
+target: 11741-16902 covered after retrial!
+interestcase 1_5_0_2_1_003 end
+
+index.6,  interestcase 0_2_1_003 start:
+tagetlogs are:[11744-16912]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:NONE
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_6_0_2_1_003.py]
+
+OK
+
+consumed time: 89.1119999886 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_6_0_2_1_003.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase1_6_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.1970000267 s
+
+jacoco time: 0.90499997139 s
+
+covered targets are: []
+uncovered targets are: [11744-16912]
+loclog: 11744-16912 uncovered after retrial, deleted!
+interestcase 1_6_0_2_1_003 end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 11743-16911 ,target branch is: 11743-16910
+interests are:
+retrofitLog      NONE    5     Logging
+discovered tags are : 1_5_0_2_1_003 1_6_0_2_1_003 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 2
+origin branch is: 11745-16915 ,target branch is: 11745-16914
+interests are:
+retrofitLog      NONE    5     Logging
+discovered tags are : 1_3_0_2_1_003 1_2_0_2_1_003 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 2
+origin branch is: 11746-16917 ,target branch is: 11746-16916
+interests are:
+retrofitLog      BASIC    5     Logging
+discovered tags are : 1_5_0_2_1_003 1_6_0_2_1_003 1_3_0_2_1_003 1_4_0_5_1_002 
+--------------------------------
+index.1,  interestcase 1_3_0_2_1_003 start:
+tagetlogs are:[11746-16916]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:BASIC
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_1_1_3_0_2_1_003.py]
+
+OK
+
+consumed time: 100.457999945 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_1_1_3_0_2_1_003.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_1_1_3_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.629999876 s
+
+jacoco time: 0.957000017166 s
+
+covered targets are: []
+uncovered targets are: [11746-16916]
+loclog: 11746-16916 uncovered after retrial, deleted!
+interestcase 2_1_1_3_0_2_1_003 end
+
+index.2,  interestcase 1_6_0_2_1_003 start:
+tagetlogs are:[11743-16910]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:NONE
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_2_1_6_0_2_1_003.py]
+
+OK
+
+consumed time: 89.0410001278 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_2_1_6_0_2_1_003.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_2_1_6_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.3280000687 s
+
+jacoco time: 0.866999864578 s
+
+covered targets are: []
+uncovered targets are: [11743-16910]
+loclog: 11743-16910 uncovered after retrial, deleted!
+interestcase 2_2_1_6_0_2_1_003 end
+
+index.3,  interestcase 1_2_0_2_1_003 start:
+tagetlogs are:[11745-16914]
+current preference, name:restbaseTicket, value:0
+current preference, name:retrofitLog, value:NONE
+current preference, name:channel, value:
+current preference, name:readingAppInstallID, value:
+current preference, name:multilingualSearchTutorialEnabled, value:1
+current preference, name:downloadOnlyOverWiFi, value:1
+current preference, name:showImages, value:0
+current preference, name:eventlogging_opt_in, value:0
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_3_1_2_0_2_1_003.py]
+
+OK
+
+consumed time: 91.6549999714 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_3_1_2_0_2_1_003.py", line 260, in <module>
+
+    element = getElememt(driver, "new UiSelector().resourceId(\"org.wikipedia:id/icon\").className(\"android.widget.ImageView\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\wikipedia\testcase\interestcases\testcase2_3_1_2_0_2_1_003.py", line 34, in getElememt
+
+    element = driver.find_element_by_android_uiautomator(str)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 17.620000124 s
+
+jacoco time: 0.914999961853 s
+
+covered targets are: []
+uncovered targets are: [11745-16914]
+loclog: 11745-16914 uncovered after retrial, deleted!
+interestcase 2_3_1_2_0_2_1_003 end
+

@@ -1,0 +1,10 @@
+org.connectbot.EditHostActivityTest checkFontSizeEntry
+org.connectbot.PubkeyListActivityTest generateRSAKey
+org.connectbot.StartupTest canToggleSoftKeyboardVisibility
+org.connectbot.StartupTest localConnectionDisconnectFromHostList
+org.connectbot.StartupTest localConnectionDisconnectConsoleActivity
+org.connectbot.StartupTest localConnectionCanDelete
+org.connectbot.StartupTest localConnectionCanChangeToRed
+org.connectbot.StartupTest canScrollTerminal
+org.connectbot.StartupTest addHostThenCancelAndDiscard
+org.connectbot.StartupTest addHostThenCancelAndKeepEditing

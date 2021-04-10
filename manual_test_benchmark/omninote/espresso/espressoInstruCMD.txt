@@ -1,0 +1,1 @@
+adb shell am instrument -w -r -e debug false -e class [name] it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner

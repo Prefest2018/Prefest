@@ -1,0 +1,740 @@
+MainActivityTest#testAddFeed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testAddFeed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testGoToPreferences
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesUnhideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideAllElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideCurrentElement
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorGoToPage
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorOpenDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDoubleTap
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorPrompt
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testGoToPreferences
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesUnhideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideAllElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideCurrentElement
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorGoToPage
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorOpenDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDoubleTap
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorPrompt
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testGoToPreferences
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesUnhideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideAllElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideCurrentElement
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorGoToPage
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorOpenDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDoubleTap
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorPrompt
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDefault
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinousPlaybackOffMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinuousPlaybackOnMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testReplayEpisodeContinuousPlaybackOn
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testReplayEpisodeContinuousPlaybackOff
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSwitchTheme
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSwitchThemeBack
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testEnablePersistentPlaybackControls
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetLockscreenButtons
+--------- beginning of main
+--------- beginning of system
+12-06 08:39:59.829  6957  6957 E WindowManager: 
+12-06 08:39:59.829  6957  6957 E WindowManager: android.view.WindowLeaked: Activity de.danoeh.antennapod.activity.PreferenceActivity has leaked window DecorView@b42f8ef[] that was originally added here
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.app.Dialog.show(Dialog.java:316)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.showNotificationButtonsDialog(PreferenceController.java:1120)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.lambda$setupInterfaceScreen$4$PreferenceController(PreferenceController.java:226)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController$$Lambda$4.onPreferenceClick(dalvik_source_antennapod.apk)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1117)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1100)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.support.v7.preference.Preference$1.onClick(Preference.java:170)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.view.View.performClick(View.java:5610)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.view.View$PerformClick.run(View.java:22265)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:39:59.829  6957  6957 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEnqueueAtFront
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testHeadPhonesDisconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testHeadPhonesReconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testBluetoothReconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testContinuousPlayback
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testAutoDelete
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testPlaybackSpeeds
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testPauseForInterruptions
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testDisableUpdateInterval
+--------- beginning of main
+--------- beginning of system
+12-06 08:41:07.644  7445  7445 E WindowManager: 
+12-06 08:41:07.644  7445  7445 E WindowManager: android.view.WindowLeaked: Activity de.danoeh.antennapod.activity.PreferenceActivity has leaked window DecorView@fbe019f[] that was originally added here
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.app.Dialog.show(Dialog.java:316)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at com.afollestad.materialdialogs.MaterialDialog.show(MaterialDialog.java:1438)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at com.afollestad.materialdialogs.MaterialDialog$Builder.show(MaterialDialog.java:1429)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.showUpdateIntervalTimePreferencesDialog(PreferenceController.java:1200)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.lambda$setupNetworkScreen$32$PreferenceController(PreferenceController.java:486)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController$$Lambda$29.onPreferenceClick(dalvik_source_antennapod.apk)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1117)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1100)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.support.v7.preference.Preference$1.onClick(Preference.java:170)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.view.View.performClick(View.java:5610)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.view.View$PerformClick.run(View.java:22265)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:41:07.644  7445  7445 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testSetUpdateInterval
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testMobileUpdates
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetSequentialDownload
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetParallelDownloads
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetParallelDownloadsInvalidInput
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCache
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCacheMin
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCacheMax
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: FATAL EXCEPTION: main
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 7902
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:41:58.780  7902  7902 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testAutomaticDownload
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testEpisodeCleanupQueueOnly
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: FATAL EXCEPTION: main
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 8013
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:42:07.394  8013  8013 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupNeverAlg
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: FATAL EXCEPTION: main
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 8066
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:42:11.706  8066  8066 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupClassic
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: FATAL EXCEPTION: main
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 8119
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-06 08:42:16.141  8119  8119 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupNumDays
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testRewindChange
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testFastForwardChange
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testBackButtonBehaviorGoToPageSelector
+--------- beginning of main
+--------- beginning of system
+VideoplayerActivityTest#testStartActivity
+--------- beginning of main
+--------- beginning of system
+12-06 08:43:10.260  1669  1690 E WindowManager: Performed 6 layouts in a row. Skipping
+MainActivityTest#testAddFeed
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testGoToPreferences
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testClickNavDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testGoToPreferences
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesUnhideSomeElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideAllElements
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testDrawerPreferencesHideCurrentElement
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorGoToPage
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorOpenDrawer
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDoubleTap
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorPrompt
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDefault
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDefault
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+MainActivityTest#testBackButtonBehaviorDefault
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinousPlaybackOffMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testContinuousPlaybackOnMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOn
+--------- beginning of main
+--------- beginning of system
+PlaybackSonicTest#testReplayEpisodeContinuousPlaybackOff
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testStartLocal
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinousPlaybackOffSingleEpisode
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinousPlaybackOffMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testContinuousPlaybackOnMultipleEpisodes
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testReplayEpisodeContinuousPlaybackOn
+--------- beginning of main
+--------- beginning of system
+PlaybackTest#testReplayEpisodeContinuousPlaybackOff
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSwitchTheme
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSwitchThemeBack
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testEnablePersistentPlaybackControls
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetLockscreenButtons
+--------- beginning of main
+--------- beginning of system
+12-15 13:39:12.277  3985  3985 E WindowManager: 
+12-15 13:39:12.277  3985  3985 E WindowManager: android.view.WindowLeaked: Activity de.danoeh.antennapod.activity.PreferenceActivity has leaked window DecorView@19988bc[] that was originally added here
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.app.Dialog.show(Dialog.java:316)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.showNotificationButtonsDialog(PreferenceController.java:1120)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.lambda$setupInterfaceScreen$4$PreferenceController(PreferenceController.java:226)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController$$Lambda$4.onPreferenceClick(dalvik_source_antennapod.apk)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1117)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1100)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.support.v7.preference.Preference$1.onClick(Preference.java:170)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.view.View.performClick(View.java:5610)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.view.View$PerformClick.run(View.java:22265)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:39:12.277  3985  3985 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEnqueueAtFront
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testHeadPhonesDisconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testHeadPhonesReconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testBluetoothReconnect
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testContinuousPlayback
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testAutoDelete
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testPlaybackSpeeds
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testPauseForInterruptions
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testDisableUpdateInterval
+--------- beginning of main
+--------- beginning of system
+12-15 13:40:23.798  4486  4486 E WindowManager: 
+12-15 13:40:23.798  4486  4486 E WindowManager: android.view.WindowLeaked: Activity de.danoeh.antennapod.activity.PreferenceActivity has leaked window DecorView@fe64bac[] that was originally added here
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.app.Dialog.show(Dialog.java:316)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at com.afollestad.materialdialogs.MaterialDialog.show(MaterialDialog.java:1438)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at com.afollestad.materialdialogs.MaterialDialog$Builder.show(MaterialDialog.java:1429)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.showUpdateIntervalTimePreferencesDialog(PreferenceController.java:1200)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController.lambda$setupNetworkScreen$32$PreferenceController(PreferenceController.java:486)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at de.danoeh.antennapod.preferences.PreferenceController$$Lambda$29.onPreferenceClick(dalvik_source_antennapod.apk)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1117)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.support.v7.preference.Preference.performClick(Preference.java:1100)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.support.v7.preference.Preference$1.onClick(Preference.java:170)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.view.View.performClick(View.java:5610)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.view.View$PerformClick.run(View.java:22265)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:40:23.798  4486  4486 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testSetUpdateInterval
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testMobileUpdates
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetSequentialDownload
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetParallelDownloads
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetParallelDownloadsInvalidInput
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCache
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCacheMin
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testSetEpisodeCacheMax
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: FATAL EXCEPTION: main
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 4956
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:42:11.256  4956  4956 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testAutomaticDownload
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testEpisodeCleanupQueueOnly
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: FATAL EXCEPTION: main
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 5072
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:42:36.338  5072  5072 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupNeverAlg
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: FATAL EXCEPTION: main
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 5128
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:42:40.738  5128  5128 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupClassic
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: FATAL EXCEPTION: main
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 5184
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: java.lang.NumberFormatException: For input string: "1 days after finishing"
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:521)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at java.lang.Integer.parseInt(Integer.java:556)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.buildEpisodeCleanupPreference(PreferenceController.java:842)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at de.danoeh.antennapod.preferences.PreferenceController.onCreate(PreferenceController.java:167)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreatePreferences(PreferenceActivity.java:153)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v7.preference.PreferenceFragmentCompat.onCreate(PreferenceFragmentCompat.java:224)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at de.danoeh.antennapod.activity.PreferenceActivity$MainFragment.onCreate(PreferenceActivity.java:142)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2331)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1386)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1188)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:1071)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:115)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2380)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:703)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-15 13:42:45.057  5184  5184 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+PreferencesTest#testEpisodeCleanupNumDays
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testRewindChange
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testFastForwardChange
+--------- beginning of main
+--------- beginning of system
+PreferencesTest#testBackButtonBehaviorGoToPageSelector
+--------- beginning of main
+--------- beginning of system
+VideoplayerActivityTest#testStartActivity
+--------- beginning of main
+--------- beginning of system

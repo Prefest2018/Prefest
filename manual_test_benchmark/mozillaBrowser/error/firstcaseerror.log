@@ -1,0 +1,360 @@
+FirstRunTest#threeDotFirstRunMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#settingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXATest
+--------- beginning of system
+--------- beginning of main
+SettingsViewTest#openFXAQrCodeTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#privacySettingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#setDefaultBrowserTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#remoteDebuggingViaUSB
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#tabTrayUITest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllTabsTest
+--------- beginning of main
+--------- beginning of system
+FirstRunTest#threeDotFirstRunMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#settingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXATest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXAQrCodeTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#privacySettingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#setDefaultBrowserTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#remoteDebuggingViaUSB
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#tabTrayUITest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeOneTabXButtonTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#privateRegularModeChangeTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#openNewTabTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#goBackFromTabTrayTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#threeDotMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#goForwardTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#refreshPageTest
+--------- beginning of main
+--------- beginning of system
+11-19 11:15:37.643 10457 10457 E WindowManager: 
+11-19 11:15:37.643 10457 10457 E WindowManager: android.view.WindowLeaked: Activity org.mozilla.reference.browser.BrowserActivity has leaked window androidx.appcompat.app.AppCompatDelegateImpl$ListMenuDecorView{90fd8f6 V.E...... ......I. 0,0-0,0} that was originally added here
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.openPanel(AppCompatDelegateImpl.java:1576)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUpPanel(AppCompatDelegateImpl.java:1895)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUp(AppCompatDelegateImpl.java:1331)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.dispatchKeyEvent(AppCompatDelegateImpl.java:1325)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback.dispatchKeyEvent(AppCompatDelegateImpl.java:2813)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:317)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4327)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4298)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3995)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4052)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4028)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4189)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2365)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1961)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1952)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2342)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.os.Looper.loop(Looper.java:136)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 11:15:37.643 10457 10457 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+ThreeDotMenuTest#doShareTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#findInPageTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#reportIssueTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#openSettingsTest
+--------- beginning of main
+--------- beginning of system
+FirstRunTest#threeDotFirstRunMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#settingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXATest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXAQrCodeTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#privacySettingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#setDefaultBrowserTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#remoteDebuggingViaUSB
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#tabTrayUITest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeOneTabXButtonTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#privateRegularModeChangeTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#openNewTabTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#goBackFromTabTrayTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#threeDotMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#goForwardTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#refreshPageTest
+--------- beginning of main
+--------- beginning of system
+11-19 13:14:14.915 24777 24777 E WindowManager: 
+11-19 13:14:14.915 24777 24777 E WindowManager: android.view.WindowLeaked: Activity org.mozilla.reference.browser.BrowserActivity has leaked window androidx.appcompat.app.AppCompatDelegateImpl$ListMenuDecorView{80a1488 V.E...... ......I. 0,0-0,0} that was originally added here
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.openPanel(AppCompatDelegateImpl.java:1576)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUpPanel(AppCompatDelegateImpl.java:1895)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUp(AppCompatDelegateImpl.java:1331)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.dispatchKeyEvent(AppCompatDelegateImpl.java:1325)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback.dispatchKeyEvent(AppCompatDelegateImpl.java:2813)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:317)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4327)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4298)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3995)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4052)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4028)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4189)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2365)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1961)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1952)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2342)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.os.Looper.loop(Looper.java:136)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+11-19 13:14:14.915 24777 24777 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+ThreeDotMenuTest#doShareTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#findInPageTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#reportIssueTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#openSettingsTest
+--------- beginning of main
+--------- beginning of system
+FirstRunTest#threeDotFirstRunMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: Process: org.mozilla.reference.browser, PID: 27583
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting!
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:272)
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:210)
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:358)
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.finish(AndroidJUnitRunner.java:408)
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:397)
+12-18 13:02:21.387 27583 27618 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+SettingsViewTest#settingsItemsTest
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: Process: org.mozilla.reference.browser, PID: 27736
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting!
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:272)
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:210)
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:358)
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.finish(AndroidJUnitRunner.java:408)
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:397)
+12-18 13:02:24.348 27736 27766 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1932)
+SettingsViewTest#openFXATest
+SettingsViewTest#settingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXATest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#openFXAQrCodeTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#privacySettingsItemsTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#setDefaultBrowserTest
+--------- beginning of main
+--------- beginning of system
+SettingsViewTest#remoteDebuggingViaUSB
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#tabTrayUITest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeAllPrivateTabsTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#closeOneTabXButtonTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#privateRegularModeChangeTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#openNewTabTest
+--------- beginning of main
+--------- beginning of system
+TabTrayMenuTest#goBackFromTabTrayTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#threeDotMenuItemsTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#goForwardTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#refreshPageTest
+--------- beginning of main
+--------- beginning of system
+12-18 13:06:23.701 31922 31922 E WindowManager: 
+12-18 13:06:23.701 31922 31922 E WindowManager: android.view.WindowLeaked: Activity org.mozilla.reference.browser.BrowserActivity has leaked window androidx.appcompat.app.AppCompatDelegateImpl$ListMenuDecorView{e8a621b V.E...... ......I. 0,0-0,0} that was originally added here
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:417)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:331)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.openPanel(AppCompatDelegateImpl.java:1576)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUpPanel(AppCompatDelegateImpl.java:1895)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.onKeyUp(AppCompatDelegateImpl.java:1331)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl.dispatchKeyEvent(AppCompatDelegateImpl.java:1325)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback.dispatchKeyEvent(AppCompatDelegateImpl.java:2813)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:317)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4327)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4298)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3995)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4052)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3876)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3849)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3902)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3868)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4028)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4189)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2365)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1961)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1952)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2342)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.os.Looper.loop(Looper.java:136)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+12-18 13:06:23.701 31922 31922 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+ThreeDotMenuTest#doShareTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#findInPageTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#reportIssueTest
+--------- beginning of main
+--------- beginning of system
+ThreeDotMenuTest#openSettingsTest
+--------- beginning of main
+--------- beginning of system

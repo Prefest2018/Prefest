@@ -1,0 +1,284 @@
+1_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(10743): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime(10743): Process: fr.neamar.kiss, PID: 10743
+
+E/AndroidRuntime(10743): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime(10743): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime(10743): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime(10743): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime(10743): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime(10743): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime(10743): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(10743): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.searcher.QuerySearcher.getMaxResultCount(QuerySearcher.java:41)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.searcher.Searcher.addResult(Searcher.java:58)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.searcher.QuerySearcher.addResult(QuerySearcher.java:57)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.dataprovider.AppProvider.requestResults(AppProvider.java:166)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.DataHandler.requestResults(DataHandler.java:277)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:77)
+
+E/AndroidRuntime(10743): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:20)
+
+E/AndroidRuntime(10743): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime(10743): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime(10743): 	... 3 more
+
+2_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(11859): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime(11859): Process: fr.neamar.kiss, PID: 11859
+
+E/AndroidRuntime(11859): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime(11859): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime(11859): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime(11859): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime(11859): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime(11859): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime(11859): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(11859): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.searcher.QuerySearcher.getMaxResultCount(QuerySearcher.java:41)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.searcher.Searcher.addResult(Searcher.java:58)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.searcher.QuerySearcher.addResult(QuerySearcher.java:57)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.dataprovider.AppProvider.requestResults(AppProvider.java:166)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.DataHandler.requestResults(DataHandler.java:277)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:77)
+
+E/AndroidRuntime(11859): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:20)
+
+E/AndroidRuntime(11859): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime(11859): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime(11859): 	... 3 more
+
+E/AndroidRuntime(11910): FATAL EXCEPTION: main
+
+E/AndroidRuntime(11910): Process: com.android.quicksearchbox, PID: 11910
+
+E/AndroidRuntime(11910): java.lang.RuntimeException: Unable to stop activity {com.android.quicksearchbox/com.android.quicksearchbox.SearchActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3188)
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3234)
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+
+E/AndroidRuntime(11910): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(11910): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(11910): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(11910): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(11910): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(11910): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(11910): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(11910): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(11910): 	at com.android.quicksearchbox.SearchActivity.getCurrentSuggestions(SearchActivity.java:370)
+
+E/AndroidRuntime(11910): 	at com.android.quicksearchbox.SearchActivity.onStop(SearchActivity.java:267)
+
+E/AndroidRuntime(11910): 	at android.app.Instrumentation.callActivityOnStop(Instrumentation.java:1212)
+
+E/AndroidRuntime(11910): 	at android.app.Activity.performStop(Activity.java:5376)
+
+E/AndroidRuntime(11910): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3185)
+
+E/AndroidRuntime(11910): 	... 11 more
+
+2_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_6_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_2_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_2_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_11_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(14285): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime(14285): Process: fr.neamar.kiss, PID: 14285
+
+E/AndroidRuntime(14285): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime(14285): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime(14285): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime(14285): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime(14285): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime(14285): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime(14285): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(14285): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.searcher.QuerySearcher.getMaxResultCount(QuerySearcher.java:41)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.searcher.Searcher.addResult(Searcher.java:58)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.searcher.QuerySearcher.addResult(QuerySearcher.java:57)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.dataprovider.AppProvider.requestResults(AppProvider.java:166)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.DataHandler.requestResults(DataHandler.java:277)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:77)
+
+E/AndroidRuntime(14285): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:20)
+
+E/AndroidRuntime(14285): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime(14285): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime(14285): 	... 3 more
+
+7_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_1_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_12_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_6_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_6_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_1_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_7_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

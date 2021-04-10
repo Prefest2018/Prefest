@@ -1,0 +1,1 @@
+adb shell CLASSPATH=$(pm path androidx.test.services) app_process / androidx.test.services.shellexecutor.ShellMain am instrument -r -w -e targetInstrumentation org.totschnig.myexpenses.fortest.test/org.totschnig.myexpenses.MyTestRunner    -e debug false -e class [name] androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator

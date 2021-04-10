@@ -1,0 +1,1385 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1547-2679 ,target branch is: 1547-2680
+interests are:
+pref-hide-circle      1    31     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 582-971 ,target branch is: 582-970
+interests are:
+pref-hide-navbar      1    29     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1736-3017 ,target branch is: 1736-3018
+interests are:
+black-notification-icons      1    18     Colors
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1546-2677 ,target branch is: 1546-2678
+interests are:
+history-hide      1    26     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 1534-2662 ,target branch is: 1534-2663
+interests are:
+display-keyboard      1    25     Keyboard options
+discovered tags are : MainActivityTest#testKissBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 1667-2891 ,target branch is: 1667-2892
+interests are:
+pref-rounded-list      1    22     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 1732-3010 ,target branch is: 1732-3009
+interests are:
+transparent-favorites      0    20     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1556-2692 ,target branch is: 1556-2693
+interests are:
+display-keyboard      1    25     Keyboard options
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 379-630 ,target branch is: 379-629
+interests are:
+enable-phone-history      1    5     Alternate history inputs
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 556-931 ,target branch is: 556-932
+interests are:
+pref-hide-navbar      1    29     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 949-1650 ,target branch is: 949-1651
+interests are:
+exclude-favorites      1    12     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 572-951 ,target branch is: 572-983
+interests are:
+history-mode      Accessed frequently recently    3     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 590-984 ,target branch is: 590-985
+interests are:
+history-mode      Accessed frequently    3     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 1545-2676 ,target branch is: 1545-2675
+interests are:
+display-keyboard      1    25     Keyboard options
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 970-1700 ,target branch is: 970-1701
+interests are:
+tags-visible      0    33     Misc
+discovered tags are : FavoritesTest#testExternalBarHiddenWhenViewingAllApps MainActivityTest#testKissBarDisplayed FavoritesTest#testInternalBarDisplayedWhenViewingAllApps 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2703 ,target branch is: 1564-2708
+interests are:
+theme      Dark semi-transparent theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 971-1702 ,target branch is: 971-1703
+interests are:
+icons-hide      1    34     Misc
+discovered tags are : MainActivityTest#testKissBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps MainActivityTest#testKissBarDisplayed FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testCanTypeTextIntoSearchBox FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2703 ,target branch is: 1564-2705
+interests are:
+theme      Dark transparent theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 580-966 ,target branch is: 580-967
+interests are:
+pref-hide-statusbar      1    30     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2703 ,target branch is: 1564-2704
+interests are:
+theme      Semi-transparent theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 1591-2763 ,target branch is: 1591-2762
+interests are:
+theme      Light theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 1404-2433 ,target branch is: 1404-2432
+interests are:
+pref-tags-menu      1    42     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2703 ,target branch is: 1564-2707
+interests are:
+theme      AMOLED dark theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.23 Scene:
+discovered in ineration NO. 0
+origin branch is: 1806-3134 ,target branch is: 1806-3133
+interests are:
+large-search-bar      1    21     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.24 Scene:
+discovered in ineration NO. 0
+origin branch is: 1564-2703 ,target branch is: 1564-2706
+interests are:
+theme      Dark theme    14     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.25 Scene:
+discovered in ineration NO. 0
+origin branch is: 1733-3011 ,target branch is: 1733-3012
+interests are:
+transparent-search      1    19     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.26 Scene:
+discovered in ineration NO. 0
+origin branch is: 1649-2860 ,target branch is: 1649-2861
+interests are:
+pref-rounded-bars      0    23     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.27 Scene:
+discovered in ineration NO. 0
+origin branch is: 107-158_0 ,target branch is: 107-158_0
+interests are:
+number-of-display-elements      0    2     null
+discovered tags are : MainActivityTest#testBatterySettingAppears MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testSearchResultAppears FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testCanTypeTextIntoSearchBox 
+--------------------------------
+NO.28 Scene:
+discovered in ineration NO. 0
+origin branch is: 583-972 ,target branch is: 583-973
+interests are:
+pref-hide-statusbar      1    30     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.29 Scene:
+discovered in ineration NO. 0
+origin branch is: 1575-2729 ,target branch is: 1575-2728
+interests are:
+history-hide      1    26     Minimalistic UI
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.30 Scene:
+discovered in ineration NO. 0
+origin branch is: 1499-2592 ,target branch is: 1499-2593
+interests are:
+history-hide      1    26     Minimalistic UI
+discovered tags are : MainActivityTest#testKissBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps MainActivityTest#testKissBarDisplayed FavoritesTest#testInternalBarDisplayedWhenViewingAllApps FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.31 Scene:
+discovered in ineration NO. 0
+origin branch is: 1353-2356 ,target branch is: 1353-2355
+interests are:
+force-portrait      1    32     Misc
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+NO.32 Scene:
+discovered in ineration NO. 0
+origin branch is: 962_1 ,target branch is: 962_1
+interests are:
+number-of-display-elements      0    2     null
+discovered tags are : MainActivityTest#testMenuAndClearButtonsDisplayed MainActivityTest#testKissBarHidden MainActivityTest#testKissBarDisplayed FavoritesTest#testExternalBarDisplayed MainActivityTest#testHintDisplayed MainActivityTest#testCanTypeTextIntoSearchBox MainActivityTest#testBatterySettingAppears MainActivityTest#testSearchResultAppears FavoritesTest#testInternalBarHidden FavoritesTest#testExternalBarHiddenWhenViewingAllApps FavoritesTest#testExternalBarHiddenOnSearch FavoritesTest#testInternalBarHiddenOnSearch FavoritesTest#testInternalBarDisplayedWhenViewingAllApps MainActivityTest#testKissBarEmptiesSearch MainActivityTest#testSearchBoxTrimming FavoritesTest#testInternalBarHiddenWhenViewingAllAppsWithExternalModeOn 
+--------------------------------
+index.1,  interestcase FavoritesTest#testExternalBarHiddenWhenViewingAllApps start:
+tagetlogs are:[1564-2705, 1547-2680, 1575-2728, 1736-3018, 556-932, 1404-2432, 1499-2593, 949-1651, 970-1701, 1732-3009, 1733-3012, 962_1, 590-985, 1546-2678, 1806-3133, 583-973, 580-967, 1534-2663, 971-1703, 1667-2892, 1545-2675, 379-629, 1649-2861, 1353-2355, 582-970, 1556-2693]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Dark transparent theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:transparent-favorites, value:0
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:display-keyboard, value:1
+current preference, name:history-hide, value:1
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-statusbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+current preference, name:pref-tags-menu, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps.py]
+
+OK
+
+consumed time: 60.702961444854736 s
+
+jacoco time: 3.0027172565460205 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testExternalBarHiddenWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.723
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1564-2705, 1575-2728, 1404-2432, 1499-2593, 1732-3009, 1546-2678, 583-973, 580-967, 1534-2663, 1545-2675, 1556-2693]
+uncovered targets are: [1547-2680, 1736-3018, 556-932, 949-1651, 970-1701, 1733-3012, 962_1, 590-985, 1806-3133, 971-1703, 1667-2892, 379-629, 1649-2861, 1353-2355, 582-970]
+interestcase 0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps end
+
+index.2,  interestcase FavoritesTest#testInternalBarDisplayedWhenViewingAllApps start:
+tagetlogs are:[1564-2704, 1547-2680, 1736-3018, 556-932, 949-1651, 970-1701, 1733-3012, 962_1, 590-985, 1806-3133, 971-1703, 1667-2892, 379-629, 1649-2861, 1353-2355, 582-970]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Semi-transparent theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps.py]
+
+OK
+
+consumed time: 44.09319591522217 s
+
+jacoco time: 3.003098964691162 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarDisplayedWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.72
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1564-2704, 1547-2680, 556-932, 949-1651, 970-1701, 1733-3012, 962_1, 590-985, 971-1703, 1667-2892, 379-629, 1649-2861, 1353-2355, 582-970]
+uncovered targets are: [1736-3018, 1806-3133]
+interestcase 0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps end
+
+index.3,  interestcase FavoritesTest#testInternalBarHiddenOnSearch start:
+tagetlogs are:[1564-2707, 1736-3018, 1806-3133, 572-983, 107-158_0]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently recently
+current preference, name:theme, value:AMOLED dark theme
+current preference, name:black-notification-icons, value:1
+current preference, name:large-search-bar, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_3_FavoritesTest#testInternalBarHiddenOnSearch.py]
+
+OK
+
+consumed time: 21.530372858047485 s
+
+jacoco time: 3.0023868083953857 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarHiddenOnSearch', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.614
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1564-2707, 1736-3018, 1806-3133, 572-983, 107-158_0]
+uncovered targets are: []
+interestcase 0_3_FavoritesTest#testInternalBarHiddenOnSearch end
+
+index.4,  interestcase MainActivityTest#testSearchBoxTrimming start:
+tagetlogs are:[1564-2706]
+current preference, name:theme, value:Dark theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_4_MainActivityTest#testSearchBoxTrimming.py]
+
+OK
+
+consumed time: 15.493780612945557 s
+
+jacoco time: 3.0025463104248047 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.MainActivityTest#testSearchBoxTrimming', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSearchBoxTrimming
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSearchBoxTrimming
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.188
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1564-2706]
+uncovered targets are: []
+interestcase 0_4_MainActivityTest#testSearchBoxTrimming end
+
+index.5,  interestcase FavoritesTest#testInternalBarHidden start:
+tagetlogs are:[1564-2708]
+current preference, name:theme, value:Dark semi-transparent theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_5_FavoritesTest#testInternalBarHidden.py]
+
+OK
+
+consumed time: 14.483349323272705 s
+
+jacoco time: 3.001985549926758 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarHidden', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHidden
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHidden
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.127
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1564-2708]
+uncovered targets are: []
+interestcase 0_5_FavoritesTest#testInternalBarHidden end
+
+index.6,  interestcase MainActivityTest#testBatterySettingAppears start:
+tagetlogs are:[1591-2762]
+current preference, name:theme, value:Light theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_6_MainActivityTest#testBatterySettingAppears.py]
+
+OK
+
+consumed time: 14.547548294067383 s
+
+jacoco time: 3.002152442932129 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.MainActivityTest#testBatterySettingAppears', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBatterySettingAppears
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBatterySettingAppears
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.879
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1591-2762]
+target: 1591-2762 uncovered, added to then retrial list!
+interestcase 0_6_MainActivityTest#testBatterySettingAppears end
+
+index.7,  interestcase MainActivityTest#testBatterySettingAppears start:
+tagetlogs are:[1591-2762]
+current preference, name:theme, value:Transparent theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase0_7_MainActivityTest#testBatterySettingAppears.py]
+
+OK
+
+consumed time: 15.376429796218872 s
+
+jacoco time: 3.0026769638061523 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.MainActivityTest#testBatterySettingAppears', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBatterySettingAppears
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testBatterySettingAppears
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.516
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1591-2762]
+loclog: 1591-2762 uncovered after retrial, deleted!
+interestcase 0_7_MainActivityTest#testBatterySettingAppears end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 1568-2717 ,target branch is: 1568-2716
+interests are:
+theme      Light theme    14     null
+discovered tags are : 0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 1500-2594 ,target branch is: 1500-2622
+interests are:
+favorites-hide      1    28     Minimalistic UI
+history-hide      1    26     Minimalistic UI
+discovered tags are : 0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 591-987 ,target branch is: 591-986
+interests are:
+history-mode      Accessed recently first    3     null
+discovered tags are : 0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 1566-2713 ,target branch is: 1566-2712
+interests are:
+theme      Light theme    14     null
+discovered tags are : 0_3_FavoritesTest#testInternalBarHiddenOnSearch 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 1567-2715 ,target branch is: 1567-2714
+interests are:
+theme      Light theme    14     null
+discovered tags are : 0_4_MainActivityTest#testSearchBoxTrimming 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 1565-2711 ,target branch is: 1565-2710
+interests are:
+theme      Light theme    14     null
+discovered tags are : 0_5_FavoritesTest#testInternalBarHidden 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 592-989 ,target branch is: 592-988
+interests are:
+history-mode      Accessed recently first    3     null
+discovered tags are : 0_3_FavoritesTest#testInternalBarHiddenOnSearch 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 1
+origin branch is: 1582-2740 ,target branch is: 1582-2739
+interests are:
+theme      Light theme    14     null
+discovered tags are : 0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps 
+--------------------------------
+index.1,  interestcase 0_3_FavoritesTest#testInternalBarHiddenOnSearch start:
+tagetlogs are:[592-988]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed recently first
+current preference, name:theme, value:AMOLED dark theme
+current preference, name:black-notification-icons, value:1
+current preference, name:large-search-bar, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_1_0_3_FavoritesTest#testInternalBarHiddenOnSearch.py]
+
+OK
+
+consumed time: 26.222138166427612 s
+
+jacoco time: 3.001906394958496 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarHiddenOnSearch', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.58
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [592-988]
+loclog: 592-988 uncovered after retrial, deleted!
+interestcase 1_1_0_3_FavoritesTest#testInternalBarHiddenOnSearch end
+
+index.2,  interestcase 0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps start:
+tagetlogs are:[1568-2716]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Light theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:transparent-favorites, value:0
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:display-keyboard, value:1
+current preference, name:history-hide, value:1
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-statusbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+current preference, name:pref-tags-menu, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_2_0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps.py]
+
+OK
+
+consumed time: 50.39435863494873 s
+
+jacoco time: 3.0023624897003174 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testExternalBarHiddenWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.72
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1568-2716]
+loclog: 1568-2716 uncovered after retrial, deleted!
+interestcase 1_2_0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps end
+
+index.3,  interestcase 0_5_FavoritesTest#testInternalBarHidden start:
+tagetlogs are:[1565-2710]
+current preference, name:theme, value:Light theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_3_0_5_FavoritesTest#testInternalBarHidden.py]
+
+OK
+
+consumed time: 15.58737564086914 s
+
+jacoco time: 3.002779245376587 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarHidden', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHidden
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHidden
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.086
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1565-2710]
+loclog: 1565-2710 uncovered after retrial, deleted!
+interestcase 1_3_0_5_FavoritesTest#testInternalBarHidden end
+
+index.4,  interestcase 0_4_MainActivityTest#testSearchBoxTrimming start:
+tagetlogs are:[1567-2714]
+current preference, name:theme, value:Light theme
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_4_0_4_MainActivityTest#testSearchBoxTrimming.py]
+
+OK
+
+consumed time: 14.530232429504395 s
+
+jacoco time: 3.0023794174194336 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.MainActivityTest#testSearchBoxTrimming', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.MainActivityTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSearchBoxTrimming
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testSearchBoxTrimming
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.MainActivityTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.289
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1567-2714]
+loclog: 1567-2714 uncovered after retrial, deleted!
+interestcase 1_4_0_4_MainActivityTest#testSearchBoxTrimming end
+
+index.5,  interestcase 0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps start:
+tagetlogs are:[1582-2739]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Light theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_5_0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps.py]
+
+OK
+
+consumed time: 71.3397433757782 s
+
+jacoco time: 3.0037014484405518 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarDisplayedWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.606
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1582-2739]
+loclog: 1582-2739 uncovered after retrial, deleted!
+interestcase 1_5_0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps end
+
+index.6,  interestcase 0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps start:
+tagetlogs are:[591-986]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed recently first
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Semi-transparent theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_6_0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps.py]
+
+OK
+
+consumed time: 45.74553179740906 s
+
+jacoco time: 3.0029280185699463 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarDisplayedWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarDisplayedWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.449
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [591-986]
+loclog: 591-986 uncovered after retrial, deleted!
+interestcase 1_6_0_2_FavoritesTest#testInternalBarDisplayedWhenViewingAllApps end
+
+index.7,  interestcase 0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps start:
+tagetlogs are:[1500-2622]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently
+current preference, name:enable-phone-history, value:1
+current preference, name:exclude-favorites, value:1
+current preference, name:theme, value:Dark transparent theme
+current preference, name:black-notification-icons, value:1
+current preference, name:transparent-search, value:1
+current preference, name:transparent-favorites, value:0
+current preference, name:large-search-bar, value:1
+current preference, name:pref-rounded-list, value:1
+current preference, name:pref-rounded-bars, value:0
+current preference, name:display-keyboard, value:1
+current preference, name:history-hide, value:1
+current preference, name:favorites-hide, value:1
+current preference, name:pref-hide-navbar, value:1
+current preference, name:pref-hide-statusbar, value:1
+current preference, name:pref-hide-circle, value:1
+current preference, name:force-portrait, value:1
+current preference, name:tags-visible, value:0
+current preference, name:icons-hide, value:1
+current preference, name:pref-tags-menu, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_7_0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps.py]
+
+OK
+
+consumed time: 62.42423057556152 s
+
+jacoco time: 3.002718210220337 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testExternalBarHiddenWhenViewingAllApps', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testExternalBarHiddenWhenViewingAllApps
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.787
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1500-2622]
+loclog: 1500-2622 uncovered after retrial, deleted!
+interestcase 1_7_0_1_FavoritesTest#testExternalBarHiddenWhenViewingAllApps end
+
+index.8,  interestcase 0_3_FavoritesTest#testInternalBarHiddenOnSearch start:
+tagetlogs are:[1566-2712]
+current preference, name:number-of-display-elements, value:0
+current preference, name:history-mode, value:Accessed frequently recently
+current preference, name:theme, value:Light theme
+current preference, name:black-notification-icons, value:1
+current preference, name:large-search-bar, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\KISS\testcase\interestcases\testcase1_8_0_3_FavoritesTest#testInternalBarHiddenOnSearch.py]
+
+OK
+
+consumed time: 21.672971725463867 s
+
+jacoco time: 3.002742290496826 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, am, instrument, -w, -r, -e, debug, false, -e, class, 'fr.neamar.kiss.androidTest.FavoritesTest#testInternalBarHiddenOnSearch', fr.neamar.kiss.test/androidx.test.runner.AndroidJUnitRunner]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+fr.neamar.kiss.androidTest.FavoritesTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testInternalBarHiddenOnSearch
+
+INSTRUMENTATION_STATUS: class=fr.neamar.kiss.androidTest.FavoritesTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.677
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1566-2712]
+loclog: 1566-2712 uncovered after retrial, deleted!
+interestcase 1_8_0_3_FavoritesTest#testInternalBarHiddenOnSearch end
+

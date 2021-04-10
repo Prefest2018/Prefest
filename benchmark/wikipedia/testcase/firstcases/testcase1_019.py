@@ -1,6 +1,5 @@
 #coding=utf-8
 import os
-import subprocess
 import time
 import traceback
 from appium import webdriver
@@ -17,11 +16,6 @@ desired_caps = {
 	'noReset' : True
 	}
 
-def command(cmd, timeout=5):
-	p = subprocess.Popen(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE, shell=True)
-	time.sleep(timeout)
-	p.terminate()
-	return
 def getElememt(driver, str) :
 	for i in range(0, 5, 1):
 		try:
@@ -120,7 +114,7 @@ finally:
 	cpackage = driver.current_package
 	endtime = time.time()
 	print 'consumed time:', str(endtime - starttime), 's'
-	command("adb shell am broadcast -a com.example.pkg.END_EMMA --es name \"1_019\"")
+	os.popen("adb shell am broadcast -a com.example.pkg.END_EMMA --es name \"1_019\"")
 	jacocotime = time.time()
 	print 'jacoco time:', str(jacocotime - endtime), 's'
 	driver.quit()

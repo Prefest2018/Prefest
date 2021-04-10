@@ -1,0 +1,3048 @@
+1_2_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 2630): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 2630): Process: fr.neamar.kiss, PID: 2630
+
+E/AndroidRuntime( 2630): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 2630): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 2630): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 2630): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 2630): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 2630): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 2630): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 2630): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 2630): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 2630): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 2630): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 2630): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 2630): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 2630): 	... 3 more
+
+E/AndroidRuntime( 2779): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 2779): Process: fr.neamar.kiss, PID: 2779
+
+E/AndroidRuntime( 2779): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 2779): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 2779): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 2779): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 2779): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 2779): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 2779): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 2779): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 2779): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 2779): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 2779): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 2779): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 2779): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 2779): 	... 3 more
+
+E/AndroidRuntime( 2823): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 2823): Process: fr.neamar.kiss, PID: 2823
+
+E/AndroidRuntime( 2823): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 2823): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 2823): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 2823): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 2823): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 2823): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 2823): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 2823): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 2823): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 2823): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 2823): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 2823): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 2823): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 2823): 	... 3 more
+
+2_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 2983): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 2983): Process: fr.neamar.kiss, PID: 2983
+
+E/AndroidRuntime( 2983): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 2983): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 2983): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 2983): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 2983): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 2983): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 2983): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 2983): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 2983): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 2983): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 2983): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 2983): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 2983): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 2983): 	... 3 more
+
+E/AndroidRuntime( 3027): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3027): Process: fr.neamar.kiss, PID: 3027
+
+E/AndroidRuntime( 3027): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3027): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3027): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3027): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3027): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3027): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3027): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3027): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3027): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3027): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3027): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3027): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3027): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3027): 	... 3 more
+
+3_2_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3197): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3197): Process: fr.neamar.kiss, PID: 3197
+
+E/AndroidRuntime( 3197): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3197): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3197): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3197): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3197): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3197): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3197): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3197): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3197): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3197): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3197): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3197): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3197): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3197): 	... 3 more
+
+E/AndroidRuntime( 3241): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3241): Process: fr.neamar.kiss, PID: 3241
+
+E/AndroidRuntime( 3241): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3241): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3241): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3241): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3241): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3241): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3241): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3241): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3241): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3241): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3241): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3241): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3241): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3241): 	... 3 more
+
+4_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3413): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3413): Process: fr.neamar.kiss, PID: 3413
+
+E/AndroidRuntime( 3413): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3413): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3413): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3413): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3413): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3413): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3413): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3413): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3413): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3413): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3413): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3413): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3413): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3413): 	... 3 more
+
+E/AndroidRuntime( 3452): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3452): Process: fr.neamar.kiss, PID: 3452
+
+E/AndroidRuntime( 3452): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3452): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3452): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3452): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3452): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3452): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3452): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3452): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3452): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3452): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3452): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3452): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3452): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3452): 	... 3 more
+
+5_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3625): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3625): Process: fr.neamar.kiss, PID: 3625
+
+E/AndroidRuntime( 3625): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3625): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3625): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3625): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3625): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3625): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3625): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3625): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3625): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3625): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3625): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3625): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3625): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3625): 	... 3 more
+
+E/AndroidRuntime( 3669): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3669): Process: fr.neamar.kiss, PID: 3669
+
+E/AndroidRuntime( 3669): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3669): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3669): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3669): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3669): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3669): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3669): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3669): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3669): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3669): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3669): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3669): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3669): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3669): 	... 3 more
+
+6_2_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3842): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3842): Process: fr.neamar.kiss, PID: 3842
+
+E/AndroidRuntime( 3842): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3842): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3842): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3842): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3842): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3842): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3842): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3842): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3842): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3842): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3842): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3842): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3842): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3842): 	... 3 more
+
+E/AndroidRuntime( 3886): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 3886): Process: fr.neamar.kiss, PID: 3886
+
+E/AndroidRuntime( 3886): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 3886): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 3886): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 3886): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 3886): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 3886): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 3886): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3886): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 3886): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 3886): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 3886): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 3886): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 3886): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 3886): 	... 3 more
+
+7_6_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4058): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4058): Process: fr.neamar.kiss, PID: 4058
+
+E/AndroidRuntime( 4058): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4058): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4058): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4058): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4058): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4058): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4058): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4058): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4058): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4058): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4058): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4058): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4058): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4058): 	... 3 more
+
+E/AndroidRuntime( 4101): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4101): Process: fr.neamar.kiss, PID: 4101
+
+E/AndroidRuntime( 4101): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4101): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4101): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4101): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4101): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4101): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4101): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4101): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4101): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4101): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4101): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4101): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4101): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4101): 	... 3 more
+
+8_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4272): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4272): Process: fr.neamar.kiss, PID: 4272
+
+E/AndroidRuntime( 4272): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4272): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4272): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4272): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4272): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4272): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4272): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4272): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4272): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4272): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4272): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4272): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4272): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4272): 	... 3 more
+
+E/AndroidRuntime( 4475): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4475): Process: fr.neamar.kiss, PID: 4475
+
+E/AndroidRuntime( 4475): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4475): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4475): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4475): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4475): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4475): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4475): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4475): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4475): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4475): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4475): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4475): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4475): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4475): 	... 3 more
+
+E/AndroidRuntime( 4518): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4518): Process: fr.neamar.kiss, PID: 4518
+
+E/AndroidRuntime( 4518): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4518): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4518): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4518): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4518): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4518): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4518): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4518): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4518): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4518): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4518): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4518): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4518): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4518): 	... 3 more
+
+9_3_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4678): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4678): Process: fr.neamar.kiss, PID: 4678
+
+E/AndroidRuntime( 4678): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4678): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4678): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4678): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4678): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4678): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4678): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4678): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4678): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4678): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4678): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4678): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4678): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4678): 	... 3 more
+
+E/AndroidRuntime( 4721): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4721): Process: fr.neamar.kiss, PID: 4721
+
+E/AndroidRuntime( 4721): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4721): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4721): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4721): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4721): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4721): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4721): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4721): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4721): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4721): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4721): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4721): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4721): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4721): 	... 3 more
+
+10_1_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 4892): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4892): Process: fr.neamar.kiss, PID: 4892
+
+E/AndroidRuntime( 4892): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4892): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4892): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4892): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4892): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4892): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4892): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4892): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4892): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4892): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4892): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4892): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4892): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4892): 	... 3 more
+
+E/AndroidRuntime( 4935): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 4935): Process: fr.neamar.kiss, PID: 4935
+
+E/AndroidRuntime( 4935): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 4935): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 4935): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 4935): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 4935): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 4935): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 4935): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 4935): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 4935): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 4935): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 4935): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 4935): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 4935): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 4935): 	... 3 more
+
+11_10_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5107): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5107): Process: fr.neamar.kiss, PID: 5107
+
+E/AndroidRuntime( 5107): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5107): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5107): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5107): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5107): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5107): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5107): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5107): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5107): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5107): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5107): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5107): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5107): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5107): 	... 3 more
+
+E/AndroidRuntime( 5150): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5150): Process: fr.neamar.kiss, PID: 5150
+
+E/AndroidRuntime( 5150): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5150): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5150): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5150): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5150): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5150): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5150): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5150): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5150): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5150): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5150): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5150): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5150): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5150): 	... 3 more
+
+12_8_002
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5317): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5317): Process: fr.neamar.kiss, PID: 5317
+
+E/AndroidRuntime( 5317): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5317): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5317): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5317): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5317): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5317): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5317): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5317): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5317): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5317): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5317): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5317): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5317): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5317): 	... 3 more
+
+E/AndroidRuntime( 5361): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5361): Process: fr.neamar.kiss, PID: 5361
+
+E/AndroidRuntime( 5361): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5361): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5361): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5361): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5361): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5361): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5361): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5361): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5361): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5361): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5361): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5361): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5361): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5361): 	... 3 more
+
+13_7_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5532): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5532): Process: fr.neamar.kiss, PID: 5532
+
+E/AndroidRuntime( 5532): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5532): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5532): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5532): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5532): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5532): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5532): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5532): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5532): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5532): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5532): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5532): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5532): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5532): 	... 3 more
+
+E/AndroidRuntime( 5575): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5575): Process: fr.neamar.kiss, PID: 5575
+
+E/AndroidRuntime( 5575): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5575): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5575): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5575): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5575): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5575): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5575): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5575): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5575): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5575): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5575): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5575): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5575): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5575): 	... 3 more
+
+14_11_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5747): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5747): Process: fr.neamar.kiss, PID: 5747
+
+E/AndroidRuntime( 5747): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5747): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5747): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5747): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5747): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5747): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5747): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5747): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5747): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5747): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5747): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5747): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5747): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5747): 	... 3 more
+
+E/AndroidRuntime( 5790): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5790): Process: fr.neamar.kiss, PID: 5790
+
+E/AndroidRuntime( 5790): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5790): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5790): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5790): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5790): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5790): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5790): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5790): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5790): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5790): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5790): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5790): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5790): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5790): 	... 3 more
+
+15_12_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 5960): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 5960): Process: fr.neamar.kiss, PID: 5960
+
+E/AndroidRuntime( 5960): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 5960): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 5960): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 5960): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 5960): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 5960): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 5960): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 5960): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 5960): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 5960): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 5960): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 5960): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 5960): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 5960): 	... 3 more
+
+E/AndroidRuntime( 6157): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6157): Process: fr.neamar.kiss, PID: 6157
+
+E/AndroidRuntime( 6157): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6157): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6157): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6157): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6157): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6157): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6157): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6157): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6157): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6157): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6157): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6157): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6157): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6157): 	... 3 more
+
+E/AndroidRuntime( 6196): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6196): Process: fr.neamar.kiss, PID: 6196
+
+E/AndroidRuntime( 6196): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6196): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6196): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6196): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6196): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6196): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6196): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6196): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6196): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6196): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6196): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6196): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6196): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6196): 	... 3 more
+
+16_7_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6356): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6356): Process: fr.neamar.kiss, PID: 6356
+
+E/AndroidRuntime( 6356): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6356): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6356): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6356): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6356): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6356): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6356): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6356): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6356): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6356): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6356): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6356): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6356): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6356): 	... 3 more
+
+E/AndroidRuntime( 6394): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6394): Process: fr.neamar.kiss, PID: 6394
+
+E/AndroidRuntime( 6394): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6394): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6394): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6394): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6394): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6394): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6394): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6394): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6394): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6394): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6394): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6394): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6394): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6394): 	... 3 more
+
+17_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6565): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6565): Process: fr.neamar.kiss, PID: 6565
+
+E/AndroidRuntime( 6565): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6565): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6565): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6565): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6565): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6565): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6565): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6565): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6565): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6565): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6565): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6565): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6565): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6565): 	... 3 more
+
+E/AndroidRuntime( 6610): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6610): Process: fr.neamar.kiss, PID: 6610
+
+E/AndroidRuntime( 6610): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6610): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6610): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6610): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6610): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6610): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6610): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6610): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6610): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6610): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6610): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6610): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6610): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6610): 	... 3 more
+
+18_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6781): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6781): Process: fr.neamar.kiss, PID: 6781
+
+E/AndroidRuntime( 6781): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6781): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6781): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6781): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6781): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6781): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6781): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6781): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6781): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6781): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6781): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6781): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6781): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6781): 	... 3 more
+
+E/AndroidRuntime( 6825): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6825): Process: fr.neamar.kiss, PID: 6825
+
+E/AndroidRuntime( 6825): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6825): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6825): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6825): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6825): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6825): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6825): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6825): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6825): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6825): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6825): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6825): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6825): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6825): 	... 3 more
+
+19_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 6996): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 6996): Process: fr.neamar.kiss, PID: 6996
+
+E/AndroidRuntime( 6996): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 6996): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 6996): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 6996): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 6996): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 6996): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 6996): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 6996): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 6996): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 6996): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 6996): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 6996): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 6996): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 6996): 	... 3 more
+
+E/AndroidRuntime( 7039): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7039): Process: fr.neamar.kiss, PID: 7039
+
+E/AndroidRuntime( 7039): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7039): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7039): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7039): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7039): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7039): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7039): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7039): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7039): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7039): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7039): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7039): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7039): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7039): 	... 3 more
+
+20_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 7210): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7210): Process: fr.neamar.kiss, PID: 7210
+
+E/AndroidRuntime( 7210): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7210): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7210): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7210): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7210): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7210): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7210): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7210): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7210): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7210): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7210): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7210): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7210): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7210): 	... 3 more
+
+E/AndroidRuntime( 7254): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7254): Process: fr.neamar.kiss, PID: 7254
+
+E/AndroidRuntime( 7254): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7254): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7254): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7254): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7254): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7254): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7254): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7254): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7254): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7254): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7254): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7254): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7254): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7254): 	... 3 more
+
+21_6_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 7424): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7424): Process: fr.neamar.kiss, PID: 7424
+
+E/AndroidRuntime( 7424): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7424): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7424): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7424): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7424): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7424): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7424): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7424): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7424): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7424): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7424): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7424): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7424): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7424): 	... 3 more
+
+E/AndroidRuntime( 7468): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7468): Process: fr.neamar.kiss, PID: 7468
+
+E/AndroidRuntime( 7468): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7468): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7468): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7468): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7468): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7468): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7468): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7468): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7468): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7468): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7468): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7468): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7468): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7468): 	... 3 more
+
+22_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 7634): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 7634): Process: fr.neamar.kiss, PID: 7634
+
+E/AndroidRuntime( 7634): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7634): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7634): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7634): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7634): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7634): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7634): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7634): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7634): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7634): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7634): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7634): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7634): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7634): 	... 3 more
+
+E/AndroidRuntime( 7833): FATAL EXCEPTION: pool-2-thread-1
+
+E/AndroidRuntime( 7833): Process: fr.neamar.kiss, PID: 7833
+
+E/AndroidRuntime( 7833): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 7833): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 7833): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 7833): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 7833): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 7833): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 7833): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 7833): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 7833): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 7833): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 7833): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 7833): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 7833): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 7833): 	... 3 more
+
+23_2_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 8062): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8062): Process: fr.neamar.kiss, PID: 8062
+
+E/AndroidRuntime( 8062): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8062): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8062): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8062): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8062): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8062): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8062): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8062): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8062): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8062): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8062): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8062): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8062): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8062): 	... 3 more
+
+E/AndroidRuntime( 8106): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8106): Process: fr.neamar.kiss, PID: 8106
+
+E/AndroidRuntime( 8106): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8106): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8106): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8106): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8106): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8106): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8106): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8106): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8106): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8106): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8106): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8106): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8106): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8106): 	... 3 more
+
+24_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 8281): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8281): Process: fr.neamar.kiss, PID: 8281
+
+E/AndroidRuntime( 8281): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8281): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8281): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8281): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8281): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8281): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8281): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8281): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8281): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8281): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8281): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8281): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8281): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8281): 	... 3 more
+
+E/AndroidRuntime( 8325): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8325): Process: fr.neamar.kiss, PID: 8325
+
+E/AndroidRuntime( 8325): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8325): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8325): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8325): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8325): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8325): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8325): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8325): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8325): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8325): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8325): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8325): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8325): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8325): 	... 3 more
+
+25_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 8498): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8498): Process: fr.neamar.kiss, PID: 8498
+
+E/AndroidRuntime( 8498): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8498): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8498): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8498): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8498): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8498): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8498): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8498): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8498): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8498): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8498): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8498): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8498): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8498): 	... 3 more
+
+E/AndroidRuntime( 8541): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8541): Process: fr.neamar.kiss, PID: 8541
+
+E/AndroidRuntime( 8541): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8541): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8541): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8541): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8541): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8541): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8541): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8541): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8541): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8541): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8541): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8541): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8541): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8541): 	... 3 more
+
+26_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 8713): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8713): Process: fr.neamar.kiss, PID: 8713
+
+E/AndroidRuntime( 8713): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8713): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8713): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8713): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8713): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8713): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8713): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8713): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8713): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8713): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8713): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8713): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8713): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8713): 	... 3 more
+
+E/AndroidRuntime( 8756): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8756): Process: fr.neamar.kiss, PID: 8756
+
+E/AndroidRuntime( 8756): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8756): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8756): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8756): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8756): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8756): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8756): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8756): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8756): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8756): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8756): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8756): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8756): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8756): 	... 3 more
+
+27_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 8927): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8927): Process: fr.neamar.kiss, PID: 8927
+
+E/AndroidRuntime( 8927): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8927): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8927): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8927): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8927): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8927): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8927): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8927): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8927): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8927): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8927): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8927): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8927): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8927): 	... 3 more
+
+E/AndroidRuntime( 8971): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 8971): Process: fr.neamar.kiss, PID: 8971
+
+E/AndroidRuntime( 8971): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 8971): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 8971): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 8971): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 8971): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 8971): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 8971): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 8971): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 8971): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 8971): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 8971): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 8971): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 8971): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 8971): 	... 3 more
+
+28_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 9142): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9142): Process: fr.neamar.kiss, PID: 9142
+
+E/AndroidRuntime( 9142): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9142): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9142): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9142): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9142): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9142): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9142): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9142): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9142): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9142): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9142): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9142): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9142): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9142): 	... 3 more
+
+E/AndroidRuntime( 9185): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9185): Process: fr.neamar.kiss, PID: 9185
+
+E/AndroidRuntime( 9185): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9185): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9185): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9185): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9185): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9185): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9185): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9185): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9185): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9185): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9185): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9185): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9185): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9185): 	... 3 more
+
+29_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 9357): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9357): Process: fr.neamar.kiss, PID: 9357
+
+E/AndroidRuntime( 9357): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9357): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9357): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9357): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9357): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9357): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9357): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9357): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9357): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9357): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9357): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9357): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9357): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9357): 	... 3 more
+
+E/AndroidRuntime( 9401): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9401): Process: fr.neamar.kiss, PID: 9401
+
+E/AndroidRuntime( 9401): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9401): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9401): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9401): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9401): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9401): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9401): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9401): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9401): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9401): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9401): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9401): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9401): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9401): 	... 3 more
+
+1_2_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 9580): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9580): Process: fr.neamar.kiss, PID: 9580
+
+E/AndroidRuntime( 9580): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9580): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9580): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9580): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9580): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9580): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9580): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9580): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9580): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9580): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9580): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9580): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9580): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9580): 	... 3 more
+
+E/AndroidRuntime( 9697): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9697): Process: fr.neamar.kiss, PID: 9697
+
+E/AndroidRuntime( 9697): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9697): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9697): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9697): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9697): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9697): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9697): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9697): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9697): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9697): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9697): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9697): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9697): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9697): 	... 3 more
+
+E/AndroidRuntime( 9846): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9846): Process: fr.neamar.kiss, PID: 9846
+
+E/AndroidRuntime( 9846): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9846): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9846): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9846): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9846): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9846): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9846): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9846): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9846): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9846): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9846): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9846): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9846): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9846): 	... 3 more
+
+E/AndroidRuntime( 9889): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime( 9889): Process: fr.neamar.kiss, PID: 9889
+
+E/AndroidRuntime( 9889): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime( 9889): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime( 9889): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime( 9889): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime( 9889): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime( 9889): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime( 9889): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 9889): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime( 9889): 	at fr.neamar.kiss.searcher.HistorySearcher.getMaxResultCount(HistorySearcher.java:28)
+
+E/AndroidRuntime( 9889): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:47)
+
+E/AndroidRuntime( 9889): 	at fr.neamar.kiss.searcher.HistorySearcher.doInBackground(HistorySearcher.java:16)
+
+E/AndroidRuntime( 9889): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime( 9889): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime( 9889): 	... 3 more
+
+2_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_2_028
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+4_6_011
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_2_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+6_2_004
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_11_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(12948): FATAL EXCEPTION: pool-1-thread-1
+
+E/AndroidRuntime(12948): Process: fr.neamar.kiss, PID: 12948
+
+E/AndroidRuntime(12948): java.lang.RuntimeException: An error occured while executing doInBackground()
+
+E/AndroidRuntime(12948): 	at android.os.AsyncTask$3.done(AsyncTask.java:300)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+E/AndroidRuntime(12948): 	at java.lang.Thread.run(Thread.java:841)
+
+E/AndroidRuntime(12948): Caused by: java.lang.NumberFormatException: Invalid double: ""
+
+E/AndroidRuntime(12948): 	at java.lang.StringToReal.invalidReal(StringToReal.java:63)
+
+E/AndroidRuntime(12948): 	at java.lang.StringToReal.parseDouble(StringToReal.java:248)
+
+E/AndroidRuntime(12948): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime(12948): 	at java.lang.Double.valueOf(Double.java:332)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.searcher.QuerySearcher.getMaxResultCount(QuerySearcher.java:41)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.searcher.Searcher.addResult(Searcher.java:58)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.searcher.QuerySearcher.addResult(QuerySearcher.java:57)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.dataprovider.AppProvider.requestResults(AppProvider.java:166)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.DataHandler.requestResults(DataHandler.java:277)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:77)
+
+E/AndroidRuntime(12948): 	at fr.neamar.kiss.searcher.QuerySearcher.doInBackground(QuerySearcher.java:20)
+
+E/AndroidRuntime(12948): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+E/AndroidRuntime(12948): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+E/AndroidRuntime(12948): 	... 3 more
+
+8_1_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_1_000
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_1_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_12_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_6_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_6_021
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_1_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_7_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_2_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+17_2_006
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+18_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+19_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+20_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+21_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+22_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+23_5_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+24_5_003
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+25_5_003
+--------- beginning of /dev/log/main
+

@@ -1,0 +1,1 @@
+adb shell am instrument -w -r -e debug false -e class [name] org.openhab.habdroid.test/androidx.test.runner.AndroidJUnitRunner

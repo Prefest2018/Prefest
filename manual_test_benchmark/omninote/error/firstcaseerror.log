@@ -1,0 +1,55 @@
+AutoBackupTest#autoBackupPreferenceActivation
+AutoBackupTest#autoBackupWithNotesCheck
+AutoBackupTest#everyUpdateToNotesShouldTriggerAutobackup
+CategoryLifecycleTest#addNewCategory
+AutoBackupTest#autoBackupWithNotesCheck
+--------- beginning of main
+--------- beginning of system
+AutoBackupTest#everyUpdateToNotesShouldTriggerAutobackup
+--------- beginning of main
+--------- beginning of system
+CategoryLifecycleTest#addNewCategory
+--------- beginning of main
+--------- beginning of system
+AutoBackupTest#autoBackupWithNotesCheck
+--------- beginning of main
+--------- beginning of system
+AutoBackupTest#everyUpdateToNotesShouldTriggerAutobackup
+--------- beginning of main
+--------- beginning of system
+CategoryLifecycleTest#addNewCategory
+--------- beginning of main
+--------- beginning of system
+CategoryLifecycleTest#checkCategoryCreation
+--------- beginning of main
+--------- beginning of system
+CategoryLifecycleTest#categoryColorChange
+--------- beginning of main
+--------- beginning of system
+CategoryLifecycleTest#categoryDeletion
+--------- beginning of main
+--------- beginning of system
+FabCameraNoteTest#fabCameraNoteTest
+--------- beginning of main
+--------- beginning of system
+FabLifecycleTest#fabOpenCloseTest
+--------- beginning of main
+--------- beginning of system
+FabLifecycleTest#fabActionsTest
+--------- beginning of main
+--------- beginning of system
+NoteListMenuTest#switchExpandedColapsedNoteLayoutTest
+--------- beginning of main
+--------- beginning of system
+RecurrenceRuleTest#recurrenceRuleTextHasValue
+--------- beginning of main
+--------- beginning of system
+RemindersLifecycleTest#remindersLifecycle
+--------- beginning of main
+--------- beginning of system
+SettingsActivityTest#settingsActivityTest
+--------- beginning of main
+--------- beginning of system
+SettingsActivityTest#settingsMenuItemsCheck
+--------- beginning of main
+--------- beginning of system

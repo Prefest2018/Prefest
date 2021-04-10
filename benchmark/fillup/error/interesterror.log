@@ -1,0 +1,269 @@
+0_1_5_013
+0_1_5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_15_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_16_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_17_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_18_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_19_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_20_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_21_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(11723): Performing stop of activity that is not resumed: {com.android.settings/com.android.settings.applications.InstalledAppDetails}
+
+E/ActivityThread(11723): java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.android.settings/com.android.settings.applications.InstalledAppDetails}
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3147)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3234)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+
+E/ActivityThread(11723): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(11723): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(11723): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(11723): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(11723): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(11723): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(11723): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_2_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/ActivityThread(11723): Performing stop of activity that is not resumed: {com.android.settings/com.android.settings.applications.InstalledAppDetails}
+
+E/ActivityThread(11723): java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.android.settings/com.android.settings.applications.InstalledAppDetails}
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3147)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3234)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+
+E/ActivityThread(11723): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/ActivityThread(11723): 	at android.os.Looper.loop(Looper.java:136)
+
+E/ActivityThread(11723): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/ActivityThread(11723): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread(11723): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/ActivityThread(11723): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/ActivityThread(11723): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/ActivityThread(11723): 	at dalvik.system.NativeStart.main(Native Method)
+
+0_3_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_1_5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_2_6_008
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_3_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_4_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_5_4_019
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_6_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_7_5_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_8_5_013
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_9_2_023
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_10_6_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_11_6_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_12_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_13_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+0_14_6_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+1_1_0_12_5_015
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+
+preference_pre_reverse
+preference_pre_reverse
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+preference_pre_default
+--------- beginning of /dev/log/main
+

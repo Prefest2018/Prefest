@@ -1,0 +1,302 @@
+1_7_016
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+2_9_007
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+3_10_001
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3274): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 3274): Process: cz.martykan.forecastie, PID: 3274
+
+E/AndroidRuntime( 3274): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 3274): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 3274): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 3274): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 3274): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 3274): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 3274): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 3274): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 3274): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 3274): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime( 3274): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime( 3274): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime( 3274): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 3274): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 3274): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 3274): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 3274): 	... 11 more
+
+4_8_012
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+5_8_022
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 3990): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 3990): Process: cz.martykan.forecastie, PID: 3990
+
+E/AndroidRuntime( 3990): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 3990): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 3990): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 3990): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 3990): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 3990): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 3990): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 3990): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 3990): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 3990): 	at java.lang.StringToReal.parseDouble(StringToReal.java:244)
+
+E/AndroidRuntime( 3990): 	at java.lang.Double.parseDouble(Double.java:295)
+
+E/AndroidRuntime( 3990): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:498)
+
+E/AndroidRuntime( 3990): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 3990): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 3990): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 3990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 3990): 	... 11 more
+
+6_5_024
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+7_10_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+8_10_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+9_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+10_5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+11_7_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+12_4_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+13_3_029
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+14_7_003
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+15_3_025
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+16_1_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+17_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+18_7_027
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime( 9169): FATAL EXCEPTION: main
+
+E/AndroidRuntime( 9169): Process: cz.martykan.forecastie, PID: 9169
+
+E/AndroidRuntime( 9169): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime( 9169): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime( 9169): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime( 9169): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime( 9169): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime( 9169): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime( 9169): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime( 9169): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime( 9169): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime( 9169): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime( 9169): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime( 9169): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime( 9169): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime( 9169): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime( 9169): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime( 9169): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime( 9169): 	... 11 more
+
+19_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+20_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+21_9_017
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+
+E/AndroidRuntime(10176): FATAL EXCEPTION: main
+
+E/AndroidRuntime(10176): Process: cz.martykan.forecastie, PID: 10176
+
+E/AndroidRuntime(10176): java.lang.RuntimeException: Unable to start activity ComponentInfo{cz.martykan.forecastie/cz.martykan.forecastie.activities.MainActivity}: java.lang.NullPointerException
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+E/AndroidRuntime(10176): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+E/AndroidRuntime(10176): 	at android.os.Looper.loop(Looper.java:136)
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+
+E/AndroidRuntime(10176): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/AndroidRuntime(10176): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+E/AndroidRuntime(10176): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+
+E/AndroidRuntime(10176): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+
+E/AndroidRuntime(10176): 	at dalvik.system.NativeStart.main(Native Method)
+
+E/AndroidRuntime(10176): Caused by: java.lang.NullPointerException
+
+E/AndroidRuntime(10176): 	at java.lang.StringToReal.parseFloat(StringToReal.java:285)
+
+E/AndroidRuntime(10176): 	at java.lang.Float.parseFloat(Float.java:300)
+
+E/AndroidRuntime(10176): 	at cz.martykan.forecastie.activities.MainActivity.updateTodayWeatherUI(MainActivity.java:492)
+
+E/AndroidRuntime(10176): 	at cz.martykan.forecastie.activities.MainActivity.onStart(MainActivity.java:183)
+
+E/AndroidRuntime(10176): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+
+E/AndroidRuntime(10176): 	at android.app.Activity.performStart(Activity.java:5241)
+
+E/AndroidRuntime(10176): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2168)
+
+E/AndroidRuntime(10176): 	... 11 more
+
+22_5_018
+--------- beginning of /dev/log/main
+
+--------- beginning of /dev/log/system
+

@@ -1,0 +1,45 @@
+{
+   "consteps":
+   {
+      "0":
+      {
+         "instance":-1,
+         "operationType":"click",
+         "text":"OK",
+         "type":"NORMAL"
+      }
+
+   },
+   "presteps":
+   {
+   },
+   "valuestepmap":
+   {
+      "null":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "type":"NORMAL",
+            "text":"None",
+         }
+
+      },
+      "content://settings/system/notification_sound":
+      {
+         "0":
+         {
+            "instance":-1,
+            "operationType":"click",
+            "text":"Default notification sound",
+            "type":"NORMAL"
+         }
+
+      }
+
+   },
+   "type":"STRING",
+   "adapted":true,
+   "key":"pref_key_ringtone"
+}

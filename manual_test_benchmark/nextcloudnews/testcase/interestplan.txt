@@ -1,0 +1,1358 @@
+This exploration took time: 120s
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 2917-4619 ,target branch is: 2917-4620
+interests are:
+cb_NavigateWithVolumeButtons      1    18     General
+discovered tags are : NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1130-1723 ,target branch is: 1130-1724
+interests are:
+cb_ShowOnlyUnread      1    17     General
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NightModeTest#testBackgroundDaylightTheme ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 3242-5067 ,target branch is: 3242-5068
+interests are:
+sp_app_theme      Light    10     Display
+discovered tags are : NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 1640-2545 ,target branch is: 1640-2546
+interests are:
+cb_AutoSyncOnStart      1    16     General
+discovered tags are : NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 2099-3319 ,target branch is: 2099-3318
+interests are:
+cb_ShowOnlyUnread      1    17     General
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 3232-5052 ,target branch is: 3232-5051
+interests are:
+sp_app_theme      Light    10     Display
+discovered tags are : NewsReaderListActivityUiTests#syncTest ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testSyncFinishedSnackbar_sameActivity NewFeedTests#addExistingFeed ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast NewFeedTests#addNewFeed NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NewFeedTests#addInvalidFeed NightModeTest#testBackgroundDaylightTheme 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 2822-4465 ,target branch is: 2822-4464
+interests are:
+sp_sort_order      Old -> New    23     General
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testSyncFinishedSnackbar_sameActivity NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NightModeTest#testBackgroundDaylightTheme ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1538-2359 ,target branch is: 1538-2358
+interests are:
+cb_openInBrowserDirectly      1    20     General
+discovered tags are : NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity ScreenshotTest#testTakeScreenshots 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 3278-5125 ,target branch is: 3278-5124
+interests are:
+ass_mobiledata      0    -1     null
+discovered tags are : ScreenshotTest#testVideoPodcast 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1986-3127 ,target branch is: 1986-3128
+interests are:
+cb_ShowOnlyUnread      1    17     General
+discovered tags are : ScreenshotTest#testAudioPodcast ScreenshotTest#testVideoPodcast 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 2261-3638 ,target branch is: 2261-3639
+interests are:
+sp_search_in      Title    24     General
+discovered tags are : NewsReaderListActivityUiTests#searchTest 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 433-644 ,target branch is: 433-643
+interests are:
+sp_swipe_left_action      Open in Web browser    22     General
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testSyncFinishedSnackbar_sameActivity NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NightModeTest#testBackgroundDaylightTheme ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 579-879 ,target branch is: 579-878
+interests are:
+sp_feed_list_layout      Headlines    12     Display
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testSyncFinishedSnackbar_sameActivity NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NightModeTest#testBackgroundDaylightTheme ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 434-646 ,target branch is: 434-645
+interests are:
+sp_swipe_right_action      Open in Web browser    21     General
+discovered tags are : NewsReaderListActivityUiTests#syncTest NewsReaderListActivityUiTests#searchTest ScreenshotTest#testAudioPodcast NewsReaderListActivityUiTests#testPositionAfterOrientationChange_sameActivity ScreenshotTest#testVideoPodcast NewsReaderListActivityUiTests#testSyncFinishedSnackbar_sameActivity NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity NightModeTest#testBackgroundDaylightTheme ScreenshotTest#testTakeScreenshots NewsReaderListActivityUiTests#testSyncFinishedRefreshRecycler_sameActivity 
+--------------------------------
+index.1,  interestcase NewsReaderListActivityUiTests#searchTest start:
+tagetlogs are:[434-645, 2261-3639, 1130-1724, 433-643, 2099-3318, 3232-5051, 2822-4464, 579-878]
+current preference, name:sp_app_theme, value:Light
+current preference, name:sp_feed_list_layout, value:Headlines
+current preference, name:cb_ShowOnlyUnread, value:1
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:Old -> New
+current preference, name:sp_search_in, value:Title
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_1_NewsReaderListActivityUiTests#searchTest.py]
+
+OK
+
+consumed time: 33.013861417770386 s
+
+jacoco time: 3.0025196075439453 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 3.083
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1130-1724, 2099-3318, 3232-5051, 2822-4464, 579-878]
+uncovered targets are: [434-645, 2261-3639, 433-643]
+interestcase 0_1_NewsReaderListActivityUiTests#searchTest end
+
+index.2,  interestcase NewsReaderListActivityUiTests#searchTest start:
+tagetlogs are:[434-645, 2261-3639, 433-643]
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_search_in, value:Title
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_2_NewsReaderListActivityUiTests#searchTest.py]
+
+OK
+
+consumed time: 18.524406909942627 s
+
+jacoco time: 3.001544952392578 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in searchTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.058
+
+There was 1 failure:
+
+1) searchTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [434-645, 2261-3639, 433-643]
+target: 434-645 uncovered, added to then retrial list!
+target: 2261-3639 uncovered, added to then retrial list!
+target: 433-643 uncovered, added to then retrial list!
+interestcase 0_2_NewsReaderListActivityUiTests#searchTest end
+
+index.3,  interestcase ScreenshotTest#testVideoPodcast start:
+tagetlogs are:[1640-2546, 3242-5068, 1986-3128, 3278-5124]
+current preference, name:sp_app_theme, value:Light
+current preference, name:cb_AutoSyncOnStart, value:1
+current preference, name:cb_ShowOnlyUnread, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_3_ScreenshotTest#testVideoPodcast.py]
+
+OK
+
+consumed time: 32.73234987258911 s
+
+jacoco time: 3.002474069595337 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testVideoPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testVideoPodcast(screengrab.ScreenshotTest):
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.094
+
+There was 1 failure:
+
+1) testVideoPodcast(screengrab.ScreenshotTest)
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1640-2546, 3242-5068]
+uncovered targets are: [1986-3128, 3278-5124]
+interestcase 0_3_ScreenshotTest#testVideoPodcast end
+
+index.4,  interestcase ScreenshotTest#testVideoPodcast start:
+tagetlogs are:[1986-3128, 3278-5124]
+current preference, name:cb_ShowOnlyUnread, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_4_ScreenshotTest#testVideoPodcast.py]
+
+OK
+
+consumed time: 14.533328294754028 s
+
+jacoco time: 3.0018746852874756 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testVideoPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testVideoPodcast(screengrab.ScreenshotTest):
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.856
+
+There was 1 failure:
+
+1) testVideoPodcast(screengrab.ScreenshotTest)
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1986-3128, 3278-5124]
+target: 1986-3128 uncovered, added to then retrial list!
+target: 3278-5124 uncovered, added to then retrial list!
+interestcase 0_4_ScreenshotTest#testVideoPodcast end
+
+index.5,  interestcase NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity start:
+tagetlogs are:[1538-2358, 2917-4620]
+current preference, name:cb_NavigateWithVolumeButtons, value:1
+current preference, name:cb_openInBrowserDirectly, value:1
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_5_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.py]
+
+OK
+
+consumed time: 15.627840042114258 s
+
+jacoco time: 3.001059055328369 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.121
+
+There was 1 failure:
+
+1) testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1538-2358, 2917-4620]
+target: 1538-2358 uncovered, added to then retrial list!
+target: 2917-4620 uncovered, added to then retrial list!
+interestcase 0_5_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity end
+
+index.6,  interestcase NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity start:
+tagetlogs are:[2917-4620]
+current preference, name:cb_AutoSyncOnStart, value:0
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:cb_NavigateWithVolumeButtons, value:1
+current preference, name:cb_openInBrowserDirectly, value:0
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_6_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.py]
+
+OK
+
+consumed time: 20.541597366333008 s
+
+jacoco time: 3.0025618076324463 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.255
+
+There was 1 failure:
+
+1) testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2917-4620]
+loclog: 2917-4620 uncovered after retrial, deleted!
+interestcase 0_6_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity end
+
+index.7,  interestcase NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity start:
+tagetlogs are:[1538-2358]
+current preference, name:cb_AutoSyncOnStart, value:0
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:cb_openInBrowserDirectly, value:1
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.py]
+
+OK
+
+consumed time: 18.978436708450317 s
+
+jacoco time: 3.0010976791381836 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 6.96
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [1538-2358]
+loclog: 1538-2358 uncovered after retrial, deleted!
+interestcase 0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity end
+
+index.8,  interestcase ScreenshotTest#testVideoPodcast start:
+tagetlogs are:[3278-5124]
+current preference, name:cb_AutoSyncOnStart, value:0
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_8_ScreenshotTest#testVideoPodcast.py]
+
+OK
+
+consumed time: 17.783289432525635 s
+
+jacoco time: 3.001495361328125 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testVideoPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testVideoPodcast(screengrab.ScreenshotTest):
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 19.789
+
+There was 1 failure:
+
+1) testVideoPodcast(screengrab.ScreenshotTest)
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3278-5124]
+loclog: 3278-5124 uncovered after retrial, deleted!
+interestcase 0_8_ScreenshotTest#testVideoPodcast end
+
+index.9,  interestcase ScreenshotTest#testAudioPodcast start:
+tagetlogs are:[1986-3128]
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_9_ScreenshotTest#testAudioPodcast.py]
+
+OK
+
+consumed time: 16.306082725524902 s
+
+jacoco time: 3.001239538192749 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testAudioPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testAudioPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testAudioPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 14.824
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [1986-3128]
+uncovered targets are: []
+target: 1986-3128 covered after retrial!
+interestcase 0_9_ScreenshotTest#testAudioPodcast end
+
+index.10,  interestcase NewsReaderListActivityUiTests#syncTest start:
+tagetlogs are:[433-643]
+current preference, name:sp_swipe_left_action, value:Read
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_10_NewsReaderListActivityUiTests#syncTest.py]
+
+OK
+
+consumed time: 16.43742084503174 s
+
+jacoco time: 3.0020382404327393 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=syncTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in syncTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=syncTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.464
+
+There was 1 failure:
+
+1) syncTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [433-643]
+loclog: 433-643 uncovered after retrial, deleted!
+interestcase 0_10_NewsReaderListActivityUiTests#syncTest end
+
+index.11,  interestcase NewsReaderListActivityUiTests#searchTest start:
+tagetlogs are:[2261-3639]
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+current preference, name:sp_search_in, value:Title
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_11_NewsReaderListActivityUiTests#searchTest.py]
+
+OK
+
+consumed time: 20.33972144126892 s
+
+jacoco time: 3.001293659210205 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#searchTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=searchTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 5.895
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [2261-3639]
+loclog: 2261-3639 uncovered after retrial, deleted!
+interestcase 0_11_NewsReaderListActivityUiTests#searchTest end
+
+index.12,  interestcase NewsReaderListActivityUiTests#syncTest start:
+tagetlogs are:[434-645]
+current preference, name:sp_swipe_right_action, value:Starred
+current preference, name:sp_swipe_left_action, value:Read
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase0_12_NewsReaderListActivityUiTests#syncTest.py]
+
+OK
+
+consumed time: 14.62363076210022 s
+
+jacoco time: 3.002702474594116 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=syncTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in syncTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=syncTest
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.296
+
+There was 1 failure:
+
+1) syncTest(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#syncTest.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [434-645]
+loclog: 434-645 uncovered after retrial, deleted!
+interestcase 0_12_NewsReaderListActivityUiTests#syncTest end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 435-648 ,target branch is: 435-647
+interests are:
+sp_swipe_left_action      Open in Web browser    22     General
+discovered tags are : 0_8_ScreenshotTest#testVideoPodcast 0_2_NewsReaderListActivityUiTests#searchTest 0_11_NewsReaderListActivityUiTests#searchTest 0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity 0_6_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity 0_9_ScreenshotTest#testAudioPodcast 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 3233-5054 ,target branch is: 3233-5053
+interests are:
+sp_app_theme      Dark    10     Display
+discovered tags are : 0_3_ScreenshotTest#testVideoPodcast 
+--------------------------------
+index.1,  interestcase 0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity start:
+tagetlogs are:[435-647]
+current preference, name:cb_AutoSyncOnStart, value:0
+current preference, name:cb_ShowOnlyUnread, value:0
+current preference, name:cb_openInBrowserDirectly, value:1
+current preference, name:sp_swipe_right_action, value:Open in Web browser
+current preference, name:sp_swipe_left_action, value:Open in Web browser
+current preference, name:sp_sort_order, value:New -> Old
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase1_1_0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.py]
+
+OK
+
+consumed time: 19.198172330856323 s
+
+jacoco time: 3.0021443367004395 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests):
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testPositionAfterActivityRestart_sameActivity
+
+INSTRUMENTATION_STATUS: class=de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 2.205
+
+There was 1 failure:
+
+1) testPositionAfterActivityRestart_sameActivity(de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests)
+
+Test instrumentation process crashed. Check de.luhmer.owncloudnewsreader.tests.NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [435-647]
+loclog: 435-647 uncovered after retrial, deleted!
+interestcase 1_1_0_7_NewsReaderListActivityUiTests#testPositionAfterActivityRestart_sameActivity end
+
+index.2,  interestcase 0_3_ScreenshotTest#testVideoPodcast start:
+tagetlogs are:[3233-5053]
+current preference, name:sp_app_theme, value:Dark
+current preference, name:cb_AutoSyncOnStart, value:1
+current preference, name:cb_ShowOnlyUnread, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase1_2_0_3_ScreenshotTest#testVideoPodcast.py]
+
+OK
+
+consumed time: 33.83322548866272 s
+
+jacoco time: 3.00156569480896 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testVideoPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testVideoPodcast(screengrab.ScreenshotTest):
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 1.252
+
+There was 1 failure:
+
+1) testVideoPodcast(screengrab.ScreenshotTest)
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: [3233-5053]
+uncovered targets are: []
+target: 3233-5053 covered after retrial!
+interestcase 1_2_0_3_ScreenshotTest#testVideoPodcast end
+
+NO.0 Scene:
+discovered in ineration NO. 2
+origin branch is: 3234-5056 ,target branch is: 3234-5055
+interests are:
+sp_app_theme      Light    10     Display
+discovered tags are : 1_2_0_3_ScreenshotTest#testVideoPodcast 
+--------------------------------
+index.1,  interestcase 1_2_0_3_ScreenshotTest#testVideoPodcast start:
+tagetlogs are:[3234-5055]
+current preference, name:sp_app_theme, value:Light
+current preference, name:cb_AutoSyncOnStart, value:1
+current preference, name:cb_ShowOnlyUnread, value:1
+current systemservice, name: ass_mobiledata, value: 0
+cmd:[python, C:\Users\yifeilu\Documents\TestProjectHome_tosem\nextcloudnews\testcase\interestcases\testcase2_1_1_2_0_3_ScreenshotTest#testVideoPodcast.py]
+
+OK
+
+consumed time: 33.76228308677673 s
+
+jacoco time: 3.0029478073120117 s
+
+cmd:[adb, shell, /data/local/tmp/atx-agent, server, --stop]
+
+cmd:[adb, shell, CLASSPATH=$(pm path androidx.test.services), app_process, /, androidx.test.services.shellexecutor.ShellMain, am, instrument, -r, -w, -e, targetInstrumentation, de.luhmer.owncloudnewsreader.test/de.luhmer.owncloudnewsreader.CustomTestRunner, -e, debug, false, -e, class, 'screengrab.ScreenshotTest#testVideoPodcast', androidx.test.orchestrator/androidx.test.orchestrator.AndroidTestOrchestrator]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+screengrab.ScreenshotTest:
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testVideoPodcast(screengrab.ScreenshotTest):
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+
+INSTRUMENTATION_STATUS: test=testVideoPodcast
+
+INSTRUMENTATION_STATUS: class=screengrab.ScreenshotTest
+
+INSTRUMENTATION_STATUS: stack=Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_RESULT: stream=
+
+
+
+Time: 20.48
+
+There was 1 failure:
+
+1) testVideoPodcast(screengrab.ScreenshotTest)
+
+Test instrumentation process crashed. Check screengrab.ScreenshotTest#testVideoPodcast.txt for details
+
+
+
+FAILURES!!!
+
+Tests found: 1, Tests run: 1,  Failures: 1
+
+
+
+
+
+INSTRUMENTATION_CODE: -1
+
+covered targets are: []
+uncovered targets are: [3234-5055]
+loclog: 3234-5055 uncovered after retrial, deleted!
+interestcase 2_1_1_2_0_3_ScreenshotTest#testVideoPodcast end
+

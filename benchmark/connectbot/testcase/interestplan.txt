@@ -1,0 +1,617 @@
+This exploration took time: 19s
+current preference, name:memkeys, value:0
+current preference, name:connPersist, value:0
+current preference, name:wifilock, value:0
+current preference, name:backupkeys, value:1
+current preference, name:emulation, value:xterm-color
+current preference, name:rotation, value:Force portrait
+current preference, name:titlebarhide, value:1
+current preference, name:fullscreen, value:1
+current preference, name:pgupdngesture, value:1
+current preference, name:volumefont, value:0
+current preference, name:keepalive, value:0
+current preference, name:alwaysvisible, value:1
+current preference, name:shiftfkeys, value:1
+current preference, name:ctrlfkeys, value:1
+current preference, name:stickymodifiers, value:Yes
+current preference, name:keymode, value:Use left-side keys
+current preference, name:camera, value:Esc
+current preference, name:bumpyarrows, value:0
+current preference, name:bell, value:0
+current preference, name:bellVibrate, value:0
+current preference, name:bellNotification, value:1
+current preference, name:memkeys, value:1
+current preference, name:connPersist, value:1
+current preference, name:wifilock, value:1
+current preference, name:backupkeys, value:0
+current preference, name:emulation, value:xterm-256color
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:pgupdngesture, value:0
+current preference, name:volumefont, value:1
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+current preference, name:shiftfkeys, value:0
+current preference, name:ctrlfkeys, value:0
+current preference, name:stickymodifiers, value:No
+current preference, name:keymode, value:Disable
+current preference, name:camera, value:Ctrl+A then Space
+current preference, name:bumpyarrows, value:1
+current preference, name:bell, value:1
+current preference, name:bellVibrate, value:1
+current preference, name:bellNotification, value:0
+  interestcase preference_pre_reverse start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\allpreferencecases\precase_log.py]
+
+OK
+
+consumed time: 101.911000013 s
+
+jacoco time: 5.00499987602 s
+
+interestcase preference_pre_reverse end
+
+  interestcase preference_pre_default start:
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\allpreferencecases\defaultprecase_log.py]
+
+OK
+
+consumed time: 92.4979999065 s
+
+jacoco time: 5.00600004196 s
+
+interestcase preference_pre_default end
+
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1891-3628 ,target branch is: 1891-3629
+interests are:
+rotation      Default    6     User interface
+discovered tags are : 2_001 1_019 1_017 1_018 1_029 1_007 1_015 1_027 1_005 1_024 1_014 1_025 1_003 1_011 1_023 1_020 1_010 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1894-3633 ,target branch is: 1894-3634
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : 4_014 4_016 2_027 2_005 2_006 2_007 2_008 2_003 2_026 2_004 4_010 2_020 2_021 4_012 3_028 3_029 3_007 3_026 1_019 1_017 1_018 3_009 1_015 3_021 1_014 1_011 3_024 3_002 3_003 4_006 4_008 2_013 2_014 2_010 4_001 3_015 3_016 1_029 1_007 1_027 1_005 1_024 1_003 1_023 3_014 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 63-119 ,target branch is: 63-118
+interests are:
+stickymodifiers      Yes    15     Keyboard
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 2021-3858 ,target branch is: 2021-3859
+interests are:
+alwaysvisible      1    12     Keyboard
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 62-117 ,target branch is: 62-116
+interests are:
+stickymodifiers      Only alt    15     Keyboard
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 133-223 ,target branch is: 133-224
+interests are:
+keymode      Use left-side keys    16     Keyboard
+discovered tags are : 1_015 1_024 1_023 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 1338-2666_0 ,target branch is: 1338-2666_0
+interests are:
+scrollback          5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1338-2666_1 ,target branch is: 1338-2666_1
+interests are:
+scrollback      random    5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 1338-2666_2 ,target branch is: 1338-2666_2
+interests are:
+scrollback      140    5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1897-3639 ,target branch is: 1897-3638
+interests are:
+alwaysvisible      1    12     Keyboard
+discovered tags are : 4_016 4_006 1_017 2_008 1_018 1_015 1_005 2_003 1_014 1_011 3_002 4_012 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 131-219 ,target branch is: 131-220
+interests are:
+keymode      Use right-side keys    16     Keyboard
+discovered tags are : 1_015 1_024 1_023 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 139-236 ,target branch is: 139-235
+interests are:
+volumefont      0    10     User interface
+discovered tags are : 1_015 1_024 1_023 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 2023-3862 ,target branch is: 2023-3863
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.13 Scene:
+discovered in ineration NO. 0
+origin branch is: 2063-3945 ,target branch is: 2063-3946
+interests are:
+keepalive      0    11     User interface
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.14 Scene:
+discovered in ineration NO. 0
+origin branch is: 136-229 ,target branch is: 136-230
+interests are:
+ctrlfkeys      1    14     Keyboard
+discovered tags are : 1_015 1_024 1_023 
+--------------------------------
+NO.15 Scene:
+discovered in ineration NO. 0
+origin branch is: 134-225 ,target branch is: 134-226
+interests are:
+shiftfkeys      1    13     Keyboard
+discovered tags are : 1_015 1_024 1_023 
+--------------------------------
+NO.16 Scene:
+discovered in ineration NO. 0
+origin branch is: 2016-3848 ,target branch is: 2016-3849
+interests are:
+titlebarhide      1    7     User interface
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.17 Scene:
+discovered in ineration NO. 0
+origin branch is: 369-1039 ,target branch is: 369-1038
+interests are:
+bell      0    19     Terminal bell
+discovered tags are : 2_002 
+--------------------------------
+NO.18 Scene:
+discovered in ineration NO. 0
+origin branch is: 283_3 ,target branch is: 283_3
+interests are:
+scrollback          5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.19 Scene:
+discovered in ineration NO. 0
+origin branch is: 283_4 ,target branch is: 283_4
+interests are:
+scrollback      random    5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.20 Scene:
+discovered in ineration NO. 0
+origin branch is: 283_5 ,target branch is: 283_5
+interests are:
+scrollback      140    5     Terminal emulation
+discovered tags are : 2_027 2_026 2_020 2_021 3_028 3_029 3_026 3_027 1_019 1_017 1_018 1_015 3_020 3_021 1_014 1_011 3_024 3_025 3_022 1_010 4_005 4_006 4_007 4_008 2_012 2_013 2_014 2_010 4_001 4_002 3_015 3_016 1_029 1_027 3_010 1_024 1_025 1_023 3_014 1_020 2_009 4_014 4_016 2_005 2_006 2_007 2_008 2_001 2_002 2_003 2_004 4_010 4_011 4_012 3_006 3_007 3_004 3_005 3_009 3_002 3_003 1_007 1_005 1_003 
+--------------------------------
+NO.21 Scene:
+discovered in ineration NO. 0
+origin branch is: 1083-2268 ,target branch is: 1083-2267
+interests are:
+alwaysvisible      1    12     Keyboard
+discovered tags are : 4_014 4_016 2_027 2_005 2_006 2_007 2_008 2_026 2_004 4_010 2_020 2_021 4_012 3_028 3_029 3_007 3_026 1_019 1_017 1_018 3_009 1_015 3_021 1_011 3_024 3_003 2_013 2_014 2_010 4_001 3_015 3_016 1_029 1_007 1_027 1_005 1_024 1_003 1_023 3_014 
+--------------------------------
+NO.22 Scene:
+discovered in ineration NO. 0
+origin branch is: 371-1042 ,target branch is: 371-1043
+interests are:
+bell      0    19     Terminal bell
+discovered tags are : 2_002 
+--------------------------------
+index.1,  interestcase 1_023 start:
+tagetlogs are:[63-118, 1894-3634, 2021-3859, 133-224, 2063-3946, 2016-3849, 139-235, 136-230, 134-226, 1338-2666_0, 1083-2267, 1891-3629, 2023-3863, 283_3]
+current preference, name:scrollback, value:
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:1
+current preference, name:volumefont, value:0
+current preference, name:keepalive, value:0
+current preference, name:alwaysvisible, value:1
+current preference, name:shiftfkeys, value:1
+current preference, name:ctrlfkeys, value:1
+current preference, name:stickymodifiers, value:Yes
+current preference, name:keymode, value:Use left-side keys
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_1_1_023.py]
+
+OK
+
+consumed time: 65.4739999771 s
+
+jacoco time: 5.00899982452 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_1_1_023.py", line 249, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"2 minutes ago\")", "new UiSelector().className(\"android.widget.TextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_1_1_023.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 26.6950001717 s
+
+jacoco time: 5.00699996948 s
+
+covered targets are: [63-118, 2021-3859, 133-224, 2063-3946, 2016-3849, 139-235, 136-230, 134-226, 1338-2666_0, 2023-3863, 283_3]
+uncovered targets are: [1894-3634, 1083-2267, 1891-3629]
+interestcase 0_1_1_023 end
+
+index.2,  interestcase 1_024 start:
+tagetlogs are:[1894-3634, 131-220, 1083-2267, 1338-2666_1, 1891-3629, 283_4, 62-116]
+current preference, name:scrollback, value:random
+current preference, name:rotation, value:Default
+current preference, name:titlebarhide, value:1
+current preference, name:alwaysvisible, value:1
+current preference, name:stickymodifiers, value:Only alt
+current preference, name:keymode, value:Use right-side keys
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_2_1_024.py]
+
+OK
+
+consumed time: 55.132999897 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_2_1_024.py", line 257, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"testt\")", "new UiSelector().className(\"android.widget.TextView\").instance(5)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_2_1_024.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 95.242000103 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [1894-3634, 131-220, 1083-2267, 1338-2666_1, 283_4, 62-116]
+uncovered targets are: [1891-3629]
+interestcase 0_2_1_024 end
+
+index.3,  interestcase 1_005 start:
+tagetlogs are:[1891-3629, 1338-2666_2, 283_5, 1897-3638]
+current preference, name:scrollback, value:140
+current preference, name:rotation, value:Default
+current preference, name:alwaysvisible, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_3_1_005.py]
+
+OK
+
+consumed time: 41.3580000401 s
+
+jacoco time: 5.00500011444 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_3_1_005.py", line 247, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"2 minutes ago\")", "new UiSelector().className(\"android.widget.TextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_3_1_005.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 94.9679999352 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: [1338-2666_2, 283_5]
+uncovered targets are: [1891-3629, 1897-3638]
+interestcase 0_3_1_005 end
+
+index.4,  interestcase 1_018 start:
+tagetlogs are:[1891-3629, 1897-3638]
+current preference, name:rotation, value:Default
+current preference, name:alwaysvisible, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_4_1_018.py]
+
+OK
+
+consumed time: 27.4539999962 s
+
+jacoco time: 5.00699996948 s
+
+OK
+
+consumed time: 158.385999918 s
+
+jacoco time: 5.00300002098 s
+
+covered targets are: [1897-3638]
+uncovered targets are: [1891-3629]
+interestcase 0_4_1_018 end
+
+index.5,  interestcase 1_015 start:
+tagetlogs are:[1891-3629]
+current preference, name:rotation, value:Default
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_5_1_015.py]
+
+OK
+
+consumed time: 17.0499999523 s
+
+jacoco time: 5.007999897 s
+
+OK
+
+consumed time: 121.710000038 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: []
+uncovered targets are: [1891-3629]
+target: 1891-3629 uncovered, added to then retrial list!
+interestcase 0_5_1_015 end
+
+index.6,  interestcase 2_002 start:
+tagetlogs are:[369-1038]
+current preference, name:bell, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_6_2_002.py]
+
+OK
+
+consumed time: 28.0369999409 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 133.34800005 s
+
+jacoco time: 5.00600004196 s
+
+covered targets are: []
+uncovered targets are: [369-1038]
+target: 369-1038 uncovered, added to then retrial list!
+interestcase 0_6_2_002 end
+
+index.7,  interestcase 2_002 start:
+tagetlogs are:[371-1043]
+current preference, name:bell, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_7_2_002.py]
+
+OK
+
+consumed time: 27.5059998035 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 133.315999985 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [371-1043]
+target: 371-1043 uncovered, added to then retrial list!
+interestcase 0_7_2_002 end
+
+index.8,  interestcase 2_002 start:
+tagetlogs are:[371-1043]
+current preference, name:wifilock, value:1
+current preference, name:bell, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_8_2_002.py]
+
+OK
+
+consumed time: 32.9260001183 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 134.363999844 s
+
+jacoco time: 5.00800013542 s
+
+covered targets are: []
+uncovered targets are: [371-1043]
+loclog: 371-1043 uncovered after retrial, deleted!
+interestcase 0_8_2_002 end
+
+index.9,  interestcase 2_002 start:
+tagetlogs are:[369-1038]
+current preference, name:wifilock, value:1
+current preference, name:bell, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_9_2_002.py]
+
+OK
+
+consumed time: 32.6960000992 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 134.861000061 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [369-1038]
+loclog: 369-1038 uncovered after retrial, deleted!
+interestcase 0_9_2_002 end
+
+index.10,  interestcase 1_003 start:
+tagetlogs are:[1891-3629]
+current preference, name:rotation, value:Force landscape
+current preference, name:titlebarhide, value:0
+current preference, name:fullscreen, value:0
+current preference, name:keepalive, value:1
+current preference, name:alwaysvisible, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_10_1_003.py]
+
+OK
+
+consumed time: 35.381000042 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_10_1_003.py", line 246, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"2 minutes ago\")", "new UiSelector().className(\"android.widget.TextView\").instance(4)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\connectbot\testcase\interestcases\testcase0_10_1_003.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 35.3190000057 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: []
+uncovered targets are: [1891-3629]
+loclog: 1891-3629 uncovered after retrial, deleted!
+interestcase 0_10_1_003 end
+

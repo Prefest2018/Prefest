@@ -1,0 +1,684 @@
+NO.0 Scene:
+discovered in ineration NO. 0
+origin branch is: 1680-2828 ,target branch is: 1680-2829
+interests are:
+fill_in_notes_enabled      1    5     Game Helpers
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 0
+origin branch is: 1198-2045 ,target branch is: 1198-2046
+interests are:
+show_number_totals      1    4     Game Helpers
+discovered tags are : 4_009 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 0
+origin branch is: 1653-2771 ,target branch is: 1653-2772
+interests are:
+fill_in_notes_enabled      1    5     Game Helpers
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 0
+origin branch is: 988-1687 ,target branch is: 988-1686
+interests are:
+highlight_completed_values      0    1     Game Helpers
+discovered tags are : 1_018 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 0
+origin branch is: 987-1684 ,target branch is: 987-1685
+interests are:
+highlight_completed_values      0    1     Game Helpers
+discovered tags are : 1_018 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 0
+origin branch is: 724-1269 ,target branch is: 724-1268
+interests are:
+show_hints      0    12     Game
+discovered tags are : 4_009 2_008 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 0
+origin branch is: 631-1107 ,target branch is: 631-1108
+interests are:
+theme      Paper    13     Game
+discovered tags are : 4_016 2_006 4_019 2_029 2_007 2_008 2_002 2_025 2_004 2_020 2_022 4_013 3_029 3_007 3_027 1_019 1_018 1_011 3_002 3_025 1_010 4_026 4_005 4_028 4_029 2_018 4_009 2_019 4_021 4_022 4_001 4_023 4_002 4_024 3_016 1_028 1_006 1_007 1_026 3_010 1_024 1_002 1_003 3_013 1_000 1_023 1_001 3_012 
+--------------------------------
+NO.7 Scene:
+discovered in ineration NO. 0
+origin branch is: 1689-2846 ,target branch is: 1689-2845
+interests are:
+show_time      0    11     Game
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.8 Scene:
+discovered in ineration NO. 0
+origin branch is: 1698-2858 ,target branch is: 1698-2859
+interests are:
+show_time      0    11     Game
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.9 Scene:
+discovered in ineration NO. 0
+origin branch is: 1370-2320 ,target branch is: 1370-2319
+interests are:
+highlight_touched_cell      0    28     null
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+NO.10 Scene:
+discovered in ineration NO. 0
+origin branch is: 989-1688 ,target branch is: 989-1689
+interests are:
+show_number_totals      1    4     Game Helpers
+discovered tags are : 1_018 
+--------------------------------
+NO.11 Scene:
+discovered in ineration NO. 0
+origin branch is: 1197-2042 ,target branch is: 1197-2043
+interests are:
+show_number_totals      1    4     Game Helpers
+discovered tags are : 4_009 1_018 1_000 
+--------------------------------
+NO.12 Scene:
+discovered in ineration NO. 0
+origin branch is: 1686-2838 ,target branch is: 1686-2839
+interests are:
+theme      Custom Theme    13     Game
+discovered tags are : 4_009 2_008 1_018 3_013 1_000 1_023 1_001 4_001 
+--------------------------------
+index.1,  interestcase 1_018 start:
+tagetlogs are:[1689-2845, 631-1108, 989-1689, 1197-2043, 1698-2859, 1653-2772, 1680-2829, 988-1686, 987-1685, 1370-2319]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:fill_in_notes_enabled, value:1
+current preference, name:show_time, value:0
+current preference, name:theme, value:Paper
+current preference, name:highlight_touched_cell, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_1_1_018.py]
+
+OK
+
+consumed time: 48.0850000381 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_1_1_018.py", line 222, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"4\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_1_1_018.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 55.8299999237 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [1689-2845, 631-1108, 1698-2859, 1653-2772, 1680-2829, 1370-2319]
+uncovered targets are: [989-1689, 1197-2043, 988-1686, 987-1685]
+interestcase 0_1_1_018 end
+
+index.2,  interestcase 1_018 start:
+tagetlogs are:[989-1689, 1197-2043, 988-1686, 1686-2839, 987-1685]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Custom Theme
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_2_1_018.py]
+
+OK
+
+consumed time: 30.0009999275 s
+
+jacoco time: 5.00499987602 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_2_1_018.py", line 215, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"4\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_2_1_018.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 56.0669999123 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [1686-2839]
+uncovered targets are: [989-1689, 1197-2043, 988-1686, 987-1685]
+interestcase 0_2_1_018 end
+
+index.3,  interestcase 1_018 start:
+tagetlogs are:[989-1689, 1197-2043, 988-1686, 987-1685]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_3_1_018.py]
+
+OK
+
+consumed time: 22.2980000973 s
+
+jacoco time: 5.0039999485 s
+
+FAIL
+
+str(e):		Message: An element could not be located on the page using the given search parameters.
+
+
+
+repr(e):	NoSuchElementException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_3_1_018.py", line 213, in <module>
+
+    element = getElememtBack(driver, "new UiSelector().text(\"4\")", "new UiSelector().className(\"android.widget.Button\").instance(3)")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_3_1_018.py", line 53, in getElememtBack
+
+    element = driver.find_element_by_android_uiautomator(str2)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 327, in find_element_by_android_uiautomator
+
+    return self.find_element(by=By.ANDROID_UIAUTOMATOR, value=uia_string)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 219, in find_element
+
+    'value': value})['value']
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+
+
+
+consumed time: 56.6610000134 s
+
+jacoco time: 5.01400017738 s
+
+covered targets are: []
+uncovered targets are: [989-1689, 1197-2043, 988-1686, 987-1685]
+target: 989-1689 uncovered, added to then retrial list!
+target: 1197-2043 uncovered, added to then retrial list!
+target: 988-1686 uncovered, added to then retrial list!
+target: 987-1685 uncovered, added to then retrial list!
+interestcase 0_3_1_018 end
+
+index.4,  interestcase 4_009 start:
+tagetlogs are:[724-1268, 1198-2046]
+current preference, name:show_number_totals, value:1
+current preference, name:show_hints, value:0
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_4_4_009.py]
+
+OK
+
+consumed time: 24.9460000992 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 27.3600001335 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: [724-1268, 1198-2046]
+uncovered targets are: []
+interestcase 0_4_4_009 end
+
+index.5,  interestcase 1_018 start:
+tagetlogs are:[987-1685]
+current preference, name:highlight_completed_values, value:0
+current preference, name:im_popup, value:1
+current preference, name:im_single_number, value:1
+current preference, name:im_numpad, value:1
+current preference, name:show_time, value:1
+current preference, name:theme, value:Default
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_5_1_018.py]
+
+OK
+
+consumed time: 45.1599998474 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 60.3200001717 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [987-1685]
+loclog: 987-1685 uncovered after retrial, deleted!
+interestcase 0_5_1_018 end
+
+index.6,  interestcase 1_018 start:
+tagetlogs are:[988-1686]
+current preference, name:highlight_completed_values, value:1
+current preference, name:im_popup, value:1
+current preference, name:im_single_number, value:1
+current preference, name:im_numpad, value:1
+current preference, name:show_time, value:1
+current preference, name:theme, value:Default
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_6_1_018.py]
+
+OK
+
+consumed time: 47.7589998245 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 59.4720001221 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [988-1686]
+loclog: 988-1686 uncovered after retrial, deleted!
+interestcase 0_6_1_018 end
+
+index.7,  interestcase 4_009 start:
+tagetlogs are:[1197-2043]
+current preference, name:highlight_wrong_values, value:0
+current preference, name:highlight_completed_values, value:0
+current preference, name:highlight_similar_cells, value:0
+current preference, name:show_number_totals, value:0
+current preference, name:fill_in_notes_enabled, value:0
+current preference, name:im_popup, value:1
+current preference, name:im_single_number, value:1
+current preference, name:im_numpad, value:0
+current preference, name:show_time, value:1
+current preference, name:show_hints, value:1
+current preference, name:theme, value:Default
+current preference, name:highlight_touched_cell, value:1
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_7_4_009.py]
+
+FAIL
+
+str(e):		Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+repr(e):	WebDriverException()
+
+Traceback (most recent call last):
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_7_4_009.py", line 189, in <module>
+
+    scrollToClickElement(driver, "new UiSelector().text(\"Highlight cell on touch\")")
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_7_4_009.py", line 98, in scrollToClickElement
+
+    element = scrollToFindElement(driver, str)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_7_4_009.py", line 79, in scrollToFindElement
+
+    swipe(driver, 0.5, 0.55, 0.5, 0.2)
+
+  File "C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_7_4_009.py", line 65, in swipe
+
+    end_y=int(height * endyper), duration=1000)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 548, in swipe
+
+    action.perform()
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\common\touch_action.py", line 96, in perform
+
+    self._driver.execute(Command.TOUCH_ACTION, params)
+
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+    self.error_handler.check_response(response)
+
+  File "C:\Python27\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+
+    raise wde
+
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+
+
+
+
+consumed time: 70.1979999542 s
+
+jacoco time: 5.00600004196 s
+
+OK
+
+consumed time: 27.0479998589 s
+
+jacoco time: 5.00500011444 s
+
+covered targets are: []
+uncovered targets are: [1197-2043]
+loclog: 1197-2043 uncovered after retrial, deleted!
+interestcase 0_7_4_009 end
+
+index.8,  interestcase 1_018 start:
+tagetlogs are:[989-1689]
+current preference, name:highlight_completed_values, value:1
+current preference, name:show_number_totals, value:1
+current preference, name:im_popup, value:1
+current preference, name:im_single_number, value:1
+current preference, name:im_numpad, value:1
+current preference, name:show_time, value:1
+current preference, name:theme, value:Default
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase0_8_1_018.py]
+
+OK
+
+consumed time: 49.3460001945 s
+
+jacoco time: 5.00499987602 s
+
+OK
+
+consumed time: 62.0950000286 s
+
+jacoco time: 5.0039999485 s
+
+covered targets are: []
+uncovered targets are: [989-1689]
+loclog: 989-1689 uncovered after retrial, deleted!
+interestcase 0_8_1_018 end
+
+NO.0 Scene:
+discovered in ineration NO. 1
+origin branch is: 633-1113 ,target branch is: 633-1112
+interests are:
+theme      Graph Paper    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+NO.1 Scene:
+discovered in ineration NO. 1
+origin branch is: 636-1119 ,target branch is: 636-1118
+interests are:
+theme      Graph Paper Light    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+NO.2 Scene:
+discovered in ineration NO. 1
+origin branch is: 635-1117 ,target branch is: 635-1116
+interests are:
+theme      Paper Light    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+NO.3 Scene:
+discovered in ineration NO. 1
+origin branch is: 638-1123 ,target branch is: 638-1122
+interests are:
+theme      Inverted High Contrast    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+NO.4 Scene:
+discovered in ineration NO. 1
+origin branch is: 49-65 ,target branch is: 49-64
+interests are:
+bidirectional_selection      0    3     Game Helpers
+discovered tags are : 0_5_1_018 0_6_1_018 0_8_1_018 
+--------------------------------
+NO.5 Scene:
+discovered in ineration NO. 1
+origin branch is: 637-1121 ,target branch is: 637-1120
+interests are:
+theme      High Contrast    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+NO.6 Scene:
+discovered in ineration NO. 1
+origin branch is: 634-1115 ,target branch is: 634-1114
+interests are:
+theme      Light    13     Game
+discovered tags are : 0_3_1_018 0_4_4_009 0_2_1_018 
+--------------------------------
+index.1,  interestcase 0_2_1_018 start:
+tagetlogs are:[638-1122]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Inverted High Contrast
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_1_0_2_1_018.py]
+
+OK
+
+consumed time: 27.9769999981 s
+
+jacoco time: 5.00500011444 s
+
+OK
+
+consumed time: 57.8509998322 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [638-1122]
+uncovered targets are: []
+target: 638-1122 covered after retrial!
+interestcase 1_1_0_2_1_018 end
+
+index.2,  interestcase 0_2_1_018 start:
+tagetlogs are:[636-1118]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Graph Paper Light
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_2_0_2_1_018.py]
+
+OK
+
+consumed time: 27.9650001526 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 58.3470001221 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [636-1118]
+uncovered targets are: []
+target: 636-1118 covered after retrial!
+interestcase 1_2_0_2_1_018 end
+
+index.3,  interestcase 0_2_1_018 start:
+tagetlogs are:[633-1112]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Graph Paper
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_3_0_2_1_018.py]
+
+OK
+
+consumed time: 26.7209999561 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 62.0699999332 s
+
+jacoco time: 5.0110001564 s
+
+covered targets are: [633-1112]
+uncovered targets are: []
+target: 633-1112 covered after retrial!
+interestcase 1_3_0_2_1_018 end
+
+index.4,  interestcase 0_2_1_018 start:
+tagetlogs are:[637-1120]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:High Contrast
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_4_0_2_1_018.py]
+
+OK
+
+consumed time: 26.8239998817 s
+
+jacoco time: 5.00300002098 s
+
+OK
+
+consumed time: 57.5869998932 s
+
+jacoco time: 5.00400018692 s
+
+covered targets are: [637-1120]
+uncovered targets are: []
+target: 637-1120 covered after retrial!
+interestcase 1_4_0_2_1_018 end
+
+index.5,  interestcase 0_2_1_018 start:
+tagetlogs are:[635-1116]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Paper Light
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_5_0_2_1_018.py]
+
+OK
+
+consumed time: 26.8800001144 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 56.2610001564 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [635-1116]
+uncovered targets are: []
+target: 635-1116 covered after retrial!
+interestcase 1_5_0_2_1_018 end
+
+index.6,  interestcase 0_2_1_018 start:
+tagetlogs are:[634-1114]
+current preference, name:highlight_completed_values, value:0
+current preference, name:show_number_totals, value:1
+current preference, name:theme, value:Light
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_6_0_2_1_018.py]
+
+OK
+
+consumed time: 28.4580001831 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 59.0320000648 s
+
+jacoco time: 5.007999897 s
+
+covered targets are: [634-1114]
+uncovered targets are: []
+target: 634-1114 covered after retrial!
+interestcase 1_6_0_2_1_018 end
+
+index.7,  interestcase 0_5_1_018 start:
+tagetlogs are:[49-64]
+current preference, name:highlight_completed_values, value:0
+current preference, name:bidirectional_selection, value:0
+current preference, name:im_popup, value:1
+current preference, name:im_single_number, value:1
+current preference, name:im_numpad, value:1
+current preference, name:show_time, value:1
+current preference, name:theme, value:Default
+cmd:[python, C:\Users\yifeiLu\Documents\TestingProjectHome\opensudoku\testcase\interestcases\testcase1_7_0_5_1_018.py]
+
+OK
+
+consumed time: 49.7869999409 s
+
+jacoco time: 5.0039999485 s
+
+OK
+
+consumed time: 58.2550001144 s
+
+jacoco time: 5.00499987602 s
+
+covered targets are: [49-64]
+uncovered targets are: []
+target: 49-64 covered after retrial!
+interestcase 1_7_0_5_1_018 end
+

@@ -1,0 +1,7 @@
+org.openhab.habdroid.ui.BasicWidgetTest mainActivityTest
+org.openhab.habdroid.ui.IntroActivityTest appShowsIntro
+org.openhab.habdroid.ui.IntroActivityTest goThroughIntro
+org.openhab.habdroid.ui.NfcTest nfcTest
+org.openhab.habdroid.ui.VoiceRecognitionTest checkVoiceAvailability
+org.openhab.habdroid.ui.WidgetAdapterTest testColorMappingDarkTheme
+org.openhab.habdroid.ui.WidgetAdapterTest testColorMappingBrightTheme
