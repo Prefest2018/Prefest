@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import GUI.Main;
+import data.CoverData;
 import data.InterestValue;
 import data.Scene;
 import data.TestCaseData;
@@ -18,9 +19,7 @@ import tools.PWCounter;
 import tools.ProcessExecutor;
 import tools.TagnameComparator;
 
-
 public class InterestAllPlan {
-
 	public Map<String, String> scriptmap = null;
 	public String nowtagname = null;
 	public LinkedList<String> taglist = null;
@@ -28,7 +27,6 @@ public class InterestAllPlan {
 		scriptmap = new HashMap<String, String>();
 		taglist = new LinkedList<String>();
 		PWCounter pwcounter = new PWCounter();
-
 		for (String tagname : datas.keySet()) {
 			Map<String, String> newscriptnames = ScriptExecutor.generateinterestcaseforPREFEST_N(datas.get(tagname), pwcounter, preferencetrees);
 			if (null != newscriptnames && !newscriptnames.isEmpty()) {
@@ -64,19 +62,19 @@ public class InterestAllPlan {
 		ProcessExecutor.processnolog("adb", "shell", "rm", "/mnt/sdcard/coverage/*.ec");
 		
 		int index = taglist.indexOf(nowtagname);
+		CoverData coverdata = JsonHelper.getCoverData(Main.interestallcoveragedata);
 		for (int i = index; i < taglist.size(); i++) {
 			nowtagname = taglist.get(i);
 			String nowscriptfile = scriptmap.get(nowtagname);
-			TestCaseData nowdata = ScriptExecutor.scriptexecuteforinterestall(nowtagname, nowscriptfile);
+			TestCaseData nowdata = ScriptExecutor.scriptexecuteforPREFEST_N(nowtagname, nowscriptfile, coverdata);
 			testcaseinfomap.put(nowtagname, nowdata);
-			if (i % 3 == 0) {
+			if (i % 3 == 0 || i == taglist.size() - 1) {
 				JsonHelper.savetestcasesdataAdapt(testcaseinfomap, Main.interestallcaseinfofile);
 				JsonHelper.setinterestallplanAdapt(this, Main.interestallplanfile);
+				coverdata.save(Main.interestallcoveragedata);
 			}
 
 
 		}
-		JsonHelper.savetestcasesdataAdapt(testcaseinfomap, Main.interestallcaseinfofile);
-		JsonHelper.setinterestallplanAdapt(this, Main.interestallplanfile);
 	}
 }

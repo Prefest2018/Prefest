@@ -9,13 +9,14 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
+import data.LocalValMap;
+import exception.WrongThreadException;
 import sootproject.data.LogBranchNode;
 import sootproject.data.MyIfStatement;
 import sootproject.data.MyMethodDeclaration;
 import sootproject.data.MyNode;
 import sootproject.data.MySwitchStatement;
 import sootproject.data.MyTryCatch;
-import sootproject.exception.WrongThreadException;
 import sootproject.myexpression.CMD;
 import sootproject.myexpression.CMDType;
 import sootproject.myexpression.ExpressionTranslator;
@@ -68,6 +69,7 @@ public class TrailState {
 	public List<ThreadState> threads = null;
 	private int threadNum = 0;
 	public static boolean debug = false;
+	public static boolean vagueAnalysis = true;
 
 	
 	public TrailState(Map<String, MyInterest> interestMap, String tagname, Map<Long, String> stridmap) {
@@ -75,15 +77,22 @@ public class TrailState {
 		threads = new LinkedList<ThreadState>();
 		this.tagname = tagname;
 	}
-	
+
 	public void analysePreference() {
 		translator.analysePreference();
 	}
 	
 	public void next(int logid, int branchid) {
+//			System.out.println();
+//			System.out.println();
+//			debug = true;
+//			System.out.println();
+//			System.out.println();
+//			System.out.println();
+//			throw new RuntimeException();
 		if (debug) {
 			System.out.println("\n\n current logid: " + logid +  "      branchNum: "+ branchid);
-			Logger.log("\n\n current logid: " + logid +  "      branchNum: "+ branchid);
+			Logger.logadd("\n\n current logid: " + logid +  "      branchNum: "+ branchid);
 		}
 		boolean hasDealt = false;
 		ThreadState dealthread = null;
@@ -92,7 +101,6 @@ public class TrailState {
 			if (thread.iterator(logid, branchid)) {
 				dealthread = thread;
 				hasDealt = true;
-
 				break;
 			}
 		}
@@ -106,16 +114,16 @@ public class TrailState {
 		}
 		
 		if (!hasDealt) {
+//			if (debug)Logger.logadd("warning: new thread!!!");
 			ThreadState newThread = new ThreadState(threadNum++);
 			threads.add(newThread);
 			if (!newThread.iterator(logid, branchid)) {
 				if (debug) {
-					System.out.println("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
-					Logger.log("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
+//					System.out.println("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
+					Logger.logadd("error: the logid cannot be resloved in new threads: " + logid + "-" + branchid);
 				}
 				threads.remove(newThread);
 			} else {
-
 				if (threads.size() > 300) {
 					threads.remove(0);
 				}
@@ -169,12 +177,11 @@ public class TrailState {
 		public boolean iterator(int logidNum, int branchNum) {
 			tryCatch(logidNum, branchNum);
 			boolean shouldContinue = true;
-
+//				System.out.println();
 			try {
 				while (shouldContinue) {
 					if (stack.isEmpty()) {
 						if (branchNum >= 0) {
-
 							throw WrongThreadException.getWrongThreadException();
 						} else {
 							stack.push(new BlockState(logidNum, translator, this));
@@ -184,6 +191,7 @@ public class TrailState {
 					shouldContinue = nowState.next(logidNum, branchNum);
 				}
 			} catch (WrongThreadException e) {
+//				e.printStackTrace();
 				return false;
 			}
 			return true;
@@ -205,7 +213,7 @@ public class TrailState {
 		protected ThreadState threadState = null;
 		protected boolean returncheck = false;
 		protected LinkedList<CMD> cacheCmd = null;
-		protected HashMap<Integer, MyVariable> nowLocalMap = null;
+		protected LocalValMap nowLocalMap = null;
 		public BlockState(int logidNum, ExpressionTranslator translator, ThreadState threadState) {
 			this.logidNum = logidNum;
 			this.translator = translator;
@@ -213,14 +221,15 @@ public class TrailState {
 			this.stack = threadState.stack;
 			this.node = (MyMethodDeclaration)logMaps.get(logidNum);
 			this.cacheCmd = threadState.cacheCmd;
-			this.nowLocalMap = new HashMap<Integer, MyVariable>();
+			this.nowLocalMap = new LocalValMap();
 			if ((this.node == null) || !(this.node instanceof MyMethodDeclaration)) {
 				System.out.println("error: BlockState<Init>: MethodDeclaration for MyNode is not found, logidNum: " + logidNum);
 				Logger.log("error: BlockState<Init>: MethodDeclaration for MyNode is not found, logidNum: " + logidNum);
 			}
 			body = ((MyMethodDeclaration)this.node).getBody();
 			if (debug) {
-				Logger.log(body.toString());
+				System.out.println(body);
+				Logger.logadd(body.toString());
 			}
 			unitChain = body.getUnits();
 		}
@@ -229,7 +238,7 @@ public class TrailState {
 			MyTryCatch trap = node.getTrap(logidNum, branchNum);
 			if (trap != null) {
 				Trap nowtrap = (Trap)trap.getInnerNode();
-				this.currentUnit = nowtrap.getBeginUnit();
+				this.currentUnit = nowtrap.getHandlerUnit();
 				return true;
 			} else {
 				return false;
@@ -237,6 +246,7 @@ public class TrailState {
 		}
 
 		public boolean next(int logidNum, int branchNum) throws WrongThreadException{
+//				System.out.println("test");
 			
 			Iterator<Unit> it = null;
 			if (null == currentUnit) {
@@ -250,25 +260,31 @@ public class TrailState {
 					MyIfStatement ifNode = (MyIfStatement)nodeMaps.get(nowUnit);
 					Unit nextUnit = ifNode.getBranchUnit(logidNum, branchNum);
 					if (null != nextUnit) {
+						//translator.dealWithIfStatement((IfStmt)nowUnit, nextUnit);
 						cacheCmd.add(new CMD(nowUnit, nextUnit, CMDType.IF, body, nowLocalMap, null));
 						currentUnit = nextUnit;
 						return true;
 					} else {
-
 						currentUnit = nowUnit;
 						throw WrongThreadException.getWrongThreadException();
 					}
 					
 					
-
+//						translator.dealWithIfStatement((IfStmt)nowUnit, logidNum, branchNum);
+//						currentUnit = ifNode.get(branchNum);
+//						return true;
+//						currentUnit = ifNode.getSelectedUnit(-1);
+//						return true;
 				} else if (nowUnit instanceof LookupSwitchStmt) {
 					MySwitchStatement switchNode = (MySwitchStatement)nodeMaps.get(nowUnit);
 					Unit nextUnit = switchNode.getBranchUnit(logidNum, branchNum);
 					if (null != nextUnit) {
+						//translator.dealWithSwitchStatement((LookupSwitchStmt)nowUnit, nextUnit);
 						cacheCmd.add(new CMD(nowUnit, nextUnit, CMDType.SWITCH, body, nowLocalMap, null));
 						currentUnit = nextUnit;
 						return true;
 					} else {
+
 						currentUnit = nowUnit;
 						throw WrongThreadException.getWrongThreadException();
 					}
@@ -278,7 +294,7 @@ public class TrailState {
 					MyMethodDeclaration myMethod = getMyMethod(invokeexp, logidNum);
 					Result result = locConfirm((InvokeStmt)nowUnit, logidNum, branchNum);
 					if (result == Result.TRUE) {
-						translator.dealWithStmts(cacheCmd);
+						translator.dealWithStmts(cacheCmd, logidNum, branchNum);
 						cacheCmd.clear();
 						if (returncheck) {
 							continue;
@@ -289,24 +305,26 @@ public class TrailState {
 					} else if (result == Result.FALSE) {
 						if (myMethod == null) {
 							cacheCmd.add(new CMD(null, ((InvokeStmt)nowUnit).getInvokeExpr(), CMDType.SPINVOKE, body, nowLocalMap, null).append(currentLoc));
+							//translator.dealWithSpecialInvokes(null, ((InvokeStmt)nowUnit).getInvokeExpr());
 							continue;
 						}else if (myMethod.getLogIndex() == logidNum && -1 == branchNum) {
 							currentUnit = nowUnit;
 							BlockState newState = new BlockState(logidNum, translator, threadState);
 							stack.push(newState);
 							cacheCmd.add(new CMD(((InvokeStmt)nowUnit).getInvokeExpr(), null, CMDType.INVOKE, body, nowLocalMap, newState.nowLocalMap).append(myMethod));
+//							translator.dealWithMethodInvoke(((InvokeStmt)nowUnit).getInvokeExpr());
 							this.nextUnit = it.next();
 							return true;
 						} else {
-
+//							cacheCmd.add(new CMD(((InvokeStmt)nowUnit).getInvokeExpr(), null, CMDType.INVOKE, body));
 							currentUnit = nowUnit;
 							throw WrongThreadException.getWrongThreadException();
 						}
 					} else if (result == Result.FAILURE){
 						currentUnit = nowUnit;
+//						cacheCmd.add(new CMD(((InvokeStmt)nowUnit).getInvokeExpr(), null, CMDType.INVOKE));
 						throw WrongThreadException.getWrongThreadException();
 					}
-
 				} else if (nowUnit instanceof GotoStmt) {
 					UnitBox target = ((GotoStmt)nowUnit).getTargetBox();
 					currentUnit = target.getUnit();
@@ -345,6 +363,7 @@ public class TrailState {
 						MyMethodDeclaration myMethod = getMyMethod(((InvokeExpr)right), logidNum);
 						if (myMethod == null) {
 							cacheCmd.add(new CMD(assign.getLeftOp(), (InvokeExpr)right, CMDType.SPINVOKE, body, nowLocalMap, null).append(currentLoc));
+							//translator.dealWithSpecialInvokes(assign.getLeftOp(), (InvokeExpr)right);
 							continue;
 						} else {
 							if (myMethod.getLogIndex() == logidNum && -1 == branchNum) {
@@ -353,7 +372,6 @@ public class TrailState {
 								stack.push(newState);
 								cacheCmd.add(new CMD((InvokeExpr)right, assign.getLeftOp(), CMDType.INVOKE, body, nowLocalMap, newState.nowLocalMap).append(myMethod));
 								this.nextUnit = it.next();
-
 							} else {
 								currentUnit = nowUnit;
 								throw WrongThreadException.getWrongThreadException();
@@ -362,15 +380,15 @@ public class TrailState {
 						}
 					} else {
 						cacheCmd.add(new CMD(assign, null, CMDType.ASSIGN, body, nowLocalMap, null));
+						//translator.dealWithAssignment(assign);
 					}
 
 				} else {
 				}
 			}
-
 			return false;
 		}
-
+		
 		private MyMethodDeclaration getMyMethod(InvokeExpr invokeexpr, int lognum) {
 			SootMethod method = invokeexpr.getMethod();
 			MyMethodDeclaration result = methodMaps.get(method);

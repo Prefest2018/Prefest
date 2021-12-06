@@ -142,6 +142,7 @@ public class NodeExploreState extends ExploreState{
 						}
 
 					} else if (position instanceof PreferenceTreeNode){
+						//this.currentnode = (PreferenceTreeNode)position;
 						System.out.println("error : 'NodeExplore' unnecessary elements!");
 					}
 				} else {
@@ -257,7 +258,7 @@ public class NodeExploreState extends ExploreState{
 	private List<String> getBackCommonds() {
 		ArrayList<String> backcommonds = new ArrayList<String>();
 		backcommonds.add("back");
-		if (null != this.currentnode) {//这里由于currentnode会多一个，所以要减一个
+		if (null != this.currentnode) {
 			int num = this.currentnode.getTitles().size();
 			num--;
 			while (num > 0) {
@@ -273,7 +274,6 @@ public class NodeExploreState extends ExploreState{
 		this.currentnode = null;
 	}
 	
-	//按照preferencetreenode的id进行排序
 	private void sortFortobelocatenodes(Stack<PreferenceTreeNode> tobellocatenodes) {
 		for (int i = 0; i < tobellocatenodes.size(); i++) {
 			for (int j = i; j < tobellocatenodes.size(); j++) {

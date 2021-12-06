@@ -2,6 +2,8 @@ package GUI;
 
 import appiumscript.scriptexecutor.AVDThread;
 import javafx.application.Application;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -9,6 +11,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
@@ -27,6 +31,11 @@ import java.util.Map;
 public class FXGUI extends Application {
 
     private static String defaultProjectHome = null;
+    private static String tester = "APPIUM";
+
+//            // win
+//            // mac/linux
+//            defaultProjectHome = "/Users/heleninsa/Desktop/PREFEST/projecthome";
 
     private Main main = null;
 
@@ -85,6 +94,18 @@ public class FXGUI extends Application {
                 }
             }
         });
+        
+        
+        ChoiceBox<String> testerComboBox = (ChoiceBox)parent.lookup("#testercombobox");
+        testerComboBox.getItems().addAll("APPIUM", "ESPRESSO");
+//        tester = "ESPRESSO";
+        testerComboBox.setValue(tester);
+        testerComboBox.valueProperty().addListener(new ChangeListener<String>() {
+            @Override 
+            public void changed(ObservableValue ov, String t, String t1) {                
+            	tester = t1.toUpperCase();
+            }    
+        });
 
         //Our approach
         //stub
@@ -93,7 +114,7 @@ public class FXGUI extends Application {
 
         //firstExe
         Button firstexebutton = (Button) parent.lookup("#firstexebutton");
-        firstexebutton.setOnAction(arg0 -> main.firstexe());
+        firstexebutton.setOnAction(arg0 -> {if(tester.equals("APPIUM")) {main.firstexe();} else if (tester.equals("ESPRESSO")) {main.Espresso();}});
 
         //analysis
         Button analysisbutton = (Button) parent.lookup("#analysisbutton");
@@ -101,7 +122,7 @@ public class FXGUI extends Application {
 
         //PREFEST(T)
         Button prefest_tbutton = (Button) parent.lookup("#prefest_tbutton");
-        prefest_tbutton.setOnAction(arg0 -> main.PREFEST_T());
+        prefest_tbutton.setOnAction(arg0 -> {if(tester.equals("APPIUM")) {main.PREFEST_T();} else if (tester.equals("ESPRESSO")) {main.PREFEST_TWithEspresso();}});
 
         //PREFEST(N)
         Button prefest_nbutton = (Button) parent.lookup("#prefest_nbutton");
@@ -175,6 +196,7 @@ public class FXGUI extends Application {
 					}
 					switch(key) {
 					case "avd_name":Main.avdname = value;break;
+					case "proxy":Main.proxy = value;break;
 					case "reset_when_error":Main.resetWhenError = "false".equals(value)?false:true;break;
 					case "preference_explore":Main.shouldExplorePreference = "true".equals(value)?true:false;break;
 					case "reset_for_each_run":Main.resetForEachRun = "true".equals(value)?true:false;break;
@@ -190,7 +212,6 @@ public class FXGUI extends Application {
 					}
 				} else {
 					//TODO
-//					System.out.println("error: the environment format is incorrent at \'" + pathcontent + "\' in file \'config.txt\'");
 				}
 			}
 			br.close();
@@ -204,58 +225,31 @@ public class FXGUI extends Application {
     	String path = System.getenv("PATH");
     	
 //    	String javahome = newenvs.get("JAVA_HOME");
-//    	if (null != javahome) {
 //    		javahome = updateCurrentRefer(javahome);
 //        	path = path + File.pathSeparator + javahome + File.separator + "bin";
-//    	} else {
-//    		System.out.println("\'JAVA_HOME\' is not defined in \'config.txt\'!");
-//    	}
 //    	String androidhome = newenvs.get("ANDROID_HOME");
-//    	if (null != androidhome) {
 //    		androidhome = updateCurrentRefer(androidhome);
 //    		path = path + File.pathSeparator + androidhome;
 //        	path = path + File.pathSeparator + androidhome + File.separator + "tools";
 //        	path = path + File.pathSeparator + androidhome + File.separator + "emulator";
 //        	path = path + File.pathSeparator + androidhome + File.separator + "platform-tools";
 ////        	path = path + File.pathSeparator + androidhome + File.separator + "ndk-bundle";
-//    	} else {
-//    		System.out.println("\'ANDROID_HOME\' is not defined in \'config.txt\'!");
-//    	}
 //    	String jadxhome = newenvs.get("JADX_HOME");
-//    	if (null == jadxhome) {
-//    		try {
 //				jadxhome = new File(".").getCanonicalPath() + "lib" + File.separator + "jadx";
-//			} catch (IOException e) {
 //				// TODO Auto-generated catch block
 //				e.printStackTrace();
-//			}
-//    	}
-//    	if (null != jadxhome) {
 //    		jadxhome = updateCurrentRefer(jadxhome);
 //    		path = path + File.pathSeparator + jadxhome + File.separator + "bin";
-//    	}
 
 //    	String appiumhome = newenvs.get("APPIUM_HOME");
-//    	if (null != appiumhome) {
 //    		path = path + File.pathSeparator + appiumhome;
-//    	} else {
-//    		System.out.println("\'APPIUM_HOME\' is not defined in \'config.txt\'!");
-//    	}
 //    	String pythonhome = newenvs.get("PYTHON_HOME");
-//    	if (null != pythonhome) {
 //    		pythonhome = updateCurrentRefer(pythonhome);
 //    		path = path + File.pathSeparator + pythonhome;
 //    		path = path + File.pathSeparator + pythonhome + File.separator + "Scripts";
-//    	} else {
-//    		System.out.println("\'PYTHON_HOME\' is not defined in \'config.txt\'!");
-//    	}
 //    	String androidlib = newenvs.get("ANDROID_LIB");
-//    	if (null != androidlib) {
 //    		androidlib = updateCurrentRefer(androidlib);
 //    		path = path + File.pathSeparator + androidlib;
-//    	} else {
-//    		System.out.println("\'ANDROID_LIB\' is not defined in \'config.txt\'!");
-//    	}
 
     	newenvs.put("PATH", path);
     	return newenvs;

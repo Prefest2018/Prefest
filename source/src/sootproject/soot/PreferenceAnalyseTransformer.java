@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 import GUI.Main;
 import sootproject.data.LogBranchNode;
@@ -53,13 +55,13 @@ import soot.jimple.internal.JReturnVoidStmt;
 import soot.jimple.internal.JStaticInvokeExpr;
 import soot.util.Chain;
 
-public class PreferenceAnalyseTransformer extends BodyTransformer{
+public class PreferenceAnalyseTransformer extends MyOwnTransformer{
 	public List<MyNode> allNodesList = null;
 	public Map<SootMethod, MyMethodDeclaration> methodMap = null;
 	public Map<Integer, MyNode> logMap = null;
 	public Map<Unit, MyNode> nodeMap = null;
-	public String packagename = null;
 	public Set<String> preferenceactivitynames = null;
+	public Set<String> allactivitynames = null;
 	public Map<String, String> preferencesupermap = null;
 	public Map<String, Integer> preferencexmlmap = null;
 	private static String[] superpreferenceclassnames = new String[]{"ListPreference", "CheckBoxPreference", "SwitchPreference", "SwitchPreferenceCompat", "PreferenceCategory", "EditTextPreference", "IntPreference", "RingtonePreference", "DialogPreference", "Preference"};
@@ -74,7 +76,10 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 	public Hashtable<SootMethod, Set<String>> skipmethodmap = null;
 	private boolean inskipmethod = false;
 	private SootMethod currentskipmethod = null;
-	public PreferenceAnalyseTransformer(String packagename) {
+	public static int analysisNum = 0;
+	public static int statNum = 0;
+	public static int spLog = 0;
+	public PreferenceAnalyseTransformer(String packagename, Set<String> extrapackagenames) {
 		super();
 		allNodesList = new ArrayList<MyNode>();
 		methodMap = new HashMap<SootMethod, MyMethodDeclaration>();
@@ -84,6 +89,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 		preferencexmlmap = new HashMap<String, Integer>();
 		coveredclasses = new HashSet<String>();
 		preferenceactivitynames = new HashSet<String>();
+		allactivitynames = new HashSet<String>();
 		invokelinks = new HashMap<SootMethod, Set<SootMethod>>();
 		addresourcemap = new HashMap<InvokeExpr, SootMethod>();
 		loadHeadermap =  new HashMap<InvokeExpr, SootMethod>();
@@ -91,6 +97,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 		supermethodmap = new HashMap<SootClass, Map<String, Set<SootMethod>>>();
 		tempoverridemap = new HashMap<MyMethodDeclaration, Set<SootMethod>>();
 		this.packagename = packagename;
+		this.extrapackagenames = extrapackagenames;
 		this.skipmethodmap = new Hashtable<SootMethod, Set<String>>();
 	}
 	public void analyzeoverride() {
@@ -109,22 +116,25 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 	}
 	
 	@Override
-	protected void internalTransform(Body body, String phaseName, Map<String, String> options) {
-		
+	protected synchronized void internalTransform(Body body, String phaseName, Map<String, String> options) {
+		analysisNum++;
 		SootMethod method = body.getMethod();
 		SootClass nowclass = method.getDeclaringClass();
+		String nowpackagename = nowclass.getPackageName();
 		String nowclassname = nowclass.getName();
+		boolean isInTargetPackage = checkInTargetPackage(nowclassname);
 		if (!coveredclasses.contains(nowclassname)) {
 			coveredclasses.add(nowclassname);
 			String superclassname = nowclass.getSuperclass().getName();
 			
-			if (nowclass.getPackageName().contains(packagename) && !nowclass.isAbstract()) {
+			if (isInTargetPackage && !nowclass.isAbstract()) {
 				if (superclassname.contains("PreferenceActivity") || (nowclassname.contains("Preference") || nowclassname.contains("Setting")) && nowclassname.contains("Activity") && !nowclassname.contains("$") && !nowclassname.contains("_")) {
 					preferenceactivitynames.add(nowclassname);
 				}
 			}
 			SootClass superclass = nowclass.getSuperclass();
 			String nowshortname = nowclass.getShortName();
+			boolean isActivity = false;
 			total: while (null != superclass && !superclass.getShortName().equals("Object")) {
 				String shortname = superclass.getShortName();
 				for (int i = 0; i < superpreferenceclassnames.length; i++) {
@@ -133,10 +143,14 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 						break total;
 					}
 				}
+				if (isInTargetPackage && !nowclass.isAbstract()&& !nowclass.isInterface()&& !isActivity && shortname.equals("Activity")) {
+					isActivity = true;
+					allactivitynames.add(nowclassname);
+				}
 				superclass = superclass.getSuperclass();
 			}
 		}
-		if (!nowclass.getPackageName().contains(packagename)) {
+		if (!isInTargetPackage) {
 			return;
 		}
 
@@ -203,6 +217,8 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 				currentskipmethod = method;
 				if (!skipmethodmap.containsKey(method)) {
 					skipmethodmap.put(method, new HashSet<String>());
+				} else {
+					System.err.println("two methods share the same name!!!!");
 				}
 				break;
 			}
@@ -210,6 +226,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 
 		boolean methodLog = true;
 		while(it.hasNext()) {
+			statNum++;
 			Unit unit = it.next();
 			if (unit instanceof JInvokeStmt) {
 				JInvokeStmt invoke = ((JInvokeStmt)unit);
@@ -286,7 +303,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 			} else if (unit instanceof JIdentityStmt && ((JIdentityStmt)unit).getRightOp() instanceof ThisRef) {
 				myMethod.setThisref((ThisRef)((JIdentityStmt)unit).getRightOp());
 			}
-			
+			//
 		}
 		Chain<Trap> traps = body.getTraps();
 		Iterator<Trap> trapit = traps.snapshotIterator();
@@ -301,9 +318,11 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 				System.out.println("error: error log for 'trap'!");
 			}
 		}
+	//	System.out.println(i + "-" + method.toString());
 	}
 
 	private boolean specialLogFind(final MyNode myNode, final JInvokeStmt invoke) {
+		spLog++;
 		InvokeExpr expr = invoke.getInvokeExpr();
 		SootMethod method = expr.getMethod();
 		String exprName = method.getName();
@@ -416,6 +435,12 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 			if (value instanceof IntConstant) {
 				preferencexmlmap.put(nowmethod.getDeclaringClass().getName(), ((IntConstant) value).value);
 				addresourcemap.put(exp, nowmethod);
+			} else if (exp.getArgCount() > 1){
+				value = exp.getArg(1);
+				if (value instanceof IntConstant) {
+					preferencexmlmap.put(nowmethod.getDeclaringClass().getName(), ((IntConstant) value).value);
+					addresourcemap.put(exp, nowmethod);
+				}
 			}
 		} else if (invokemethodname.equals("loadHeadersFromResource")) {
 			Value value = exp.getArg(0);
@@ -433,7 +458,7 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 			SootClass nowclass = inputclass;
 			while (null != nowclass) {
 				String nowclassname = nowclass.getName();
-				if (nowclassname.equals("android.preference.PreferenceFragment")|| nowclassname.equals("android.support.v7.preference.PreferenceFragmentCompat")) {
+				if (nowclassname.equals("android.preference.PreferenceFragment")|| nowclassname.equals("android.support.v7.preference.PreferenceFragmentCompat") || nowclassname.equals("androidx.preference.PreferenceFragmentCompat") || nowclassname.equals("android.support.v4.preference.PreferenceFragment")) {
 					isfragmentcache.put(inputclass, true);
 					return true;
 				}
@@ -482,8 +507,15 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 		total:for (InvokeExpr expr : allinvokes.keySet()) {
 			SootMethod firstmethod = allinvokes.get(expr);
 			Stack<SootMethod> methodstack = new Stack<SootMethod>();
-			Value value = expr.getArg(0);
-			int xmlid = ((IntConstant)value).value;
+			int xmlid = -1;
+			if (expr.getArg(0) instanceof IntConstant) {
+				Value value = expr.getArg(0);
+				xmlid = ((IntConstant)value).value;
+			} else if (expr.getArgCount() > 1 && expr.getArg(1) instanceof IntConstant) {
+				Value value = expr.getArg(1);
+				xmlid = ((IntConstant)value).value;
+			}
+
 			methodstack.push(firstmethod);
 			while (!methodstack.isEmpty()) {
 				SootMethod currentmethod = methodstack.pop();
@@ -526,6 +558,9 @@ public class PreferenceAnalyseTransformer extends BodyTransformer{
 					}
 				}
 			}
+		}
+		if (preferenceactivitynames.isEmpty()) {
+			preferenceactivitynames.addAll(allactivitynames);
 		}
 	}
 	

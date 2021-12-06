@@ -1,5 +1,5 @@
 package appiumscript.scripttranslator;
 
 public enum TestOperationType {
-	NORMAL, MENU, BACK, DEFAULT
+	NORMAL, MENU, BACK, SLEEP, DEFAULT
 }

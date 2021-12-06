@@ -3,6 +3,8 @@ package sootproject.myexpression;
 import java.util.HashMap;
 import java.util.Map;
 
+import data.LocalValMap;
+import data.RefValMap;
 import sootproject.analysedata.MyInterest;
 import soot.Local;
 import soot.RefType;
@@ -42,16 +44,7 @@ import soot.jimple.internal.JXorExpr;
 import sootproject.tool.Util;
 import tools.Logger;
 
-public class MyExpression extends MyExpressionObject{
-	protected ResultType type = ResultType.DEFAULT;
-	protected ResultType resultType = ResultType.DEFAULT;
-	protected boolean interestRelated = false;
-	protected boolean unknown = false;
-	protected OperationType operator = OperationType.DEFAULT;
-	protected Object content = null;
-	protected MyExpression param1 = null;
-	protected MyExpression param2 = null;
-	
+public class MyExpression extends MyExpressionInterface implements MyExpressionObject{
 	
 	public boolean equals(Object another) {
 		if (another instanceof MyExpression) {
@@ -77,7 +70,7 @@ public class MyExpression extends MyExpressionObject{
 		this.type = ResultType.INTEREST;
 		this.content = interest;
 		this.interestRelated = true;
-		this.unknown = interest.unKnown;
+		this.unknown = interest.isUnKnown();
 	}
 	
 	public MyExpression (MyEnumInstance myenum) {
@@ -96,22 +89,21 @@ public class MyExpression extends MyExpressionObject{
 		this.type = ResultType.ARRAY;
 		this.content = array;
 	}
+//	
+//		this.type = ResultType.INSTANCE;
+//		this.content = instance;
 	
-	public MyExpression(MyInstanceContent instance) {
-		this.type = ResultType.INSTANCE;
-		this.content = instance;
+	public MyExpression(Map<Object, MyExpressionInterface> array) {
+		this.type = ResultType.ARRAY;
+		this.content = array;
 	}
 	
 	
-	public String getSPTag() {
-		String tag = null;
-		if (this.content != null && this.content instanceof MySPArrayContent) {
-			tag = ((MySPArrayContent)this.content).spname;
-		}
-		return tag;
-	}
+//		String tag = null;
+//			tag = ((MySPArrayContent)this.content).spname;
+//		return tag;
 	
-	public MyExpression (OperationType operator, MyExpression param1, MyExpression param2) {
+	public MyExpression (OperationType operator, MyExpressionInterface param1, MyExpressionInterface param2) {
 		this.type = ResultType.EXPRESSION;
 		this.operator = operator;
 		this.param1 = param1;
@@ -122,7 +114,7 @@ public class MyExpression extends MyExpressionObject{
 		}
 		if (null != param2) {
 			interestRelated |= param2.interestRelated;
-			unknown |= param2.interestRelated;
+			unknown |= param2.unknown;
 		}
 	}
 	
@@ -133,10 +125,10 @@ public class MyExpression extends MyExpressionObject{
 	}
 
 	
-	public static MyExpression getMyExpression(Expr exp, Map<Integer, MyVariable> locals, Map<Integer, MyVariable> refs) {
+	public static MyExpressionInterface getMyExpression(Expr exp, LocalValMap local, RefValMap ref) {
 		OperationType optype = null;
-		MyExpression var1 = null;
-		MyExpression var2 = null;
+		MyExpressionInterface var1 = null;
+		MyExpressionInterface var2 = null;
 		if (exp instanceof AbstractBinopExpr) {
 			if (exp instanceof JCmpExpr) {
 				optype = OperationType.EQUAL;
@@ -183,8 +175,8 @@ public class MyExpression extends MyExpressionObject{
 				Logger.log("error: unsolved binary operation:" + exp.getClass());
 			}
 			if (optype != null) {
-				var1 = Util.getVal(((AbstractBinopExpr)exp).getOp1(), locals, refs);
-				var2 = Util.getVal(((AbstractBinopExpr)exp).getOp2(), locals, refs);
+				var1 = Util.getVal(((AbstractBinopExpr)exp).getOp1(), local, ref);
+				var2 = Util.getVal(((AbstractBinopExpr)exp).getOp2(), local, ref);
 				MyExpression newExp = new MyExpression(optype, var1, var2);
 				if (var1 != null && var2 != null) {
 					return newExp;
@@ -200,6 +192,7 @@ public class MyExpression extends MyExpressionObject{
 			if (exp instanceof JLengthExpr) {
 				optype = OperationType.LENGTH;
 			} else if (exp instanceof JCastExpr) {
+				//TODO
 			} else if (exp instanceof JNegExpr) {
 				optype = OperationType.NEG;
 			} else {
@@ -208,7 +201,7 @@ public class MyExpression extends MyExpressionObject{
 			}
 			
 			if (optype != null) {
-				var1 =  Util.getVal(((AbstractUnopExpr)exp).getOp(), locals, refs);
+				var1 =  Util.getVal(((AbstractUnopExpr)exp).getOp(), local, ref);
 				if (var1 != null) {
 					MyExpression newExp = new MyExpression(optype, var1, null);
 					newExp.interestRelated = var1.interestRelated;
@@ -222,23 +215,22 @@ public class MyExpression extends MyExpressionObject{
 			Type exptype = exp.getType();
 			if (exptype instanceof RefType) {
 				SootClass nowClass = ((RefType)exptype).getSootClass();
-				if (nowClass.hasSuperclass() && nowClass.getSuperclass().getName().equals("java.lang.Enum")) {
-					MyEnumInstance myenum = new MyEnumInstance();
-					return myenum.trueExp;
-				} else if (nowClass.hasOuterClass() && nowClass.getOuterClass().hasSuperclass() && nowClass.getOuterClass().getSuperclass().getName().equals("java.lang.Enum")) {
-					MyEnumInstance myenum = new MyEnumInstance();
-					return myenum.trueExp;
+				if (nowClass.hasSuperclass() && nowClass.getSuperclass().getName().equals("java.lang.Enum")
+						|| nowClass.hasOuterClass() && nowClass.getOuterClass().hasSuperclass() && nowClass.getOuterClass().getSuperclass().getName().equals("java.lang.Enum")) {
+					return MyExpressionTree.createEnumInstance();
 				} else if (nowClass.getName().equals("java.lang.StringBuilder")) {
 					return new MyExpression("", ResultType.STRING);
 				} else {
-					return new MyExpression(new MyInstanceContent());
+					String typename = nowClass.getName();
+					MyExpressionTree tree = ref.getOrCreateSPTree(typename);
+					return tree;
 				}
 			}
 		} else if (exp instanceof JCastExpr) {
 			Value castOne = ((JCastExpr)exp).getOp();
-			return Util.getVal(castOne, locals, refs);
+			return Util.getVal(castOne, local, ref);
 		} else if (exp instanceof JNewArrayExpr) {
-			return new MyExpression(new MyArrayContent());
+			return MyExpressionTree.createInitTree();
 		} else if (exp instanceof JInstanceOfExpr) {
 			return null;
 		} else {
@@ -249,453 +241,6 @@ public class MyExpression extends MyExpressionObject{
 		
 
 		return null;
-	}
-	
-	private static HashMap<MyInterest, String> emptymap = new HashMap<MyInterest, String>();
-	public Object calculate() {
-		ExpressionValue value = calculate(emptymap);
-		if (null != value) {
-			return value.value;
-		}
-		return null;
-	}
-	
-	public ExpressionValue calculate(Map<MyInterest, String> interestValueMap) {
-		switch (this.type) {
-		case EXPRESSION : {
-			return dealWithExp(interestValueMap);
-		}
-		case INT : {
-			return new ExpressionValue(content, ResultType.INT);
-		}
-		case BOOLEAN : {
-			return new ExpressionValue(content, ResultType.BOOLEAN);
-		}
-		case FLOAT : {
-			return new ExpressionValue(content, ResultType.FLOAT);
-		}
-		case STRING : {
-			return new ExpressionValue(content, ResultType.STRING);
-		}
-		case ENUM : {
-			return new ExpressionValue(content, ResultType.ENUM);
-		}
-		case INSTANCE : {
-			return new ExpressionValue(content, ResultType.INSTANCE);
-		}
-		case ARRAY : {
-			return new ExpressionValue(content, ResultType.ARRAY);
-		}
-		case INTEREST : {
-			String valuestr = interestValueMap.get(content);
-			ResultType interestType = ((MyInterest)content).getResultType();
-			Object value = null;
-			try {
-				switch (interestType) {
-				case INT : {
-					value = Long.parseLong(valuestr);
-					break;
-				}
-				case FLOAT : {
-					value = Double.parseDouble(valuestr);
-					break;
-				}
-				case BOOLEAN : {
-					value = Integer.parseInt(valuestr);
-					break;
-				}
-				case STRING : {
-					value = valuestr;
-					break;
-				}
-				}
-				return new ExpressionValue(value, interestType);
-			}catch (NumberFormatException e) {
-					return new ExpressionValue(null, interestType);
-			}
-		}
-		default : {
-			return null;
-		}
-		}
-	}
-	
-	private ExpressionValue dealWithExp(Map<MyInterest, String> interestValueMap) {
-		Object returnValue = null;
-		ResultType returnType = ResultType.DEFAULT;
-		ExpressionValue leftValue = null;
-		ExpressionValue rightValue = null;
-		if (null != param1) leftValue = param1.calculate(interestValueMap);
-		if (null != param2) rightValue = param2.calculate(interestValueMap);
-		switch (operator) {
-		case EQUAL : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = leftValue.value.equals(rightValue.value)?1:0;
-			break;
-		}
-		case CONTAINS : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = leftValue.value.toString().contains(rightValue.value.toString())?1:0;
-			break;
-		}
-		case NAEQ : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = leftValue.value.equals(rightValue.value)?0:1;
-			break;
-		}
-		case ADD : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			ResultType lefttype = leftValue.type;
-			ResultType righttype = rightValue.type;
-			if (lefttype == ResultType.INT && righttype == ResultType.INT) {
-				returnType = ResultType.INT;
-				returnValue = Long.parseLong(leftValue.value.toString()) +  Long.parseLong(rightValue.value.toString());
-			} else {
-				returnType = ResultType.FLOAT;
-				returnValue = Double.parseDouble(leftValue.value.toString()) + Double.parseDouble(rightValue.value.toString());
-			}
-			break;
-		}
-		case SUB : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			ResultType lefttype = leftValue.type;
-			ResultType righttype = rightValue.type;
-			if (lefttype == ResultType.INT && righttype == ResultType.INT) {
-				returnType = ResultType.INT;
-				returnValue =  Long.parseLong(leftValue.value.toString()) -  Long.parseLong(rightValue.value.toString());
-			} else {
-				returnType = ResultType.FLOAT;
-				returnValue = Double.parseDouble(leftValue.value.toString()) - Double.parseDouble(rightValue.value.toString());
-			}
-			break;
-		}
-		case MUL : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			ResultType lefttype = leftValue.type;
-			ResultType righttype = rightValue.type;
-			if (lefttype == ResultType.INT && righttype == ResultType.INT) {
-				returnType = ResultType.INT;
-				returnValue =  Long.parseLong(leftValue.value.toString()) *  Long.parseLong(rightValue.value.toString());
-			} else {
-				returnType = ResultType.FLOAT;
-				returnValue = Double.parseDouble(leftValue.value.toString()) * Double.parseDouble(rightValue.value.toString());
-			}
-			break;
-		}
-		case DIV : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			ResultType lefttype = leftValue.type;
-			ResultType righttype = rightValue.type;
-			if (lefttype == ResultType.INT && righttype == ResultType.INT) {
-				returnType = ResultType.INT;
-				returnValue =  Long.parseLong(leftValue.value.toString()) / Long.parseLong(rightValue.value.toString());
-			} else {
-				returnType = ResultType.FLOAT;
-				returnValue = Double.parseDouble(leftValue.value.toString()) / Double.parseDouble(rightValue.value.toString());
-			}
-			break;
-		}
-		case MOD : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			ResultType lefttype = leftValue.type;
-			ResultType righttype = rightValue.type;
-			if (lefttype == ResultType.INT && righttype == ResultType.INT) {
-				returnType = ResultType.INT;
-				returnValue =  Long.parseLong(leftValue.value.toString()) % Long.parseLong(rightValue.value.toString());
-			} else {
-				returnType = ResultType.FLOAT;
-				returnValue = Double.parseDouble(leftValue.value.toString()) % Double.parseDouble(rightValue.value.toString());
-			}
-			break;
-		}
-		case LT : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = Double.parseDouble(leftValue.value.toString()) < Double.parseDouble(rightValue.value.toString()) ? 1:0;
-			break;
-		}
-		case LE : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = Double.parseDouble(leftValue.value.toString()) <= Double.parseDouble(rightValue.value.toString()) ? 1:0;
-			break;
-		}
-		case GT : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = Double.parseDouble(leftValue.value.toString()) > Double.parseDouble(rightValue.value.toString()) ? 1:0;
-			break;
-		}
-		case GE : {
-			if (null == leftValue || null == rightValue || null == leftValue.value || null == rightValue.value) {
-				break;
-			}
-			returnType = ResultType.BOOLEAN;
-			returnValue = Double.parseDouble(leftValue.value.toString()) >= Double.parseDouble(rightValue.value.toString()) ? 1:0;
-			break;
-		}
-		case AND : {
-			returnType = ResultType.BOOLEAN;
-			int result1 = 0;
-			if (null != param1) {
-				if (rightValue.value instanceof Integer) {
-					result1 = (int)rightValue.value;
-				} else if (rightValue.value instanceof Long) {
-					result1 = ((Long)rightValue.value).intValue();
-				}
-			}
-			int result2 = 0;
-			if (null != param2) {
-				if (leftValue.value instanceof Integer) {
-					result2 = (int)leftValue.value;
-				} else if (leftValue.value instanceof Long) {
-					result2 = ((Long)leftValue.value).intValue();
-				}
-			}
-			if (result1 == 1 && result2 == 1) {
-				returnValue = 1;
-			} else {
-				returnValue = 0;
-			}
-			break;
-		}
-		case OR : {
-			returnType = ResultType.BOOLEAN;
-			int result1 = 0;
-			if (null != param1) {
-				if (rightValue.value instanceof Integer) {
-					result1 = (int)rightValue.value;
-				} else if (rightValue.value instanceof Long) {
-					result1 = ((Long)rightValue.value).intValue();
-				}
-			}
-			int result2 = 0;
-			if (null != param2) {
-				if (leftValue.value instanceof Integer) {
-					result2 = (int)leftValue.value;
-				} else if (leftValue.value instanceof Long) {
-					result2 = ((Long)leftValue.value).intValue();
-				}
-			}
-			if (result1 == 1 || result2 == 1) {
-				returnValue = 1;
-			} else {
-				returnValue = 0;
-			}
-			break;
-		}
-		case XOR : {
-			returnType = ResultType.BOOLEAN;
-			int result1 = 0;
-			if (null != param1) {
-				if (rightValue.value instanceof Integer) {
-					result1 = (int)rightValue.value;
-				} else if (rightValue.value instanceof Long) {
-					result1 = ((Long)rightValue.value).intValue();
-				}
-			}
-			int result2 = 0;
-			if (null != param2) {
-				if (leftValue.value instanceof Integer) {
-					result2 = (int)leftValue.value;
-				} else if (leftValue.value instanceof Long) {
-					result2 = ((Long)leftValue.value).intValue();
-				}
-			}
-			if (1 == (result1 + result2)) {
-				returnValue = 1;
-			} else {
-				returnValue = 0;
-			}
-			break;
-		}
-		case NEG : {
-			if (null != leftValue) {
-				if (leftValue.type == ResultType.BOOLEAN) {
-					returnType = ResultType.BOOLEAN;
-					returnValue = 1 - (int)leftValue.value;
-				} else {
-					returnType = ResultType.INT;
-					returnValue = - (int)leftValue.value;
-				}
-			}
-			break;
-		}
-		case HASH : {
-			returnType = ResultType.INT;
-			returnValue = ((String)leftValue.value).hashCode();
-			break;
-		}
-		case UPPERCASE : {
-			if (null != leftValue && null != leftValue.value) {
-				returnType = ResultType.STRING;
-				returnValue = ((String)leftValue.value).toUpperCase();
-			}
-			break;
-		}
-		case LOWERCASE : {
-			if (null != leftValue && null != leftValue.value) {
-				returnType = ResultType.STRING;
-				returnValue = ((String)leftValue.value).toLowerCase();
-			}
-			break;
-		}
-		case VALUEOF : {
-			if (resultType == ResultType.ENUM) {
-				String name = (String)leftValue.value;
-				String enumname = content.toString();
-				MyEnum muenum = ExpressionTranslator.getEnumMap().get(enumname);
-				if (null != muenum) {
-					MyArrayContent arraycontent = muenum.values;
-					if (null != arraycontent && null != arraycontent.contentlist) {
-						for (Object key : arraycontent.contentlist.keySet()) {
-							MyEnumInstance myenuminstance = (MyEnumInstance)arraycontent.contentlist.get(key).calculate(interestValueMap).value;
-							if (myenuminstance.name.equals(name)) {
-								return new ExpressionValue(myenuminstance, ResultType.ENUM);
-							}
-						}
-					}
-					break;
-				}
-			} else if (resultType == ResultType.INT) {
-				if (null != leftValue.value) {
-					if (leftValue.value instanceof Integer) {
-						returnType = ResultType.INT;
-						returnValue = leftValue.value;
-					}
-				}
-			}
-
-			break;
-		}
-		case SAME : {
-			if (null != leftValue.value) {
-					returnType = leftValue.type;
-					returnValue = leftValue.value;
-			}
-			break;
-		}
-		case PRASEINT : {
-			if (null != leftValue && null != leftValue.value) {
-				returnValue = null;
-				returnType = ResultType.INT;
-				try {
-					returnValue = Integer.parseInt(leftValue.value.toString());
-				} catch (NumberFormatException e) {
-				}
-				
-			}
-			break;
-		}
-		case SELECT : {
-			if (null == leftValue) {
-				break;
-			}
-			if (leftValue.type == ResultType.ARRAY) {
-				MyArrayContent result = (MyArrayContent)leftValue.value;
-				Map<Object, MyExpression> list = result.getContentList();
-				if (null != rightValue && null != rightValue.value) {
-					MyExpression trueexp = list.get(rightValue.value);
-					if (null != trueexp) {
-						return trueexp.calculate(interestValueMap);
-					}
-				}
-			}
-			break;
-		}
-		case PUT : {
-			if (leftValue.type == ResultType.ARRAY) {
-				MyArrayContent result = (MyArrayContent)leftValue.value;
-				Map<Object, MyExpression> list = result.getContentList();
-				if (null != rightValue && null != rightValue.value) {
-					list.put(rightValue.value, (MyExpression)content);
-				}
-				return leftValue;
-			}
-			break;
-		}
-		case GETFIELD : {
-			if (null == leftValue) {
-				break;
-			}
-			if (leftValue.type == ResultType.INSTANCE) {
-				MyInstanceContent result = (MyInstanceContent)leftValue.value;
-				MyExpression trueexp = result.getfieldmap().get(content);
-				if (null != trueexp) {
-					return trueexp.calculate(interestValueMap);
-				}
-
-			}
-			break;
-		}
-		case SETFIELD : {
-			if (null == leftValue) {
-				break;
-			}
-			if (leftValue.type == ResultType.INSTANCE) {
-				MyInstanceContent result = (MyInstanceContent)leftValue.value;
-				result.getfieldmap().put(content.toString(), param2);
-				return leftValue;
-			}
-			break;
-		}
-		case ORDINAL : {
-			if (null == leftValue) {
-			} else {
-				if (null == leftValue.value ||  !(leftValue.value instanceof MyEnumInstance)) {
-					break;
-				}
-				MyEnumInstance myenuminstance = (MyEnumInstance)leftValue.value;
-				if (null != myenuminstance) {
-					return new ExpressionValue(myenuminstance.name, ResultType.STRING);
-				}
-			}
-			break;
-		}
-		case APPEND : {
-			returnType = ResultType.STRING;
-			if (null == param1) {
-				returnValue = rightValue.value;
-			} else if (null == param2) {
-				returnValue = leftValue.value;
-			}else {
-				returnValue = leftValue.value + "" + rightValue.value;
-			}
-			break;
-		}
-		}
-		ExpressionValue finalReturn = new ExpressionValue(returnValue, returnType);
-		return finalReturn;
-	}
-	
-
-	public ResultType getType() {
-		return type;
 	}
 	
 	public void setUnknown(boolean unknown) {

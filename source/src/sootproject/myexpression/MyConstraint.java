@@ -22,7 +22,7 @@ import soot.Body;
 import soot.Unit;
 
 public abstract class MyConstraint {
-	protected MyExpression myexpr = null;
+	protected MyExpressionInterface myexpr = null;
 	protected boolean unknown = false;
 	protected Expr z3Expr = null;
 	protected Set<MyInterest> involvedInterest = null;
@@ -34,9 +34,8 @@ public abstract class MyConstraint {
 	protected List<String> targetlocs = null;
 	protected Unit unit = null;
 	protected Body body = null;
-
-	protected Map<MyInterest, MyExpression> interestselfexps = null;
-	public MyConstraint(MyExpression myexp, Unit unit, Body body) {
+	protected Map<MyInterest, MyExpressionInterface> interestselfexps = null;
+	public MyConstraint(MyExpressionInterface myexp, Unit unit, Body body) {
 		this.unit = unit;
 		this.body = body;
 		if (myexp.unknown) {
@@ -46,7 +45,7 @@ public abstract class MyConstraint {
 		}
 		this.unknown = myexp.unknown;
 		this.involvedInterest = getInvolvedInterest(myexp);
-		this.interestselfexps = new HashMap<MyInterest, MyExpression>();
+		this.interestselfexps = new HashMap<MyInterest, MyExpressionInterface>();
 		for (MyInterest nowinterest: this.involvedInterest) {
 			interestselfexps.put(nowinterest, nowinterest.getSelfexp());
 		}
@@ -72,13 +71,13 @@ public abstract class MyConstraint {
 //		ctx = new Context();
 	}
 	
-	protected static Expr getZ3Expr(MyExpression myexp) {
+	protected static Expr getZ3Expr(MyExpressionInterface myexp) {
 		if (myexp == null) {
 			System.out.println("error : myexp is null!");
 			Logger.log("error : myexp is null!");
 		}
 		Expr trueExp = null;
-		switch (myexp.getType()) {
+		switch (myexp.type) {
 		case EXPRESSION : {
 			Expr expr1 = myexp.param1 != null?getZ3Expr(myexp.param1):null;
 			Expr expr2 = myexp.param2 != null?getZ3Expr(myexp.param2):null;
@@ -93,10 +92,8 @@ public abstract class MyConstraint {
 			trueExp = ctx.mkInt(myexp.content + "");
 			break;
 		}
-//		case LONG : {
 //			trueExp = ctx.mkInt(myexp.content + "");
 //			break;
-//		}
 		case FLOAT : {
 			trueExp = ctx.mkFP(Double.parseDouble(myexp.content + "") , ctx.mkFPSort64());
 			break;
@@ -134,7 +131,6 @@ public abstract class MyConstraint {
 		return trueExp;
 	}
 	
-	//for z3
 	protected static Expr opertaion(Expr expr1, Expr expr2, OperationType optype) {
 		if (null == expr1 && null == expr2) {
 			return null;
@@ -336,20 +332,20 @@ public abstract class MyConstraint {
 		return resultExp;
 	}
 	
-	public static Set<MyInterest> getInvolvedInterest(MyExpression exp) {
+	public static Set<MyInterest> getInvolvedInterest(MyExpressionInterface exp) {
 		Set<MyInterest> involvedInterests = new HashSet<MyInterest>();
-		Set<MyExpression> allexps = new HashSet<MyExpression>();
+		Set<MyExpressionInterface> allexps = new HashSet<MyExpressionInterface>();
 		getInvolvedInterestIt(involvedInterests, exp, allexps);
 		return involvedInterests;
 	}
 	
-	private static void getInvolvedInterestIt(Set<MyInterest> involvedInterests, MyExpression exp, Set<MyExpression> allexps) {
+	private static void getInvolvedInterestIt(Set<MyInterest> involvedInterests, MyExpressionInterface exp, Set<MyExpressionInterface> allexps) {
 		if (!allexps.contains(exp)) {
 			allexps.add(exp);
 		} else {
 			return;
 		}
-		switch (exp.getType()) {
+		switch (exp.type) {
 		case EXPRESSION: {
 			if (null != exp.param1) {
 				getInvolvedInterestIt(involvedInterests, exp.param1, allexps);
@@ -360,29 +356,26 @@ public abstract class MyConstraint {
 			break;
 		}
 		case INTEREST: {
+			if (!(exp.content instanceof MyInterest)) {
+				System.out.println();
+			}
 			involvedInterests.add((MyInterest)exp.content);
 			break;
 		}
 		case ARRAY: {
 			MyArrayContent arraycontent = (MyArrayContent)exp.content;
 			for (Object key : arraycontent.getContentList().keySet()) {
-				MyExpression innerexp = arraycontent.contentlist.get(key);
-				if (null != innerexp && innerexp.type != ResultType.INSTANCE && innerexp.type != ResultType.ARRAY) {
+				MyExpressionInterface innerexp = arraycontent.get(key);
+				if (null != innerexp && innerexp.type != ResultType.ARRAY) {
 					getInvolvedInterestIt(involvedInterests, arraycontent.contentlist.get(key), allexps);
 				}
 			}
 			break;
 		}
-		case INSTANCE: {
-			MyInstanceContent instancecontent = (MyInstanceContent)exp.content;
-			for (String key : instancecontent.getfieldmap().keySet()) {
-				MyExpression innerexp = instancecontent.getfieldmap().get(key);
-				if (null != innerexp && innerexp.type != ResultType.INSTANCE && innerexp.type != ResultType.ARRAY) {
-					getInvolvedInterestIt(involvedInterests, innerexp, allexps);
-				}
-			}
-			break;
-		}
+//			MyInstanceContent instancecontent = (MyInstanceContent)exp.content;
+//				MyExpressionInterface innerexp = instancecontent.getfieldmap().get(key);
+//					getInvolvedInterestIt(involvedInterests, innerexp, allexps);
+//			break;
 		default : {
 			break;
 		}

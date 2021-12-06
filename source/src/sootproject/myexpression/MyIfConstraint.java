@@ -8,7 +8,7 @@ import soot.Body;
 import soot.Unit;
 
 public class MyIfConstraint extends MyConstraint{
-	public MyIfConstraint(MyExpression myexp, Unit unit, Body body, int originresult, String originloc, long targetresult, String targetloc) {
+	public MyIfConstraint(MyExpressionInterface myexp, Unit unit, Body body, int originresult, String originloc, long targetresult, String targetloc) {
 		super(myexp, unit, body);
 		this.originresult = originresult;
 		this.originloc = originloc;

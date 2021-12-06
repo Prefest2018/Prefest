@@ -1,5 +1,5 @@
 package sootproject.myexpression;
 
-public class MyOperator extends MyExpressionObject{
+public class MyOperator implements MyExpressionObject{
 
 }

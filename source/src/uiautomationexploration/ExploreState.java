@@ -43,10 +43,12 @@ public abstract class ExploreState {
 	protected String currentactivity = null;
 	protected StateType statetype = StateType.DEFAULT;
 	protected static Adapter adapter = null;
+//	protected static Set<PreferenceTreeNode> allnodes = null;
 	protected static Stack<ExploreState> explorestates = null;
 	public static void init(Map<String, List<PreferenceTreeNode>> tobeviewedpreferenceforests, Stack<ExploreState> explorestates, Adapter adapter) {
 		ExploreState.explorestates = explorestates;
 		ExploreState.adapter = adapter;
+//		ExploreState.allnodes = new HashSet<PreferenceTreeNode>();
 		titlemap = new HashMap<Object, Set<String>>();
 		tobeexploredallnodes = new HashMap<String, Set<PreferenceTreeNode>>();
 		allnodes = new HashMap<String, Set<PreferenceTreeNode>>();
@@ -80,7 +82,13 @@ public abstract class ExploreState {
 			allnodes.put(key, allnode);
 		}
 	}
-
+	
+//		List<PreferenceTreeNode> nodes = nownode.getChildnodes();
+//		Set<String> titles = new HashSet<String>();
+//					tobeexplorednodes.add(node);
+//					addTitlesAndTobeexplored(titlemap, node, tobeexplorednodes);
+//					titles.add(node.title);
+//				titlemap.put(nownode, titles);
 	public ExploreState() {
 		currentsteps = new Stack<String>();
 	}
@@ -93,13 +101,26 @@ public abstract class ExploreState {
 		SAXReader reader = new SAXReader();
 		Document document = null;
 		Element root = null;
+		//adapt the newest xml version of uiautomator2
+		int tindex = uicontent.indexOf("<hierarchy");
+		if (tindex > 0) {
+			if (uicontent.endsWith("'")) {
+				uicontent = uicontent.substring(tindex, uicontent.length() - 1);
+			} else {
+				uicontent = uicontent.substring(tindex);
+			}
+		} else {
+			System.out.println();
+		}
 		try {
 			document = reader.read(new ByteArrayInputStream(uicontent.getBytes("UTF-8")));
 			root = document.getRootElement();
 		} catch (DocumentException e) {
+			e.printStackTrace();
 			System.out.println("warning:XML file reading fails! ");
 		} catch (UnsupportedEncodingException e) {
 			System.out.println("warning:XML file reading fails! ");
+			e.printStackTrace();
 		}
 		return root;
 	}
@@ -188,7 +209,10 @@ public abstract class ExploreState {
 			ArrayList<String> templist = new ArrayList<String>(steps);
 			templist.addAll(node.getTitleWithinSamePage());
 			node.setTitles(templist);
-
+//				node.activityname = activityname;
+//			InterestValue value = adapter.preferencelist.get(node.key);
+//				value.isadapted = true;
+//				value.activityname = activityname;
 		}
 	}
 	

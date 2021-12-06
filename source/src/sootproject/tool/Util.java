@@ -5,15 +5,19 @@ import java.util.Map;
 
 import org.objectweb.asm.Type;
 
+import GUI.Main;
+import data.LocalValMap;
+import data.RefValMap;
+import sootproject.myexpression.MyExpressionTree;
 import sootproject.myexpression.ExpressionValue;
-import sootproject.myexpression.MyArray;
 import sootproject.myexpression.MyArrayContent;
 import sootproject.myexpression.MyExpression;
-import sootproject.myexpression.MyInstanceContent;
+import sootproject.myexpression.MyExpressionInterface;
 import sootproject.myexpression.MyVariable;
 import sootproject.myexpression.ResultType;
 import soot.ArrayType;
 import soot.Local;
+import soot.PrimType;
 import soot.RefType;
 import soot.Value;
 import soot.jimple.Constant;
@@ -30,74 +34,119 @@ import soot.jimple.internal.JArrayRef;
 import soot.jimple.internal.JInstanceFieldRef;
 
 public class Util {
-	public final static MyVariable getParam(final Value value, Map<Integer, MyVariable> localMaps, final Map<Integer, MyVariable> refMaps) {
+
+	public final static MyVariable getParam(final Value value, LocalValMap localMap, final RefValMap refMap) {
 		MyVariable myVal = null;
 		if (value instanceof Local) {
-			myVal = localMaps.get(value.equivHashCode());
+			myVal = localMap.get(value);
 			if (null == myVal) {
-				if (value.getType() instanceof ArrayType) {
-					myVal = new MyArray(value, null);
+				if (value.getType() instanceof PrimType){
+					myVal = new MyVariable(value, false);
 				} else {
-					myVal = new MyVariable(value, null);
+					//if (value.getType() instanceof ArrayType) 
+					MyExpressionTree arrayTree = MyExpressionTree.createInitTree();
+					myVal = new MyVariable(value, arrayTree, false);
 				}
-				localMaps.put(value.equivHashCode(), myVal);
+				localMap.put(value, myVal);
 			}
 		} else if (value instanceof Ref) {
 			if (value instanceof JArrayRef) {
 				Value arrayBase = ((JArrayRef)value).getBase();
 				MyVariable arrayVal = null;
 				if (arrayBase instanceof Local) {
-					arrayVal = localMaps.get(arrayBase.equivHashCode());
+					arrayVal = localMap.get(arrayBase);
 					if (null == arrayVal) {
-						arrayVal = new MyArray(arrayBase, null);
-						localMaps.put(arrayBase.equivHashCode(), arrayVal);
+						MyExpressionTree arrayTree = MyExpressionTree.createInitTree();
+						arrayVal = new MyVariable(arrayBase, arrayTree, false);
+						localMap.put(arrayBase, arrayVal);
 					}
 				} else if (arrayBase instanceof Ref) {
-					arrayVal = refMaps.get(arrayBase.equivHashCode());
+					arrayVal = refMap.get(arrayBase);
 					if (null == arrayVal) {
-						arrayVal = new MyArray(arrayBase, null);
-						refMaps.put(arrayBase.equivHashCode(), arrayVal);
+						MyExpressionTree arrayTree = refMap.getTree(value);
+						if (null == arrayTree) {
+							arrayTree = MyExpressionTree.createInitTree();
+							refMap.setTree(value, arrayTree);
+						}
+						arrayVal = new MyVariable(arrayBase, arrayTree, false);
+						refMap.put(arrayBase, arrayVal);
 					}
 				}
-				if (null == arrayVal.getTrueExp()) {
-					arrayVal.setTrueExp(new MyExpression(new MyArrayContent()));
-				}
-				MyExpression indexexp = Util.getVal(((JArrayRef)value).getIndex(), localMaps, refMaps);
-				return ((MyArray)arrayVal).getInnerVal(value, indexexp);
+				MyExpressionInterface indexexp = Util.getVal(((JArrayRef)value).getIndex(), localMap, refMap);
+				MyExpressionTree tree = (MyExpressionTree) arrayVal.getTrueExp();
+				return new MyVariable(value, tree.getChild(indexexp, value.getType() instanceof ArrayType), true);
 			} else if (value instanceof JInstanceFieldRef) {
 				JInstanceFieldRef nowref = ((JInstanceFieldRef)value);
 				Value instancebase = nowref.getBase();
+				String fieldname = nowref.getField().getName();
 				MyVariable instanceval = null;
 				if (instancebase instanceof Local) {
-					instanceval = localMaps.get(instancebase.equivHashCode());
+					instanceval = localMap.get(instancebase);
 					if (null == instanceval) {
-						instanceval = new MyVariable(instancebase, null, true);
-						localMaps.put(instancebase.equivHashCode(), instanceval);
+						MyExpressionTree tree = MyExpressionTree.createInitTree();
+						instanceval = new MyVariable(instancebase, tree, false);
+						localMap.put(instancebase, instanceval);
 					}
+
 				} else if (instancebase instanceof Ref) {
-					instanceval = refMaps.get(instancebase.equivHashCode());
+					instanceval = refMap.get(instancebase);
 					if (null == instanceval) {
-						instanceval = new MyVariable(instancebase, null, true);
-						refMaps.put(instancebase.equivHashCode(), instanceval);
+						MyExpressionTree tree = refMap.getTree(value);
+						if (null == tree) {
+							tree = MyExpressionTree.createInitTree();
+							refMap.setTree(value, tree);
+						}
+						instanceval = new MyVariable(instancebase, tree, false);
+						refMap.put(instancebase, instanceval);
 					}
 				}
-				if (null == instanceval.getTrueExp()) {
-					instanceval.setTrueExp(new MyExpression(new MyInstanceContent()));
+				MyExpressionTree parenttree = null;
+				if (null == instanceval.getTrueExp() || instanceval.getTrueExp() instanceof MyExpression) {
+					parenttree = MyExpressionTree.createInitTree();
+					instanceval.setTrueExp(parenttree);
+				} else {
+					parenttree = (MyExpressionTree)instanceval.getTrueExp();
 				}
-				instanceval.isInstance = true;
-				return instanceval.instanceGetInnerVal(nowref);
+				if (null == parenttree) {
+					System.out.println();
+				}
+				MyExpressionTree tree = parenttree.getChild(fieldname, value, refMap);
+				return new MyVariable(value, tree, true); 
 
 			} else {
-				myVal = refMaps.get(value.equivHashCode());
-				if (null == myVal) {
-					if (value.getType() instanceof ArrayType) {
-						myVal = new MyArray(value, null);
-					} else {
-
-							myVal = new MyVariable(value, null);
+				if (value instanceof ParameterRef || value instanceof ThisRef) {
+					myVal = localMap.get(value);
+					if (null == myVal) {
+						MyExpressionTree tree = null;
+						String typename = value.getType().toString();
+						if (typename.contains(Main.packagename)) {
+							tree = refMap.getOrCreateSPTree(value.getType().toString());
+						} else {
+							tree = MyExpressionTree.createInitTree();
+						}
+						myVal = new MyVariable(value, tree, false);
+						localMap.put(value, myVal);
 					}
-					refMaps.put(value.equivHashCode(), myVal);
+				} else {
+					myVal = refMap.get(value);
+					if (null == myVal) {
+						MyExpressionTree tree = MyExpressionTree.createInitTree();
+						refMap.setTree(value, tree);
+						myVal = new MyVariable(value, tree, false);
+						refMap.put(value, myVal);
+					}
 				}
+				
+				
+//				myVal = refMap.get(value);
+//						MyExpressionTree tree = MyExpressionTree.createInitTree();
+//						myVal = new MyVariable(value, tree, true);
+//						MyExpressionTree tree = null;
+//						tree = refMap.getTree(value, isSP);
+//							tree = MyExpressionTree.createInitTree();
+//							refMap.setTree(value, tree);
+//						myVal = new MyVariable(value, tree, !isSP);
+//					refMap.put(value, myVal);
 			}
 		} else {
 			System.out.println("error: 'Util' exists parameters are neither 'Local' nor 'Ref'!!");
@@ -107,7 +156,7 @@ public class Util {
 	
 	
 	
-	public final static MyExpression getConstant(final Constant constant) {
+	public final static MyExpressionInterface getConstant(final Constant constant) {
 		MyExpression exp = null;
 		if (constant instanceof StringConstant) {
 			exp = new MyExpression(((StringConstant)constant).value, ResultType.STRING);
@@ -126,9 +175,9 @@ public class Util {
 		return exp;
 	}
 	
-	public final static MyExpression getVal(final Value value, Map<Integer, MyVariable> localMaps, final Map<Integer, MyVariable> refMaps) {
+	public final static MyExpressionInterface getVal(final Value value, LocalValMap localMap, final RefValMap refMap) {
 		if (value instanceof Local || value instanceof Ref) {
-			MyVariable val =  getParam(value, localMaps, refMaps);
+			MyVariable val =  getParam(value, localMap, refMap);
 			if (val != null) {
 				return val.getTrueExp();
 			}

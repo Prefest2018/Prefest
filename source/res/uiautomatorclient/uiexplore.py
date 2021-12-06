@@ -36,10 +36,10 @@ def main(arg):
                 result = 'failure'
                 break;
         else:
-            print 'error cmd'
+            print('error cmd')
     print(result + '\r')
     print('---\r')
-    print(automation.getCurrentScreen() + '\r')
+    print(str(automation.getCurrentScreen()) + '\r')
     print('end' + '\r')
 if __name__ == '__main__':
 	main(sys.argv)

@@ -23,32 +23,38 @@ import sootproject.preferenceAnalyse.PreferenceAnalyser;
 public class ConstraintSolver {
 	private Map<String, MyNoBranchConstraint> instancecache = new HashMap<String, MyNoBranchConstraint>();
 	private LinkedList<MyConstraint> constraints = null;
+//	private LinkedList<MyNoBranchConstraint> nobranchconstraints = null;
 
 	private Map<String, InterestValue> preinterests = null;
+	private Map<String, List<String>> preinterestloc = null;
 	public ConstraintSolver() {
 		this.constraints = new LinkedList<MyConstraint>();
-
+//		this.nobranchconstraints = new LinkedList<MyNoBranchConstraint>();
 		preinterests = new HashMap<String, InterestValue>();
+		preinterestloc = new HashMap<String, List<String>>();
 		MyConstraint.init();
 	}
 
 	public void addConstraint(MyConstraint newConstraint) {
 		constraints.add(newConstraint);
 	}
-	public void addNoBranchConstraint(String loc, Set<MyExpression> exps) {
+	public void addNoBranchConstraint(String loc, Set<MyExpressionInterface> exps) {
 		MyNoBranchConstraint constraint = MyNoBranchConstraint.getInstance(loc, exps, instancecache);
 		if (null != constraint) {
 			constraints.add(constraint);
 		}
-
+		
+//			nobranchconstraints.add(constraint);
 	}
 
 	public void analyse(String tagname) {
-		
+
 		for (MyConstraint cons : constraints) {
+//				System.out.println();
 			Scene scene = null;
 			if (!cons.unknown) {
-				List<InterestValue> templist = new ArrayList<InterestValue>();
+//				scene = caclucateWithBeforeConstraints(cons);
+				ArrayList<InterestValue> templist = new ArrayList<InterestValue>();
 				templist.addAll(preinterests.values());
 				if (cons instanceof MyNoBranchConstraint) {
 					List<Scene> scenes = getscenes((MyNoBranchConstraint)cons, templist);
@@ -86,30 +92,32 @@ public class ConstraintSolver {
 					}
 					Scene extrascene = caclucate(cons, cons.originresult);
 					if (null != extrascene) {
-						for (InterestValue prevalue: extrascene.interests) {
-							preinterests.put(prevalue.name, prevalue);
+						if (!preinterestloc.containsKey(extrascene.branchids)) {
+							ArrayList<String> interestnamearray = new ArrayList<String>();
+							for (InterestValue prevalue: extrascene.interests) {
+								preinterests.put(prevalue.name, prevalue);
+								interestnamearray.add(prevalue.name);
+							}
+							preinterestloc.put(extrascene.branchids, interestnamearray);
 						}
 					}
 				}
 
 			}
-			//z3 part
-//			} else {
 //				scene = calculateforZ3(cons);
-//			}
 
 
 		}
 		
 	}
 	
-	private Map<InterestValue, List<InterestValue>> interestlistchache = new HashMap<InterestValue, List<InterestValue>>();
-	public List<Scene> getscenes(MyNoBranchConstraint constrain, List<InterestValue> preinterests) {
+	private Map<InterestValue, ArrayList<InterestValue>> interestlistchache = new HashMap<InterestValue, ArrayList<InterestValue>>();
+	public List<Scene> getscenes(MyNoBranchConstraint constrain, ArrayList<InterestValue> preinterests) {
 		List<Scene> scenes = new ArrayList<Scene>();
 		Set<MyInterest> interests = constrain.involvedInterest;
 		for (MyInterest interest : interests) {
 			for (InterestValue interestvalue : interest.getallpossibleValues()) {
-				List<InterestValue> list = interestlistchache.get(interestvalue);
+				ArrayList<InterestValue> list = interestlistchache.get(interestvalue);
 				if (null == list) {
 					list = new ArrayList<InterestValue>();
 					list.add(interestvalue);
@@ -134,7 +142,7 @@ public class ConstraintSolver {
 			
 			if (solver.check() == Status.SATISFIABLE) {
 				Model model = solver.getModel();
-				List<InterestValue> values = new ArrayList<InterestValue>();
+				ArrayList<InterestValue> values = new ArrayList<InterestValue>();
 				for (MyInterest interest : nowConstraint.involvedInterest) {
 					Expr interestexpr = MyConstraint.interestMap.get(interest);
 					String value = model.evaluate(interestexpr, false).toString();
@@ -150,6 +158,9 @@ public class ConstraintSolver {
 	
 	public Scene caclucate(MyConstraint nowConstraint, long targetresult) {
 		Set<MyInterest> involvedInterests = nowConstraint.involvedInterest;
+		if (null == involvedInterests || involvedInterests.isEmpty()) {
+			return null;
+		}
 		Map<MyInterest, itData> interestDataMap = new HashMap<MyInterest, itData>();
 		Map<MyInterest, String> interestValueMap = new HashMap<MyInterest, String>();
 		LinkedList<MyInterest> involvedInterestslist = new LinkedList<MyInterest>(involvedInterests);
@@ -163,9 +174,10 @@ public class ConstraintSolver {
 		total:while (true) {
 			HashMap<MyInterest, String> newmap = new HashMap<MyInterest, String>();
 			for (MyInterest temp : interestValueMap.keySet()) {
-				MyExpression selfexp = nowConstraint.interestselfexps.get(temp);
+				MyExpressionInterface selfexp = nowConstraint.interestselfexps.get(temp);
 				if (null != selfexp) {
-					Object newvalue = selfexp.calculate(interestValueMap).value;
+					ExpressionValue value = selfexp.calculate(interestValueMap);
+					Object newvalue = value == null? null : value.value;
 					if (null != newvalue) {
 						newmap.put(temp, newvalue + "");
 						continue;
@@ -190,7 +202,7 @@ public class ConstraintSolver {
 							break;
 						}
 					}
-					List<InterestValue> values = new ArrayList<InterestValue>();
+					ArrayList<InterestValue> values = new ArrayList<InterestValue>();
 					for (MyInterest nowinterest: interestValueMap.keySet()) {
 						InterestValue tempvalue = nowinterest.getInterestValue(interestValueMap.get(nowinterest));
 						values.add(tempvalue);
@@ -205,7 +217,8 @@ public class ConstraintSolver {
 			int i = involvedInterestslist.size() - 1;
 			boolean shouldLoop = false;
 			do {
-				itData nowData = interestDataMap.get(involvedInterestslist.get(i));
+				itData nowData = null;
+				nowData = interestDataMap.get(involvedInterestslist.get(i));
 				shouldLoop = nowData.add();
 				interestValueMap.put(nowData.interest, nowData.nowValue);
 				i--;
@@ -219,103 +232,57 @@ public class ConstraintSolver {
 		return null;
 	}
 	
-//	private Scene caclucateWithBeforeConstraints(MyConstraint nowConstraint) {
 //		LinkedList<MyConstraint> beforeconstraints = new LinkedList<MyConstraint>();
-//		for (int i = 0; i < constraints.size(); i++) {
 //			MyConstraint now = constraints.get(i);
-//			if (!now.unknown) {
 //				beforeconstraints.add(now);
-//			}
-//			if (now == nowConstraint) {
 //				break;
-//			}
-//		}
 //		Set<MyInterest> involvedInterests = new HashSet<MyInterest>();
-//		for (MyConstraint con : beforeconstraints) {
 //			involvedInterests.addAll(con.involvedInterest);
-//		}
 //		Map<MyInterest, itData> interestDataMap = new HashMap<MyInterest, itData>();
 //		Map<MyInterest, String> interestValueMap = new HashMap<MyInterest, String>();
 //		LinkedList<MyInterest> involvedInterestslist = new LinkedList<MyInterest>(involvedInterests);
 //
-//		for (MyInterest temp : involvedInterestslist) {
 //			itData newData = new itData(temp, temp.getPossibleValues());
 //			interestDataMap.put(temp, newData);
 //			interestValueMap.put(temp, newData.nowValue);
-//		}
 //
-//		total:while (true) {
 //			boolean isok = true;
 //			long finalnewvalue = -1;
-//			for (MyConstraint con : beforeconstraints) {
 //				HashMap<MyInterest, String> newmap = new HashMap<MyInterest, String>();
-//				for (MyInterest temp : interestValueMap.keySet()) {
 //					MyExpression selfexp = con.interestselfexps.get(temp);
-//					if (null != selfexp) {
 //						Object newvalue = selfexp.calculate(interestValueMap).value;
-//						if (null != newvalue) {
 //							newmap.put(temp, newvalue + "");
 //							continue;
-//						}
-//					}
 //					newmap.put(temp, interestValueMap.get(temp));
-//				}
 //				
 //				ExpressionValue calcuResult = con.myexpr.calculate(newmap);
-//				if (null != calcuResult.value) {
 //					long nowvalue = Long.parseLong(calcuResult.value.toString());
-//					if (con != nowConstraint) {
-//						if (nowvalue != con.originresult) {
 //							isok = false;
 //							break;
-//						}
-//					} else {
 //						finalnewvalue = nowvalue;
-//						if (nowvalue == con.originresult) {
 //							isok = false;
 //							break;
-//						}
-//					}	
-//				}
-//			}
 //			
-//			if (isok) {
 //				String targetloc = null;
-//				for (int i = 0; i < nowConstraint.targetresults.size(); i++) {
-//					if (nowConstraint.targetresults.get(i).equals(finalnewvalue)) {
 //						targetloc = nowConstraint.targetlocs.get(i);
 //						break;
-//					}
-//				}
 //				List<InterestValue> values = new ArrayList<InterestValue>();
 //				List<InterestValue> prevalues = new ArrayList<InterestValue>();
-//				for (MyInterest nowinterest: interestValueMap.keySet()) {
-//					if (nowConstraint.involvedInterest.contains(nowinterest)) {
 //						values.add(nowinterest.getInterestValue(interestValueMap.get(nowinterest)));
-//					} else {
 //						prevalues.add(nowinterest.getInterestValue(interestValueMap.get(nowinterest)));
-//					}
 //					
-//				}
 //				Scene scene = new Scene(nowConstraint.originloc, targetloc, values, prevalues);
 //				return scene;
-//			}
 //			int i = involvedInterestslist.size() - 1;
 //			boolean shouldLoop = false;
-//			do {
 //				itData nowData = interestDataMap.get(involvedInterestslist.get(i));
 //				shouldLoop = nowData.add();
 //				interestValueMap.put(nowData.interest, nowData.nowValue);
 //				i--;
-//				if ((i < 0) && shouldLoop) {
 //					break total;
-//				}
-//			} while (shouldLoop);
 //			
-//		}
 //		
 //		return null;
-//	}
 	
 	private class itData {
 		MyInterest interest = null;

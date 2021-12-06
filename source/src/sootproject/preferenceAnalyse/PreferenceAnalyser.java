@@ -22,6 +22,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 import GUI.Main;
+import appiumscript.scriptexecutor.LocThread;
 import data.InterestValue;
 import data.Scene;
 import data.TestCaseData;
@@ -30,6 +31,7 @@ import sootproject.analysedata.MySystemService;
 import sootproject.analysedata.TrailState;
 import sootproject.data.MyMethodDeclaration;
 import sootproject.data.MyNode;
+import sootproject.myexpression.ExpressionTranslator;
 import sootproject.resourceLoader.PreferenceTreeNode;
 import sootproject.resourceLoader.ResourceLoader;
 import sootproject.soot.PreferenceAnalyseTransformer;
@@ -90,7 +92,14 @@ public class PreferenceAnalyser {
 		for (Set<String> locs : this.skipmethodmap.values()) {
 			this.skiplocs.addAll(locs);
 		}
-		
+		this.skiplocs.add(LocThread.ERRORASSERT);
+		this.skiplocs.add(LocThread.ERROREXCEPTION);
+		System.out.println("skipmethodmap size is : " + this.skipmethodmap.size());
+		System.out.println("skip size is : " + this.skiplocs.size());
+		System.out.println("analysisNum size is : " + transformer.analysisNum);
+		System.out.println("statNum size is : " + transformer.statNum);
+		System.out.println("spLog size is : " + transformer.spLog);
+
 	}
 	
 	public static Map<String, TestCaseData> getTestcasedata() {
@@ -107,12 +116,13 @@ public class PreferenceAnalyser {
 	}
 	
 
-	public void analysePreferenceFromLogs() {
+	public void analysePreferenceFromLogs(String outputfilename) {
 		TrailState.setLogMaps(logMap, nodeMap, methodMap, overrideMap, skipmethodmap);
+		//readLogs();
 		readPreferenceInfo();
 		addSystemServiceInterest();
 		analyse();
-		JsonHelper.savetestcasesdataAdapt(testcasedata, Main.testcaseinfofile);
+		JsonHelper.savetestcasesdataAdapt(testcasedata, outputfilename);
 		Map<Body, Set<String>> logmaps = new HashMap<Body, Set<String>>();
 		for (String tagname : testcasedata.keySet()) {
 			TestCaseData data = testcasedata.get(tagname);
@@ -146,17 +156,19 @@ public class PreferenceAnalyser {
 	}
 
 	public List<String> readLogs(TestCaseData data) {
+//		TrailState.setLogMaps(logMap, nodeMap, methodMap);
 		List<String> strList = new ArrayList<String>();
 		try {
 
+//				data.firstloclogs = strList;
 			File locfile = new File(data.firstlocpath);
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(locfile), "UTF-8"));
 			String content = null;
 			while((content = br.readLine()) != null) {
-				if (!content.contains("V/loc")) {
+				if (!content.contains("V loc") && !content.contains("V/loc")) { 
 					continue;
 				}
-				int startNum = content.indexOf(':', 15);
+				int startNum = content.lastIndexOf(':');
 				if (startNum < 0) {
 					continue;
 				}
@@ -177,6 +189,7 @@ public class PreferenceAnalyser {
 			}
 			br.close();
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return strList;
@@ -189,6 +202,7 @@ public class PreferenceAnalyser {
 		resLoader = new ResourceLoader(resfolder, sourcefolder, preferencesuperclassmap, this.preference2activitymap);
 		this.interestMaps = resLoader.getResourcePreferenceInfo(preferencexmlmap);
 		this.stridmap = resLoader.getStringIDmap();
+		this.interestMaps = FailurePreferenceAdapter.dealWithFailurePreference(interestMaps);
 		resLoader.printpreferencemap();
 	}
 	
@@ -199,37 +213,86 @@ public class PreferenceAnalyser {
 	
 	private void addSystemServiceInterest() {
 		this.interestMaps.putAll(allsystemservices);
-
+//			MySystemService service = new MySystemService(servicename, "boolean");
+//			this.interestMaps.put(servicename, service);
 	}
 	
 	private static final int ACTIVETHREADNUM = 4;
+	private boolean ismultithread = true;
 	
 	private void analyse() {
-		ThreadPoolExecutor executor = new ThreadPoolExecutor(ACTIVETHREADNUM, ACTIVETHREADNUM, 5, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(30000));
-		List<Future<?>> futures = Collections.synchronizedList(new ArrayList<Future<?>>());
-		
-		
-		for (String tag : testcasedata.keySet()) {
+		if (ismultithread && !TrailState.debug) {
+			ThreadPoolExecutor executor = new ThreadPoolExecutor(ACTIVETHREADNUM, ACTIVETHREADNUM, 5, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(30000));
+			Map<String, Future<?>> futures = Collections.synchronizedMap(new HashMap<String, Future<?>>());
+			for (String tag : testcasedata.keySet()) {
 
-			TestCaseData data = testcasedata.get(tag);
-			futures.add(executor.submit(new AnalysisCallable(data)));
-		}
-		for (int i = 0 ; i < futures.size(); i++) {
-			try {
-				Future<?> future = futures.get(i);
-				String tag = (String)future.get();
-				System.out.println("current completed tag is: " + tag + " , progress: " + (i + 1) + "/" +testcasedata.size());
-
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			} catch (ExecutionException e) {
-				e.printStackTrace();
+//					continue;
+				TestCaseData data = testcasedata.get(tag);
+				futures.put(data.tagname, executor.submit(new AnalysisCallable(data)));
 			}
+			int i = 0;
+			for (String tagname : futures.keySet()) {
+				try {
+					Future<?> future = futures.get(tagname);
+					String tag = (String)future.get();
+					System.out.println("current completed tag is: " + tag + " , progress: " + (i + 1) + "/" +testcasedata.size());
+
+				} catch (InterruptedException e) {
+					System.err.println("error tagname is : " + tagname);
+					e.printStackTrace();
+				} catch (ExecutionException e) {
+					System.err.println("error tagname is : " + tagname);
+					e.printStackTrace();
+				} finally {
+					i++;
+				}
+			}
+		} else {
+			
+			try {
+				for (String tag : testcasedata.keySet()) {
+//						continue;
+					TestCaseData data = testcasedata.get(tag);
+					List<String> logs = readLogs(data);
+					TrailState nowState = null;
+					nowState = new TrailState(interestMaps, data.tagname, stridmap);
+//				int inneri = 0;
+					for (String log : logs) {
+						if (skiplocs.contains(log)) {
+							continue;
+						}
+						int logidNum = -1;
+						int branchidNum = -1;
+						if (log.contains("-")) {
+							String[] strs = log.split("-");
+							logidNum = Integer.parseInt(strs[0]);
+							branchidNum = Integer.parseInt(strs[1]);
+						} else {
+							logidNum = Integer.parseInt(log);
+						}
+						nowState.next(logidNum, branchidNum);
+//					inneri++;
+					}
+					nowState.analysePreference();
+
+				}
+			} catch (RuntimeException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				
+			}
+			Logger.logadd("used preferences including : \r\n");
+			for (String preName : ExpressionTranslator.testPreferenceNames) {
+				Logger.logadd(preName + "\r\n");
+			}
+			Logger.logadd("\r\n");
+			Logger.logoutput();
 		}
 	}
 	
 	class AnalysisCallable implements Callable<String> {
 		private TestCaseData data = null;
+		public String tagname = null;
 		public AnalysisCallable(TestCaseData data) {
 			this.data = data;
 		}
@@ -237,24 +300,31 @@ public class PreferenceAnalyser {
 		public String call() {
 			List<String> logs = readLogs(data);
 			TrailState nowState = null;
+			tagname = data.tagname;
 			nowState = new TrailState(interestMaps, data.tagname, stridmap);
-			int length = logs.size();
+//			int inneri = 0;
 			for (String log : logs) {
 				if (skiplocs.contains(log)) {
 					continue;
 				}
 				int logidNum = -1;
 				int branchidNum = -1;
-				if (log.contains("-")) {
-					String[] strs = log.split("-");
-					logidNum = Integer.parseInt(strs[0]);
-					branchidNum = Integer.parseInt(strs[1]);
-				} else {
-					logidNum = Integer.parseInt(log);
+				try {
+					if (log.contains("-")) {
+						String[] strs = log.split("-");
+						logidNum = Integer.parseInt(strs[0]);
+						branchidNum = Integer.parseInt(strs[1]);
+					} else {
+	
+							logidNum = Integer.parseInt(log);
+	
+					}
+				} catch(NumberFormatException e) {
+					continue;
 				}
 				nowState.next(logidNum, branchidNum);
+//				inneri++;
 			}
-
 			nowState.analysePreference();
 			return data.tagname;
 		}

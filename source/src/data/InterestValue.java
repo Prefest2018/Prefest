@@ -1,6 +1,8 @@
 package data;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class InterestValue {
 	public String generaltype = null;
@@ -14,7 +16,7 @@ public class InterestValue {
 	public List<String> preferencesteps = null;
 	public int index = -1;
 	public boolean isadapted = false;
-
+	public Map<String, Object> extradatas = null;
 	public InterestValue dependency = null;
 	
 	public InterestValue(String generaltype, String innertype, String type, String name, String value, int index, String activityname) {
@@ -25,8 +27,9 @@ public class InterestValue {
 		this.value = value;
 		this.index = index;
 		this.activityname = activityname;
+		this.extradatas = new HashMap<String, Object>();
 	}
-	
+
 	public InterestValue(InterestValue oldone, String newvalue) {
 		this.generaltype = oldone.generaltype;
 		this.innertype = oldone.innertype;
@@ -36,6 +39,7 @@ public class InterestValue {
 		this.index = oldone.index;
 		this.activityname = oldone.activityname;
 		this.activityextra = oldone.activityextra;
+		this.extradatas = oldone.extradatas;
 	}
 	
 	public boolean equals(Object anothervalue) {

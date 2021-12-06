@@ -25,7 +25,8 @@ public class ErrorCollectThread extends Thread{
 
 	@Override
 	public void run() {
-		ProcessBuilder builder = ProcessExecutor.getPBInstance("adb", "logcat", "AndroidRuntime:E ActivityThread:E *:S");
+		ProcessBuilder builder = ProcessExecutor.getPBInstance("adb", "logcat", "AndroidRuntime:E CrashAnrDetector:D ActivityManager:E SQLiteDatabase:E WindowManager:E ActivityThread:E Parcel:E *:F *:S");
+//		ProcessBuilder builder = new ProcessBuilder("adb", "logcat", "AndroidRuntime:E *:S");
 
 		try {
 	    	System.out.println("adb error log start:");
@@ -34,7 +35,7 @@ public class ErrorCollectThread extends Thread{
 	    	String result = null;
 	    	while(((result = p_stdout.readLine()) != null)) {
 	    		lock.lock();
-	    		if (result.contains("AndroidRuntime:E")) {
+	    		if (result.contains("AndroidRuntime")) {
 	    			hasbug = true;
 	    		}
 		    	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(errorlogFile, true), "UTF-8"));

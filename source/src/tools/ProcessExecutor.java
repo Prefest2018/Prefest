@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import GUI.Main;
 
@@ -103,5 +102,14 @@ public class ProcessExecutor {
 //			Map<String, String> envs = builder.environment();
 //			envs.putAll(System.getenv());
 			return builder;
+		}
+		
+		public static void main(String[] arg) {
+			ProcessExecutor a = new ProcessExecutor();
+			Logger.setTempLogFile("C:\\Users\\yifeilu\\Documents\\test.log", false);
+			ProcessExecutor.process("adb", "shell", "am", "instrument", "-w", "-r", "-e", "debug", "false", "-e", "class", "'AutoBackupTest#autoBackupPreferenceActivation'", "it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner");
+//			Main.packagename = "org.totschnig.myexpenses";
+//			ProcessExecutor.process("adb", "root");
+//			ProcessExecutor.process("adb", "shell", "rm", "/data/data/" + Main.packagename + "/shared_prefs/*");
 		}
 }

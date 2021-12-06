@@ -1,7 +1,9 @@
 import os
 import subprocess
 import time
-from uiautomator import device as d
+from uiautomator import Device
+
+d = Device("emulator-5554")
 
 def command(cmd, timeout=5):
     p = subprocess.Popen(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE, shell=True)
@@ -27,7 +29,7 @@ def getCurrentScreen() :
     return xml.encode('utf-8')
 
 def back() :
-    d.press.back()
+    d.press('back')
 
 def scrolltoclickontext(text) :
     try:

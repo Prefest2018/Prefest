@@ -1,19 +1,10 @@
 package uiautomationexploration;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 
 import GUI.Main;
@@ -65,21 +56,26 @@ public class ExplorerServer {
 	            	case 1: contentsb.append(contentline);break;
 	            	}
 	            	
+//		            System.out.println(contentline);
 	            }
 	            explorer.updatestate(contentsb.toString(), successsb.toString().equals("success")?true:false);
+//	            System.out.println("done.");
 			} catch (IOException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
     	}
     	 Date endTime = new Date();
     	 long milltimes = endTime.getTime() - startTime.getTime();
-    	 Logger.setTempLogFile(Main.interestplan, true);
+    	 Logger.setTempLogFile(Main.explorationfile, true);
     	 String timelog = "This exploration took time: " + milltimes/1000 + "s";
     	 System.out.println(timelog);
     	 Logger.log(timelog);
     	 for (int i = 0; i < ExploreState.numcount; i++) {
  			ProcessExecutor.processnolog("adb", "pull", "/mnt/sdcard/coverage/" + "coverage" + i + ".ec", Main.testadpatercoverage + File.separator  + "adapter" + i + ".ec");
     	 }
+    	 Logger.setTempLogFile(Main.interestplan, true);
+
     	 
     }
     
@@ -93,7 +89,6 @@ public class ExplorerServer {
     		}
 	    	explorer.saveAdater();
 		}
-	    explorer.adaptData();
     }
     
     private boolean checkOKInterestValue() {
@@ -111,3 +106,34 @@ public class ExplorerServer {
  
 }
  
+//	ServerSocket ss = null;
+//    Socket s = null;
+//    int id = -1;
+//    PreferenceExplorer explorer = null;
+// 
+//    	this.ss = ss;
+//        this.s = s;
+//        this.id = id;
+//        this.explorer = explorer;
+// 
+//    @Override
+//        System.out.println("in handling..");
+//        String commond = null;
+//	        	
+//	            InputStream is = s.getInputStream();
+//	            BufferedReader in = new BufferedReader(new InputStreamReader(is));
+//	            String contentline = null;
+//	            StringBuilder successsb = new StringBuilder();
+//	            StringBuilder contentsb = new StringBuilder();
+//	            int index = 0;
+//	            		break;
+//	            		index++;
+//	            		continue;
+//	            	case 0: successsb.append(contentline);break;
+//	            	case 1: contentsb.append(contentline);break;
+//	            	
+//		            System.out.println(contentline);
+//	            explorer.updatestate(contentsb.toString(), successsb.toString().equals("success")?true:false);
+//	            System.out.println("done.");
+//	            e.printStackTrace();
+//	        		break;

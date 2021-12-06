@@ -1,21 +1,19 @@
 package sootproject.myexpression;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
 
-public class MyEnumInstance extends MyVariable implements ContentInterface{
+public class MyEnumInstance extends MyExpressionTree{
 	protected String name = null;
 	protected int index = -1;
-	public Map<String, MyExpression> fieldmap = null;
 	public MyEnumInstance() {
-		super(null, null);	
-		trueExp = new MyExpression(this);
-		this.isInstance = true;
-		this.instanceceqVals = new HashSet<MyVariable>();
-		instanceceqVals.add(this);
-		fieldmap = new HashMap<String, MyExpression>();
+		super();
+		this.type = ResultType.ENUM;
+		this.resultType = ResultType.ENUM;
+		this.content =  new MyEnumInstanceContent(this);
 	}
 	
 	public boolean equals(Object anotherinstance) {
@@ -25,16 +23,6 @@ public class MyEnumInstance extends MyVariable implements ContentInterface{
 			}
 		}
 		return false;
-	}
-
-	@Override
-	public Map<String, MyExpression> getfieldmap() {
-		return fieldmap;
-	}
-
-	@Override
-	public ContentInterface getClone() {
-		return this;
 	}
 
 }

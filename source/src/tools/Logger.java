@@ -64,4 +64,27 @@ public class Logger {
 		}
 	}
 	
+	protected static StringBuilder sb = null;
+	
+	public static void logadd(String content) {
+		if (sb == null) {
+			sb = new StringBuilder();
+		}
+		sb.append(content + "\n");
+		
+	}
+	
+	public static void logoutput() {
+		String content = sb.toString();
+		try {
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(logFile, shouldcontinue), "UTF-8"));
+			bw.write(content);
+			bw.newLine();
+			bw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 }

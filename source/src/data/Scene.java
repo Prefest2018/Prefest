@@ -13,11 +13,12 @@ import soot.Body;
 public class Scene {
 	public String branchids = null;
 	public String changebranchids = null;
-	public List<InterestValue> interests = null;
-	public List<InterestValue> preinterests = null;
-	public LinkedList<String> tagnames = new LinkedList<String>();
-	public int trialtimes = 0;
+	public ArrayList<InterestValue> interests = null;
+	public ArrayList<InterestValue> preinterests = null;
+//	public LinkedList<String> tagnames = new LinkedList<String>();
+
 	public Body body = null;
+	
 	
 	public boolean equals(Object scene) {
 		if (null != scene && scene instanceof Scene) {
@@ -32,8 +33,16 @@ public class Scene {
 		return false;
 	}
 	
+	public int hashCode() {
+		return (branchids + "_" + changebranchids).hashCode();
+	}
+	
 	public boolean equalsIgnoreSuffix(Object scene, char suffix) {
 		if (null != scene && scene instanceof Scene) {
+			if (this.branchids.contains("3935") && ((Scene)scene).branchids.contains("3935")) {
+				System.out.println();
+			}
+			
 			int num = -1;
 			String abranchids = branchids;
 			num = abranchids.indexOf(suffix);
@@ -74,13 +83,20 @@ public class Scene {
 		
 	}
 	
-	public Scene(String branchids, String changebranchids, List<InterestValue> interests, List<InterestValue> preinterests) {
+	public Scene(String branchids, String changebranchids, ArrayList<InterestValue> interests, ArrayList<InterestValue> preinterests) {
 		this.branchids = branchids;
 		this.changebranchids = changebranchids;
 		this.interests = interests;
 		this.preinterests = preinterests;
 	}
 	
+	public boolean isnobranchScene() {
+		if (this.changebranchids.equals(this.branchids)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 	
 	public boolean isTrailScene() {
 		for (InterestValue value : interests) {
@@ -90,33 +106,18 @@ public class Scene {
 		}
 		return false;
 	}
-
-	public void mixpreandinterests() {
-		Map<String, InterestValue> resultmap = new HashMap<String, InterestValue>();
-		Set<String> catelogsets = new HashSet<String>();
-		for (InterestValue value : this.interests) {
-			resultmap.put(value.name, value);
-			if (null != value.catalog) {
-				catelogsets.add(value.catalog);
-			}
-		}
-		
-		
-		for (int i = this.preinterests.size() - 1; i >=0; i--) {
-			InterestValue value = this.preinterests.get(i);
-			if (resultmap.containsKey(value.name)) {
-				continue;
-			}
-			if (catelogsets.isEmpty()) {
-				resultmap.put(value.name, value);
-			} else {
-				if (catelogsets.contains(value.catalog)) {
-					resultmap.put(value.name, value);
-				}
-			}
-		}
-		interests = new ArrayList<InterestValue>(resultmap.values());
-		preinterests = null;
-	}
+//
+//		Map<String, InterestValue> resultmap = new HashMap<String, InterestValue>();
+//		Set<String> catelogsets = new HashSet<String>();
+//			resultmap.put(value.name, value);
+//				catelogsets.add(value.catalog);
+//		
+//		
+//			InterestValue value = this.preinterests.get(i);
+//				continue;
+//				resultmap.put(value.name, value);
+//					resultmap.put(value.name, value);
+//		interests = new ArrayList<InterestValue>(resultmap.values());
+//		preinterests = null;
 	
 }

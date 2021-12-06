@@ -32,7 +32,12 @@ public class AVDThread extends Thread{
 					}
 				}
 				if (!hasavd) {
-					pb = new ProcessBuilder("emulator", "-writable-system", "-avd", Main.avdname);
+//					pb = new ProcessBuilder("emulator", "-writable-system", "-avd", "Nexus_S_API_19", "-http-proxy", "127.0.0.1:8999");
+					if (null != Main.proxy) {
+						pb = new ProcessBuilder("emulator", "-writable-system", "-avd", Main.avdname, "-http-proxy", Main.proxy);
+					} else {
+						pb = new ProcessBuilder("emulator", "-writable-system", "-avd", Main.avdname);
+					}
 
 					pb.directory(sdktoolfolder);
 					p = pb.start();
@@ -53,4 +58,17 @@ public class AVDThread extends Thread{
 		}
 	}
 	
+//		
+//		ProcessBuilder pb = new ProcessBuilder("adb", "devices");
+//			Process p = pb.start();
+//			BufferedReader p_stdout = new BufferedReader(new InputStreamReader(p.getInputStream()));
+//	    	String result = null;
+//	    	boolean ahasavd = false;
+//					ahasavd = true;
+//			p.destroy();
+//				pb = new ProcessBuilder("emulator.exe", "-avd", "Nexus_S_API_19", "-http-proxy", "127.0.0.1:8999");
+//				p = pb.start();
+//				p_stdout = new BufferedReader(new InputStreamReader(p.getInputStream()));
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
 }

@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+import GUI.Main;
 import soot.Body;
 import soot.BodyTransformer;
 import soot.PatchingChain;
@@ -18,6 +19,7 @@ import soot.SootMethod;
 import soot.Trap;
 import soot.Unit;
 import soot.UnitBox;
+import soot.UnitPatchingChain;
 import soot.Value;
 import soot.jimple.InvokeExpr;
 import soot.jimple.InvokeStmt;
@@ -35,22 +37,33 @@ import soot.jimple.internal.JThrowStmt;
 import soot.tagkit.Tag;
 import soot.util.Chain;
 
-public class StubTransformer extends BodyTransformer{
+public class StubTransformer extends MyOwnTransformer{
+	private static boolean notaddanything = false;
 	private static int i = 0;
 	private static int branchi = 0;
 	private static Lock lock = new ReentrantLock();
-	private String packagename = null;
-	public StubTransformer(String packagename) {
+	public StubTransformer(String packagename, Set<String> extrapackagenames) {
 		this.packagename = packagename;
+		this.extrapackagenames = extrapackagenames;
 	}
+	
 
 	@Override
 	protected void internalTransform(Body b, String phaseName, Map<String, String> options) {
-		final PatchingChain<Unit> units = b.getUnits();
-		SootMethod method = b.getMethod();
+//		final PatchingChain<Unit> units = b.getUnits();
+		
+		final UnitPatchingChain units = b.getUnits();
 
-		if (!method.getDeclaringClass().getPackageName().contains(packagename)) {
+		SootMethod method = b.getMethod();
+		String methodname = method.getName();
+		String currentPackageName = method.getDeclaringClass().getPackageName();
+		if (!checkInTargetPackage(currentPackageName)) {
 			return;
+		}
+		for (String tep : Main.skipstaticmethods) {
+			if (tep.equals(methodname)) {
+				return;
+			}
 		}
 		Unit now = null;
 		Unit pre = null;
@@ -100,6 +113,7 @@ public class StubTransformer extends BodyTransformer{
 					switchBranches.add(invokeUnit);
 				}
 			} else if ((now instanceof JReturnStmt) || (now instanceof ReturnVoidStmt)){
+				//TODO
 				lock.lock();
 				insertBeforeReturn(units, pre, now, methodid + "-" + branchi++);
 				lock.unlock();
@@ -147,7 +161,9 @@ public class StubTransformer extends BodyTransformer{
 		Unit invokeStmt = null;
 		if (!shouldSkip) {
 			invokeStmt = getNewLogStmt(logstr);
-			units.insertAfter(invokeStmt, targetUnit);
+			if (!notaddanything) {
+				units.insertAfter(invokeStmt, targetUnit);
+			}
 		} else {
 			invokeStmt = checkUnit;
 		}
@@ -175,7 +191,9 @@ public class StubTransformer extends BodyTransformer{
 		Unit invokeStmt = null;
 		if (!shouldSkip) {
 			invokeStmt = getNewLogStmt(logstr);
-			units.insertBefore(invokeStmt, targetUnit);
+			if (!notaddanything) {
+				units.insertBefore(invokeStmt, targetUnit);
+			}
 		} else {
 			invokeStmt = preUnit;
 		}
@@ -204,7 +222,9 @@ public class StubTransformer extends BodyTransformer{
 		Unit invokeStmt = null;
 		if (!shouldSkip) {
 			invokeStmt = getNewLogStmt(logstr);
-			units.insertBefore(invokeStmt, targetUnit);
+			if (!notaddanything) {
+				units.insertBefore(invokeStmt, targetUnit);
+			}
 		} else {
 			invokeStmt = targetUnit;
 		}

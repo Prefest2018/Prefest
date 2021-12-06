@@ -2,6 +2,7 @@ package sootproject.myexpression;
 
 import java.util.HashMap;
 
+import data.LocalValMap;
 import soot.Body;
 import sootproject.data.MyMethodDeclaration;
 public class CMD {
@@ -11,10 +12,10 @@ public class CMD {
 	public Body body = null;
 	public String preloc = null;
 	public MyMethodDeclaration invokemethod = null;
-	public HashMap<Integer, MyVariable> localmap = null;
-	public HashMap<Integer, MyVariable> templocalmap = null;
+	public LocalValMap localmap = null;
+	public LocalValMap templocalmap = null;
 
-	public CMD(Object instrument, Object arg, CMDType type, Body body, HashMap<Integer, MyVariable> localmap, HashMap<Integer, MyVariable> templocalmap) {
+	public CMD(Object instrument, Object arg, CMDType type, Body body,LocalValMap localmap, LocalValMap templocalmap) {
 		this.instrument = instrument;
 		this.arg = arg;
 		this.type = type;

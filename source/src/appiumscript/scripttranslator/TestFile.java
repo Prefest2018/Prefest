@@ -190,6 +190,7 @@ public class TestFile {
 				wr.close();
 				files.add(file);
 			} catch (IOException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -204,9 +205,9 @@ public class TestFile {
 		sb.append(ScriptGenerationUtil.getPrefixFunctions_General(true, false, null));
 		StringBuilder testopsb = new StringBuilder();
 		for (TestOperation opt : testcase) {
-			testopsb.append(opt.getTestLine() + "\r\n");
+			testopsb.append(opt.getTestLine(1) + "\r\n");
 		}
-		sb.append(ScriptGenerationUtil.getTestcase_FirstExe(num + "_" + idstr, testopsb.toString()));
+		sb.append(ScriptGenerationUtil.getTestcase_FirstExe(num + "_" + idstr, testopsb.toString(), null));
 		return sb.toString();
 	}
 }

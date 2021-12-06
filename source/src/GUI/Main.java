@@ -2,18 +2,25 @@ package GUI;
 
 import appiumscript.scriptexecutor.*;
 import appiumscript.scripttranslator.StoatScriptLoader;
+import appiumscript.util.ScriptGenerationUtil;
+import data.InterestValue;
+import data.PreferenceAdaptData;
 import data.TestCaseData;
+import espresso.EspressoScriptExecutor;
 import soot.*;
 import soot.options.Options;
+import sootproject.preferenceAnalyse.FailurePreferenceAdapter;
 import sootproject.preferenceAnalyse.PreferenceAnalyser;
 import sootproject.resourceLoader.PreferenceTreeNode;
 import sootproject.soot.PreferenceAnalyseTransformer;
 import sootproject.soot.StubTransformer;
 import sun.awt.OSInfo;
+import tools.CMDUtils;
 import tools.JsonHelper;
 import tools.Logger;
 import tools.PathHelper;
 import tools.ProcessExecutor;
+import tools.tagselector.TagSelectType;
 import uiautomationexploration.Adapter;
 import uiautomationexploration.ExplorerServer;
 import uiautomationexploration.PreferenceExplorer;
@@ -21,65 +28,86 @@ import uiautomationexploration.PreferenceExplorer;
 import java.io.File;
 import java.util.*;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import GUI.Main;
+
 public class Main {
-    public static boolean debug = false;
-    public static boolean blockmode = false;
+    public static boolean debug = true;
+//    public static boolean blockmode = false;
     public static boolean resetWhenError = true;
     public static boolean shouldExplorePreference = true;
     public static boolean shouldAddNoBranchTargets = true;
 	public static boolean resetForEachRun = false;
 	public static boolean testSettingOperations = false;
+	public static TagSelectType tagSortStrategy = TagSelectType.MOSTLOGIC;
+	public static int lestTagNum = 1;
     public static String avdname = null;
+    public static String proxy = null;
     public static Map<String, String> newenvs = null;
+    public static PreferenceAnalyseTransformer analyseTransformer = null;
+    public static PreferenceAnalyser analyser = null;
     public static String adb = null;
     public static String emulator = null;
     public static String python = null;
 
     public static String packagename = null;
+    public static Set<String> extrapackagenames = null;
     public static String luanchactivityname = null;
     public final static String PRESCRIPT = "preference_pre";
+	public final static String SETTINGMETHODTAG = "settingPref_";
     public static String[] skipstaticmethods = {"$jacocoInit"};
 
     public static String home = null;
     public static String apkinfo = null;
+    public static String testcase = null;
     public static String cmdlog = null;
     public static String tempfolder = null;
     public static String mcmctxt = null;
     public static String firstcases = null;
     public static String extra = null;
+    public static String failurepreferences = null;
     public static String firstcasesexeresultfile = null;
     public static String firstcasesloc = null;
     public static String firstcasescoverage = null;
     public static String testcaseinfofile = null;
     public static String testcaseinfofileold = null;
     public static String firstcaseerror = null;
+    public static String firstcasecoverdata = null;
     public static String testadapter = null;
     public static String testadpatercoverage = null;
+    public static String templocfile = null;
     public static String interestplan = null;
+    public static String explorationfile = null;
+    public static String interestplanfile = null;
     public static String preferencetxt = null;
     public static String interestcases = null;
+    public static String interestcoverdata = null;
     public static String interestcasesexeresultfile = null;
     public static String interestcaseloc = null;
     public static String interestcaseinfofile = null;
     public static String interestcasescoverage = null;
     public static String interesterror = null;
+    public static String targetinfo = null;
     public static String interestallplanfile = null;
     public static String interestallcases = null;
     public static String interestallcaseloc = null;
     public static String interestallcasesexeresultfile = null;
     public static String interestallcaseinfofile = null;
     public static String interestallcasescoverage = null;
+    public static String interestallcoveragedata = null;
     public static String interestallerror = null;
-    public static String allpreferenceprecase_reverse = null;
+//    public static String allpreferenceprecase_reverse = null;
     public static String allpreferenceprecaselog_reverse = null;
-    public static String allpreferenceprecase_default = null;
+//    public static String allpreferenceprecase_default = null;
     public static String allpreferenceprecaselog_default = null;
     public static String allpreferencecases = null;
     public static String allpreferencecaseloc = null;
     public static String allpreferenceinfofile = null;
     public static String allpreferencecoverage = null;
+    public static String allpreferencecoveragedata = null;
+    public static String allpreferenceerror = null;
 //	public static String ofotpreferenceprecase = null;
 //	public static String ofotpreferenceprecaselog = null;
     public static String pwpreferencecases = null;
@@ -88,20 +116,43 @@ public class Main {
     public static String pwpreferenceplanfile = null;
     public static String pwpreferencecaseinfo = null;
     public static String pwpreferenceresultfile = null;
+    public static String pwpreferencecoveragedata = null;
+    public static String pwpreferenceerror = null;
     public static String monkeyinfo = null;
     public static String monkeyerror = null;
+    
+    public static String espressocasenamefile = null;
+    public static String espressocaseloc = null;
+    public static String espressocoverage = null;
+    public static String espressoerror = null;
+    public static String espressopreferencecase = null;
+    public static String espressopreferencecaseloc = null;
+    public static String espressopreferencecasecoveragedata = null;
+    public static String espressopreferenceerror = null;
+    public static String espressoinstrucmd = null;
+    public static List<String> espressoCMDs = null;
+    public static final String APPIUM = "APPIUM";
+    public static final String UIAUTOMATOR2 = "UIAUTOMATOR2";
+    public static String scriptForm = APPIUM;// APPIUM
+    public static String AVDVersion = "6.0";
+    public static final boolean USESEEKBAR = false;
+
 
     public void updateHome(String home) {
         Main.packagename = null;
         Main.luanchactivityname = null;
+        Main.extrapackagenames = null;
         Main.home = home;
         String sepHome = home + File.separator;
         Main.tempfolder = sepHome + "temp";
         Main.extra = sepHome + "extra";
+        Main.failurepreferences = sepHome + "extra" + File.separator + "failurepreferences";
+        Main.testcase = sepHome + "testcase";
         Main.apkinfo = sepHome + "app" + File.separator + "apkinfo.json";
         Main.cmdlog = sepHome + "log" + File.separator + "cmdlog.txt";
         Main.mcmctxt = sepHome + "testcase" + File.separator + "mcmc_all_history_testsuites.txt";
         Main.firstcases = sepHome + "testcase" + File.separator + "firstcases";
+        Main.firstcasecoverdata = sepHome + "testcase" + File.separator + "firstcoverdata.json";
         Main.firstcasesexeresultfile = sepHome + "exeresult" + File.separator + "firstexecutionresult.txt";
         Main.firstcasesloc = sepHome + "exeresult" + File.separator + "firstresult";
         Main.interestcaseloc = sepHome + "exeresult" + File.separator + "interestresult";
@@ -112,7 +163,11 @@ public class Main {
         Main.testcaseinfofile = sepHome + "testcase" + File.separator + "testcaseinfo.json";
         Main.testcaseinfofileold = sepHome + "testcase" + File.separator + "testcaseinfo_old.json";
         Main.interestcaseinfofile = sepHome + "testcase" + File.separator + "interestinfo.json";
+        Main.targetinfo = sepHome + "testcase" + File.separator + "targetinfo.json";
         Main.interestplan = sepHome + "testcase" + File.separator + "interestplan.txt";
+        Main.explorationfile = sepHome + "testcase" + File.separator + "exploration.txt";
+        Main.interestcoverdata = sepHome + "testcase" + File.separator + "interestcoverdata.json";
+        Main.interestplanfile = sepHome + "testcase" + File.separator + "interestplan.json";
         Main.interestcases = sepHome + "testcase" + File.separator + "interestcases";
         Main.interesterror = sepHome + "error" + File.separator + "interesterror.log";
         Main.preferencetxt = sepHome + "testcase" + File.separator + "preference.txt";
@@ -125,23 +180,46 @@ public class Main {
         Main.interestallcasesexeresultfile = sepHome + "exeresult" + File.separator + "interestallexecutionresult.txt";
         Main.interestallcasescoverage = sepHome + "coverage" + File.separator + "interestallcoverage";
         Main.interestallerror = sepHome + "error" + File.separator + "interestallerror.log";
-        allpreferenceprecase_reverse = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase.py";
+        Main.interestallcoveragedata = sepHome + "testcase" + File.separator + "interestallcoveragedata.json";
+
+
+//        allpreferenceprecase_reverse = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase.py";
         allpreferenceprecaselog_reverse = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "precase_log.py";
-        allpreferenceprecase_default = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "defaultprecase.py";
+//        allpreferenceprecase_default = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "defaultprecase.py";
         allpreferenceprecaselog_default = sepHome + "testcase" + File.separator + "allpreferencecases" + File.separator + "defaultprecase_log.py";
         allpreferencecases = sepHome + "testcase" + File.separator + "allpreferencecases";
         allpreferencecaseloc = sepHome + "exeresult" + File.separator + "allpreferenceresult";
         allpreferenceinfofile = sepHome + "testcase" + File.separator + "allpreferencetestcaseinfo.json";
         allpreferencecoverage = sepHome + "coverage" + File.separator + "allpreferencecoverage";
+        allpreferenceerror = sepHome + "error" + File.separator + "allpreferenceerror.log";
+        allpreferencecoveragedata = sepHome + "testcase" + File.separator + "allpreferencecoveragedata.json";
         pwpreferencecases = sepHome + "testcase" + File.separator + "pwpreferencecases";
-//		pwpreferencecaseloc = sepHome + "exeresult" + File.separator + "pwpreferenceresult";
         pwpreferencecoverage = sepHome + "coverage" + File.separator + "pwpreferencecoverage";
         pwpreferenceplanfile = sepHome + "testcase" + File.separator + "pwplan.json";
         pwpreferencecaseinfo = sepHome + "testcase" + File.separator + "pwpreferencecaseinfo";
         pwpreferenceresultfile = sepHome + "exeresult" + File.separator + "pwexecutionresult.txt";
+        pwpreferenceerror = sepHome + "error" + File.separator + "pwpreferenceerror.log";
+        pwpreferencecoveragedata = sepHome + "testcase" + File.separator + "pwpreferencecoveragedata.json";
 
+        
         monkeyinfo = sepHome + "monkey";
         monkeyerror = monkeyinfo + File.separator + "monkeyerror.log";
+        
+       
+        espressocasenamefile = sepHome + "espresso" + File.separator + "espressoScriptName.txt";
+        espressocaseloc = sepHome + File.separator + "exeresult" + File.separator + "espresso";
+        espressocoverage = sepHome + "coverage" + File.separator + "espresso";
+        espressoerror = sepHome + "error" + File.separator + "espresso.log";
+        espressopreferencecase = sepHome + "espresso" + File.separator + "testcase";
+        espressopreferencecaseloc = sepHome + "exeresult" + File.separator + "espresso_preference";
+        espressopreferencecasecoveragedata = sepHome + "coverage" + File.separator + "espresso_preference";
+        espressopreferenceerror =  sepHome + "error" + File.separator + "espresso_preference.log";
+        espressoinstrucmd = sepHome + "espresso" + File.separator + "espressoInstruCMD.txt";
+        if (new File(espressoinstrucmd).exists()) {
+	        espressoCMDs = CMDUtils.readCMD(espressoinstrucmd);
+        }
+        templocfile = sepHome + "temp" + File.separator + "temploc.txt";
+
     }
 
     public static File getAPKFile() {
@@ -162,6 +240,16 @@ public class Main {
             }
         }
         return null;
+    }
+    
+    public static String getInterestTestCaseDataFilePath(int currentit) {
+    	String path = Main.testcase + File.separator + "interestinfo_" + currentit + ".json";
+    	return path;
+    }
+    
+    public static String getInterestPlanBakFilePath(int currentit) {
+    	String path = Main.testcase + File.separator + "interestplan_" + currentit + ".json";
+    	return path;
     }
 
     public static void initfiles() {
@@ -190,6 +278,10 @@ public class Main {
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        mainfolder = new File(home + File.separator + "extra");
+        if (!mainfolder.exists()) {
+            mainfolder.mkdir();
+        }
 
 
         File cmdlogfile = new File(cmdlog);
@@ -204,7 +296,7 @@ public class Main {
         }
     }
 
-    private void useSoot(Transformer myTransformer, String apkfilepath, String outputdir) {
+    private static void useSoot(Transformer myTransformer, String apkfilepath, String outputdir) {
         Options.v().set_allow_phantom_refs(true);
 
         //prefer Android APK files// -src-prec apk
@@ -213,7 +305,7 @@ public class Main {
         //output as APK, too//-f J
         Options.v().set_output_format(Options.output_format_dex);
         Options.v().set_prepend_classpath(true);
-        Options.v().set_validate(true);
+        Options.v().set_validate(false);
         // resolve the PrintStream and System soot-classes
         Scene.v().addBasicClass("java.io.PrintStream", SootClass.SIGNATURES);
         Scene.v().addBasicClass("java.lang.System", SootClass.SIGNATURES);
@@ -221,7 +313,7 @@ public class Main {
         Options.v().set_whole_program(false);
 //       Options.v().set_force_overwrite(true);
 //       Options.v().set_java_version(Options.java_version_1_7);
-        Options.v().set_android_api_version(21);
+        Options.v().set_android_api_version(28);
 
         String androidsdk = PathHelper.getAndroidSDKHome();
         String jdk = PathHelper.getJavaHome();
@@ -234,6 +326,17 @@ public class Main {
 //       Options.v().set_soot_classpath("C:" + File.separator + "Program Files" + File.separator + "Android" + File.separator + "Android Studio" + File.separator + "jre" + File.separator + "jre" + File.separator + "lib" + File.separator + "rt.jar;C:" + File.separator + "Program Files" + File.separator + "Android" + File.separator + "Android Studio" + File.separator + "jre" + File.separator + "jre" + File.separator + "lib" + File.separator + "jce.jar;C:" + File.separator + "Users" + File.separator + "yifeiLu" + File.separator + "Documents" + File.separator + "AndroidAnalyseWorkingSpace" + File.separator + "FinalPreferenceProject" + File.separator + "lib" + File.separator + "sootclasses-trunk-jar-with-dependencies.jar");  
         Options.v().set_keep_line_number(true);
         Options.v().set_process_multiple_dex(true);
+//        Options.v().set_no_bodies_for_excluded(true);
+//        Options.v().set_no_writeout_body_releasing(true);
+//        Options.v().set_no_output_source_file_attribute(true);
+//        Options.v().set_no_output_inner_classes_attribute(true);
+//        List<String> excludePkgs = new ArrayList<String>();
+//        excludePkgs.add("net.time4j.*");
+//        Options.v().set_exclude(excludePkgs);
+//        List<String> includePkgs = new ArrayList<String>();
+//        includePkgs.add("com.forrestguice.suntimeswidget.");
+//        Options.v().set_debug(true);
+//        Options.v().set_include(includePkgs);
         Options.v().ignore_classpath_errors();
         Options.v().ignore_resolution_errors();
         Options.v().ignore_resolving_levels();
@@ -242,11 +345,8 @@ public class Main {
 
 
         PackManager.v().getPack("jtp").add(new Transform("jtp.myInstrumenter", myTransformer));
-        //String params[] = {"-android-jars", "C:" + File.separator + "Users" + File.separator + "yifeiLu" + File.separator + "Documents" + File.separator + "AndroidStudio" + File.separator + "sdk" + File.separator + "platforms" + File.separator + "", "-process-dir", projectHome};
 
-//       for (String classAsSignature : classesAsSignature) {
 //           Scene.v().addBasicClass(classAsSignature, SootClass.SIGNATURES);
-//       }
         Options.v().set_unfriendly_mode(true);
         try {
             soot.Main.main(new String[0]);
@@ -276,10 +376,11 @@ public class Main {
         }
 
         List<String> apkinfolist = ProcessExecutor.processlogincmdlog("aapt", "dump", "badging", apkfile.getAbsolutePath());
-        JSONObject jsonob = JsonHelper.saveApkInfo(apkinfolist);
 
+        JSONObject jsonob = JsonHelper.saveApkInfo(apkinfolist);
+        JsonHelper.getApkInfo();
         System.out.println(jsonob.toJSONString());
-        Transformer stubTransformer = new StubTransformer((String)jsonob.get("packagename"));
+        Transformer stubTransformer = new StubTransformer(Main.packagename, Main.extrapackagenames);
         Logger.setTempLogFile(home + File.separator + "log" + File.separator + "soot_stub.log", true);
         useSoot(stubTransformer, apkfile.getAbsolutePath(), tempfolder);
 
@@ -294,58 +395,57 @@ public class Main {
         if (!firstcasefolder.exists()) {
             firstcasefolder.mkdirs();
         }
-//		for (File innerfile : firstcasefolder.listFiles()) {
 //			innerfile.delete();
-//		}
 
         File firstcaseresultfolder = new File(Main.firstcasesloc);
         if (!firstcaseresultfolder.exists()) {
             firstcaseresultfolder.mkdirs();
         }
-//		for (File innerfile : firstcaseresultfolder.listFiles()) {
 //			innerfile.delete();
-//		}
 
         File firstcasecoveragefolder = new File(Main.firstcasescoverage);
         if (!firstcasecoveragefolder.exists()) {
             firstcasecoveragefolder.mkdirs();
         }
-//		for (File innerfile : firstcasecoveragefolder.listFiles()) {
 //			innerfile.delete();
-//		}
 
 //		File firstcaseresultfile = new File(Main.firstcasesexeresultfile);
-//		if (firstcaseresultfile.exists()) {
 //			firstcaseresultfile.delete();
-//		}
     }
 
     public void initForPREFEST_T() {
-        File preferenceoutputfile = new File(Main.interestplan);
-        if (preferenceoutputfile.exists()) {
-            preferenceoutputfile.delete();
-        }
-        File interestcaselocfolder = new File(Main.interestcaseloc);
-        if (!interestcaselocfolder.exists()) {
-            interestcaselocfolder.mkdir();
-        }
-        for (File file : interestcaselocfolder.listFiles()) {
-            file.delete();
-        }
-        File interestcasecoveragefolder = new File(Main.interestcasescoverage);
-        if (!interestcasecoveragefolder.exists()) {
-            interestcasecoveragefolder.mkdir();
-        }
-        for (File file : interestcasecoveragefolder.listFiles()) {
-            file.delete();
-        }
-        File interestcasesfolder = new File(Main.interestcases);
-        if (!interestcasesfolder.exists()) {
-            interestcasesfolder.mkdir();
-        }
-        for (File file : interestcasesfolder.listFiles()) {
-            file.delete();
-        }
+    	File interestplanfile = new File(Main.interestplanfile);
+    	if (!interestplanfile.exists()) {
+            File preferenceoutputfile = new File(Main.interestplan);
+            if (preferenceoutputfile.exists()) {
+                preferenceoutputfile.delete();
+            }
+            File interestcaselocfolder = new File(Main.interestcaseloc);
+            if (!interestcaselocfolder.exists()) {
+                interestcaselocfolder.mkdir();
+            }
+            for (File file : interestcaselocfolder.listFiles()) {
+                file.delete();
+            }
+            File interestcasecoveragefolder = new File(Main.interestcasescoverage);
+            if (!interestcasecoveragefolder.exists()) {
+                interestcasecoveragefolder.mkdir();
+            }
+            for (File file : interestcasecoveragefolder.listFiles()) {
+                file.delete();
+            }
+            File interestcasesfolder = new File(Main.interestcases);
+            if (!interestcasesfolder.exists()) {
+                interestcasesfolder.mkdir();
+            }
+            for (File file : interestcasesfolder.listFiles()) {
+                file.delete();
+            }
+            File interestcoverdatafile = new File(Main.interestcoverdata);
+            if (interestcoverdatafile.exists()) {
+            	interestcoverdatafile.delete();
+            }
+    	}
     }
 
     public void initForPREFEST_N() {
@@ -393,27 +493,54 @@ public class Main {
             pwpreferencecases.mkdir();
         }
     }
+    
+    public void initForEspresso() {
+    	File espressocaseloc = new File (Main.espressocaseloc);
+    	if (!espressocaseloc.exists()) {
+    		espressocaseloc.mkdir();
+    	}
+    	File espressocoverage = new File(Main.espressocoverage);
+    	if (!espressocoverage.exists()) {
+    		espressocoverage.mkdir();
+    	}
+    }
+    
+    public void initForEspressoPreference() {
+    	File espressopreferencecase = new File(Main.espressopreferencecase);
+    	if (!espressopreferencecase.exists()) {
+    		espressopreferencecase.mkdir();
+    	}
+    	File espressopreferencecaseloc = new File(Main.espressopreferencecaseloc);
+    	if (!espressopreferencecaseloc.exists()) {
+    		espressopreferencecaseloc.mkdir();
+    	}
+    	File espressopreferencecasecoveragedata = new File(Main.espressopreferencecasecoveragedata);
+    	if (!espressopreferencecasecoveragedata.exists()) {
+    		espressopreferencecasecoveragedata.mkdir();
+    	}
+    	File espressopreferenceerror = new File(Main.espressopreferenceerror);
+    	if (!espressopreferenceerror.exists()) {
+    		espressopreferenceerror.mkdir();
+    	}
+    }
 
     public void firstexe() {
         initfiles();
         initForfirstexe();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-        Main.packagename = (String)apkinfo.get("packagename");
-        Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
+        JsonHelper.getApkInfo();
         File stoatScript = new File(Main.mcmctxt);
         File testcaseFolder = new File(Main.firstcases);
         List<File> ourScripts = null;
         if (stoatScript.exists()) {
             ourScripts = StoatScriptLoader.loadStoatScript(stoatScript, testcaseFolder);
         } else {
-			//for manual written test cases
             ourScripts = new ArrayList<File>();
             for (File file : testcaseFolder.listFiles()) {
                 ourScripts.add(file);
             }
         }
 
-        ScriptExecutor.scriptexecute(ourScripts, (String)apkinfo.get("packagename"));
+        ScriptExecutor.scriptexecute(ourScripts, Main.packagename);
     }
 
     public void firstexeWithNoTestCaseReGenerated() {
@@ -426,24 +553,47 @@ public class Main {
         }
         ScriptExecutor.scriptexecute(ourScripts, (String)apkinfo.get("packagename"));
     }
-
+    
+    public static double analysisIt(String datafilename, Map<String, TestCaseData> datas, int currentit) {
+    	initfiles();
+        Date beforeTime = new Date();
+        JsonHelper.getApkInfo();
+        if (null == analyseTransformer) {
+            analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename, Main.extrapackagenames);
+            Logger.setTempLogFile(home + File.separator + "log" + File.separator + "soot_analyse.log", true);
+            useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
+            analyseTransformer.initpreferences2activity();
+            analyseTransformer.analyzeoverride();
+        }
+        analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
+        analyser.analysePreferenceFromLogs(datafilename);
+        if (shouldExplorePreference) {
+        	if (currentit == 0) {
+        		Adapter adapter = analyser.getBasicAdapter();
+        		JsonHelper.saveadapterWithInterestValueSelfGen(adapter, Main.testadapter);
+        	}else {
+        		adaptData();
+        	}
+        }
+        Date afterTime = new Date();
+        double consumedTime = (afterTime.getTime() - beforeTime.getTime()) / 1000.00;
+        return consumedTime;
+    }
 
     public void analysis(boolean analyzelog) {
         initfiles();
         Date beforeTime = new Date();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-        Main.packagename = (String)apkinfo.get("packagename");
-        Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
+        JsonHelper.getApkInfo();
         Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);
-        PreferenceAnalyseTransformer analyseTransformer = new PreferenceAnalyseTransformer((String)apkinfo.get("packagename"));
+        analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename, Main.extrapackagenames);
         Logger.setTempLogFile(home + File.separator + "log" + File.separator + "soot_analyse.log", true);
         useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
 //        analyseTransformer.analyzeoverride();
         analyseTransformer.initpreferences2activity();
         analyseTransformer.analyzeoverride();
-        PreferenceAnalyser analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
+        analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
         if (analyzelog) {
-            analyser.analysePreferenceFromLogs();
+            analyser.analysePreferenceFromLogs(Main.testcaseinfofile);
             File testcaseoldfile = new File(Main.testcaseinfofileold);
             if (testcaseoldfile.exists()) {
             	testcaseoldfile.delete();
@@ -454,11 +604,10 @@ public class Main {
         Date afterTime = new Date();
         System.out.println("execution time is: " + (afterTime.getTime() - beforeTime.getTime()) / 1000.00);
 
-        if (shouldExplorePreference) {
         	Adapter adapter = analyser.getBasicAdapter();
-        	JsonHelper.saveadapterWithpreferencelistFromtestcasedata(adapter, Main.testadapter, Main.testcaseinfofile);
-        }
+        	JsonHelper.saveadapterWithInterestValueSelfGen(adapter, Main.testadapter);
     }
+    
     
     public void exploreForAdapter() {
     	File adapterCoverage = new File(Main.testadpatercoverage);
@@ -469,9 +618,7 @@ public class Main {
     	if (!adapterFile.exists()) {
         	analysis(false);
     	} else {
-            JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-            Main.packagename = (String)apkinfo.get("packagename");
-            Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
+    		JsonHelper.getApkInfo();
     	}
     	Adapter adapter = JsonHelper.getadapter(Main.testadapter);
 		for (List<PreferenceTreeNode> nodes : adapter.xmlcontentlist.values()) {
@@ -487,46 +634,118 @@ public class Main {
 		}
 		
     }
+    
+	public static void adaptData() {
+		Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+		if (null == adapter || !adapter.explored) {
+			return;
+		}
+		JSONObject testcaseorigin = JsonHelper.getJsonObject(Main.testcaseinfofile);
+		if (!new File(Main.testcaseinfofileold).exists()) {
+			JsonHelper.saveJsonFile(testcaseorigin, Main.testcaseinfofileold, false);
+		}
+
+
+		Map<String, InterestValue> adaptInterests = adapter.preferencelist;
+		JSONArray interestmaparray = adapt(adaptInterests);
+		testcaseorigin.put("interestmap", interestmaparray);
+		JsonHelper.saveJsonFile(testcaseorigin, Main.testcaseinfofile, false);
+		
+		if (new File(Main.interestplanfile).exists()) {
+			JSONObject interesplanorigin = JsonHelper.getJsonObject(Main.interestplanfile);
+			interesplanorigin.put("interestmap", interestmaparray);
+			JsonHelper.saveJsonFile(interesplanorigin, Main.interestplanfile, false);
+		}
+		
+		int i = 0;
+		while(true) {
+			String path = Main.getInterestTestCaseDataFilePath(i);
+			if (new File(path).exists()) {
+				JSONObject interesplanorigin = JsonHelper.getJsonObject(path);
+				interesplanorigin.put("interestmap", interestmaparray);
+				JsonHelper.saveJsonFile(interesplanorigin, path, false);
+				i++;
+			} else {
+				break;
+			}
+		}
+
+
+	}
+	
+	private static JSONArray adapt(Map<String, InterestValue> adaptInterests) {
+		JSONArray array = new JSONArray();
+		for (String name : adaptInterests.keySet()) {
+			JSONObject ob = JsonHelper.translatorInterestValue2Json(adaptInterests.get(name));
+			array.add(ob);
+		}
+		return array;
+	}
 
     public void PREFEST_T() {
         initfiles();
         initForPREFEST_T();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
+        JsonHelper.getApkInfo();
+        Map<String, PreferenceAdaptData> failuremap = FailurePreferenceAdapter.getFailurePreferences();
+		ScriptGenerationUtil.initAdaptDatas(failuremap);
         if (shouldExplorePreference) {
             exploreForAdapter();
+            adaptData();
         }
         if (testSettingOperations) {
             testNonDefaultSettings();
         }
-        Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, true);
-        ScriptExecutor.scriptexecuteforPREFEST_T(datas, (String)apkinfo.get("packagename"));
+
+//        Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, true);
+//        ScriptExecutor.scriptexecuteforPREFEST_T(datas, (String)apkinfo.get("packagename"));
+        File planfile = new File(Main.interestplanfile);
+        InterestPlan plan = null;
+        if (planfile.exists()) {
+        	plan = JsonHelper.getinterestplanAdapt(Main.interestplanfile);
+        } else {
+        	plan = new InterestPlan(Main.testcaseinfofile);
+        }
+        plan.execute();
+
     }
     
     private void testNonDefaultSettings() {
     	Adapter adapter = JsonHelper.getadapter(Main.testadapter);
     	Logger.setTempLogFile(Main.interestplan, true);
     	initFornonDefault();
-        ScriptExecutor.scriptexecuteforec_onceforprefest(adapter.xmlcontentlist);
+        ScriptExecutor.scriptexecuteforNonDefault_testingSettings(adapter.xmlcontentlist, adapter.preferencelist);
     }
     
+//		initfiles();
+//		initforstep4_ver2();
+//		JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
+//		Main.packagename = apkinfo.getString("packagename");
+//		Main.luanchactivityname = apkinfo.getString("luanchactivity");
+//		File planfile = new File(Main.interestallplanfile);
+//		InterestAllPlan plan = null;
+//		Logger.setTempLogFile(Main.interestallcasesexeresultfile, true);
+//			plan = new InterestAllPlan(datas, null);
+//			plan = JsonHelper.getinterestallplan(Main.interestallplanfile);
+//		plan.execute();
 
     public void PREFEST_N() {
         initfiles();
         initForPREFEST_N();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-        Main.packagename = (String)apkinfo.get("packagename");
-        Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
+        JsonHelper.getApkInfo();
+        Map<String, PreferenceAdaptData> failuremap = FailurePreferenceAdapter.getFailurePreferences();
+		ScriptGenerationUtil.initAdaptDatas(failuremap);
         File planfile = new File(Main.interestallplanfile);
         InterestAllPlan plan = null;
         Logger.setTempLogFile(Main.interestallcasesexeresultfile, true);
         if (!planfile.exists()) {
             Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, true);
-            PreferenceAnalyseTransformer analyseTransformer = new PreferenceAnalyseTransformer((String)apkinfo.get("packagename"));
-            useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
-            analyseTransformer.initpreferences2activity();
-            PreferenceAnalyser analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
-            Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
-            plan = new InterestAllPlan(datas, preferencetree);
+//            analyseTransformer = new PreferenceAnalyseTransformer((String)apkinfo.get("packagename"));
+//            useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
+//            analyseTransformer.initpreferences2activity();
+//            analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
+//            Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
+            Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+            plan = new InterestAllPlan(datas, adapter.xmlcontentlist);
         } else {
             plan = JsonHelper.getinterestallplanAdapt(Main.interestallplanfile);
         }
@@ -537,37 +756,39 @@ public class Main {
     public void nonDefault() {
         initfiles();
         initFornonDefault();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-        Main.packagename = (String)apkinfo.get("packagename");
-        Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
-        Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);
-        PreferenceAnalyseTransformer analyseTransformer = new PreferenceAnalyseTransformer((String)apkinfo.get("packagename"));
+        JsonHelper.getApkInfo();
+        Map<String, PreferenceAdaptData> failuremap = FailurePreferenceAdapter.getFailurePreferences();
+		ScriptGenerationUtil.initAdaptDatas(failuremap);
+        analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename, Main.extrapackagenames);
         Logger.setTempLogFile(home + File.separator + "log" + File.separator + "preferencetree_analyse.log", true);
-        useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
-        analyseTransformer.initpreferences2activity();
-        PreferenceAnalyser analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
-        Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
-        ScriptExecutor.scriptexecuteforec(preferencetree);
+//        useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
+//        analyseTransformer.initpreferences2activity();
+//        analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
+//        Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
+    	Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+
+        ScriptExecutor.scriptexecuteforNonDefault(adapter.xmlcontentlist, adapter.preferencelist);
     }
 
     //pairwise
     public void pairwise() {
         initfiles();
         initForpairwise();
-        JSONObject apkinfo = JsonHelper.getJsonObject(Main.apkinfo);
-        Main.packagename = (String)apkinfo.get("packagename");
-        Main.luanchactivityname = (String)apkinfo.get("luanchactivity");
+        JsonHelper.getApkInfo();
         File planfile = new File(Main.pwpreferenceplanfile);
         PWPlan plan = null;
+        Map<String, PreferenceAdaptData> failuremap = FailurePreferenceAdapter.getFailurePreferences();
+		ScriptGenerationUtil.initAdaptDatas(failuremap);
         if (!planfile.exists()) {
-            Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);//这里是不包含interest信息的
-            PreferenceAnalyseTransformer analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename);
+            Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, false);
+//            analyseTransformer = new PreferenceAnalyseTransformer(Main.packagename);
             Logger.setTempLogFile(home + File.separator + "log" + File.separator + "preferencetree_analyse.log", true);
-            useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
-            analyseTransformer.initpreferences2activity();
-            PreferenceAnalyser analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
-            Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
-            plan = new PWPlan(preferencetree, datas);
+//            useSoot(analyseTransformer, getStubAPKFile().getAbsolutePath(), tempfolder);
+//            analyseTransformer.initpreferences2activity();
+//            analyser = new PreferenceAnalyser(analyseTransformer, datas, home + File.separator + "app" + File.separator + "res", home + File.separator + "app" + File.separator + "sources");
+//            Map<String, List<PreferenceTreeNode>> preferencetree = analyser.analysepreferencetree();
+            Adapter adapter = JsonHelper.getadapter(Main.testadapter);
+            plan = new PWPlan(adapter, datas);
         } else {
             plan = JsonHelper.getpwplanAdapt(Main.pwpreferenceplanfile);
         }
@@ -611,7 +832,7 @@ public class Main {
             }
             locthread.locstop();
             errorthread.errorlogstop();
-            ProcessExecutor.processnolog("adb", "shell", "am", "broadcast", "-a", "com.example.pkg.END_EMMA", "--es", "name", "monkey" + i);
+            ProcessExecutor.processnolog("adb", "shell", "am", "broadcast", "-a", "com.example.pkg.END_EMMA", "-f", "16777216", "--es", "name", "monkey" + i);
             try {
                 jacoco.join();
             } catch (InterruptedException e) {
@@ -626,5 +847,53 @@ public class Main {
         }
 
     }
+    
+    public void Espresso() {
+        initfiles();
+        initForfirstexe();
+        initForEspresso();
+        JsonHelper.getApkInfo();
+        EspressoScriptExecutor.init(Main.packagename);
+        File scriptNameFile = new File(Main.espressocasenamefile);
+        if (!scriptNameFile.exists()) return;
+        EspressoScriptExecutor.scriptexecute(scriptNameFile, Main.packagename);
+    }
+    
+    public void EspressoAnalysis() {
+        initfiles();
+        analysis(true);
+    }
+    
+    public void PREFEST_TWithEspresso() {
+        initfiles();
+        initForEspressoPreference();
+        initForPREFEST_T();
+        File scriptNameFile = new File(Main.espressocasenamefile);
+        EspressoScriptExecutor.getScriptNames(scriptNameFile);
+        JsonHelper.getApkInfo();
+        EspressoScriptExecutor.init(Main.packagename);
+        Map<String, PreferenceAdaptData> failuremap = FailurePreferenceAdapter.getFailurePreferences();
+		ScriptGenerationUtil.initAdaptDatas(failuremap);
+        if (shouldExplorePreference) {
+            exploreForAdapter();
+            adaptData();
+        }
+        if (testSettingOperations) {
+            testNonDefaultSettings();
+        }
+//        Map<String, TestCaseData> datas = JsonHelper.gettestcasesdataAdapt(Main.testcaseinfofile, true);
+//        ScriptExecutor.scriptexecuteforPREFEST_T(datas, (String)apkinfo.get("packagename"));
+        File planfile = new File(Main.interestplanfile);
+        InterestPlan plan = null;
+        if (planfile.exists()) {
+        	plan = JsonHelper.getinterestplanAdapt(Main.interestplanfile);
+        } else {
+        	plan = new InterestPlan(Main.testcaseinfofile);
+//                testNonDefaultSettings();
+        }
+        plan.setPlanMode(InterestPlanMode.ESPRESSO);
+        plan.execute();
+    }
+    
 
 }

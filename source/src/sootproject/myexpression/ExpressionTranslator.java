@@ -9,6 +9,8 @@ import java.util.Map;
 import java.util.Set;
 
 import GUI.Main;
+import data.LocalValMap;
+import data.RefValMap;
 import sootproject.analysedata.MyInterest;
 import sootproject.analysedata.MyPreference;
 import sootproject.analysedata.TrailState;
@@ -53,17 +55,23 @@ import sootproject.tool.Util;
 public class ExpressionTranslator {
 	private static Map<String, MyEnum> enumMap = new HashMap<String, MyEnum>();
 	private static Map<Long, String> stridmap = null;
-
+//	private Map<SootMethod, MyMethodDeclaration> methodMaps = null;
 	private ConstraintSolver constraintSolver = null;
 	private Map<String, MyInterest> involvedInterest = null;
-	private Map<Integer, MyVariable> refMaps = null;
+	private RefValMap refMaps = null;
 	private String tagname = null;
-	
+	private CMD currentCMD = null;
+
 	private static String[] getValuesStr = {"getInt", "getBoolean", "getFloat", "getLong", "getString", "getStringSet", "getAll"};
 	private static String[] putValuesStr = {"putInt", "putBoolean", "putFloat", "putLong", "putString"};
+//	private ReturnStatement resutSta = null;
 	public ExpressionTranslator(Map<String, MyInterest> involvedInterest, String tagname, Map<Long, String> stridmap) {
+//		this.methodMaps = methodMaps;
 		this.involvedInterest = involvedInterest;
-		this.refMaps = new HashMap<Integer, MyVariable>();
+		for (MyInterest i : this.involvedInterest.values()) {
+			i.restoreExp();
+		}
+		this.refMaps = new RefValMap();
 		constraintSolver= new ConstraintSolver();
 		
 		this.tagname = tagname;
@@ -73,10 +81,21 @@ public class ExpressionTranslator {
 		constraintSolver.analyse(tagname);
 	}
 	
-	public boolean dealWithStmts(LinkedList<CMD> cmds) {
+	public boolean dealWithStmts(LinkedList<CMD> cmds, int logidNum, int branchNum) {
 		boolean result = true;
+//			System.out.println();
+//			System.out.println();
+//			System.out.println();
+//			System.out.println();
+//			System.out.println();
+//			System.out.println();
 		for (CMD cmd : cmds) {
-
+//				System.out.println();
+//				System.out.println();
+//				System.out.println();
+//				System.out.println();
+//				System.out.println();
+			currentCMD = cmd;
 			switch (cmd.type) {
 			case IF: {
 				result &= dealWithIfStatement((IfStmt)cmd.instrument, (Unit)cmd.arg, cmd.body, cmd.localmap);
@@ -106,15 +125,15 @@ public class ExpressionTranslator {
 		}
 		return result;
 	}
-	
-	private boolean dealWithIfStatement(IfStmt sta, Unit nextUnit, Body body, HashMap<Integer, MyVariable> localMaps) {
+
+	private boolean dealWithIfStatement(IfStmt sta, Unit nextUnit, Body body, LocalValMap localMap) {
 		Value val = sta.getCondition();
-		MyExpression conditionExp = null;
+		MyExpressionInterface conditionExp = null;
 		MyConstraint constraint = null;
 		if (val instanceof Expr) {
-			conditionExp = MyExpression.getMyExpression((Expr)val, localMaps, refMaps);
+			conditionExp = MyExpression.getMyExpression((Expr)val, localMap, refMaps);
 		} else if (val instanceof Local || val instanceof Ref) {
-			MyVariable var = Util.getParam(val, localMaps, refMaps);
+			MyVariable var = Util.getParam(val, localMap, refMaps);
 			conditionExp = var.getTrueExp();
 		}
 		
@@ -130,15 +149,15 @@ public class ExpressionTranslator {
 		}
 		return true;
 	}
-	
-	private boolean dealWithSwitchStatement(LookupSwitchStmt sta, Unit nextUnit, Body body, HashMap<Integer, MyVariable> localMaps) {
+
+	private boolean dealWithSwitchStatement(LookupSwitchStmt sta, Unit nextUnit, Body body, LocalValMap localMap) {
 		Value val = sta.getKey();
-		MyExpression conditionExp = null;
+		MyExpressionInterface conditionExp = null;
 		MyConstraint constraint = null;
 		if (val instanceof Expr) {
-			conditionExp = MyExpression.getMyExpression((Expr)val, localMaps, refMaps);
+			conditionExp = MyExpression.getMyExpression((Expr)val, localMap, refMaps);
 		} else if (val instanceof Local || val instanceof Ref) {
-			MyVariable var = Util.getParam(val, localMaps, refMaps);
+			MyVariable var = Util.getParam(val, localMap, refMaps);
 			conditionExp = var.getTrueExp();
 		}
 
@@ -172,40 +191,35 @@ public class ExpressionTranslator {
 		return true;
 	}
 	
-	public boolean dealWithReturnStatement(ReturnStmt sta, JAssignStmt originInvoke, HashMap<Integer, MyVariable> nowlocalmap, HashMap<Integer, MyVariable> nextlocalmap) {
+	public boolean dealWithReturnStatement(ReturnStmt sta, JAssignStmt originInvoke, LocalValMap nowlocalmap, LocalValMap nextlocalmap) {
 		Value left = originInvoke.getLeftOp();
 		Value right = sta.getOp();
 		return dealWithAssignment(left, right, nextlocalmap, nowlocalmap);
 	}
 	
-	private boolean dealWithAssignment(AbstractDefinitionStmt assign, HashMap<Integer, MyVariable> nowlocalmap) {
+	private boolean dealWithAssignment(AbstractDefinitionStmt assign, LocalValMap nowlocalmap) {
 		Value left = assign.getLeftOp();
 		Value right = assign.getRightOp();
 		return dealWithAssignment(left, right, nowlocalmap, nowlocalmap);
 	}
 	
-	private boolean dealWithAssignment(Value left, Value right, HashMap<Integer, MyVariable> leftlocalmap, HashMap<Integer, MyVariable> rightlocalmap) {
+	private boolean dealWithAssignment(Value left, Value right, LocalValMap leftlocalmap, LocalValMap rightlocalmap) {
 		MyVariable leftVal = Util.getParam(left, leftlocalmap, refMaps);
 		MyVariable rightVal = null;
-		MyExpression nowExpression = null;
+		MyExpressionInterface nowExpression = null;
 		if (right instanceof Expr) {
 			nowExpression = MyExpression.getMyExpression((Expr)right, rightlocalmap, refMaps);
 		} else {
 			if ((right instanceof Local) || (right instanceof Ref)) {
 				rightVal = Util.getParam(right, rightlocalmap, refMaps);
-				if (null != rightVal.getTrueExp()) {
-					nowExpression = rightVal.getTrueExp();
-					for (MyInterest interest : rightVal.getAffectedInterests()) {
-						interest.addAffectedVariable(leftVal);
-					}
-				}
+				nowExpression = rightVal.getTrueExp();
 			} else if (right instanceof Constant) {
 				nowExpression = Util.getConstant((Constant)right);
 			} else {
 				
 			}
 		}
-		leftVal.setTrueExp(rightVal, nowExpression, leftlocalmap, rightlocalmap, refMaps);
+		leftVal.setTrueExp(nowExpression, leftlocalmap, rightlocalmap, refMaps);
 
 
 		dealWithSpecialVal(leftVal, rightVal);
@@ -231,20 +245,14 @@ public class ExpressionTranslator {
 					}
 				}
 			}
-//			} else if (nowfield.getName().startsWith("$SwitchMap")) {
 //				String enumName = nowfield.getName().replace("$SwitchMap$", "");
 //				MyEnum myenum = enumMap.get(enumName);
-//				if (null != myenum) {
 //					ExpressionValue value = rightVal.getTrueExp().calculate(new HashMap<MyInterest,String>());
-//					if (value.type == ResultType.ARRAY) {
 //						myenum.switchMap = (MyArrayContent)value.value;
-//					}
-//				}
-//			}
 		}
 	}
 	
-	private boolean dealWithMethodInvoke(InvokeExpr exp, MyMethodDeclaration myMethod, HashMap<Integer, MyVariable> nowlocalmap, HashMap<Integer, MyVariable> nextlocalmap) {
+	private boolean dealWithMethodInvoke(InvokeExpr exp, MyMethodDeclaration myMethod, LocalValMap nowlocalmap, LocalValMap nextlocalmap) {
 		if (myMethod == null) {
 			System.out.println("error: 'dealWithMethodInvoke' method is not found!");
 		} else {
@@ -260,7 +268,7 @@ public class ExpressionTranslator {
 		}
 		return false;
 	}
-	private boolean dealWithLoggedSpecialInvokes(Value leftValue, InvokeExpr exp, HashMap<Integer, MyVariable> nowlocalmap) {
+	private boolean dealWithLoggedSpecialInvokes(Value leftValue, InvokeExpr exp, LocalValMap nowlocalmap) {
 		SootMethod method = exp.getMethod();
 		SootClass myclass = method.getDeclaringClass();
 		SootClass superclass = myclass.getSuperclass();
@@ -269,32 +277,28 @@ public class ExpressionTranslator {
 			if (methodName.equals("<init>")) {
 				Value target = exp.getUseBoxes().get(exp.getUseBoxes().size() - 1).getValue();
 				MyVariable variable = Util.getParam(target, nowlocalmap, refMaps);
-				if (null != variable.trueExp) {
-					MyEnumInstance myenuminstance = null;
-					if ((variable.trueExp.content instanceof MyInstanceContent)) {
-						myenuminstance = ((MyInstanceContent)variable.trueExp.content).forcetobeenum();
-					} else {
-						myenuminstance = (MyEnumInstance)variable.trueExp.content;
-					}
+				MyEnumInstance myenuminstance = null;
+				if (null == variable.trueExp || ! (variable.trueExp instanceof MyEnumInstance)) {
+					variable.trueExp = MyExpressionTree.createEnumInstance();
+				}
+				myenuminstance = (MyEnumInstance)variable.trueExp;
+				if ((exp.getArg(0) instanceof StringConstant) && (exp.getArg(1) instanceof IntConstant)) {
+					myenuminstance.name = ((StringConstant)exp.getArg(0)).value;
+					myenuminstance.index = ((IntConstant)exp.getArg(1)).value;		
 					
-					if ((exp.getArg(0) instanceof StringConstant) && (exp.getArg(1) instanceof IntConstant)) {
-						myenuminstance.name = ((StringConstant)exp.getArg(0)).value;
-						myenuminstance.index = ((IntConstant)exp.getArg(1)).value;		
-						
-					} else {
-						MyExpression nameexp = Util.getVal(exp.getArg(0), nowlocalmap, refMaps);
-						if (null != nameexp) {
-							Object result = nameexp.calculate();
-							if (null != result) {
-								myenuminstance.name = result.toString();
-							}
+				} else {
+					MyExpressionInterface nameexp = Util.getVal(exp.getArg(0), nowlocalmap, refMaps);
+					if (null != nameexp) {
+						Object result = nameexp.calculate();
+						if (null != result) {
+							myenuminstance.name = result.toString();
 						}
-						MyExpression indexexp = Util.getVal(exp.getArg(1), nowlocalmap, refMaps);
-						if (null != indexexp) {
-							Object result = indexexp.calculate();
-							if (null != result) {
-								myenuminstance.index = (int)result;
-							}
+					}
+					MyExpressionInterface indexexp = Util.getVal(exp.getArg(1), nowlocalmap, refMaps);
+					if (null != indexexp) {
+						Object result = indexexp.calculate();
+						if (null != result) {
+							myenuminstance.index = ((Long)result).intValue();
 						}
 					}
 				}
@@ -302,8 +306,9 @@ public class ExpressionTranslator {
 		}
 		return true;
 	}
+	public static Set<String> testPreferenceNames = new HashSet<String>();
 	
-	private boolean dealWithUnLoggedSpecialInvokes(Value leftValue, InvokeExpr exp, HashMap<Integer, MyVariable> nowlocalmap, String preloc) {
+	private boolean dealWithUnLoggedSpecialInvokes(Value leftValue, InvokeExpr exp, LocalValMap nowlocalmap, String preloc) {
 		boolean isPreferenceRelatedInv = false;
 		SootMethod method = exp.getMethod();
 		
@@ -315,18 +320,19 @@ public class ExpressionTranslator {
 		case "android.content.SharedPreferences" :{
 			for (String name : getValuesStr) {
 				if (name.equals(methodName)) {
-					isPreferenceRelatedInv = true;
 					if ("getAll".equals(name)) {
+						System.out.println("getAll");
 						break;
 					}
+					isPreferenceRelatedInv = true;
 					solved = true;
 					Value param = exp.getArg(0);
 					String interestname = null;
 					if (param instanceof StringConstant) {
 						interestname = ((StringConstant)param).value;
 					} else if (param instanceof Ref || param instanceof Local) {
-						MyExpression tempexp = Util.getVal(param, nowlocalmap, refMaps);
-						if(null != tempexp && !tempexp.unknown) {
+						MyExpressionInterface tempexp = Util.getVal(param, nowlocalmap, refMaps);
+						if(null != tempexp && !tempexp.interestRelated) {
 							Object resultvalue = tempexp.calculate();
 							if (null != resultvalue) {
 								interestname = resultvalue + "";
@@ -334,19 +340,35 @@ public class ExpressionTranslator {
 							
 						}
 					}
-					if (null != interestname) {	
-						MyInterest myInterest = involvedInterest.get(interestname);
-						if (myInterest == null) {
-							myInterest = new MyPreference(interestname, name);
-							involvedInterest.put(interestname, myInterest);
-						} else if (myInterest.getResultType() == ResultType.DEFAULT){
-							myInterest.setResultType(name);
-						}
-						if (null != leftValue) {
-							MyExpression nowexp = myInterest.getMyInterestExpression();
+					if (null != interestname) {
+						if ("getAll".equals(name)) {
+							Map<Object, MyExpressionTree> preferencearray = new HashMap<Object, MyExpressionTree>();
+							for (String key : involvedInterest.keySet()) {
+								preferencearray.put(key, MyExpressionTree.createLeaf(involvedInterest.get(key).getSelfexp()));
+							}
+							MyExpressionTree allinterests = refMaps.getOrCreateSPTree(new MySPArrayContent("preferencearray", preferencearray));
 							MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-							nowVal.setTrueExp(nowexp, nowlocalmap, refMaps);
-							myInterest.addAffectedVariable(nowVal);
+							nowVal.setTrueExp(allinterests, nowlocalmap, refMaps);
+						} else {
+							if (!testPreferenceNames.contains(interestname)) {
+								System.out.println(interestname);
+//									System.out.println();
+								testPreferenceNames.add(interestname);
+							}
+   							MyInterest myInterest = involvedInterest.get(interestname);
+							if (myInterest == null) {
+								myInterest = new MyPreference(interestname, name);
+								involvedInterest.put(interestname, myInterest);
+							} else if (myInterest.getResultType() == ResultType.DEFAULT){
+								myInterest.setResultType(name);
+								
+							}
+							if (null != leftValue) {
+								MyExpressionInterface nowexp = myInterest.getMyInterestExpression();
+								MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
+								nowVal.setTrueExp(nowexp, nowlocalmap, refMaps);
+								myInterest.addAffectedVariable(nowVal);
+							}
 						}
 					}
 					break;
@@ -365,8 +387,8 @@ public class ExpressionTranslator {
 					if (param instanceof StringConstant) {
 						interestname = ((StringConstant)param).value;
 					} else if (param instanceof Ref || param instanceof Local){
-						MyExpression tempexp = Util.getVal(param, nowlocalmap, refMaps);
-						if(null != tempexp && !tempexp.unknown) {
+						MyExpressionInterface tempexp = Util.getVal(param, nowlocalmap, refMaps);
+						if(null != tempexp && !tempexp.interestRelated) {
 							ExpressionValue resultvalue = tempexp.calculate(new HashMap<MyInterest,String>());
 							if (null != resultvalue) {
 								interestname = resultvalue.value + "";
@@ -381,7 +403,7 @@ public class ExpressionTranslator {
 						} else if (myInterest.getResultType() == ResultType.DEFAULT){
 							myInterest.setResultType(name);
 						}
-						MyExpression nowexp = Util.getVal(newvalue, nowlocalmap, refMaps);
+						MyExpressionInterface nowexp = Util.getVal(newvalue, nowlocalmap, refMaps);
 						if (null != nowexp) {
 							myInterest.setSelfexp(nowexp);
 						}
@@ -412,9 +434,10 @@ public class ExpressionTranslator {
 			} else if (methodName.equals("getProviders") || methodName.equals("getAllProviders")) {
 				solved = true;
 				if (null != leftValue) {
-					MyExpression nowexp = new MyExpression(new MySPArrayContent("location"));
+					MyExpressionTree nowtree = refMaps.getOrCreateSPTree(new MySPArrayContent("location"));
+//					MyExpression nowexp = new MyExpression(new MySPArrayContent("location"));
 					MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-					nowVal.setTrueExp(nowexp, nowlocalmap, refMaps);
+					nowVal.setTrueExp(nowtree, nowlocalmap, refMaps);
 				}
 			}
 			break;
@@ -433,7 +456,7 @@ public class ExpressionTranslator {
 				solved = true;
 				MyInterest myInterest = involvedInterest.get("ass_wifi");
 				Value newvalue = exp.getArg(0);
-				MyExpression nowexp = Util.getVal(newvalue, nowlocalmap, refMaps);
+				MyExpressionInterface nowexp = Util.getVal(newvalue, nowlocalmap, refMaps);
 				if (null != nowexp) {
 					myInterest.setSelfexp(nowexp);
 				}
@@ -470,46 +493,63 @@ public class ExpressionTranslator {
 			if (methodName.equals("equals")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression equalRight = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface equalRight = Util.getVal(param, nowlocalmap, refMaps);
 				Value equalLeftVal = exp.getUseBoxes().get(1).getValue();
-				MyExpression equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.EQUAL, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.EQUAL, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
+				//left = new MyExpression();
 			} else if (methodName.equals("hashCode")) {
 				solved = true;
 				Value hashLeftVal = exp.getUseBoxes().get(0).getValue();
-				MyExpression hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.HASH, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.HASH, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
 			} else if (methodName.equals("contains")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression containRight = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface containRight = Util.getVal(param, nowlocalmap, refMaps);
 				Value containLeftVal = exp.getUseBoxes().get(1).getValue();
-				MyExpression containLeft = Util.getVal(containLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface containLeft = Util.getVal(containLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.CONTAINS, containLeft, containRight), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.CONTAINS, containLeft, containRight), nowlocalmap, nowlocalmap, refMaps);
 			} else if (methodName.equals("contentEquals")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression equalRight = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface equalRight = Util.getVal(param, nowlocalmap, refMaps);
 				Value equalLeftVal = exp.getUseBoxes().get(1).getValue();
-				MyExpression equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.EQUAL, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.EQUAL, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
+			} else if (methodName.equals("startsWith")) {
+				solved = true;
+				Value param = exp.getArg(0);
+				MyExpressionInterface equalRight = Util.getVal(param, nowlocalmap, refMaps);
+				Value equalLeftVal = exp.getUseBoxes().get(1).getValue();
+				MyExpressionInterface equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
+				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.STARTWITH, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
+			} else if (methodName.equals("endsWith")) {
+				solved = true;
+				Value param = exp.getArg(0);
+				MyExpressionInterface equalRight = Util.getVal(param, nowlocalmap, refMaps);
+				Value equalLeftVal = exp.getUseBoxes().get(1).getValue();
+				MyExpressionInterface equalLeft = Util.getVal(equalLeftVal, nowlocalmap, refMaps);
+				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.ENDWITH, equalLeft, equalRight), nowlocalmap, nowlocalmap, refMaps);
 			} else if (methodName.equals("valueOf")) {
 			} else if (methodName.equals("toUpperCase")) {
 				solved = true;
 				Value hashLeftVal = exp.getUseBoxes().get(0).getValue();
-				MyExpression hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.UPPERCASE, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.UPPERCASE, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
 			} else if (methodName.equals("toLowerCase")) {
 				solved = true;
 				Value hashLeftVal = exp.getUseBoxes().get(0).getValue();
-				MyExpression hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
+				MyExpressionInterface hashLeft = Util.getVal(hashLeftVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.LOWERCASE, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.LOWERCASE, hashLeft, null), nowlocalmap, nowlocalmap, refMaps);
 			}
 			break;
 		} 
@@ -517,13 +557,13 @@ public class ExpressionTranslator {
 			if (methodName.equals("parseInt")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression praseString = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface praseString = Util.getVal(param, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, new MyExpression(OperationType.PRASEINT, praseString, null), nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.PRASEINT, praseString, null), nowlocalmap, nowlocalmap, refMaps);
 			} else if (methodName.equals("valueOf")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression valueofint = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface valueofint = Util.getVal(param, nowlocalmap, refMaps);
 				if (valueofint != null) {
 					MyExpression newExp = new MyExpression(OperationType.VALUEOF, valueofint, null);
 					newExp.resultType = ResultType.INT;
@@ -533,7 +573,7 @@ public class ExpressionTranslator {
 			} else if (methodName.equals("intValue")) {
 				solved = true;
 				Value param = exp.getUseBoxes().get(0).getValue();
-				MyExpression intvalue = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface intvalue = Util.getVal(param, nowlocalmap, refMaps);
 				if (intvalue != null) {
 					MyExpression newExp = new MyExpression(OperationType.SAME, intvalue, null);
 					newExp.resultType = ResultType.INT;
@@ -547,21 +587,21 @@ public class ExpressionTranslator {
 			if (methodName.equals("append")) {
 				solved = true;
 				Value param = exp.getArg(0);
-				MyExpression appendRight = Util.getVal(param, nowlocalmap, refMaps);
+				MyExpressionInterface appendRight = Util.getVal(param, nowlocalmap, refMaps);
 				Value equalLeftVal = exp.getUseBoxes().get(1).getValue();
 				MyVariable appendLeftVal = Util.getParam(equalLeftVal, nowlocalmap, refMaps);
-				appendLeftVal.setTrueExp(null, new MyExpression(OperationType.APPEND, appendLeftVal.getTrueExp(), appendRight), nowlocalmap, nowlocalmap, refMaps);
+				appendLeftVal.setTrueExp(new MyExpression(OperationType.APPEND, appendLeftVal.getTrueExp(), appendRight), nowlocalmap, nowlocalmap, refMaps);
 				if (null != leftValue) {
 					MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-					nowVal.setTrueExp(null, appendLeftVal.getTrueExp(), nowlocalmap, nowlocalmap, refMaps);
+					nowVal.setTrueExp(appendLeftVal.getTrueExp(), nowlocalmap, nowlocalmap, refMaps);
 				}
 
 			} else if (methodName.equals("toString")) {
 				solved = true;
 				Value toStringrightVal = exp.getUseBoxes().get(0).getValue();
-				MyExpression toStringRight = Util.getVal(toStringrightVal, nowlocalmap, refMaps);
+				MyExpressionInterface toStringRight = Util.getVal(toStringrightVal, nowlocalmap, refMaps);
 				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-				nowVal.setTrueExp(null, toStringRight, nowlocalmap, nowlocalmap, refMaps);
+				nowVal.setTrueExp(toStringRight, nowlocalmap, nowlocalmap, refMaps);
 			}
 			break;
 		}
@@ -570,9 +610,9 @@ public class ExpressionTranslator {
 				solved = true;
 				MyVariable leftVal = Util.getParam(leftValue, nowlocalmap, refMaps);
 				Value cloneVal = exp.getUseBoxes().get(0).getValue();
-				MyExpression rightExp = Util.getVal(cloneVal, nowlocalmap, refMaps);
+				MyExpressionInterface rightExp = Util.getVal(cloneVal, nowlocalmap, refMaps);
 				if (null != rightExp) {
-					leftVal.setTrueExp(null, rightExp, nowlocalmap, nowlocalmap, refMaps);
+					leftVal.setTrueExp(rightExp, nowlocalmap, nowlocalmap, refMaps);
 				}
 			}
 			break;
@@ -585,7 +625,7 @@ public class ExpressionTranslator {
 				enumname = enumname.substring(0, enumname.length() -1);
 				enumname = enumname.replace('/', '$');
 				Value target = exp.getUseBoxes().get(1).getValue();
-				MyExpression targetexp = Util.getVal(target, nowlocalmap, refMaps);
+				MyExpressionInterface targetexp = Util.getVal(target, nowlocalmap, refMaps);
 				if (targetexp != null) {
 					MyExpression newExp = new MyExpression(OperationType.VALUEOF, targetexp, null);
 					newExp.content = enumname;
@@ -596,7 +636,7 @@ public class ExpressionTranslator {
 			} else if (methodName.equals("ordinal")) {
 				solved = true;
 				Value target = exp.getUseBoxes().get(0).getValue();
-				MyExpression targetexp = Util.getVal(target, nowlocalmap, refMaps);
+				MyExpressionInterface targetexp = Util.getVal(target, nowlocalmap, refMaps);
 				if (targetexp != null) {
 					String enumname = ((RefType)target.getType()).getClassName().replace('.', '$');
 					MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
@@ -604,6 +644,12 @@ public class ExpressionTranslator {
 					newExp.content = enumname;
 					nowVal.setTrueExp(newExp, nowlocalmap, refMaps);
 				}
+			} else if (methodName.equals("name")) {
+				solved = true;
+				Value enumVal = exp.getUseBoxes().get(0).getValue();
+				MyExpressionInterface nameVal = Util.getVal(enumVal, nowlocalmap, refMaps);
+				MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
+				nowVal.setTrueExp(new MyExpression(OperationType.NAME, nameVal, null), nowlocalmap, nowlocalmap, refMaps);
 			}
 			break;
 		} 
@@ -611,34 +657,66 @@ public class ExpressionTranslator {
 			if (methodName.equals("contains")) {
 				solved = true;
 				Value target = exp.getUseBoxes().get(exp.getUseBoxes().size() - 1).getValue();
-				MyExpression targetexp = Util.getVal(target, nowlocalmap, refMaps);
-				String tag = null;
-				if (null != targetexp && (tag = targetexp.getSPTag()) != null) {
-					if (tag.equals("location")) {
-						Value param = exp.getArg(0);
-						String interestname = null;
-						if (param instanceof StringConstant) {
-							interestname = ((StringConstant)param).value;
-						}
-						if (interestname != null) {
-							MyInterest myInterest = involvedInterest.get("ass_location_" + interestname);
-							if (null != leftValue) {
-								MyExpression nowexp = myInterest.getMyInterestExpression();
-								MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
-								nowVal.setTrueExp(nowexp, nowlocalmap, refMaps);
-								myInterest.addAffectedVariable(nowVal);
-							}
+				MyExpressionInterface targetexp = Util.getVal(target, nowlocalmap, refMaps);
+				if (null == targetexp || !(targetexp instanceof MyExpressionTree)) {
+					break;
+				}
+				String tag = ((MyExpressionTree)targetexp).name;
+				if (null != tag && tag.equals("location")) {
+					Value param = exp.getArg(0);
+					String interestname = null;
+					if (param instanceof StringConstant) {
+						interestname = ((StringConstant)param).value;
+					}
+					if (interestname != null) {
+						MyInterest myInterest = involvedInterest.get("ass_location_" + interestname);
+						if (null != leftValue) {
+							MyExpression nowexp = myInterest.getMyInterestExpression();
+							MyVariable nowVal = Util.getParam(leftValue, nowlocalmap, refMaps);
+							nowVal.setTrueExp(nowexp, nowlocalmap, refMaps);
+							myInterest.addAffectedVariable(nowVal);
 						}
 					}
 				}
+			} else if (methodName.equals("add")) {
+				solved = true;
+				Value arrayvalue = exp.getUseBoxes().get(exp.getUseBoxes().size() - 1).getValue();
+				MyVariable arrayval = Util.getParam(arrayvalue, nowlocalmap, refMaps);
+				if (exp.getArgs().size() == 2) {
+					Value indexvalue = exp.getArg(0);
+					Value contentvalue = exp.getArg(1);
+					MyExpressionInterface indexExp = Util.getVal(indexvalue, nowlocalmap, refMaps);
+					MyExpressionInterface contentExp = Util.getVal(contentvalue, nowlocalmap, refMaps);
+					((MyExpressionTree)arrayval.getTrueExp()).setChild(indexExp, contentExp);
+				}
+			} else if (methodName.equals("get")) {
+				solved = true;
+				Value arrayvalue = exp.getUseBoxes().get(exp.getUseBoxes().size() - 1).getValue();
+				MyVariable arrayval = Util.getParam(arrayvalue, nowlocalmap, refMaps);
+				if (exp.getArgs().size() == 1) {
+					Value indexvalue = exp.getArg(0);
+					MyExpressionInterface indexExp = Util.getVal(indexvalue, nowlocalmap, refMaps);
+					MyExpressionTree result = null;
+					try {
+						result = ((MyExpressionTree)arrayval.getTrueExp()).getChild(indexExp, false);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+//						System.out.println();
+					}
+					arrayval.setTrueExp(result, nowlocalmap, refMaps);
+				}
+			} else if (methodName.equals("size")) {
+				
 			}
+			break;
 		}
-		case "android.content.res.Resources":;
+		case "android.content.res.Resources":
 		case "android.content.Context": {
 			if (methodName.equals("getString")) {
 				solved = true;
 				Value param1 = exp.getArg(0);
-				MyExpression strexp = Util.getVal(param1, nowlocalmap, refMaps);
+				MyExpressionInterface strexp = Util.getVal(param1, nowlocalmap, refMaps);
 				if (null != strexp) {
 					Object result = strexp.calculate();
 					if (null != result) {
@@ -653,6 +731,14 @@ public class ExpressionTranslator {
 				}
 			}
 			break;
+		}
+//				solved = true;
+////				ThisRef thisref = method.getThisref();
+////					List<ValueBox> values = exp.getUseBoxes();
+////					dealWithAssignment(thisref, values.get(values.size() - 1).getValue(), nextlocalmap, nowlocalmap);
+//				System.out.println();
+//			break;
+		default : {
 		}
 		}
 		if (!solved) {
@@ -675,9 +761,9 @@ public class ExpressionTranslator {
 				Value v = valueboxes.get(valueboxes.size() - 1).getValue();
 				allparamvalues.add(v);
 			}
-			Set<MyExpression> exps = new HashSet<MyExpression>();
+			Set<MyExpressionInterface> exps = new HashSet<MyExpressionInterface>();
 			for (Value v : allparamvalues) {
-				MyExpression e = Util.getVal(v, nowlocalmap, refMaps);
+				MyExpressionInterface e = Util.getVal(v, nowlocalmap, refMaps);
 				if (null != e && e.interestRelated) {
 					exps.add(e);
 				}
@@ -689,6 +775,8 @@ public class ExpressionTranslator {
 		
 		return false;
 	}
+	
+	
 	public static Map<String, MyEnum> getEnumMap() {
 		return enumMap;
 	}

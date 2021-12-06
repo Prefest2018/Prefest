@@ -14,11 +14,14 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
+import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import org.dom4j.tree.AbstractAttribute;
 
+import GUI.Main;
 import sootproject.analysedata.MyInterest;
 import sootproject.analysedata.MyPreference;
 import sootproject.myexpression.ResultType;
@@ -48,6 +51,7 @@ public class ResourceLoader {
 		booleanList.add("1");
 		stringList.add("");
 		stringList.add("random");
+//		numberList.add("-1");
 		numberList.add("0");
 		numberList.add("");
 		numberList.add("1");
@@ -77,6 +81,7 @@ public class ResourceLoader {
 		this.preferencesuperMap.put("EditTextPreference", "EditTextPreference");
 		this.preferencesuperMap.put("IntPreference", "IntPreference");
 		this.preferencesuperMap.put("DialogPreference", "DialogPreference");
+		this.preferencesuperMap.put("MultiSelectListPreference", "MultiSelectListPreference");
 		this.stringMap = new HashMap<String, String>();
 		this.arrayMap = new HashMap<String, List<String>>();
 		this.interestMap = new HashMap<String, MyInterest>();
@@ -131,6 +136,11 @@ public class ResourceLoader {
 
 		}
 		MyPreference.initPreferenceMap(interestMap);
+		
+//		failurepreferences = new ArrayList<PreferenceTreeNode>();
+//					failurepreferences.add(node);
+//					failurepreferences.add(node);
+//		
 		return interestMap;
 	}
 	
@@ -152,36 +162,61 @@ public class ResourceLoader {
 			}
 		}
 		
+		Map<Integer, String> preferencexmltempmapre = new HashMap<Integer, String>();
+		for (String key : preferencexmltempmap.keySet()) {
+			preferencexmltempmapre.put(preferencexmltempmap.get(key), key);
+		}
+		
 		for (File rfile: rlists) {
 			try {
 				BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(rfile), "UTF-8"));
 				String content = null;
 				while ((content = br.readLine()) != null) {
-					String content2 = content;
-					String content3 = content;
-					for (String classname : preferencexmltempmap.keySet()) {
-						String hint = " = " + preferencexmltempmap.get(classname) + ";";
-						if (content.contains(hint)) {
-							content = content.replace(hint, "").replace("public static final int ", "").trim() + ".xml";
-							preferencexmlMap.put(classname, content);
-							break;
-						}
+					if (!content.contains("=")) {
+						continue;
 					}
-					for (int id : preference2activitymap.keySet()) {
-						String hint = " = " + id + ";";
-						if (content2.contains(hint)) {
-							content2 = content2.replace(hint, "").replace("public static final int ", "").trim() + ".xml";
-							preferencefilename2activitymap.put(content2, preference2activitymap.get(id));
-							break;
-						}
+					String[] list = content.split("=");
+					if (list.length < 2) {
+						continue;
 					}
-					String[] list = content3.split("=");
-					if (list.length == 2) {
-						try {
-							idMap.put(list[0].replace("public static final int", "").trim(), Long.parseLong(list[1].replace(";", "").trim()));
-						} catch (NumberFormatException e) {
+					String leftstr = list[0].replace("public static final int ", "").trim();
+					String rightnumstr = list[1].replace(";", "").trim();
+					int rightnum = -1;
+					try {
+						if (rightnumstr.contains("0x")) {
+							rightnum = Integer.parseInt(rightnumstr.replace("0x", ""), 16);
+						} else {
+							rightnum = Integer.parseInt(rightnumstr);
 						}
+					} catch (NumberFormatException e1) {
+						continue;
 					}
+					
+					if (preferencexmltempmapre.containsKey(rightnum)) {
+						preferencexmlMap.put(preferencexmltempmapre.get(rightnum), leftstr + ".xml");
+					}
+					if (preference2activitymap.containsKey(rightnum)) {
+						preferencefilename2activitymap.put(leftstr + ".xml", preference2activitymap.get(rightnum));
+					}
+					
+					idMap.put(leftstr, (long)rightnum);
+//					
+//					String content2 = content;
+//					String content3 = content;
+//						String hint = " = " + preferencexmltempmap.get(classname) + ";";
+//						String hint2 = " = " + preferencexmltempmap.get(classname) + ";";
+//							content = content.replace(hint, "").replace("public static final int ", "").trim() + ".xml";
+//							preferencexmlMap.put(classname, content);
+//							break;
+//						String hint = " = " + id + ";";
+//							content2 = content2.replace(hint, "").replace("public static final int ", "").trim() + ".xml";
+//							preferencefilename2activitymap.put(content2, preference2activitymap.get(id));
+//							break;
+//							long strvalue = -1;
+//								strvalue = Long.parseLong(valuetemp.replace("0x", ""), 16);
+//								strvalue = Long.parseLong(valuetemp);
+//							
+//							idMap.put(strname, strvalue);
 				}
 				br.close();
 			} catch (FileNotFoundException e) {
@@ -196,14 +231,16 @@ public class ResourceLoader {
 	
 	
 	
+	
 	private void readPreferenceXML(File xmlFile, Map<String, List<PreferenceTreeNode>> filepreferencemap) {
 		Element initalElement = readXML(xmlFile);
 		String filename =xmlFile.getName();
 		String activityname = preferencefilename2activitymap.get(filename);
 
 
-		if (initalElement.getName().equals("PreferenceScreen") || initalElement.getName().equals("android.support.v7.preference.PreferenceScreen")) {
+		if (initalElement.getName().equals("PreferenceScreen") || initalElement.getName().equals("android.support.v7.preference.PreferenceScreen") || initalElement.getName().equals("androidx.preference.PreferenceScreen")) {
 			filepreferencemap.put(filename, new ArrayList<PreferenceTreeNode>());
+//			System.out.println("------current xml file-----" + filename);
 			Logger.log(("------current xml file-----" + filename));
 			for (Element childe : (List<Element>)initalElement.elements()) {
 				readPreferenceciterat(null, childe, filename, filepreferencemap, activityname, null);
@@ -236,6 +273,7 @@ public class ResourceLoader {
 		String preferencetype = null;
 		String title = null;
 		String key = null;
+		Map<String, Object> extraDatas = new HashMap<String, Object>();
 		boolean shouldexplore = false;
 		Map<String, String> entryvalues = null;
 		String defaultvalue = null;
@@ -296,6 +334,43 @@ public class ResourceLoader {
 			interestMap.put(key, myp);
 			break;
 		}
+		case "MultiSelectListPreference" : {
+			preferencetype = "multilist";
+			key = e.attributeValue("key");
+			key = getOriginStr(key);
+			defaultvalue = e.attributeValue("defaultValue");
+			if (null != defaultvalue) {
+				defaultvalue = getOriginStr(defaultvalue);
+			}
+			String entryValuesstr = e.attributeValue("entryValues");
+			List<String> entryValues = null;
+			if (null != entryValuesstr && !entryValuesstr.equals("@null")) {
+				entryValues = arrayMap.get(entryValuesstr.replace("@array/", ""));
+				for (int i = 0; i < entryValues.size(); i++) {
+					entryValues.set(i, getOriginStr(entryValues.get(i)));
+				}
+			} else {
+				entryValues = new ArrayList<String>();
+			}
+
+			String entrysstr = e.attributeValue("entries");
+			List<String> entries = null;
+			if (null != entrysstr && !entrysstr.equals("@null")) {
+				entries = arrayMap.get(entrysstr.replace("@array/", ""));
+				for (int i = 0; i < entries.size(); i++) {
+					entries.set(i, getOriginStr(entries.get(i)));
+				}
+			} else {
+				entries = new ArrayList<String>();
+			}
+			entryvalues = new HashMap<String, String>();
+			for (int i = 0; i < entryValues.size() && i < entries.size(); i++) {
+				entryvalues.put(entryValues.get(i), entries.get(i));
+			}
+			myp = new MyPreference(key, defaultvalue, entryValues, ResultType.DEFAULT);
+			interestMap.put(key, myp);
+			break;
+		}
 		case "ListPreference" : {
 			preferencetype = "list";
 			key = e.attributeValue("key");
@@ -352,7 +427,7 @@ public class ResourceLoader {
 				System.out.println("error: unknown EditText input type: " + inputTypestr);
 			}
 			defaultvalue = e.attributeValue("defaultValue");
-			if (null != defaultvalue) {
+			if (null != defaultvalue && entryvalues.size() < 3) {
 				defaultvalue = getOriginStr(defaultvalue);
 				entryvalues.put(defaultvalue, defaultvalue);
 			}
@@ -380,15 +455,68 @@ public class ResourceLoader {
 			key = e.attributeValue("key");
 			if (null != key) {
 				key = getOriginStr(key);
+				if (Main.USESEEKBAR && (adjustname.contains("seekbar") || adjustname.contains("Seekbar") || adjustname.contains("SeekBar") || adjustname.contains("SEEKBAR"))) {
+					preferencetype = "seekbar";
+					entryvalues = new HashMap<String, String>();
+					defaultvalue = e.attributeValue("defaultValue");
+					if (null != defaultvalue) {
+						defaultvalue = getOriginStr(defaultvalue);
+						entryvalues.put(defaultvalue, defaultvalue);
+					}
+					for (Object child : e.attributes()) {
+						AbstractAttribute childe = (AbstractAttribute)child;
+						String childname = childe.getName();
+						if ((childname.contains("min") || childname.contains("Min") || childname.contains("MIN"))) {
+							entryvalues.put(childe.getText(), childe.getText());
+							extraDatas.put("min", Float.parseFloat(childe.getText()));
+						} else if (childname.contains("max") || childname.contains("Max") || childname.contains("MAX")) {
+							entryvalues.put(childe.getText(), childe.getText());
+							extraDatas.put("max", Float.parseFloat(childe.getText()));
+						}
+					}
+					myp = new MyPreference(key, defaultvalue, new ArrayList<String>(entryvalues.values()), ResultType.INT);
+				} else {
+					myp = new MyPreference(key, defaultvalue, new ArrayList<String>(), ResultType.DEFAULT);
+					myp.requireAdapt = true;
+				}
+				interestMap.put(key, myp);
 			}
+			break;
 		}
 		case "Preference" : {
-			preferencetype = "preference";
 			key = e.attributeValue("key");
 			if (null != key) {
 				key = getOriginStr(key);
 			}
-			if ("preference".equalsIgnoreCase(e.getName())) {
+			
+			if (Main.USESEEKBAR && (adjustname.contains("seekbar") || adjustname.contains("Seekbar") || adjustname.contains("SeekBar") || adjustname.contains("SEEKBAR"))) {
+				preferencetype = "seekbar";
+				entryvalues = new HashMap<String, String>();
+				defaultvalue = e.attributeValue("defaultValue");
+				if (null != defaultvalue) {
+					defaultvalue = getOriginStr(defaultvalue);
+					entryvalues.put(defaultvalue, defaultvalue);
+				}
+				for (Object child : e.attributes()) {
+					AbstractAttribute childe = (AbstractAttribute)child;
+					String childname = childe.getName();
+					if ((childname.contains("min") || childname.contains("Min") || childname.contains("MIN"))) {
+						entryvalues.put(childe.getText(), childe.getText());
+						extraDatas.put("min", Float.parseFloat(childe.getText()));
+					} else if (childname.contains("max") || childname.contains("Max") || childname.contains("MAX")) {
+						entryvalues.put(childe.getText(), childe.getText());
+						extraDatas.put("max", Float.parseFloat(childe.getText()));
+					}
+					
+				}
+				myp = new MyPreference(key, defaultvalue, new ArrayList<String>(entryvalues.values()), ResultType.INT);
+				interestMap.put(key, myp);
+				break;
+			}
+			
+			
+			preferencetype = "preference";
+			if ("preference".equalsIgnoreCase(e.getName()) || e.getName().endsWith(".Preference")) {
 				shouldexplore = true;
 			}
 			
@@ -419,13 +547,18 @@ public class ResourceLoader {
 			}
 			if (!entryvalues.isEmpty()) {
 				preferencetype = "list";
-				defaultvalue = e.attributeValue("defaultValue");
-				if (null != defaultvalue) {
-					defaultvalue = getOriginStr(defaultvalue);
-				}
-				myp = new MyPreference(key, defaultvalue, entryValues, ResultType.DEFAULT);
-				interestMap.put(key, myp);
+			} else {
+				preferencetype = "other";
 			}
+			defaultvalue = e.attributeValue("defaultValue");
+			if (null != defaultvalue) {
+				defaultvalue = getOriginStr(defaultvalue);
+			}
+			myp = new MyPreference(key, defaultvalue, entryValues, ResultType.DEFAULT);
+			if ("other".equals(preferencetype)) {
+				myp.requireAdapt = true;
+			}
+			interestMap.put(key, myp);
 			
 			break;
 		}
@@ -450,14 +583,24 @@ public class ResourceLoader {
 		}
 		PreferenceTreeNode newNode = null;
 		if (shouldadd) {
+//			System.out.println(key);
 			if (null != key) {
 				Logger.log(key);
 			}
 			title = e.attributeValue("title");
 			title = getOriginStr(title);
+			if (null == title || "".equals(title)) {
+				for (int i = 0; i < e.attributeCount(); i++) {
+					Attribute a = e.attribute(i);
+					if(a.getName().contains("summary")) {
+						title = a.getValue();
+						title = getOriginStr(title);
+					}
+				}
+			}
 			String dependency = e.attributeValue("dependency");
 			dependency = getOriginStr(dependency);
-			newNode = new PreferenceTreeNode(preferencetype, title, key, filename, activityname, entryvalues, defaultvalue, catlogname, dependency, shouldexplore);
+			newNode = new PreferenceTreeNode(preferencetype, title, key, filename, activityname, entryvalues, defaultvalue, catlogname, dependency, shouldexplore, extraDatas);
 			if (myp != null) {
 				myp.setPreferencenode(newNode);
 			}
@@ -550,6 +693,7 @@ public class ResourceLoader {
 	public Map<String, List<PreferenceTreeNode>> getPrefereneceTree() {
 		return this.filepreferencemap;
 	}
+
 	public Map<String, String> getPreferencefilename2activitymap() {
 		return preferencefilename2activitymap;
 	}

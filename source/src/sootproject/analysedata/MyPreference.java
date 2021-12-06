@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 import data.InterestValue;
+import data.PreferenceAdaptData;
 import sootproject.data.MyNode;
 import sootproject.myexpression.ResultType;
 import sootproject.resourceLoader.PreferenceTreeNode;
@@ -17,6 +18,7 @@ import sootproject.resourceLoader.PreferenceTreeNode;
 public class MyPreference extends MyInterest{
 	private String typestr = null;
 	private static Map<String, MyInterest> allInterestMap = null;
+	public boolean requireAdapt = false;
 	public MyPreference(String name, String typestr) {
 		super(name);
 		setResultType(typestr);
@@ -39,6 +41,7 @@ public class MyPreference extends MyInterest{
 		}
 		this.type = type;
 	}
+	
 	@Override
 	public ResultType getResultType() {
 		return this.type;
@@ -53,10 +56,57 @@ public class MyPreference extends MyInterest{
 		} else if ("getFloat".equals(typestr)) {
 			this.type = ResultType.FLOAT;
 		} else if ("getAll".equals(typestr)) {
+			//TODO
 		} else if ("getStringSet".equals(typestr)) {
+			//TODO
 		}
 	}
 	
+	@Override
+	public InterestValue getInterestValueEnum() {
+		String type = null;
+		if (null != typestr) {
+			switch (typestr) {
+			case "getString" : type = "string";break;
+			case "getInt" : type = "int";break;
+			case "getLong" : type = "long";break;
+			case "getBoolean" : {
+				type = "boolean";
+				break;
+			}
+			case "getFloat" : type = "float";break;
+			}
+		} else if (this.type != ResultType.DEFAULT) {
+			switch (this.type) {
+			case BOOLEAN : {
+				type = "boolean";
+				break;
+			}
+			}
+		}
+		InterestValue interestvalue = new InterestValue("preference", null, type, name, null, -1, null);
+		if (null != preferencenode) {
+			List<String> steps = preferencenode.getTitles();
+			interestvalue.preferencesteps = steps;
+			interestvalue.innertype = preferencenode.preferencetype; 
+			interestvalue.index = preferencenode.index;
+			interestvalue.activityname = preferencenode.activityname;
+			interestvalue.catalog = preferencenode.catlog;
+			if (preferencenode.preferencetype.equals("list")) {
+				interestvalue.value = preferencenode.getEntryLabel(interestvalue.value);
+			}
+			if (preferencenode.preferencetype.equals("seekbar")) {
+				interestvalue.extradatas = preferencenode.extrDatas;
+			}
+			if (null != preferencenode.dependency && null != allInterestMap) {
+				MyInterest dependencyPreference = allInterestMap.get(preferencenode.dependency);
+				if (null != dependencyPreference) {
+					interestvalue.dependency = dependencyPreference.getInterestValue("true");
+				}
+			}
+		}
+		return null;
+	}
 	
 	private Map<String, InterestValue> valuemapcache = new HashMap<String, InterestValue>();
 	public InterestValue getInterestValue(String value) {
@@ -95,6 +145,9 @@ public class MyPreference extends MyInterest{
 			interestvalue.catalog = preferencenode.catlog;
 			if (preferencenode.preferencetype.equals("list")) {
 				interestvalue.value = preferencenode.getEntryLabel(interestvalue.value);
+			}
+			if (preferencenode.preferencetype.equals("seekbar")) {
+				interestvalue.extradatas = preferencenode.extrDatas;
 			}
 			if (null != preferencenode.dependency && null != allInterestMap) {
 				MyInterest dependencyPreference = allInterestMap.get(preferencenode.dependency);
@@ -150,6 +203,9 @@ public class MyPreference extends MyInterest{
 				if (preferencenode.preferencetype.equals("list")) {
 					interestvalue.value = preferencenode.getEntryLabel(interestvalue.value);
 				}
+				if (preferencenode.preferencetype.equals("seekbar")) {
+					interestvalue.extradatas = preferencenode.extrDatas;
+				}
 			}
 			
 			interestvalues.add(interestvalue);
@@ -157,5 +213,19 @@ public class MyPreference extends MyInterest{
 		allpossiblevaluescache = interestvalues;
 		return interestvalues;
 	}
+	
+	public void updateWithAdapt(PreferenceAdaptData data) {
+		this.type = data.type;
+		setUnknown(false);
+		if (null != this.exp) {
+			this.exp.setUnknown(false);
+		}
+		this.possibleValues = new ArrayList<String>(data.valuestepmap.keySet());
+		if (null != this.preferencenode) {
+			this.preferencenode.adaptData = data;
+		}
+
+	}
+
 
 }

@@ -14,13 +14,16 @@ public class LocThread extends Thread{
 	private String loclogfileName = null;
 	private StringBuilder locbuilder = new StringBuilder();
 	private Process p = null;
+	public static String ERROREXCEPTION = "errorException";
+	public static String ERRORASSERT = "errorAssert";
+	private boolean containsErrorLog = false;
 	public LocThread() {
 	}
 
 	@Override
 	public void run() {
 		ProcessBuilder builder = ProcessExecutor.getPBInstance("adb", "logcat", "loc:V *:S");
-
+		containsErrorLog = false;
 		try {
 			locbuilder = new StringBuilder();
 	    	System.out.println("adb loc start:");
@@ -28,6 +31,9 @@ public class LocThread extends Thread{
 	    	BufferedReader p_stdout = new BufferedReader(new InputStreamReader(p.getInputStream()));
 	    	String result = null;
 	    	while(((result = p_stdout.readLine()) != null)) {
+	    		if (!containsErrorLog && (result.contains(ERROREXCEPTION) || result.contains("ERRORASSERT"))) {
+	    			containsErrorLog = true;
+	    		}
 	    		locbuilder.append(result+"\n");
 	    	}
 		} catch (IOException e) {
@@ -35,7 +41,6 @@ public class LocThread extends Thread{
 			e.printStackTrace();
 		}
     	System.out.println("adb loc end:");
-
     	try {
         	File outputfile = new File(loclogfileName);
 			outputfile.createNewFile();
@@ -43,13 +48,13 @@ public class LocThread extends Thread{
 	    	bw.write(locbuilder.toString());
 	    	bw.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void locstop() {
+	public boolean locstop() {
 		p.destroy();
+		return !containsErrorLog;
 	}
 	
 	public void setFile(String newfileName) {

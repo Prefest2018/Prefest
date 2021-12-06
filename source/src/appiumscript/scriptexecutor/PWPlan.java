@@ -15,24 +15,27 @@ import GUI.Main;
 import data.InterestValue;
 import data.TestCaseData;
 import sootproject.resourceLoader.PreferenceTreeNode;
+import tools.CMDUtils;
 import tools.JsonHelper;
 import tools.Logger;
 import tools.PWCounter;
 import tools.ProcessExecutor;
 import tools.TagnameComparator;
+import uiautomationexploration.Adapter;
 
 public class PWPlan {
-
 	public LinkedList<PWValue> values = null;
 	public Map<String, String> scriptmap = null;
-
 	public LinkedList<String> taglist = null;
-
-	public PWPlan(Map<String, List<PreferenceTreeNode>> preferencetree, Map<String, TestCaseData> origintestcases) {
-
+	public PWPlan(Adapter adapter, Map<String, TestCaseData> origintestcases) {
+//		Map<String, List<PreferenceTreeNode>> catlogmap = getCatalogmap(preferencetree);
+		Map<String, List<PreferenceTreeNode>> preferencetree = adapter.xmlcontentlist;
 		Set<PreferenceTreeNode> allpreferencetree = getNodeSet(preferencetree);
 		int maxnum = allpreferencetree.size() + 6;
-
+//			List<PreferenceTreeNode> nodes = catlogmap.get(catlogname);
+//				i++;
+//			int nowsize = nodes.size();
+//				maxnum = nowsize;
 		System.out.println("maxnum : " + maxnum);
 		PWCounter counter = new PWCounter();
 		int maxsize = counter.initfromPICT(maxnum);
@@ -45,7 +48,7 @@ public class PWPlan {
 		taglist.sort(new TagnameComparator<String>());
 		values = new LinkedList<PWValue>();
 		for (int index = 0; index < maxsize; index++) {
-			PWValue value = new PWValue(this, index, counter, scriptmap, allpreferencetree, taglist);
+			PWValue value = new PWValue(this, index, counter, scriptmap, allpreferencetree, taglist, adapter);
 			values.add(value);
 		}
 		JsonHelper.setpwplanAdapt(this, Main.pwpreferenceplanfile);
@@ -73,15 +76,15 @@ public class PWPlan {
 		}
 	}
 	
-	
 	private Set<PreferenceTreeNode> getNodeSet(Map<String, List<PreferenceTreeNode>> preferencetree){
 		Set<PreferenceTreeNode> allnodes = new LinkedHashSet<PreferenceTreeNode>();
-
 		Stack<PreferenceTreeNode> nownodes = new Stack<PreferenceTreeNode>();
 		for (String key : preferencetree.keySet()) {
 			List<PreferenceTreeNode> nodes = preferencetree.get(key);
 			for (PreferenceTreeNode node : nodes) {
-				nownodes.push(node);
+				if (null != node) {
+					nownodes.push(node);
+				}
 			}
 		}
 		while (!nownodes.isEmpty()) {
@@ -101,13 +104,30 @@ public class PWPlan {
 				if (null != entrymap && !entrymap.isEmpty()) {
 					allnodes.add(nowNode);
 				} else {
-
+//					System.out.println();
 				}
+				break;
+			}
+			case "multilist" : {
+				Map<String, String> entrymap = nowNode.getEntryvalues();
+				if (null != entrymap && !entrymap.isEmpty()) {
+					allnodes.add(nowNode);
+				}
+				break;
+			}
+			case "seekbar" : {
+				Map<String, String> entrymap = nowNode.getEntryvalues();
+				if (null != entrymap && !entrymap.isEmpty()) {
+					allnodes.add(nowNode);
+				}
+				break;
+			}
+			case "edit" : {
+				allnodes.add(nowNode);
 				break;
 			}
 
 			}
-
 			List<PreferenceTreeNode> childnodes = nowNode.getChildnodes();
 			if (null != childnodes) {
 				for (int i = childnodes.size()-1; i >=0; i--) {
@@ -127,13 +147,13 @@ public class PWPlan {
 			case "unstart": {
 				value.state = "processing";
 				value.execute();
-				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", Main.packagename);
+				CMDUtils.executeDataCleanADBCMD();
 				break;
 			}
 			case "processing": {
 				value.execute();
 				value.state = "end";
-				ProcessExecutor.processnolog("adb", "shell", "pm", "clear", Main.packagename);
+				CMDUtils.executeDataCleanADBCMD();
 				break;
 			}
 			case "end": {

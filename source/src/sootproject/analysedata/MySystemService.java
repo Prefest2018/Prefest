@@ -10,7 +10,7 @@ public class MySystemService extends MyInterest{
 	public MySystemService(String name, String typestr) {
 		super(name);
 		setResultType(typestr);
-		this.setUnknown(false);
+//		this.setUnknown(false);
 	}
 	@Override
 	public ResultType getResultType() {
@@ -38,6 +38,11 @@ public class MySystemService extends MyInterest{
 			}
 		}
 		InterestValue interestvalue = new InterestValue("systemservice", null, type, name, value, -1, null);
+		return interestvalue;
+	}
+	
+	public InterestValue getInterestValueEnum() {
+		InterestValue interestvalue = new InterestValue("systemservice", null, null, name, null, -1, null);
 		return interestvalue;
 	}
 	@Override

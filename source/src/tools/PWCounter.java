@@ -73,11 +73,21 @@ public class PWCounter {
 		return list.get(remind);
 	}
 	
+//			File folder = new File(pwhome);
+//				String name = file.getName();
+//				int id = Integer.parseInt(name.replace("pict", "").replace(".txt", ""));
+//					BufferedReader br = new BufferedReader(new FileReader(file));
+//					br.readLine();
+//					String content = "";
+//					pwmap.put(id, boollist);
+//						boollist.add(newbools);
+//					e.printStackTrace();
+//					e.printStackTrace();
+//		return pwmap.get(largestnumber).size();
 	
 	public int initfromPICT(int largestnumber) {
 		if (pwmap.isEmpty()) {
-			//assume that at most 40 preferences
-			for (int id = 1; id <= 40; id++) {
+			for (int id = 1; id <= 100; id++) {
 				try {
 					BufferedReader br = new BufferedReader(new InputStreamReader(PathHelper.getPICTStream(id)));
 					br.readLine();
