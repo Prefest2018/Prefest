@@ -33,117 +33,227 @@ import org.json.simple.JSONObject;
 
 import GUI.Main;
 
+/**
+ * 主类
+ * 提供Android应用偏好设置测试的主要功能，包括：
+ * - APK分析和处理
+ * - 偏好设置分析
+ * - 测试用例生成和执行
+ * - UI自动化探索
+ * - 覆盖率收集
+ */
 public class Main {
+    // 调试模式标志
     public static boolean debug = true;
 //    public static boolean blockmode = false;
+    // 发生错误时是否重置
     public static boolean resetWhenError = true;
+    // 是否应该探索偏好设置
     public static boolean shouldExplorePreference = true;
+    // 是否应该添加无分支目标
     public static boolean shouldAddNoBranchTargets = true;
+	// 每次运行是否重置
 	public static boolean resetForEachRun = false;
+	// 是否测试设置操作
 	public static boolean testSettingOperations = false;
+	// 标签排序策略
 	public static TagSelectType tagSortStrategy = TagSelectType.MOSTLOGIC;
+	// 最少标签数量
 	public static int lestTagNum = 1;
+    // AVD（Android Virtual Device）名称
     public static String avdname = null;
+    // 代理设置
     public static String proxy = null;
+    // 新的环境变量映射
     public static Map<String, String> newenvs = null;
+    // 偏好设置分析转换器
     public static PreferenceAnalyseTransformer analyseTransformer = null;
+    // 偏好设置分析器
     public static PreferenceAnalyser analyser = null;
+    // ADB命令路径
     public static String adb = null;
+    // 模拟器命令路径
     public static String emulator = null;
+    // Python命令路径
     public static String python = null;
 
+    // 应用包名
     public static String packagename = null;
+    // 额外包名集合
     public static Set<String> extrapackagenames = null;
+    // 启动Activity名称
     public static String luanchactivityname = null;
+    // 偏好设置脚本前缀
     public final static String PRESCRIPT = "preference_pre";
+	// 设置方法标签前缀
 	public final static String SETTINGMETHODTAG = "settingPref_";
+    // 跳过的静态方法列表
     public static String[] skipstaticmethods = {"$jacocoInit"};
 
+    // 项目主目录路径
     public static String home = null;
+    // APK信息文件路径
     public static String apkinfo = null;
+    // 测试用例目录路径
     public static String testcase = null;
+    // 命令日志文件路径
     public static String cmdlog = null;
+    // 临时文件夹路径
     public static String tempfolder = null;
+    // MCMC测试套件文件路径
     public static String mcmctxt = null;
+    // 首次测试用例目录路径
     public static String firstcases = null;
+    // 额外文件目录路径
     public static String extra = null;
+    // 失败偏好设置文件路径
     public static String failurepreferences = null;
+    // 首次执行结果文件路径
     public static String firstcasesexeresultfile = null;
+    // 首次执行结果目录路径
     public static String firstcasesloc = null;
+    // 首次覆盖率目录路径
     public static String firstcasescoverage = null;
+    // 测试用例信息文件路径
     public static String testcaseinfofile = null;
+    // 旧测试用例信息文件路径
     public static String testcaseinfofileold = null;
+    // 首次测试用例错误日志路径
     public static String firstcaseerror = null;
+    // 首次覆盖率数据文件路径
     public static String firstcasecoverdata = null;
+    // 测试适配器文件路径
     public static String testadapter = null;
+    // 测试适配器覆盖率目录路径
     public static String testadpatercoverage = null;
+    // 临时定位文件路径
     public static String templocfile = null;
+    // 兴趣计划文件路径（文本格式）
     public static String interestplan = null;
+    // 探索文件路径
     public static String explorationfile = null;
+    // 兴趣计划文件路径（JSON格式）
     public static String interestplanfile = null;
+    // 偏好设置文本文件路径
     public static String preferencetxt = null;
+    // 兴趣测试用例目录路径
     public static String interestcases = null;
+    // 兴趣覆盖率数据文件路径
     public static String interestcoverdata = null;
+    // 兴趣执行结果文件路径
     public static String interestcasesexeresultfile = null;
+    // 兴趣执行结果目录路径
     public static String interestcaseloc = null;
+    // 兴趣测试用例信息文件路径
     public static String interestcaseinfofile = null;
+    // 兴趣覆盖率目录路径
     public static String interestcasescoverage = null;
+    // 兴趣错误日志路径
     public static String interesterror = null;
+    // 目标信息文件路径
     public static String targetinfo = null;
+    // 全部兴趣计划文件路径
     public static String interestallplanfile = null;
+    // 全部兴趣测试用例目录路径
     public static String interestallcases = null;
+    // 全部兴趣执行结果目录路径
     public static String interestallcaseloc = null;
+    // 全部兴趣执行结果文件路径
     public static String interestallcasesexeresultfile = null;
+    // 全部兴趣测试用例信息文件路径
     public static String interestallcaseinfofile = null;
+    // 全部兴趣覆盖率目录路径
     public static String interestallcasescoverage = null;
+    // 全部兴趣覆盖率数据文件路径
     public static String interestallcoveragedata = null;
+    // 全部兴趣错误日志路径
     public static String interestallerror = null;
 //    public static String allpreferenceprecase_reverse = null;
+    // 所有偏好设置前置用例日志路径（反向）
     public static String allpreferenceprecaselog_reverse = null;
 //    public static String allpreferenceprecase_default = null;
+    // 所有偏好设置前置用例日志路径（默认）
     public static String allpreferenceprecaselog_default = null;
+    // 所有偏好设置测试用例目录路径
     public static String allpreferencecases = null;
+    // 所有偏好设置执行结果目录路径
     public static String allpreferencecaseloc = null;
+    // 所有偏好设置信息文件路径
     public static String allpreferenceinfofile = null;
+    // 所有偏好设置覆盖率目录路径
     public static String allpreferencecoverage = null;
+    // 所有偏好设置覆盖率数据文件路径
     public static String allpreferencecoveragedata = null;
+    // 所有偏好设置错误日志路径
     public static String allpreferenceerror = null;
 //	public static String ofotpreferenceprecase = null;
 //	public static String ofotpreferenceprecaselog = null;
+    // 成对偏好设置测试用例目录路径
     public static String pwpreferencecases = null;
+    // 成对偏好设置执行结果目录路径
     public static String pwpreferencecaseloc = null;
+    // 成对偏好设置覆盖率目录路径
     public static String pwpreferencecoverage = null;
+    // 成对偏好设置计划文件路径
     public static String pwpreferenceplanfile = null;
+    // 成对偏好设置测试用例信息目录路径
     public static String pwpreferencecaseinfo = null;
+    // 成对偏好设置执行结果文件路径
     public static String pwpreferenceresultfile = null;
+    // 成对偏好设置覆盖率数据文件路径
     public static String pwpreferencecoveragedata = null;
+    // 成对偏好设置错误日志路径
     public static String pwpreferenceerror = null;
+    // Monkey测试信息目录路径
     public static String monkeyinfo = null;
+    // Monkey测试错误日志路径
     public static String monkeyerror = null;
     
+    // Espresso测试用例名称文件路径
     public static String espressocasenamefile = null;
+    // Espresso执行结果目录路径
     public static String espressocaseloc = null;
+    // Espresso覆盖率目录路径
     public static String espressocoverage = null;
+    // Espresso错误日志路径
     public static String espressoerror = null;
+    // Espresso偏好设置测试用例目录路径
     public static String espressopreferencecase = null;
+    // Espresso偏好设置执行结果目录路径
     public static String espressopreferencecaseloc = null;
+    // Espresso偏好设置覆盖率数据目录路径
     public static String espressopreferencecasecoveragedata = null;
+    // Espresso偏好设置错误日志路径
     public static String espressopreferenceerror = null;
+    // Espresso插桩命令文件路径
     public static String espressoinstrucmd = null;
+    // Espresso命令列表
     public static List<String> espressoCMDs = null;
+    // Appium脚本形式常量
     public static final String APPIUM = "APPIUM";
+    // UIAutomator2脚本形式常量
     public static final String UIAUTOMATOR2 = "UIAUTOMATOR2";
+    // 脚本形式（默认APPIUM）
     public static String scriptForm = APPIUM;// APPIUM
+    // AVD版本
     public static String AVDVersion = "6.0";
+    // 是否使用SeekBar
     public static final boolean USESEEKBAR = false;
 
 
+    /**
+     * 更新项目主目录路径并初始化所有相关路径
+     * 
+     * @param home 项目主目录路径
+     */
     public void updateHome(String home) {
+        // 重置包名和Activity信息
         Main.packagename = null;
         Main.luanchactivityname = null;
         Main.extrapackagenames = null;
         Main.home = home;
         String sepHome = home + File.separator;
+        // 初始化各种路径
         Main.tempfolder = sepHome + "temp";
         Main.extra = sepHome + "extra";
         Main.failurepreferences = sepHome + "extra" + File.separator + "failurepreferences";
@@ -222,8 +332,14 @@ public class Main {
 
     }
 
+    /**
+     * 获取APK文件
+     * 
+     * @return APK文件对象，如果不存在返回null
+     */
     public static File getAPKFile() {
         File appfolder = new File(home + File.separator + "app");
+        // 查找不以"_stub.apk"结尾的APK文件
         for (File file : appfolder.listFiles()) {
             if (file.getName().endsWith(".apk") && !file.getName().endsWith("_stub.apk")) {
                 return file;
@@ -232,8 +348,14 @@ public class Main {
         return null;
     }
 
+    /**
+     * 获取Stub APK文件（插桩后的APK）
+     * 
+     * @return Stub APK文件对象，如果不存在返回null
+     */
     public static File getStubAPKFile() {
         File appfolder = new File(home + File.separator + "app");
+        // 查找以"_stub.apk"结尾的APK文件
         for (File file : appfolder.listFiles()) {
             if (file.getName().endsWith("_stub.apk")) {
                 return file;
@@ -252,42 +374,55 @@ public class Main {
     	return path;
     }
 
+    /**
+     * 初始化项目文件结构
+     * 创建必要的目录并清理临时文件
+     */
     public static void initfiles() {
+        // 检查app目录是否存在
         File mainfolder = new File(home + File.separator + "app");
         if (!mainfolder.exists()) {
         	System.out.println("init error: itvalid project path!!");
             return;
         }
+        // 创建log目录
         mainfolder = new File(home + File.separator + "log");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        // 创建exeresult目录
         mainfolder = new File(home + File.separator + "exeresult");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        // 创建testcase目录
         mainfolder = new File(home + File.separator + "testcase");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        // 创建coverage目录
         mainfolder = new File(home + File.separator + "coverage");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        // 创建error目录
         mainfolder = new File(home + File.separator + "error");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
+        // 创建extra目录
         mainfolder = new File(home + File.separator + "extra");
         if (!mainfolder.exists()) {
             mainfolder.mkdir();
         }
 
 
+        // 删除旧的命令日志文件
         File cmdlogfile = new File(cmdlog);
         if (cmdlogfile.exists()) {
             cmdlogfile.delete();
         }
+        // 清理临时文件夹
         File tempfile = new File(tempfolder);
         if (tempfile.exists()) {
             for (File file : tempfile.listFiles()) {
