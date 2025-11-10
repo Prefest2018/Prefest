@@ -9,7 +9,7 @@ import java.util.Set;
 import soot.Value;
 import sootproject.myexpression.MyVariable;
 import sootproject.myexpression.MyExpressionTree;
-
+// This is a comment by zzjie
 public abstract class AbstractValMap {
 	protected Map<Integer, Set<MyVariable>> valmaps = null;
 	public AbstractValMap() {
