@@ -106,6 +106,7 @@ public class ProcessExecutor {
 		
 		public static void main(String[] arg) {
 			ProcessExecutor a = new ProcessExecutor();
+			// this is a comment
 			Logger.setTempLogFile("C:\\Users\\yifeilu\\Documents\\test.log", false);
 			ProcessExecutor.process("adb", "shell", "am", "instrument", "-w", "-r", "-e", "debug", "false", "-e", "class", "'AutoBackupTest#autoBackupPreferenceActivation'", "it.feio.android.omninotes.test/androidx.test.runner.AndroidJUnitRunner");
 //			Main.packagename = "org.totschnig.myexpenses";
