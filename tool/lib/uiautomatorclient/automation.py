@@ -1,6 +1,7 @@
 """
 UI自动化操作模块
 提供Android应用的UI自动化操作功能，包括启动/停止Activity、获取屏幕内容、点击等
+this is comment
 """
 import os
 import subprocess
