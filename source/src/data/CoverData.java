@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.Set;
 
 import tools.JsonHelper;
-
+//This is comment by Huangruishen
 public class CoverData {
 	public Set<String> coveredTags = null;
 	public int currentit = -1;

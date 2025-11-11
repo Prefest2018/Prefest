@@ -63,7 +63,7 @@ public abstract class AbstractValMap {
 		}
 		return retvals;
 	}
-	
+
 	public String[] allValuestr() {
 		String[] strlist = new String[1000];
 		int i = 0;
